@@ -8692,9 +8692,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "DeepSeek | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000132",
+      "completion": "0.00000066",
       "discount": 0,
-      "input_cache_read": "0.000000014",
+      "input_cache_read": "0.000000007",
       "overrides": [
        {
         "completion": "0.00000066",
@@ -8776,7 +8776,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000044"
+      "prompt": "0.00000022"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -8890,8 +8890,8 @@
      "tag": "fireworks"
     },
     {
-     "context_length": 1048575,
-     "max_completion_tokens": 943717,
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4-flash-0731",
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
@@ -8903,7 +8903,7 @@
       "prompt": "0.000000352"
      },
      "provider_name": "GMICloud",
-     "quantization": "fp8",
+     "quantization": "fp4",
      "supported_parameters": [
       "include_reasoning",
       "logprobs",
@@ -8926,7 +8926,7 @@
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "gmicloud/fp8"
+     "tag": "gmicloud/fp4"
     },
     {
      "context_length": 1048576,
@@ -9693,9 +9693,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
      "name": "DeepSeek | deepseek/deepseek-v4-flash-vision-exp-20260821",
      "pricing": {
-      "completion": "0.00000132",
+      "completion": "0.00000066",
       "discount": 0,
-      "input_cache_read": "0.000000014",
+      "input_cache_read": "0.000000007",
       "overrides": [
        {
         "completion": "0.00000066",
@@ -9777,7 +9777,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000044"
+      "prompt": "0.00000022"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -10954,9 +10954,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000396",
+      "completion": "0.00000198",
       "discount": 0,
-      "input_cache_read": "0.000000044",
+      "input_cache_read": "0.000000022",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -11038,7 +11038,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000132"
+      "prompt": "0.00000066"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -23861,7 +23861,9 @@
      "supported_parameters": [
       "frequency_penalty",
       "max_tokens",
+      "min_p",
       "presence_penalty",
+      "repetition_penalty",
       "seed",
       "stop",
       "temperature",
@@ -26696,10 +26698,10 @@
      "model_name": "MoonshotAI: Kimi K2.7 Code",
      "name": "StreamLake | moonshotai/kimi-k2.7-code-20260612",
      "pricing": {
-      "completion": "0.000004",
-      "discount": 0,
-      "input_cache_read": "0.00000019",
-      "prompt": "0.00000095"
+      "completion": "0.000003",
+      "discount": 0.25,
+      "input_cache_read": "0.0000001425",
+      "prompt": "0.0000007125"
      },
      "provider_name": "StreamLake",
      "quantization": "unknown",
@@ -27427,7 +27429,7 @@
     },
     {
      "context_length": 1048576,
-     "max_completion_tokens": 65535,
+     "max_completion_tokens": 943718,
      "max_prompt_tokens": null,
      "model_id": "moonshotai/kimi-k3",
      "model_name": "MoonshotAI: Kimi K3",
@@ -43647,8 +43649,10 @@
       "include_reasoning",
       "logprobs",
       "max_tokens",
+      "min_p",
       "presence_penalty",
       "reasoning",
+      "repetition_penalty",
       "seed",
       "stop",
       "temperature",
@@ -44840,9 +44844,11 @@
       "include_reasoning",
       "logprobs",
       "max_tokens",
+      "min_p",
       "presence_penalty",
       "reasoning",
       "reasoning_effort",
+      "repetition_penalty",
       "response_format",
       "seed",
       "stop",
@@ -50513,50 +50519,6 @@
     },
     {
      "context_length": 202752,
-     "max_completion_tokens": 182476,
-     "max_prompt_tokens": null,
-     "model_id": "z-ai/glm-5",
-     "model_name": "Z.ai: GLM 5",
-     "name": "AtlasCloud | z-ai/glm-5-20260211",
-     "pricing": {
-      "completion": "0.00000315",
-      "discount": 0,
-      "input_cache_read": "0.00000019",
-      "prompt": "0.00000095"
-     },
-     "provider_name": "AtlasCloud",
-     "quantization": "fp8",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "atlas-cloud/fp8"
-    },
-    {
-     "context_length": 202752,
      "max_completion_tokens": 131072,
      "max_prompt_tokens": null,
      "model_id": "z-ai/glm-5",
@@ -53571,9 +53533,11 @@
       "include_reasoning",
       "logprobs",
       "max_tokens",
+      "min_p",
       "presence_penalty",
       "reasoning",
       "reasoning_effort",
+      "repetition_penalty",
       "response_format",
       "seed",
       "stop",
@@ -53867,10 +53831,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Reka | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.0000044",
+      "completion": "0.0000035",
       "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "input_cache_read": "0.0000001",
+      "prompt": "0.00000115"
      },
      "provider_name": "Reka",
      "quantization": "fp8",
@@ -54491,9 +54455,11 @@
       "include_reasoning",
       "logprobs",
       "max_tokens",
+      "min_p",
       "presence_penalty",
       "reasoning",
       "reasoning_effort",
+      "repetition_penalty",
       "seed",
       "stop",
       "temperature",
