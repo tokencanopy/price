@@ -7,6 +7,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CURRENT = os.path.join(ROOT, "data", "current", "prices.csv")
 META = os.path.join(ROOT, "data", "current", "meta.json")
 HISTORY = os.path.join(ROOT, "data", "history", "price_changes.csv")
+PROVIDERS = os.path.join(ROOT, "data", "current", "providers.csv")
 README = os.path.join(ROOT, "README.md")
 
 
@@ -29,8 +30,15 @@ def replace(text, name, body):
     return text[:i] + block(name, body) + text[j + len(end):]
 
 
+def link(platform, urls):
+    """Platform name as a markdown link, plain text if we have no verified URL."""
+    u = urls.get(platform)
+    return f"[{platform}]({u})" if u else platform
+
+
 def main():
     rows = read(CURRENT)
+    urls = {r["platform"]: r["url"] for r in read(PROVIDERS) if r.get("url")}
     hist = read(HISTORY)
     for r in rows:
         r["usd_per_1m"] = float(r["usd_per_1m"])
@@ -65,7 +73,7 @@ def main():
         best = min(eps, key=lambda e: e["usd_per_1m"])
         hi = max(e["usd_per_1m"] for e in eps)
         o = outs.get(key, {}).get(best["platform"])
-        lines.append(f"| {name} | {len(eps)} | {best['platform']} | "
+        lines.append(f"| {name} | {len(eps)} | {link(best['platform'], urls)} | "
                      f"${best['usd_per_1m']:,.2f} | {'—' if not o else f'${o:,.2f}'} | "
                      f"{hi / best['usd_per_1m']:.1f}× |")
     table = "\n".join(lines)
@@ -76,7 +84,7 @@ def main():
         ml = ["| Date | Model | Platform | Metric | Old | New | Change |", "|---|---|---|---|--:|--:|--:|"]
         for h in moves[:10]:
             pct = float(h["pct_change"])
-            ml.append(f"| {h['observed_at'][:10]} | {h['model_name']} | {h['platform']} | "
+            ml.append(f"| {h['observed_at'][:10]} | {h['model_name']} | {link(h['platform'], urls)} | "
                       f"{h['metric']} | ${float(h['old_usd_per_1m']):,.2f} | "
                       f"${float(h['new_usd_per_1m']):,.2f} | {pct:+.1f}% |")
         moves_md = "\n".join(ml)
@@ -84,11 +92,24 @@ def main():
         moves_md = ("_No price moves recorded yet. This table fills in as soon as any tracked "
                     "price changes — the first run only establishes a baseline._")
 
+    # Full platform directory, so every provider we quote is one click away.
+    counts = defaultdict(set)
+    for r in rows:
+        counts[r["platform"]].add(r["model_key"])
+    listed = sorted(urls, key=str.lower)
+    entries = " · ".join(
+        f"[{p}]({urls[p]})" + (f" ({len(counts[p])})" if counts.get(p) else "")
+        for p in listed)
+    directory = (f"<details>\n<summary><b>All {len(listed)} platforms</b> "
+                 f"(number of models priced, where we track any)</summary>\n\n"
+                 f"{entries}\n\n</details>")
+
     with open(README) as f:
         text = f.read()
     text = replace(text, "STATS", stats)
     text = replace(text, "TABLE", table)
     text = replace(text, "MOVES", moves_md)
+    text = replace(text, "PLATFORMS", directory)
     with open(README, "w") as f:
         f.write(text)
     print(f"README updated: {len(rows)} rows, {len(ranked)} table entries, {len(moves)} moves")
