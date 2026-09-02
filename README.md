@@ -130,6 +130,24 @@ python -m venv .venv && ./.venv/bin/pip install -r requirements.txt
 
 No API keys required.
 
+## Development
+
+CI owns everything under `data/` and `charts/` — it regenerates them every 6 hours
+and commits. So local work should be **code-only commits**, branched from a freshly
+fetched `origin/main`:
+
+```bash
+git fetch origin && git worktree add .worktrees/<name> -b <type>/<name> origin/main
+```
+
+If you ever hit a merge conflict in `prices.csv` or the raw JSON, do not resolve it
+by hand — reset to origin and let the pipeline regenerate.
+
+A healthy no-change run touches exactly two lines (the README timestamp and
+`meta.json`). If a run with no price movement rewrites more than that, something
+volatile is leaking into the archive; strip it in `stabilize()` rather than letting
+it accumulate.
+
 ## License
 
 Code: MIT. Data: CC BY 4.0 — attribution appreciated, corrections more so.
