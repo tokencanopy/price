@@ -1,0 +1,42 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LLM Price Index</title>
+<link rel="alternate" type="application/atom+xml" title="LLM Price Index — price changes" href="feed.xml">
+<style>
+  :root { color-scheme: light dark; --bg:#fcfcfb; --fg:#0b0b0b; --mut:#52514e; --line:#e4e3df; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#1a1a19; --fg:#fff; --mut:#c3c2b7; --line:#3a3936; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:15px/1.6 system-ui,-apple-system,sans-serif; }
+  main { max-width:900px; margin:0 auto; padding:3rem 1.25rem 5rem; }
+  h1 { font-size:1.6rem; margin:0 0 .25rem; letter-spacing:-.01em; }
+  p.sub { color:var(--mut); margin:0 0 2rem; }
+  a { color:inherit; }
+  nav { display:flex; flex-wrap:wrap; gap:.5rem; margin-bottom:2.5rem; }
+  nav a { border:1px solid var(--line); border-radius:6px; padding:.4rem .75rem; text-decoration:none; font-size:.9rem; }
+  nav a:hover { border-color:var(--mut); }
+  img { max-width:100%; height:auto; margin:1rem 0 2rem; }
+  footer { color:var(--mut); font-size:.85rem; border-top:1px solid var(--line); padding-top:1.25rem; }
+</style>
+<main>
+  <h1>LLM Price Index</h1>
+  <p class="sub">What LLM inference costs across 100+ platforms — and how it changes. Refreshed every 6 hours.</p>
+  <nav>
+    <a href="https://github.com/tokencanopy/price">Repository</a>
+    <a href="feed.xml">Atom feed</a>
+    <a href="data/current/prices.csv">prices.csv</a>
+    <a href="data/history/price_changes.csv">price_changes.csv</a>
+    <a href="data/current/providers.csv">providers.csv</a>
+  </nav>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="charts/dispersion-dark.png">
+    <img alt="Input price per platform relative to the cheapest, for the most widely-served open models" src="charts/dispersion-light.png">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="charts/cheapest-dark.png">
+    <img alt="Input and output price at the cheapest platform for each popular open model" src="charts/cheapest-light.png">
+  </picture>
+  <footer>
+    Collected automatically from public provider APIs; prices may be wrong — verify with the provider
+    before making purchasing decisions. Not affiliated with any provider. Data CC BY 4.0.
+  </footer>
+</main>

@@ -65,6 +65,19 @@ _No price moves recorded yet. This table fills in as soon as any tracked price c
 
 ---
 
+## Subscribe
+
+Price changes are published as an **[Atom feed](https://tokencanopy.github.io/price/feed.xml)** —
+one entry per move, or a single summary entry when a platform reprices its whole catalogue.
+
+```
+https://tokencanopy.github.io/price/feed.xml
+```
+
+Drop that into any feed reader, or into a Slack or Discord channel with
+`/feed subscribe <url>` to get price-drop alerts where your team already works. The feed
+stores nothing about who is reading it — there is no subscriber list.
+
 ## Why this exists
 
 OpenRouter already answers "what does this model cost right now, on 105 platforms",
