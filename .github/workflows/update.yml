@@ -2,7 +2,9 @@ name: Update prices
 
 on:
   schedule:
-    - cron: "17 6 * * *"      # daily 06:17 UTC; change to "17 */6 * * *" for 6-hourly
+    # Every 6 hours, offset off the hour: GitHub drops scheduled runs when
+    # too many fire at once, and :17 avoids the top-of-hour stampede.
+    - cron: "17 */6 * * *"
   workflow_dispatch:
 
 permissions:
@@ -41,6 +43,11 @@ jobs:
           if git diff --staged --quiet; then
             echo "no changes"
           else
-            git commit -m "prices: $(date -u +%Y-%m-%d)"
+            MOVES=$(python -c "import json;print(json.load(open('data/current/meta.json'))['changes_this_run'])")
+            if [ "$MOVES" -gt 0 ]; then
+              git commit -m "prices: $MOVES change(s) - $(date -u +'%Y-%m-%d %H:%MZ')"
+            else
+              git commit -m "check: no price changes - $(date -u +'%Y-%m-%d %H:%MZ')"
+            fi
             git push
           fi

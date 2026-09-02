@@ -236,7 +236,10 @@ def main():
         for c in changes:
             w.writerow(c)
     with open(META, "w") as f:
-        json.dump({"collected_at": NOW, "rows": len(best),
+        json.dump({"collected_at": NOW,
+                   "changes_this_run": len([c for c in changes if c["old_usd_per_1m"] != ""]),
+                   "first_seen_this_run": len([c for c in changes if c["old_usd_per_1m"] == ""]),
+                   "rows": len(best),
                    "platforms": len({r["platform"] for r in best.values()}),
                    "models": len({r["model_key"] for r in best.values()}),
                    "sources": sorted({r["source"] for r in best.values()})},

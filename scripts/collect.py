@@ -84,7 +84,7 @@ def collect_openrouter():
         if i % 50 == 0:
             print(f"    {i}/{len(targets)}")
         time.sleep(0.25)          # be a polite guest
-    write("openrouter/endpoints.json", {"collected_at": NOW, "models": out})
+    write("openrouter/endpoints.json", {"models": out})
     print(f"[openrouter] {ok}/{len(targets)} endpoint sets")
     return ok
 
@@ -125,7 +125,7 @@ def collect_azure():
         url = page.get("NextPageLink")
         pages += 1
     if items:
-        write("azure/retail_prices.json", {"collected_at": NOW, "items": items})
+        write("azure/retail_prices.json", {"items": items})
     print(f"    {len(items)} meters over {pages} pages")
     return len(items)
 

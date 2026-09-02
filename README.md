@@ -1,13 +1,13 @@
 # LLM Price Index
 
-**A daily, public, machine-readable record of what LLM inference actually costs — and how that price changes over time.**
+**A public, machine-readable record of what LLM inference actually costs — and how that price changes over time.** Refreshed every 6 hours.
 
 <!-- BEGIN STATS -->
-**13,376** price points · **883** models · **73** platforms · updated **2026-09-02 04:49 UTC** · history since **2026-09-02** (1 snapshot)
+**13,376** price points · **883** models · **73** platforms · updated **2026-09-02 04:53 UTC** · history since **2026-09-02** (1 snapshot)
 <!-- END STATS -->
 
 Every provider publishes today's price. **Nobody publishes yesterday's.** This repo
-fixes that by writing the number down every day, in git, forever.
+fixes that by writing the number down every 6 hours, in git, forever.
 
 ---
 
@@ -72,7 +72,7 @@ and it does it well — this repo uses it as a primary source rather than compet
 it. What no public API answers is **"what did it cost last month?"**
 
 Price history is the one dataset that cannot be backfilled. It only exists if somebody
-starts writing it down. So: every day, fetch, diff, commit.
+starts writing it down. So: every 6 hours, fetch, diff, commit.
 
 ## The data
 
