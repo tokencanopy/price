@@ -30,6 +30,9 @@ def get(url, timeout=30, tries=3):
 # every minute and has nothing to do with price, so archiving it would add
 # thousands of meaningless diff lines to every single run.
 VOLATILE = re.compile(r"_last_\d+[a-z]$")
+# Live endpoint health. Real, but it is availability data rather than price,
+# and it flips on ~20 endpoints per run - noise in a price history.
+VOLATILE_NAMES = {"status"}
 
 
 def stabilize(obj):
@@ -40,7 +43,7 @@ def stabilize(obj):
     delta is just the lines whose prices actually moved.
     """
     if isinstance(obj, dict):
-        return {k: stabilize(v) for k, v in obj.items() if not VOLATILE.search(k)}
+        return {k: stabilize(v) for k, v in obj.items() if not VOLATILE.search(k) and k not in VOLATILE_NAMES}
     if isinstance(obj, list):
         items = [stabilize(v) for v in obj]
         def key(v):
