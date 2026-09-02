@@ -3,7 +3,7 @@
 **A public, machine-readable record of what LLM inference actually costs — and how that price changes over time.** Refreshed every 6 hours.
 
 <!-- BEGIN STATS -->
-**13,376** price points · **883** models · **73** platforms · updated **2026-09-02 05:18 UTC** · history since **2026-09-02** (1 snapshot)
+**13,376** price points · **883** models · **73** platforms · updated **2026-09-02 05:38 UTC** · history since **2026-09-02** (1 snapshot)
 <!-- END STATS -->
 
 Every provider publishes today's price. **Nobody publishes yesterday's.** This repo
