@@ -1,0 +1,46 @@
+name: Update prices
+
+on:
+  schedule:
+    - cron: "17 6 * * *"      # daily 06:17 UTC; change to "17 */6 * * *" for 6-hourly
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-prices
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - name: Collect
+        run: python scripts/collect.py
+      - name: Normalize
+        run: python scripts/normalize.py
+      - name: Charts
+        run: python scripts/charts.py
+      - name: README
+        run: python scripts/render_readme.py
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "no changes"
+          else
+            git commit -m "prices: $(date -u +%Y-%m-%d)"
+            git push
+          fi
