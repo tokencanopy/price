@@ -13375,3 +13375,15 @@ observed_at,source,platform,model_key,variant,region,metric,model_name,old_usd_p
 2026-09-02T04:48:14+00:00,azure,Azure Foundry,azure:azure openai gpt5|5 pp cd inp dz,5 pp cd inp Dz,germanywestcentral,input,Azure OpenAI GPT5,,0.275,
 2026-09-02T04:48:14+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.4 pp opt gl,5.4 pp opt Gl,westus3,output,Azure OpenAI GPT5,,30.0,
 2026-09-02T04:48:14+00:00,azure,Azure Foundry,azure:mai models|mai-thinking-1 inp glbl,MAI-Thinking-1 Inp glbl,southindia,input,MAI Models,,2.0,
+2026-09-02T06:46:57+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-flash-0731,unknown,,input,DeepSeek: DeepSeek V4 Flash 0731,0.22,0.44,100.0
+2026-09-02T06:46:57+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-flash-0731,unknown,,output,DeepSeek: DeepSeek V4 Flash 0731,0.66,1.32,100.0
+2026-09-02T06:46:57+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-flash-0731,unknown,,cache_read,DeepSeek: DeepSeek V4 Flash 0731,0.007,0.014,100.0
+2026-09-02T06:46:57+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-flash-vision-exp,unknown,,input,DeepSeek: DeepSeek V4 Flash Vision Exp,0.22,0.44,100.0
+2026-09-02T06:46:57+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-flash-vision-exp,unknown,,output,DeepSeek: DeepSeek V4 Flash Vision Exp,0.66,1.32,100.0
+2026-09-02T06:46:57+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-flash-vision-exp,unknown,,cache_read,DeepSeek: DeepSeek V4 Flash Vision Exp,0.007,0.014,100.0
+2026-09-02T06:46:57+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,input,DeepSeek: DeepSeek V4 Pro 0813,0.66,1.32,100.0
+2026-09-02T06:46:57+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,output,DeepSeek: DeepSeek V4 Pro 0813,1.98,3.96,100.0
+2026-09-02T06:46:57+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,cache_read,DeepSeek: DeepSeek V4 Pro 0813,0.022,0.044,100.0
+2026-09-02T06:46:57+00:00,openrouter,Morph,zai-org/glm-5.3-flash,fp8,,input,Z.ai: GLM 5.3 Flash,0.15,0.13,-13.33
+2026-09-02T06:46:57+00:00,openrouter,Morph,zai-org/glm-5.3-flash,fp8,,output,Z.ai: GLM 5.3 Flash,0.42,0.45,7.14
+2026-09-02T06:46:57+00:00,openrouter,Morph,zai-org/glm-5.3-flash,fp8,,cache_read,Z.ai: GLM 5.3 Flash,0.01,0.02,100.0

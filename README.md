@@ -3,7 +3,7 @@
 **A public, machine-readable record of what LLM inference actually costs — and how that price changes over time.** Refreshed every 6 hours.
 
 <!-- BEGIN STATS -->
-**13,376** price points · **883** models · **73** platforms · updated **2026-09-02 05:38 UTC** · history since **2026-09-02** (1 snapshot)
+**13,376** price points · **883** models · **73** platforms · updated **2026-09-02 06:46 UTC** · history since **2026-09-02** (1 snapshot)
 <!-- END STATS -->
 
 Every provider publishes today's price. **Nobody publishes yesterday's.** This repo
@@ -48,7 +48,7 @@ yourself.
 | OpenAI: gpt-oss-120b | 18 | [AkashML](https://akashml.com/) | $0.03 | $0.17 | 11.7× |
 | DeepSeek: DeepSeek V4 Flash 0423 | 17 | [DigitalOcean](https://www.digitalocean.com/) | $0.07 | $0.17 | 6.5× |
 | DeepSeek: DeepSeek V4 Pro 0423 | 17 | [DigitalOcean](https://www.digitalocean.com/) | $0.87 | $1.74 | 2.2× |
-| DeepSeek: DeepSeek V4 Pro 0813 | 17 | [DeepSeek](https://deepseek.com/) | $0.66 | $1.98 | 2.2× |
+| DeepSeek: DeepSeek V4 Pro 0813 | 17 | [StreamLake](https://www.streamlake.ai/) | $1.12 | $3.35 | 1.3× |
 | Z.ai: GLM 5.1 | 16 | [GMICloud](https://gmicloud.ai/) | $0.91 | $2.86 | 1.7× |
 | DeepSeek: DeepSeek V3.2 | 15 | [GMICloud](https://gmicloud.ai/) | $0.21 | $0.31 | 14.4× |
 | MoonshotAI: Kimi K2.7 Code | 15 | [Inceptron](https://www.inceptron.io/) | $0.66 | $3.40 | 1.4× |
@@ -60,7 +60,18 @@ yourself.
 ## Biggest price moves
 
 <!-- BEGIN MOVES -->
-_No price moves recorded yet. This table fills in as soon as any tracked price changes — the first run only establishes a baseline._
+| Date | Model | Platform | Metric | Old | New | Change |
+|---|---|---|---|--:|--:|--:|
+| 2026-09-02 | DeepSeek: DeepSeek V4 Flash 0731 | [DeepSeek](https://deepseek.com/) | input | $0.22 | $0.44 | +100.0% |
+| 2026-09-02 | DeepSeek: DeepSeek V4 Flash 0731 | [DeepSeek](https://deepseek.com/) | output | $0.66 | $1.32 | +100.0% |
+| 2026-09-02 | DeepSeek: DeepSeek V4 Flash 0731 | [DeepSeek](https://deepseek.com/) | cache_read | $0.01 | $0.01 | +100.0% |
+| 2026-09-02 | DeepSeek: DeepSeek V4 Flash Vision Exp | [DeepSeek](https://deepseek.com/) | input | $0.22 | $0.44 | +100.0% |
+| 2026-09-02 | DeepSeek: DeepSeek V4 Flash Vision Exp | [DeepSeek](https://deepseek.com/) | output | $0.66 | $1.32 | +100.0% |
+| 2026-09-02 | DeepSeek: DeepSeek V4 Flash Vision Exp | [DeepSeek](https://deepseek.com/) | cache_read | $0.01 | $0.01 | +100.0% |
+| 2026-09-02 | DeepSeek: DeepSeek V4 Pro 0813 | [DeepSeek](https://deepseek.com/) | input | $0.66 | $1.32 | +100.0% |
+| 2026-09-02 | DeepSeek: DeepSeek V4 Pro 0813 | [DeepSeek](https://deepseek.com/) | output | $1.98 | $3.96 | +100.0% |
+| 2026-09-02 | DeepSeek: DeepSeek V4 Pro 0813 | [DeepSeek](https://deepseek.com/) | cache_read | $0.02 | $0.04 | +100.0% |
+| 2026-09-02 | Z.ai: GLM 5.3 Flash | [Morph](https://morphllm.com/) | cache_read | $0.01 | $0.02 | +100.0% |
 <!-- END MOVES -->
 
 ---

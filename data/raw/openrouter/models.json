@@ -880,6 +880,80 @@
    },
    "benchmarks": {
     "artificial_analysis": {
+     "agentic_index": 61.3,
+     "coding_index": 81.6,
+     "intelligence_index": 65.7
+    },
+    "design_arena": []
+   },
+   "canonical_slug": "anthropic/claude-fable-5.1-20260831",
+   "context_length": 1000000,
+   "created": 1788285838,
+   "default_parameters": {},
+   "description": "Claude Fable 5.1 improves on Claude Fable 5 across the board, with the biggest gains in agentic coding, long-running agentic workflows, and knowledge work: long code refactors, front-end and visual...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "anthropic/claude-fable-5.1:batch",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/anthropic/claude-fable-5.1-20260831/endpoints"
+   },
+   "name": "Anthropic: Claude Fable 5.1 (batch)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.000025",
+    "input_cache_read": "0.000000125",
+    "input_cache_write": "0.00000625",
+    "input_cache_write_1h": "0.00001",
+    "prompt": "0.000005",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "high",
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "stop",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1000000,
+    "is_moderated": true,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Claude"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
      "agentic_index": 56.6,
      "coding_index": 76.5,
      "intelligence_index": 62.1
@@ -6995,8 +7069,8 @@
    "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000066",
-    "input_cache_read": "0.000000007",
+    "completion": "0.00000132",
+    "input_cache_read": "0.000000014",
     "overrides": [
      {
       "completion": "0.00000066",
@@ -7078,7 +7152,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000022"
+    "prompt": "0.00000044"
    },
    "reasoning": {
     "default_effort": "high",
@@ -39636,5 +39710,5 @@
  "links": {
   "next": null
  },
- "total_count": 420
+ "total_count": 421
 }
