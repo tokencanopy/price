@@ -5,7 +5,7 @@ the README swaps them with <picture>. Palette is the validated 3-slot
 categorical set; quantization also carries a marker shape so identity never
 depends on colour alone.
 """
-import csv, os
+import csv, os, zlib
 from collections import defaultdict
 import matplotlib
 matplotlib.use("Agg")
@@ -102,7 +102,9 @@ def chart_dispersion(rows, mode):
         # points without the chart reshuffling on every daily run.
         for e in eps:
             g = qgroup(e["variant"])
-            jitter = ((abs(hash(e["platform"])) % 1000) / 1000 - 0.5) * 0.34
+            # crc32, not hash(): Python randomizes string hashing per process,
+            # which would repaint every chart on every run.
+            jitter = ((zlib.crc32(e["platform"].encode()) % 1000) / 1000 - 0.5) * 0.34
             ax.plot(e["usd_per_1m"] / cheapest, y + jitter, MARKERS[g], markersize=7.5,
                     color=th["series"][QUANTS.index(g)], alpha=0.9,
                     markeredgecolor=th["surface"], markeredgewidth=1.1, zorder=3)
@@ -136,7 +138,7 @@ def chart_dispersion(rows, mode):
     fig.tight_layout()
     fig.subplots_adjust(right=0.93, top=0.78)
     path = os.path.join(OUT, f"dispersion-{mode}.png")
-    fig.savefig(path, facecolor=th["surface"])
+    fig.savefig(path, facecolor=th["surface"], metadata={"Software": "llm-price-index"})
     plt.close(fig)
     return path
 
@@ -184,7 +186,7 @@ def chart_cheapest(rows, mode):
         t.set_color(th["text2"])
     fig.tight_layout()
     path = os.path.join(OUT, f"cheapest-{mode}.png")
-    fig.savefig(path, facecolor=th["surface"])
+    fig.savefig(path, facecolor=th["surface"], metadata={"Software": "llm-price-index"})
     plt.close(fig)
     return path
 

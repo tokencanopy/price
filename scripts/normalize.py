@@ -14,10 +14,11 @@ from datetime import datetime, timezone
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(ROOT, "data", "raw")
 CURRENT = os.path.join(ROOT, "data", "current", "prices.csv")
+META = os.path.join(ROOT, "data", "current", "meta.json")
 HISTORY = os.path.join(ROOT, "data", "history", "price_changes.csv")
 NOW = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 
-FIELDS = ["collected_at", "source", "platform", "model_key", "model_name", "author",
+FIELDS = ["source", "platform", "model_key", "model_name", "author",
           "open_weight", "variant", "region", "metric", "usd_per_1m",
           "context_length", "effective_date"]
 # Identity of a price series. Everything else is descriptive.
@@ -60,7 +61,7 @@ def rows_openrouter():
                 if usd <= 0:
                     continue
                 out.append({
-                    "collected_at": NOW, "source": "openrouter",
+                    "source": "openrouter",
                     "platform": ep.get("provider_name") or "unknown",
                     # hugging_face_id is a stable cross-platform join key for
                     # open-weight models; closed models fall back to the slug.
@@ -88,8 +89,9 @@ def rows_aws():
         for sku, prod in data.get("products", {}).items():
             a = prod.get("attributes", {})
             itype = (a.get("inferenceType") or "")
-            if not itype or AWS_SKIP.search(itype):
-                continue
+            model = (a.get("model") or "").strip()
+            if not itype or not model or AWS_SKIP.search(itype):
+                continue          # a few SKUs carry no model attribute at all
             low = itype.lower()
             if "cache" in low:
                 metric = "cache_read" if "read" in low else "cache_write"
@@ -119,9 +121,9 @@ def rows_aws():
                     else:
                         continue           # unknown unit: drop rather than guess
                     out.append({
-                        "collected_at": NOW, "source": "aws", "platform": "AWS Bedrock",
-                        "model_key": f"bedrock:{(a.get('model') or '').lower()}",
-                        "model_name": a.get("model") or "", "author": a.get("provider") or "",
+                        "source": "aws", "platform": "AWS Bedrock",
+                        "model_key": f"bedrock:{model.lower()}",
+                        "model_name": model, "author": a.get("provider") or "",
                         "open_weight": "", "variant": variant, "region": region,
                         "metric": metric, "usd_per_1m": round(usd, 6),
                         "context_length": "",
@@ -158,7 +160,7 @@ def rows_azure():
             continue
         sku = (it.get("skuName") or "").strip()
         out.append({
-            "collected_at": NOW, "source": "azure", "platform": "Azure Foundry",
+            "source": "azure", "platform": "Azure Foundry",
             "model_key": f"azure:{(it.get('productName') or '').lower()}|{sku.lower()}",
             "model_name": it.get("productName") or "", "author": "",
             "open_weight": "", "variant": sku, "region": it.get("armRegionName") or "",
@@ -233,6 +235,13 @@ def main():
             w.writeheader()
         for c in changes:
             w.writerow(c)
+    with open(META, "w") as f:
+        json.dump({"collected_at": NOW, "rows": len(best),
+                   "platforms": len({r["platform"] for r in best.values()}),
+                   "models": len({r["model_key"] for r in best.values()}),
+                   "sources": sorted({r["source"] for r in best.values()})},
+                  f, indent=1, sort_keys=True)
+
     firsts = sum(1 for c in changes if c["old_usd_per_1m"] == "")
     print(f"changes appended: {len(changes)} ({firsts} first observations, "
           f"{len(changes)-firsts} actual moves)")

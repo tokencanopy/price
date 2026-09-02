@@ -1,10 +1,11 @@
 """Inject generated tables and stats into README.md between HTML markers."""
-import csv, os
+import csv, json, os
 from collections import defaultdict
 from datetime import datetime, timezone
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CURRENT = os.path.join(ROOT, "data", "current", "prices.csv")
+META = os.path.join(ROOT, "data", "current", "meta.json")
 HISTORY = os.path.join(ROOT, "data", "history", "price_changes.csv")
 README = os.path.join(ROOT, "README.md")
 
@@ -36,7 +37,10 @@ def main():
 
     platforms = {r["platform"] for r in rows}
     models = {r["model_key"] for r in rows}
-    updated = rows[0]["collected_at"] if rows else datetime.now(timezone.utc).isoformat()
+    updated = datetime.now(timezone.utc).isoformat()
+    if os.path.exists(META):
+        with open(META) as f:
+            updated = json.load(f).get("collected_at", updated)
     dates = sorted({h["observed_at"][:10] for h in hist})
 
     stats = (f"**{len(rows):,}** price points · **{len(models):,}** models · "
