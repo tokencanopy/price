@@ -3,7 +3,7 @@
 Every collector writes the provider's payload verbatim. Normalization happens
 later, so a parsing mistake can always be re-run against the archived original.
 """
-import json, os, sys, time, urllib.parse
+import json, os, re, sys, time, urllib.parse
 from datetime import datetime, timezone
 import requests
 
@@ -26,6 +26,12 @@ def get(url, timeout=30, tries=3):
             time.sleep(2 * (attempt + 1))
 
 
+# Rolling-window telemetry (uptime_last_30m, latency_last_30m, ...). It moves
+# every minute and has nothing to do with price, so archiving it would add
+# thousands of meaningless diff lines to every single run.
+VOLATILE = re.compile(r"_last_\d+[a-z]$")
+
+
 def stabilize(obj):
     """Sort every list we archive by a stable key.
 
@@ -34,7 +40,7 @@ def stabilize(obj):
     delta is just the lines whose prices actually moved.
     """
     if isinstance(obj, dict):
-        return {k: stabilize(v) for k, v in obj.items()}
+        return {k: stabilize(v) for k, v in obj.items() if not VOLATILE.search(k)}
     if isinstance(obj, list):
         items = [stabilize(v) for v in obj]
         def key(v):
