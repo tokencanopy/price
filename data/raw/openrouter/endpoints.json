@@ -7641,10 +7641,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "Baidu | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.00000028",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000014"
+      "completion": "0.00000016464",
+      "discount": 0.412,
+      "input_cache_read": "0.000000016464",
+      "prompt": "0.00000008232"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -8150,10 +8150,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.000000177212",
-      "discount": 0.3671,
-      "input_cache_read": "0.0000000177212",
-      "prompt": "0.000000088606"
+      "completion": "0.00000016184",
+      "discount": 0.422,
+      "input_cache_read": "0.000000016184",
+      "prompt": "0.00000008092"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -8295,9 +8295,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.000001056",
+      "completion": "0.000000528",
       "discount": 0,
-      "input_cache_read": "0.0000000352",
+      "input_cache_read": "0.0000000176",
       "overrides": [
        {
         "completion": "0.000000528",
@@ -8314,7 +8314,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000352"
+      "prompt": "0.000000176"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -8443,10 +8443,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Baidu | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000028",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000014"
+      "completion": "0.00000012992",
+      "discount": 0.536,
+      "input_cache_read": "0.000000012992",
+      "prompt": "0.00000006496"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10048,10 +10048,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.00000338",
-      "discount": 0,
-      "input_cache_read": "0.00000014",
-      "prompt": "0.00000169"
+      "completion": "0.00000207194",
+      "discount": 0.387,
+      "input_cache_read": "0.00000008582",
+      "prompt": "0.00000103597"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10585,10 +10585,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.00000208452",
-      "discount": 0.401,
-      "input_cache_read": "0.000000086855",
-      "prompt": "0.00000104226"
+      "completion": "0.000002068512",
+      "discount": 0.4056,
+      "input_cache_read": "0.000000086188",
+      "prompt": "0.000001034256"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -10685,9 +10685,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.000003366",
+      "completion": "0.0000017424",
       "discount": 0,
-      "input_cache_read": "0.0000001122",
+      "input_cache_read": "0.00000005808",
       "overrides": [
        {
         "completion": "0.0000017424",
@@ -10704,7 +10704,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000001122"
+      "prompt": "0.0000005808"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -11415,7 +11415,7 @@
      "pricing": {
       "completion": "0.00000396",
       "discount": 0,
-      "input_cache_read": "0.00000044",
+      "input_cache_read": "0.000000044",
       "prompt": "0.00000132"
      },
      "provider_name": "SiliconFlow",
@@ -11451,10 +11451,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.0000033462",
-      "discount": 0.155,
-      "input_cache_read": "0.00000003718",
-      "prompt": "0.0000011154"
+      "completion": "0.00000198",
+      "discount": 0.5,
+      "input_cache_read": "0.000000022",
+      "prompt": "0.00000066"
      },
      "provider_name": "StreamLake",
      "quantization": "unknown",
@@ -18909,6 +18909,69 @@
    "id": "inclusionai/ling-3.0-flash",
    "name": "Ling-3.0-flash"
   },
+  "inclusionai/ling-3.0-flash-fin": {
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "created": 1787846290,
+   "description": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment...",
+   "endpoints": [
+    {
+     "context_length": 262144,
+     "max_completion_tokens": 235929,
+     "max_prompt_tokens": null,
+     "model_id": "inclusionai/ling-3.0-flash-fin",
+     "model_name": "Ling 3.0 Flash Fin",
+     "name": "DeepInfra | inclusionai/ling-3.0-flash-fin-20260827",
+     "pricing": {
+      "completion": "0.00000018",
+      "discount": 0,
+      "input_cache_read": "0.000000012",
+      "prompt": "0.00000006"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp4",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp4"
+    }
+   ],
+   "id": "inclusionai/ling-3.0-flash-fin",
+   "name": "Ling 3.0 Flash Fin"
+  },
   "kwaipilot/kat-coder-pro-v2": {
    "architecture": {
     "input_modalities": [
@@ -25700,10 +25763,10 @@
      "model_name": "MoonshotAI: Kimi K2.6",
      "name": "Baidu | moonshotai/kimi-k2.6-20260420",
      "pricing": {
-      "completion": "0.000004",
-      "discount": 0,
-      "input_cache_read": "0.00000016",
-      "prompt": "0.00000095"
+      "completion": "0.000002184",
+      "discount": 0.454,
+      "input_cache_read": "0.00000008736",
+      "prompt": "0.0000005187"
      },
      "provider_name": "Baidu",
      "quantization": "fp4",
@@ -26200,9 +26263,9 @@
      "model_name": "MoonshotAI: Kimi K2.6",
      "name": "Inceptron | moonshotai/kimi-k2.6-20260420",
      "pricing": {
-      "completion": "0.00000339",
+      "completion": "0.0000025",
       "discount": 0,
-      "input_cache_read": "0.00000017",
+      "input_cache_read": "0.0000001",
       "prompt": "0.00000053"
      },
      "provider_name": "Inceptron",
@@ -27673,7 +27736,7 @@
       "completion": "0.000014",
       "discount": 0,
       "input_cache_read": "0.00000029",
-      "prompt": "0.0000028"
+      "prompt": "0.0000025"
      },
      "provider_name": "Morph",
      "quantization": "fp4",
@@ -44902,10 +44965,10 @@
      "model_name": "Qwen: Qwen3.8 27B",
      "name": "AkashML | qwen/qwen3.8-27b-20260814",
      "pricing": {
-      "completion": "0.0000025",
+      "completion": "0.0000022",
       "discount": 0,
-      "input_cache_read": "0.000000032",
-      "prompt": "0.00000032"
+      "input_cache_read": "0.00000005",
+      "prompt": "0.00000025"
      },
      "provider_name": "AkashML",
      "quantization": "fp8",
@@ -46823,9 +46886,9 @@
      "model_name": "Tencent: Hy3",
      "name": "Tencent | tencent/hy3-20260706",
      "pricing": {
-      "completion": "0.000000528",
+      "completion": "0.00000033",
       "discount": 0,
-      "input_cache_read": "0.000000033",
+      "input_cache_read": "0.000000020625",
       "overrides": [
        {
         "completion": "0.00000033",
@@ -46842,7 +46905,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000132"
+      "prompt": "0.0000000825"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -51331,10 +51394,10 @@
      "model_name": "Z.ai: GLM 5.1",
      "name": "Baidu | z-ai/glm-5.1-20260406",
      "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "completion": "0.0000028556",
+      "discount": 0.351,
+      "input_cache_read": "0.00000016874",
+      "prompt": "0.0000009086"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -52090,10 +52153,10 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "Baidu | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "completion": "0.0000013112",
+      "discount": 0.702,
+      "input_cache_read": "0.00000007748",
+      "prompt": "0.0000004172"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -52948,10 +53011,10 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "Novita | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.0000017556",
-      "discount": 0.601,
-      "input_cache_read": "0.00000010374",
-      "prompt": "0.0000005586"
+      "completion": "0.0000013068",
+      "discount": 0.703,
+      "input_cache_read": "0.00000007722",
+      "prompt": "0.0000004158"
      },
      "provider_name": "Novita",
      "quantization": "fp8",
@@ -53205,10 +53268,10 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "StreamLake | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.00000176",
-      "discount": 0.6,
-      "input_cache_read": "0.000000104",
-      "prompt": "0.00000056"
+      "completion": "0.00000132",
+      "discount": 0.7,
+      "input_cache_read": "0.000000078",
+      "prompt": "0.00000042"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -53556,10 +53619,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Decart | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.00000352",
-      "discount": 0.2,
-      "input_cache_read": "0.000000184",
-      "prompt": "0.00000112"
+      "completion": "0.000003608",
+      "discount": 0.18,
+      "input_cache_read": "0.0000001886",
+      "prompt": "0.000001148"
      },
      "provider_name": "Decart",
      "quantization": "fp4",

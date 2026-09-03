@@ -6815,9 +6815,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000177212",
-    "input_cache_read": "0.0000000177212",
-    "prompt": "0.000000088606"
+    "completion": "0.00000016184",
+    "input_cache_read": "0.000000016184",
+    "prompt": "0.00000008092"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7381,9 +7381,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000208452",
-    "input_cache_read": "0.000000086855",
-    "prompt": "0.00000104226"
+    "completion": "0.000002068512",
+    "input_cache_read": "0.000000086188",
+    "prompt": "0.000001034256"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7461,9 +7461,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000033462",
-    "input_cache_read": "0.00000003718",
-    "prompt": "0.0000011154"
+    "completion": "0.00000198",
+    "input_cache_read": "0.000000022",
+    "prompt": "0.00000066"
    },
    "reasoning": {
     "default_effort": "high",
@@ -12827,6 +12827,67 @@
     "context_length": 262144,
     "is_moderated": false,
     "max_completion_tokens": 32768
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "inclusionai/ling-3.0-flash-fin-20260827",
+   "context_length": 262144,
+   "created": 1787846290,
+   "default_parameters": {},
+   "description": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "inclusionai/ling-3.0-flash-fin",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/inclusionai/ling-3.0-flash-fin-20260827/endpoints"
+   },
+   "name": "Ling 3.0 Flash Fin",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00000018",
+    "input_cache_read": "0.000000012",
+    "prompt": "0.00000006"
+   },
+   "reasoning": {
+    "default_enabled": true,
+    "mandatory": false
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "logit_bias",
+    "max_tokens",
+    "min_p",
+    "presence_penalty",
+    "reasoning",
+    "repetition_penalty",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 262144,
+    "is_moderated": false,
+    "max_completion_tokens": 235929
    }
   },
   {
@@ -33056,10 +33117,9 @@
    "name": "Qwen: Qwen3.8 27B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000255",
+    "completion": "0.000003",
     "input_cache_read": "0.000000085",
-    "input_cache_write": "0.00000053125",
-    "prompt": "0.000000425"
+    "prompt": "0.00000042"
    },
    "reasoning": {
     "default_effort": "xhigh",
@@ -34288,8 +34348,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -34306,7 +34366,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -39537,9 +39597,9 @@
    "name": "MoonshotAI Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00001275",
-    "input_cache_read": "0.00000025599999",
-    "prompt": "0.00000255"
+    "completion": "0.000014",
+    "input_cache_read": "0.00000029",
+    "prompt": "0.0000025"
    },
    "reasoning": {
     "default_effort": "max",
@@ -39937,9 +39997,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000352",
-    "input_cache_read": "0.000000184",
-    "prompt": "0.00000112"
+    "completion": "0.000003608",
+    "input_cache_read": "0.0000001886",
+    "prompt": "0.000001148"
    },
    "reasoning": {
     "default_effort": "max",
@@ -39985,5 +40045,5 @@
  "links": {
   "next": null
  },
- "total_count": 424
+ "total_count": 425
 }
