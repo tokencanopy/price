@@ -8692,9 +8692,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "DeepSeek | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000132",
+      "completion": "0.00000066",
       "discount": 0,
-      "input_cache_read": "0.000000014",
+      "input_cache_read": "0.000000007",
       "overrides": [
        {
         "completion": "0.00000066",
@@ -8776,7 +8776,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000044"
+      "prompt": "0.00000022"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -9642,8 +9642,8 @@
    "description": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding while matching the base model on text capabilities including agents,...",
    "endpoints": [
     {
-     "context_length": 131072,
-     "max_completion_tokens": 117964,
+     "context_length": 1048576,
+     "max_completion_tokens": 131072,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4-flash-vision-exp",
      "model_name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
@@ -9694,9 +9694,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
      "name": "DeepSeek | deepseek/deepseek-v4-flash-vision-exp-20260821",
      "pricing": {
-      "completion": "0.00000132",
+      "completion": "0.00000066",
       "discount": 0,
-      "input_cache_read": "0.000000014",
+      "input_cache_read": "0.000000007",
       "overrides": [
        {
         "completion": "0.00000066",
@@ -9778,7 +9778,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000044"
+      "prompt": "0.00000022"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -10955,9 +10955,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000396",
+      "completion": "0.00000198",
       "discount": 0,
-      "input_cache_read": "0.000000044",
+      "input_cache_read": "0.000000022",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -11039,7 +11039,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000132"
+      "prompt": "0.00000066"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -18032,49 +18032,6 @@
      "max_prompt_tokens": null,
      "model_id": "google/gemma-4-31b-it",
      "model_name": "Google: Gemma 4 31B",
-     "name": "Phala | google/gemma-4-31b-it-20260402",
-     "pricing": {
-      "completion": "0.00000046",
-      "discount": 0,
-      "input_cache_read": "0.000000075",
-      "prompt": "0.00000015"
-     },
-     "provider_name": "Phala",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": false,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "phala"
-    },
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 117964,
-     "max_prompt_tokens": null,
-     "model_id": "google/gemma-4-31b-it",
-     "model_name": "Google: Gemma 4 31B",
      "name": "SambaNova | google/gemma-4-31b-it-20260402",
      "pricing": {
       "completion": "0.00000115",
@@ -18688,6 +18645,49 @@
      },
      "supports_voice_cloning": false,
      "tag": "coreweave/bf16"
+    },
+    {
+     "context_length": 131072,
+     "max_completion_tokens": 117964,
+     "max_prompt_tokens": null,
+     "model_id": "ibm-granite/granite-4.2-8b",
+     "model_name": "IBM: Granite 4.2 8B",
+     "name": "DeepInfra | ibm-granite/granite-4.2-8b-20260831",
+     "pricing": {
+      "completion": "0.00000025",
+      "discount": 0,
+      "input_cache_read": "0.000000015",
+      "prompt": "0.00000006"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "bf16",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "temperature",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/bf16"
     }
    ],
    "id": "ibm-granite/granite-4.2-8b",
@@ -26200,9 +26200,9 @@
      "model_name": "MoonshotAI: Kimi K2.6",
      "name": "Inceptron | moonshotai/kimi-k2.6-20260420",
      "pricing": {
-      "completion": "0.0000025",
+      "completion": "0.00000339",
       "discount": 0,
-      "input_cache_read": "0.0000001",
+      "input_cache_read": "0.00000017",
       "prompt": "0.00000053"
      },
      "provider_name": "Inceptron",
@@ -35865,7 +35865,7 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "prompt": "0.000000065"
+      "prompt": "0.00000006"
      },
      "provider_name": "Mancer 2",
      "quantization": "fp8",
@@ -38263,45 +38263,6 @@
    "description": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects. It is also highly capable of analyzing texts, charts, icons, graphics, and layouts within images.",
    "endpoints": [
     {
-     "context_length": 32000,
-     "max_completion_tokens": 28800,
-     "max_prompt_tokens": null,
-     "model_id": "qwen/qwen2.5-vl-72b-instruct",
-     "model_name": "Qwen: Qwen2.5 VL 72B Instruct",
-     "name": "Nebius | qwen/qwen2.5-vl-72b-instruct",
-     "pricing": {
-      "completion": "0.00000075",
-      "discount": 0,
-      "prompt": "0.00000025"
-     },
-     "provider_name": "Nebius",
-     "quantization": "fp8",
-     "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "nebius/fp8"
-    },
-    {
      "context_length": 128000,
      "max_completion_tokens": 115200,
      "max_prompt_tokens": null,
@@ -39556,48 +39517,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/fp8"
-    },
-    {
-     "context_length": 40960,
-     "max_completion_tokens": 36864,
-     "max_prompt_tokens": null,
-     "model_id": "qwen/qwen3-32b",
-     "model_name": "Qwen: Qwen3 32B",
-     "name": "Nebius | qwen/qwen3-32b-04-28",
-     "pricing": {
-      "completion": "0.0000003",
-      "discount": 0,
-      "prompt": "0.0000001"
-     },
-     "provider_name": "Nebius",
-     "quantization": "fp8",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "nebius/base"
     },
     {
      "context_length": 131072,
@@ -45386,7 +45305,7 @@
      "pricing": {
       "completion": "0.000003",
       "discount": 0,
-      "input_cache_read": "0.00000015",
+      "input_cache_read": "0.00000005",
       "prompt": "0.0000004"
      },
      "provider_name": "Phala",
@@ -45431,7 +45350,7 @@
       "completion": "0.00000255",
       "discount": 0,
       "input_cache_read": "0.00000015",
-      "prompt": "0.00000025"
+      "prompt": "0.00000024"
      },
      "provider_name": "Reka",
      "quantization": "fp8",
@@ -52855,10 +52774,10 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "Inceptron | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.00000235",
+      "completion": "0.00000299",
       "discount": 0,
-      "input_cache_read": "0.00000012",
-      "prompt": "0.00000071"
+      "input_cache_read": "0.00000022",
+      "prompt": "0.00000125"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -53637,10 +53556,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Decart | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.000003476",
-      "discount": 0.21,
-      "input_cache_read": "0.0000001817",
-      "prompt": "0.000001106"
+      "completion": "0.00000352",
+      "discount": 0.2,
+      "input_cache_read": "0.000000184",
+      "prompt": "0.00000112"
      },
      "provider_name": "Decart",
      "quantization": "fp4",
@@ -53893,7 +53812,7 @@
       "completion": "0.0000044",
       "discount": 0,
       "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "prompt": "0.00000125"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",

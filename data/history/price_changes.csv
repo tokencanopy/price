@@ -13569,3 +13569,34 @@ observed_at,source,platform,model_key,variant,region,metric,model_name,old_usd_p
 2026-09-03T06:43:20+00:00,openrouter,GMICloud,deepseek-ai/deepseek-v4-flash-0731,fp4,,cache_read,DeepSeek: DeepSeek V4 Flash 0731,0.0112,,
 2026-09-03T06:43:20+00:00,openrouter,GMICloud,deepseek-ai/deepseek-v4-flash-0731,fp4,,input,DeepSeek: DeepSeek V4 Flash 0731,0.352,,
 2026-09-03T06:43:20+00:00,openrouter,GMICloud,deepseek-ai/deepseek-v4-flash-0731,fp4,,output,DeepSeek: DeepSeek V4 Flash 0731,1.056,,
+2026-09-03T12:40:08+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-flash-0731,unknown,,input,DeepSeek: DeepSeek V4 Flash 0731,0.44,0.22,-50.0
+2026-09-03T12:40:08+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-flash-0731,unknown,,output,DeepSeek: DeepSeek V4 Flash 0731,1.32,0.66,-50.0
+2026-09-03T12:40:08+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-flash-0731,unknown,,cache_read,DeepSeek: DeepSeek V4 Flash 0731,0.014,0.007,-50.0
+2026-09-03T12:40:08+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-flash-vision-exp,unknown,,input,DeepSeek: DeepSeek V4 Flash Vision Exp,0.44,0.22,-50.0
+2026-09-03T12:40:08+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-flash-vision-exp,unknown,,output,DeepSeek: DeepSeek V4 Flash Vision Exp,1.32,0.66,-50.0
+2026-09-03T12:40:08+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-flash-vision-exp,unknown,,cache_read,DeepSeek: DeepSeek V4 Flash Vision Exp,0.014,0.007,-50.0
+2026-09-03T12:40:08+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,input,DeepSeek: DeepSeek V4 Pro 0813,1.32,0.66,-50.0
+2026-09-03T12:40:08+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,output,DeepSeek: DeepSeek V4 Pro 0813,3.96,1.98,-50.0
+2026-09-03T12:40:08+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,cache_read,DeepSeek: DeepSeek V4 Pro 0813,0.044,0.022,-50.0
+2026-09-03T12:40:08+00:00,openrouter,DeepInfra,ibm-granite/granite-4.2-8b,bf16,,input,IBM: Granite 4.2 8B,,0.06,
+2026-09-03T12:40:08+00:00,openrouter,DeepInfra,ibm-granite/granite-4.2-8b,bf16,,output,IBM: Granite 4.2 8B,,0.25,
+2026-09-03T12:40:08+00:00,openrouter,DeepInfra,ibm-granite/granite-4.2-8b,bf16,,cache_read,IBM: Granite 4.2 8B,,0.015,
+2026-09-03T12:40:08+00:00,openrouter,Inceptron,moonshotai/kimi-k2.6,int4,,output,MoonshotAI: Kimi K2.6,2.5,3.39,35.6
+2026-09-03T12:40:08+00:00,openrouter,Inceptron,moonshotai/kimi-k2.6,int4,,cache_read,MoonshotAI: Kimi K2.6,0.1,0.17,70.0
+2026-09-03T12:40:08+00:00,openrouter,Mancer 2,openai/gpt-oss-120b,fp8,,input,OpenAI: gpt-oss-120b,0.065,0.06,-7.69
+2026-09-03T12:40:08+00:00,openrouter,Phala,qwen/qwen3.8-27b,unknown,,cache_read,Qwen: Qwen3.8 27B,0.15,0.05,-66.67
+2026-09-03T12:40:08+00:00,openrouter,Reka,qwen/qwen3.8-27b,fp8,,input,Qwen: Qwen3.8 27B,0.25,0.24,-4.0
+2026-09-03T12:40:08+00:00,openrouter,Inceptron,zai-org/glm-5.2,fp4,,input,Z.ai: GLM 5.2,0.71,1.25,76.06
+2026-09-03T12:40:08+00:00,openrouter,Inceptron,zai-org/glm-5.2,fp4,,output,Z.ai: GLM 5.2,2.35,2.99,27.23
+2026-09-03T12:40:08+00:00,openrouter,Inceptron,zai-org/glm-5.2,fp4,,cache_read,Z.ai: GLM 5.2,0.12,0.22,83.33
+2026-09-03T12:40:08+00:00,openrouter,Decart,zai-org/glm-5.3,fp4,,input,Z.ai: GLM 5.3,1.106,1.12,1.27
+2026-09-03T12:40:08+00:00,openrouter,Decart,zai-org/glm-5.3,fp4,,output,Z.ai: GLM 5.3,3.476,3.52,1.27
+2026-09-03T12:40:08+00:00,openrouter,Decart,zai-org/glm-5.3,fp4,,cache_read,Z.ai: GLM 5.3,0.1817,0.184,1.27
+2026-09-03T12:40:08+00:00,openrouter,Inceptron,zai-org/glm-5.3,fp4,,input,Z.ai: GLM 5.3,1.4,1.25,-10.71
+2026-09-03T12:40:08+00:00,openrouter,Nebius,qwen/qwen2.5-vl-72b-instruct,fp8,,input,Qwen: Qwen2.5 VL 72B Instruct,0.25,,
+2026-09-03T12:40:08+00:00,openrouter,Nebius,qwen/qwen2.5-vl-72b-instruct,fp8,,output,Qwen: Qwen2.5 VL 72B Instruct,0.75,,
+2026-09-03T12:40:08+00:00,openrouter,Nebius,qwen/qwen3-32b,fp8,,input,Qwen: Qwen3 32B,0.1,,
+2026-09-03T12:40:08+00:00,openrouter,Nebius,qwen/qwen3-32b,fp8,,output,Qwen: Qwen3 32B,0.3,,
+2026-09-03T12:40:08+00:00,openrouter,Phala,google/gemma-4-31b-it,unknown,,cache_read,Google: Gemma 4 31B,0.075,,
+2026-09-03T12:40:08+00:00,openrouter,Phala,google/gemma-4-31b-it,unknown,,input,Google: Gemma 4 31B,0.15,,
+2026-09-03T12:40:08+00:00,openrouter,Phala,google/gemma-4-31b-it,unknown,,output,Google: Gemma 4 31B,0.46,,
