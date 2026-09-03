@@ -7141,8 +7141,8 @@
    "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000066",
-    "input_cache_read": "0.000000007",
+    "completion": "0.00000132",
+    "input_cache_read": "0.000000014",
     "overrides": [
      {
       "completion": "0.00000066",
@@ -7224,7 +7224,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000022"
+    "prompt": "0.00000044"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7242,6 +7242,7 @@
     "logit_bias",
     "logprobs",
     "max_tokens",
+    "min_p",
     "presence_penalty",
     "reasoning",
     "reasoning_effort",
@@ -13782,7 +13783,7 @@
    "name": "Meta: Muse Glimmer 30B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000012",
+    "completion": "0.0000011",
     "input_cache_read": "0.00000004",
     "prompt": "0.0000003"
    },
@@ -13822,7 +13823,7 @@
    "top_provider": {
     "context_length": 131072,
     "is_moderated": false,
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 117964
    }
   },
   {
@@ -19547,9 +19548,9 @@
    "name": "NVIDIA: Nemotron 3 Ultra",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000003125",
-    "input_cache_read": "0.0000001875",
-    "prompt": "0.000000625"
+    "completion": "0.0000024",
+    "input_cache_read": "0.00000012",
+    "prompt": "0.0000006"
    },
    "reasoning": {
     "default_effort": "high",
@@ -19583,9 +19584,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 256000,
+    "context_length": 202800,
     "is_moderated": false,
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 182520
    }
   },
   {
@@ -32888,7 +32889,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000006",
-    "input_cache_read": "0.0000002",
+    "input_cache_read": "0.00000025",
     "prompt": "0.000002"
    },
    "reasoning": {
@@ -32925,9 +32926,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 262144,
+    "context_length": 1000000,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 262144
    }
   },
   {
@@ -39100,7 +39101,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 200000,
-    "is_moderated": true,
+    "is_moderated": false,
     "max_completion_tokens": 64000
    }
   },
@@ -39173,7 +39174,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 1000000,
-    "is_moderated": true,
+    "is_moderated": false,
     "max_completion_tokens": 128000
    }
   },
@@ -39846,7 +39847,7 @@
     "top_p": 0.95
    },
    "description": "This model always redirects to the latest model in the GLM Flash family.",
-   "expiration_date": "2098-12-31",
+   "expiration_date": null,
    "hugging_face_id": null,
    "id": "~z-ai/glm-flash-latest",
    "knowledge_cutoff": null,
@@ -39896,7 +39897,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    }
   },
   {
@@ -39933,9 +39934,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000003432",
-    "input_cache_read": "0.0000001794",
-    "prompt": "0.000001092"
+    "completion": "0.000003476",
+    "input_cache_read": "0.0000001817",
+    "prompt": "0.000001106"
    },
    "reasoning": {
     "default_effort": "max",

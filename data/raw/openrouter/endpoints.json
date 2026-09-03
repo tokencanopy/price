@@ -261,7 +261,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "amazon-bedrock"
+     "tag": "amazon-bedrock/eu-west-1"
     },
     {
      "context_length": 1000000,
@@ -296,7 +296,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "amazon-bedrock/eu-west-1"
+     "tag": "amazon-bedrock"
     }
    ],
    "id": "amazon/nova-2-lite-v1",
@@ -348,7 +348,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "amazon-bedrock"
+     "tag": "amazon-bedrock/eu-west-1"
     },
     {
      "context_length": 300000,
@@ -380,7 +380,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "amazon-bedrock/eu-west-1"
+     "tag": "amazon-bedrock"
     }
    ],
    "id": "amazon/nova-lite-v1",
@@ -431,7 +431,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "amazon-bedrock"
+     "tag": "amazon-bedrock/eu-west-1"
     },
     {
      "context_length": 128000,
@@ -463,7 +463,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "amazon-bedrock/eu-west-1"
+     "tag": "amazon-bedrock"
     }
    ],
    "id": "amazon/nova-micro-v1",
@@ -568,7 +568,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "amazon-bedrock"
+     "tag": "amazon-bedrock/eu-west-1"
     },
     {
      "context_length": 300000,
@@ -600,7 +600,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "amazon-bedrock/eu-west-1"
+     "tag": "amazon-bedrock"
     }
    ],
    "id": "amazon/nova-pro-v1",
@@ -2487,7 +2487,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "google-vertex/europe"
+     "tag": "google-vertex/us"
     },
     {
      "context_length": 1000000,
@@ -2526,7 +2526,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "google-vertex/us"
+     "tag": "google-vertex/europe"
     }
    ],
    "id": "anthropic/claude-opus-4.7",
@@ -2949,7 +2949,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "google-vertex/europe"
+     "tag": "google-vertex/us"
     },
     {
      "context_length": 1000000,
@@ -2988,7 +2988,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "google-vertex/us"
+     "tag": "google-vertex/europe"
     }
    ],
    "id": "anthropic/claude-opus-4.8",
@@ -3211,7 +3211,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "azure/global"
+     "tag": "azure/us"
     },
     {
      "context_length": 1000000,
@@ -3253,7 +3253,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "azure/us"
+     "tag": "azure/global"
     },
     {
      "context_length": 1000000,
@@ -3625,7 +3625,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "google-vertex"
+     "tag": "google-vertex/europe"
     },
     {
      "context_length": 1000000,
@@ -3673,7 +3673,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "google-vertex/europe"
+     "tag": "google-vertex"
     }
    ],
    "id": "anthropic/claude-sonnet-4",
@@ -4397,7 +4397,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "google-vertex/us-east5"
+     "tag": "google-vertex/europe"
     },
     {
      "context_length": 1000000,
@@ -4438,7 +4438,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "google-vertex/europe"
+     "tag": "google-vertex/us-east5"
     }
    ],
    "id": "anthropic/claude-sonnet-4.6",
@@ -4620,7 +4620,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "azure/global"
+     "tag": "azure/us"
     },
     {
      "context_length": 1000000,
@@ -4661,7 +4661,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "azure/us"
+     "tag": "azure/global"
     },
     {
      "context_length": 1000000,
@@ -7893,7 +7893,7 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "prompt": "0.000000185"
+      "prompt": "0.000000175"
      },
      "provider_name": "Mancer 2",
      "quantization": "fp8",
@@ -8692,9 +8692,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "DeepSeek | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000066",
+      "completion": "0.00000132",
       "discount": 0,
-      "input_cache_read": "0.000000007",
+      "input_cache_read": "0.000000014",
       "overrides": [
        {
         "completion": "0.00000066",
@@ -8776,7 +8776,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000022"
+      "prompt": "0.00000044"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -8890,8 +8890,8 @@
      "tag": "fireworks"
     },
     {
-     "context_length": 1048576,
-     "max_completion_tokens": 943718,
+     "context_length": 1048575,
+     "max_completion_tokens": 943717,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4-flash-0731",
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
@@ -8903,7 +8903,7 @@
       "prompt": "0.000000352"
      },
      "provider_name": "GMICloud",
-     "quantization": "fp4",
+     "quantization": "fp8",
      "supported_parameters": [
       "include_reasoning",
       "logprobs",
@@ -8926,7 +8926,7 @@
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "gmicloud/fp4"
+     "tag": "gmicloud/fp8"
     },
     {
      "context_length": 1048576,
@@ -9028,7 +9028,7 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "prompt": "0.000000185"
+      "prompt": "0.000000175"
      },
      "provider_name": "Mancer 2",
      "quantization": "fp8",
@@ -9642,6 +9642,51 @@
    "description": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding while matching the base model on text capabilities including agents,...",
    "endpoints": [
     {
+     "context_length": 131072,
+     "max_completion_tokens": 117964,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4-flash-vision-exp",
+     "model_name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+     "name": "DeepInfra | deepseek/deepseek-v4-flash-vision-exp-20260821",
+     "pricing": {
+      "completion": "0.0000006468",
+      "discount": 0.51,
+      "input_cache_read": "0.0000000686",
+      "prompt": "0.0000002156"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp8",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp8"
+    },
+    {
      "context_length": 1048576,
      "max_completion_tokens": 384000,
      "max_prompt_tokens": null,
@@ -9649,9 +9694,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
      "name": "DeepSeek | deepseek/deepseek-v4-flash-vision-exp-20260821",
      "pricing": {
-      "completion": "0.00000066",
+      "completion": "0.00000132",
       "discount": 0,
-      "input_cache_read": "0.000000007",
+      "input_cache_read": "0.000000014",
       "overrides": [
        {
         "completion": "0.00000066",
@@ -9733,7 +9778,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000022"
+      "prompt": "0.00000044"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -10910,9 +10955,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000198",
+      "completion": "0.00000396",
       "discount": 0,
-      "input_cache_read": "0.000000022",
+      "input_cache_read": "0.000000044",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -10994,7 +11039,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000066"
+      "prompt": "0.00000132"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -11546,7 +11591,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "google-vertex/global"
+     "tag": "google-vertex/eu"
     },
     {
      "context_length": 1048576,
@@ -11590,7 +11635,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "google-vertex/eu"
+     "tag": "google-vertex/global"
     },
     {
      "context_length": 1048576,
@@ -12420,7 +12465,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "google-vertex/us"
+     "tag": "google-vertex/eu"
     },
     {
      "context_length": 1048576,
@@ -12474,7 +12519,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "google-vertex/eu"
+     "tag": "google-vertex/us"
     },
     {
      "context_length": 1048576,
@@ -12818,7 +12863,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "google-vertex/us"
+     "tag": "google-vertex/eu"
     },
     {
      "context_length": 1048576,
@@ -12872,7 +12917,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "google-vertex/eu"
+     "tag": "google-vertex/us"
     },
     {
      "context_length": 1048576,
@@ -13216,7 +13261,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "google-vertex/us"
+     "tag": "google-vertex/eu"
     },
     {
      "context_length": 1048576,
@@ -13270,7 +13315,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "google-vertex/eu"
+     "tag": "google-vertex/us"
     },
     {
      "context_length": 1048576,
@@ -23434,44 +23479,6 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "mistral/zdr"
-    },
-    {
-     "context_length": 128000,
-     "max_completion_tokens": 102400,
-     "max_prompt_tokens": null,
-     "model_id": "mistralai/mistral-large",
-     "model_name": "Mistral Large",
-     "name": "Mistral | mistralai/mistral-large",
-     "pricing": {
-      "completion": "0.000006",
-      "discount": 0,
-      "input_cache_read": "0.0000002",
-      "prompt": "0.000002"
-     },
-     "provider_name": "Mistral",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
      "tag": "mistral"
     },
     {
@@ -24076,7 +24083,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "mistral"
+     "tag": "mistral/zdr"
     },
     {
      "context_length": 131072,
@@ -24114,7 +24121,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "mistral/zdr"
+     "tag": "mistral"
     },
     {
      "context_length": 131072,
@@ -25985,10 +25992,10 @@
      "model_name": "MoonshotAI: Kimi K2.6",
      "name": "Decart | moonshotai/kimi-k2.6-20260420",
      "pricing": {
-      "completion": "0.0000022618",
+      "completion": "0.00000245",
       "discount": 0,
-      "input_cache_read": "0.0000000905",
-      "prompt": "0.0000005372"
+      "input_cache_read": "0.000000098",
+      "prompt": "0.0000005194"
      },
      "provider_name": "Decart",
      "quantization": "fp4",
@@ -27935,7 +27942,7 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Wafer | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.000015",
+      "completion": "0.00001275",
       "discount": 0,
       "input_cache_read": "0.0000003",
       "prompt": "0.000003"
@@ -33069,7 +33076,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "azure/eu"
+     "tag": "azure/us"
     },
     {
      "context_length": 1050000,
@@ -33114,7 +33121,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "azure/us"
+     "tag": "azure/eu"
     },
     {
      "context_length": 1050000,
@@ -33515,7 +33522,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "azure/eu"
+     "tag": "azure/us"
     },
     {
      "context_length": 1050000,
@@ -33562,7 +33569,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "azure/us"
+     "tag": "azure/eu"
     },
     {
      "context_length": 1050000,
@@ -34118,7 +34125,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "azure/eu"
+     "tag": "azure/us"
     },
     {
      "context_length": 1050000,
@@ -34165,7 +34172,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "azure/us"
+     "tag": "azure/eu"
     },
     {
      "context_length": 1050000,
@@ -34721,7 +34728,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "azure/eu"
+     "tag": "azure/us"
     },
     {
      "context_length": 1050000,
@@ -34768,7 +34775,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "azure/us"
+     "tag": "azure/eu"
     },
     {
      "context_length": 1050000,
@@ -36325,7 +36332,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "amazon-bedrock"
+     "tag": "amazon-bedrock/eu-west-1"
     },
     {
      "context_length": 131072,
@@ -36361,7 +36368,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "amazon-bedrock/eu-west-1"
+     "tag": "amazon-bedrock"
     },
     {
      "context_length": 131072,
@@ -45423,8 +45430,8 @@
      "pricing": {
       "completion": "0.00000255",
       "discount": 0,
-      "input_cache_read": "0.00000005",
-      "prompt": "0.00000035"
+      "input_cache_read": "0.00000015",
+      "prompt": "0.00000025"
      },
      "provider_name": "Reka",
      "quantization": "fp8",
@@ -48065,7 +48072,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "xai/priority"
+     "tag": "xai/zdr/priority"
     },
     {
      "context_length": 2000000,
@@ -48113,7 +48120,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "xai/zdr/priority"
+     "tag": "xai/priority"
     }
    ],
    "id": "x-ai/grok-4.20",
@@ -48275,7 +48282,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "xai/priority"
+     "tag": "xai/zdr/priority"
     },
     {
      "context_length": 2000000,
@@ -48322,7 +48329,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "xai/zdr/priority"
+     "tag": "xai/priority"
     }
    ],
    "id": "x-ai/grok-4.20-multi-agent",
@@ -48707,7 +48714,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "xai/priority"
+     "tag": "xai/zdr/priority"
     },
     {
      "context_length": 500000,
@@ -48756,7 +48763,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "xai/zdr/priority"
+     "tag": "xai/priority"
     }
    ],
    "id": "x-ai/grok-4.5",
@@ -49188,7 +49195,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "xai/priority"
+     "tag": "xai/zdr/priority"
     },
     {
      "context_length": 256000,
@@ -49236,7 +49243,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "xai/zdr/priority"
+     "tag": "xai/priority"
     }
    ],
    "id": "x-ai/grok-build-0.1",
@@ -52230,9 +52237,9 @@
      "supports_implicit_caching": false,
      "supports_tool_choice": {
       "auto": true,
-      "function": true,
+      "function": false,
       "none": true,
-      "required": true
+      "required": false
      },
      "supports_voice_cloning": false,
      "tag": "baseten/fp8"
@@ -52270,9 +52277,9 @@
      "supports_implicit_caching": false,
      "supports_tool_choice": {
       "auto": true,
-      "function": false,
+      "function": true,
       "none": true,
-      "required": false
+      "required": true
      },
      "supports_voice_cloning": false,
      "tag": "baseten/fp8"
@@ -52312,7 +52319,7 @@
       "auto": true,
       "function": false,
       "none": true,
-      "required": true
+      "required": false
      },
      "supports_voice_cloning": false,
      "tag": "baseten/fast"
@@ -52352,7 +52359,7 @@
       "auto": true,
       "function": false,
       "none": true,
-      "required": false
+      "required": true
      },
      "supports_voice_cloning": false,
      "tag": "baseten/fast"
@@ -52926,7 +52933,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "mistral"
+     "tag": "mistral/zdr"
     },
     {
      "context_length": 1048576,
@@ -52969,7 +52976,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "mistral/zdr"
+     "tag": "mistral"
     },
     {
      "context_length": 1048576,
@@ -53630,10 +53637,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Decart | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.000003432",
-      "discount": 0.22,
-      "input_cache_read": "0.0000001794",
-      "prompt": "0.000001092"
+      "completion": "0.000003476",
+      "discount": 0.21,
+      "input_cache_read": "0.0000001817",
+      "prompt": "0.000001106"
      },
      "provider_name": "Decart",
      "quantization": "fp4",
