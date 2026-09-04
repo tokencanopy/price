@@ -6829,9 +6829,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000177212",
-    "input_cache_read": "0.0000000177212",
-    "prompt": "0.000000088606"
+    "completion": "0.00000017556",
+    "input_cache_read": "0.000000017556",
+    "prompt": "0.00000008778"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7395,9 +7395,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000208452",
-    "input_cache_read": "0.000000086855",
-    "prompt": "0.00000104226"
+    "completion": "0.000002003784",
+    "input_cache_read": "0.000000083491",
+    "prompt": "0.000001001892"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7475,9 +7475,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000033462",
-    "input_cache_read": "0.00000003718",
-    "prompt": "0.0000011154"
+    "completion": "0.00000173844",
+    "input_cache_read": "0.000000019316",
+    "prompt": "0.00000057948"
    },
    "reasoning": {
     "default_effort": "high",
@@ -12470,76 +12470,6 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "agentic_index": null,
-     "coding_index": 9.5,
-     "intelligence_index": null
-    },
-    "design_arena": []
-   },
-   "canonical_slug": "ibm-granite/granite-4.1-8b-20260429",
-   "context_length": 131072,
-   "created": 1777577071,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "presence_penalty": null,
-    "repetition_penalty": null,
-    "temperature": null,
-    "top_k": null,
-    "top_p": null
-   },
-   "description": "Granite 4.1 8B is a dense, decoder-only 8-billion-parameter language model from IBM, part of the Granite 4.1 family. It supports a 131K-token context window and is designed for enterprise tasks...",
-   "expiration_date": null,
-   "hugging_face_id": "ibm-granite/granite-4.1-8b",
-   "id": "ibm-granite/granite-4.1-8b",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/ibm-granite/granite-4.1-8b-20260429/endpoints"
-   },
-   "name": "IBM: Granite 4.1 8B",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.0000001",
-    "input_cache_read": "0.00000005",
-    "prompt": "0.00000005"
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "logprobs",
-    "max_tokens",
-    "presence_penalty",
-    "repetition_penalty",
-    "response_format",
-    "seed",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 131072,
-    "is_moderated": false,
-    "max_completion_tokens": 117964
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
      "agentic_index": 9.2,
      "coding_index": 22.4,
      "intelligence_index": 19.6
@@ -13342,7 +13272,6 @@
    "supported_parameters": [
     "frequency_penalty",
     "logit_bias",
-    "logprobs",
     "max_tokens",
     "min_p",
     "presence_penalty",
@@ -13355,7 +13284,6 @@
     "tool_choice",
     "tools",
     "top_k",
-    "top_logprobs",
     "top_p"
    ],
    "supported_voices": null,
@@ -14488,6 +14416,7 @@
     "supported_efforts": [
      "high",
      "low",
+     "max",
      "medium",
      "minimal",
      "xhigh"
@@ -14556,6 +14485,7 @@
     "supported_efforts": [
      "high",
      "low",
+     "max",
      "medium",
      "minimal",
      "xhigh"
@@ -31609,9 +31539,8 @@
    "name": "Qwen: Qwen3.5-35B-A3B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000125",
-    "input_cache_read": "0.00000025",
-    "prompt": "0.00000025"
+    "completion": "0.00000075",
+    "prompt": "0.00000008"
    },
    "reasoning": {
     "mandatory": false
@@ -31641,7 +31570,7 @@
    "top_provider": {
     "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 16384
    }
   },
   {
@@ -32232,9 +32161,9 @@
    "name": "Qwen: Qwen3.6 27B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000036",
-    "input_cache_read": "0.00000012",
-    "prompt": "0.0000006"
+    "completion": "0.000002",
+    "input_cache_read": "0.00000003",
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_enabled": true,
@@ -32265,7 +32194,7 @@
    "top_provider": {
     "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 65536
    }
   },
   {
@@ -34466,8 +34395,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -34484,7 +34413,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -39702,9 +39631,9 @@
    "name": "DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000016",
-    "input_cache_read": "0.000000013",
-    "prompt": "0.00000005"
+    "completion": "0.00000009996",
+    "input_cache_read": "0.000000009996",
+    "prompt": "0.00000004998"
    },
    "reasoning": {
     "default_effort": "high",
@@ -39744,7 +39673,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 131072
    }
   },
   {
@@ -40403,5 +40332,5 @@
  "links": {
   "next": null
  },
- "total_count": 427
+ "total_count": 426
 }
