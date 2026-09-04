@@ -7141,8 +7141,8 @@
    "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000066",
-    "input_cache_read": "0.000000007",
+    "completion": "0.00000132",
+    "input_cache_read": "0.000000014",
     "overrides": [
      {
       "completion": "0.00000066",
@@ -7224,7 +7224,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000022"
+    "prompt": "0.00000044"
    },
    "reasoning": {
     "default_effort": "high",
@@ -36263,6 +36263,244 @@
    },
    "benchmarks": {
     "artificial_analysis": {
+     "agentic_index": 24.2,
+     "coding_index": 42.2,
+     "intelligence_index": 37.9
+    },
+    "design_arena": [
+     {
+      "arena": "agents",
+      "category": "agenticgamedev",
+      "elo": 1007,
+      "rank": 24,
+      "win_rate": 28.7
+     },
+     {
+      "arena": "agents",
+      "category": "agentichtmlslides",
+      "elo": 1066,
+      "rank": 10,
+      "win_rate": 31.8
+     },
+     {
+      "arena": "agents",
+      "category": "agenticslides",
+      "elo": 1072,
+      "rank": 10,
+      "win_rate": 31.9
+     },
+     {
+      "arena": "agents",
+      "category": "agenticslides(html)",
+      "elo": 1066,
+      "rank": 10,
+      "win_rate": 31.7
+     },
+     {
+      "arena": "agents",
+      "category": "agenticslides(python-pptx)",
+      "elo": 1068,
+      "rank": 10,
+      "win_rate": 32.4
+     },
+     {
+      "arena": "agents",
+      "category": "androidnative",
+      "elo": 977,
+      "rank": 37,
+      "win_rate": 22.5
+     },
+     {
+      "arena": "agents",
+      "category": "fullstack",
+      "elo": 1030,
+      "rank": 38,
+      "win_rate": 28.8
+     },
+     {
+      "arena": "agents",
+      "category": "godotgamedev",
+      "elo": 1035,
+      "rank": 29,
+      "win_rate": 31.2
+     },
+     {
+      "arena": "agents",
+      "category": "htmlslides",
+      "elo": 1021,
+      "rank": 22,
+      "win_rate": 28.6
+     },
+     {
+      "arena": "agents",
+      "category": "mobileapps",
+      "elo": 1104,
+      "rank": 38,
+      "win_rate": 35.8
+     },
+     {
+      "arena": "agents",
+      "category": "pptxslides",
+      "elo": 1071,
+      "rank": 9,
+      "win_rate": 32.5
+     },
+     {
+      "arena": "agents",
+      "category": "python-pptxslides",
+      "elo": 1072,
+      "rank": 21,
+      "win_rate": 30.8
+     },
+     {
+      "arena": "agents",
+      "category": "webapps",
+      "elo": 1159,
+      "rank": 26,
+      "win_rate": 44.3
+     },
+     {
+      "arena": "models",
+      "category": "3d",
+      "elo": 1163,
+      "rank": 64,
+      "win_rate": 42.2
+     },
+     {
+      "arena": "models",
+      "category": "asciiart",
+      "elo": 1161,
+      "rank": 39,
+      "win_rate": 45.2
+     },
+     {
+      "arena": "models",
+      "category": "codecategories",
+      "elo": 1205,
+      "rank": 48,
+      "win_rate": 45.3
+     },
+     {
+      "arena": "models",
+      "category": "dataviz",
+      "elo": 1203,
+      "rank": 49,
+      "win_rate": 46.2
+     },
+     {
+      "arena": "models",
+      "category": "gamedev",
+      "elo": 1210,
+      "rank": 46,
+      "win_rate": 46
+     },
+     {
+      "arena": "models",
+      "category": "svg",
+      "elo": 1123,
+      "rank": 56,
+      "win_rate": 40.1
+     },
+     {
+      "arena": "models",
+      "category": "uicomponent",
+      "elo": 1214,
+      "rank": 45,
+      "win_rate": 46.4
+     },
+     {
+      "arena": "models",
+      "category": "website",
+      "elo": 1208,
+      "rank": 54,
+      "win_rate": 45.3
+     }
+    ]
+   },
+   "canonical_slug": "x-ai/grok-4.3-20260430",
+   "context_length": 1000000,
+   "created": 1777591821,
+   "default_parameters": {
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null,
+    "temperature": null,
+    "top_k": null,
+    "top_p": null
+   },
+   "description": "Grok 4.3 is a reasoning model from SpaceXAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "x-ai/grok-4.3:batch",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/x-ai/grok-4.3-20260430/endpoints"
+   },
+   "name": "SpaceXAI: Grok 4.3 (batch)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.000002",
+    "input_cache_read": "0.00000016",
+    "overrides": [
+     {
+      "completion": "0.000004",
+      "input_cache_read": "0.00000032",
+      "min_prompt_tokens": 200000,
+      "prompt": "0.000002"
+     }
+    ],
+    "prompt": "0.000001",
+    "web_search": "0.005"
+   },
+   "reasoning": {
+    "default_effort": "low",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "medium",
+     "none"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "logprobs",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_logprobs",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1000000,
+    "is_moderated": false,
+    "max_completion_tokens": 900000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Grok"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
      "agentic_index": 48.9,
      "coding_index": 72.4,
      "intelligence_index": 55.8
@@ -40135,5 +40373,5 @@
  "links": {
   "next": null
  },
- "total_count": 426
+ "total_count": 427
 }
