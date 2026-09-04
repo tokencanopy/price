@@ -8301,51 +8301,6 @@
     },
     {
      "context_length": 1048576,
-     "max_completion_tokens": 943718,
-     "max_prompt_tokens": null,
-     "model_id": "deepseek/deepseek-v4-flash-0731",
-     "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
-     "name": "Ambient | deepseek/deepseek-v4-flash-20260731",
-     "pricing": {
-      "completion": "0.00000018",
-      "discount": 0,
-      "input_cache_read": "0.000000016",
-      "prompt": "0.00000008"
-     },
-     "provider_name": "Ambient",
-     "quantization": "fp4",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "ambient/fp4"
-    },
-    {
-     "context_length": 1048576,
      "max_completion_tokens": 393216,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4-flash-0731",
@@ -8646,9 +8601,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "DeepSeek | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000132",
+      "completion": "0.00000066",
       "discount": 0,
-      "input_cache_read": "0.000000014",
+      "input_cache_read": "0.000000007",
       "overrides": [
        {
         "completion": "0.00000066",
@@ -8730,7 +8685,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000044"
+      "prompt": "0.00000022"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -9027,10 +8982,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Morph | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.000000278",
+      "completion": "0.0000003475",
       "discount": 0,
-      "input_cache_read": "0.000000025",
-      "prompt": "0.00000009875"
+      "input_cache_read": "0.00000003125",
+      "prompt": "0.000000123438"
      },
      "provider_name": "Morph",
      "quantization": "bf16",
@@ -9692,9 +9647,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
      "name": "DeepSeek | deepseek/deepseek-v4-flash-vision-exp-20260821",
      "pricing": {
-      "completion": "0.00000132",
+      "completion": "0.00000066",
       "discount": 0,
-      "input_cache_read": "0.000000014",
+      "input_cache_read": "0.000000007",
       "overrides": [
        {
         "completion": "0.00000066",
@@ -9776,7 +9731,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000044"
+      "prompt": "0.00000022"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -10772,6 +10727,44 @@
     },
     {
      "context_length": 1048576,
+     "max_completion_tokens": 393216,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4-pro-0813",
+     "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
+     "name": "Baidu | deepseek/deepseek-v4-pro-20260813",
+     "pricing": {
+      "completion": "0.00000396",
+      "discount": 0,
+      "input_cache_read": "0.000000132",
+      "prompt": "0.00000132"
+     },
+     "provider_name": "Baidu",
+     "quantization": "fp8",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "baidu/fp8"
+    },
+    {
+     "context_length": 1048576,
      "max_completion_tokens": 262144,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4-pro-0813",
@@ -10990,9 +10983,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000396",
+      "completion": "0.00000198",
       "discount": 0,
-      "input_cache_read": "0.000000044",
+      "input_cache_read": "0.000000022",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -11074,7 +11067,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000132"
+      "prompt": "0.00000066"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -26204,10 +26197,10 @@
      "model_name": "MoonshotAI: Kimi K2.6",
      "name": "Decart | moonshotai/kimi-k2.6-20260420",
      "pricing": {
-      "completion": "0.00000245",
+      "completion": "0.000003332",
       "discount": 0,
       "input_cache_read": "0.000000098",
-      "prompt": "0.0000005194"
+      "prompt": "0.0000005684"
      },
      "provider_name": "Decart",
      "quantization": "fp4",
@@ -26412,10 +26405,10 @@
      "model_name": "MoonshotAI: Kimi K2.6",
      "name": "Inceptron | moonshotai/kimi-k2.6-20260420",
      "pricing": {
-      "completion": "0.0000025",
+      "completion": "0.00000339",
       "discount": 0,
-      "input_cache_read": "0.0000001",
-      "prompt": "0.00000051"
+      "input_cache_read": "0.00000017",
+      "prompt": "0.00000056"
      },
      "provider_name": "Inceptron",
      "quantization": "int4",
@@ -26791,45 +26784,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "alibaba/fp8"
-    },
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 235929,
-     "max_prompt_tokens": null,
-     "model_id": "moonshotai/kimi-k2.7-code",
-     "model_name": "MoonshotAI: Kimi K2.7 Code",
-     "name": "Ambient | moonshotai/kimi-k2.7-code-20260612",
-     "pricing": {
-      "completion": "0.00000349",
-      "discount": 0,
-      "input_cache_read": "0.00000014",
-      "prompt": "0.00000069"
-     },
-     "provider_name": "Ambient",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "reasoning",
-      "response_format",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "ambient"
     },
     {
      "context_length": 262000,
@@ -48024,6 +47978,7 @@
       "frequency_penalty",
       "include_reasoning",
       "max_tokens",
+      "parallel_tool_calls",
       "presence_penalty",
       "reasoning",
       "response_format",
@@ -48081,6 +48036,7 @@
       "frequency_penalty",
       "include_reasoning",
       "max_tokens",
+      "parallel_tool_calls",
       "presence_penalty",
       "reasoning",
       "response_format",
@@ -53916,10 +53872,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Decart | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.000003652",
-      "discount": 0.17,
-      "input_cache_read": "0.0000001909",
-      "prompt": "0.000001162"
+      "completion": "0.00000374",
+      "discount": 0.15,
+      "input_cache_read": "0.0000001955",
+      "prompt": "0.00000119"
      },
      "provider_name": "Decart",
      "quantization": "fp4",

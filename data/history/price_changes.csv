@@ -13737,3 +13737,32 @@ observed_at,source,platform,model_key,variant,region,metric,model_name,old_usd_p
 2026-09-04T06:44:05+00:00,openrouter,Fireworks,moonshotai/kimi-k2.7-code,unknown,,input,MoonshotAI: Kimi K2.7 Code,,0.95,
 2026-09-04T06:44:05+00:00,openrouter,Fireworks,moonshotai/kimi-k2.7-code,unknown,,output,MoonshotAI: Kimi K2.7 Code,,4.0,
 2026-09-04T06:44:05+00:00,openrouter,Fireworks,moonshotai/kimi-k2.7-code,unknown,,cache_read,MoonshotAI: Kimi K2.7 Code,,0.19,
+2026-09-04T12:40:06+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-flash-0731,unknown,,input,DeepSeek: DeepSeek V4 Flash 0731,0.44,0.22,-50.0
+2026-09-04T12:40:06+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-flash-0731,unknown,,output,DeepSeek: DeepSeek V4 Flash 0731,1.32,0.66,-50.0
+2026-09-04T12:40:06+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-flash-0731,unknown,,cache_read,DeepSeek: DeepSeek V4 Flash 0731,0.014,0.007,-50.0
+2026-09-04T12:40:06+00:00,openrouter,Morph,deepseek-ai/deepseek-v4-flash-0731,bf16,,input,DeepSeek: DeepSeek V4 Flash 0731,0.09875,0.123438,25.0
+2026-09-04T12:40:06+00:00,openrouter,Morph,deepseek-ai/deepseek-v4-flash-0731,bf16,,output,DeepSeek: DeepSeek V4 Flash 0731,0.278,0.3475,25.0
+2026-09-04T12:40:06+00:00,openrouter,Morph,deepseek-ai/deepseek-v4-flash-0731,bf16,,cache_read,DeepSeek: DeepSeek V4 Flash 0731,0.025,0.03125,25.0
+2026-09-04T12:40:06+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-flash-vision-exp,unknown,,input,DeepSeek: DeepSeek V4 Flash Vision Exp,0.44,0.22,-50.0
+2026-09-04T12:40:06+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-flash-vision-exp,unknown,,output,DeepSeek: DeepSeek V4 Flash Vision Exp,1.32,0.66,-50.0
+2026-09-04T12:40:06+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-flash-vision-exp,unknown,,cache_read,DeepSeek: DeepSeek V4 Flash Vision Exp,0.014,0.007,-50.0
+2026-09-04T12:40:06+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-pro-0813,fp8,,input,DeepSeek: DeepSeek V4 Pro 0813,,1.32,
+2026-09-04T12:40:06+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-pro-0813,fp8,,output,DeepSeek: DeepSeek V4 Pro 0813,,3.96,
+2026-09-04T12:40:06+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-pro-0813,fp8,,cache_read,DeepSeek: DeepSeek V4 Pro 0813,,0.132,
+2026-09-04T12:40:06+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,input,DeepSeek: DeepSeek V4 Pro 0813,1.32,0.66,-50.0
+2026-09-04T12:40:06+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,output,DeepSeek: DeepSeek V4 Pro 0813,3.96,1.98,-50.0
+2026-09-04T12:40:06+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,cache_read,DeepSeek: DeepSeek V4 Pro 0813,0.044,0.022,-50.0
+2026-09-04T12:40:06+00:00,openrouter,Decart,moonshotai/kimi-k2.6,fp4,,input,MoonshotAI: Kimi K2.6,0.5194,0.5684,9.43
+2026-09-04T12:40:06+00:00,openrouter,Decart,moonshotai/kimi-k2.6,fp4,,output,MoonshotAI: Kimi K2.6,2.45,3.332,36.0
+2026-09-04T12:40:06+00:00,openrouter,Inceptron,moonshotai/kimi-k2.6,int4,,input,MoonshotAI: Kimi K2.6,0.51,0.56,9.8
+2026-09-04T12:40:06+00:00,openrouter,Inceptron,moonshotai/kimi-k2.6,int4,,output,MoonshotAI: Kimi K2.6,2.5,3.39,35.6
+2026-09-04T12:40:06+00:00,openrouter,Inceptron,moonshotai/kimi-k2.6,int4,,cache_read,MoonshotAI: Kimi K2.6,0.1,0.17,70.0
+2026-09-04T12:40:06+00:00,openrouter,Decart,zai-org/glm-5.3,fp4,,input,Z.ai: GLM 5.3,1.162,1.19,2.41
+2026-09-04T12:40:06+00:00,openrouter,Decart,zai-org/glm-5.3,fp4,,output,Z.ai: GLM 5.3,3.652,3.74,2.41
+2026-09-04T12:40:06+00:00,openrouter,Decart,zai-org/glm-5.3,fp4,,cache_read,Z.ai: GLM 5.3,0.1909,0.1955,2.41
+2026-09-04T12:40:06+00:00,openrouter,Ambient,deepseek-ai/deepseek-v4-flash-0731,fp4,,cache_read,DeepSeek: DeepSeek V4 Flash 0731,0.016,,
+2026-09-04T12:40:06+00:00,openrouter,Ambient,deepseek-ai/deepseek-v4-flash-0731,fp4,,input,DeepSeek: DeepSeek V4 Flash 0731,0.08,,
+2026-09-04T12:40:06+00:00,openrouter,Ambient,deepseek-ai/deepseek-v4-flash-0731,fp4,,output,DeepSeek: DeepSeek V4 Flash 0731,0.18,,
+2026-09-04T12:40:06+00:00,openrouter,Ambient,moonshotai/kimi-k2.7-code,unknown,,cache_read,MoonshotAI: Kimi K2.7 Code,0.14,,
+2026-09-04T12:40:06+00:00,openrouter,Ambient,moonshotai/kimi-k2.7-code,unknown,,input,MoonshotAI: Kimi K2.7 Code,0.69,,
+2026-09-04T12:40:06+00:00,openrouter,Ambient,moonshotai/kimi-k2.7-code,unknown,,output,MoonshotAI: Kimi K2.7 Code,3.49,,
