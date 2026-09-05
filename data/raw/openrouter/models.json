@@ -6843,9 +6843,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000016996",
-    "input_cache_read": "0.000000016996",
-    "prompt": "0.00000008498"
+    "completion": "0.00000016828",
+    "input_cache_read": "0.000000016828",
+    "prompt": "0.00000008414"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7409,9 +7409,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000001760532",
-    "input_cache_read": "0.0000000733555",
-    "prompt": "0.000000880266"
+    "completion": "0.000001658916",
+    "input_cache_read": "0.0000000691215",
+    "prompt": "0.000000829458"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7489,9 +7489,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000336204",
-    "input_cache_read": "0.000000037356",
-    "prompt": "0.00000112068"
+    "completion": "0.00000173844",
+    "input_cache_read": "0.000000019316",
+    "prompt": "0.00000057948"
    },
    "reasoning": {
     "default_effort": "high",
@@ -31973,8 +31973,9 @@
    "name": "Qwen: Qwen3.5-35B-A3B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000075",
-    "prompt": "0.00000008"
+    "completion": "0.00000125",
+    "input_cache_read": "0.00000015625",
+    "prompt": "0.0000003125"
    },
    "reasoning": {
     "mandatory": false
@@ -32002,7 +32003,7 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 262144,
+    "context_length": 256000,
     "is_moderated": false,
     "max_completion_tokens": 16384
    }
@@ -34765,8 +34766,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -34783,7 +34784,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
