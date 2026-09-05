@@ -7641,10 +7641,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "Baidu | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.00000017584",
-      "discount": 0.372,
-      "input_cache_read": "0.000000017584",
-      "prompt": "0.00000008792"
+      "completion": "0.00000017472",
+      "discount": 0.376,
+      "input_cache_read": "0.000000017472",
+      "prompt": "0.00000008736"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -7802,7 +7802,7 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "prompt": "0.000000175"
+      "prompt": "0.00000018"
      },
      "provider_name": "Mancer 2",
      "quantization": "fp8",
@@ -8059,10 +8059,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.00000017556",
-      "discount": 0.373,
-      "input_cache_read": "0.000000017556",
-      "prompt": "0.00000008778"
+      "completion": "0.00000017444",
+      "discount": 0.377,
+      "input_cache_read": "0.000000017444",
+      "prompt": "0.00000008722"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -8204,9 +8204,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.000000528",
+      "completion": "0.000001056",
       "discount": 0,
-      "input_cache_read": "0.0000000176",
+      "input_cache_read": "0.0000000352",
       "overrides": [
        {
         "completion": "0.000000528",
@@ -8223,7 +8223,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000176"
+      "prompt": "0.000000352"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -10038,10 +10038,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.00000202124",
-      "discount": 0.402,
-      "input_cache_read": "0.00000008372",
-      "prompt": "0.00000101062"
+      "completion": "0.0000019604",
+      "discount": 0.42,
+      "input_cache_read": "0.0000000812",
+      "prompt": "0.0000009802"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10530,10 +10530,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.000002003784",
-      "discount": 0.4242,
-      "input_cache_read": "0.000000083491",
-      "prompt": "0.000001001892"
+      "completion": "0.000001963416",
+      "discount": 0.4358,
+      "input_cache_read": "0.000000081809",
+      "prompt": "0.000000981708"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -10630,9 +10630,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.0000017424",
+      "completion": "0.000003366",
       "discount": 0,
-      "input_cache_read": "0.00000005808",
+      "input_cache_read": "0.0000001122",
       "overrides": [
        {
         "completion": "0.0000017424",
@@ -10649,7 +10649,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000005808"
+      "prompt": "0.000001122"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -11434,10 +11434,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000173844",
-      "discount": 0.561,
-      "input_cache_read": "0.000000019316",
-      "prompt": "0.00000057948"
+      "completion": "0.00000336204",
+      "discount": 0.151,
+      "input_cache_read": "0.000000037356",
+      "prompt": "0.00000112068"
      },
      "provider_name": "StreamLake",
      "quantization": "unknown",
@@ -18747,7 +18747,7 @@
      "max_completion_tokens": 32768,
      "max_prompt_tokens": null,
      "model_id": "inclusionai/ling-3.0-flash",
-     "model_name": "Ling-3.0-flash",
+     "model_name": "inclusionAI: Ling 3.0 Flash",
      "name": "DeepInfra | inclusionai/ling-3.0-flash-20260723",
      "pricing": {
       "completion": "0.00000018",
@@ -18790,7 +18790,7 @@
      "max_completion_tokens": 32768,
      "max_prompt_tokens": null,
      "model_id": "inclusionai/ling-3.0-flash",
-     "model_name": "Ling-3.0-flash",
+     "model_name": "inclusionAI: Ling 3.0 Flash",
      "name": "Novita | inclusionai/ling-3.0-flash-20260723",
      "pricing": {
       "completion": "0.000000063",
@@ -18829,7 +18829,7 @@
     }
    ],
    "id": "inclusionai/ling-3.0-flash",
-   "name": "Ling-3.0-flash"
+   "name": "inclusionAI: Ling 3.0 Flash"
   },
   "inclusionai/ling-3.0-flash-fin": {
    "architecture": {
@@ -18851,7 +18851,7 @@
      "max_completion_tokens": 235929,
      "max_prompt_tokens": null,
      "model_id": "inclusionai/ling-3.0-flash-fin",
-     "model_name": "Ling 3.0 Flash Fin",
+     "model_name": "inclusionAI: Ling 3.0 Flash Fin",
      "name": "DeepInfra | inclusionai/ling-3.0-flash-fin-20260827",
      "pricing": {
       "completion": "0.00000018",
@@ -18892,7 +18892,7 @@
     }
    ],
    "id": "inclusionai/ling-3.0-flash-fin",
-   "name": "Ling 3.0 Flash Fin"
+   "name": "inclusionAI: Ling 3.0 Flash Fin"
   },
   "kwaipilot/kat-coder-pro-v2": {
    "architecture": {
@@ -27913,8 +27913,8 @@
      "tag": "phala"
     },
     {
-     "context_length": 974842,
-     "max_completion_tokens": 877357,
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
      "max_prompt_tokens": null,
      "model_id": "moonshotai/kimi-k3",
      "model_name": "MoonshotAI: Kimi K3",
@@ -35302,6 +35302,518 @@
    "id": "openai/gpt-5.6-terra-pro",
    "name": "OpenAI: GPT-5.6 Terra Pro"
   },
+  "openai/gpt-6-astra": {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "created": 1788552838,
+   "description": "GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-horizon...",
+   "endpoints": [
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-astra",
+     "model_name": "OpenAI: GPT-6 Astra",
+     "name": "Azure | openai/gpt-6-astra-20260903",
+     "pricing": {
+      "completion": "0.00005",
+      "discount": 0,
+      "input_cache_read": "0.000001",
+      "input_cache_write": "0.0000125",
+      "overrides": [
+       {
+        "completion": "0.000075",
+        "input_cache_read": "0.000002",
+        "input_cache_write": "0.000025",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.00002"
+       }
+      ],
+      "prompt": "0.00001",
+      "web_search": "0.01"
+     },
+     "provider_name": "Azure",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "azure"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "openai/gpt-6-astra",
+     "model_name": "OpenAI: GPT-6 Astra",
+     "name": "Azure | openai/gpt-6-astra-20260903",
+     "pricing": {
+      "completion": "0.000055",
+      "discount": 0,
+      "input_cache_read": "0.0000011",
+      "input_cache_write": "0.00001375",
+      "overrides": [
+       {
+        "completion": "0.0000825",
+        "input_cache_read": "0.0000022",
+        "input_cache_write": "0.0000275",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000022"
+       }
+      ],
+      "prompt": "0.000011",
+      "web_search": "0.01"
+     },
+     "provider_name": "Azure",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "azure/us"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-astra",
+     "model_name": "OpenAI: GPT-6 Astra",
+     "name": "OpenAI | openai/gpt-6-astra-20260903",
+     "pricing": {
+      "completion": "0.000025",
+      "discount": 0,
+      "input_cache_read": "0.0000005",
+      "input_cache_write": "0.00000625",
+      "overrides": [
+       {
+        "completion": "0.0000375",
+        "input_cache_read": "0.000001",
+        "input_cache_write": "0.0000125",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.00001"
+       }
+      ],
+      "prompt": "0.000005",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai/flex"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-astra",
+     "model_name": "OpenAI: GPT-6 Astra",
+     "name": "OpenAI | openai/gpt-6-astra-20260903",
+     "pricing": {
+      "completion": "0.00005",
+      "discount": 0,
+      "input_cache_read": "0.000001",
+      "input_cache_write": "0.0000125",
+      "overrides": [
+       {
+        "completion": "0.000075",
+        "input_cache_read": "0.000002",
+        "input_cache_write": "0.000025",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.00002"
+       }
+      ],
+      "prompt": "0.00001",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-astra",
+     "model_name": "OpenAI: GPT-6 Astra",
+     "name": "OpenAI | openai/gpt-6-astra-20260903",
+     "pricing": {
+      "completion": "0.0001",
+      "discount": 0,
+      "input_cache_read": "0.000002",
+      "input_cache_write": "0.000025",
+      "overrides": [
+       {
+        "completion": "0.00015",
+        "input_cache_read": "0.000004",
+        "input_cache_write": "0.00005",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.00004"
+       }
+      ],
+      "prompt": "0.00002",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai/fast"
+    }
+   ],
+   "id": "openai/gpt-6-astra",
+   "name": "OpenAI: GPT-6 Astra"
+  },
+  "openai/gpt-6-astra-pro": {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "created": 1788552835,
+   "description": "GPT-6 Astra Pro is the same underlying model as [GPT-6 Astra](https://openrouter.ai/openai/gpt-6-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+   "endpoints": [
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-astra-pro",
+     "model_name": "OpenAI: GPT-6 Astra Pro",
+     "name": "Azure | openai/gpt-6-astra-pro-20260903",
+     "pricing": {
+      "completion": "0.00005",
+      "discount": 0,
+      "input_cache_read": "0.000001",
+      "input_cache_write": "0.0000125",
+      "overrides": [
+       {
+        "completion": "0.000075",
+        "input_cache_read": "0.000002",
+        "input_cache_write": "0.000025",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.00002"
+       }
+      ],
+      "prompt": "0.00001",
+      "web_search": "0.01"
+     },
+     "provider_name": "Azure",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "azure"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "openai/gpt-6-astra-pro",
+     "model_name": "OpenAI: GPT-6 Astra Pro",
+     "name": "Azure | openai/gpt-6-astra-pro-20260903",
+     "pricing": {
+      "completion": "0.000055",
+      "discount": 0,
+      "input_cache_read": "0.0000011",
+      "input_cache_write": "0.00001375",
+      "overrides": [
+       {
+        "completion": "0.0000825",
+        "input_cache_read": "0.0000022",
+        "input_cache_write": "0.0000275",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000022"
+       }
+      ],
+      "prompt": "0.000011",
+      "web_search": "0.01"
+     },
+     "provider_name": "Azure",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "azure/us"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-astra-pro",
+     "model_name": "OpenAI: GPT-6 Astra Pro",
+     "name": "OpenAI | openai/gpt-6-astra-pro-20260903",
+     "pricing": {
+      "completion": "0.000025",
+      "discount": 0,
+      "input_cache_read": "0.0000005",
+      "input_cache_write": "0.00000625",
+      "overrides": [
+       {
+        "completion": "0.0000375",
+        "input_cache_read": "0.000001",
+        "input_cache_write": "0.0000125",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.00001"
+       }
+      ],
+      "prompt": "0.000005",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai/flex"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-astra-pro",
+     "model_name": "OpenAI: GPT-6 Astra Pro",
+     "name": "OpenAI | openai/gpt-6-astra-pro-20260903",
+     "pricing": {
+      "completion": "0.00005",
+      "discount": 0,
+      "input_cache_read": "0.000001",
+      "input_cache_write": "0.0000125",
+      "overrides": [
+       {
+        "completion": "0.000075",
+        "input_cache_read": "0.000002",
+        "input_cache_write": "0.000025",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.00002"
+       }
+      ],
+      "prompt": "0.00001",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-astra-pro",
+     "model_name": "OpenAI: GPT-6 Astra Pro",
+     "name": "OpenAI | openai/gpt-6-astra-pro-20260903",
+     "pricing": {
+      "completion": "0.0001",
+      "discount": 0,
+      "input_cache_read": "0.000002",
+      "input_cache_write": "0.000025",
+      "overrides": [
+       {
+        "completion": "0.00015",
+        "input_cache_read": "0.000004",
+        "input_cache_write": "0.00005",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.00004"
+       }
+      ],
+      "prompt": "0.00002",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai/fast"
+    }
+   ],
+   "id": "openai/gpt-6-astra-pro",
+   "name": "OpenAI: GPT-6 Astra Pro"
+  },
   "openai/gpt-audio": {
    "architecture": {
     "input_modalities": [
@@ -35989,7 +36501,7 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "prompt": "0.000000055"
+      "prompt": "0.00000006"
      },
      "provider_name": "Mancer 2",
      "quantization": "fp8",
@@ -45298,7 +45810,7 @@
       "completion": "0.0000022",
       "discount": 0,
       "input_cache_read": "0.00000005",
-      "prompt": "0.00000028"
+      "prompt": "0.00000024"
      },
      "provider_name": "Parasail",
      "quantization": "fp8",
@@ -45344,7 +45856,7 @@
       "completion": "0.000003",
       "discount": 0,
       "input_cache_read": "0.00000005",
-      "prompt": "0.0000004"
+      "prompt": "0.0000003"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -46861,9 +47373,9 @@
      "model_name": "Tencent: Hy3",
      "name": "Tencent | tencent/hy3-20260706",
      "pricing": {
-      "completion": "0.00000033",
+      "completion": "0.000000528",
       "discount": 0,
-      "input_cache_read": "0.000000020625",
+      "input_cache_read": "0.000000033",
       "overrides": [
        {
         "completion": "0.00000033",
@@ -46880,7 +47392,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000000825"
+      "prompt": "0.000000132"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -52130,10 +52642,10 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "Baidu | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.0000013156",
-      "discount": 0.701,
-      "input_cache_read": "0.00000007774",
-      "prompt": "0.0000004186"
+      "completion": "0.0000012672",
+      "discount": 0.712,
+      "input_cache_read": "0.00000007488",
+      "prompt": "0.0000004032"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -53158,50 +53670,6 @@
     },
     {
      "context_length": 1048576,
-     "max_completion_tokens": 131072,
-     "max_prompt_tokens": null,
-     "model_id": "z-ai/glm-5.2",
-     "model_name": "Z.ai: GLM 5.2",
-     "name": "Sail Research | z-ai/glm-5.2-20260616",
-     "pricing": {
-      "completion": "0.00000315",
-      "discount": 0,
-      "input_cache_read": "0.000000115",
-      "prompt": "0.0000005"
-     },
-     "provider_name": "Sail Research",
-     "quantization": "fp8",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "sail-research/fp8"
-    },
-    {
-     "context_length": 1048576,
      "max_completion_tokens": 262144,
      "max_prompt_tokens": null,
      "model_id": "z-ai/glm-5.2",
@@ -53245,10 +53713,10 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "StreamLake | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.00000132",
-      "discount": 0.7,
-      "input_cache_read": "0.000000078",
-      "prompt": "0.00000042"
+      "completion": "0.0000012716",
+      "discount": 0.711,
+      "input_cache_read": "0.00000007514",
+      "prompt": "0.0000004046"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -54645,6 +55113,51 @@
     },
     {
      "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "z-ai/glm-5.3-flash",
+     "model_name": "Z.ai: GLM 5.3 Flash",
+     "name": "CoreWeave | z-ai/glm-5.3-flash-20260826",
+     "pricing": {
+      "completion": "0.0000005",
+      "discount": 0,
+      "input_cache_read": "0.00000005",
+      "prompt": "0.00000015"
+     },
+     "provider_name": "CoreWeave",
+     "quantization": "fp8",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "coreweave/fp8"
+    },
+    {
+     "context_length": 1048576,
      "max_completion_tokens": 131072,
      "max_prompt_tokens": null,
      "model_id": "z-ai/glm-5.3-flash",
@@ -54657,7 +55170,7 @@
       "prompt": "0.000000075"
      },
      "provider_name": "DeepInfra",
-     "quantization": "fp8",
+     "quantization": "fp4",
      "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
@@ -54686,7 +55199,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "deepinfra/fp8"
+     "tag": "deepinfra/fp4"
     },
     {
      "context_length": 1048576,
