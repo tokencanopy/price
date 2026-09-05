@@ -6843,9 +6843,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000017444",
-    "input_cache_read": "0.000000017444",
-    "prompt": "0.00000008722"
+    "completion": "0.0000001722",
+    "input_cache_read": "0.00000001722",
+    "prompt": "0.0000000861"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7409,9 +7409,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000001963416",
-    "input_cache_read": "0.000000081809",
-    "prompt": "0.000000981708"
+    "completion": "0.000001882332",
+    "input_cache_read": "0.0000000784305",
+    "prompt": "0.000000941166"
    },
    "reasoning": {
     "default_effort": "high",
@@ -33719,91 +33719,19 @@
     ],
     "tokenizer": "Qwen"
    },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": 49.9,
-     "coding_index": 68.9,
-     "intelligence_index": 53.4
-    },
-    "design_arena": [
-     {
-      "arena": "agents",
-      "category": "fullstack",
-      "elo": 1321,
-      "rank": 4,
-      "win_rate": 65.2
-     },
-     {
-      "arena": "agents",
-      "category": "mobileapps",
-      "elo": 1261,
-      "rank": 5,
-      "win_rate": 55.8
-     },
-     {
-      "arena": "agents",
-      "category": "webapps",
-      "elo": 1335,
-      "rank": 2,
-      "win_rate": 64.1
-     },
-     {
-      "arena": "models",
-      "category": "3d",
-      "elo": 1366,
-      "rank": 4,
-      "win_rate": 59.5
-     },
-     {
-      "arena": "models",
-      "category": "codecategories",
-      "elo": 1309,
-      "rank": 10,
-      "win_rate": 54.6
-     },
-     {
-      "arena": "models",
-      "category": "dataviz",
-      "elo": 1279,
-      "rank": 22,
-      "win_rate": 52.5
-     },
-     {
-      "arena": "models",
-      "category": "gamedev",
-      "elo": 1327,
-      "rank": 10,
-      "win_rate": 56.1
-     },
-     {
-      "arena": "models",
-      "category": "uicomponent",
-      "elo": 1354,
-      "rank": 4,
-      "win_rate": 60.5
-     },
-     {
-      "arena": "models",
-      "category": "website",
-      "elo": 1295,
-      "rank": 16,
-      "win_rate": 52.8
-     }
-    ]
-   },
-   "canonical_slug": "qwen/qwen3.8-max-20260803",
+   "canonical_slug": "qwen/qwen3.8-max-20260902",
    "context_length": 1000000,
-   "created": 1785731612,
+   "created": 1788469704,
    "default_parameters": {},
-   "description": "Qwen3.8 Max is the flagship model in Alibaba's Qwen3.8 series, the general-availability successor to the Qwen3.8 Max Preview. It is a multimodal reasoning model intended for complex reasoning, visual understanding,...",
+   "description": "Qwen3.8 Max 0902 is an updated snapshot of Qwen3.8 Max from Alibaba's Qwen team. It is a 2.4-trillion-parameter mixture-of-experts model that accepts text, image, and video input and returns text,...",
    "expiration_date": null,
    "hugging_face_id": null,
-   "id": "qwen/qwen3.8-max",
+   "id": "qwen/qwen3.8-max-0902",
    "knowledge_cutoff": null,
    "links": {
-    "details": "/api/v1/models/qwen/qwen3.8-max-20260803/endpoints"
+    "details": "/api/v1/models/qwen/qwen3.8-max-20260902/endpoints"
    },
-   "name": "Qwen: Qwen3.8 Max",
+   "name": "Qwen: Qwen3.8 Max (0902)",
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000006",
