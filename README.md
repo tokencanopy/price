@@ -3,7 +3,7 @@
 **A public, machine-readable record of what LLM inference actually costs — and how that price changes over time.** Refreshed every 6 hours.
 
 <!-- BEGIN STATS -->
-**13,403** price points · **889** models · **73** platforms · updated **2026-09-05 06:38 UTC** · history since **2026-09-02** (4 snapshots)
+**13,405** price points · **889** models · **73** platforms · updated **2026-09-05 12:34 UTC** · history since **2026-09-02** (4 snapshots)
 <!-- END STATS -->
 
 Every provider publishes today's price. **Nobody publishes yesterday's.** This repo
@@ -44,15 +44,15 @@ yourself.
 | Z.ai: GLM 5.3 | 26 | [Reka](https://reka.ai/) | $1.15 | $3.50 | 1.8× |
 | Z.ai: GLM 5.2 | 25 | [StreamLake](https://www.streamlake.ai/) | $0.34 | $1.08 | 4.1× |
 | Z.ai: GLM 5.3 Flash | 24 | [DeepInfra](https://deepinfra.com/) | $0.07 | $0.25 | 2.0× |
-| MoonshotAI: Kimi K2.6 | 20 | [Decart](https://cogito.decart.ai/) | $0.55 | $2.31 | 2.0× |
-| OpenAI: gpt-oss-120b | 18 | [AkashML](https://akashml.com/) | $0.03 | $0.17 | 11.7× |
+| MoonshotAI: Kimi K2.6 | 20 | [Baidu](https://intl.cloud.baidu.com/) | $0.54 | $2.26 | 2.0× |
+| OpenAI: gpt-oss-120b | 19 | [AkashML](https://akashml.com/) | $0.03 | $0.17 | 11.7× |
 | DeepSeek: DeepSeek V4 Pro 0813 | 18 | [DeepSeek](https://deepseek.com/) | $0.66 | $1.98 | 2.2× |
 | DeepSeek: DeepSeek V4 Pro 0423 | 16 | [DigitalOcean](https://www.digitalocean.com/) | $0.87 | $1.74 | 2.2× |
 | Z.ai: GLM 5.1 | 16 | [Baidu](https://intl.cloud.baidu.com/) | $0.91 | $2.86 | 1.7× |
 | DeepSeek: DeepSeek V3.2 | 15 | [GMICloud](https://gmicloud.ai/) | $0.21 | $0.31 | 14.4× |
 | DeepSeek: DeepSeek V4 Flash 0423 | 15 | [DigitalOcean](https://www.digitalocean.com/) | $0.07 | $0.17 | 3.1× |
 | MoonshotAI: Kimi K2.7 Code | 15 | [Inceptron](https://www.inceptron.io/) | $0.66 | $3.40 | 1.4× |
-| MoonshotAI: Kimi K3 | 15 | [Morph](https://morphllm.com/) | $2.50 | $14.00 | 1.4× |
+| MoonshotAI: Kimi K3 | 15 | [Makora](https://makora.statuspage.io/) | $2.55 | $12.75 | 1.4× |
 | Google: Gemma 4 31B | 14 | [DeepInfra](https://deepinfra.com/) | $0.09 | $0.38 | 11.0× |
 | OpenAI: gpt-oss-20b | 13 | [AkashML](https://akashml.com/) | $0.02 | $0.10 | 3.8× |
 <!-- END TABLE -->

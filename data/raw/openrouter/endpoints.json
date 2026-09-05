@@ -7641,10 +7641,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "Baidu | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.00000017248",
-      "discount": 0.384,
-      "input_cache_read": "0.000000017248",
-      "prompt": "0.00000008624"
+      "completion": "0.00000017024",
+      "discount": 0.392,
+      "input_cache_read": "0.000000017024",
+      "prompt": "0.00000008512"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -7802,7 +7802,7 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "prompt": "0.000000175"
+      "prompt": "0.00000018"
      },
      "provider_name": "Mancer 2",
      "quantization": "fp8",
@@ -8059,10 +8059,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.0000001722",
-      "discount": 0.385,
-      "input_cache_read": "0.00000001722",
-      "prompt": "0.0000000861"
+      "completion": "0.00000016996",
+      "discount": 0.393,
+      "input_cache_read": "0.000000016996",
+      "prompt": "0.00000008498"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -8892,7 +8892,7 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "prompt": "0.000000175"
+      "prompt": "0.00000018"
      },
      "provider_name": "Mancer 2",
      "quantization": "fp8",
@@ -10038,10 +10038,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.00000189956",
-      "discount": 0.438,
-      "input_cache_read": "0.00000007868",
-      "prompt": "0.00000094978"
+      "completion": "0.00000177788",
+      "discount": 0.474,
+      "input_cache_read": "0.00000007364",
+      "prompt": "0.00000088894"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10530,10 +10530,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.000001882332",
-      "discount": 0.4591,
-      "input_cache_read": "0.0000000784305",
-      "prompt": "0.000000941166"
+      "completion": "0.000001760532",
+      "discount": 0.4941,
+      "input_cache_read": "0.0000000733555",
+      "prompt": "0.000000880266"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -25802,10 +25802,10 @@
      "model_name": "MoonshotAI: Kimi K2.6",
      "name": "Baidu | moonshotai/kimi-k2.6-20260420",
      "pricing": {
-      "completion": "0.000002356",
-      "discount": 0.411,
-      "input_cache_read": "0.00000009424",
-      "prompt": "0.00000055955"
+      "completion": "0.00000226",
+      "discount": 0.435,
+      "input_cache_read": "0.0000000904",
+      "prompt": "0.00000053675"
      },
      "provider_name": "Baidu",
      "quantization": "fp4",
@@ -26094,10 +26094,10 @@
      "model_name": "MoonshotAI: Kimi K2.6",
      "name": "Decart | moonshotai/kimi-k2.6-20260420",
      "pricing": {
-      "completion": "0.0000023089",
+      "completion": "0.0000022618",
       "discount": 0,
-      "input_cache_read": "0.0000000924",
-      "prompt": "0.0000005484"
+      "input_cache_read": "0.0000000905",
+      "prompt": "0.0000005372"
      },
      "provider_name": "Decart",
      "quantization": "fp4",
@@ -27780,7 +27780,7 @@
       "completion": "0.000014",
       "discount": 0,
       "input_cache_read": "0.00000029",
-      "prompt": "0.0000025"
+      "prompt": "0.0000026"
      },
      "provider_name": "Morph",
      "quantization": "fp4",
@@ -36424,6 +36424,49 @@
      "tag": "deepinfra/turbo"
     },
     {
+     "context_length": 131072,
+     "max_completion_tokens": 117964,
+     "max_prompt_tokens": null,
+     "model_id": "openai/gpt-oss-120b",
+     "model_name": "OpenAI: gpt-oss-120b",
+     "name": "DeepInfra | openai/gpt-oss-120b",
+     "pricing": {
+      "completion": "0.00000095",
+      "discount": 0,
+      "prompt": "0.0000002"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp8",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": false,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp8"
+    },
+    {
      "context_length": 128000,
      "max_completion_tokens": 115200,
      "max_prompt_tokens": null,
@@ -36544,7 +36587,7 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "prompt": "0.00000005"
+      "prompt": "0.00000006"
      },
      "provider_name": "Mancer 2",
      "quantization": "fp8",
@@ -45943,7 +45986,7 @@
       "completion": "0.00000255",
       "discount": 0,
       "input_cache_read": "0.00000015",
-      "prompt": "0.00000024"
+      "prompt": "0.000000214"
      },
      "provider_name": "Reka",
      "quantization": "fp8",
