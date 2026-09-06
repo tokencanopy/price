@@ -38064,3 +38064,24 @@ observed_at,source,platform,model_key,variant,region,metric,model_name,old_usd_p
 2026-09-06T06:40:05+00:00,azure,Azure Foundry,azure:azure openai gpt5|5 pp cd inp dz,5 pp cd inp Dz,germanywestcentral,input,Azure OpenAI GPT5,,0.275,
 2026-09-06T06:40:05+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.4 pp opt gl,5.4 pp opt Gl,westus3,output,Azure OpenAI GPT5,,30.0,
 2026-09-06T06:40:05+00:00,azure,Azure Foundry,azure:mai models|mai-thinking-1 inp glbl,MAI-Thinking-1 Inp glbl,southindia,input,MAI Models,,2.0,
+2026-09-06T12:34:56+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-flash,fp8,,input,DeepSeek: DeepSeek V4 Flash 0423,0.08176,0.08064,-1.37
+2026-09-06T12:34:56+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-flash,fp8,,output,DeepSeek: DeepSeek V4 Flash 0423,0.16352,0.16128,-1.37
+2026-09-06T12:34:56+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-flash,fp8,,cache_read,DeepSeek: DeepSeek V4 Flash 0423,0.016352,0.016128,-1.37
+2026-09-06T12:34:56+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-flash,fp8,,input,DeepSeek: DeepSeek V4 Flash 0423,0.08162,0.0805,-1.37
+2026-09-06T12:34:56+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-flash,fp8,,output,DeepSeek: DeepSeek V4 Flash 0423,0.16324,0.161,-1.37
+2026-09-06T12:34:56+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-flash,fp8,,cache_read,DeepSeek: DeepSeek V4 Flash 0423,0.016324,0.0161,-1.37
+2026-09-06T12:34:56+00:00,openrouter,DeepInfra,deepseek-ai/deepseek-v4-flash-0731,fp8,,input,DeepSeek: DeepSeek V4 Flash 0731,0.08,0.06,-25.0
+2026-09-06T12:34:56+00:00,openrouter,DeepInfra,deepseek-ai/deepseek-v4-flash-0731,fp8,,cache_read,DeepSeek: DeepSeek V4 Flash 0731,0.016,0.015,-6.25
+2026-09-06T12:34:56+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-flash-0731,fp4,,input,DeepSeek: DeepSeek V4 Flash 0731,0.065,0.045,-30.77
+2026-09-06T12:34:56+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-flash-0731,fp4,,output,DeepSeek: DeepSeek V4 Flash 0731,0.18,0.09,-50.0
+2026-09-06T12:34:56+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-flash-0731,fp4,,cache_read,DeepSeek: DeepSeek V4 Flash 0731,0.016,0.009,-43.75
+2026-09-06T12:34:56+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-pro,fp8,,input,DeepSeek: DeepSeek V4 Pro 0423,0.74698,0.68614,-8.14
+2026-09-06T12:34:56+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-pro,fp8,,output,DeepSeek: DeepSeek V4 Pro 0423,1.49396,1.37228,-8.14
+2026-09-06T12:34:56+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-pro,fp8,,cache_read,DeepSeek: DeepSeek V4 Pro 0423,0.06188,0.05684,-8.14
+2026-09-06T12:34:56+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-pro,fp8,,input,DeepSeek: DeepSeek V4 Pro 0423,0.738282,0.677382,-8.25
+2026-09-06T12:34:56+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-pro,fp8,,output,DeepSeek: DeepSeek V4 Pro 0423,1.476564,1.354764,-8.25
+2026-09-06T12:34:56+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-pro,fp8,,cache_read,DeepSeek: DeepSeek V4 Pro 0423,0.061524,0.056448,-8.25
+2026-09-06T12:34:56+00:00,openrouter,Darkbloom,qwen/qwen3.8-27b,fp4,,output,Qwen: Qwen3.8 27B,0.2,2.0,900.0
+2026-09-06T12:34:56+00:00,openrouter,Reka,zai-org/glm-5.2,fp8,,cache_read,Z.ai: GLM 5.2,0.2,,
+2026-09-06T12:34:56+00:00,openrouter,Reka,zai-org/glm-5.2,fp8,,input,Z.ai: GLM 5.2,1.1,,
+2026-09-06T12:34:56+00:00,openrouter,Reka,zai-org/glm-5.2,fp8,,output,Z.ai: GLM 5.2,3.75,,

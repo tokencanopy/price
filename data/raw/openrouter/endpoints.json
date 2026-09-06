@@ -7641,10 +7641,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "Baidu | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.00000016352",
-      "discount": 0.416,
-      "input_cache_read": "0.000000016352",
-      "prompt": "0.00000008176"
+      "completion": "0.00000016128",
+      "discount": 0.424,
+      "input_cache_read": "0.000000016128",
+      "prompt": "0.00000008064"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -8059,10 +8059,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.00000016324",
-      "discount": 0.417,
-      "input_cache_read": "0.000000016324",
-      "prompt": "0.00000008162"
+      "completion": "0.000000161",
+      "discount": 0.425,
+      "input_cache_read": "0.0000000161",
+      "prompt": "0.0000000805"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -8468,8 +8468,8 @@
      "pricing": {
       "completion": "0.00000018",
       "discount": 0,
-      "input_cache_read": "0.000000016",
-      "prompt": "0.00000008"
+      "input_cache_read": "0.000000015",
+      "prompt": "0.00000006"
      },
      "provider_name": "DeepInfra",
      "quantization": "fp8",
@@ -9196,10 +9196,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Relace | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000018",
+      "completion": "0.00000009",
       "discount": 0,
-      "input_cache_read": "0.000000016",
-      "prompt": "0.000000065"
+      "input_cache_read": "0.000000009",
+      "prompt": "0.000000045"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -9993,10 +9993,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.00000149396",
-      "discount": 0.558,
-      "input_cache_read": "0.00000006188",
-      "prompt": "0.00000074698"
+      "completion": "0.00000137228",
+      "discount": 0.594,
+      "input_cache_read": "0.00000005684",
+      "prompt": "0.00000068614"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10485,10 +10485,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.000001476564",
-      "discount": 0.5757,
-      "input_cache_read": "0.0000000615235",
-      "prompt": "0.000000738282"
+      "completion": "0.000001354764",
+      "discount": 0.6107,
+      "input_cache_read": "0.0000000564485",
+      "prompt": "0.000000677382"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -45673,7 +45673,7 @@
      "model_name": "Qwen: Qwen3.8 27B",
      "name": "Darkbloom | qwen/qwen3.8-27b-20260814",
      "pricing": {
-      "completion": "0.0000002",
+      "completion": "0.000002",
       "discount": 0,
       "prompt": "0.00000015"
      },
@@ -53664,50 +53664,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "phala/fp8"
-    },
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 131072,
-     "max_prompt_tokens": null,
-     "model_id": "z-ai/glm-5.2",
-     "model_name": "Z.ai: GLM 5.2",
-     "name": "Reka | z-ai/glm-5.2-20260616",
-     "pricing": {
-      "completion": "0.00000375",
-      "discount": 0,
-      "input_cache_read": "0.0000002",
-      "prompt": "0.0000011"
-     },
-     "provider_name": "Reka",
-     "quantization": "fp8",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "reka/fp8"
     },
     {
      "context_length": 1048576,
