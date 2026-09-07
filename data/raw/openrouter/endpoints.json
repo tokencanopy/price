@@ -7763,10 +7763,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "GMICloud | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.000000224",
-      "discount": 0.2,
-      "input_cache_read": "0.0000000224",
-      "prompt": "0.000000112"
+      "completion": "0.000000182",
+      "discount": 0.35,
+      "input_cache_read": "0.0000000182",
+      "prompt": "0.000000091"
      },
      "provider_name": "GMICloud",
      "quantization": "fp8",
@@ -8511,9 +8511,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "DeepSeek | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000132",
+      "completion": "0.00000066",
       "discount": 0,
-      "input_cache_read": "0.000000014",
+      "input_cache_read": "0.000000007",
       "overrides": [
        {
         "completion": "0.00000066",
@@ -8595,7 +8595,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000044"
+      "prompt": "0.00000022"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -8716,10 +8716,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "GMICloud | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.000001056",
-      "discount": 0.2,
-      "input_cache_read": "0.0000000112",
-      "prompt": "0.000000352"
+      "completion": "0.000000858",
+      "discount": 0.35,
+      "input_cache_read": "0.0000000091",
+      "prompt": "0.000000286"
      },
      "provider_name": "GMICloud",
      "quantization": "fp8",
@@ -9602,9 +9602,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
      "name": "DeepSeek | deepseek/deepseek-v4-flash-vision-exp-20260821",
      "pricing": {
-      "completion": "0.00000132",
+      "completion": "0.00000066",
       "discount": 0,
-      "input_cache_read": "0.000000014",
+      "input_cache_read": "0.000000007",
       "overrides": [
        {
         "completion": "0.00000066",
@@ -9686,7 +9686,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000044"
+      "prompt": "0.00000022"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -10235,10 +10235,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "GMICloud | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.000002088",
-      "discount": 0.4,
-      "input_cache_read": "0.000000087",
-      "prompt": "0.000001044"
+      "completion": "0.000001914",
+      "discount": 0.45,
+      "input_cache_read": "0.00000007975",
+      "prompt": "0.000000957"
      },
      "provider_name": "GMICloud",
      "quantization": "fp8",
@@ -10263,49 +10263,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "gmicloud/fp8"
-    },
-    {
-     "context_length": 1048576,
-     "max_completion_tokens": 393216,
-     "max_prompt_tokens": null,
-     "model_id": "deepseek/deepseek-v4-pro",
-     "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
-     "name": "Ionstream | deepseek/deepseek-v4-pro-20260423",
-     "pricing": {
-      "completion": "0.000002262",
-      "discount": 0,
-      "input_cache_read": "0.000000094",
-      "prompt": "0.000001131"
-     },
-     "provider_name": "Ionstream",
-     "quantization": "fp4",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "ionstream/fp4"
     },
     {
      "context_length": 1048576,
@@ -10485,10 +10442,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.00000208452",
-      "discount": 0.401,
-      "input_cache_read": "0.000000086855",
-      "prompt": "0.00000104226"
+      "completion": "0.00000191052",
+      "discount": 0.451,
+      "input_cache_read": "0.000000079605",
+      "prompt": "0.00000095526"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -10866,6 +10823,7 @@
       "reasoning",
       "reasoning_effort",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
       "structured_outputs",
@@ -10893,9 +10851,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000396",
+      "completion": "0.00000198",
       "discount": 0,
-      "input_cache_read": "0.000000044",
+      "input_cache_read": "0.000000022",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -10977,7 +10935,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000132"
+      "prompt": "0.00000066"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -11098,10 +11056,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "GMICloud | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.000003366",
-      "discount": 0.15,
-      "input_cache_read": "0.0000000374",
-      "prompt": "0.000001122"
+      "completion": "0.000003168",
+      "discount": 0.2,
+      "input_cache_read": "0.0000000352",
+      "prompt": "0.000001056"
      },
      "provider_name": "GMICloud",
      "quantization": "fp8",
@@ -11179,10 +11137,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "Novita | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000396",
-      "discount": 0,
-      "input_cache_read": "0.000000132",
-      "prompt": "0.00000132"
+      "completion": "0.00000297",
+      "discount": 0.25,
+      "input_cache_read": "0.000000099",
+      "prompt": "0.00000099"
      },
      "provider_name": "Novita",
      "quantization": "fp8",
@@ -11389,10 +11347,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.0000033462",
-      "discount": 0.155,
-      "input_cache_read": "0.00000003718",
-      "prompt": "0.0000011154"
+      "completion": "0.0000031482",
+      "discount": 0.205,
+      "input_cache_read": "0.00000003498",
+      "prompt": "0.0000010494"
      },
      "provider_name": "StreamLake",
      "quantization": "unknown",
@@ -22074,10 +22032,10 @@
      "model_name": "MiniMax: MiniMax M2.7",
      "name": "GMICloud | minimax/minimax-m2.7-20260318",
      "pricing": {
-      "completion": "0.0000012",
-      "discount": 0,
-      "input_cache_read": "0.00000006",
-      "prompt": "0.0000003"
+      "completion": "0.00000084",
+      "discount": 0.3,
+      "input_cache_read": "0.000000042",
+      "prompt": "0.00000021"
      },
      "provider_name": "GMICloud",
      "quantization": "fp8",
@@ -22470,10 +22428,10 @@
      "model_name": "MiniMax: MiniMax M3",
      "name": "GMICloud | minimax/minimax-m3-20260531",
      "pricing": {
-      "completion": "0.0000024",
-      "discount": 0,
-      "input_cache_read": "0.00000012",
-      "prompt": "0.0000006"
+      "completion": "0.00000096",
+      "discount": 0.6,
+      "input_cache_read": "0.000000048",
+      "prompt": "0.00000024"
      },
      "provider_name": "GMICloud",
      "quantization": "fp8",
@@ -24185,6 +24143,7 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "top_k",
       "top_p"
@@ -43560,6 +43519,47 @@
    "endpoints": [
     {
      "context_length": 262144,
+     "max_completion_tokens": 65536,
+     "max_prompt_tokens": null,
+     "model_id": "qwen/qwen3.5-9b",
+     "model_name": "Qwen: Qwen3.5-9B",
+     "name": "Darkbloom | qwen/qwen3.5-9b-20260310",
+     "pricing": {
+      "completion": "0.00000013",
+      "discount": 0,
+      "prompt": "0.00000008"
+     },
+     "provider_name": "Darkbloom",
+     "quantization": "fp4",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "darkbloom/fp4"
+    },
+    {
+     "context_length": 262144,
      "max_completion_tokens": 81920,
      "max_prompt_tokens": null,
      "model_id": "qwen/qwen3.5-9b",
@@ -47267,6 +47267,7 @@
       "reasoning",
       "reasoning_effort",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
       "structured_outputs",
@@ -47294,10 +47295,10 @@
      "model_name": "Tencent: Hy3",
      "name": "GMICloud | tencent/hy3-20260706",
      "pricing": {
-      "completion": "0.000000522",
-      "discount": 0.1,
-      "input_cache_read": "0.0000000315",
-      "prompt": "0.000000126"
+      "completion": "0.00000058",
+      "discount": 0,
+      "input_cache_read": "0.000000035",
+      "prompt": "0.00000014"
      },
      "provider_name": "GMICloud",
      "quantization": "bf16",
@@ -52174,10 +52175,10 @@
      "model_name": "Z.ai: GLM 5.1",
      "name": "GMICloud | z-ai/glm-5.1-20260406",
      "pricing": {
-      "completion": "0.00000286",
-      "discount": 0.35,
-      "input_cache_read": "0.000000169",
-      "prompt": "0.00000091"
+      "completion": "0.0000044",
+      "discount": 0,
+      "input_cache_read": "0.00000026",
+      "prompt": "0.0000014"
      },
      "provider_name": "GMICloud",
      "quantization": "fp8",
@@ -52718,6 +52719,47 @@
     },
     {
      "context_length": 1048576,
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "model_id": "z-ai/glm-5.2",
+     "model_name": "Z.ai: GLM 5.2",
+     "name": "Baidu | z-ai/glm-5.2-20260616",
+     "pricing": {
+      "completion": "0.00000788",
+      "discount": 0,
+      "input_cache_read": "0.00000056",
+      "prompt": "0.00000225"
+     },
+     "provider_name": "Baidu",
+     "quantization": "fp4",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "baidu/fp4"
+    },
+    {
+     "context_length": 1048576,
      "max_completion_tokens": 262144,
      "max_prompt_tokens": null,
      "model_id": "z-ai/glm-5.2",
@@ -53012,50 +53054,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "crusoe/fp8"
-    },
-    {
-     "context_length": 1048576,
-     "max_completion_tokens": 943718,
-     "max_prompt_tokens": null,
-     "model_id": "z-ai/glm-5.2",
-     "model_name": "Z.ai: GLM 5.2",
-     "name": "Decart | z-ai/glm-5.2-20260616",
-     "pricing": {
-      "completion": "0.00000228",
-      "discount": 0.43,
-      "input_cache_read": "0.000000114",
-      "prompt": "0.000000684"
-     },
-     "provider_name": "Decart",
-     "quantization": "fp4",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": false,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "decart/fp4"
     },
     {
      "context_length": 1048576,
@@ -53368,10 +53366,10 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "GMICloud | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.0000033",
-      "discount": 0.25,
-      "input_cache_read": "0.000000195",
-      "prompt": "0.00000105"
+      "completion": "0.0000044",
+      "discount": 0,
+      "input_cache_read": "0.00000026",
+      "prompt": "0.0000014"
      },
      "provider_name": "GMICloud",
      "quantization": "fp8",
@@ -54153,7 +54151,7 @@
       "prompt": "0.0000014"
      },
      "provider_name": "Crusoe",
-     "quantization": "fp8",
+     "quantization": "fp4",
      "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
@@ -54182,7 +54180,7 @@
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "crusoe/fp8"
+     "tag": "crusoe/fp4"
     },
     {
      "context_length": 1048576,
@@ -54408,10 +54406,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "GMICloud | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "completion": "0.00000352",
+      "discount": 0.2,
+      "input_cache_read": "0.000000208",
+      "prompt": "0.00000112"
      },
      "provider_name": "GMICloud",
      "quantization": "fp8",
@@ -54924,13 +54922,13 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "StreamLake | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "completion": "0.00000396",
+      "discount": 0.1,
+      "input_cache_read": "0.000000234",
+      "prompt": "0.00000126"
      },
      "provider_name": "StreamLake",
-     "quantization": "unknown",
+     "quantization": "fp8",
      "supported_parameters": [
       "include_reasoning",
       "logprobs",
@@ -54954,7 +54952,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "streamlake"
+     "tag": "streamlake/fp8"
     },
     {
      "context_length": 1048575,
@@ -55968,13 +55966,13 @@
      "model_name": "Z.ai: GLM 5.3 Flash",
      "name": "StreamLake | z-ai/glm-5.3-flash-20260826",
      "pricing": {
-      "completion": "0.0000005",
-      "discount": 0,
-      "input_cache_read": "0.00000003",
-      "prompt": "0.00000015"
+      "completion": "0.00000045",
+      "discount": 0.1,
+      "input_cache_read": "0.000000027",
+      "prompt": "0.000000135"
      },
      "provider_name": "StreamLake",
-     "quantization": "unknown",
+     "quantization": "fp8",
      "supported_parameters": [
       "include_reasoning",
       "max_tokens",
@@ -55995,7 +55993,7 @@
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "streamlake"
+     "tag": "streamlake/fp8"
     },
     {
      "context_length": 1048575,
