@@ -7249,9 +7249,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000031482",
-    "input_cache_read": "0.00000003498",
-    "prompt": "0.0000010494"
+    "completion": "0.00000198",
+    "input_cache_read": "0.000000022",
+    "prompt": "0.00000066"
    },
    "reasoning": {
     "default_effort": "high",
@@ -15136,129 +15136,6 @@
   {
    "architecture": {
     "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": null,
-     "coding_index": 52.6,
-     "intelligence_index": null
-    },
-    "design_arena": [
-     {
-      "arena": "models",
-      "category": "3d",
-      "elo": 1225,
-      "rank": 38,
-      "win_rate": 50.5
-     },
-     {
-      "arena": "models",
-      "category": "asciiart",
-      "elo": 1164,
-      "rank": 37,
-      "win_rate": 47.5
-     },
-     {
-      "arena": "models",
-      "category": "codecategories",
-      "elo": 1252,
-      "rank": 35,
-      "win_rate": 51.9
-     },
-     {
-      "arena": "models",
-      "category": "dataviz",
-      "elo": 1251,
-      "rank": 30,
-      "win_rate": 52.8
-     },
-     {
-      "arena": "models",
-      "category": "gamedev",
-      "elo": 1234,
-      "rank": 37,
-      "win_rate": 51.4
-     },
-     {
-      "arena": "models",
-      "category": "svg",
-      "elo": 1162,
-      "rank": 44,
-      "win_rate": 48.9
-     },
-     {
-      "arena": "models",
-      "category": "uicomponent",
-      "elo": 1232,
-      "rank": 41,
-      "win_rate": 49.4
-     },
-     {
-      "arena": "models",
-      "category": "website",
-      "elo": 1260,
-      "rank": 33,
-      "win_rate": 52.4
-     }
-    ]
-   },
-   "canonical_slug": "minimax/minimax-m2.7-20260318",
-   "context_length": 196608,
-   "created": 1773836697,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "presence_penalty": null,
-    "repetition_penalty": null,
-    "temperature": 1,
-    "top_k": null,
-    "top_p": 0.95
-   },
-   "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent...",
-   "expiration_date": null,
-   "hugging_face_id": "MiniMaxAI/MiniMax-M2.7",
-   "id": "minimax/minimax-m2.7:free",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/minimax/minimax-m2.7-20260318/endpoints"
-   },
-   "name": "MiniMax: MiniMax M2.7 (free)",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0",
-    "prompt": "0"
-   },
-   "reasoning": {
-    "mandatory": true
-   },
-   "supported_parameters": [
-    "include_reasoning",
-    "max_tokens",
-    "reasoning",
-    "response_format",
-    "seed",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 196608,
-    "is_moderated": false,
-    "max_completion_tokens": 176947
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
      "image",
      "text",
      "video"
@@ -15621,180 +15498,6 @@
     "context_length": 524288,
     "is_moderated": false,
     "max_completion_tokens": 471859
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text",
-     "video"
-    ],
-    "instruct_type": null,
-    "modality": "text+image+video->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": 31,
-     "coding_index": 58.6,
-     "intelligence_index": 35.7
-    },
-    "design_arena": [
-     {
-      "arena": "agents",
-      "category": "agenticgamedev",
-      "elo": 1158,
-      "rank": 19,
-      "win_rate": 44.5
-     },
-     {
-      "arena": "agents",
-      "category": "androidnative",
-      "elo": 1171,
-      "rank": 23,
-      "win_rate": 43.7
-     },
-     {
-      "arena": "agents",
-      "category": "fullstack",
-      "elo": 1208,
-      "rank": 14,
-      "win_rate": 49.3
-     },
-     {
-      "arena": "agents",
-      "category": "htmlslides",
-      "elo": 1186,
-      "rank": 10,
-      "win_rate": 46.3
-     },
-     {
-      "arena": "agents",
-      "category": "mobileapps",
-      "elo": 1197,
-      "rank": 19,
-      "win_rate": 46.1
-     },
-     {
-      "arena": "agents",
-      "category": "python-pptxslides",
-      "elo": 1227,
-      "rank": 10,
-      "win_rate": 49.1
-     },
-     {
-      "arena": "agents",
-      "category": "webapps",
-      "elo": 1227,
-      "rank": 17,
-      "win_rate": 48.8
-     },
-     {
-      "arena": "models",
-      "category": "3d",
-      "elo": 1243,
-      "rank": 32,
-      "win_rate": 52.1
-     },
-     {
-      "arena": "models",
-      "category": "asciiart",
-      "elo": 1186,
-      "rank": 28,
-      "win_rate": 47.6
-     },
-     {
-      "arena": "models",
-      "category": "codecategories",
-      "elo": 1268,
-      "rank": 28,
-      "win_rate": 52.4
-     },
-     {
-      "arena": "models",
-      "category": "dataviz",
-      "elo": 1251,
-      "rank": 31,
-      "win_rate": 51.6
-     },
-     {
-      "arena": "models",
-      "category": "gamedev",
-      "elo": 1239,
-      "rank": 35,
-      "win_rate": 47.7
-     },
-     {
-      "arena": "models",
-      "category": "svg",
-      "elo": 1194,
-      "rank": 30,
-      "win_rate": 48.4
-     },
-     {
-      "arena": "models",
-      "category": "uicomponent",
-      "elo": 1266,
-      "rank": 29,
-      "win_rate": 51.9
-     },
-     {
-      "arena": "models",
-      "category": "website",
-      "elo": 1274,
-      "rank": 26,
-      "win_rate": 52.8
-     }
-    ]
-   },
-   "canonical_slug": "minimax/minimax-m3-20260531",
-   "context_length": 1048576,
-   "created": 1780245374,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "presence_penalty": null,
-    "repetition_penalty": null,
-    "temperature": 1,
-    "top_k": null,
-    "top_p": 0.95
-   },
-   "description": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,...",
-   "expiration_date": null,
-   "hugging_face_id": "MiniMaxAI/Minimax-M3",
-   "id": "minimax/minimax-m3:free",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/minimax/minimax-m3-20260531/endpoints"
-   },
-   "name": "MiniMax: MiniMax M3 (free)",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0",
-    "prompt": "0"
-   },
-   "reasoning": {
-    "mandatory": false
-   },
-   "supported_parameters": [
-    "include_reasoning",
-    "max_tokens",
-    "reasoning",
-    "response_format",
-    "seed",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 1048576,
-    "is_moderated": false,
-    "max_completion_tokens": 943718
    }
   },
   {
@@ -18846,7 +18549,6 @@
     "mandatory": false
    },
    "supported_parameters": [
-    "frequency_penalty",
     "include_reasoning",
     "logprobs",
     "max_tokens",
@@ -21189,7 +20891,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 128000,
-    "is_moderated": true,
+    "is_moderated": false,
     "max_completion_tokens": 4096
    }
   },
@@ -34525,8 +34227,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -34543,7 +34245,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -34675,7 +34377,7 @@
    "default_parameters": {},
    "description": "Tencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total. It is designed for coding agents, complex tool-use workflows, and productivity tasks that...",
    "expiration_date": null,
-   "hugging_face_id": null,
+   "hugging_face_id": "tencent/Hy4-preview",
    "id": "tencent/hy4-preview",
    "knowledge_cutoff": null,
    "links": {
@@ -40276,5 +39978,5 @@
  "links": {
   "next": null
  },
- "total_count": 430
+ "total_count": 428
 }
