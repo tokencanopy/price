@@ -6575,9 +6575,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000179732",
-    "input_cache_read": "0.0000000179732",
-    "prompt": "0.000000089866"
+    "completion": "0.000000177212",
+    "input_cache_read": "0.0000000177212",
+    "prompt": "0.000000088606"
    },
    "reasoning": {
     "default_effort": "high",
@@ -6901,8 +6901,8 @@
    "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000066",
-    "input_cache_read": "0.000000007",
+    "completion": "0.00000132",
+    "input_cache_read": "0.000000014",
     "overrides": [
      {
       "completion": "0.00000066",
@@ -6984,7 +6984,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000022"
+    "prompt": "0.00000044"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7141,9 +7141,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000020706",
-    "input_cache_read": "0.000000086275",
-    "prompt": "0.0000010353"
+    "completion": "0.00000208452",
+    "input_cache_read": "0.000000086855",
+    "prompt": "0.00000104226"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7221,9 +7221,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000336204",
-    "input_cache_read": "0.000000037356",
-    "prompt": "0.00000112068"
+    "completion": "0.0000033462",
+    "input_cache_read": "0.00000003718",
+    "prompt": "0.0000011154"
    },
    "reasoning": {
     "default_effort": "high",
@@ -39536,9 +39536,9 @@
    "name": "DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000009",
-    "input_cache_read": "0.000000009",
-    "prompt": "0.000000045"
+    "completion": "0.00000016",
+    "input_cache_read": "0.000000013",
+    "prompt": "0.00000005"
    },
    "reasoning": {
     "default_effort": "high",
@@ -39578,7 +39578,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -40112,9 +40112,9 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000025",
-    "input_cache_read": "0.000000015",
-    "prompt": "0.000000075"
+    "completion": "0.0000002375",
+    "input_cache_read": "0.00000001425",
+    "prompt": "0.00000007125"
    },
    "reasoning": {
     "default_effort": "max",
@@ -40152,7 +40152,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    }
   },
   {
