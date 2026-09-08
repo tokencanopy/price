@@ -3,7 +3,7 @@
 **A public, machine-readable record of what LLM inference actually costs — and how that price changes over time.** Refreshed every 6 hours.
 
 <!-- BEGIN STATS -->
-**13,404** price points · **889** models · **73** platforms · updated **2026-09-08 01:05 UTC** · history since **2026-09-02** (7 snapshots)
+**13,404** price points · **889** models · **73** platforms · updated **2026-09-08 06:43 UTC** · history since **2026-09-02** (7 snapshots)
 <!-- END STATS -->
 
 Every provider publishes today's price. **Nobody publishes yesterday's.** This repo
@@ -46,7 +46,7 @@ yourself.
 | Z.ai: GLM 5.3 Flash | 24 | [Relace](https://www.relace.ai/) | $0.07 | $0.24 | 5.4× |
 | MoonshotAI: Kimi K2.6 | 20 | [Inceptron](https://www.inceptron.io/) | $0.56 | $3.39 | 1.9× |
 | OpenAI: gpt-oss-120b | 19 | [AkashML](https://akashml.com/) | $0.03 | $0.17 | 11.7× |
-| DeepSeek: DeepSeek V4 Pro 0813 | 19 | [DeepSeek](https://deepseek.com/) | $0.66 | $1.98 | 2.2× |
+| DeepSeek: DeepSeek V4 Pro 0813 | 19 | [Novita](https://novita.ai/) | $0.99 | $2.97 | 1.5× |
 | Z.ai: GLM 5.1 | 16 | [StreamLake](https://www.streamlake.ai/) | $0.97 | $3.04 | 1.6× |
 | DeepSeek: DeepSeek V3.2 | 15 | [GMICloud](https://gmicloud.ai/) | $0.21 | $0.31 | 14.4× |
 | DeepSeek: DeepSeek V4 Flash 0423 | 15 | [DigitalOcean](https://www.digitalocean.com/) | $0.07 | $0.17 | 3.1× |

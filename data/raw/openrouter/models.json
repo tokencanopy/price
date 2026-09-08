@@ -6739,9 +6739,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000028",
-    "input_cache_read": "0.000000028",
-    "prompt": "0.00000014"
+    "completion": "0.00000018",
+    "input_cache_read": "0.000000016",
+    "prompt": "0.000000065"
    },
    "reasoning": {
     "default_effort": "high",
@@ -6781,7 +6781,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    }
   },
   {
@@ -6944,8 +6944,8 @@
    "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000066",
-    "input_cache_read": "0.000000007",
+    "completion": "0.00000132",
+    "input_cache_read": "0.000000014",
     "overrides": [
      {
       "completion": "0.00000066",
@@ -7027,7 +7027,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000022"
+    "prompt": "0.00000044"
    },
    "reasoning": {
     "default_effort": "high",
@@ -14588,7 +14588,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000022",
-    "prompt": "0.00000055"
+    "prompt": "0.0000004"
    },
    "reasoning": {
     "mandatory": false
@@ -19776,7 +19776,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 16385,
-    "is_moderated": false,
+    "is_moderated": true,
     "max_completion_tokens": 4096
    }
   },
@@ -26479,7 +26479,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 1050000,
-    "is_moderated": false,
+    "is_moderated": true,
     "max_completion_tokens": 128000
    }
   },
@@ -29357,8 +29357,8 @@
    "name": "Qwen: Qwen3 14B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000024",
-    "prompt": "0.00000012"
+    "completion": "0.00000091",
+    "prompt": "0.0000002275"
    },
    "reasoning": {
     "mandatory": false
@@ -29386,9 +29386,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 40960,
+    "context_length": 131072,
     "is_moderated": false,
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 8192
    }
   },
   {
