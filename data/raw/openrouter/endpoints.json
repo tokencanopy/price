@@ -7802,7 +7802,7 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "prompt": "0.000000175"
+      "prompt": "0.000000185"
      },
      "provider_name": "Mancer 2",
      "quantization": "fp8",
@@ -8159,9 +8159,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.000000528",
+      "completion": "0.000001056",
       "discount": 0,
-      "input_cache_read": "0.0000000176",
+      "input_cache_read": "0.0000000352",
       "overrides": [
        {
         "completion": "0.000000528",
@@ -8178,7 +8178,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000176"
+      "prompt": "0.000000352"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -10542,9 +10542,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.0000017424",
+      "completion": "0.000003366",
       "discount": 0,
-      "input_cache_read": "0.00000005808",
+      "input_cache_read": "0.0000001122",
       "overrides": [
        {
         "completion": "0.0000017424",
@@ -10561,7 +10561,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000005808"
+      "prompt": "0.000001122"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -11387,10 +11387,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000198",
-      "discount": 0.5,
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066"
+      "completion": "0.0000031482",
+      "discount": 0.205,
+      "input_cache_read": "0.00000003498",
+      "prompt": "0.0000010494"
      },
      "provider_name": "StreamLake",
      "quantization": "unknown",
@@ -17963,8 +17963,8 @@
      "tag": "parasail/fp8"
     },
     {
-     "context_length": 262144,
-     "max_completion_tokens": 235929,
+     "context_length": 131072,
+     "max_completion_tokens": 117964,
      "max_prompt_tokens": null,
      "model_id": "google/gemma-4-31b-it",
      "model_name": "Google: Gemma 4 31B",
@@ -27691,7 +27691,7 @@
       "completion": "0.000014",
       "discount": 0,
       "input_cache_read": "0.00000029",
-      "prompt": "0.0000026"
+      "prompt": "0.0000025"
      },
      "provider_name": "Morph",
      "quantization": "fp4",
@@ -39767,6 +39767,7 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -47376,9 +47377,9 @@
      "model_name": "Tencent: Hy3",
      "name": "Tencent | tencent/hy3-20260706",
      "pricing": {
-      "completion": "0.00000033",
+      "completion": "0.000000528",
       "discount": 0,
-      "input_cache_read": "0.000000020625",
+      "input_cache_read": "0.000000033",
       "overrides": [
        {
         "completion": "0.00000033",
@@ -47395,7 +47396,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000000825"
+      "prompt": "0.000000132"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -52645,10 +52646,10 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "Baidu | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.0000021956",
-      "discount": 0.501,
-      "input_cache_read": "0.00000012974",
-      "prompt": "0.0000006986"
+      "completion": "0.0000044",
+      "discount": 0,
+      "input_cache_read": "0.00000026",
+      "prompt": "0.0000014"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -53024,10 +53025,10 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "Decart | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.00000396",
-      "discount": 0.4,
-      "input_cache_read": "0.000000126",
-      "prompt": "0.00000126"
+      "completion": "0.00000594",
+      "discount": 0.1,
+      "input_cache_read": "0.000000189",
+      "prompt": "0.00000189"
      },
      "provider_name": "Decart",
      "quantization": "fp4",
@@ -53710,10 +53711,10 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "StreamLake | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.00000132",
-      "discount": 0.7,
-      "input_cache_read": "0.000000078",
-      "prompt": "0.00000042"
+      "completion": "0.0000021252",
+      "discount": 0.517,
+      "input_cache_read": "0.00000012558",
+      "prompt": "0.0000006762"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
