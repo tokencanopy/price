@@ -8262,10 +8262,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Baidu | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000012992",
-      "discount": 0.536,
-      "input_cache_read": "0.000000012992",
-      "prompt": "0.00000006496"
+      "completion": "0.00000028",
+      "discount": 0,
+      "input_cache_read": "0.000000014",
+      "prompt": "0.00000014"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -8511,9 +8511,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "DeepSeek | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000066",
+      "completion": "0.00000132",
       "discount": 0,
-      "input_cache_read": "0.000000007",
+      "input_cache_read": "0.000000014",
       "overrides": [
        {
         "completion": "0.00000066",
@@ -8595,7 +8595,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000022"
+      "prompt": "0.00000044"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -9602,9 +9602,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
      "name": "DeepSeek | deepseek/deepseek-v4-flash-vision-exp-20260821",
      "pricing": {
-      "completion": "0.00000066",
+      "completion": "0.00000132",
       "discount": 0,
-      "input_cache_read": "0.000000007",
+      "input_cache_read": "0.000000014",
       "overrides": [
        {
         "completion": "0.00000066",
@@ -9686,7 +9686,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000022"
+      "prompt": "0.00000044"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -10602,7 +10602,7 @@
      "pricing": {
       "completion": "0.00000173844",
       "discount": 0.561,
-      "input_cache_read": "0.000000057948",
+      "input_cache_read": "0.000000018438",
       "prompt": "0.00000057948"
      },
      "provider_name": "Baidu",
@@ -10851,9 +10851,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000198",
+      "completion": "0.00000396",
       "discount": 0,
-      "input_cache_read": "0.000000022",
+      "input_cache_read": "0.000000044",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -10935,7 +10935,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000066"
+      "prompt": "0.00000132"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -22472,7 +22472,7 @@
      "name": "GMICloud | minimax/minimax-m3-20260531",
      "pricing": {
       "completion": "0.00000096",
-      "discount": 0.6,
+      "discount": 0.2,
       "input_cache_read": "0.000000048",
       "prompt": "0.00000024"
      },
@@ -27798,10 +27798,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Relace | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.000015",
+      "completion": "0.000012",
       "discount": 0,
-      "input_cache_read": "0.0000003",
-      "prompt": "0.000003"
+      "input_cache_read": "0.00000024",
+      "prompt": "0.0000024"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -54139,13 +54139,13 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Io Net | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.00000418",
-      "discount": 0.05,
-      "input_cache_read": "0.000000247",
-      "prompt": "0.0000011875"
+      "completion": "0.000004048",
+      "discount": 0.08,
+      "input_cache_read": "0.0000002392",
+      "prompt": "0.00000115"
      },
      "provider_name": "Io Net",
-     "quantization": "fp8",
+     "quantization": "fp4",
      "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
@@ -54174,7 +54174,7 @@
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "io-net/fp8"
+     "tag": "io-net/fp4"
     },
     {
      "context_length": 980000,
@@ -55409,10 +55409,10 @@
      "model_name": "Z.ai: GLM 5.3 Flash",
      "name": "Novita | z-ai/glm-5.3-flash-20260826",
      "pricing": {
-      "completion": "0.00000025",
-      "discount": 0.5,
-      "input_cache_read": "0.000000015",
-      "prompt": "0.000000075"
+      "completion": "0.00000044",
+      "discount": 0.12,
+      "input_cache_read": "0.0000000264",
+      "prompt": "0.000000132"
      },
      "provider_name": "Novita",
      "quantization": "fp8",
