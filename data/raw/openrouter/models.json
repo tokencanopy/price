@@ -6604,9 +6604,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000177212",
-    "input_cache_read": "0.0000000177212",
-    "prompt": "0.000000088606"
+    "completion": "0.00000014",
+    "input_cache_read": "0.000000014",
+    "prompt": "0.00000007"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7174,9 +7174,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605",
-    "prompt": "0.00000095526"
+    "completion": "0.00000174",
+    "input_cache_read": "0.0000000725",
+    "prompt": "0.00000087"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7254,9 +7254,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000031482",
-    "input_cache_read": "0.00000003498",
-    "prompt": "0.0000010494"
+    "completion": "0.00000173844",
+    "input_cache_read": "0.000000018438",
+    "prompt": "0.00000057948"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7291,9 +7291,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1024000,
+    "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -16635,7 +16635,7 @@
     "input_modalities": [
      "text"
     ],
-    "instruct_type": "mistral",
+    "instruct_type": null,
     "modality": "text->text",
     "output_modalities": [
      "text"
@@ -18459,10 +18459,11 @@
   {
    "architecture": {
     "input_modalities": [
+     "image",
      "text"
     ],
     "instruct_type": null,
-    "modality": "text->text",
+    "modality": "text+image->text",
     "output_modalities": [
      "text"
     ],
@@ -18720,58 +18721,6 @@
    "pricing": {
     "completion": "0.000003",
     "prompt": "0.000001"
-   },
-   "reasoning": {
-    "mandatory": false
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "max_tokens",
-    "presence_penalty",
-    "reasoning",
-    "repetition_penalty",
-    "response_format",
-    "temperature",
-    "top_k",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 131072,
-    "is_moderated": false,
-    "max_completion_tokens": 117964
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Llama3"
-   },
-   "canonical_slug": "nousresearch/hermes-4-70b",
-   "context_length": 131072,
-   "created": 1756236182,
-   "default_parameters": {},
-   "description": "Hermes 4 70B is a hybrid reasoning model from Nous Research, built on Meta-Llama-3.1-70B. It introduces the same hybrid mode as the larger 405B release, allowing the model to either...",
-   "expiration_date": null,
-   "hugging_face_id": "NousResearch/Hermes-4-70B",
-   "id": "nousresearch/hermes-4-70b",
-   "knowledge_cutoff": "2024-08-31",
-   "links": {
-    "details": "/api/v1/models/nousresearch/hermes-4-70b/endpoints"
-   },
-   "name": "Nous: Hermes 4 70B",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.0000004",
-    "prompt": "0.00000013"
    },
    "reasoning": {
     "mandatory": false
@@ -33163,10 +33112,13 @@
    "supported_parameters": [
     "frequency_penalty",
     "include_reasoning",
+    "logit_bias",
     "logprobs",
     "max_tokens",
+    "min_p",
     "presence_penalty",
     "reasoning",
+    "repetition_penalty",
     "response_format",
     "seed",
     "stop",
@@ -34245,8 +34197,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -34263,7 +34215,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -38483,9 +38435,9 @@
    "name": "Z.ai: GLM 5.2",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000003036",
-    "input_cache_read": "0.0000001932",
-    "prompt": "0.000000966"
+    "completion": "0.00000088",
+    "input_cache_read": "0.000000052",
+    "prompt": "0.00000028"
    },
    "reasoning": {
     "default_effort": "high",
@@ -38521,9 +38473,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1024000,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 128000
    }
   },
   {
@@ -38742,7 +38694,7 @@
     "design_arena": []
    },
    "canonical_slug": "z-ai/glm-5.3-20260816",
-   "context_length": 1310720,
+   "context_length": 1048576,
    "created": 1787086655,
    "default_parameters": {
     "temperature": 1,
@@ -40193,7 +40145,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    }
   },
   {
@@ -40213,7 +40165,7 @@
     "tokenizer": "Router"
    },
    "canonical_slug": "~z-ai/glm-latest",
-   "context_length": 1310720,
+   "context_length": 1048576,
    "created": 1787151053,
    "default_parameters": {
     "temperature": 1,
@@ -40278,5 +40230,5 @@
  "links": {
   "next": null
  },
- "total_count": 431
+ "total_count": 430
 }
