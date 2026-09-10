@@ -8633,9 +8633,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Inceptron | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000028",
+      "completion": "0.00000035",
       "discount": 0,
-      "input_cache_read": "0.000000025",
+      "input_cache_read": "0.000000018",
       "prompt": "0.00000013"
      },
      "provider_name": "Inceptron",
@@ -10028,10 +10028,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "NextBit | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.00000355",
+      "completion": "0.000003828",
       "discount": 0,
       "input_cache_read": "0.00000016",
-      "prompt": "0.0000018"
+      "prompt": "0.000001914"
      },
      "provider_name": "NextBit",
      "quantization": "fp8",
@@ -10607,9 +10607,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000396",
+      "completion": "0.00000198",
       "discount": 0,
-      "input_cache_read": "0.000000044",
+      "input_cache_read": "0.000000022",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -10691,7 +10691,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000132"
+      "prompt": "0.00000066"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -10853,11 +10853,11 @@
      "pricing": {
       "completion": "0.0000033",
       "discount": 0,
-      "input_cache_read": "0.000000036",
+      "input_cache_read": "0.00000011",
       "prompt": "0.0000011"
      },
      "provider_name": "Ionstream",
-     "quantization": "fp4",
+     "quantization": "unknown",
      "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
@@ -10881,7 +10881,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "ionstream/fp4"
+     "tag": "ionstream"
     },
     {
      "context_length": 1048576,
@@ -11075,6 +11075,7 @@
      "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
+      "logprobs",
       "max_tokens",
       "presence_penalty",
       "reasoning",
@@ -11087,6 +11088,7 @@
       "tool_choice",
       "tools",
       "top_k",
+      "top_logprobs",
       "top_p"
      ],
      "supports_implicit_caching": false,
@@ -11242,15 +11244,60 @@
    "endpoints": [
     {
      "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "name": "DeepInfra | deepseek/deepseek-v4.1-flash-20260910",
+     "pricing": {
+      "completion": "0.0000012",
+      "discount": 0,
+      "input_cache_read": "0.000000006",
+      "prompt": "0.0000003"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp8",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp8"
+    },
+    {
+     "context_length": 1048576,
      "max_completion_tokens": 384000,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4.1-flash",
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "DeepSeek | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000006",
+      "input_cache_read": "0.000000003",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -11332,7 +11379,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.0000003"
+      "prompt": "0.00000015"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -11361,6 +11408,50 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepseek"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 393216,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "name": "Novita | deepseek/deepseek-v4.1-flash-20260910",
+     "pricing": {
+      "completion": "0.0000012",
+      "discount": 0,
+      "input_cache_read": "0.000000006",
+      "prompt": "0.0000003"
+     },
+     "provider_name": "Novita",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "novita"
     }
    ],
    "id": "deepseek/deepseek-v4.1-flash",
@@ -17864,8 +17955,8 @@
      "tag": "parasail/fp8"
     },
     {
-     "context_length": 131072,
-     "max_completion_tokens": 117964,
+     "context_length": 262144,
+     "max_completion_tokens": 235929,
      "max_prompt_tokens": null,
      "model_id": "google/gemma-4-31b-it",
      "model_name": "Google: Gemma 4 31B",
@@ -52966,8 +53057,8 @@
      "pricing": {
       "completion": "0.00000299",
       "discount": 0,
-      "input_cache_read": "0.00000022",
-      "prompt": "0.00000125"
+      "input_cache_read": "0.00000018",
+      "prompt": "0.0000011"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -54003,8 +54094,8 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.00000125"
+      "input_cache_read": "0.00000023",
+      "prompt": "0.00000115"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -54046,10 +54137,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Io Net | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.00000418",
-      "discount": 0.05,
-      "input_cache_read": "0.000000247",
-      "prompt": "0.0000011875"
+      "completion": "0.00000432",
+      "discount": 0.1,
+      "input_cache_read": "0.000000261",
+      "prompt": "0.000001125"
      },
      "provider_name": "Io Net",
      "quantization": "fp4",
@@ -54066,6 +54157,7 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -54355,10 +54447,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Reka | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.00000396",
-      "discount": 0,
-      "input_cache_read": "0.000000234",
-      "prompt": "0.00000117"
+      "completion": "0.00000341",
+      "discount": 0.1388888888888889,
+      "input_cache_read": "0.0000002015",
+      "prompt": "0.0000010075"
      },
      "provider_name": "Reka",
      "quantization": "fp8",
@@ -54480,10 +54572,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "StreamLake | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.000003498",
-      "discount": 0.205,
-      "input_cache_read": "0.0000002067",
-      "prompt": "0.000001113"
+      "completion": "0.00000341",
+      "discount": 0.225,
+      "input_cache_read": "0.0000002015",
+      "prompt": "0.000001085"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -55090,50 +55182,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "gmicloud/fp8"
-    },
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 131072,
-     "max_prompt_tokens": null,
-     "model_id": "z-ai/glm-5.3-flash",
-     "model_name": "Z.ai: GLM 5.3 Flash",
-     "name": "Io Net | z-ai/glm-5.3-flash-20260826",
-     "pricing": {
-      "completion": "0.0000005",
-      "discount": 0,
-      "input_cache_read": "0.00000003",
-      "prompt": "0.00000015"
-     },
-     "provider_name": "Io Net",
-     "quantization": "fp8",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "io-net/fp8"
     },
     {
      "context_length": 1048576,
@@ -55786,10 +55834,10 @@
      "model_name": "Z.ai: GLM 5.3 Flash",
      "name": "Z.AI | z-ai/glm-5.3-flash-20260826",
      "pricing": {
-      "completion": "0.00000025",
-      "discount": 0.5,
-      "input_cache_read": "0.000000015",
-      "prompt": "0.000000075"
+      "completion": "0.0000005",
+      "discount": 0,
+      "input_cache_read": "0.00000003",
+      "prompt": "0.00000015"
      },
      "provider_name": "Z.AI",
      "quantization": "fp8",
