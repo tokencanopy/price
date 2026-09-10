@@ -7386,6 +7386,152 @@
     "output_modalities": [
      "text"
     ],
+    "tokenizer": "DeepSeek"
+   },
+   "canonical_slug": "deepseek/deepseek-v4.1-flash-20260910",
+   "context_length": 1048576,
+   "created": 1789021285,
+   "default_parameters": {},
+   "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the cost-efficient tier of the V4.1 family. DeepSeek reports that it exceeds V4 Pro on performance, speed, and task...",
+   "expiration_date": null,
+   "hugging_face_id": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "id": "deepseek/deepseek-v4.1-flash",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/deepseek/deepseek-v4.1-flash-20260910/endpoints"
+   },
+   "name": "DeepSeek: DeepSeek V4.1 Flash",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006",
+    "overrides": [
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000015",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 0,
+      "utc_start": 1000
+     },
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000015",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 100,
+      "utc_start": 0
+     },
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000015",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 600,
+      "utc_start": 400
+     },
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000015",
+      "utc_days": [
+       "saturday",
+       "sunday"
+      ]
+     },
+     {
+      "completion": "0.0000012",
+      "input_cache_read": "0.000000006",
+      "prompt": "0.0000003",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 1000,
+      "utc_start": 600
+     },
+     {
+      "completion": "0.0000012",
+      "input_cache_read": "0.000000006",
+      "prompt": "0.0000003",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 400,
+      "utc_start": 100
+     }
+    ],
+    "prompt": "0.0000003"
+   },
+   "reasoning": {
+    "default_effort": "high",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max"
+    ]
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "logprobs",
+    "max_tokens",
+    "presence_penalty",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "stop",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_logprobs",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1048576,
+    "is_moderated": false,
+    "max_completion_tokens": 384000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image->text",
+    "output_modalities": [
+     "text"
+    ],
     "tokenizer": "Other"
    },
    "canonical_slug": "dots-studio/dots-3-note-preview-20260813",
@@ -15694,6 +15840,107 @@
     "tokenizer": "Mistral"
    },
    "benchmarks": {
+    "design_arena": [
+     {
+      "arena": "models",
+      "category": "3d",
+      "elo": 1050,
+      "rank": 95,
+      "win_rate": 45.4
+     },
+     {
+      "arena": "models",
+      "category": "codecategories",
+      "elo": 1023,
+      "rank": 109,
+      "win_rate": 38.5
+     },
+     {
+      "arena": "models",
+      "category": "dataviz",
+      "elo": 1034,
+      "rank": 100,
+      "win_rate": 41.1
+     },
+     {
+      "arena": "models",
+      "category": "gamedev",
+      "elo": 992,
+      "rank": 110,
+      "win_rate": 36.3
+     },
+     {
+      "arena": "models",
+      "category": "uicomponent",
+      "elo": 1033,
+      "rank": 98,
+      "win_rate": 46.7
+     },
+     {
+      "arena": "models",
+      "category": "website",
+      "elo": 1026,
+      "rank": 111,
+      "win_rate": 37.8
+     }
+    ]
+   },
+   "canonical_slug": "mistralai/codestral-2508",
+   "context_length": 256000,
+   "created": 1754079630,
+   "default_parameters": {
+    "temperature": 0.3
+   },
+   "description": "Mistral's cutting-edge language model for coding released end of July 2025. Codestral specializes in low-latency, high-frequency tasks such as fill-in-the-middle (FIM), code correction and test generation.\n\n[Blog Post](https://mistral.ai/news/codestral-25-08)",
+   "expiration_date": null,
+   "hugging_face_id": "",
+   "id": "mistralai/codestral-2508:batch",
+   "knowledge_cutoff": "2025-03-31",
+   "links": {
+    "details": "/api/v1/models/mistralai/codestral-2508/endpoints"
+   },
+   "name": "Mistral: Codestral 2508 (batch)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00000045",
+    "input_cache_read": "0.000000015",
+    "prompt": "0.00000015"
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "max_tokens",
+    "prediction",
+    "presence_penalty",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 256000,
+    "is_moderated": false,
+    "max_completion_tokens": 204800
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Mistral"
+   },
+   "benchmarks": {
     "artificial_analysis": {
      "agentic_index": 4.9,
      "coding_index": 31.3,
@@ -16026,6 +16273,99 @@
   {
    "architecture": {
     "input_modalities": [
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Mistral"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": 0.6,
+     "coding_index": 9.7,
+     "intelligence_index": 5.5
+    },
+    "design_arena": [
+     {
+      "arena": "models",
+      "category": "3d",
+      "elo": 1062,
+      "rank": 93,
+      "win_rate": 46.2
+     },
+     {
+      "arena": "models",
+      "category": "codecategories",
+      "elo": 1069,
+      "rank": 97,
+      "win_rate": 42.9
+     },
+     {
+      "arena": "models",
+      "category": "gamedev",
+      "elo": 1015,
+      "rank": 105,
+      "win_rate": 38.7
+     },
+     {
+      "arena": "models",
+      "category": "website",
+      "elo": 1078,
+      "rank": 99,
+      "win_rate": 42.9
+     }
+    ]
+   },
+   "canonical_slug": "mistralai/ministral-8b-2512",
+   "context_length": 262144,
+   "created": 1764681654,
+   "default_parameters": {
+    "frequency_penalty": null,
+    "temperature": 0.3,
+    "top_p": null
+   },
+   "description": "A balanced model in the Ministral 3 family, Ministral 3 8B is a powerful, efficient tiny language model with vision capabilities.",
+   "expiration_date": null,
+   "hugging_face_id": "mistralai/Ministral-3-8B-Instruct-2512",
+   "id": "mistralai/ministral-8b-2512:batch",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/mistralai/ministral-8b-2512/endpoints"
+   },
+   "name": "Mistral: Ministral 3 8B 2512 (batch)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.000000075",
+    "input_cache_read": "0.0000000075",
+    "prompt": "0.000000075"
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "max_tokens",
+    "presence_penalty",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 262144,
+    "is_moderated": false,
+    "max_completion_tokens": 209715
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
      "file",
      "text"
     ],
@@ -16232,6 +16572,128 @@
     "completion": "0.0000015",
     "input_cache_read": "0.00000005",
     "prompt": "0.0000005"
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "max_tokens",
+    "presence_penalty",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 262144,
+    "is_moderated": false,
+    "max_completion_tokens": 209715
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Mistral"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": 2.4,
+     "coding_index": 20.1,
+     "intelligence_index": 9.7
+    },
+    "design_arena": [
+     {
+      "arena": "models",
+      "category": "3d",
+      "elo": 1129,
+      "rank": 73,
+      "win_rate": 46.9
+     },
+     {
+      "arena": "models",
+      "category": "asciiart",
+      "elo": 1090,
+      "rank": 59,
+      "win_rate": 40.3
+     },
+     {
+      "arena": "models",
+      "category": "codecategories",
+      "elo": 1158,
+      "rank": 72,
+      "win_rate": 47.6
+     },
+     {
+      "arena": "models",
+      "category": "dataviz",
+      "elo": 1153,
+      "rank": 73,
+      "win_rate": 45.7
+     },
+     {
+      "arena": "models",
+      "category": "gamedev",
+      "elo": 1105,
+      "rank": 85,
+      "win_rate": 41.5
+     },
+     {
+      "arena": "models",
+      "category": "svg",
+      "elo": 1021,
+      "rank": 77,
+      "win_rate": 38
+     },
+     {
+      "arena": "models",
+      "category": "uicomponent",
+      "elo": 1118,
+      "rank": 79,
+      "win_rate": 43
+     },
+     {
+      "arena": "models",
+      "category": "website",
+      "elo": 1175,
+      "rank": 71,
+      "win_rate": 49.5
+     }
+    ]
+   },
+   "canonical_slug": "mistralai/mistral-large-2512",
+   "context_length": 262144,
+   "created": 1764624472,
+   "default_parameters": {
+    "frequency_penalty": null,
+    "temperature": 0.0645,
+    "top_p": null
+   },
+   "description": "Mistral Large 3 2512 is Mistral\u2019s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license.",
+   "expiration_date": null,
+   "hugging_face_id": "",
+   "id": "mistralai/mistral-large-2512:batch",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/mistralai/mistral-large-2512/endpoints"
+   },
+   "name": "Mistral: Mistral Large 3 2512 (batch)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00000075",
+    "input_cache_read": "0.000000025",
+    "prompt": "0.00000025"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -16633,6 +17095,126 @@
   {
    "architecture": {
     "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Mistral"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": 3.1,
+     "coding_index": 20.5,
+     "intelligence_index": null
+    },
+    "design_arena": [
+     {
+      "arena": "models",
+      "category": "3d",
+      "elo": 1111,
+      "rank": 80,
+      "win_rate": 44.6
+     },
+     {
+      "arena": "models",
+      "category": "asciiart",
+      "elo": 1018,
+      "rank": 63,
+      "win_rate": 30.8
+     },
+     {
+      "arena": "models",
+      "category": "codecategories",
+      "elo": 1136,
+      "rank": 81,
+      "win_rate": 45.1
+     },
+     {
+      "arena": "models",
+      "category": "dataviz",
+      "elo": 1161,
+      "rank": 70,
+      "win_rate": 47.2
+     },
+     {
+      "arena": "models",
+      "category": "gamedev",
+      "elo": 1098,
+      "rank": 88,
+      "win_rate": 40.7
+     },
+     {
+      "arena": "models",
+      "category": "svg",
+      "elo": 1021,
+      "rank": 78,
+      "win_rate": 38.2
+     },
+     {
+      "arena": "models",
+      "category": "uicomponent",
+      "elo": 1116,
+      "rank": 81,
+      "win_rate": 43.6
+     },
+     {
+      "arena": "models",
+      "category": "website",
+      "elo": 1146,
+      "rank": 81,
+      "win_rate": 46
+     }
+    ]
+   },
+   "canonical_slug": "mistralai/mistral-medium-3.1",
+   "context_length": 131072,
+   "created": 1755095639,
+   "default_parameters": {
+    "temperature": 0.3
+   },
+   "description": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances...",
+   "expiration_date": null,
+   "hugging_face_id": "",
+   "id": "mistralai/mistral-medium-3.1:batch",
+   "knowledge_cutoff": "2025-06-30",
+   "links": {
+    "details": "/api/v1/models/mistralai/mistral-medium-3.1/endpoints"
+   },
+   "name": "Mistral: Mistral Medium 3.1 (batch)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.000001",
+    "input_cache_read": "0.00000002",
+    "prompt": "0.0000002"
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "max_tokens",
+    "presence_penalty",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 131072,
+    "is_moderated": false,
+    "max_completion_tokens": 104857
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
      "text"
     ],
     "instruct_type": null,
@@ -16869,6 +17451,85 @@
     "tool_choice",
     "tools",
     "top_k",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 262144,
+    "is_moderated": false,
+    "max_completion_tokens": 209715
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Mistral"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": 1.4,
+     "coding_index": 26.6,
+     "intelligence_index": 11.5
+    },
+    "design_arena": []
+   },
+   "canonical_slug": "mistralai/mistral-small-2603",
+   "context_length": 262144,
+   "created": 1773695685,
+   "default_parameters": {
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null,
+    "temperature": null,
+    "top_k": null,
+    "top_p": null
+   },
+   "description": "Mistral Small 4 is the next major release in the Mistral Small family, unifying the capabilities of several flagship Mistral models into a single system. It combines strong reasoning from...",
+   "expiration_date": null,
+   "hugging_face_id": "mistralai/Mistral-Small-4-119B-2603",
+   "id": "mistralai/mistral-small-2603:batch",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/mistralai/mistral-small-2603/endpoints"
+   },
+   "name": "Mistral: Mistral Small 4 (batch)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075",
+    "prompt": "0.000000075"
+   },
+   "reasoning": {
+    "default_effort": "high",
+    "default_enabled": false,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "none"
+    ]
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "max_tokens",
+    "presence_penalty",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
     "top_p"
    ],
    "supported_voices": null,
@@ -33060,6 +33721,7 @@
     "temperature",
     "tool_choice",
     "tools",
+    "top_a",
     "top_k",
     "top_logprobs",
     "top_p"
@@ -38474,7 +39136,7 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1000000,
     "is_moderated": false,
     "max_completion_tokens": 131072
    }
@@ -38786,7 +39448,7 @@
     "top_p": 0.95
    },
    "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
-   "expiration_date": null,
+   "expiration_date": "2098-12-31",
    "hugging_face_id": "zai-org/GLM-5.3-Flash",
    "id": "z-ai/glm-5.3-flash",
    "knowledge_cutoff": null,
@@ -38796,9 +39458,9 @@
    "name": "Z.ai: GLM 5.3 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000002333",
-    "input_cache_read": "0.000000014",
-    "prompt": "0.00000007"
+    "completion": "0.00000025",
+    "input_cache_read": "0.000000015",
+    "prompt": "0.000000075"
    },
    "reasoning": {
     "default_effort": "max",
@@ -40106,9 +40768,9 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000002333",
-    "input_cache_read": "0.000000014",
-    "prompt": "0.00000007"
+    "completion": "0.00000025",
+    "input_cache_read": "0.000000015",
+    "prompt": "0.000000075"
    },
    "reasoning": {
     "default_effort": "max",
@@ -40183,9 +40845,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000003498",
-    "input_cache_read": "0.0000002067",
-    "prompt": "0.000001113"
+    "completion": "0.000003432",
+    "input_cache_read": "0.0000002028",
+    "prompt": "0.000001092"
    },
    "reasoning": {
     "default_effort": "max",
@@ -40222,14 +40884,14 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1024000,
+    "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 131072
    }
   }
  ],
  "links": {
   "next": null
  },
- "total_count": 430
+ "total_count": 436
 }

@@ -8505,128 +8505,6 @@
     },
     {
      "context_length": 1048576,
-     "max_completion_tokens": 384000,
-     "max_prompt_tokens": null,
-     "model_id": "deepseek/deepseek-v4-flash-0731",
-     "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
-     "name": "DeepSeek | deepseek/deepseek-v4-flash-20260731",
-     "pricing": {
-      "completion": "0.00000066",
-      "discount": 0,
-      "input_cache_read": "0.000000007",
-      "overrides": [
-       {
-        "completion": "0.00000066",
-        "input_cache_read": "0.000000007",
-        "prompt": "0.00000022",
-        "utc_days": [
-         "friday",
-         "monday",
-         "thursday",
-         "tuesday",
-         "wednesday"
-        ],
-        "utc_end": 0,
-        "utc_start": 1000
-       },
-       {
-        "completion": "0.00000066",
-        "input_cache_read": "0.000000007",
-        "prompt": "0.00000022",
-        "utc_days": [
-         "friday",
-         "monday",
-         "thursday",
-         "tuesday",
-         "wednesday"
-        ],
-        "utc_end": 100,
-        "utc_start": 0
-       },
-       {
-        "completion": "0.00000066",
-        "input_cache_read": "0.000000007",
-        "prompt": "0.00000022",
-        "utc_days": [
-         "friday",
-         "monday",
-         "thursday",
-         "tuesday",
-         "wednesday"
-        ],
-        "utc_end": 600,
-        "utc_start": 400
-       },
-       {
-        "completion": "0.00000066",
-        "input_cache_read": "0.000000007",
-        "prompt": "0.00000022",
-        "utc_days": [
-         "saturday",
-         "sunday"
-        ]
-       },
-       {
-        "completion": "0.00000132",
-        "input_cache_read": "0.000000014",
-        "prompt": "0.00000044",
-        "utc_days": [
-         "friday",
-         "monday",
-         "thursday",
-         "tuesday",
-         "wednesday"
-        ],
-        "utc_end": 1000,
-        "utc_start": 600
-       },
-       {
-        "completion": "0.00000132",
-        "input_cache_read": "0.000000014",
-        "prompt": "0.00000044",
-        "utc_days": [
-         "friday",
-         "monday",
-         "thursday",
-         "tuesday",
-         "wednesday"
-        ],
-        "utc_end": 400,
-        "utc_start": 100
-       }
-      ],
-      "prompt": "0.00000022"
-     },
-     "provider_name": "DeepSeek",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "response_format",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_implicit_caching": true,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "deepseek"
-    },
-    {
-     "context_length": 1048576,
      "max_completion_tokens": 943718,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4-flash-0731",
@@ -9321,10 +9199,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.000000396",
-      "discount": 0.7,
-      "input_cache_read": "0.0000000042",
-      "prompt": "0.000000132"
+      "completion": "0.0000003696",
+      "discount": 0.72,
+      "input_cache_read": "0.00000000392",
+      "prompt": "0.0000001232"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -9593,128 +9471,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/fp8"
-    },
-    {
-     "context_length": 1048576,
-     "max_completion_tokens": 384000,
-     "max_prompt_tokens": null,
-     "model_id": "deepseek/deepseek-v4-flash-vision-exp",
-     "model_name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
-     "name": "DeepSeek | deepseek/deepseek-v4-flash-vision-exp-20260821",
-     "pricing": {
-      "completion": "0.00000066",
-      "discount": 0,
-      "input_cache_read": "0.000000007",
-      "overrides": [
-       {
-        "completion": "0.00000066",
-        "input_cache_read": "0.000000007",
-        "prompt": "0.00000022",
-        "utc_days": [
-         "friday",
-         "monday",
-         "thursday",
-         "tuesday",
-         "wednesday"
-        ],
-        "utc_end": 0,
-        "utc_start": 1000
-       },
-       {
-        "completion": "0.00000066",
-        "input_cache_read": "0.000000007",
-        "prompt": "0.00000022",
-        "utc_days": [
-         "friday",
-         "monday",
-         "thursday",
-         "tuesday",
-         "wednesday"
-        ],
-        "utc_end": 100,
-        "utc_start": 0
-       },
-       {
-        "completion": "0.00000066",
-        "input_cache_read": "0.000000007",
-        "prompt": "0.00000022",
-        "utc_days": [
-         "friday",
-         "monday",
-         "thursday",
-         "tuesday",
-         "wednesday"
-        ],
-        "utc_end": 600,
-        "utc_start": 400
-       },
-       {
-        "completion": "0.00000066",
-        "input_cache_read": "0.000000007",
-        "prompt": "0.00000022",
-        "utc_days": [
-         "saturday",
-         "sunday"
-        ]
-       },
-       {
-        "completion": "0.00000132",
-        "input_cache_read": "0.000000014",
-        "prompt": "0.00000044",
-        "utc_days": [
-         "friday",
-         "monday",
-         "thursday",
-         "tuesday",
-         "wednesday"
-        ],
-        "utc_end": 1000,
-        "utc_start": 600
-       },
-       {
-        "completion": "0.00000132",
-        "input_cache_read": "0.000000014",
-        "prompt": "0.00000044",
-        "utc_days": [
-         "friday",
-         "monday",
-         "thursday",
-         "tuesday",
-         "wednesday"
-        ],
-        "utc_end": 400,
-        "utc_start": 100
-       }
-      ],
-      "prompt": "0.00000022"
-     },
-     "provider_name": "DeepSeek",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "response_format",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_implicit_caching": true,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "deepseek"
     },
     {
      "context_length": 1048576,
@@ -10851,9 +10607,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000198",
+      "completion": "0.00000396",
       "discount": 0,
-      "input_cache_read": "0.000000022",
+      "input_cache_read": "0.000000044",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -10935,7 +10691,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000066"
+      "prompt": "0.00000132"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -11126,49 +10882,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "ionstream/fp4"
-    },
-    {
-     "context_length": 979000,
-     "max_completion_tokens": 881100,
-     "max_prompt_tokens": null,
-     "model_id": "deepseek/deepseek-v4-pro-0813",
-     "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
-     "name": "Nebius | deepseek/deepseek-v4-pro-20260813",
-     "pricing": {
-      "completion": "0.00000396",
-      "discount": 0,
-      "prompt": "0.00000132"
-     },
-     "provider_name": "Nebius",
-     "quantization": "fp8",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": false,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "nebius/fp8"
     },
     {
      "context_length": 1048576,
@@ -11510,6 +11223,148 @@
    ],
    "id": "deepseek/deepseek-v4-pro-0813",
    "name": "DeepSeek: DeepSeek V4 Pro 0813"
+  },
+  "deepseek/deepseek-v4.1-flash": {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "DeepSeek"
+   },
+   "created": 1789021285,
+   "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the cost-efficient tier of the V4.1 family. DeepSeek reports that it exceeds V4 Pro on performance, speed, and task...",
+   "endpoints": [
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 384000,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "name": "DeepSeek | deepseek/deepseek-v4.1-flash-20260910",
+     "pricing": {
+      "completion": "0.0000012",
+      "discount": 0,
+      "input_cache_read": "0.000000006",
+      "overrides": [
+       {
+        "completion": "0.0000006",
+        "input_cache_read": "0.000000003",
+        "prompt": "0.00000015",
+        "utc_days": [
+         "friday",
+         "monday",
+         "thursday",
+         "tuesday",
+         "wednesday"
+        ],
+        "utc_end": 0,
+        "utc_start": 1000
+       },
+       {
+        "completion": "0.0000006",
+        "input_cache_read": "0.000000003",
+        "prompt": "0.00000015",
+        "utc_days": [
+         "friday",
+         "monday",
+         "thursday",
+         "tuesday",
+         "wednesday"
+        ],
+        "utc_end": 100,
+        "utc_start": 0
+       },
+       {
+        "completion": "0.0000006",
+        "input_cache_read": "0.000000003",
+        "prompt": "0.00000015",
+        "utc_days": [
+         "friday",
+         "monday",
+         "thursday",
+         "tuesday",
+         "wednesday"
+        ],
+        "utc_end": 600,
+        "utc_start": 400
+       },
+       {
+        "completion": "0.0000006",
+        "input_cache_read": "0.000000003",
+        "prompt": "0.00000015",
+        "utc_days": [
+         "saturday",
+         "sunday"
+        ]
+       },
+       {
+        "completion": "0.0000012",
+        "input_cache_read": "0.000000006",
+        "prompt": "0.0000003",
+        "utc_days": [
+         "friday",
+         "monday",
+         "thursday",
+         "tuesday",
+         "wednesday"
+        ],
+        "utc_end": 1000,
+        "utc_start": 600
+       },
+       {
+        "completion": "0.0000012",
+        "input_cache_read": "0.000000006",
+        "prompt": "0.0000003",
+        "utc_days": [
+         "friday",
+         "monday",
+         "thursday",
+         "tuesday",
+         "wednesday"
+        ],
+        "utc_end": 400,
+        "utc_start": 100
+       }
+      ],
+      "prompt": "0.0000003"
+     },
+     "provider_name": "DeepSeek",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": true,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepseek"
+    }
+   ],
+   "id": "deepseek/deepseek-v4.1-flash",
+   "name": "DeepSeek: DeepSeek V4.1 Flash"
   },
   "google/gemini-2.5-flash": {
    "architecture": {
@@ -17451,7 +17306,8 @@
      "pricing": {
       "completion": "0.0000004",
       "discount": 0,
-      "prompt": "0.00000012"
+      "input_cache_read": "0.00000005",
+      "prompt": "0.00000014"
      },
      "provider_name": "SiliconFlow",
      "quantization": "fp8",
@@ -18050,9 +17906,10 @@
      "model_name": "Google: Gemma 4 31B",
      "name": "SiliconFlow | google/gemma-4-31b-it-20260402",
      "pricing": {
-      "completion": "0.0000004",
+      "completion": "0.000001",
       "discount": 0,
-      "prompt": "0.00000013"
+      "input_cache_read": "0.00000025",
+      "prompt": "0.00000075"
      },
      "provider_name": "SiliconFlow",
      "quantization": "fp8",
@@ -36523,9 +36380,10 @@
      "model_name": "OpenAI: gpt-oss-120b",
      "name": "SiliconFlow | openai/gpt-oss-120b",
      "pricing": {
-      "completion": "0.00000045",
+      "completion": "0.0000006",
       "discount": 0,
-      "prompt": "0.00000005"
+      "input_cache_read": "0.000000075",
+      "prompt": "0.00000015"
      },
      "provider_name": "SiliconFlow",
      "quantization": "fp8",
@@ -42677,6 +42535,7 @@
      "pricing": {
       "completion": "0.0000018",
       "discount": 0,
+      "input_cache_read": "0.00000015",
       "prompt": "0.00000024"
      },
      "provider_name": "SiliconFlow",
@@ -44290,9 +44149,10 @@
      "model_name": "Qwen: Qwen3.6 35B A3B",
      "name": "SiliconFlow | qwen/qwen3.6-35b-a3b-20260415",
      "pricing": {
-      "completion": "0.0000016",
+      "completion": "0.0000018",
       "discount": 0,
-      "prompt": "0.0000002"
+      "input_cache_read": "0.00000015",
+      "prompt": "0.00000024"
      },
      "provider_name": "SiliconFlow",
      "quantization": "fp8",
@@ -45476,6 +45336,53 @@
      },
      "supports_voice_cloning": false,
      "tag": "ionstream/fp8"
+    },
+    {
+     "context_length": 262144,
+     "max_completion_tokens": 235929,
+     "max_prompt_tokens": null,
+     "model_id": "qwen/qwen3.8-27b",
+     "model_name": "Qwen: Qwen3.8 27B",
+     "name": "Mancer 2 | qwen/qwen3.8-27b-20260814",
+     "pricing": {
+      "completion": "0.000003",
+      "discount": 0,
+      "prompt": "0.0000003"
+     },
+     "provider_name": "Mancer 2",
+     "quantization": "fp8",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_a",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": false,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "mancer/fp8"
     },
     {
      "context_length": 1000000,
@@ -52151,7 +52058,7 @@
    "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
    "endpoints": [
     {
-     "context_length": 1048576,
+     "context_length": 1000000,
      "max_completion_tokens": 131072,
      "max_prompt_tokens": 1048576,
      "model_id": "z-ai/glm-5.2",
@@ -52195,7 +52102,7 @@
      "tag": "alibaba/fp8"
     },
     {
-     "context_length": 1048576,
+     "context_length": 1000000,
      "max_completion_tokens": 131072,
      "max_prompt_tokens": 1048576,
      "model_id": "z-ai/glm-5.2",
@@ -54316,10 +54223,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Novita | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.00000374",
-      "discount": 0.15,
-      "input_cache_read": "0.000000221",
-      "prompt": "0.00000119"
+      "completion": "0.000003432",
+      "discount": 0.22,
+      "input_cache_read": "0.0000002028",
+      "prompt": "0.000001092"
      },
      "provider_name": "Novita",
      "quantization": "fp8",
@@ -55320,10 +55227,10 @@
      "model_name": "Z.ai: GLM 5.3 Flash",
      "name": "Morph | z-ai/glm-5.3-flash-20260826",
      "pricing": {
-      "completion": "0.000001358",
+      "completion": "0.00000035",
       "discount": 0,
-      "input_cache_read": "0.0000000776",
-      "prompt": "0.000000388"
+      "input_cache_read": "0.00000002",
+      "prompt": "0.0000001"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -55585,10 +55492,10 @@
      "model_name": "Z.ai: GLM 5.3 Flash",
      "name": "Relace | z-ai/glm-5.3-flash-20260826",
      "pricing": {
-      "completion": "0.0000002333",
+      "completion": "0.0000003",
       "discount": 0,
-      "input_cache_read": "0.000000014",
-      "prompt": "0.00000007"
+      "input_cache_read": "0.000000018",
+      "prompt": "0.00000009"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
