@@ -6604,9 +6604,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000177212",
-    "input_cache_read": "0.0000000177212",
-    "prompt": "0.000000088606"
+    "completion": "0.00000017416",
+    "input_cache_read": "0.000000017416",
+    "prompt": "0.00000008708"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7174,9 +7174,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605",
-    "prompt": "0.00000095526"
+    "completion": "0.00000174",
+    "input_cache_read": "0.0000000725",
+    "prompt": "0.00000087"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7254,9 +7254,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000031482",
-    "input_cache_read": "0.00000003498",
-    "prompt": "0.0000010494"
+    "completion": "0.00000173844",
+    "input_cache_read": "0.000000018438",
+    "prompt": "0.00000057948"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7291,9 +7291,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1024000,
+    "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -7392,7 +7392,7 @@
    "context_length": 1048576,
    "created": 1789021285,
    "default_parameters": {},
-   "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the cost-efficient tier of the V4.1 family. DeepSeek reports that it exceeds V4 Pro on performance, speed, and task...",
+   "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on...",
    "expiration_date": null,
    "hugging_face_id": "deepseek-ai/DeepSeek-V4.1-Flash",
    "id": "deepseek/deepseek-v4.1-flash",
@@ -11901,8 +11901,8 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000034",
-    "prompt": "0.00000007"
+    "completion": "0.00000022",
+    "prompt": "0.000000042"
    },
    "reasoning": {
     "default_enabled": false,
@@ -11931,9 +11931,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 262144,
+    "context_length": 131072,
     "is_moderated": false,
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 32768
    }
   },
   {
@@ -12934,6 +12934,66 @@
     "details": "/api/v1/models/inclusionai/ling-3.0-flash-sante-20260904/endpoints"
    },
    "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0",
+    "prompt": "0"
+   },
+   "reasoning": {
+    "default_enabled": true,
+    "mandatory": false
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "logprobs",
+    "max_tokens",
+    "presence_penalty",
+    "reasoning",
+    "repetition_penalty",
+    "seed",
+    "stop",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_logprobs",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 262144,
+    "is_moderated": false,
+    "max_completion_tokens": 32768
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+video->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "inclusionai/ling-3.0-flash-vl-20260910",
+   "context_length": 262144,
+   "created": 1789056114,
+   "default_parameters": {},
+   "description": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual...",
+   "expiration_date": null,
+   "hugging_face_id": "inclusionAI/Ling-3.0-flash-VL",
+   "id": "inclusionai/ling-3.0-flash-vl:free",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/inclusionai/ling-3.0-flash-vl-20260910/endpoints"
+   },
+   "name": "inclusionAI: Ling 3.0 Flash VL (free)",
    "per_request_limits": null,
    "pricing": {
     "completion": "0",
@@ -15195,9 +15255,9 @@
    "name": "MiniMax: MiniMax M2.5",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000012",
-    "input_cache_read": "0.00000003",
-    "prompt": "0.0000003"
+    "completion": "0.00000108",
+    "input_cache_read": "0.000000027",
+    "prompt": "0.00000027"
    },
    "reasoning": {
     "mandatory": true
@@ -15225,9 +15285,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 204800,
+    "context_length": 200000,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 128000
    }
   },
   {
@@ -21525,7 +21585,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 128000,
-    "is_moderated": false,
+    "is_moderated": true,
     "max_completion_tokens": 4096
    }
   },
@@ -34866,8 +34926,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -34884,7 +34944,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -35608,7 +35668,6 @@
    "supported_parameters": [
     "frequency_penalty",
     "include_reasoning",
-    "logprobs",
     "max_tokens",
     "presence_penalty",
     "reasoning",
@@ -35617,7 +35676,6 @@
     "stop",
     "temperature",
     "tools",
-    "top_logprobs",
     "top_p"
    ],
    "supported_voices": null,
@@ -38388,7 +38446,7 @@
     ]
    },
    "canonical_slug": "z-ai/glm-4.7-flash-20260119",
-   "context_length": 202752,
+   "context_length": 200000,
    "created": 1768833913,
    "default_parameters": {
     "frequency_penalty": null,
@@ -38578,10 +38636,8 @@
    "supported_parameters": [
     "frequency_penalty",
     "include_reasoning",
-    "logit_bias",
     "logprobs",
     "max_tokens",
-    "min_p",
     "presence_penalty",
     "reasoning",
     "repetition_penalty",
@@ -39104,9 +39160,9 @@
    "name": "Z.ai: GLM 5.2",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000003036",
-    "input_cache_read": "0.0000001932",
-    "prompt": "0.000000966"
+    "completion": "0.00000088",
+    "input_cache_read": "0.000000052",
+    "prompt": "0.00000028"
    },
    "reasoning": {
     "default_effort": "high",
@@ -39142,9 +39198,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1000000,
+    "context_length": 1024000,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 128000
    }
   },
   {
@@ -40851,9 +40907,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000341",
-    "input_cache_read": "0.0000002015",
-    "prompt": "0.0000010075"
+    "completion": "0.0000022",
+    "input_cache_read": "0.00000013",
+    "prompt": "0.0000007"
    },
    "reasoning": {
     "default_effort": "max",
@@ -40890,14 +40946,14 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 262144,
+    "context_length": 1024000,
     "is_moderated": false,
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 128000
    }
   }
  ],
  "links": {
   "next": null
  },
- "total_count": 436
+ "total_count": 437
 }
