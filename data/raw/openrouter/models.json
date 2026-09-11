@@ -5762,9 +5762,8 @@
    "name": "DeepSeek: DeepSeek V3 0324",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000114",
-    "input_cache_read": "0.00000011",
-    "prompt": "0.00000029"
+    "completion": "0.000001",
+    "prompt": "0.00000025"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -7425,8 +7424,8 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006",
     "overrides": [
      {
       "completion": "0.0000006",
@@ -7508,7 +7507,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -11919,7 +11918,7 @@
     "design_arena": []
    },
    "canonical_slug": "google/gemma-4-26b-a4b-it-20260403",
-   "context_length": 262144,
+   "context_length": 1000000,
    "created": 1775227989,
    "default_parameters": {
     "temperature": 1,
@@ -18899,9 +18898,9 @@
    "name": "MoonshotAI: Kimi K3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000013",
-    "input_cache_read": "0.00000029",
-    "prompt": "0.0000026"
+    "completion": "0.0000117",
+    "input_cache_read": "0.000000261",
+    "prompt": "0.00000234"
    },
    "reasoning": {
     "default_effort": "max",
@@ -19719,6 +19718,7 @@
     "frequency_penalty",
     "include_reasoning",
     "logit_bias",
+    "logprobs",
     "max_tokens",
     "min_p",
     "presence_penalty",
@@ -19732,6 +19732,7 @@
     "tool_choice",
     "tools",
     "top_k",
+    "top_logprobs",
     "top_p"
    ],
    "supported_voices": null,
@@ -34216,6 +34217,73 @@
   {
    "architecture": {
     "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "sakana/fugu-max-20260911",
+   "context_length": 1000000,
+   "created": 1789104771,
+   "default_parameters": {
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null,
+    "temperature": null,
+    "top_k": null,
+    "top_p": null
+   },
+   "description": "Fugu Max is the cost-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to route...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "sakana/fugu-max",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/sakana/fugu-max-20260911/endpoints"
+   },
+   "name": "Sakana: Fugu Max",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.000006",
+    "input_cache_read": "0.00000025",
+    "prompt": "0.000002",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "high",
+    "default_enabled": true,
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "max",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "reasoning",
+    "reasoning_effort",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "web_search_options"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1000000,
+    "is_moderated": false,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
      "image",
      "text"
     ],
@@ -34246,6 +34314,81 @@
     "details": "/api/v1/models/sakana/fugu-ultra-20260615/endpoints"
    },
    "name": "Sakana: Fugu Ultra",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00003",
+    "input_cache_read": "0.0000005",
+    "overrides": [
+     {
+      "completion": "0.000045",
+      "input_cache_read": "0.000001",
+      "min_prompt_tokens": 272000,
+      "prompt": "0.00001"
+     }
+    ],
+    "prompt": "0.000005",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "xhigh",
+    "default_enabled": true,
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "max",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "reasoning",
+    "reasoning_effort",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "web_search_options"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1000000,
+    "is_moderated": false,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "sakana/fugu-ultra-v2-20260911",
+   "context_length": 1000000,
+   "created": 1789105383,
+   "default_parameters": {
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null,
+    "temperature": null,
+    "top_k": null,
+    "top_p": null
+   },
+   "description": "Fugu Ultra v2 is the higher-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "sakana/fugu-ultra-v2",
+   "knowledge_cutoff": "2026-08-28",
+   "links": {
+    "details": "/api/v1/models/sakana/fugu-ultra-v2-20260911/endpoints"
+   },
+   "name": "Sakana: Fugu Ultra v2",
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00003",
@@ -40542,7 +40685,7 @@
    "pricing": {
     "completion": "0.00000016",
     "input_cache_read": "0.000000013",
-    "prompt": "0.00000005"
+    "prompt": "0.00000004"
    },
    "reasoning": {
     "default_effort": "high",
@@ -40793,9 +40936,9 @@
    "name": "MoonshotAI Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000012",
-    "input_cache_read": "0.00000024",
-    "prompt": "0.0000024"
+    "completion": "0.0000117",
+    "input_cache_read": "0.000000261",
+    "prompt": "0.00000234"
    },
    "reasoning": {
     "default_effort": "max",
@@ -41193,9 +41336,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000341",
-    "input_cache_read": "0.0000002",
-    "prompt": "0.000001"
+    "completion": "0.000003069",
+    "input_cache_read": "0.00000018",
+    "prompt": "0.0000009"
    },
    "reasoning": {
     "default_effort": "max",
@@ -41241,5 +41384,5 @@
  "links": {
   "next": null
  },
- "total_count": 437
+ "total_count": 439
 }

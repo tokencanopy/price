@@ -8906,7 +8906,7 @@
       "completion": "0.00000016",
       "discount": 0,
       "input_cache_read": "0.000000013",
-      "prompt": "0.00000005"
+      "prompt": "0.00000004"
      },
      "provider_name": "OpenInference",
      "quantization": "fp8",
@@ -9199,10 +9199,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.000000264",
-      "discount": 0.8,
-      "input_cache_read": "0.0000000028",
-      "prompt": "0.000000088"
+      "completion": "0.0000003564",
+      "discount": 0.73,
+      "input_cache_read": "0.00000000378",
+      "prompt": "0.0000001188"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -10646,9 +10646,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000198",
+      "completion": "0.00000396",
       "discount": 0,
-      "input_cache_read": "0.000000022",
+      "input_cache_read": "0.000000044",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -10730,7 +10730,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000066"
+      "prompt": "0.00000132"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -11335,9 +11335,9 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "DeepSeek | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.0000006",
+      "completion": "0.0000012",
       "discount": 0,
-      "input_cache_read": "0.000000003",
+      "input_cache_read": "0.000000006",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -11419,7 +11419,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000015"
+      "prompt": "0.0000003"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -11544,7 +11544,7 @@
       "completion": "0.0000012",
       "discount": 0,
       "input_cache_read": "0.000000003",
-      "prompt": "0.00000015"
+      "prompt": "0.0000003"
      },
      "provider_name": "Io Net",
      "quantization": "fp8",
@@ -11590,7 +11590,7 @@
       "prompt": "0.0000003"
      },
      "provider_name": "Morph",
-     "quantization": "fp4",
+     "quantization": "fp8",
      "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
@@ -11619,7 +11619,7 @@
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "morph/fp4"
+     "tag": "morph/fp8"
     },
     {
      "context_length": 1048576,
@@ -11667,49 +11667,39 @@
     },
     {
      "context_length": 1048576,
-     "max_completion_tokens": 943718,
+     "max_completion_tokens": 393216,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4.1-flash",
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
-     "name": "Parasail | deepseek/deepseek-v4.1-flash-20260910",
+     "name": "SiliconFlow | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
       "completion": "0.0000012",
       "discount": 0,
       "input_cache_read": "0.000000006",
       "prompt": "0.0000003"
      },
-     "provider_name": "Parasail",
+     "provider_name": "SiliconFlow",
      "quantization": "fp8",
      "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
-      "logit_bias",
-      "logprobs",
       "max_tokens",
-      "presence_penalty",
       "reasoning",
       "reasoning_effort",
-      "repetition_penalty",
       "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
       "temperature",
-      "tool_choice",
-      "tools",
       "top_k",
-      "top_logprobs",
       "top_p"
      ],
      "supports_implicit_caching": false,
      "supports_tool_choice": {
       "auto": true,
-      "function": false,
-      "none": false,
-      "required": false
+      "function": true,
+      "none": true,
+      "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "parasail/fp8"
+     "tag": "siliconflow/fp8"
     }
    ],
    "id": "deepseek/deepseek-v4.1-flash",
@@ -17480,6 +17470,46 @@
      "max_prompt_tokens": null,
      "model_id": "google/gemma-4-26b-a4b-it",
      "model_name": "Google: Gemma 4 26B A4B ",
+     "name": "DekaLLM | google/gemma-4-26b-a4b-it-20260403",
+     "pricing": {
+      "completion": "0.00000033",
+      "discount": 0,
+      "prompt": "0.00000006"
+     },
+     "provider_name": "DekaLLM",
+     "quantization": "bf16",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "seed",
+      "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": false,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "dekallm/bf16"
+    },
+    {
+     "context_length": 262144,
+     "max_completion_tokens": 235929,
+     "max_prompt_tokens": null,
+     "model_id": "google/gemma-4-26b-a4b-it",
+     "model_name": "Google: Gemma 4 26B A4B ",
      "name": "Google | google/gemma-4-26b-a4b-it-20260403",
      "pricing": {
       "completion": "0.0000006",
@@ -17518,8 +17548,8 @@
      "tag": "google-vertex/global"
     },
     {
-     "context_length": 262144,
-     "max_completion_tokens": 235929,
+     "context_length": 1000000,
+     "max_completion_tokens": 384000,
      "max_prompt_tokens": null,
      "model_id": "google/gemma-4-26b-a4b-it",
      "model_name": "Google: Gemma 4 26B A4B ",
@@ -17787,47 +17817,6 @@
    "created": 1775148486,
    "description": "Gemma 4 31B Instruct is Google DeepMind's 30.7B dense multimodal model supporting text and image input with text output. Features a 256K token context window, configurable thinking/reasoning mode, native function...",
    "endpoints": [
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 40960,
-     "max_prompt_tokens": null,
-     "model_id": "google/gemma-4-31b-it",
-     "model_name": "Google: Gemma 4 31B",
-     "name": "Cerebras | google/gemma-4-31b-it-20260402",
-     "pricing": {
-      "completion": "0.00000149",
-      "discount": 0,
-      "input_cache_read": "0.00000099",
-      "prompt": "0.00000099"
-     },
-     "provider_name": "Cerebras",
-     "quantization": "fp16",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "cerebras/fp16"
-    },
     {
      "context_length": 131072,
      "max_completion_tokens": 65536,
@@ -20161,46 +20150,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "groq"
-    },
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 117964,
-     "max_prompt_tokens": null,
-     "model_id": "meta-llama/llama-3.3-70b-instruct",
-     "model_name": "Meta: Llama 3.3 70B Instruct",
-     "name": "Nebius | meta-llama/llama-3.3-70b-instruct",
-     "pricing": {
-      "completion": "0.0000004",
-      "discount": 0,
-      "prompt": "0.00000013"
-     },
-     "provider_name": "Nebius",
-     "quantization": "fp8",
-     "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "max_tokens",
-      "presence_penalty",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "nebius/fp8"
     },
     {
      "context_length": 12288,
@@ -24415,6 +24364,44 @@
      "tag": "deepinfra/fp8"
     },
     {
+     "context_length": 131072,
+     "max_completion_tokens": 104857,
+     "max_prompt_tokens": null,
+     "model_id": "mistralai/mistral-nemo",
+     "model_name": "Mistral: Mistral Nemo",
+     "name": "DekaLLM | mistralai/mistral-nemo",
+     "pricing": {
+      "completion": "0.00000003",
+      "discount": 0,
+      "prompt": "0.000000018"
+     },
+     "provider_name": "DekaLLM",
+     "quantization": "fp8",
+     "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "dekallm/fp8"
+    },
+    {
      "context_length": 128000,
      "max_completion_tokens": 102400,
      "max_prompt_tokens": null,
@@ -27825,13 +27812,13 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Morph | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.000014",
-      "discount": 0,
-      "input_cache_read": "0.00000029",
-      "prompt": "0.0000025"
+      "completion": "0.0000133",
+      "discount": 0.05,
+      "input_cache_read": "0.0000002755",
+      "prompt": "0.000002375"
      },
      "provider_name": "Morph",
-     "quantization": "fp4",
+     "quantization": "fp8",
      "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
@@ -27862,7 +27849,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "morph/fp4"
+     "tag": "morph/fp8"
     },
     {
      "context_length": 1048576,
@@ -27878,7 +27865,7 @@
       "prompt": "0.000006"
      },
      "provider_name": "Morph",
-     "quantization": "fp4",
+     "quantization": "fp8",
      "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
@@ -28052,10 +28039,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Sail Research | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.000013",
+      "completion": "0.0000117",
       "discount": 0,
-      "input_cache_read": "0.00000029",
-      "prompt": "0.0000026"
+      "input_cache_read": "0.000000261",
+      "prompt": "0.00000234"
      },
      "provider_name": "Sail Research",
      "quantization": "fp4",
@@ -28696,6 +28683,48 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/bf16"
+    },
+    {
+     "context_length": 262144,
+     "max_completion_tokens": 235929,
+     "max_prompt_tokens": null,
+     "model_id": "nvidia/nemotron-3-super-120b-a12b",
+     "model_name": "NVIDIA: Nemotron 3 Super",
+     "name": "DekaLLM | nvidia/nemotron-3-super-120b-a12b-20230311",
+     "pricing": {
+      "completion": "0.00000045",
+      "discount": 0,
+      "prompt": "0.00000008"
+     },
+     "provider_name": "DekaLLM",
+     "quantization": "fp8",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tools",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "dekallm/fp8"
     }
    ],
    "id": "nvidia/nemotron-3-super-120b-a12b",
@@ -36310,6 +36339,49 @@
      "tag": "deepinfra/fp8"
     },
     {
+     "context_length": 131072,
+     "max_completion_tokens": 117964,
+     "max_prompt_tokens": null,
+     "model_id": "openai/gpt-oss-120b",
+     "model_name": "OpenAI: gpt-oss-120b",
+     "name": "DekaLLM | openai/gpt-oss-120b",
+     "pricing": {
+      "completion": "0.00000018",
+      "discount": 0,
+      "prompt": "0.00000003"
+     },
+     "provider_name": "DekaLLM",
+     "quantization": "bf16",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": false,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "dekallm/bf16"
+    },
+    {
      "context_length": 128000,
      "max_completion_tokens": 115200,
      "max_prompt_tokens": null,
@@ -37068,6 +37140,49 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/bf16"
+    },
+    {
+     "context_length": 131072,
+     "max_completion_tokens": 117964,
+     "max_prompt_tokens": null,
+     "model_id": "openai/gpt-oss-20b",
+     "model_name": "OpenAI: gpt-oss-20b",
+     "name": "DekaLLM | openai/gpt-oss-20b",
+     "pricing": {
+      "completion": "0.00000014",
+      "discount": 0,
+      "prompt": "0.000000029"
+     },
+     "provider_name": "DekaLLM",
+     "quantization": "bf16",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "dekallm/bf16"
     },
     {
      "context_length": 131072,
@@ -39767,6 +39882,42 @@
      },
      "supports_voice_cloning": false,
      "tag": "alibaba"
+    },
+    {
+     "context_length": 262144,
+     "max_completion_tokens": 235929,
+     "max_prompt_tokens": null,
+     "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
+     "model_name": "Qwen: Qwen3 30B A3B Instruct 2507",
+     "name": "DekaLLM | qwen/qwen3-30b-a3b-instruct-2507",
+     "pricing": {
+      "completion": "0.0000003",
+      "discount": 0,
+      "prompt": "0.00000009"
+     },
+     "provider_name": "DekaLLM",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "max_tokens",
+      "presence_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "dekallm"
     },
     {
      "context_length": 262144,
@@ -44365,6 +44516,46 @@
      "max_prompt_tokens": null,
      "model_id": "qwen/qwen3.6-35b-a3b",
      "model_name": "Qwen: Qwen3.6 35B A3B",
+     "name": "DekaLLM | qwen/qwen3.6-35b-a3b-20260415",
+     "pricing": {
+      "completion": "0.000001",
+      "discount": 0,
+      "prompt": "0.00000013"
+     },
+     "provider_name": "DekaLLM",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "seed",
+      "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "dekallm"
+    },
+    {
+     "context_length": 262144,
+     "max_completion_tokens": 235929,
+     "max_prompt_tokens": null,
+     "model_id": "qwen/qwen3.6-35b-a3b",
+     "model_name": "Qwen: Qwen3.6 35B A3B",
      "name": "Io Net | qwen/qwen3.6-35b-a3b-20260415",
      "pricing": {
       "completion": "0.0000009405",
@@ -46351,6 +46542,62 @@
    "id": "relace/relace-search",
    "name": "Relace: Relace Search"
   },
+  "sakana/fugu-max": {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "created": 1789104771,
+   "description": "Fugu Max is the cost-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to route...",
+   "endpoints": [
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "sakana/fugu-max",
+     "model_name": "Sakana: Fugu Max",
+     "name": "Sakana AI | sakana/fugu-max-20260911",
+     "pricing": {
+      "completion": "0.000006",
+      "discount": 0,
+      "input_cache_read": "0.00000025",
+      "prompt": "0.000002",
+      "web_search": "0.01"
+     },
+     "provider_name": "Sakana AI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "reasoning",
+      "reasoning_effort",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "web_search_options"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": false,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "sakana"
+    }
+   ],
+   "id": "sakana/fugu-max",
+   "name": "Sakana: Fugu Max"
+  },
   "sakana/fugu-ultra": {
    "architecture": {
     "input_modalities": [
@@ -46413,6 +46660,70 @@
    ],
    "id": "sakana/fugu-ultra",
    "name": "Sakana: Fugu Ultra"
+  },
+  "sakana/fugu-ultra-v2": {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "created": 1789105383,
+   "description": "Fugu Ultra v2 is the higher-performance model in Sakana AI's Fugu family. Rather than a single monolithic model, Fugu is a learned multi-agent orchestration system: a language model trained to...",
+   "endpoints": [
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "sakana/fugu-ultra-v2",
+     "model_name": "Sakana: Fugu Ultra v2",
+     "name": "Sakana AI | sakana/fugu-ultra-v2-20260911",
+     "pricing": {
+      "completion": "0.00003",
+      "discount": 0,
+      "input_cache_read": "0.0000005",
+      "overrides": [
+       {
+        "completion": "0.000045",
+        "input_cache_read": "0.000001",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.00001"
+       }
+      ],
+      "prompt": "0.000005",
+      "web_search": "0.01"
+     },
+     "provider_name": "Sakana AI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "reasoning",
+      "reasoning_effort",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "web_search_options"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": false,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "sakana"
+    }
+   ],
+   "id": "sakana/fugu-ultra-v2",
+   "name": "Sakana: Fugu Ultra v2"
   },
   "sakana/sakana-namazu": {
    "architecture": {
@@ -54314,7 +54625,7 @@
       "prompt": "0.000001125"
      },
      "provider_name": "Io Net",
-     "quantization": "fp4",
+     "quantization": "fp8",
      "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
@@ -54330,19 +54641,21 @@
       "stop",
       "structured_outputs",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_k",
       "top_logprobs",
       "top_p"
      ],
      "supports_implicit_caching": false,
      "supports_tool_choice": {
-      "auto": false,
+      "auto": true,
       "function": false,
-      "none": false,
+      "none": true,
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "io-net/fp4"
+     "tag": "io-net/fp8"
     },
     {
      "context_length": 980000,
@@ -54437,13 +54750,13 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Morph | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.00000341",
-      "discount": 0,
-      "input_cache_read": "0.0000002",
-      "prompt": "0.000001"
+      "completion": "0.000003069",
+      "discount": 0.1,
+      "input_cache_read": "0.00000018",
+      "prompt": "0.0000009"
      },
      "provider_name": "Morph",
-     "quantization": "fp4",
+     "quantization": "fp8",
      "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
@@ -54474,7 +54787,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "morph/fp4"
+     "tag": "morph/fp8"
     },
     {
      "context_length": 1048576,
