@@ -55003,3 +55003,66 @@ observed_at,source,platform,model_key,variant,region,metric,model_name,old_usd_p
 2026-09-11T06:41:11+00:00,openrouter,Parasail,deepseek-ai/deepseek-v4.1-flash,fp8,,cache_read,DeepSeek: DeepSeek V4.1 Flash,0.006,,
 2026-09-11T06:41:11+00:00,openrouter,Parasail,deepseek-ai/deepseek-v4.1-flash,fp8,,input,DeepSeek: DeepSeek V4.1 Flash,0.3,,
 2026-09-11T06:41:11+00:00,openrouter,Parasail,deepseek-ai/deepseek-v4.1-flash,fp8,,output,DeepSeek: DeepSeek V4.1 Flash,1.2,,
+2026-09-11T12:40:12+00:00,openrouter,Wafer,deepseek-ai/deepseek-v4-flash,unknown,,input,DeepSeek: DeepSeek V4 Flash 0423,,0.1,
+2026-09-11T12:40:12+00:00,openrouter,Wafer,deepseek-ai/deepseek-v4-flash,unknown,,output,DeepSeek: DeepSeek V4 Flash 0423,,0.25,
+2026-09-11T12:40:12+00:00,openrouter,Wafer,deepseek-ai/deepseek-v4-flash,unknown,,cache_read,DeepSeek: DeepSeek V4 Flash 0423,,0.05,
+2026-09-11T12:40:12+00:00,openrouter,Inceptron,deepseek-ai/deepseek-v4-flash-0731,fp4,,input,DeepSeek: DeepSeek V4 Flash 0731,0.13,0.1226,-5.69
+2026-09-11T12:40:12+00:00,openrouter,Inceptron,deepseek-ai/deepseek-v4-flash-0731,fp4,,output,DeepSeek: DeepSeek V4 Flash 0731,0.35,0.3305,-5.57
+2026-09-11T12:40:12+00:00,openrouter,Inceptron,deepseek-ai/deepseek-v4-flash-0731,fp4,,cache_read,DeepSeek: DeepSeek V4 Flash 0731,0.018,0.0177,-1.67
+2026-09-11T12:40:12+00:00,openrouter,OpenInference,deepseek-ai/deepseek-v4-flash-0731,fp8,,input,DeepSeek: DeepSeek V4 Flash 0731,0.04,0.05,25.0
+2026-09-11T12:40:12+00:00,openrouter,Sail Research,deepseek-ai/deepseek-v4-flash-0731,fp4,,output,DeepSeek: DeepSeek V4 Flash 0731,0.18,0.3,66.67
+2026-09-11T12:40:12+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,input,DeepSeek: DeepSeek V4 Pro 0813,1.32,0.66,-50.0
+2026-09-11T12:40:12+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,output,DeepSeek: DeepSeek V4 Pro 0813,3.96,1.98,-50.0
+2026-09-11T12:40:12+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,cache_read,DeepSeek: DeepSeek V4 Pro 0813,0.044,0.022,-50.0
+2026-09-11T12:40:12+00:00,openrouter,Ionstream,deepseek-ai/deepseek-v4-pro-0813,unknown,,input,DeepSeek: DeepSeek V4 Pro 0813,1.1,0.66,-40.0
+2026-09-11T12:40:12+00:00,openrouter,Ionstream,deepseek-ai/deepseek-v4-pro-0813,unknown,,output,DeepSeek: DeepSeek V4 Pro 0813,3.3,1.98,-40.0
+2026-09-11T12:40:12+00:00,openrouter,Ionstream,deepseek-ai/deepseek-v4-pro-0813,unknown,,cache_read,DeepSeek: DeepSeek V4 Pro 0813,0.11,0.066,-40.0
+2026-09-11T12:40:12+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4.1-flash,unknown,,input,DeepSeek: DeepSeek V4.1 Flash,0.3,0.15,-50.0
+2026-09-11T12:40:12+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4.1-flash,unknown,,output,DeepSeek: DeepSeek V4.1 Flash,1.2,0.6,-50.0
+2026-09-11T12:40:12+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4.1-flash,unknown,,cache_read,DeepSeek: DeepSeek V4.1 Flash,0.006,0.003,-50.0
+2026-09-11T12:40:12+00:00,openrouter,Modal,deepseek-ai/deepseek-v4.1-flash,unknown,,input,DeepSeek: DeepSeek V4.1 Flash,,0.3,
+2026-09-11T12:40:12+00:00,openrouter,Modal,deepseek-ai/deepseek-v4.1-flash,unknown,,output,DeepSeek: DeepSeek V4.1 Flash,,1.2,
+2026-09-11T12:40:12+00:00,openrouter,Modal,deepseek-ai/deepseek-v4.1-flash,unknown,,cache_read,DeepSeek: DeepSeek V4.1 Flash,,0.03,
+2026-09-11T12:40:12+00:00,openrouter,NextBit,google/gemma-4-26b-a4b-it,bf16,,input,Google: Gemma 4 26B A4B ,0.1,0.09,-10.0
+2026-09-11T12:40:12+00:00,openrouter,NextBit,google/gemma-4-26b-a4b-it,bf16,,output,Google: Gemma 4 26B A4B ,0.4,0.3,-25.0
+2026-09-11T12:40:12+00:00,openrouter,Morph,moonshotai/kimi-k3,fp8,,input,MoonshotAI: Kimi K3,2.375,2.425,2.11
+2026-09-11T12:40:12+00:00,openrouter,Morph,moonshotai/kimi-k3,fp8,,output,MoonshotAI: Kimi K3,13.3,13.58,2.11
+2026-09-11T12:40:12+00:00,openrouter,Morph,moonshotai/kimi-k3,fp8,,cache_read,MoonshotAI: Kimi K3,0.2755,0.2813,2.11
+2026-09-11T12:40:12+00:00,openrouter,Phala,nvidia/nvidia-nemotron-3.5-lightning-30b-a3b-bf16,unknown,,input,NVIDIA: Nemotron 3.5 Lightning,,0.08,
+2026-09-11T12:40:12+00:00,openrouter,Phala,nvidia/nvidia-nemotron-3.5-lightning-30b-a3b-bf16,unknown,,output,NVIDIA: Nemotron 3.5 Lightning,,0.2,
+2026-09-11T12:40:12+00:00,openrouter,Phala,nvidia/nvidia-nemotron-3.5-lightning-30b-a3b-bf16,unknown,,cache_read,NVIDIA: Nemotron 3.5 Lightning,,0.04,
+2026-09-11T12:40:12+00:00,openrouter,Inceptron,zai-org/glm-5.2,fp4,,input,Z.ai: GLM 5.2,1.1,1.0998,-0.02
+2026-09-11T12:40:12+00:00,openrouter,Inceptron,zai-org/glm-5.2,fp4,,output,Z.ai: GLM 5.2,2.99,2.9905,0.02
+2026-09-11T12:40:12+00:00,openrouter,Inceptron,zai-org/glm-5.3,fp4,,input,Z.ai: GLM 5.3,1.15,1.054,-8.35
+2026-09-11T12:40:12+00:00,openrouter,Inceptron,zai-org/glm-5.3,fp4,,output,Z.ai: GLM 5.3,4.4,4.2462,-3.5
+2026-09-11T12:40:12+00:00,openrouter,Inceptron,zai-org/glm-5.3,fp4,,cache_read,Z.ai: GLM 5.3,0.23,0.2191,-4.74
+2026-09-11T12:40:12+00:00,openrouter,Io Net,zai-org/glm-5.3,fp8,,input,Z.ai: GLM 5.3,1.125,1.0625,-5.56
+2026-09-11T12:40:12+00:00,openrouter,Io Net,zai-org/glm-5.3,fp8,,output,Z.ai: GLM 5.3,4.32,4.08,-5.56
+2026-09-11T12:40:12+00:00,openrouter,Io Net,zai-org/glm-5.3,fp8,,cache_read,Z.ai: GLM 5.3,0.261,0.2465,-5.56
+2026-09-11T12:40:12+00:00,openrouter,Morph,zai-org/glm-5.3,fp8,,input,Z.ai: GLM 5.3,0.9,0.97,7.78
+2026-09-11T12:40:12+00:00,openrouter,Morph,zai-org/glm-5.3,fp8,,output,Z.ai: GLM 5.3,3.069,3.3077,7.78
+2026-09-11T12:40:12+00:00,openrouter,Morph,zai-org/glm-5.3,fp8,,cache_read,Z.ai: GLM 5.3,0.18,0.194,7.78
+2026-09-11T12:40:12+00:00,openrouter,StreamLake,zai-org/glm-5.3-flash,fp8,,input,Z.ai: GLM 5.3 Flash,0.135,0.11235,-16.78
+2026-09-11T12:40:12+00:00,openrouter,StreamLake,zai-org/glm-5.3-flash,fp8,,output,Z.ai: GLM 5.3 Flash,0.45,0.3745,-16.78
+2026-09-11T12:40:12+00:00,openrouter,StreamLake,zai-org/glm-5.3-flash,fp8,,cache_read,Z.ai: GLM 5.3 Flash,0.027,0.02247,-16.78
+2026-09-11T12:40:12+00:00,azure,Azure Foundry,azure:azure openai media|image 2 txt inp dz,Image 2 txt inp DZ,eastus,input,Azure OpenAI Media,,5.5,
+2026-09-11T12:40:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 luna shortco cd inp std gl,5.6 luna ShortCo Cd Inp Std Gl,swedencentral,input,Azure OpenAI GPT5,,0.02,
+2026-09-11T12:40:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|gpt 5.2 opt gl,GPT 5.2 opt Gl,japaneast,output,Azure OpenAI GPT5,,14.0,
+2026-09-11T12:40:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 sol longco opt std dz,5.6 sol LongCo Opt Std DZ,eastus,output,Azure OpenAI GPT5,,33.0,
+2026-09-11T12:40:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|56sol loco inp fl gl,56sol LoCo Inp Fl Gl,southcentralus,input,Azure OpenAI GPT5,,4.0,
+2026-09-11T12:40:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|gpt 5.1 inp gl,GPT 5.1 inp Gl,southcentralus,input,Azure OpenAI GPT5,,1.25,
+2026-09-11T12:40:12+00:00,azure,Azure Foundry,azure:azure openai media|gpt rt txt mn cd in gl 1215,gpt rt txt mn cd in gl 1215,brazilsouth,input,Azure OpenAI Media,,0.06,
+2026-09-11T12:40:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.1 pp opt gl,5.1 pp opt Gl,switzerlandnorth,output,Azure OpenAI GPT5,,20.0,
+2026-09-11T12:40:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 sol longco opt std gl,5.6 sol LongCo Opt Std Gl,eastus,output,Azure OpenAI GPT5,,30.0,
+2026-09-11T12:40:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|56luna loco inp fl gl,56luna LoCo Inp Fl Gl,eastus2,input,Azure OpenAI GPT5,,0.2,
+2026-09-11T12:40:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.4 mini batch cd inp dz,5.4 mini Batch cd Inp Dz,westus3,input,Azure OpenAI GPT5,,0.04125,
+2026-09-11T12:40:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|54 pro inp flex gl,54 pro inp Flex Gl,eastus2,input,Azure OpenAI GPT5,,15.0,
+2026-09-11T12:40:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 luna shortco opt pp gl,5.6 luna ShortCo Opt PP Gl,northcentralus,output,Azure OpenAI GPT5,,2.4,
+2026-09-11T12:40:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.4 mini pp opt dz,5.4 mini pp Opt Dz,germanywestcentral,output,Azure OpenAI GPT5,,9.9,
+2026-09-11T12:40:12+00:00,azure,Azure Foundry,azure:azure openai media|gpt-realtime-2.1-mini text inp dz,gpt-realtime-2.1-mini Text inp DZ,spaincentral,input,Azure OpenAI Media,,0.66,
+2026-09-11T12:40:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 terra shortco inp std dz,5.6 terra ShortCo Inp Std DZ,usgovvirginia,input,Azure OpenAI GPT5,,2.75,
+2026-09-11T12:40:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.4 pro longco inp dz,5.4 pro longco inp Dz,swedencentral,input,Azure OpenAI GPT5,,66.0,
+2026-09-11T12:40:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 sol longco inp pp gl,5.6 sol LongCo Inp PP Gl,canadaeast,input,Azure OpenAI GPT5,,16.0,
+2026-09-11T12:40:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.4 nano batch opt gl,5.4 nano Batch Opt Gl,switzerlandnorth,output,Azure OpenAI GPT5,,0.625,
+2026-09-11T12:40:12+00:00,azure,Azure Foundry,azure:azure openai media|gpt aud 1.5 txt opt dz,gpt aud 1.5 txt opt Dz,centralus,output,Azure OpenAI Media,,11.0,
+2026-09-11T12:40:12+00:00,azure,Azure Foundry,azure:azure openai media|gpt aud 1.5 txt opt gl,gpt aud 1.5 txt opt Gl,eastus,output,Azure OpenAI Media,,10.0,
