@@ -2911,7 +2911,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 1000000,
-    "is_moderated": false,
+    "is_moderated": true,
     "max_completion_tokens": 128000
    }
   },
@@ -6631,9 +6631,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000177212",
-    "input_cache_read": "0.0000000177212",
-    "prompt": "0.000000088606"
+    "completion": "0.00000017136",
+    "input_cache_read": "0.000000017136",
+    "prompt": "0.00000008568"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7201,9 +7201,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605",
-    "prompt": "0.00000095526"
+    "completion": "0.000001895556",
+    "input_cache_read": "0.0000000789815",
+    "prompt": "0.000000947778"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7281,9 +7281,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000066",
-    "prompt": "0.00000066"
+    "completion": "0.00000173844",
+    "input_cache_read": "0.000000019316",
+    "prompt": "0.00000057948"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7318,9 +7318,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1024000,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 384000
    }
   },
   {
@@ -13039,6 +13039,77 @@
     "design_arena": []
    },
    "canonical_slug": "inclusionai/ling-3.0-flash-vl-20260910",
+   "context_length": 131072,
+   "created": 1789056114,
+   "default_parameters": {},
+   "description": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual...",
+   "expiration_date": null,
+   "hugging_face_id": "inclusionAI/Ling-3.0-flash-VL",
+   "id": "inclusionai/ling-3.0-flash-vl",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/inclusionai/ling-3.0-flash-vl-20260910/endpoints"
+   },
+   "name": "inclusionAI: Ling 3.0 Flash VL",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00000018",
+    "input_cache_read": "0.000000012",
+    "prompt": "0.00000006"
+   },
+   "reasoning": {
+    "default_enabled": true,
+    "mandatory": false
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "logit_bias",
+    "max_tokens",
+    "min_p",
+    "presence_penalty",
+    "reasoning",
+    "repetition_penalty",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 131072,
+    "is_moderated": false,
+    "max_completion_tokens": 32768
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+video->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": 30,
+     "coding_index": 57,
+     "intelligence_index": 24.8
+    },
+    "design_arena": []
+   },
+   "canonical_slug": "inclusionai/ling-3.0-flash-vl-20260910",
    "context_length": 262144,
    "created": 1789056114,
    "default_parameters": {},
@@ -15312,9 +15383,9 @@
    "name": "MiniMax: MiniMax M2.5",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000012",
-    "input_cache_read": "0.00000003",
-    "prompt": "0.0000003"
+    "completion": "0.00000108",
+    "input_cache_read": "0.000000027",
+    "prompt": "0.00000027"
    },
    "reasoning": {
     "mandatory": true
@@ -15342,9 +15413,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 204800,
+    "context_length": 200000,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 128000
    }
   },
   {
@@ -35128,8 +35199,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -35146,7 +35217,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -39362,9 +39433,9 @@
    "name": "Z.ai: GLM 5.2",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000003036",
-    "input_cache_read": "0.0000001932",
-    "prompt": "0.000000966"
+    "completion": "0.000002",
+    "input_cache_read": "0.00000015",
+    "prompt": "0.0000006"
    },
    "reasoning": {
     "default_effort": "high",
@@ -39400,9 +39471,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1000000,
+    "context_length": 202752,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 182476
    }
   },
   {
@@ -41010,8 +41081,8 @@
   },
   {
    "alias_target": {
-    "name": "OpenAI: GPT-5.6 Sol",
-    "slug": "openai/gpt-5.6-sol"
+    "name": "OpenAI: GPT-6 Astra",
+    "slug": "openai/gpt-6-astra"
    },
    "architecture": {
     "input_modalities": [
@@ -41026,9 +41097,88 @@
     ],
     "tokenizer": "Router"
    },
-   "canonical_slug": "~openai/gpt-latest",
+   "canonical_slug": "~openai/gpt-astra-latest",
    "context_length": 1050000,
-   "created": 1777318334,
+   "created": 1789130932,
+   "default_parameters": {},
+   "description": "This model always redirects to the latest model in the OpenAI GPT Astra family.",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "~openai/gpt-astra-latest",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/~openai/gpt-astra-latest/endpoints"
+   },
+   "name": "OpenAI GPT Astra Latest",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00005",
+    "input_cache_read": "0.000001",
+    "input_cache_write": "0.0000125",
+    "overrides": [
+     {
+      "completion": "0.000075",
+      "input_cache_read": "0.000002",
+      "input_cache_write": "0.000025",
+      "min_prompt_tokens": 272000,
+      "prompt": "0.00002"
+     }
+    ],
+    "prompt": "0.00001",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "default_enabled": true,
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_completion_tokens",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1050000,
+    "is_moderated": false,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "alias_target": {
+    "name": "OpenAI: GPT-5.6 Luna",
+    "slug": "openai/gpt-5.6-luna"
+   },
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Router"
+   },
+   "canonical_slug": "~openai/gpt-luna-latest",
+   "context_length": 1050000,
+   "created": 1789130922,
    "default_parameters": {
     "frequency_penalty": null,
     "presence_penalty": null,
@@ -41037,30 +41187,30 @@
     "top_k": null,
     "top_p": null
    },
-   "description": "This model always redirects to the latest model in the OpenAI GPT family.",
+   "description": "This model always redirects to the latest model in the OpenAI GPT Luna family.",
    "expiration_date": null,
    "hugging_face_id": null,
-   "id": "~openai/gpt-latest",
+   "id": "~openai/gpt-luna-latest",
    "knowledge_cutoff": "2026-02-16",
    "links": {
-    "details": "/api/v1/models/~openai/gpt-latest/endpoints"
+    "details": "/api/v1/models/~openai/gpt-luna-latest/endpoints"
    },
-   "name": "OpenAI GPT Latest",
+   "name": "OpenAI GPT Luna Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00001",
-    "input_cache_read": "0.0000002",
-    "input_cache_write": "0.0000025",
+    "completion": "0.0000012",
+    "input_cache_read": "0.00000002",
+    "input_cache_write": "0.00000025",
     "overrides": [
      {
-      "completion": "0.000015",
-      "input_cache_read": "0.0000004",
-      "input_cache_write": "0.000005",
+      "completion": "0.0000018",
+      "input_cache_read": "0.00000004",
+      "input_cache_write": "0.0000005",
       "min_prompt_tokens": 272000,
-      "prompt": "0.000004"
+      "prompt": "0.0000004"
      }
     ],
-    "prompt": "0.000002",
+    "prompt": "0.0000002",
     "web_search": "0.01"
    },
    "reasoning": {
@@ -41091,7 +41241,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 1050000,
-    "is_moderated": true,
+    "is_moderated": false,
     "max_completion_tokens": 128000
    }
   },
@@ -41167,6 +41317,180 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 400000,
+    "is_moderated": false,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "alias_target": {
+    "name": "OpenAI: GPT-5.6 Sol",
+    "slug": "openai/gpt-5.6-sol"
+   },
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Router"
+   },
+   "canonical_slug": "~openai/gpt-sol-latest",
+   "context_length": 1050000,
+   "created": 1789130928,
+   "default_parameters": {
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null,
+    "temperature": null,
+    "top_k": null,
+    "top_p": null
+   },
+   "description": "This model always redirects to the latest model in the OpenAI GPT Sol family.",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "~openai/gpt-sol-latest",
+   "knowledge_cutoff": "2026-02-16",
+   "links": {
+    "details": "/api/v1/models/~openai/gpt-sol-latest/endpoints"
+   },
+   "name": "OpenAI GPT Sol Latest",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00001",
+    "input_cache_read": "0.0000002",
+    "input_cache_write": "0.0000025",
+    "overrides": [
+     {
+      "completion": "0.000015",
+      "input_cache_read": "0.0000004",
+      "input_cache_write": "0.000005",
+      "min_prompt_tokens": 272000,
+      "prompt": "0.000004"
+     }
+    ],
+    "prompt": "0.000002",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "none",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_completion_tokens",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1050000,
+    "is_moderated": true,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "alias_target": {
+    "name": "OpenAI: GPT-5.6 Terra",
+    "slug": "openai/gpt-5.6-terra"
+   },
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Router"
+   },
+   "canonical_slug": "~openai/gpt-terra-latest",
+   "context_length": 1050000,
+   "created": 1789130925,
+   "default_parameters": {
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null,
+    "temperature": null,
+    "top_k": null,
+    "top_p": null
+   },
+   "description": "This model always redirects to the latest model in the OpenAI GPT Terra family.",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "~openai/gpt-terra-latest",
+   "knowledge_cutoff": "2026-02-16",
+   "links": {
+    "details": "/api/v1/models/~openai/gpt-terra-latest/endpoints"
+   },
+   "name": "OpenAI GPT Terra Latest",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.000012",
+    "input_cache_read": "0.0000002",
+    "input_cache_write": "0.0000025",
+    "overrides": [
+     {
+      "completion": "0.000018",
+      "input_cache_read": "0.0000004",
+      "input_cache_write": "0.000005",
+      "min_prompt_tokens": 272000,
+      "prompt": "0.000004"
+     }
+    ],
+    "prompt": "0.000002",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "none",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_completion_tokens",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1050000,
     "is_moderated": false,
     "max_completion_tokens": 128000
    }
@@ -41365,9 +41689,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000033077",
-    "input_cache_read": "0.000000194",
-    "prompt": "0.00000097"
+    "completion": "0.00000336",
+    "input_cache_read": "0.0000001639",
+    "prompt": "0.0000008727"
    },
    "reasoning": {
     "default_effort": "max",
@@ -41413,5 +41737,5 @@
  "links": {
   "next": null
  },
- "total_count": 439
+ "total_count": 443
 }
