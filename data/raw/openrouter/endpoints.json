@@ -7721,10 +7721,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "Baidu | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.00000013496",
-      "discount": 0.518,
-      "input_cache_read": "0.000000013496",
-      "prompt": "0.00000006748"
+      "completion": "0.00000013384",
+      "discount": 0.522,
+      "input_cache_read": "0.000000013384",
+      "prompt": "0.00000006692"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -8139,10 +8139,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.00000013468",
-      "discount": 0.519,
-      "input_cache_read": "0.000000013468",
-      "prompt": "0.00000006734"
+      "completion": "0.00000013356",
+      "discount": 0.523,
+      "input_cache_read": "0.000000013356",
+      "prompt": "0.00000006678"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -8758,10 +8758,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Inceptron | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.0000002467",
+      "completion": "0.0000001685",
       "discount": 0,
-      "input_cache_read": "0.0000000167",
-      "prompt": "0.0000000905"
+      "input_cache_read": "0.0000000107",
+      "prompt": "0.0000000793"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -9198,10 +9198,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Relace | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000018",
+      "completion": "0.00000008",
       "discount": 0,
-      "input_cache_read": "0.000000016",
-      "prompt": "0.000000065"
+      "input_cache_read": "0.000000008",
+      "prompt": "0.00000004"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -9912,10 +9912,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.00000171704",
-      "discount": 0.492,
-      "input_cache_read": "0.00000007112",
-      "prompt": "0.00000085852"
+      "completion": "0.0000016562",
+      "discount": 0.51,
+      "input_cache_read": "0.0000000686",
+      "prompt": "0.0000008281"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10361,10 +10361,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.000001699632",
-      "discount": 0.5116,
-      "input_cache_read": "0.000000070818",
-      "prompt": "0.000000849816"
+      "completion": "0.000001638732",
+      "discount": 0.5291,
+      "input_cache_read": "0.0000000682805",
+      "prompt": "0.000000819366"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -11716,18 +11716,22 @@
      "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
+      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
       "reasoning",
       "reasoning_effort",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
       "top_k",
+      "top_logprobs",
       "top_p"
      ],
      "supports_implicit_caching": false,
@@ -19528,6 +19532,120 @@
    ],
    "id": "inclusionai/ling-3.0-flash-vl",
    "name": "inclusionAI: Ling 3.0 Flash VL"
+  },
+  "inference-net/schematron-v2-small": {
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "created": 1789176933,
+   "description": "Schematron V2 Small is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes extraction quality for complex schemas and long pages. Extraction instructions must be supplied through a JSON schema...",
+   "endpoints": [
+    {
+     "context_length": 128000,
+     "max_completion_tokens": 4096,
+     "max_prompt_tokens": null,
+     "model_id": "inference-net/schematron-v2-small",
+     "model_name": "Inference.net: Schematron V2 Small",
+     "name": "InferenceNet | inference-net/schematron-v2-small-20260902",
+     "pricing": {
+      "completion": "0.00000023",
+      "discount": 0,
+      "prompt": "0.00000005"
+     },
+     "provider_name": "InferenceNet",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "top_k",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "inference-net"
+    }
+   ],
+   "id": "inference-net/schematron-v2-small",
+   "name": "Inference.net: Schematron V2 Small"
+  },
+  "inference-net/schematron-v2-turbo": {
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "created": 1789176949,
+   "description": "Schematron V2 Turbo is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes throughput for high-volume extraction workloads. Extraction instructions must be supplied through a JSON schema in response_format rather...",
+   "endpoints": [
+    {
+     "context_length": 128000,
+     "max_completion_tokens": 8192,
+     "max_prompt_tokens": null,
+     "model_id": "inference-net/schematron-v2-turbo",
+     "model_name": "Inference.net: Schematron V2 Turbo",
+     "name": "InferenceNet | inference-net/schematron-v2-turbo-20260902",
+     "pricing": {
+      "completion": "0.00000015",
+      "discount": 0,
+      "prompt": "0.00000003"
+     },
+     "provider_name": "InferenceNet",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "top_k",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "inference-net"
+    }
+   ],
+   "id": "inference-net/schematron-v2-turbo",
+   "name": "Inference.net: Schematron V2 Turbo"
   },
   "kwaipilot/kat-coder-pro-v2": {
    "architecture": {
@@ -28475,10 +28593,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Sail Research | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.00000770013",
+      "completion": "0.000011550195",
       "discount": 0,
-      "input_cache_read": "0.000000175446",
-      "prompt": "0.0000015351525"
+      "input_cache_read": "0.000000263169",
+      "prompt": "0.00000230272875"
      },
      "provider_name": "Sail Research",
      "quantization": "fp4",
@@ -29573,6 +29691,7 @@
       "presence_penalty",
       "reasoning",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
       "structured_outputs",
@@ -48065,10 +48184,10 @@
      "model_name": "Tencent: Hy3",
      "name": "DeepInfra | tencent/hy3-20260706",
      "pricing": {
-      "completion": "0.00000058",
-      "discount": 0,
-      "input_cache_read": "0.000000035",
-      "prompt": "0.00000014"
+      "completion": "0.00000029",
+      "discount": 0.5,
+      "input_cache_read": "0.0000000175",
+      "prompt": "0.00000007"
      },
      "provider_name": "DeepInfra",
      "quantization": "fp8",
@@ -55223,10 +55342,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Morph | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.0000033077",
-      "discount": 0.03,
-      "input_cache_read": "0.000000194",
-      "prompt": "0.00000097"
+      "completion": "0.0000032395",
+      "discount": 0.05,
+      "input_cache_read": "0.00000019",
+      "prompt": "0.00000095"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -55358,10 +55477,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Phala | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.00000352",
-      "discount": 0.2,
-      "input_cache_read": "0.000000208",
-      "prompt": "0.00000112"
+      "completion": "0.0000033",
+      "discount": 0.25,
+      "input_cache_read": "0.000000195",
+      "prompt": "0.00000105"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -55446,10 +55565,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Sail Research | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.0000044",
+      "completion": "0.000003951169819",
       "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "input_cache_read": "0.000000233478217",
+      "prompt": "0.000001257190397"
      },
      "provider_name": "Sail Research",
      "quantization": "fp8",

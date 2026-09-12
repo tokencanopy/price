@@ -2911,7 +2911,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 1000000,
-    "is_moderated": true,
+    "is_moderated": false,
     "max_completion_tokens": 128000
    }
   },
@@ -6631,9 +6631,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000013468",
-    "input_cache_read": "0.000000013468",
-    "prompt": "0.00000006734"
+    "completion": "0.00000013356",
+    "input_cache_read": "0.000000013356",
+    "prompt": "0.00000006678"
    },
    "reasoning": {
     "default_effort": "high",
@@ -6766,9 +6766,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000018",
-    "input_cache_read": "0.000000016",
-    "prompt": "0.000000065"
+    "completion": "0.00000008",
+    "input_cache_read": "0.000000008",
+    "prompt": "0.00000004"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7201,9 +7201,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000001699632",
-    "input_cache_read": "0.000000070818",
-    "prompt": "0.000000849816"
+    "completion": "0.000001638732",
+    "input_cache_read": "0.0000000682805",
+    "prompt": "0.000000819366"
    },
    "reasoning": {
     "default_effort": "high",
@@ -13167,6 +13167,108 @@
     ],
     "tokenizer": "Other"
    },
+   "canonical_slug": "inference-net/schematron-v2-small-20260902",
+   "context_length": 128000,
+   "created": 1789176933,
+   "default_parameters": {},
+   "description": "Schematron V2 Small is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes extraction quality for complex schemas and long pages. Extraction instructions must be supplied through a JSON schema...",
+   "expiration_date": null,
+   "hugging_face_id": "inference-net/schematron-v2-llama-3.2-3b",
+   "id": "inference-net/schematron-v2-small",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/inference-net/schematron-v2-small-20260902/endpoints"
+   },
+   "name": "Inference.net: Schematron V2 Small",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00000023",
+    "prompt": "0.00000005"
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "logit_bias",
+    "max_tokens",
+    "min_p",
+    "presence_penalty",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "top_k",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 128000,
+    "is_moderated": false,
+    "max_completion_tokens": 4096
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "inference-net/schematron-v2-turbo-20260902",
+   "context_length": 128000,
+   "created": 1789176949,
+   "default_parameters": {},
+   "description": "Schematron V2 Turbo is a 3B-parameter HTML-to-JSON extraction model from Inference.net. It prioritizes throughput for high-volume extraction workloads. Extraction instructions must be supplied through a JSON schema in response_format rather...",
+   "expiration_date": null,
+   "hugging_face_id": "inference-net/schematron-v2-granite-4.0-h-micro",
+   "id": "inference-net/schematron-v2-turbo",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/inference-net/schematron-v2-turbo-20260902/endpoints"
+   },
+   "name": "Inference.net: Schematron V2 Turbo",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00000015",
+    "prompt": "0.00000003"
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "logit_bias",
+    "max_tokens",
+    "min_p",
+    "presence_penalty",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "top_k",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 128000,
+    "is_moderated": false,
+    "max_completion_tokens": 8192
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
    "benchmarks": {
     "artificial_analysis": {
      "agentic_index": null,
@@ -18983,9 +19085,9 @@
    "name": "MoonshotAI: Kimi K3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000770013",
-    "input_cache_read": "0.000000175446",
-    "prompt": "0.0000015351525"
+    "completion": "0.000011550195",
+    "input_cache_read": "0.000000263169",
+    "prompt": "0.00000230272875"
    },
    "reasoning": {
     "default_effort": "max",
@@ -40784,9 +40886,9 @@
    "name": "DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000016",
-    "input_cache_read": "0.000000013",
-    "prompt": "0.00000005"
+    "completion": "0.00000008",
+    "input_cache_read": "0.000000008",
+    "prompt": "0.00000004"
    },
    "reasoning": {
     "default_effort": "high",
@@ -40826,7 +40928,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    }
   },
   {
@@ -41037,9 +41139,9 @@
    "name": "MoonshotAI Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000770013",
-    "input_cache_read": "0.000000175446",
-    "prompt": "0.0000015351525"
+    "completion": "0.000011550195",
+    "input_cache_read": "0.000000263169",
+    "prompt": "0.00000230272875"
    },
    "reasoning": {
     "default_effort": "max",
@@ -41738,5 +41840,5 @@
  "links": {
   "next": null
  },
- "total_count": 443
+ "total_count": 445
 }
