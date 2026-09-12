@@ -8387,10 +8387,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Baidu | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000132",
-      "discount": 0,
-      "input_cache_read": "0.000000014",
-      "prompt": "0.00000044"
+      "completion": "0.000001188",
+      "discount": 0.1,
+      "input_cache_read": "0.0000000126",
+      "prompt": "0.000000396"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -8758,10 +8758,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Inceptron | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.0000001685",
+      "completion": "0.0000001587",
       "discount": 0,
-      "input_cache_read": "0.0000000107",
-      "prompt": "0.0000000793"
+      "input_cache_read": "0.0000000047",
+      "prompt": "0.0000000681"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -9027,10 +9027,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "OpenInference | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000016",
+      "completion": "0.00000007",
       "discount": 0,
-      "input_cache_read": "0.000000013",
-      "prompt": "0.00000005"
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000003"
      },
      "provider_name": "OpenInference",
      "quantization": "fp8",
@@ -9912,10 +9912,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.0000016562",
-      "discount": 0.51,
-      "input_cache_read": "0.0000000686",
-      "prompt": "0.0000008281"
+      "completion": "0.00000157508",
+      "discount": 0.534,
+      "input_cache_read": "0.00000006524",
+      "prompt": "0.00000078754"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10361,10 +10361,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.000001638732",
-      "discount": 0.5291,
-      "input_cache_read": "0.0000000682805",
-      "prompt": "0.000000819366"
+      "completion": "0.000001557648",
+      "discount": 0.5524,
+      "input_cache_read": "0.000000064902",
+      "prompt": "0.000000778824"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -11790,10 +11790,10 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "Morph | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.0000012",
-      "discount": 0,
-      "input_cache_read": "0.00000003",
-      "prompt": "0.0000003"
+      "completion": "0.0000009",
+      "discount": 0.25,
+      "input_cache_read": "0.0000000225",
+      "prompt": "0.000000225"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -28366,10 +28366,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Morph | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.000014",
-      "discount": 0,
-      "input_cache_read": "0.00000029",
-      "prompt": "0.0000025"
+      "completion": "0.0000119",
+      "discount": 0.15,
+      "input_cache_read": "0.0000002465",
+      "prompt": "0.000002125"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -55342,10 +55342,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Morph | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.0000032395",
-      "discount": 0.05,
-      "input_cache_read": "0.00000019",
-      "prompt": "0.00000095"
+      "completion": "0.00000341",
+      "discount": 0,
+      "input_cache_read": "0.0000002",
+      "prompt": "0.000001"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -55477,10 +55477,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Phala | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.0000033",
-      "discount": 0.25,
-      "input_cache_read": "0.000000195",
-      "prompt": "0.00000105"
+      "completion": "0.00000352",
+      "discount": 0.2,
+      "input_cache_read": "0.000000208",
+      "prompt": "0.00000112"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -56394,16 +56394,63 @@
     },
     {
      "context_length": 1048576,
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "model_id": "z-ai/glm-5.3-flash",
+     "model_name": "Z.ai: GLM 5.3 Flash",
+     "name": "Near AI | z-ai/glm-5.3-flash-20260826",
+     "pricing": {
+      "completion": "0.0000005",
+      "discount": 0,
+      "input_cache_read": "0.000000035",
+      "prompt": "0.00000015"
+     },
+     "provider_name": "Near AI",
+     "quantization": "fp8",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "near-ai/fp8"
+    },
+    {
+     "context_length": 1048576,
      "max_completion_tokens": 128000,
      "max_prompt_tokens": null,
      "model_id": "z-ai/glm-5.3-flash",
      "model_name": "Z.ai: GLM 5.3 Flash",
      "name": "NextBit | z-ai/glm-5.3-flash-20260826",
      "pricing": {
-      "completion": "0.0000005",
+      "completion": "0.00000059",
       "discount": 0,
-      "input_cache_read": "0.00000003",
-      "prompt": "0.00000015"
+      "input_cache_read": "0.000000036",
+      "prompt": "0.000000177"
      },
      "provider_name": "NextBit",
      "quantization": "fp8",
@@ -57036,10 +57083,10 @@
     "tokenizer": "Router"
    },
    "created": 1777318492,
-   "description": "This model always redirects to the latest model in the Anthropic Claude Haiku family.",
+   "description": "This model always redirects to the latest model in the Claude Haiku family.",
    "endpoints": [],
    "id": "~anthropic/claude-haiku-latest",
-   "name": "Anthropic Claude Haiku Latest"
+   "name": "Anthropic: Claude Haiku Latest"
   },
   "~anthropic/claude-opus-latest": {
    "architecture": {
@@ -57074,10 +57121,10 @@
     "tokenizer": "Router"
    },
    "created": 1777318368,
-   "description": "This model always redirects to the latest model in the Anthropic Claude Sonnet family.",
+   "description": "This model always redirects to the latest model in the Claude Sonnet family.",
    "endpoints": [],
    "id": "~anthropic/claude-sonnet-latest",
-   "name": "Anthropic Claude Sonnet Latest"
+   "name": "Anthropic: Claude Sonnet Latest"
   },
   "~deepseek/deepseek-v4-flash-latest": {
    "architecture": {
@@ -57095,7 +57142,7 @@
    "description": "This model always redirects to the latest model in the DeepSeek V4 Flash family.",
    "endpoints": [],
    "id": "~deepseek/deepseek-v4-flash-latest",
-   "name": "DeepSeek V4 Flash Latest"
+   "name": "DeepSeek: DeepSeek V4 Flash Latest"
   },
   "~google/gemini-flash-latest": {
    "architecture": {
@@ -57114,10 +57161,10 @@
     "tokenizer": "Router"
    },
    "created": 1777318398,
-   "description": "This model always redirects to the latest model in the Google Gemini Flash family.",
+   "description": "This model always redirects to the latest model in the Gemini Flash family.",
    "endpoints": [],
    "id": "~google/gemini-flash-latest",
-   "name": "Google Gemini Flash Latest"
+   "name": "Google: Gemini Flash Latest"
   },
   "~google/gemini-pro-latest": {
    "architecture": {
@@ -57136,10 +57183,10 @@
     "tokenizer": "Router"
    },
    "created": 1777318451,
-   "description": "This model always redirects to the latest model in the Google Gemini Pro family.",
+   "description": "This model always redirects to the latest model in the Gemini Pro family.",
    "endpoints": [],
    "id": "~google/gemini-pro-latest",
-   "name": "Google Gemini Pro Latest"
+   "name": "Google: Gemini Pro Latest"
   },
   "~moonshotai/kimi-latest": {
    "architecture": {
@@ -57155,10 +57202,10 @@
     "tokenizer": "Router"
    },
    "created": 1777318428,
-   "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
+   "description": "This model always redirects to the latest model in the Kimi family.",
    "endpoints": [],
    "id": "~moonshotai/kimi-latest",
-   "name": "MoonshotAI Kimi Latest"
+   "name": "MoonshotAI: Kimi Latest"
   },
   "~openai/gpt-astra-latest": {
    "architecture": {
@@ -57175,10 +57222,10 @@
     "tokenizer": "Router"
    },
    "created": 1789130932,
-   "description": "This model always redirects to the latest model in the OpenAI GPT Astra family.",
+   "description": "This model always redirects to the latest model in the GPT Astra family.",
    "endpoints": [],
    "id": "~openai/gpt-astra-latest",
-   "name": "OpenAI GPT Astra Latest"
+   "name": "OpenAI: GPT Astra Latest"
   },
   "~openai/gpt-luna-latest": {
    "architecture": {
@@ -57195,10 +57242,10 @@
     "tokenizer": "Router"
    },
    "created": 1789130922,
-   "description": "This model always redirects to the latest model in the OpenAI GPT Luna family.",
+   "description": "This model always redirects to the latest model in the GPT Luna family.",
    "endpoints": [],
    "id": "~openai/gpt-luna-latest",
-   "name": "OpenAI GPT Luna Latest"
+   "name": "OpenAI: GPT Luna Latest"
   },
   "~openai/gpt-mini-latest": {
    "architecture": {
@@ -57215,10 +57262,10 @@
     "tokenizer": "Router"
    },
    "created": 1777318471,
-   "description": "This model always redirects to the latest model in the OpenAI GPT Mini family.",
+   "description": "This model always redirects to the latest model in the GPT Mini family.",
    "endpoints": [],
    "id": "~openai/gpt-mini-latest",
-   "name": "OpenAI GPT Mini Latest"
+   "name": "OpenAI: GPT Mini Latest"
   },
   "~openai/gpt-sol-latest": {
    "architecture": {
@@ -57235,10 +57282,10 @@
     "tokenizer": "Router"
    },
    "created": 1789130928,
-   "description": "This model always redirects to the latest model in the OpenAI GPT Sol family.",
+   "description": "This model always redirects to the latest model in the GPT Sol family.",
    "endpoints": [],
    "id": "~openai/gpt-sol-latest",
-   "name": "OpenAI GPT Sol Latest"
+   "name": "OpenAI: GPT Sol Latest"
   },
   "~openai/gpt-terra-latest": {
    "architecture": {
@@ -57255,10 +57302,10 @@
     "tokenizer": "Router"
    },
    "created": 1789130925,
-   "description": "This model always redirects to the latest model in the OpenAI GPT Terra family.",
+   "description": "This model always redirects to the latest model in the GPT Terra family.",
    "endpoints": [],
    "id": "~openai/gpt-terra-latest",
-   "name": "OpenAI GPT Terra Latest"
+   "name": "OpenAI: GPT Terra Latest"
   },
   "~x-ai/grok-latest": {
    "architecture": {
