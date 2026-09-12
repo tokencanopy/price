@@ -6631,9 +6631,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000013356",
-    "input_cache_read": "0.000000013356",
-    "prompt": "0.00000006678"
+    "completion": "0.00000013132",
+    "input_cache_read": "0.000000013132",
+    "prompt": "0.00000006566"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7201,9 +7201,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000001557648",
-    "input_cache_read": "0.000000064902",
-    "prompt": "0.000000778824"
+    "completion": "0.0000032",
+    "input_cache_read": "0.000000135",
+    "prompt": "0.0000016"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7238,9 +7238,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1024000,
+    "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -7281,9 +7281,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000173448",
-    "input_cache_read": "0.000000018396",
-    "prompt": "0.00000057816"
+    "completion": "0.00000173844",
+    "input_cache_read": "0.000000019316",
+    "prompt": "0.00000057948"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7318,9 +7318,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1024000,
     "is_moderated": false,
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 384000
    }
   },
   {
@@ -13617,8 +13617,8 @@
    "name": "Meta: Llama 3.1 70B Instruct",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000072",
-    "prompt": "0.00000072"
+    "completion": "0.0000004",
+    "prompt": "0.0000004"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -13640,8 +13640,8 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 131072,
-    "is_moderated": true,
-    "max_completion_tokens": 8192
+    "is_moderated": false,
+    "max_completion_tokens": 16384
    }
   },
   {
@@ -19098,9 +19098,9 @@
    "name": "MoonshotAI: Kimi K3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000011550195",
-    "input_cache_read": "0.000000263169",
-    "prompt": "0.00000230272875"
+    "completion": "0.00001328272425",
+    "input_cache_read": "0.00000030264435",
+    "prompt": "0.000002648138063"
    },
    "reasoning": {
     "default_effort": "max",
@@ -35315,8 +35315,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -35333,7 +35333,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -40027,7 +40027,7 @@
     "top_p": 0.95
    },
    "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
-   "expiration_date": null,
+   "expiration_date": "2098-12-31",
    "hugging_face_id": "zai-org/GLM-5.3-Flash",
    "id": "z-ai/glm-5.3-flash",
    "knowledge_cutoff": null,
@@ -40037,9 +40037,9 @@
    "name": "Z.ai: GLM 5.3 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000025",
-    "input_cache_read": "0.000000015",
-    "prompt": "0.000000075"
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000003",
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "max",
@@ -41152,9 +41152,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000119",
-    "input_cache_read": "0.0000002465",
-    "prompt": "0.000002125"
+    "completion": "0.0000133",
+    "input_cache_read": "0.0000002755",
+    "prompt": "0.000002375"
    },
    "reasoning": {
     "default_effort": "max",
