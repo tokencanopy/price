@@ -7395,10 +7395,10 @@
      "model_name": "DeepSeek: DeepSeek V3.2",
      "name": "Venice | deepseek/deepseek-v3.2-20251201",
      "pricing": {
-      "completion": "0.00000037776",
-      "discount": 0.213,
-      "input_cache_read": "0.00000012592",
-      "prompt": "0.00000025971"
+      "completion": "0.00000039024",
+      "discount": 0.187,
+      "input_cache_read": "0.00000013008",
+      "prompt": "0.00000026829"
      },
      "provider_name": "Venice",
      "quantization": "unknown",
@@ -8005,6 +8005,47 @@
     },
     {
      "context_length": 1048576,
+     "max_completion_tokens": 393216,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4-flash",
+     "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
+     "name": "OpenInference | deepseek/deepseek-v4-flash-20260423",
+     "pricing": {
+      "completion": "0.00000012",
+      "discount": 0,
+      "input_cache_read": "0.0000000012",
+      "prompt": "0.00000005"
+     },
+     "provider_name": "OpenInference",
+     "quantization": "fp8",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": false,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "open-inference/fp8"
+    },
+    {
+     "context_length": 1048576,
      "max_completion_tokens": 943718,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4-flash",
@@ -8179,10 +8220,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "Venice | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.0000001793",
-      "discount": 0.348,
-      "input_cache_read": "0.000000018256",
-      "prompt": "0.000000089976"
+      "completion": "0.0000001925",
+      "discount": 0.3,
+      "input_cache_read": "0.0000000196",
+      "prompt": "0.0000000966"
      },
      "provider_name": "Venice",
      "quantization": "unknown",
@@ -8284,9 +8325,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.000000528",
+      "completion": "0.000001056",
       "discount": 0,
-      "input_cache_read": "0.0000000176",
+      "input_cache_read": "0.0000000352",
       "overrides": [
        {
         "completion": "0.000000528",
@@ -8303,7 +8344,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000176"
+      "prompt": "0.000000352"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -9912,10 +9953,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.0000014534",
-      "discount": 0.57,
-      "input_cache_read": "0.0000000602",
-      "prompt": "0.0000007267"
+      "completion": "0.00000131144",
+      "discount": 0.612,
+      "input_cache_read": "0.00000005432",
+      "prompt": "0.00000065572"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10316,10 +10357,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.000001435848",
-      "discount": 0.5874,
-      "input_cache_read": "0.000000059827",
-      "prompt": "0.000000717924"
+      "completion": "0.000001294212",
+      "discount": 0.6281,
+      "input_cache_read": "0.0000000539255",
+      "prompt": "0.000000647106"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -10416,9 +10457,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.0000017424",
+      "completion": "0.000003366",
       "discount": 0,
-      "input_cache_read": "0.00000005808",
+      "input_cache_read": "0.0000001122",
       "overrides": [
        {
         "completion": "0.0000017424",
@@ -10435,7 +10476,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000005808"
+      "prompt": "0.000001122"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -11266,10 +11307,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000173844",
-      "discount": 0.561,
-      "input_cache_read": "0.000000019316",
-      "prompt": "0.00000057948"
+      "completion": "0.00000316404",
+      "discount": 0.201,
+      "input_cache_read": "0.000000035156",
+      "prompt": "0.00000105468"
      },
      "provider_name": "StreamLake",
      "quantization": "unknown",
@@ -11903,6 +11944,52 @@
      },
      "supports_voice_cloning": false,
      "tag": "siliconflow/fp8"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "name": "Together | deepseek/deepseek-v4.1-flash-20260910",
+     "pricing": {
+      "completion": "0.0000012",
+      "discount": 0,
+      "input_cache_read": "0.000000006",
+      "prompt": "0.0000003"
+     },
+     "provider_name": "Together",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "together"
     },
     {
      "context_length": 1000000,
@@ -48346,9 +48433,9 @@
      "model_name": "Tencent: Hy3",
      "name": "Tencent | tencent/hy3-20260706",
      "pricing": {
-      "completion": "0.00000033",
+      "completion": "0.000000528",
       "discount": 0,
-      "input_cache_read": "0.000000020625",
+      "input_cache_read": "0.000000033",
       "overrides": [
        {
         "completion": "0.00000033",
@@ -48365,7 +48452,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000000825"
+      "prompt": "0.000000132"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -52027,10 +52114,10 @@
      "model_name": "Z.ai: GLM 4.7",
      "name": "Venice | z-ai/glm-4.7-20251222",
      "pricing": {
-      "completion": "0.00000192655",
-      "discount": 0.273,
-      "input_cache_read": "0.00000007997",
-      "prompt": "0.00000039985"
+      "completion": "0.0000019292",
+      "discount": 0.272,
+      "input_cache_read": "0.00000008008",
+      "prompt": "0.0000004004"
      },
      "provider_name": "Venice",
      "quantization": "fp4",
@@ -53180,10 +53267,10 @@
      "model_name": "Z.ai: GLM 5.1",
      "name": "Venice | z-ai/glm-5.1-20260406",
      "pricing": {
-      "completion": "0.00000439956",
-      "discount": 0.091,
-      "input_cache_read": "0.000000259974",
-      "prompt": "0.00000139986"
+      "completion": "0.0000044044",
+      "discount": 0.09,
+      "input_cache_read": "0.00000026026",
+      "prompt": "0.0000014014"
      },
      "provider_name": "Venice",
      "quantization": "fp8",
@@ -55059,7 +55146,6 @@
       "reasoning",
       "reasoning_effort",
       "response_format",
-      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
