@@ -5978,7 +5978,6 @@
     "response_format",
     "seed",
     "stop",
-    "structured_outputs",
     "temperature",
     "tool_choice",
     "tools",
@@ -6631,9 +6630,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000013132",
-    "input_cache_read": "0.000000013132",
-    "prompt": "0.00000006566"
+    "completion": "0.00000009968",
+    "input_cache_read": "0.000000009968",
+    "prompt": "0.00000004984"
    },
    "reasoning": {
     "default_effort": "high",
@@ -13473,8 +13472,7 @@
     "tool_choice",
     "tools",
     "top_k",
-    "top_logprobs",
-    "top_p"
+    "top_logprobs"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -30780,8 +30778,8 @@
    "name": "Qwen: Qwen3 30B A3B Instruct 2507",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000003",
-    "prompt": "0.00000009"
+    "completion": "0.00000019305",
+    "prompt": "0.00000004815"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -30803,9 +30801,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 262144,
+    "context_length": 128000,
     "is_moderated": false,
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 32000
    }
   },
   {
@@ -31392,9 +31390,6 @@
      }
     ],
     "prompt": "0.00000065"
-   },
-   "reasoning": {
-    "mandatory": false
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -40915,9 +40910,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000007",
-    "input_cache_read": "0.000000003",
-    "prompt": "0.00000003"
+    "completion": "0.0000001056",
+    "input_cache_read": "0.00000000112",
+    "prompt": "0.0000000352"
    },
    "reasoning": {
     "default_effort": "high",
@@ -40957,7 +40952,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 131072
    }
   },
   {
@@ -41168,9 +41163,8 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000133",
-    "input_cache_read": "0.0000002755",
-    "prompt": "0.000002375"
+    "completion": "0.00001095",
+    "prompt": "0.0000021"
    },
    "reasoning": {
     "default_effort": "max",
@@ -41821,9 +41815,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000336",
-    "input_cache_read": "0.0000001639",
-    "prompt": "0.0000008727"
+    "completion": "0.000003168",
+    "input_cache_read": "0.0000001872",
+    "prompt": "0.000000936"
    },
    "reasoning": {
     "default_effort": "max",
@@ -41860,9 +41854,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 235929
    }
   }
  ],
