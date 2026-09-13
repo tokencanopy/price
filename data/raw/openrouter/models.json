@@ -6630,9 +6630,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000009856",
-    "input_cache_read": "0.000000009856",
-    "prompt": "0.00000004928"
+    "completion": "0.0000000952",
+    "input_cache_read": "0.00000000952",
+    "prompt": "0.0000000476"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7280,9 +7280,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000173448",
-    "input_cache_read": "0.000000018396",
-    "prompt": "0.00000057816"
+    "completion": "0.00000173844",
+    "input_cache_read": "0.000000019316",
+    "prompt": "0.00000057948"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7317,9 +7317,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1024000,
     "is_moderated": false,
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 384000
    }
   },
   {
@@ -13225,6 +13225,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000023",
+    "input_cache_read": "0.00000005",
     "prompt": "0.00000005"
    },
    "supported_parameters": [
@@ -13276,6 +13277,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000015",
+    "input_cache_read": "0.00000003",
     "prompt": "0.00000003"
    },
    "supported_parameters": [
@@ -35340,8 +35342,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -35358,7 +35360,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -40052,7 +40054,7 @@
     "top_p": 0.95
    },
    "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
-   "expiration_date": "2098-12-31",
+   "expiration_date": null,
    "hugging_face_id": "zai-org/GLM-5.3-Flash",
    "id": "z-ai/glm-5.3-flash",
    "knowledge_cutoff": null,
@@ -40062,9 +40064,9 @@
    "name": "Z.ai: GLM 5.3 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000005",
-    "input_cache_read": "0.00000003",
-    "prompt": "0.00000015"
+    "completion": "0.00000025",
+    "input_cache_read": "0.000000015",
+    "prompt": "0.000000075"
    },
    "reasoning": {
     "default_effort": "max",
@@ -41178,6 +41180,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00001095",
+    "input_cache_read": "0.00000023",
     "prompt": "0.0000021"
    },
    "reasoning": {
