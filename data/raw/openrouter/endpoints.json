@@ -8010,9 +8010,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "OpenInference | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.00000012",
+      "completion": "0.00000014",
       "discount": 0,
-      "input_cache_read": "0.0000000012",
+      "input_cache_read": "0.000000014",
       "prompt": "0.00000005"
      },
      "provider_name": "OpenInference",
@@ -8431,10 +8431,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Baidu | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.0000001056",
-      "discount": 0.92,
-      "input_cache_read": "0.00000000112",
-      "prompt": "0.0000000352"
+      "completion": "0.00000132",
+      "discount": 0,
+      "input_cache_read": "0.000000014",
+      "prompt": "0.00000044"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -8802,10 +8802,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Inceptron | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.0000001374",
+      "completion": "0.0000001734",
       "discount": 0,
-      "input_cache_read": "0.0000000055",
-      "prompt": "0.0000000619"
+      "input_cache_read": "0.0000000102",
+      "prompt": "0.000000064"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -9071,9 +9071,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "OpenInference | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000007",
+      "completion": "0.0000001",
       "discount": 0,
-      "input_cache_read": "0.000000007",
+      "input_cache_read": "0.00000001",
       "prompt": "0.00000004"
      },
      "provider_name": "OpenInference",
@@ -9371,10 +9371,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.0000003564",
-      "discount": 0.73,
-      "input_cache_read": "0.00000000378",
-      "prompt": "0.0000001188"
+      "completion": "0.0000001716",
+      "discount": 0.87,
+      "input_cache_read": "0.00000000182",
+      "prompt": "0.0000000572"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -9960,10 +9960,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.00000338",
-      "discount": 0,
-      "input_cache_read": "0.00000014",
-      "prompt": "0.00000169"
+      "completion": "0.0000019097",
+      "discount": 0.435,
+      "input_cache_read": "0.0000000791",
+      "prompt": "0.00000095485"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10569,10 +10569,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "Baidu | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000396",
-      "discount": 0,
-      "input_cache_read": "0.000000042",
-      "prompt": "0.00000132"
+      "completion": "0.00000296604",
+      "discount": 0.251,
+      "input_cache_read": "0.000000031458",
+      "prompt": "0.00000098868"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10820,9 +10820,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000396",
+      "completion": "0.00000198",
       "discount": 0,
-      "input_cache_read": "0.000000044",
+      "input_cache_read": "0.000000022",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -10904,7 +10904,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000132"
+      "prompt": "0.00000066"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -11629,9 +11629,9 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "DeepSeek | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000006",
+      "input_cache_read": "0.000000003",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -11713,7 +11713,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.0000003"
+      "prompt": "0.00000015"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -28630,10 +28630,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Morph | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.0000126",
-      "discount": 0.1,
-      "input_cache_read": "0.000000261",
-      "prompt": "0.00000225"
+      "completion": "0.0000133",
+      "discount": 0.05,
+      "input_cache_read": "0.0000002755",
+      "prompt": "0.000002375"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -53045,10 +53045,10 @@
      "model_name": "Z.ai: GLM 5.1",
      "name": "Baidu | z-ai/glm-5.1-20260406",
      "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "completion": "0.0000030316",
+      "discount": 0.311,
+      "input_cache_read": "0.00000017914",
+      "prompt": "0.0000009646"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -53118,49 +53118,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "chutes/fp8"
-    },
-    {
-     "context_length": 202752,
-     "max_completion_tokens": 182476,
-     "max_prompt_tokens": null,
-     "model_id": "z-ai/glm-5.1",
-     "model_name": "Z.ai: GLM 5.1",
-     "name": "Crusoe | z-ai/glm-5.1-20260406",
-     "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000025",
-      "prompt": "0.0000012"
-     },
-     "provider_name": "Crusoe",
-     "quantization": "fp8",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": false,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "crusoe/fp8"
     },
     {
      "context_length": 202752,
@@ -55566,7 +55523,7 @@
      "pricing": {
       "completion": "0.0000041098",
       "discount": 0,
-      "input_cache_read": "0.0000002105",
+      "input_cache_read": "0.0000001871",
       "prompt": "0.0000010204"
      },
      "provider_name": "Inceptron",
@@ -56826,6 +56783,47 @@
      },
      "supports_voice_cloning": false,
      "tag": "novita/fp8"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 102400,
+     "max_prompt_tokens": null,
+     "model_id": "z-ai/glm-5.3-flash",
+     "model_name": "Z.ai: GLM 5.3 Flash",
+     "name": "OpenInference | z-ai/glm-5.3-flash-20260826",
+     "pricing": {
+      "completion": "0.0000005",
+      "discount": 0,
+      "input_cache_read": "0.00000003",
+      "prompt": "0.00000015"
+     },
+     "provider_name": "OpenInference",
+     "quantization": "fp4",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "open-inference/fp4"
     },
     {
      "context_length": 1048576,
