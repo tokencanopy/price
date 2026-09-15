@@ -3,7 +3,7 @@
 **A public, machine-readable record of what LLM inference actually costs — and how that price changes over time.** Refreshed every 6 hours.
 
 <!-- BEGIN STATS -->
-**14,142** price points · **921** models · **74** platforms · updated **2026-09-15 01:05 UTC** · history since **2026-09-02** (14 snapshots)
+**14,142** price points · **921** models · **74** platforms · updated **2026-09-15 06:43 UTC** · history since **2026-09-02** (14 snapshots)
 <!-- END STATS -->
 
 Every provider publishes today's price. **Nobody publishes yesterday's.** This repo
@@ -40,16 +40,16 @@ yourself.
 <!-- BEGIN TABLE -->
 | Model | Platforms | Cheapest | Input $/M | Output $/M | Spread |
 |---|--:|---|--:|--:|--:|
-| Z.ai: GLM 5.3 | 27 | [DeepInfra](https://deepinfra.com/) | $0.90 | $3.00 | 2.3× |
+| Z.ai: GLM 5.3 | 28 | [Reka](https://reka.ai/) | $0.88 | $2.97 | 2.4× |
 | Z.ai: GLM 5.3 Flash | 27 | [DeepInfra](https://deepinfra.com/) | $0.07 | $0.25 | 6.0× |
 | DeepSeek: DeepSeek V4 Flash 0731 | 26 | [OpenInference](https://www.openinference.ai/) | $0.04 | $0.10 | 11.0× |
 | Z.ai: GLM 5.2 | 24 | [DeepInfra](https://deepinfra.com/) | $0.49 | $1.56 | 4.6× |
 | OpenAI: gpt-oss-120b | 21 | [AkashML](https://akashml.com/) | $0.03 | $0.17 | 11.7× |
-| DeepSeek: DeepSeek V4 Pro 0813 | 20 | [DeepSeek](https://deepseek.com/) | $0.66 | $1.98 | 2.5× |
+| DeepSeek: DeepSeek V4 Pro 0813 | 20 | [Ionstream](https://ionstream.ai/) | $0.96 | $2.88 | 1.7× |
 | MoonshotAI: Kimi K2.6 | 20 | [DigitalOcean](https://www.digitalocean.com/) | $0.57 | $2.40 | 1.9× |
-| DeepSeek: DeepSeek V4.1 Flash | 18 | [DeepSeek](https://deepseek.com/) | $0.15 | $0.60 | 2.5× |
 | DeepSeek: DeepSeek V4 Flash 0423 | 17 | [OpenInference](https://www.openinference.ai/) | $0.05 | $0.14 | 4.2× |
-| MoonshotAI: Kimi K3 | 17 | [InferenceNet](https://inference.net/) | $2.10 | $10.95 | 1.6× |
+| DeepSeek: DeepSeek V4.1 Flash | 17 | [Relace](https://www.relace.ai/) | $0.15 | $0.60 | 2.5× |
+| MoonshotAI: Kimi K3 | 17 | [Morph](https://morphllm.com/) | $1.88 | $10.50 | 1.8× |
 | Qwen: Qwen3.8 27B | 16 | [Darkbloom](https://www.darkbloom.dev/) | $0.15 | $2.00 | 3.0× |
 | DeepSeek: DeepSeek V3.2 | 15 | [GMICloud](https://gmicloud.ai/) | $0.21 | $0.31 | 14.4× |
 | DeepSeek: DeepSeek V4 Pro 0423 | 15 | [StreamLake](https://www.streamlake.ai/) | $0.96 | $1.91 | 2.3× |
