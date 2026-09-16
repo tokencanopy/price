@@ -6644,9 +6644,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000177212",
-    "input_cache_read": "0.0000000177212",
-    "prompt": "0.000000088606"
+    "completion": "0.000000168",
+    "input_cache_read": "0.0000000168",
+    "prompt": "0.000000084"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7294,9 +7294,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000029502",
-    "input_cache_read": "0.00000003278",
-    "prompt": "0.0000009834"
+    "completion": "0.00000173844",
+    "input_cache_read": "0.000000018438",
+    "prompt": "0.00000057948"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7331,9 +7331,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1024000,
+    "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -18993,9 +18993,9 @@
    "name": "MoonshotAI: Kimi K3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00001328272425",
-    "input_cache_read": "0.00000030264435",
-    "prompt": "0.000002648138063"
+    "completion": "0.000015",
+    "input_cache_read": "0.0000003",
+    "prompt": "0.000003"
    },
    "reasoning": {
     "default_effort": "max",
@@ -31653,8 +31653,8 @@
    "name": "Qwen: Qwen3 VL 30B A3B Instruct",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "prompt": "0.00000015"
+    "completion": "0.00000052",
+    "prompt": "0.00000013"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -31677,9 +31677,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 262144,
+    "context_length": 131072,
     "is_moderated": false,
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 32768
    }
   },
   {
@@ -34595,6 +34595,52 @@
   {
    "architecture": {
     "input_modalities": [
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "stealth/union-alpha",
+   "context_length": 262144,
+   "created": 1789569723,
+   "default_parameters": {},
+   "description": "Union Alpha is a multimodal model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. Union Alpha is a stealth model....",
+   "expiration_date": "2098-12-31",
+   "hugging_face_id": null,
+   "id": "stealth/union-alpha",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/stealth/union-alpha/endpoints"
+   },
+   "name": "Union Alpha",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0",
+    "prompt": "0"
+   },
+   "supported_parameters": [
+    "max_tokens",
+    "response_format",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 262144,
+    "is_moderated": false,
+    "max_completion_tokens": 131072
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
      "text"
     ],
     "instruct_type": null,
@@ -35057,8 +35103,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -35075,7 +35121,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -39240,7 +39286,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 131072
    }
   },
   {
@@ -39898,6 +39944,7 @@
     "logprobs",
     "max_tokens",
     "min_p",
+    "parallel_tool_calls",
     "presence_penalty",
     "reasoning",
     "reasoning_effort",
@@ -40742,6 +40789,22 @@
    "pricing": {
     "completion": "0.0000006",
     "input_cache_read": "0.000000015",
+    "overrides": [
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000015",
+      "prompt": "0.00000015",
+      "utc_end": 0,
+      "utc_start": 1400
+     },
+     {
+      "completion": "0.0000012",
+      "input_cache_read": "0.00000003",
+      "prompt": "0.0000003",
+      "utc_end": 1400,
+      "utc_start": 0
+     }
+    ],
     "prompt": "0.00000015"
    },
    "reasoning": {
@@ -40778,9 +40841,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1000000,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -40817,90 +40880,9 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022",
-    "overrides": [
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 0,
-      "utc_start": 1000
-     },
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 100,
-      "utc_start": 0
-     },
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 600,
-      "utc_start": 400
-     },
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "saturday",
-       "sunday"
-      ]
-     },
-     {
-      "completion": "0.00000396",
-      "input_cache_read": "0.000000044",
-      "prompt": "0.00000132",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 1000,
-      "utc_start": 600
-     },
-     {
-      "completion": "0.00000396",
-      "input_cache_read": "0.000000044",
-      "prompt": "0.00000132",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 400,
-      "utc_start": 100
-     }
-    ],
-    "prompt": "0.00000066"
+    "completion": "0.00000173844",
+    "input_cache_read": "0.000000018438",
+    "prompt": "0.00000057948"
    },
    "reasoning": {
     "default_effort": "high",
@@ -40937,7 +40919,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -41224,9 +41206,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00001095",
-    "input_cache_read": "0.00000023",
-    "prompt": "0.0000021"
+    "completion": "0.0000112",
+    "input_cache_read": "0.000000232",
+    "prompt": "0.000002"
    },
    "reasoning": {
     "default_effort": "max",
@@ -41821,6 +41803,7 @@
     "logprobs",
     "max_tokens",
     "min_p",
+    "parallel_tool_calls",
     "presence_penalty",
     "reasoning",
     "reasoning_effort",
@@ -41925,5 +41908,5 @@
  "links": {
   "next": null
  },
- "total_count": 443
+ "total_count": 444
 }
