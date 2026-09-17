@@ -6644,9 +6644,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000177212",
-    "input_cache_read": "0.0000000177212",
-    "prompt": "0.000000088606"
+    "completion": "0.00000014",
+    "input_cache_read": "0.000000014",
+    "prompt": "0.00000007"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7294,90 +7294,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022",
-    "overrides": [
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 0,
-      "utc_start": 1000
-     },
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 100,
-      "utc_start": 0
-     },
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 600,
-      "utc_start": 400
-     },
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "saturday",
-       "sunday"
-      ]
-     },
-     {
-      "completion": "0.00000396",
-      "input_cache_read": "0.000000044",
-      "prompt": "0.00000132",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 1000,
-      "utc_start": 600
-     },
-     {
-      "completion": "0.00000396",
-      "input_cache_read": "0.000000044",
-      "prompt": "0.00000132",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 400,
-      "utc_start": 100
-     }
-    ],
-    "prompt": "0.00000066"
+    "completion": "0.00000173844",
+    "input_cache_read": "0.000000018438",
+    "prompt": "0.00000057948"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7414,7 +7333,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -33902,6 +33821,82 @@
     ],
     "tokenizer": "Qwen"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": 46.5,
+     "coding_index": 68.1,
+     "intelligence_index": 33.9
+    },
+    "design_arena": []
+   },
+   "canonical_slug": "qwen/qwen3.8-27b-20260814",
+   "context_length": 262144,
+   "created": 1786722910,
+   "default_parameters": {
+    "temperature": 1,
+    "top_k": 20,
+    "top_p": 0.95
+   },
+   "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be...",
+   "expiration_date": null,
+   "hugging_face_id": "Qwen/Qwen3.8-27B",
+   "id": "qwen/qwen3.8-27b:free",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/qwen/qwen3.8-27b-20260814/endpoints"
+   },
+   "name": "Qwen: Qwen3.8 27B (free)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0",
+    "prompt": "0"
+   },
+   "reasoning": {
+    "default_effort": "xhigh",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "low",
+     "medium",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "max_tokens",
+    "presence_penalty",
+    "reasoning",
+    "reasoning_effort",
+    "repetition_penalty",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 262144,
+    "is_moderated": false,
+    "max_completion_tokens": 235929
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+video->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Qwen"
+   },
    "canonical_slug": "qwen/qwen3.8-flash-20260826",
    "context_length": 1000000,
    "created": 1787773060,
@@ -35199,8 +35194,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -35217,7 +35212,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -40898,6 +40893,22 @@
    "pricing": {
     "completion": "0.0000006",
     "input_cache_read": "0.000000015",
+    "overrides": [
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000015",
+      "prompt": "0.00000015",
+      "utc_end": 0,
+      "utc_start": 1400
+     },
+     {
+      "completion": "0.0000012",
+      "input_cache_read": "0.00000003",
+      "prompt": "0.0000003",
+      "utc_end": 1400,
+      "utc_start": 0
+     }
+    ],
     "prompt": "0.00000015"
    },
    "reasoning": {
@@ -40934,9 +40945,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1000000,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -40973,90 +40984,9 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022",
-    "overrides": [
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 0,
-      "utc_start": 1000
-     },
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 100,
-      "utc_start": 0
-     },
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 600,
-      "utc_start": 400
-     },
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "saturday",
-       "sunday"
-      ]
-     },
-     {
-      "completion": "0.00000396",
-      "input_cache_read": "0.000000044",
-      "prompt": "0.00000132",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 1000,
-      "utc_start": 600
-     },
-     {
-      "completion": "0.00000396",
-      "input_cache_read": "0.000000044",
-      "prompt": "0.00000132",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 400,
-      "utc_start": 100
-     }
-    ],
-    "prompt": "0.00000066"
+    "completion": "0.00000173844",
+    "input_cache_read": "0.000000018438",
+    "prompt": "0.00000057948"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41093,7 +41023,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -42081,5 +42011,5 @@
  "links": {
   "next": null
  },
- "total_count": 444
+ "total_count": 445
 }
