@@ -6961,6 +6961,138 @@
   {
    "architecture": {
     "input_modalities": [
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "DeepSeek"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": 41.7,
+     "coding_index": 69.1,
+     "intelligence_index": 34.5
+    },
+    "design_arena": [
+     {
+      "arena": "models",
+      "category": "3d",
+      "elo": 1237,
+      "rank": 36,
+      "win_rate": 48.6
+     },
+     {
+      "arena": "models",
+      "category": "asciiart",
+      "elo": 1111,
+      "rank": 58,
+      "win_rate": 33.3
+     },
+     {
+      "arena": "models",
+      "category": "codecategories",
+      "elo": 1245,
+      "rank": 40,
+      "win_rate": 46.5
+     },
+     {
+      "arena": "models",
+      "category": "dataviz",
+      "elo": 1197,
+      "rank": 54,
+      "win_rate": 41.1
+     },
+     {
+      "arena": "models",
+      "category": "gamedev",
+      "elo": 1232,
+      "rank": 38,
+      "win_rate": 44.6
+     },
+     {
+      "arena": "models",
+      "category": "svg",
+      "elo": 1211,
+      "rank": 24,
+      "win_rate": 45.1
+     },
+     {
+      "arena": "models",
+      "category": "uicomponent",
+      "elo": 1252,
+      "rank": 35,
+      "win_rate": 47
+     },
+     {
+      "arena": "models",
+      "category": "website",
+      "elo": 1251,
+      "rank": 38,
+      "win_rate": 46.8
+     }
+    ]
+   },
+   "canonical_slug": "deepseek/deepseek-v4-flash-20260731",
+   "context_length": 1048576,
+   "created": 1785478908,
+   "default_parameters": {},
+   "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows....",
+   "expiration_date": null,
+   "hugging_face_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
+   "id": "deepseek/deepseek-v4-flash-0731:free",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/deepseek/deepseek-v4-flash-20260731/endpoints"
+   },
+   "name": "DeepSeek: DeepSeek V4 Flash 0731 (free)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0",
+    "prompt": "0"
+   },
+   "reasoning": {
+    "default_effort": "high",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max"
+    ]
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "logit_bias",
+    "max_tokens",
+    "min_p",
+    "presence_penalty",
+    "reasoning",
+    "reasoning_effort",
+    "repetition_penalty",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_p"
+   ],
+   "supported_voices": [],
+   "top_provider": {
+    "context_length": 1048576,
+    "is_moderated": false,
+    "max_completion_tokens": 393216
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
      "image",
      "text"
     ],
@@ -7294,8 +7426,8 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022",
+    "completion": "0.00000396",
+    "input_cache_read": "0.000000044",
     "overrides": [
      {
       "completion": "0.00000198",
@@ -7377,7 +7509,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000066"
+    "prompt": "0.00000132"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7532,8 +7664,8 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006",
     "overrides": [
      {
       "completion": "0.0000006",
@@ -7615,7 +7747,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -16862,128 +16994,6 @@
    "description": "Mistral Large 3 2512 is Mistral\u2019s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license.",
    "expiration_date": null,
    "hugging_face_id": "",
-   "id": "mistralai/mistral-large-2512",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/mistralai/mistral-large-2512/endpoints"
-   },
-   "name": "Mistral: Mistral Large 3 2512",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.0000015",
-    "input_cache_read": "0.00000005",
-    "prompt": "0.0000005"
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "max_tokens",
-    "presence_penalty",
-    "response_format",
-    "seed",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 262144,
-    "is_moderated": false,
-    "max_completion_tokens": 209715
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "file",
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image+file->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Mistral"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": 2.4,
-     "coding_index": 20.1,
-     "intelligence_index": 9.7
-    },
-    "design_arena": [
-     {
-      "arena": "models",
-      "category": "3d",
-      "elo": 1128,
-      "rank": 76,
-      "win_rate": 46.9
-     },
-     {
-      "arena": "models",
-      "category": "asciiart",
-      "elo": 1086,
-      "rank": 62,
-      "win_rate": 40.3
-     },
-     {
-      "arena": "models",
-      "category": "codecategories",
-      "elo": 1157,
-      "rank": 74,
-      "win_rate": 47.6
-     },
-     {
-      "arena": "models",
-      "category": "dataviz",
-      "elo": 1151,
-      "rank": 75,
-      "win_rate": 45.7
-     },
-     {
-      "arena": "models",
-      "category": "gamedev",
-      "elo": 1103,
-      "rank": 87,
-      "win_rate": 41.5
-     },
-     {
-      "arena": "models",
-      "category": "svg",
-      "elo": 1015,
-      "rank": 79,
-      "win_rate": 38
-     },
-     {
-      "arena": "models",
-      "category": "uicomponent",
-      "elo": 1117,
-      "rank": 81,
-      "win_rate": 43
-     },
-     {
-      "arena": "models",
-      "category": "website",
-      "elo": 1175,
-      "rank": 72,
-      "win_rate": 49.5
-     }
-    ]
-   },
-   "canonical_slug": "mistralai/mistral-large-2512",
-   "context_length": 262144,
-   "created": 1764624472,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "temperature": 0.0645,
-    "top_p": null
-   },
-   "description": "Mistral Large 3 2512 is Mistral\u2019s most capable model to date, featuring a sparse mixture-of-experts architecture with 41B active parameters (675B total), and released under the Apache 2.0 license.",
-   "expiration_date": null,
-   "hugging_face_id": "",
    "id": "mistralai/mistral-large-2512:batch",
    "knowledge_cutoff": null,
    "links": {
@@ -19089,9 +19099,9 @@
    "name": "MoonshotAI: Kimi K3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00001095",
-    "input_cache_read": "0.00000023",
-    "prompt": "0.0000021"
+    "completion": "0.0000112",
+    "input_cache_read": "0.000000232",
+    "prompt": "0.000002"
    },
    "reasoning": {
     "default_effort": "max",
@@ -29113,6 +29123,7 @@
    "supported_parameters": [
     "frequency_penalty",
     "include_reasoning",
+    "logit_bias",
     "logprobs",
     "max_completion_tokens",
     "max_tokens",
@@ -38380,9 +38391,9 @@
    "name": "Z.ai: GLM 4.6",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002",
-    "input_cache_read": "0.0000001",
-    "prompt": "0.0000005"
+    "completion": "0.00000175",
+    "input_cache_read": "0.00000008",
+    "prompt": "0.00000043"
    },
    "reasoning": {
     "mandatory": false
@@ -38408,9 +38419,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 202752,
+    "context_length": 198000,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 16384
    }
   },
   {
@@ -39418,9 +39429,9 @@
    "name": "Z.ai: GLM 5.2",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000044",
-    "input_cache_read": "0.00000014",
-    "prompt": "0.0000014"
+    "completion": "0.00000156",
+    "input_cache_read": "0.000000091",
+    "prompt": "0.0000004875"
    },
    "reasoning": {
     "default_effort": "high",
@@ -39458,7 +39469,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 163840
    }
   },
   {
@@ -41049,90 +41060,9 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022",
-    "overrides": [
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 0,
-      "utc_start": 1000
-     },
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 100,
-      "utc_start": 0
-     },
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 600,
-      "utc_start": 400
-     },
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "saturday",
-       "sunday"
-      ]
-     },
-     {
-      "completion": "0.00000396",
-      "input_cache_read": "0.000000044",
-      "prompt": "0.00000132",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 1000,
-      "utc_start": 600
-     },
-     {
-      "completion": "0.00000396",
-      "input_cache_read": "0.000000044",
-      "prompt": "0.00000132",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 400,
-      "utc_start": 100
-     }
-    ],
-    "prompt": "0.00000066"
+    "completion": "0.00000296",
+    "input_cache_read": "0.000000033",
+    "prompt": "0.0000007"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41203,9 +41133,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000001734",
-    "input_cache_read": "0.0000000087",
-    "prompt": "0.0000000549"
+    "completion": "0.0000001767",
+    "input_cache_read": "0.0000000088",
+    "prompt": "0.0000000558"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41456,9 +41386,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00001095",
-    "input_cache_read": "0.00000023",
-    "prompt": "0.0000021"
+    "completion": "0.0000112",
+    "input_cache_read": "0.000000232",
+    "prompt": "0.000002"
    },
    "reasoning": {
     "default_effort": "max",
