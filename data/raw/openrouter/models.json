@@ -6644,9 +6644,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000177212",
-    "input_cache_read": "0.0000000177212",
-    "prompt": "0.000000088606"
+    "completion": "0.00000009856",
+    "input_cache_read": "0.000000009856",
+    "prompt": "0.00000004928"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7426,90 +7426,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022",
-    "overrides": [
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 0,
-      "utc_start": 1000
-     },
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 100,
-      "utc_start": 0
-     },
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 600,
-      "utc_start": 400
-     },
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "saturday",
-       "sunday"
-      ]
-     },
-     {
-      "completion": "0.00000396",
-      "input_cache_read": "0.000000044",
-      "prompt": "0.00000132",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 1000,
-      "utc_start": 600
-     },
-     {
-      "completion": "0.00000396",
-      "input_cache_read": "0.000000044",
-      "prompt": "0.00000132",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 400,
-      "utc_start": 100
-     }
-    ],
-    "prompt": "0.00000066"
+    "completion": "0.00000173448",
+    "input_cache_read": "0.000000018396",
+    "prompt": "0.00000057816"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7546,7 +7465,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -7921,7 +7840,7 @@
     "top_p": null
    },
    "description": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-20",
    "hugging_face_id": "",
    "id": "google/gemini-2.5-flash",
    "knowledge_cutoff": "2025-01-31",
@@ -8012,7 +7931,7 @@
     "top_p": null
    },
    "description": "Gemini 2.5 Flash Image, a.k.a. \"Nano Banana,\" is now generally available. It is a state of the art image generation model with contextual understanding. It is capable of image generation,...",
-   "expiration_date": null,
+   "expiration_date": "2027-03-15",
    "hugging_face_id": "",
    "id": "google/gemini-2.5-flash-image",
    "knowledge_cutoff": "2025-01-31",
@@ -8074,7 +7993,7 @@
     "top_p": null
    },
    "description": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency. It offers improved throughput, faster token generation, and better performance...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-20",
    "hugging_face_id": "",
    "id": "google/gemini-2.5-flash-lite",
    "knowledge_cutoff": "2025-01-31",
@@ -8265,7 +8184,7 @@
     "top_p": null
    },
    "description": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-20",
    "hugging_face_id": "",
    "id": "google/gemini-2.5-flash:batch",
    "knowledge_cutoff": "2025-01-31",
@@ -8383,7 +8302,7 @@
     "top_p": null
    },
    "description": "Gemini 2.5 Pro is Google\u2019s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs \u201cthinking\u201d capabilities, enabling it to reason through responses with enhanced accuracy...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-20",
    "hugging_face_id": "",
    "id": "google/gemini-2.5-pro",
    "knowledge_cutoff": "2025-01-31",
@@ -8585,7 +8504,7 @@
     "top_p": null
    },
    "description": "Gemini 2.5 Pro is Google\u2019s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs \u201cthinking\u201d capabilities, enabling it to reason through responses with enhanced accuracy...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-20",
    "hugging_face_id": "",
    "id": "google/gemini-2.5-pro:batch",
    "knowledge_cutoff": "2025-01-31",
@@ -14283,9 +14202,9 @@
    "name": "Meta: Muse Glimmer 30B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000011",
+    "completion": "0.0000015",
     "input_cache_read": "0.00000004",
-    "prompt": "0.0000003"
+    "prompt": "0.00000035"
    },
    "reasoning": {
     "default_effort": "medium",
@@ -28989,15 +28908,8 @@
    "canonical_slug": "openrouter/auto-beta",
    "context_length": 2000000,
    "created": 1784311165,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "presence_penalty": null,
-    "repetition_penalty": null,
-    "temperature": null,
-    "top_k": null,
-    "top_p": null
-   },
-   "description": "Auto Router (Beta) is a task-aware router from OpenRouter. It classifies each request, then routes it the [most popular model](/rankings#task-spend) for that task based on aggregate spend, filtered by your...",
+   "default_parameters": {},
+   "description": "The experimental version of our Auto Router where we test new improvements. Use it to get the latest and greatest version of our general purpose auto router, but expect beta...",
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "openrouter/auto-beta",
@@ -35240,8 +35152,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -35258,7 +35170,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -36335,7 +36247,16 @@
     "prompt": "0.00000015"
    },
    "reasoning": {
-    "mandatory": false
+    "default_effort": "medium",
+    "default_enabled": false,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "medium",
+     "minimal",
+     "none"
+    ]
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -36344,6 +36265,7 @@
     "parallel_tool_calls",
     "presence_penalty",
     "reasoning",
+    "reasoning_effort",
     "response_format",
     "structured_outputs",
     "temperature",
@@ -36448,7 +36370,18 @@
     "prompt": "0.00000009"
    },
    "reasoning": {
-    "mandatory": false
+    "default_effort": "medium",
+    "default_enabled": false,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "minimal",
+     "none",
+     "xhigh"
+    ]
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -36457,6 +36390,7 @@
     "parallel_tool_calls",
     "presence_penalty",
     "reasoning",
+    "reasoning_effort",
     "response_format",
     "structured_outputs",
     "temperature",
@@ -39429,9 +39363,9 @@
    "name": "Z.ai: GLM 5.2",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000018",
-    "input_cache_read": "0.000000105",
-    "prompt": "0.0000005625"
+    "completion": "0.0000017424",
+    "input_cache_read": "0.00000010296",
+    "prompt": "0.0000005544"
    },
    "reasoning": {
     "default_effort": "high",
@@ -39469,7 +39403,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 163840
+    "max_completion_tokens": 131072
    }
   },
   {
@@ -39972,9 +39906,9 @@
    "name": "Z.ai: GLM 5.3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000044",
-    "input_cache_read": "0.00000026",
-    "prompt": "0.0000014"
+    "completion": "0.00000286",
+    "input_cache_read": "0.000000169",
+    "prompt": "0.00000091"
    },
    "reasoning": {
     "default_effort": "max",
@@ -40011,9 +39945,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048575,
+    "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943717
+    "max_completion_tokens": 131072
    }
   },
   {
@@ -40983,9 +40917,9 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015",
-    "prompt": "0.00000015"
+    "completion": "0.00000042",
+    "input_cache_read": "0.0000000042",
+    "prompt": "0.00000014"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41023,7 +40957,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    }
   },
   {
@@ -41060,90 +40994,9 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022",
-    "overrides": [
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 0,
-      "utc_start": 1000
-     },
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 100,
-      "utc_start": 0
-     },
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 600,
-      "utc_start": 400
-     },
-     {
-      "completion": "0.00000198",
-      "input_cache_read": "0.000000022",
-      "prompt": "0.00000066",
-      "utc_days": [
-       "saturday",
-       "sunday"
-      ]
-     },
-     {
-      "completion": "0.00000396",
-      "input_cache_read": "0.000000044",
-      "prompt": "0.00000132",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 1000,
-      "utc_start": 600
-     },
-     {
-      "completion": "0.00000396",
-      "input_cache_read": "0.000000044",
-      "prompt": "0.00000132",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 400,
-      "utc_start": 100
-     }
-    ],
-    "prompt": "0.00000066"
+    "completion": "0.00000173448",
+    "input_cache_read": "0.000000018396",
+    "prompt": "0.00000057816"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41180,7 +41033,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -41214,9 +41067,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000001767",
-    "input_cache_read": "0.0000000088",
-    "prompt": "0.0000000558"
+    "completion": "0.000000165",
+    "input_cache_read": "0.00000000175",
+    "prompt": "0.000000055"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41254,9 +41107,9 @@
    ],
    "supported_voices": [],
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1024000,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 384000
    }
   },
   {
@@ -42120,9 +41973,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000297",
-    "input_cache_read": "0.0000001755",
-    "prompt": "0.0000008775"
+    "completion": "0.0000028248",
+    "input_cache_read": "0.00000016692",
+    "prompt": "0.0000008988"
    },
    "reasoning": {
     "default_effort": "max",
@@ -42159,9 +42012,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 262144,
+    "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 131072
    }
   }
  ],
