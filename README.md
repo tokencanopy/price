@@ -3,7 +3,7 @@
 **A public, machine-readable record of what LLM inference actually costs — and how that price changes over time.** Refreshed every 6 hours.
 
 <!-- BEGIN STATS -->
-**14,422** price points · **934** models · **76** platforms · updated **2026-09-19 12:35 UTC** · history since **2026-09-02** (18 snapshots)
+**14,422** price points · **934** models · **76** platforms · updated **2026-09-19 18:29 UTC** · history since **2026-09-02** (18 snapshots)
 <!-- END STATS -->
 
 Every provider publishes today's price. **Nobody publishes yesterday's.** This repo
@@ -40,7 +40,7 @@ yourself.
 <!-- BEGIN TABLE -->
 | Model | Platforms | Cheapest | Input $/M | Output $/M | Spread |
 |---|--:|---|--:|--:|--:|
-| Z.ai: GLM 5.3 | 31 | [Baidu](https://intl.cloud.baidu.com/) | $0.89 | $2.80 | 2.4× |
+| Z.ai: GLM 5.3 | 31 | [Baidu](https://intl.cloud.baidu.com/) | $0.84 | $2.65 | 2.5× |
 | Z.ai: GLM 5.3 Flash | 27 | [DeepInfra](https://deepinfra.com/) | $0.07 | $0.25 | 6.0× |
 | DeepSeek: DeepSeek V4 Flash 0731 | 26 | [Relace](https://www.relace.ai/) | $0.04 | $0.08 | 11.0× |
 | Z.ai: GLM 5.2 | 24 | [Baidu](https://intl.cloud.baidu.com/) | $0.55 | $1.74 | 4.1× |
@@ -50,7 +50,7 @@ yourself.
 | MoonshotAI: Kimi K2.6 | 20 | [Baidu](https://intl.cloud.baidu.com/) | $0.37 | $1.58 | 2.9× |
 | MoonshotAI: Kimi K3 | 17 | [Relace](https://www.relace.ai/) | $1.70 | $8.50 | 2.0× |
 | Qwen: Qwen3.8 27B | 16 | [Darkbloom](https://www.darkbloom.dev/) | $0.10 | $1.80 | 4.5× |
-| DeepSeek: DeepSeek V4 Flash 0423 | 16 | [Baidu](https://intl.cloud.baidu.com/) | $0.04 | $0.09 | 4.8× |
+| DeepSeek: DeepSeek V4 Flash 0423 | 16 | [StreamLake](https://www.streamlake.ai/) | $0.04 | $0.08 | 5.2× |
 | DeepSeek: DeepSeek V3.2 | 15 | [GMICloud](https://gmicloud.ai/) | $0.21 | $0.31 | 14.4× |
 | DeepSeek: DeepSeek V4 Pro 0423 | 15 | [StreamLake](https://www.streamlake.ai/) | $0.42 | $0.84 | 4.5× |
 | MoonshotAI: Kimi K2.7 Code | 14 | [DeepInfra](https://deepinfra.com/) | $0.68 | $3.40 | 1.4× |
