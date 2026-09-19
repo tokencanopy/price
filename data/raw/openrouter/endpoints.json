@@ -7652,10 +7652,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "Baidu | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.00000009492",
-      "discount": 0.661,
-      "input_cache_read": "0.000000009492",
-      "prompt": "0.00000004746"
+      "completion": "0.00000008708",
+      "discount": 0.689,
+      "input_cache_read": "0.000000008708",
+      "prompt": "0.00000004354"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -8115,10 +8115,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.00000009464",
-      "discount": 0.662,
-      "input_cache_read": "0.000000009464",
-      "prompt": "0.00000004732"
+      "completion": "0.00000008736",
+      "discount": 0.688,
+      "input_cache_read": "0.000000008736",
+      "prompt": "0.00000004368"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -8831,7 +8831,7 @@
       "prompt": "0.000000141953"
      },
      "provider_name": "Morph",
-     "quantization": "bf16",
+     "quantization": "unknown",
      "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
@@ -8862,7 +8862,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "morph/bf16"
+     "tag": "morph"
     },
     {
      "context_length": 1048576,
@@ -9088,10 +9088,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Relace | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000018",
+      "completion": "0.00000008",
       "discount": 0,
       "input_cache_read": "0.000000016",
-      "prompt": "0.000000065"
+      "prompt": "0.00000004"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -9213,10 +9213,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000014256",
-      "discount": 0.892,
-      "input_cache_read": "0.000000001512",
-      "prompt": "0.00000004752"
+      "completion": "0.000000132",
+      "discount": 0.9,
+      "input_cache_read": "0.0000000014",
+      "prompt": "0.000000044"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -9757,10 +9757,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.00000114582",
-      "discount": 0.661,
-      "input_cache_read": "0.00000004746",
-      "prompt": "0.00000057291"
+      "completion": "0.0000008619",
+      "discount": 0.745,
+      "input_cache_read": "0.0000000357",
+      "prompt": "0.00000043095"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10212,10 +10212,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.000001128564",
-      "discount": 0.6757,
-      "input_cache_read": "0.0000000470235",
-      "prompt": "0.000000564282"
+      "completion": "0.000000844596",
+      "discount": 0.7573,
+      "input_cache_read": "0.0000000351915",
+      "prompt": "0.000000422298"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -11958,7 +11958,7 @@
       "prompt": "0.000000135"
      },
      "provider_name": "Morph",
-     "quantization": "fp8",
+     "quantization": "unknown",
      "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
@@ -11987,7 +11987,7 @@
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "morph/fp8"
+     "tag": "morph"
     },
     {
      "context_length": 1048576,
@@ -12130,10 +12130,10 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "Relace | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.0000006",
+      "completion": "0.00000052",
       "discount": 0,
-      "input_cache_read": "0.000000015",
-      "prompt": "0.00000015"
+      "input_cache_read": "0.0000000026",
+      "prompt": "0.00000013"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -28095,13 +28095,13 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Morph | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.0000105",
-      "discount": 0.25,
-      "input_cache_read": "0.0000002175",
-      "prompt": "0.000001875"
+      "completion": "0.0000133",
+      "discount": 0.05,
+      "input_cache_read": "0.0000002755",
+      "prompt": "0.000002375"
      },
      "provider_name": "Morph",
-     "quantization": "fp8",
+     "quantization": "unknown",
      "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
@@ -28132,7 +28132,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "morph/fp8"
+     "tag": "morph"
     },
     {
      "context_length": 1048576,
@@ -28148,7 +28148,7 @@
       "prompt": "0.000006"
      },
      "provider_name": "Morph",
-     "quantization": "fp8",
+     "quantization": "unknown",
      "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
@@ -28281,10 +28281,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Relace | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.00001095",
+      "completion": "0.0000085",
       "discount": 0,
-      "input_cache_read": "0.00000023",
-      "prompt": "0.0000021"
+      "input_cache_read": "0.00000017",
+      "prompt": "0.0000017"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -28411,8 +28411,8 @@
      "pricing": {
       "completion": "0.00001095",
       "discount": 0,
-      "input_cache_read": "0.00000025",
-      "prompt": "0.0000025"
+      "input_cache_read": "0.00000021",
+      "prompt": "0.0000021"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -28526,7 +28526,7 @@
       "prompt": "0.0000009"
      },
      "provider_name": "Morph",
-     "quantization": "fp8",
+     "quantization": "unknown",
      "supported_parameters": [
       "logprobs",
       "max_tokens",
@@ -28544,7 +28544,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "morph/fp8"
+     "tag": "morph"
     }
    ],
    "id": "morph/morph-v3-large",
@@ -54993,7 +54993,7 @@
     },
     {
      "context_length": 262124,
-     "max_completion_tokens": 131072,
+     "max_completion_tokens": 32768,
      "max_prompt_tokens": null,
      "model_id": "z-ai/glm-5.3",
      "model_name": "Z.ai: GLM 5.3",
@@ -55173,13 +55173,13 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Morph | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.00000319396",
-      "discount": 0.146,
-      "input_cache_read": "0.000000166957",
-      "prompt": "0.00000101626"
+      "completion": "0.000002805",
+      "discount": 0.25,
+      "input_cache_read": "0.000000146625",
+      "prompt": "0.0000008925"
      },
      "provider_name": "Morph",
-     "quantization": "fp8",
+     "quantization": "unknown",
      "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
@@ -55210,7 +55210,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "morph/fp8"
+     "tag": "morph"
     },
     {
      "context_length": 1048576,
@@ -55220,10 +55220,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Novita | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.00000286",
-      "discount": 0.35,
-      "input_cache_read": "0.000000169",
-      "prompt": "0.00000091"
+      "completion": "0.000002816",
+      "discount": 0.36,
+      "input_cache_read": "0.0000001664",
+      "prompt": "0.000000896"
      },
      "provider_name": "Novita",
      "quantization": "fp8",
