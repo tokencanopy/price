@@ -6644,9 +6644,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000009688",
-    "input_cache_read": "0.000000009688",
-    "prompt": "0.00000004844"
+    "completion": "0.00000009464",
+    "input_cache_read": "0.000000009464",
+    "prompt": "0.00000004732"
    },
    "reasoning": {
     "default_effort": "high",
@@ -6779,9 +6779,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000012",
-    "input_cache_read": "0.000000012",
-    "prompt": "0.00000006"
+    "completion": "0.00000018",
+    "input_cache_read": "0.000000016",
+    "prompt": "0.000000065"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7346,9 +7346,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000013311",
-    "input_cache_read": "0.0000000554625",
-    "prompt": "0.00000066555"
+    "completion": "0.000001128564",
+    "input_cache_read": "0.0000000470235",
+    "prompt": "0.000000564282"
    },
    "reasoning": {
     "default_effort": "high",
@@ -19032,9 +19032,9 @@
    "name": "MoonshotAI: Kimi K3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00001092",
-    "input_cache_read": "0.0000002262",
-    "prompt": "0.00000195"
+    "completion": "0.0000105",
+    "input_cache_read": "0.0000002175",
+    "prompt": "0.000001875"
    },
    "reasoning": {
     "default_effort": "max",
@@ -40317,6 +40317,71 @@
   {
    "architecture": {
     "input_modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+video->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "z-ai/glm-5.3-flashx-20260918",
+   "context_length": 1048576,
+   "created": 1789744020,
+   "default_parameters": {
+    "temperature": 1,
+    "top_p": 0.95
+   },
+   "description": "GLM-5.3-FlashX is the high-speed variant of Z.ai's GLM-5.3-Flash, a native multimodal model delivering inference speeds of up to 200 tokens/s. Built on the same hybrid sparse and linear attention architecture...",
+   "expiration_date": null,
+   "hugging_face_id": "",
+   "id": "z-ai/glm-5.3-flashx",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/z-ai/glm-5.3-flashx-20260918/endpoints"
+   },
+   "name": "Z.ai: GLM 5.3 FlashX",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00000125",
+    "input_cache_read": "0.000000075",
+    "prompt": "0.00000037"
+   },
+   "reasoning": {
+    "default_effort": "max",
+    "default_enabled": true,
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1048576,
+    "is_moderated": false,
+    "max_completion_tokens": 131072
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
      "text"
     ],
     "instruct_type": null,
@@ -41152,9 +41217,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000015312",
-    "input_cache_read": "0.000000001624",
-    "prompt": "0.00000005104"
+    "completion": "0.00000014256",
+    "input_cache_read": "0.000000001512",
+    "prompt": "0.00000004752"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41192,9 +41257,9 @@
    ],
    "supported_voices": [],
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1024000,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 384000
    }
   },
   {
@@ -41405,9 +41470,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00001092",
-    "input_cache_read": "0.0000002262",
-    "prompt": "0.00000195"
+    "completion": "0.0000105",
+    "input_cache_read": "0.0000002175",
+    "prompt": "0.000001875"
    },
    "reasoning": {
     "default_effort": "max",
@@ -42106,5 +42171,5 @@
  "links": {
   "next": null
  },
- "total_count": 446
+ "total_count": 447
 }
