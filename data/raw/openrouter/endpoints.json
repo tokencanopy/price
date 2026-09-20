@@ -7652,10 +7652,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "Baidu | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.00000007476",
-      "discount": 0.733,
-      "input_cache_read": "0.000000007476",
-      "prompt": "0.00000003738"
+      "completion": "0.00000007364",
+      "discount": 0.737,
+      "input_cache_read": "0.000000007364",
+      "prompt": "0.00000003682"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -7945,7 +7945,7 @@
       "completion": "0.00000014",
       "discount": 0,
       "input_cache_read": "0.000000014",
-      "prompt": "0.00000005"
+      "prompt": "0.0000001"
      },
      "provider_name": "OpenInference",
      "quantization": "fp8",
@@ -8031,50 +8031,6 @@
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4-flash",
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
-     "name": "Phala | deepseek/deepseek-v4-flash-20260423",
-     "pricing": {
-      "completion": "0.0000004",
-      "discount": 0,
-      "input_cache_read": "0.00000007",
-      "prompt": "0.0000002"
-     },
-     "provider_name": "Phala",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "phala"
-    },
-    {
-     "context_length": 1048576,
-     "max_completion_tokens": 393216,
-     "max_prompt_tokens": null,
-     "model_id": "deepseek/deepseek-v4-flash",
-     "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "SiliconFlow | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
       "completion": "0.00000028",
@@ -8115,10 +8071,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.00000007448",
-      "discount": 0.734,
-      "input_cache_read": "0.000000007448",
-      "prompt": "0.00000003724"
+      "completion": "0.00000007336",
+      "discount": 0.738,
+      "input_cache_read": "0.000000007336",
+      "prompt": "0.00000003668"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -10415,10 +10371,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "Baidu | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000173448",
-      "discount": 0.562,
-      "input_cache_read": "0.000000018396",
-      "prompt": "0.00000057816"
+      "completion": "0.00000172656",
+      "discount": 0.564,
+      "input_cache_read": "0.000000018312",
+      "prompt": "0.00000057552"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -11255,10 +11211,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000296604",
-      "discount": 0.251,
-      "input_cache_read": "0.000000032956",
-      "prompt": "0.00000098868"
+      "completion": "0.0000017226",
+      "discount": 0.565,
+      "input_cache_read": "0.00000001914",
+      "prompt": "0.0000005742"
      },
      "provider_name": "StreamLake",
      "quantization": "unknown",
@@ -24738,10 +24694,10 @@
      "model_name": "Mistral: Mistral Nemo",
      "name": "Io Net | mistralai/mistral-nemo",
      "pricing": {
-      "completion": "0.00000016",
-      "discount": 0,
-      "input_cache_read": "0.000000029",
-      "prompt": "0.000000044"
+      "completion": "0.0000001472",
+      "discount": 0.08,
+      "input_cache_read": "0.00000002668",
+      "prompt": "0.00000004048"
      },
      "provider_name": "Io Net",
      "quantization": "fp16",
@@ -25228,6 +25184,8 @@
       "seed",
       "stop",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_k",
       "top_logprobs",
       "top_p"
@@ -25236,7 +25194,7 @@
      "supports_tool_choice": {
       "auto": true,
       "function": true,
-      "none": true,
+      "none": false,
       "required": true
      },
      "supports_voice_cloning": false,
@@ -28185,10 +28143,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Morph | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.0000112",
-      "discount": 0.2,
-      "input_cache_read": "0.000000232",
-      "prompt": "0.000002"
+      "completion": "0.000014",
+      "discount": 0,
+      "input_cache_read": "0.00000029",
+      "prompt": "0.0000025"
      },
      "provider_name": "Morph",
      "quantization": "unknown",
@@ -28501,8 +28459,8 @@
      "pricing": {
       "completion": "0.00001095",
       "discount": 0,
-      "input_cache_read": "0.00000025",
-      "prompt": "0.0000025"
+      "input_cache_read": "0.00000021",
+      "prompt": "0.0000021"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -46269,10 +46227,10 @@
      "model_name": "Qwen: Qwen3.8 27B",
      "name": "Io Net | qwen/qwen3.8-27b-20260814",
      "pricing": {
-      "completion": "0.0000028",
-      "discount": 0,
-      "input_cache_read": "0.00000018",
-      "prompt": "0.0000003"
+      "completion": "0.00000266",
+      "discount": 0.05,
+      "input_cache_read": "0.000000171",
+      "prompt": "0.000000285"
      },
      "provider_name": "Io Net",
      "quantization": "fp8",
@@ -46541,8 +46499,8 @@
      "pricing": {
       "completion": "0.00000255",
       "discount": 0,
-      "input_cache_read": "0.00000015",
-      "prompt": "0.000000214"
+      "input_cache_read": "0.000000085",
+      "prompt": "0.0000002"
      },
      "provider_name": "Reka",
      "quantization": "fp8",
@@ -55263,10 +55221,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Morph | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.000002805",
-      "discount": 0.25,
-      "input_cache_read": "0.000000146625",
-      "prompt": "0.0000008925"
+      "completion": "0.00000273394",
+      "discount": 0.269,
+      "input_cache_read": "0.0000001429105",
+      "prompt": "0.00000086989"
      },
      "provider_name": "Morph",
      "quantization": "unknown",
@@ -55442,10 +55400,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Reka | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.000003168",
-      "discount": 0.2,
-      "input_cache_read": "0.0000001872",
-      "prompt": "0.000000936"
+      "completion": "0.00000297",
+      "discount": 0.25,
+      "input_cache_read": "0.0000001755",
+      "prompt": "0.0000008775"
      },
      "provider_name": "Reka",
      "quantization": "fp8",
@@ -56389,6 +56347,53 @@
      },
      "supports_voice_cloning": false,
      "tag": "modal/fp8"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "z-ai/glm-5.3-flash",
+     "model_name": "Z.ai: GLM 5.3 Flash",
+     "name": "Morph | z-ai/glm-5.3-flash-20260826",
+     "pricing": {
+      "completion": "0.00000035",
+      "discount": 0,
+      "input_cache_read": "0.00000002",
+      "prompt": "0.0000001"
+     },
+     "provider_name": "Morph",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "morph"
     },
     {
      "context_length": 1048576,

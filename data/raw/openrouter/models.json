@@ -4841,7 +4841,7 @@
    "created": 1751300903,
    "default_parameters": {},
    "description": "ERNIE-4.5-VL-424B-A47B is a multimodal Mixture-of-Experts (MoE) model from Baidu\u2019s ERNIE 4.5 series, featuring 424B total parameters with 47B active per token. It is trained jointly on text and image data...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-08",
    "hugging_face_id": "baidu/ERNIE-4.5-VL-424B-A47B-PT",
    "id": "baidu/ernie-4.5-vl-424b-a47b",
    "knowledge_cutoff": "2025-03-31",
@@ -6155,7 +6155,7 @@
    "created": 1737663169,
    "default_parameters": {},
    "description": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). The model combines advanced distillation techniques to achieve high performance across...",
-   "expiration_date": null,
+   "expiration_date": "2026-09-28",
    "hugging_face_id": "deepseek-ai/DeepSeek-R1-Distill-Llama-70B",
    "id": "deepseek/deepseek-r1-distill-llama-70b",
    "knowledge_cutoff": "2024-07-31",
@@ -6270,7 +6270,7 @@
     "top_p": null
    },
    "description": "DeepSeek-V3.1 Terminus is an update to [DeepSeek V3.1](/deepseek/deepseek-chat-v3.1) that maintains the model's original capabilities while addressing issues reported by users, including language consistency and agent capabilities, further optimizing the model's...",
-   "expiration_date": null,
+   "expiration_date": "2026-09-28",
    "hugging_face_id": "deepseek-ai/DeepSeek-V3.1-Terminus",
    "id": "deepseek/deepseek-v3.1-terminus",
    "knowledge_cutoff": "2025-03-31",
@@ -6402,7 +6402,7 @@
     "top_p": 0.95
    },
    "description": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse attention mechanism...",
-   "expiration_date": null,
+   "expiration_date": "2026-09-28",
    "hugging_face_id": "deepseek-ai/DeepSeek-V3.2",
    "id": "deepseek/deepseek-v3.2",
    "knowledge_cutoff": null,
@@ -6522,7 +6522,7 @@
     "top_p": 0.95
    },
    "description": "DeepSeek-V3.2-Exp is an experimental large language model released by DeepSeek as an intermediate step between V3.1 and future architectures. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse attention mechanism...",
-   "expiration_date": null,
+   "expiration_date": "2026-09-28",
    "hugging_face_id": "deepseek-ai/DeepSeek-V3.2-Exp",
    "id": "deepseek/deepseek-v3.2-exp",
    "knowledge_cutoff": "2025-07-31",
@@ -6658,9 +6658,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000007448",
-    "input_cache_read": "0.000000007448",
-    "prompt": "0.00000003724"
+    "completion": "0.00000007336",
+    "input_cache_read": "0.000000007336",
+    "prompt": "0.00000003668"
    },
    "reasoning": {
     "default_effort": "high",
@@ -6970,138 +6970,6 @@
     "context_length": 1048576,
     "is_moderated": false,
     "max_completion_tokens": 943718
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "DeepSeek"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": 41,
-     "coding_index": 69.1,
-     "intelligence_index": 34.3
-    },
-    "design_arena": [
-     {
-      "arena": "models",
-      "category": "3d",
-      "elo": 1237,
-      "rank": 37,
-      "win_rate": 48.6
-     },
-     {
-      "arena": "models",
-      "category": "asciiart",
-      "elo": 1111,
-      "rank": 59,
-      "win_rate": 33.3
-     },
-     {
-      "arena": "models",
-      "category": "codecategories",
-      "elo": 1245,
-      "rank": 40,
-      "win_rate": 46.5
-     },
-     {
-      "arena": "models",
-      "category": "dataviz",
-      "elo": 1197,
-      "rank": 54,
-      "win_rate": 41.1
-     },
-     {
-      "arena": "models",
-      "category": "gamedev",
-      "elo": 1233,
-      "rank": 38,
-      "win_rate": 44.6
-     },
-     {
-      "arena": "models",
-      "category": "svg",
-      "elo": 1212,
-      "rank": 25,
-      "win_rate": 45.2
-     },
-     {
-      "arena": "models",
-      "category": "uicomponent",
-      "elo": 1253,
-      "rank": 35,
-      "win_rate": 47
-     },
-     {
-      "arena": "models",
-      "category": "website",
-      "elo": 1251,
-      "rank": 38,
-      "win_rate": 46.8
-     }
-    ]
-   },
-   "canonical_slug": "deepseek/deepseek-v4-flash-20260731",
-   "context_length": 1048576,
-   "created": 1785478908,
-   "default_parameters": {},
-   "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows....",
-   "expiration_date": null,
-   "hugging_face_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
-   "id": "deepseek/deepseek-v4-flash-0731:free",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/deepseek/deepseek-v4-flash-20260731/endpoints"
-   },
-   "name": "DeepSeek: DeepSeek V4 Flash 0731 (free)",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0",
-    "prompt": "0"
-   },
-   "reasoning": {
-    "default_effort": "high",
-    "default_enabled": true,
-    "mandatory": false,
-    "supported_efforts": [
-     "high",
-     "low",
-     "max"
-    ]
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "logit_bias",
-    "max_tokens",
-    "min_p",
-    "presence_penalty",
-    "reasoning",
-    "reasoning_effort",
-    "repetition_penalty",
-    "response_format",
-    "seed",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_p"
-   ],
-   "supported_voices": [],
-   "top_provider": {
-    "context_length": 1048576,
-    "is_moderated": false,
-    "max_completion_tokens": 393216
    }
   },
   {
@@ -7440,9 +7308,90 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000173448",
-    "input_cache_read": "0.000000018396",
-    "prompt": "0.00000057816"
+    "completion": "0.00000198",
+    "input_cache_read": "0.000000022",
+    "overrides": [
+     {
+      "completion": "0.00000198",
+      "input_cache_read": "0.000000022",
+      "prompt": "0.00000066",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 0,
+      "utc_start": 1000
+     },
+     {
+      "completion": "0.00000198",
+      "input_cache_read": "0.000000022",
+      "prompt": "0.00000066",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 100,
+      "utc_start": 0
+     },
+     {
+      "completion": "0.00000198",
+      "input_cache_read": "0.000000022",
+      "prompt": "0.00000066",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 600,
+      "utc_start": 400
+     },
+     {
+      "completion": "0.00000198",
+      "input_cache_read": "0.000000022",
+      "prompt": "0.00000066",
+      "utc_days": [
+       "saturday",
+       "sunday"
+      ]
+     },
+     {
+      "completion": "0.00000396",
+      "input_cache_read": "0.000000044",
+      "prompt": "0.00000132",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 1000,
+      "utc_start": 600
+     },
+     {
+      "completion": "0.00000396",
+      "input_cache_read": "0.000000044",
+      "prompt": "0.00000132",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 400,
+      "utc_start": 100
+     }
+    ],
+    "prompt": "0.00000066"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7479,7 +7428,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 384000
    }
   },
   {
@@ -14216,9 +14165,9 @@
    "name": "Meta: Muse Glimmer 30B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000015",
+    "completion": "0.0000012",
     "input_cache_read": "0.00000004",
-    "prompt": "0.00000035"
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "medium",
@@ -14256,7 +14205,7 @@
    "top_provider": {
     "context_length": 131072,
     "is_moderated": false,
-    "max_completion_tokens": 117964
+    "max_completion_tokens": 16384
    }
   },
   {
@@ -15442,7 +15391,7 @@
     "top_p": 0.9
    },
    "description": "MiniMax-M2.1 is a lightweight, state-of-the-art large language model optimized for coding, agentic workflows, and modern application development. With only 10 billion activated parameters, it delivers a major jump in real-world...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-08",
    "hugging_face_id": "MiniMaxAI/MiniMax-M2.1",
    "id": "minimax/minimax-m2.1",
    "knowledge_cutoff": null,
@@ -17840,6 +17789,8 @@
     "seed",
     "stop",
     "temperature",
+    "tool_choice",
+    "tools",
     "top_k",
     "top_logprobs",
     "top_p"
@@ -29063,7 +29014,6 @@
    "supported_parameters": [
     "frequency_penalty",
     "include_reasoning",
-    "logit_bias",
     "logprobs",
     "max_completion_tokens",
     "max_tokens",
@@ -39463,9 +39413,9 @@
    "name": "Z.ai: GLM 5.2",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000017424",
-    "input_cache_read": "0.00000010296",
-    "prompt": "0.0000005544"
+    "completion": "0.0000020416",
+    "input_cache_read": "0.00000012064",
+    "prompt": "0.0000006496"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41159,9 +41109,9 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000173448",
-    "input_cache_read": "0.000000018396",
-    "prompt": "0.00000057816"
+    "completion": "0.0000017226",
+    "input_cache_read": "0.00000001914",
+    "prompt": "0.0000005742"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41196,9 +41146,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1024000,
     "is_moderated": false,
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 384000
    }
   },
   {
@@ -42186,5 +42136,5 @@
  "links": {
   "next": null
  },
- "total_count": 447
+ "total_count": 446
 }
