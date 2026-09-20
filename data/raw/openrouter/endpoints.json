@@ -7652,10 +7652,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "Baidu | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.00000007364",
-      "discount": 0.737,
-      "input_cache_read": "0.000000007364",
-      "prompt": "0.00000003682"
+      "completion": "0.00000007308",
+      "discount": 0.739,
+      "input_cache_read": "0.000000007308",
+      "prompt": "0.00000003654"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -7945,7 +7945,7 @@
       "completion": "0.00000014",
       "discount": 0,
       "input_cache_read": "0.000000014",
-      "prompt": "0.0000001"
+      "prompt": "0.00000006"
      },
      "provider_name": "OpenInference",
      "quantization": "fp8",
@@ -7973,7 +7973,7 @@
      "supports_tool_choice": {
       "auto": true,
       "function": true,
-      "none": false,
+      "none": true,
       "required": true
      },
      "supports_voice_cloning": false,
@@ -8071,10 +8071,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.00000007336",
-      "discount": 0.738,
-      "input_cache_read": "0.000000007336",
-      "prompt": "0.00000003668"
+      "completion": "0.0000000728",
+      "discount": 0.74,
+      "input_cache_read": "0.00000000728",
+      "prompt": "0.0000000364"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -10371,10 +10371,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "Baidu | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000172656",
-      "discount": 0.564,
-      "input_cache_read": "0.000000018312",
-      "prompt": "0.00000057552"
+      "completion": "0.00000168696",
+      "discount": 0.574,
+      "input_cache_read": "0.000000017892",
+      "prompt": "0.00000056232"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -11211,10 +11211,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.0000017226",
-      "discount": 0.565,
-      "input_cache_read": "0.00000001914",
-      "prompt": "0.0000005742"
+      "completion": "0.00000169092",
+      "discount": 0.573,
+      "input_cache_read": "0.000000018788",
+      "prompt": "0.00000056364"
      },
      "provider_name": "StreamLake",
      "quantization": "unknown",
@@ -24703,6 +24703,7 @@
      "quantization": "fp16",
      "supported_parameters": [
       "frequency_penalty",
+      "logprobs",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -24713,6 +24714,7 @@
       "tool_choice",
       "tools",
       "top_k",
+      "top_logprobs",
       "top_p"
      ],
      "supports_implicit_caching": false,
@@ -28143,10 +28145,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Morph | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.000014",
-      "discount": 0,
-      "input_cache_read": "0.00000029",
-      "prompt": "0.0000025"
+      "completion": "0.0000105",
+      "discount": 0.25,
+      "input_cache_read": "0.0000002175",
+      "prompt": "0.000001875"
      },
      "provider_name": "Morph",
      "quantization": "unknown",
@@ -55047,10 +55049,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Io Net | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.00000286",
-      "discount": 0.35,
-      "input_cache_read": "0.000000169",
-      "prompt": "0.000000845"
+      "completion": "0.000002948",
+      "discount": 0.33,
+      "input_cache_read": "0.0000001742",
+      "prompt": "0.000000871"
      },
      "provider_name": "Io Net",
      "quantization": "fp8",
@@ -56194,10 +56196,10 @@
      "model_name": "Z.ai: GLM 5.3 Flash",
      "name": "GMICloud | z-ai/glm-5.3-flash-20260826",
      "pricing": {
-      "completion": "0.00000035",
-      "discount": 0.3,
-      "input_cache_read": "0.000000021",
-      "prompt": "0.000000105"
+      "completion": "0.00000025",
+      "discount": 0.5,
+      "input_cache_read": "0.000000015",
+      "prompt": "0.000000075"
      },
      "provider_name": "GMICloud",
      "quantization": "fp8",
