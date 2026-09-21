@@ -7940,7 +7940,7 @@
     },
     {
      "context_length": 1048576,
-     "max_completion_tokens": 393216,
+     "max_completion_tokens": 943718,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4-flash",
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
@@ -8075,10 +8075,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.000000179732",
-      "discount": 0.3581,
-      "input_cache_read": "0.0000000179732",
-      "prompt": "0.000000089866"
+      "completion": "0.000000177212",
+      "discount": 0.3671,
+      "input_cache_read": "0.0000000177212",
+      "prompt": "0.000000088606"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -8912,13 +8912,13 @@
     },
     {
      "context_length": 1048576,
-     "max_completion_tokens": 393216,
+     "max_completion_tokens": 943718,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4-flash-0731",
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "OpenInference | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000017",
+      "completion": "0.0000002",
       "discount": 0,
       "input_cache_read": "0.00000001",
       "prompt": "0.00000004"
@@ -8940,15 +8940,17 @@
       "stop",
       "structured_outputs",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_k",
       "top_p"
      ],
      "supports_implicit_caching": false,
      "supports_tool_choice": {
-      "auto": false,
-      "function": false,
-      "none": false,
-      "required": false
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
      },
      "supports_voice_cloning": false,
      "tag": "open-inference/fp8"
@@ -9051,10 +9053,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Reka | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000066",
-      "discount": 0,
-      "input_cache_read": "0.000000007",
-      "prompt": "0.00000011"
+      "completion": "0.000000528",
+      "discount": 0.2,
+      "input_cache_read": "0.0000000056",
+      "prompt": "0.000000088"
      },
      "provider_name": "Reka",
      "quantization": "fp4",
@@ -9216,10 +9218,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.000000132",
-      "discount": 0.9,
-      "input_cache_read": "0.0000000014",
-      "prompt": "0.000000044"
+      "completion": "0.0000001716",
+      "discount": 0.87,
+      "input_cache_read": "0.00000000182",
+      "prompt": "0.0000000572"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -10215,10 +10217,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.0000018966",
-      "discount": 0.455,
-      "input_cache_read": "0.000000079025",
-      "prompt": "0.0000009483"
+      "completion": "0.00000191052",
+      "discount": 0.451,
+      "input_cache_read": "0.000000079605",
+      "prompt": "0.00000095526"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -11258,10 +11260,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000296604",
-      "discount": 0.251,
-      "input_cache_read": "0.000000032956",
-      "prompt": "0.00000098868"
+      "completion": "0.0000029502",
+      "discount": 0.255,
+      "input_cache_read": "0.00000003278",
+      "prompt": "0.0000009834"
      },
      "provider_name": "StreamLake",
      "quantization": "unknown",
@@ -12002,10 +12004,10 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "Morph | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.00000054",
-      "discount": 0.55,
-      "input_cache_read": "0.00000000405",
-      "prompt": "0.000000135"
+      "completion": "0.00000048",
+      "discount": 0.6,
+      "input_cache_read": "0.0000000036",
+      "prompt": "0.00000012"
      },
      "provider_name": "Morph",
      "quantization": "unknown",
@@ -12135,10 +12137,10 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "Phala | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.00000138",
-      "discount": 0,
-      "input_cache_read": "0.0000000069",
-      "prompt": "0.000000345"
+      "completion": "0.000001104",
+      "discount": 0.2,
+      "input_cache_read": "0.00000000552",
+      "prompt": "0.000000276"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -12182,7 +12184,7 @@
      "pricing": {
       "completion": "0.00000052",
       "discount": 0,
-      "input_cache_read": "0.0000000026",
+      "input_cache_read": "0.00000001",
       "prompt": "0.00000013"
      },
      "provider_name": "Relace",
@@ -12302,10 +12304,10 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "StreamLake | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.00000087876",
-      "discount": 0.2677,
-      "input_cache_read": "0.0000000043938",
-      "prompt": "0.00000021969"
+      "completion": "0.000001128",
+      "discount": 0.06,
+      "input_cache_read": "0.00000000564",
+      "prompt": "0.000000282"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -28192,10 +28194,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Morph | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.0000105",
-      "discount": 0.25,
-      "input_cache_read": "0.0000002175",
-      "prompt": "0.000001875"
+      "completion": "0.0000119",
+      "discount": 0.15,
+      "input_cache_read": "0.0000002465",
+      "prompt": "0.000002125"
      },
      "provider_name": "Morph",
      "quantization": "unknown",
@@ -46547,9 +46549,9 @@
      "model_name": "Qwen: Qwen3.8 27B",
      "name": "Reka | qwen/qwen3.8-27b-20260814",
      "pricing": {
-      "completion": "0.00000255",
+      "completion": "0.0000025",
       "discount": 0,
-      "input_cache_read": "0.000000085",
+      "input_cache_read": "0.00000005",
       "prompt": "0.0000002"
      },
      "provider_name": "Reka",
@@ -53939,10 +53941,10 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "Inceptron | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.0000033469",
+      "completion": "0.0000034506",
       "discount": 0,
-      "input_cache_read": "0.0000002041",
-      "prompt": "0.0000012533"
+      "input_cache_read": "0.0000002077",
+      "prompt": "0.000001269"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -54152,10 +54154,10 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "StreamLake | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.00000174592",
-      "discount": 0.6032,
-      "input_cache_read": "0.000000103168",
-      "prompt": "0.00000055552"
+      "completion": "0.0000020196",
+      "discount": 0.541,
+      "input_cache_read": "0.00000011934",
+      "prompt": "0.0000006426"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -55144,10 +55146,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Io Net | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.000002816",
-      "discount": 0.36,
-      "input_cache_read": "0.0000001664",
-      "prompt": "0.000000832"
+      "completion": "0.000002684",
+      "discount": 0.39,
+      "input_cache_read": "0.0000001586",
+      "prompt": "0.000000793"
      },
      "provider_name": "Io Net",
      "quantization": "fp8",
@@ -56677,10 +56679,10 @@
      "model_name": "Z.ai: GLM 5.3 Flash",
      "name": "Phala | z-ai/glm-5.3-flash-20260826",
      "pricing": {
-      "completion": "0.0000005",
-      "discount": 0,
-      "input_cache_read": "0.00000003",
-      "prompt": "0.00000015"
+      "completion": "0.000000425",
+      "discount": 0.15,
+      "input_cache_read": "0.0000000255",
+      "prompt": "0.0000001275"
      },
      "provider_name": "Phala",
      "quantization": "fp8",
