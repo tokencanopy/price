@@ -1503,65 +1503,6 @@
    "id": "anthropic/claude-haiku-4.5",
    "name": "Anthropic: Claude Haiku 4.5"
   },
-  "anthropic/claude-opus-4": {
-   "architecture": {
-    "input_modalities": [
-     "file",
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image+file->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Claude"
-   },
-   "created": 1747931245,
-   "description": "Claude Opus 4 is benchmarked as the world\u2019s best coding model, at time of release, bringing sustained performance on complex, long-running tasks and agent workflows. It sets new benchmarks in...",
-   "endpoints": [
-    {
-     "context_length": 200000,
-     "max_completion_tokens": 32000,
-     "max_prompt_tokens": null,
-     "model_id": "anthropic/claude-opus-4",
-     "model_name": "Anthropic: Claude Opus 4",
-     "name": "Google | anthropic/claude-4-opus-20250522",
-     "pricing": {
-      "completion": "0.000075",
-      "discount": 0,
-      "input_cache_read": "0.0000015",
-      "input_cache_write": "0.00001875",
-      "input_cache_write_1h": "0.00003",
-      "prompt": "0.000015",
-      "web_search": "0.01"
-     },
-     "provider_name": "Google",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "google-vertex"
-    }
-   ],
-   "id": "anthropic/claude-opus-4",
-   "name": "Anthropic: Claude Opus 4"
-  },
   "anthropic/claude-opus-4.1": {
    "architecture": {
     "input_modalities": [
@@ -1617,44 +1558,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "amazon-bedrock"
-    },
-    {
-     "context_length": 200000,
-     "max_completion_tokens": 32000,
-     "max_prompt_tokens": null,
-     "model_id": "anthropic/claude-opus-4.1",
-     "model_name": "Anthropic: Claude Opus 4.1",
-     "name": "Google | anthropic/claude-4.1-opus-20250805",
-     "pricing": {
-      "completion": "0.000075",
-      "discount": 0,
-      "input_cache_read": "0.0000015",
-      "input_cache_write": "0.00001875",
-      "input_cache_write_1h": "0.00003",
-      "prompt": "0.000015",
-      "web_search": "0.01"
-     },
-     "provider_name": "Google",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "google-vertex/global"
     }
    ],
    "id": "anthropic/claude-opus-4.1",
@@ -2779,7 +2682,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "azure/us"
+     "tag": "azure/global"
     },
     {
      "context_length": 1000000,
@@ -2789,12 +2692,12 @@
      "model_name": "Anthropic: Claude Opus 4.8",
      "name": "Azure | anthropic/claude-4.8-opus-20260528",
      "pricing": {
-      "completion": "0.000025",
+      "completion": "0.0000275",
       "discount": 0,
-      "input_cache_read": "0.0000005",
-      "input_cache_write": "0.00000625",
-      "input_cache_write_1h": "0.00001",
-      "prompt": "0.000005",
+      "input_cache_read": "0.00000055",
+      "input_cache_write": "0.000006875",
+      "input_cache_write_1h": "0.000011",
+      "prompt": "0.0000055",
       "web_search": "0.01"
      },
      "provider_name": "Azure",
@@ -2820,7 +2723,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "azure/global"
+     "tag": "azure/us"
     },
     {
      "context_length": 1000000,
@@ -3236,7 +3139,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "azure/us"
+     "tag": "azure/global"
     },
     {
      "context_length": 1000000,
@@ -3246,12 +3149,12 @@
      "model_name": "Anthropic: Claude Opus 5",
      "name": "Azure | anthropic/claude-opus-5-20260723",
      "pricing": {
-      "completion": "0.000025",
+      "completion": "0.0000275",
       "discount": 0,
-      "input_cache_read": "0.0000005",
-      "input_cache_write": "0.00000625",
-      "input_cache_write_1h": "0.00001",
-      "prompt": "0.000005",
+      "input_cache_read": "0.00000055",
+      "input_cache_write": "0.000006875",
+      "input_cache_write_1h": "0.000011",
+      "prompt": "0.0000055",
       "web_search": "0.01"
      },
      "provider_name": "Azure",
@@ -3277,7 +3180,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "azure/global"
+     "tag": "azure/us"
     },
     {
      "context_length": 1000000,
@@ -3554,150 +3457,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "amazon-bedrock"
-    },
-    {
-     "context_length": 1000000,
-     "max_completion_tokens": 64000,
-     "max_prompt_tokens": null,
-     "model_id": "anthropic/claude-sonnet-4",
-     "model_name": "Anthropic: Claude Sonnet 4",
-     "name": "Google | anthropic/claude-4-sonnet-20250522",
-     "pricing": {
-      "completion": "0.000015",
-      "discount": 0,
-      "input_cache_read": "0.0000003",
-      "input_cache_write": "0.00000375",
-      "input_cache_write_1h": "0.000006",
-      "overrides": [
-       {
-        "completion": "0.0000225",
-        "input_cache_read": "0.0000006",
-        "input_cache_write": "0.0000075",
-        "input_cache_write_1h": "0.000012",
-        "min_prompt_tokens": 200000,
-        "prompt": "0.000006"
-       }
-      ],
-      "prompt": "0.000003",
-      "web_search": "0.01"
-     },
-     "provider_name": "Google",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "google-vertex/global"
-    },
-    {
-     "context_length": 1000000,
-     "max_completion_tokens": 64000,
-     "max_prompt_tokens": null,
-     "model_id": "anthropic/claude-sonnet-4",
-     "model_name": "Anthropic: Claude Sonnet 4",
-     "name": "Google | anthropic/claude-4-sonnet-20250522",
-     "pricing": {
-      "completion": "0.000015",
-      "discount": 0,
-      "input_cache_read": "0.0000003",
-      "input_cache_write": "0.00000375",
-      "input_cache_write_1h": "0.000006",
-      "overrides": [
-       {
-        "completion": "0.0000225",
-        "input_cache_read": "0.0000006",
-        "input_cache_write": "0.0000075",
-        "input_cache_write_1h": "0.000012",
-        "min_prompt_tokens": 200000,
-        "prompt": "0.000006"
-       }
-      ],
-      "prompt": "0.000003",
-      "web_search": "0.01"
-     },
-     "provider_name": "Google",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "google-vertex/europe"
-    },
-    {
-     "context_length": 1000000,
-     "max_completion_tokens": 64000,
-     "max_prompt_tokens": null,
-     "model_id": "anthropic/claude-sonnet-4",
-     "model_name": "Anthropic: Claude Sonnet 4",
-     "name": "Google | anthropic/claude-4-sonnet-20250522",
-     "pricing": {
-      "completion": "0.000015",
-      "discount": 0,
-      "input_cache_read": "0.0000003",
-      "input_cache_write": "0.00000375",
-      "input_cache_write_1h": "0.000006",
-      "overrides": [
-       {
-        "completion": "0.0000225",
-        "input_cache_read": "0.0000006",
-        "input_cache_write": "0.0000075",
-        "input_cache_write_1h": "0.000012",
-        "min_prompt_tokens": 200000,
-        "prompt": "0.000006"
-       }
-      ],
-      "prompt": "0.000003",
-      "web_search": "0.01"
-     },
-     "provider_name": "Google",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "google-vertex"
     }
    ],
    "id": "anthropic/claude-sonnet-4",
@@ -4678,7 +4437,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "azure/us"
+     "tag": "azure/global"
     },
     {
      "context_length": 1000000,
@@ -4688,12 +4447,12 @@
      "model_name": "Anthropic: Claude Sonnet 5",
      "name": "Azure | anthropic/claude-sonnet-5-20260630",
      "pricing": {
-      "completion": "0.00001",
+      "completion": "0.000011",
       "discount": 0,
-      "input_cache_read": "0.0000002",
-      "input_cache_write": "0.0000025",
-      "input_cache_write_1h": "0.000004",
-      "prompt": "0.000002",
+      "input_cache_read": "0.00000022",
+      "input_cache_write": "0.00000275",
+      "input_cache_write_1h": "0.0000044",
+      "prompt": "0.0000022",
       "web_search": "0.01"
      },
      "provider_name": "Azure",
@@ -4718,7 +4477,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "azure/global"
+     "tag": "azure/us"
     },
     {
      "context_length": 1000000,
@@ -7656,10 +7415,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "Baidu | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.00000017696",
-      "discount": 0.368,
-      "input_cache_read": "0.000000017696",
-      "prompt": "0.00000008848"
+      "completion": "0.00000011368",
+      "discount": 0.594,
+      "input_cache_read": "0.000000011368",
+      "prompt": "0.00000005684"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -7862,7 +7621,7 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "NextBit | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.00000035",
+      "completion": "0.0000003",
       "discount": 0,
       "input_cache_read": "0.000000035",
       "prompt": "0.00000015"
@@ -8075,10 +7834,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.000000177212",
-      "discount": 0.3671,
-      "input_cache_read": "0.0000000177212",
-      "prompt": "0.000000088606"
+      "completion": "0.00000011088",
+      "discount": 0.604,
+      "input_cache_read": "0.000000011088",
+      "prompt": "0.00000005544"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -8175,9 +7934,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.000001056",
+      "completion": "0.000000528",
       "discount": 0,
-      "input_cache_read": "0.0000000352",
+      "input_cache_read": "0.0000000176",
       "overrides": [
        {
         "completion": "0.000000528",
@@ -8194,7 +7953,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000352"
+      "prompt": "0.000000176"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -9136,7 +8895,7 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Relace | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000016",
+      "completion": "0.00000032",
       "discount": 0,
       "input_cache_read": "0.000000016",
       "prompt": "0.00000004"
@@ -9805,10 +9564,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.0000019097",
-      "discount": 0.435,
-      "input_cache_read": "0.0000000791",
-      "prompt": "0.00000095485"
+      "completion": "0.00000184886",
+      "discount": 0.453,
+      "input_cache_read": "0.00000007658",
+      "prompt": "0.00000092443"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10090,10 +9849,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "NextBit | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.000003828",
+      "completion": "0.00000348",
       "discount": 0,
-      "input_cache_read": "0.00000016",
-      "prompt": "0.00000191"
+      "input_cache_read": "0.000000145",
+      "prompt": "0.00000174"
      },
      "provider_name": "NextBit",
      "quantization": "fp8",
@@ -10260,10 +10019,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.00000191052",
-      "discount": 0.451,
-      "input_cache_read": "0.000000079605",
-      "prompt": "0.00000095526"
+      "completion": "0.000001848924",
+      "discount": 0.4687,
+      "input_cache_read": "0.0000000770385",
+      "prompt": "0.000000924462"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -10360,9 +10119,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.000003366",
+      "completion": "0.0000017424",
       "discount": 0,
-      "input_cache_read": "0.0000001122",
+      "input_cache_read": "0.00000005808",
       "overrides": [
        {
         "completion": "0.0000017424",
@@ -10379,7 +10138,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000001122"
+      "prompt": "0.0000005808"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -10463,10 +10222,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "Baidu | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000396",
-      "discount": 0,
-      "input_cache_read": "0.000000042",
-      "prompt": "0.00000132"
+      "completion": "0.00000169884",
+      "discount": 0.571,
+      "input_cache_read": "0.000000018018",
+      "prompt": "0.00000056628"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -11303,10 +11062,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.000002935944",
-      "discount": 0.2586,
-      "input_cache_read": "0.0000000326216",
-      "prompt": "0.000000978648"
+      "completion": "0.0000017028",
+      "discount": 0.57,
+      "input_cache_read": "0.00000001892",
+      "prompt": "0.0000005676"
      },
      "provider_name": "StreamLake",
      "quantization": "unknown",
@@ -11429,7 +11188,7 @@
      "pricing": {
       "completion": "0.0000029",
       "discount": 0,
-      "input_cache_read": "0.000000033",
+      "input_cache_read": "0.000000132",
       "prompt": "0.00000098"
      },
      "provider_name": "Wafer",
@@ -11494,9 +11253,9 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.00000003",
+      "input_cache_read": "0.000000015",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -11513,7 +11272,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000003"
+      "prompt": "0.00000015"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -18658,8 +18417,8 @@
      "tag": "parasail/fp8"
     },
     {
-     "context_length": 131072,
-     "max_completion_tokens": 117964,
+     "context_length": 262144,
+     "max_completion_tokens": 235929,
      "max_prompt_tokens": null,
      "model_id": "google/gemma-4-31b-it",
      "model_name": "Google: Gemma 4 31B",
@@ -26217,10 +25976,10 @@
      "model_name": "MoonshotAI: Kimi K2.6",
      "name": "Baidu | moonshotai/kimi-k2.6-20260420",
      "pricing": {
-      "completion": "0.000004",
-      "discount": 0,
-      "input_cache_read": "0.00000016",
-      "prompt": "0.00000095"
+      "completion": "0.00000172",
+      "discount": 0.57,
+      "input_cache_read": "0.0000000688",
+      "prompt": "0.0000004085"
      },
      "provider_name": "Baidu",
      "quantization": "fp4",
@@ -26717,10 +26476,10 @@
      "model_name": "MoonshotAI: Kimi K2.6",
      "name": "Inceptron | moonshotai/kimi-k2.6-20260420",
      "pricing": {
-      "completion": "0.000002835",
+      "completion": "0.0000023063",
       "discount": 0,
-      "input_cache_read": "0.0000000856",
-      "prompt": "0.000000471"
+      "input_cache_read": "0.0000000875",
+      "prompt": "0.0000004346"
      },
      "provider_name": "Inceptron",
      "quantization": "int4",
@@ -48235,9 +47994,9 @@
      "model_name": "Tencent: Hy3",
      "name": "Tencent | tencent/hy3-20260706",
      "pricing": {
-      "completion": "0.000000528",
+      "completion": "0.00000033",
       "discount": 0,
-      "input_cache_read": "0.000000033",
+      "input_cache_read": "0.000000020625",
       "overrides": [
        {
         "completion": "0.00000033",
@@ -48254,7 +48013,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000132"
+      "prompt": "0.0000000825"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -50132,7 +49891,7 @@
     "tokenizer": "Grok"
    },
    "created": 1786548957,
-   "description": "Grok 4.6 is SpaceXAI's smartest model with frontier performance on coding, knowledge work, and STEM.",
+   "description": "Grok 4.6 is a model from SpaceXAI with frontier performance on coding, knowledge work, and STEM. It is succeeded by [Grok 4.7](/x-ai/grok-4.7).",
    "endpoints": [
     {
      "context_length": 500000,
@@ -50383,6 +50142,223 @@
    ],
    "id": "x-ai/grok-4.6",
    "name": "SpaceXAI: Grok 4.6"
+  },
+  "x-ai/grok-4.7": {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Grok"
+   },
+   "created": 1790007541,
+   "description": "Grok 4.7 is SpaceXAI's flagship model for coding, agentic tasks, and knowledge work, succeeding Grok 4.6. It is particularly strong at long-running software engineering tasks, verifying its own work, and...",
+   "endpoints": [
+    {
+     "context_length": 500000,
+     "max_completion_tokens": 450000,
+     "max_prompt_tokens": null,
+     "model_id": "x-ai/grok-4.7",
+     "model_name": "SpaceXAI: Grok 4.7",
+     "name": "xAI | x-ai/grok-4.7-20260916",
+     "pricing": {
+      "completion": "0.0000048",
+      "discount": 0,
+      "input_cache_read": "0.0000004",
+      "overrides": [
+       {
+        "completion": "0.0000096",
+        "input_cache_read": "0.0000008",
+        "min_prompt_tokens": 200000,
+        "prompt": "0.0000032"
+       }
+      ],
+      "prompt": "0.0000016",
+      "web_search": "0.005"
+     },
+     "provider_name": "xAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "xai/zdr"
+    },
+    {
+     "context_length": 500000,
+     "max_completion_tokens": 450000,
+     "max_prompt_tokens": null,
+     "model_id": "x-ai/grok-4.7",
+     "model_name": "SpaceXAI: Grok 4.7",
+     "name": "xAI | x-ai/grok-4.7-20260916",
+     "pricing": {
+      "completion": "0.0000048",
+      "discount": 0,
+      "input_cache_read": "0.0000004",
+      "overrides": [
+       {
+        "completion": "0.0000096",
+        "input_cache_read": "0.0000008",
+        "min_prompt_tokens": 200000,
+        "prompt": "0.0000032"
+       }
+      ],
+      "prompt": "0.0000016",
+      "web_search": "0.005"
+     },
+     "provider_name": "xAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "xai"
+    },
+    {
+     "context_length": 500000,
+     "max_completion_tokens": 450000,
+     "max_prompt_tokens": null,
+     "model_id": "x-ai/grok-4.7",
+     "model_name": "SpaceXAI: Grok 4.7",
+     "name": "xAI | x-ai/grok-4.7-20260916",
+     "pricing": {
+      "completion": "0.0000096",
+      "discount": 0,
+      "input_cache_read": "0.0000008",
+      "overrides": [
+       {
+        "completion": "0.0000192",
+        "input_cache_read": "0.0000016",
+        "min_prompt_tokens": 200000,
+        "prompt": "0.0000064"
+       }
+      ],
+      "prompt": "0.0000032",
+      "web_search": "0.005"
+     },
+     "provider_name": "xAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "xai/zdr/priority"
+    },
+    {
+     "context_length": 500000,
+     "max_completion_tokens": 450000,
+     "max_prompt_tokens": null,
+     "model_id": "x-ai/grok-4.7",
+     "model_name": "SpaceXAI: Grok 4.7",
+     "name": "xAI | x-ai/grok-4.7-20260916",
+     "pricing": {
+      "completion": "0.0000096",
+      "discount": 0,
+      "input_cache_read": "0.0000008",
+      "overrides": [
+       {
+        "completion": "0.0000192",
+        "input_cache_read": "0.0000016",
+        "min_prompt_tokens": 200000,
+        "prompt": "0.0000064"
+       }
+      ],
+      "prompt": "0.0000032",
+      "web_search": "0.005"
+     },
+     "provider_name": "xAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "xai/priority"
+    }
+   ],
+   "id": "x-ai/grok-4.7",
+   "name": "SpaceXAI: Grok 4.7"
   },
   "x-ai/grok-build-0.1": {
    "architecture": {
@@ -52629,10 +52605,10 @@
      "model_name": "Z.ai: GLM 5.1",
      "name": "Baidu | z-ai/glm-5.1-20260406",
      "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "completion": "0.0000030316",
+      "discount": 0.311,
+      "input_cache_read": "0.00000017914",
+      "prompt": "0.0000009646"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -53307,10 +53283,10 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "Baidu | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "completion": "0.0000017644",
+      "discount": 0.599,
+      "input_cache_read": "0.00000010426",
+      "prompt": "0.0000005614"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -53348,10 +53324,10 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "Baidu | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.00000788",
-      "discount": 0,
-      "input_cache_read": "0.00000056",
-      "prompt": "0.00000225"
+      "completion": "0.00000226944",
+      "discount": 0.712,
+      "input_cache_read": "0.00000016128",
+      "prompt": "0.000000648"
      },
      "provider_name": "Baidu",
      "quantization": "fp4",
@@ -53984,10 +53960,10 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "Inceptron | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.0000034506",
+      "completion": "0.0000029995",
       "discount": 0,
-      "input_cache_read": "0.0000002077",
-      "prompt": "0.000001269"
+      "input_cache_read": "0.0000001825",
+      "prompt": "0.0000009544"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -54197,10 +54173,10 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "StreamLake | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.0000020196",
-      "discount": 0.541,
-      "input_cache_read": "0.00000011934",
-      "prompt": "0.0000006426"
+      "completion": "0.00000201476",
+      "discount": 0.5421,
+      "input_cache_read": "0.000000119054",
+      "prompt": "0.00000064106"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -54558,10 +54534,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Baidu | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "completion": "0.0000024288",
+      "discount": 0.448,
+      "input_cache_read": "0.00000014352",
+      "prompt": "0.0000007728"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -55101,10 +55077,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Inceptron | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.0000029172",
+      "completion": "0.0000034013",
       "discount": 0,
-      "input_cache_read": "0.0000001461",
-      "prompt": "0.0000007789"
+      "input_cache_read": "0.0000001933",
+      "prompt": "0.0000010049"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -55189,10 +55165,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Io Net | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.00000264",
-      "discount": 0.4,
-      "input_cache_read": "0.000000156",
-      "prompt": "0.00000078"
+      "completion": "0.000002728",
+      "discount": 0.38,
+      "input_cache_read": "0.0000001612",
+      "prompt": "0.000000806"
      },
      "provider_name": "Io Net",
      "quantization": "fp8",
@@ -56367,6 +56343,51 @@
     },
     {
      "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "z-ai/glm-5.3-flash",
+     "model_name": "Z.ai: GLM 5.3 Flash",
+     "name": "Inceptron | z-ai/glm-5.3-flash-20260826",
+     "pricing": {
+      "completion": "0.0000005",
+      "discount": 0,
+      "input_cache_read": "0.00000003",
+      "prompt": "0.00000015"
+     },
+     "provider_name": "Inceptron",
+     "quantization": "fp8",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "parallel_tool_calls",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "inceptron/fp8"
+    },
+    {
+     "context_length": 1048576,
      "max_completion_tokens": 128000,
      "max_prompt_tokens": null,
      "model_id": "z-ai/glm-5.3-flash",
@@ -56676,10 +56697,10 @@
      "model_name": "Z.ai: GLM 5.3 Flash",
      "name": "OpenInference | z-ai/glm-5.3-flash-20260826",
      "pricing": {
-      "completion": "0.0000005",
+      "completion": "0.00000025",
       "discount": 0,
-      "input_cache_read": "0.00000003",
-      "prompt": "0.00000015"
+      "input_cache_read": "0.00000002",
+      "prompt": "0.000000075"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
