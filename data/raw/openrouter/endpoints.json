@@ -7656,10 +7656,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "Baidu | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.00000028",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000014"
+      "completion": "0.00000017696",
+      "discount": 0.368,
+      "input_cache_read": "0.000000017696",
+      "prompt": "0.00000008848"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -8825,6 +8825,49 @@
      "tag": "morph"
     },
     {
+     "context_length": 1024000,
+     "max_completion_tokens": 921600,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4-flash-0731",
+     "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
+     "name": "Nebius | deepseek/deepseek-v4-flash-20260731",
+     "pricing": {
+      "completion": "0.00000028",
+      "discount": 0,
+      "prompt": "0.00000014"
+     },
+     "provider_name": "Nebius",
+     "quantization": "fp8",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": false,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "nebius/fp8"
+    },
+    {
      "context_length": 1048576,
      "max_completion_tokens": 943718,
      "max_prompt_tokens": null,
@@ -9009,10 +9052,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Phala | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000132",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000044"
+      "completion": "0.000000924",
+      "discount": 0.3,
+      "input_cache_read": "0.0000000196",
+      "prompt": "0.000000308"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -9218,10 +9261,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.0000001716",
-      "discount": 0.87,
-      "input_cache_read": "0.00000000182",
-      "prompt": "0.0000000572"
+      "completion": "0.0000001584",
+      "discount": 0.88,
+      "input_cache_read": "0.00000000168",
+      "prompt": "0.0000000528"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -9762,10 +9805,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.00000338",
-      "discount": 0,
-      "input_cache_read": "0.00000014",
-      "prompt": "0.00000169"
+      "completion": "0.0000019097",
+      "discount": 0.435,
+      "input_cache_read": "0.0000000791",
+      "prompt": "0.00000095485"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10675,9 +10718,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000396",
+      "completion": "0.00000198",
       "discount": 0,
-      "input_cache_read": "0.000000044",
+      "input_cache_read": "0.000000022",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -10759,7 +10802,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000132"
+      "prompt": "0.00000066"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -11090,10 +11133,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "Phala | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000436",
-      "discount": 0,
-      "input_cache_read": "0.00000015",
-      "prompt": "0.00000145"
+      "completion": "0.0000028776",
+      "discount": 0.34,
+      "input_cache_read": "0.000000099",
+      "prompt": "0.000000957"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -11260,10 +11303,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.0000029502",
-      "discount": 0.255,
-      "input_cache_read": "0.00000003278",
-      "prompt": "0.0000009834"
+      "completion": "0.000002935944",
+      "discount": 0.2586,
+      "input_cache_read": "0.0000000326216",
+      "prompt": "0.000000978648"
      },
      "provider_name": "StreamLake",
      "quantization": "unknown",
@@ -11674,9 +11717,9 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "DeepSeek | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000006",
+      "input_cache_read": "0.000000003",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -11758,7 +11801,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.0000003"
+      "prompt": "0.00000015"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -12304,10 +12347,10 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "StreamLake | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.000001128",
-      "discount": 0.06,
-      "input_cache_read": "0.00000000564",
-      "prompt": "0.000000282"
+      "completion": "0.00000087876",
+      "discount": 0.2677,
+      "input_cache_read": "0.0000000043938",
+      "prompt": "0.00000021969"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -28194,10 +28237,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Morph | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.0000119",
-      "discount": 0.15,
-      "input_cache_read": "0.0000002465",
-      "prompt": "0.000002125"
+      "completion": "0.00001148",
+      "discount": 0.18,
+      "input_cache_read": "0.0000002378",
+      "prompt": "0.00000205"
      },
      "provider_name": "Morph",
      "quantization": "unknown",
@@ -28334,10 +28377,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Phala | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.000012",
-      "discount": 0.2,
-      "input_cache_read": "0.00000024",
-      "prompt": "0.0000024"
+      "completion": "0.00001035",
+      "discount": 0.31,
+      "input_cache_read": "0.000000207",
+      "prompt": "0.00000207"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -55146,10 +55189,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Io Net | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.000002684",
-      "discount": 0.39,
-      "input_cache_read": "0.0000001586",
-      "prompt": "0.000000793"
+      "completion": "0.00000264",
+      "discount": 0.4,
+      "input_cache_read": "0.000000156",
+      "prompt": "0.00000078"
      },
      "provider_name": "Io Net",
      "quantization": "fp8",
@@ -56455,10 +56498,10 @@
      "model_name": "Z.ai: GLM 5.3 Flash",
      "name": "Morph | z-ai/glm-5.3-flash-20260826",
      "pricing": {
-      "completion": "0.00000035",
-      "discount": 0,
-      "input_cache_read": "0.00000002",
-      "prompt": "0.0000001"
+      "completion": "0.00000028",
+      "discount": 0.2,
+      "input_cache_read": "0.000000016",
+      "prompt": "0.00000008"
      },
      "provider_name": "Morph",
      "quantization": "unknown",
@@ -56624,6 +56667,51 @@
      },
      "supports_voice_cloning": false,
      "tag": "novita/fp8"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 102400,
+     "max_prompt_tokens": null,
+     "model_id": "z-ai/glm-5.3-flash",
+     "model_name": "Z.ai: GLM 5.3 Flash",
+     "name": "OpenInference | z-ai/glm-5.3-flash-20260826",
+     "pricing": {
+      "completion": "0.0000005",
+      "discount": 0,
+      "input_cache_read": "0.00000003",
+      "prompt": "0.00000015"
+     },
+     "provider_name": "OpenInference",
+     "quantization": "fp4",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "open-inference/fp4"
     },
     {
      "context_length": 1048576,
