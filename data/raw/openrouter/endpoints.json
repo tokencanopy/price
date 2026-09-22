@@ -10477,9 +10477,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000396",
+      "completion": "0.00000198",
       "discount": 0,
-      "input_cache_read": "0.000000044",
+      "input_cache_read": "0.000000022",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -10561,7 +10561,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000132"
+      "prompt": "0.00000066"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -10724,7 +10724,7 @@
       "completion": "0.00000288",
       "discount": 0.2,
       "input_cache_read": "0.000000088",
-      "prompt": "0.0000007"
+      "prompt": "0.000000624"
      },
      "provider_name": "Ionstream",
      "quantization": "unknown",
@@ -11062,10 +11062,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.000001915848",
-      "discount": 0.5162,
-      "input_cache_read": "0.0000000212872",
-      "prompt": "0.000000638616"
+      "completion": "0.000002006136",
+      "discount": 0.4934,
+      "input_cache_read": "0.0000000222904",
+      "prompt": "0.000000668712"
      },
      "provider_name": "StreamLake",
      "quantization": "unknown",
@@ -11188,8 +11188,8 @@
      "pricing": {
       "completion": "0.0000029",
       "discount": 0,
-      "input_cache_read": "0.00000015",
-      "prompt": "0.00000064"
+      "input_cache_read": "0.00000016",
+      "prompt": "0.00000067"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -11521,9 +11521,9 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "DeepSeek | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000006",
+      "input_cache_read": "0.000000003",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -11605,7 +11605,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.0000003"
+      "prompt": "0.00000015"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -18464,8 +18464,8 @@
      "tag": "parasail/fp8"
     },
     {
-     "context_length": 131072,
-     "max_completion_tokens": 117964,
+     "context_length": 262144,
+     "max_completion_tokens": 235929,
      "max_prompt_tokens": null,
      "model_id": "google/gemma-4-31b-it",
      "model_name": "Google: Gemma 4 31B",
@@ -19489,67 +19489,6 @@
    ],
    "id": "inference-net/schematron-v2-turbo",
    "name": "Inference.net: Schematron V2 Turbo"
-  },
-  "kwaipilot/kat-coder-pro-v2": {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "created": 1774649310,
-   "description": "KAT-Coder-Pro V2 is the latest high-performance model in KwaiKAT\u2019s KAT-Coder series, designed for complex enterprise-grade software engineering and SaaS integration. It builds on the agentic coding strengths of earlier versions,...",
-   "endpoints": [
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 144000,
-     "max_prompt_tokens": null,
-     "model_id": "kwaipilot/kat-coder-pro-v2",
-     "model_name": "Kwaipilot: KAT-Coder-Pro V2",
-     "name": "AtlasCloud | kwaipilot/kat-coder-pro-v2-20260327",
-     "pricing": {
-      "completion": "0.0000012",
-      "discount": 0,
-      "input_cache_read": "0.00000006",
-      "prompt": "0.0000003"
-     },
-     "provider_name": "AtlasCloud",
-     "quantization": "fp8",
-     "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "atlas-cloud/fp8"
-    }
-   ],
-   "id": "kwaipilot/kat-coder-pro-v2",
-   "name": "Kwaipilot: KAT-Coder-Pro V2"
   },
   "kwaipilot/kat-coder-pro-v2.5": {
    "architecture": {
@@ -26526,8 +26465,8 @@
      "pricing": {
       "completion": "0.00000297",
       "discount": 0,
-      "input_cache_read": "0.0000000999",
-      "prompt": "0.0000005181"
+      "input_cache_read": "0.0000001284",
+      "prompt": "0.0000004972"
      },
      "provider_name": "Inceptron",
      "quantization": "int4",
@@ -27207,7 +27146,7 @@
      "model_name": "MoonshotAI: Kimi K2.7 Code",
      "name": "Inceptron | moonshotai/kimi-k2.7-code-20260612",
      "pricing": {
-      "completion": "0.00000321",
+      "completion": "0.0000033",
       "discount": 0,
       "input_cache_read": "0.00000018",
       "prompt": "0.0000007062"
@@ -28361,7 +28300,7 @@
       "completion": "0.00001095",
       "discount": 0,
       "input_cache_read": "0.00000021",
-      "prompt": "0.0000021"
+      "prompt": "0.0000024"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -46515,10 +46454,10 @@
      "model_name": "Qwen: Qwen3.8 27B",
      "name": "Reka | qwen/qwen3.8-27b-20260814",
      "pricing": {
-      "completion": "0.0000025",
-      "discount": 0,
-      "input_cache_read": "0.00000005",
-      "prompt": "0.00000012"
+      "completion": "0.000002475",
+      "discount": 0.01,
+      "input_cache_read": "0.0000000495",
+      "prompt": "0.0000001188"
      },
      "provider_name": "Reka",
      "quantization": "fp8",
@@ -54307,10 +54246,10 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "Inceptron | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.00000306",
+      "completion": "0.00000324",
       "discount": 0,
-      "input_cache_read": "0.0000001838",
-      "prompt": "0.0000009563"
+      "input_cache_read": "0.0000001943",
+      "prompt": "0.0000010125"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -55424,10 +55363,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Inceptron | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.0000028798",
+      "completion": "0.0000032912",
       "discount": 0,
-      "input_cache_read": "0.0000001505",
-      "prompt": "0.0000008509"
+      "input_cache_read": "0.0000002258",
+      "prompt": "0.0000010145"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -56699,7 +56638,7 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "input_cache_read": "0.00000003",
+      "input_cache_read": "0.00000007",
       "prompt": "0.00000015"
      },
      "provider_name": "Inceptron",

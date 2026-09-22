@@ -83337,3 +83337,32 @@ observed_at,source,platform,model_key,variant,region,metric,model_name,old_usd_p
 2026-09-22T06:45:25+00:00,azure,Azure Foundry,azure:azure openai gpt5|5 pp cd inp dz,5 pp cd inp Dz,germanywestcentral,input,Azure OpenAI GPT5,,0.275,
 2026-09-22T06:45:25+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.4 pp opt gl,5.4 pp opt Gl,westus3,output,Azure OpenAI GPT5,,30.0,
 2026-09-22T06:45:25+00:00,azure,Azure Foundry,azure:mai models|mai-thinking-1 inp glbl,MAI-Thinking-1 Inp glbl,southindia,input,MAI Models,,2.0,
+2026-09-22T12:40:39+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,input,DeepSeek: DeepSeek V4 Pro 0813,1.32,0.66,-50.0
+2026-09-22T12:40:39+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,output,DeepSeek: DeepSeek V4 Pro 0813,3.96,1.98,-50.0
+2026-09-22T12:40:39+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,cache_read,DeepSeek: DeepSeek V4 Pro 0813,0.044,0.022,-50.0
+2026-09-22T12:40:39+00:00,openrouter,Ionstream,deepseek-ai/deepseek-v4-pro-0813,unknown,,input,DeepSeek: DeepSeek V4 Pro 0813,0.7,0.624,-10.86
+2026-09-22T12:40:39+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-pro-0813,unknown,,input,DeepSeek: DeepSeek V4 Pro 0813,0.638616,0.668712,4.71
+2026-09-22T12:40:39+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-pro-0813,unknown,,output,DeepSeek: DeepSeek V4 Pro 0813,1.915848,2.006136,4.71
+2026-09-22T12:40:39+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-pro-0813,unknown,,cache_read,DeepSeek: DeepSeek V4 Pro 0813,0.021287,0.02229,4.71
+2026-09-22T12:40:39+00:00,openrouter,Wafer,deepseek-ai/deepseek-v4-pro-0813,unknown,,input,DeepSeek: DeepSeek V4 Pro 0813,0.64,0.67,4.69
+2026-09-22T12:40:39+00:00,openrouter,Wafer,deepseek-ai/deepseek-v4-pro-0813,unknown,,cache_read,DeepSeek: DeepSeek V4 Pro 0813,0.15,0.16,6.67
+2026-09-22T12:40:39+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4.1-flash,unknown,,input,DeepSeek: DeepSeek V4.1 Flash,0.3,0.15,-50.0
+2026-09-22T12:40:39+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4.1-flash,unknown,,output,DeepSeek: DeepSeek V4.1 Flash,1.2,0.6,-50.0
+2026-09-22T12:40:39+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4.1-flash,unknown,,cache_read,DeepSeek: DeepSeek V4.1 Flash,0.006,0.003,-50.0
+2026-09-22T12:40:39+00:00,openrouter,Inceptron,moonshotai/kimi-k2.6,int4,,input,MoonshotAI: Kimi K2.6,0.5181,0.4972,-4.03
+2026-09-22T12:40:39+00:00,openrouter,Inceptron,moonshotai/kimi-k2.6,int4,,cache_read,MoonshotAI: Kimi K2.6,0.0999,0.1284,28.53
+2026-09-22T12:40:39+00:00,openrouter,Inceptron,moonshotai/kimi-k2.7-code,int4,,output,MoonshotAI: Kimi K2.7 Code,3.21,3.3,2.8
+2026-09-22T12:40:39+00:00,openrouter,Wafer,moonshotai/kimi-k3,unknown,,input,MoonshotAI: Kimi K3,2.1,2.4,14.29
+2026-09-22T12:40:39+00:00,openrouter,Reka,qwen/qwen3.8-27b,fp8,,input,Qwen: Qwen3.8 27B,0.12,0.1188,-1.0
+2026-09-22T12:40:39+00:00,openrouter,Reka,qwen/qwen3.8-27b,fp8,,output,Qwen: Qwen3.8 27B,2.5,2.475,-1.0
+2026-09-22T12:40:39+00:00,openrouter,Reka,qwen/qwen3.8-27b,fp8,,cache_read,Qwen: Qwen3.8 27B,0.05,0.0495,-1.0
+2026-09-22T12:40:39+00:00,openrouter,Inceptron,zai-org/glm-5.2,fp4,,input,Z.ai: GLM 5.2,0.9563,1.0125,5.88
+2026-09-22T12:40:39+00:00,openrouter,Inceptron,zai-org/glm-5.2,fp4,,output,Z.ai: GLM 5.2,3.06,3.24,5.88
+2026-09-22T12:40:39+00:00,openrouter,Inceptron,zai-org/glm-5.2,fp4,,cache_read,Z.ai: GLM 5.2,0.1838,0.1943,5.71
+2026-09-22T12:40:39+00:00,openrouter,Inceptron,zai-org/glm-5.3,fp4,,input,Z.ai: GLM 5.3,0.8509,1.0145,19.23
+2026-09-22T12:40:39+00:00,openrouter,Inceptron,zai-org/glm-5.3,fp4,,output,Z.ai: GLM 5.3,2.8798,3.2912,14.29
+2026-09-22T12:40:39+00:00,openrouter,Inceptron,zai-org/glm-5.3,fp4,,cache_read,Z.ai: GLM 5.3,0.1505,0.2258,50.03
+2026-09-22T12:40:39+00:00,openrouter,Inceptron,zai-org/glm-5.3-flash,fp8,,cache_read,Z.ai: GLM 5.3 Flash,0.03,0.07,133.33
+2026-09-22T12:40:39+00:00,openrouter,AtlasCloud,kwaipilot/kat-coder-pro-v2,fp8,,cache_read,Kwaipilot: KAT-Coder-Pro V2,0.06,,
+2026-09-22T12:40:39+00:00,openrouter,AtlasCloud,kwaipilot/kat-coder-pro-v2,fp8,,input,Kwaipilot: KAT-Coder-Pro V2,0.3,,
+2026-09-22T12:40:39+00:00,openrouter,AtlasCloud,kwaipilot/kat-coder-pro-v2,fp8,,output,Kwaipilot: KAT-Coder-Pro V2,1.2,,
