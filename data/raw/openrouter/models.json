@@ -7192,8 +7192,8 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022",
+    "completion": "0.00000396",
+    "input_cache_read": "0.000000044",
     "overrides": [
      {
       "completion": "0.00000198",
@@ -7275,7 +7275,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000066"
+    "prompt": "0.00000132"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7429,8 +7429,8 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006",
     "overrides": [
      {
       "completion": "0.0000006",
@@ -7512,7 +7512,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -18860,6 +18860,70 @@
    "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
    "expiration_date": null,
    "hugging_face_id": "nex-agi/Nex-N2.5-mini",
+   "id": "nex-agi/nex-n2.5-mini",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/nex-agi/nex-n2.5-mini-20260908/endpoints"
+   },
+   "name": "Nex AGI: Nex-N2.5-Mini",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.0000001",
+    "input_cache_read": "0.0000000025",
+    "prompt": "0.000000025"
+   },
+   "reasoning": {
+    "default_effort": "high",
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "medium",
+     "none"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "logprobs",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "structured_outputs",
+    "temperature",
+    "top_k",
+    "top_logprobs",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 262144,
+    "is_moderated": false,
+    "max_completion_tokens": 235929
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Qwen3"
+   },
+   "canonical_slug": "nex-agi/nex-n2.5-mini-20260908",
+   "context_length": 262144,
+   "created": 1788890061,
+   "default_parameters": {
+    "temperature": 0.7,
+    "top_k": 40,
+    "top_p": 0.95
+   },
+   "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
+   "expiration_date": "2026-09-25",
+   "hugging_face_id": "nex-agi/Nex-N2.5-mini",
    "id": "nex-agi/nex-n2.5-mini:free",
    "knowledge_cutoff": null,
    "links": {
@@ -18925,6 +18989,72 @@
    },
    "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
    "expiration_date": null,
+   "hugging_face_id": "nex-agi/Nex-N2.5-Pro",
+   "id": "nex-agi/nex-n2.5-pro",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/nex-agi/nex-n2.5-pro-20260907/endpoints"
+   },
+   "name": "Nex AGI: Nex-N2.5-Pro",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00000025",
+    "input_cache_read": "0.000000015",
+    "prompt": "0.000000075"
+   },
+   "reasoning": {
+    "default_effort": "high",
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "medium",
+     "none"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "logprobs",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_logprobs",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 262144,
+    "is_moderated": false,
+    "max_completion_tokens": 235929
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Qwen3"
+   },
+   "canonical_slug": "nex-agi/nex-n2.5-pro-20260907",
+   "context_length": 262144,
+   "created": 1788890050,
+   "default_parameters": {
+    "temperature": 0.7,
+    "top_k": 40,
+    "top_p": 0.95
+   },
+   "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
+   "expiration_date": "2026-09-25",
    "hugging_face_id": "nex-agi/Nex-N2.5-Pro",
    "id": "nex-agi/nex-n2.5-pro:free",
    "knowledge_cutoff": null,
@@ -30944,9 +31074,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 131072,
+    "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 235929
    }
   },
   {
@@ -39330,9 +39460,9 @@
    "name": "Z.ai: GLM 5.3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002464",
-    "input_cache_read": "0.0000001456",
-    "prompt": "0.000000784"
+    "completion": "0.00000264",
+    "input_cache_read": "0.000000156",
+    "prompt": "0.00000084"
    },
    "reasoning": {
     "default_effort": "max",
@@ -40484,9 +40614,9 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000001675872",
-    "input_cache_read": "0.0000000186208",
-    "prompt": "0.000000558624"
+    "completion": "0.000001915848",
+    "input_cache_read": "0.0000000212872",
+    "prompt": "0.000000638616"
    },
    "reasoning": {
     "default_effort": "high",
@@ -40558,7 +40688,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000001",
-    "input_cache_read": "0.000000012",
+    "input_cache_read": "0.000000008",
     "prompt": "0.00000003"
    },
    "reasoning": {
@@ -41388,7 +41518,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000025",
-    "input_cache_read": "0.00000002",
+    "input_cache_read": "0.000000015",
     "prompt": "0.000000075"
    },
    "reasoning": {
@@ -41428,7 +41558,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 102400
+    "max_completion_tokens": 943718
    }
   },
   {
@@ -41465,9 +41595,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000026532",
-    "input_cache_read": "0.00000015678",
-    "prompt": "0.0000007839"
+    "completion": "0.000002057",
+    "input_cache_read": "0.000000107525",
+    "prompt": "0.0000006545"
    },
    "reasoning": {
     "default_effort": "max",
@@ -41504,14 +41634,14 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 262144,
+    "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 943718
    }
   }
  ],
  "links": {
   "next": null
  },
- "total_count": 443
+ "total_count": 445
 }
