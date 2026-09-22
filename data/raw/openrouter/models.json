@@ -13,7 +13,7 @@
     "tokenizer": "Other"
    },
    "canonical_slug": "aion-labs/aion-2.0-20260223",
-   "context_length": 131072,
+   "context_length": 1048576,
    "created": 1771881306,
    "default_parameters": {
     "frequency_penalty": null,
@@ -50,7 +50,7 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 131072,
+    "context_length": 1048576,
     "is_moderated": false,
     "max_completion_tokens": 32768
    }
@@ -68,7 +68,7 @@
     "tokenizer": "Other"
    },
    "canonical_slug": "aion-labs/aion-3.0-20260707",
-   "context_length": 131072,
+   "context_length": 1048576,
    "created": 1783443095,
    "default_parameters": {},
    "description": "Aion-3.0 is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models. It uses a collaborative generation process in which multiple specialized models each contribute...",
@@ -101,7 +101,7 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 131072,
+    "context_length": 1048576,
     "is_moderated": false,
     "max_completion_tokens": 32768
    }
@@ -119,7 +119,7 @@
     "tokenizer": "Other"
    },
    "canonical_slug": "aion-labs/aion-3.0-mini-20260707",
-   "context_length": 131072,
+   "context_length": 1048576,
    "created": 1783443096,
    "default_parameters": {},
    "description": "Aion-3.0 Mini is a multi-model roleplaying and storytelling system from AionLabs, built on the DeepSeek family of models. It uses a collaborative generation process in which multiple specialized models each...",
@@ -152,7 +152,7 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 131072,
+    "context_length": 1048576,
     "is_moderated": false,
     "max_completion_tokens": 32768
    }
@@ -3209,6 +3209,140 @@
     "stop",
     "structured_outputs",
     "temperature",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1000000,
+    "is_moderated": true,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Claude"
+   },
+   "canonical_slug": "anthropic/claude-opus-5.5-20260921",
+   "context_length": 1000000,
+   "created": 1790094732,
+   "default_parameters": {},
+   "description": "Claude Opus 5.5 is Anthropic's flagship model for demanding reasoning, coding, and long-horizon agentic work, succeeding Claude Opus 5. It is particularly strong at multi-step changes in large codebases, code...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "anthropic/claude-opus-5.5",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/anthropic/claude-opus-5.5-20260921/endpoints"
+   },
+   "name": "Anthropic: Claude Opus 5.5",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00002",
+    "input_cache_read": "0.0000002",
+    "input_cache_write": "0.000005",
+    "input_cache_write_1h": "0.000008",
+    "prompt": "0.000004",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "high",
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_completion_tokens",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1000000,
+    "is_moderated": true,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Claude"
+   },
+   "canonical_slug": "anthropic/claude-opus-5.5-20260921",
+   "context_length": 1000000,
+   "created": 1790094732,
+   "default_parameters": {},
+   "description": "Claude Opus 5.5 is Anthropic's flagship model for demanding reasoning, coding, and long-horizon agentic work, succeeding Claude Opus 5. It is particularly strong at multi-step changes in large codebases, code...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "anthropic/claude-opus-5.5:batch",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/anthropic/claude-opus-5.5-20260921/endpoints"
+   },
+   "name": "Anthropic: Claude Opus 5.5 (batch)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00001",
+    "input_cache_read": "0.0000001",
+    "input_cache_write": "0.0000025",
+    "input_cache_write_1h": "0.000004",
+    "prompt": "0.000002",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "high",
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "stop",
+    "structured_outputs",
     "tool_choice",
     "tools",
     "verbosity"
@@ -6543,9 +6677,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000177212",
-    "input_cache_read": "0.0000000177212",
-    "prompt": "0.000000088606"
+    "completion": "0.000000098",
+    "input_cache_read": "0.0000000098",
+    "prompt": "0.000000049"
    },
    "reasoning": {
     "default_effort": "high",
@@ -6726,139 +6860,6 @@
   {
    "architecture": {
     "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "DeepSeek"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": 41,
-     "coding_index": 69.1,
-     "intelligence_index": 34.3
-    },
-    "design_arena": [
-     {
-      "arena": "models",
-      "category": "3d",
-      "elo": 1237,
-      "rank": 35,
-      "win_rate": 48.6
-     },
-     {
-      "arena": "models",
-      "category": "asciiart",
-      "elo": 1109,
-      "rank": 58,
-      "win_rate": 33.3
-     },
-     {
-      "arena": "models",
-      "category": "codecategories",
-      "elo": 1244,
-      "rank": 40,
-      "win_rate": 46.5
-     },
-     {
-      "arena": "models",
-      "category": "dataviz",
-      "elo": 1196,
-      "rank": 53,
-      "win_rate": 41.1
-     },
-     {
-      "arena": "models",
-      "category": "gamedev",
-      "elo": 1233,
-      "rank": 39,
-      "win_rate": 44.6
-     },
-     {
-      "arena": "models",
-      "category": "svg",
-      "elo": 1204,
-      "rank": 25,
-      "win_rate": 45.2
-     },
-     {
-      "arena": "models",
-      "category": "uicomponent",
-      "elo": 1251,
-      "rank": 37,
-      "win_rate": 47
-     },
-     {
-      "arena": "models",
-      "category": "website",
-      "elo": 1250,
-      "rank": 38,
-      "win_rate": 46.8
-     }
-    ]
-   },
-   "canonical_slug": "deepseek/deepseek-v4-flash-20260731",
-   "context_length": 1048576,
-   "created": 1785478908,
-   "default_parameters": {},
-   "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows....",
-   "expiration_date": null,
-   "hugging_face_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
-   "id": "deepseek/deepseek-v4-flash-0731:batch",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/deepseek/deepseek-v4-flash-20260731/endpoints"
-   },
-   "name": "DeepSeek: DeepSeek V4 Flash 0731 (batch)",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.00000033",
-    "input_cache_read": "0.0000000035",
-    "prompt": "0.00000011"
-   },
-   "reasoning": {
-    "default_effort": "high",
-    "default_enabled": true,
-    "mandatory": false,
-    "supported_efforts": [
-     "high",
-     "low",
-     "max"
-    ]
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "logit_bias",
-    "logprobs",
-    "max_tokens",
-    "presence_penalty",
-    "reasoning",
-    "reasoning_effort",
-    "repetition_penalty",
-    "response_format",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": [],
-   "top_provider": {
-    "context_length": 1048576,
-    "is_moderated": false,
-    "max_completion_tokens": 943718
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
      "image",
      "text"
     ],
@@ -6911,75 +6912,6 @@
     "repetition_penalty",
     "response_format",
     "seed",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 1048576,
-    "is_moderated": false,
-    "max_completion_tokens": 943718
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "DeepSeek"
-   },
-   "canonical_slug": "deepseek/deepseek-v4-flash-vision-exp-20260821",
-   "context_length": 1048576,
-   "created": 1787311563,
-   "default_parameters": {},
-   "description": "DeepSeek V4 Flash Vision Exp is an experimental vision-enabled version of [DeepSeek V4 Flash 0731](https://openrouter.ai/deepseek/deepseek-v4-flash-0731) from DeepSeek, adding image understanding while matching the base model on text capabilities including agents,...",
-   "expiration_date": null,
-   "hugging_face_id": "deepseek-ai/DeepSeek-V4-Flash-Vision-Exp",
-   "id": "deepseek/deepseek-v4-flash-vision-exp:batch",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/deepseek/deepseek-v4-flash-vision-exp-20260821/endpoints"
-   },
-   "name": "DeepSeek: DeepSeek V4 Flash Vision Exp (batch)",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.00000033",
-    "input_cache_read": "0.0000000035",
-    "prompt": "0.00000011"
-   },
-   "reasoning": {
-    "default_effort": "high",
-    "default_enabled": true,
-    "mandatory": false,
-    "supported_efforts": [
-     "high",
-     "low",
-     "max"
-    ]
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "logit_bias",
-    "logprobs",
-    "max_tokens",
-    "presence_penalty",
-    "reasoning",
-    "reasoning_effort",
-    "repetition_penalty",
-    "response_format",
     "stop",
     "structured_outputs",
     "temperature",
@@ -7112,9 +7044,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605",
-    "prompt": "0.00000095526"
+    "completion": "0.000001808208",
+    "input_cache_read": "0.000000075342",
+    "prompt": "0.000000904104"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7192,9 +7124,90 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000288",
-    "input_cache_read": "0.000000088",
-    "prompt": "0.000000624"
+    "completion": "0.00000198",
+    "input_cache_read": "0.000000022",
+    "overrides": [
+     {
+      "completion": "0.00000198",
+      "input_cache_read": "0.000000022",
+      "prompt": "0.00000066",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 0,
+      "utc_start": 1000
+     },
+     {
+      "completion": "0.00000198",
+      "input_cache_read": "0.000000022",
+      "prompt": "0.00000066",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 100,
+      "utc_start": 0
+     },
+     {
+      "completion": "0.00000198",
+      "input_cache_read": "0.000000022",
+      "prompt": "0.00000066",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 600,
+      "utc_start": 400
+     },
+     {
+      "completion": "0.00000198",
+      "input_cache_read": "0.000000022",
+      "prompt": "0.00000066",
+      "utc_days": [
+       "saturday",
+       "sunday"
+      ]
+     },
+     {
+      "completion": "0.00000396",
+      "input_cache_read": "0.000000044",
+      "prompt": "0.00000132",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 1000,
+      "utc_start": 600
+     },
+     {
+      "completion": "0.00000396",
+      "input_cache_read": "0.000000044",
+      "prompt": "0.00000132",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 400,
+      "utc_start": 100
+     }
+    ],
+    "prompt": "0.00000066"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7231,85 +7244,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "DeepSeek"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": 41.3,
-     "coding_index": 68.8,
-     "intelligence_index": 36
-    },
-    "design_arena": []
-   },
-   "canonical_slug": "deepseek/deepseek-v4-pro-20260813",
-   "context_length": 1048576,
-   "created": 1786549364,
-   "default_parameters": {
-    "temperature": 1,
-    "top_p": 1
-   },
-   "description": "DeepSeek V4 Pro 0813 is a large-scale mixture-of-experts model from DeepSeek. This is the GA release of DeepSeek V4 Pro.",
-   "expiration_date": null,
-   "hugging_face_id": "deepseek-ai/DeepSeek-V4-Pro-0813",
-   "id": "deepseek/deepseek-v4-pro-0813:batch",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/deepseek/deepseek-v4-pro-20260813/endpoints"
-   },
-   "name": "DeepSeek: DeepSeek V4 Pro 0813 (batch)",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022",
-    "prompt": "0.00000066"
-   },
-   "reasoning": {
-    "default_effort": "high",
-    "mandatory": false,
-    "supported_efforts": [
-     "high",
-     "low",
-     "max"
-    ]
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "logit_bias",
-    "logprobs",
-    "max_tokens",
-    "presence_penalty",
-    "reasoning",
-    "reasoning_effort",
-    "repetition_penalty",
-    "response_format",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 1048576,
-    "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 384000
    }
   },
   {
@@ -7483,6 +7418,83 @@
     "output_modalities": [
      "text"
     ],
+    "tokenizer": "DeepSeek"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 39.5
+    },
+    "design_arena": []
+   },
+   "canonical_slug": "deepseek/deepseek-v4.1-flash-20260910",
+   "context_length": 1048576,
+   "created": 1789021285,
+   "default_parameters": {},
+   "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on...",
+   "expiration_date": null,
+   "hugging_face_id": "deepseek-ai/DeepSeek-V4.1-Flash",
+   "id": "deepseek/deepseek-v4.1-flash:batch",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/deepseek/deepseek-v4.1-flash-20260910/endpoints"
+   },
+   "name": "DeepSeek: DeepSeek V4.1 Flash (batch)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.000000336",
+    "input_cache_read": "0.00000000336",
+    "prompt": "0.000000112"
+   },
+   "reasoning": {
+    "default_effort": "high",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max"
+    ]
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "logit_bias",
+    "max_tokens",
+    "min_p",
+    "presence_penalty",
+    "reasoning",
+    "reasoning_effort",
+    "repetition_penalty",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1048576,
+    "is_moderated": false,
+    "max_completion_tokens": 131072
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image->text",
+    "output_modalities": [
+     "text"
+    ],
     "tokenizer": "Other"
    },
    "canonical_slug": "dots-studio/dots-3-note-preview-20260813",
@@ -7490,7 +7502,7 @@
    "created": 1786680361,
    "default_parameters": {},
    "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...",
-   "expiration_date": "2026-09-30",
+   "expiration_date": "2026-12-31",
    "hugging_face_id": null,
    "id": "dots-studio/dots-3-note-preview:free",
    "knowledge_cutoff": null,
@@ -13943,79 +13955,6 @@
   {
    "architecture": {
     "input_modalities": [
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "canonical_slug": "meta/muse-glimmer-30b-20260810",
-   "context_length": 131072,
-   "created": 1786302394,
-   "default_parameters": {
-    "temperature": 1,
-    "top_k": 64,
-    "top_p": 0.95
-   },
-   "description": "Muse Glimmer 30B is a dense, open-weight multimodal model from Meta Superintelligence Labs, distilled from Muse Spark and optimized for autonomous agents on consumer hardware. It is suited for long-horizon...",
-   "expiration_date": null,
-   "hugging_face_id": "meta-models/Muse-Glimmer-30B",
-   "id": "meta/muse-glimmer-30b:batch",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/meta/muse-glimmer-30b-20260810/endpoints"
-   },
-   "name": "Meta: Muse Glimmer 30B (batch)",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.00000075",
-    "input_cache_read": "0.00000002",
-    "prompt": "0.000000175"
-   },
-   "reasoning": {
-    "default_effort": "medium",
-    "mandatory": true,
-    "supported_efforts": [
-     "high",
-     "low",
-     "medium",
-     "xhigh"
-    ]
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "logit_bias",
-    "logprobs",
-    "max_tokens",
-    "presence_penalty",
-    "reasoning",
-    "reasoning_effort",
-    "repetition_penalty",
-    "response_format",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 131072,
-    "is_moderated": false,
-    "max_completion_tokens": 117964
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
      "audio",
      "file",
      "image",
@@ -18587,6 +18526,197 @@
     "context_length": 1048576,
     "is_moderated": false,
     "max_completion_tokens": 943718
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+video->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": 50,
+     "coding_index": 76.2,
+     "intelligence_index": 43.6
+    },
+    "design_arena": [
+     {
+      "arena": "agents",
+      "category": "agenticgamedev",
+      "elo": 1252,
+      "rank": 3,
+      "win_rate": 54.9
+     },
+     {
+      "arena": "agents",
+      "category": "androidnative",
+      "elo": 1259,
+      "rank": 5,
+      "win_rate": 55.3
+     },
+     {
+      "arena": "agents",
+      "category": "fullstack",
+      "elo": 1328,
+      "rank": 2,
+      "win_rate": 62.3
+     },
+     {
+      "arena": "agents",
+      "category": "godotgamedev",
+      "elo": 1199,
+      "rank": 10,
+      "win_rate": 48.5
+     },
+     {
+      "arena": "agents",
+      "category": "htmlslides",
+      "elo": 1259,
+      "rank": 2,
+      "win_rate": 59.6
+     },
+     {
+      "arena": "agents",
+      "category": "mobileapps",
+      "elo": 1280,
+      "rank": 3,
+      "win_rate": 57.6
+     },
+     {
+      "arena": "agents",
+      "category": "python-pptxslides",
+      "elo": 1273,
+      "rank": 4,
+      "win_rate": 59.2
+     },
+     {
+      "arena": "agents",
+      "category": "webapps",
+      "elo": 1296,
+      "rank": 4,
+      "win_rate": 58.9
+     },
+     {
+      "arena": "models",
+      "category": "3d",
+      "elo": 1423,
+      "rank": 3,
+      "win_rate": 68.7
+     },
+     {
+      "arena": "models",
+      "category": "codecategories",
+      "elo": 1383,
+      "rank": 1,
+      "win_rate": 64.2
+     },
+     {
+      "arena": "models",
+      "category": "dataviz",
+      "elo": 1358,
+      "rank": 4,
+      "win_rate": 63.3
+     },
+     {
+      "arena": "models",
+      "category": "gamedev",
+      "elo": 1409,
+      "rank": 1,
+      "win_rate": 64.4
+     },
+     {
+      "arena": "models",
+      "category": "svg",
+      "elo": 1321,
+      "rank": 4,
+      "win_rate": 62.3
+     },
+     {
+      "arena": "models",
+      "category": "uicomponent",
+      "elo": 1369,
+      "rank": 2,
+      "win_rate": 63
+     },
+     {
+      "arena": "models",
+      "category": "website",
+      "elo": 1350,
+      "rank": 2,
+      "win_rate": 60.5
+     }
+    ]
+   },
+   "canonical_slug": "moonshotai/kimi-k3-20260715",
+   "context_length": 1048576,
+   "created": 1784215858,
+   "default_parameters": {
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null,
+    "temperature": null,
+    "top_k": null,
+    "top_p": 0.95
+   },
+   "description": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at...",
+   "expiration_date": null,
+   "hugging_face_id": "moonshotai/Kimi-K3",
+   "id": "moonshotai/kimi-k3:batch",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/moonshotai/kimi-k3-20260715/endpoints"
+   },
+   "name": "MoonshotAI: Kimi K3 (batch)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.0000114",
+    "input_cache_read": "0.000000228",
+    "prompt": "0.00000228"
+   },
+   "reasoning": {
+    "default_effort": "max",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max"
+    ]
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "logit_bias",
+    "max_tokens",
+    "min_p",
+    "presence_penalty",
+    "reasoning",
+    "reasoning_effort",
+    "repetition_penalty",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1048576,
+    "is_moderated": false,
+    "max_completion_tokens": 16384
    }
   },
   {
@@ -26901,6 +27031,662 @@
   {
    "architecture": {
     "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "canonical_slug": "openai/gpt-6-luna-20260922",
+   "context_length": 1050000,
+   "created": 1790100786,
+   "default_parameters": {
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null,
+    "temperature": null,
+    "top_k": null,
+    "top_p": null
+   },
+   "description": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive workloads such as chat, classification, and lightweight agentic...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "openai/gpt-6-luna",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6-luna-20260922/endpoints"
+   },
+   "name": "OpenAI: GPT-6 Luna",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000001",
+    "input_cache_write": "0.000000125",
+    "overrides": [
+     {
+      "completion": "0.00000075",
+      "input_cache_read": "0.00000002",
+      "input_cache_write": "0.00000025",
+      "min_prompt_tokens": 272000,
+      "prompt": "0.0000002"
+     }
+    ],
+    "prompt": "0.0000001",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "none",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1050000,
+    "is_moderated": true,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "canonical_slug": "openai/gpt-6-luna-pro-20260922",
+   "context_length": 1050000,
+   "created": 1790100791,
+   "default_parameters": {
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null,
+    "temperature": null,
+    "top_k": null,
+    "top_p": null
+   },
+   "description": "GPT-6 Luna Pro is the same underlying model as [GPT-6 Luna](https://openrouter.ai/openai/gpt-6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "openai/gpt-6-luna-pro",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6-luna-pro-20260922/endpoints"
+   },
+   "name": "OpenAI: GPT-6 Luna Pro",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000001",
+    "input_cache_write": "0.000000125",
+    "overrides": [
+     {
+      "completion": "0.00000075",
+      "input_cache_read": "0.00000002",
+      "input_cache_write": "0.00000025",
+      "min_prompt_tokens": 272000,
+      "prompt": "0.0000002"
+     }
+    ],
+    "prompt": "0.0000001",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "none",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1050000,
+    "is_moderated": true,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "canonical_slug": "openai/gpt-6-luna-pro-20260922",
+   "context_length": 1050000,
+   "created": 1790100791,
+   "default_parameters": {
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null,
+    "temperature": null,
+    "top_k": null,
+    "top_p": null
+   },
+   "description": "GPT-6 Luna Pro is the same underlying model as [GPT-6 Luna](https://openrouter.ai/openai/gpt-6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "openai/gpt-6-luna-pro:batch",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6-luna-pro-20260922/endpoints"
+   },
+   "name": "OpenAI: GPT-6 Luna Pro (batch)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00000025",
+    "input_cache_read": "0.000000005",
+    "input_cache_write": "0.0000000625",
+    "overrides": [
+     {
+      "completion": "0.000000375",
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.000000125",
+      "min_prompt_tokens": 272000,
+      "prompt": "0.0000001"
+     }
+    ],
+    "prompt": "0.00000005",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "none",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1050000,
+    "is_moderated": true,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "canonical_slug": "openai/gpt-6-luna-20260922",
+   "context_length": 1050000,
+   "created": 1790100786,
+   "default_parameters": {
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null,
+    "temperature": null,
+    "top_k": null,
+    "top_p": null
+   },
+   "description": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive workloads such as chat, classification, and lightweight agentic...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "openai/gpt-6-luna:batch",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6-luna-20260922/endpoints"
+   },
+   "name": "OpenAI: GPT-6 Luna (batch)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00000025",
+    "input_cache_read": "0.000000005",
+    "input_cache_write": "0.0000000625",
+    "overrides": [
+     {
+      "completion": "0.000000375",
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.000000125",
+      "min_prompt_tokens": 272000,
+      "prompt": "0.0000001"
+     }
+    ],
+    "prompt": "0.00000005",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "none",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1050000,
+    "is_moderated": true,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "canonical_slug": "openai/gpt-6-sol-20260922",
+   "context_length": 1050000,
+   "created": 1790100775,
+   "default_parameters": {
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null,
+    "temperature": null,
+    "top_k": null,
+    "top_p": null
+   },
+   "description": "GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier. It is suited for demanding professional...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "openai/gpt-6-sol",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6-sol-20260922/endpoints"
+   },
+   "name": "OpenAI: GPT-6 Sol",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00001",
+    "input_cache_read": "0.0000002",
+    "input_cache_write": "0.0000025",
+    "overrides": [
+     {
+      "completion": "0.000015",
+      "input_cache_read": "0.0000004",
+      "input_cache_write": "0.000005",
+      "min_prompt_tokens": 272000,
+      "prompt": "0.000004"
+     }
+    ],
+    "prompt": "0.000002",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "none",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1050000,
+    "is_moderated": true,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "canonical_slug": "openai/gpt-6-sol-pro-20260922",
+   "context_length": 1050000,
+   "created": 1790100781,
+   "default_parameters": {
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null,
+    "temperature": null,
+    "top_k": null,
+    "top_p": null
+   },
+   "description": "GPT-6 Sol Pro is the same underlying model as [GPT-6 Sol](https://openrouter.ai/openai/gpt-6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "openai/gpt-6-sol-pro",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6-sol-pro-20260922/endpoints"
+   },
+   "name": "OpenAI: GPT-6 Sol Pro",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00001",
+    "input_cache_read": "0.0000002",
+    "input_cache_write": "0.0000025",
+    "overrides": [
+     {
+      "completion": "0.000015",
+      "input_cache_read": "0.0000004",
+      "input_cache_write": "0.000005",
+      "min_prompt_tokens": 272000,
+      "prompt": "0.000004"
+     }
+    ],
+    "prompt": "0.000002",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "none",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1050000,
+    "is_moderated": true,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "canonical_slug": "openai/gpt-6-sol-pro-20260922",
+   "context_length": 1050000,
+   "created": 1790100781,
+   "default_parameters": {
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null,
+    "temperature": null,
+    "top_k": null,
+    "top_p": null
+   },
+   "description": "GPT-6 Sol Pro is the same underlying model as [GPT-6 Sol](https://openrouter.ai/openai/gpt-6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "openai/gpt-6-sol-pro:batch",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6-sol-pro-20260922/endpoints"
+   },
+   "name": "OpenAI: GPT-6 Sol Pro (batch)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.000005",
+    "input_cache_read": "0.0000001",
+    "input_cache_write": "0.00000125",
+    "overrides": [
+     {
+      "completion": "0.0000075",
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.0000025",
+      "min_prompt_tokens": 272000,
+      "prompt": "0.000002"
+     }
+    ],
+    "prompt": "0.000001",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "none",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1050000,
+    "is_moderated": true,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "canonical_slug": "openai/gpt-6-sol-20260922",
+   "context_length": 1050000,
+   "created": 1790100775,
+   "default_parameters": {
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null,
+    "temperature": null,
+    "top_k": null,
+    "top_p": null
+   },
+   "description": "GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier. It is suited for demanding professional...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "openai/gpt-6-sol:batch",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6-sol-20260922/endpoints"
+   },
+   "name": "OpenAI: GPT-6 Sol (batch)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.000005",
+    "input_cache_read": "0.0000001",
+    "input_cache_write": "0.00000125",
+    "overrides": [
+     {
+      "completion": "0.0000075",
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.0000025",
+      "min_prompt_tokens": 272000,
+      "prompt": "0.000002"
+     }
+    ],
+    "prompt": "0.000001",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "none",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1050000,
+    "is_moderated": true,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
      "audio",
      "text"
     ],
@@ -27258,9 +28044,8 @@
    "name": "OpenAI: gpt-oss-20b",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000013",
-    "input_cache_read": "0.00000003",
-    "prompt": "0.00000003"
+    "completion": "0.00000009",
+    "prompt": "0.000000018"
    },
    "reasoning": {
     "default_effort": "medium",
@@ -27291,6 +28076,99 @@
     "tools",
     "top_k",
     "top_logprobs",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 131072,
+    "is_moderated": false,
+    "max_completion_tokens": 32768
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": 1.2,
+     "coding_index": 20.7,
+     "intelligence_index": 9
+    },
+    "design_arena": [
+     {
+      "arena": "models",
+      "category": "dataviz",
+      "elo": 945,
+      "rank": 112,
+      "win_rate": 39.7
+     },
+     {
+      "arena": "models",
+      "category": "website",
+      "elo": 864,
+      "rank": 126,
+      "win_rate": 27.9
+     }
+    ]
+   },
+   "canonical_slug": "openai/gpt-oss-20b",
+   "context_length": 131072,
+   "created": 1754414229,
+   "default_parameters": {
+    "frequency_penalty": null,
+    "temperature": null,
+    "top_p": null
+   },
+   "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for...",
+   "expiration_date": null,
+   "hugging_face_id": "openai/gpt-oss-20b",
+   "id": "openai/gpt-oss-20b:batch",
+   "knowledge_cutoff": "2024-06-30",
+   "links": {
+    "details": "/api/v1/models/openai/gpt-oss-20b/endpoints"
+   },
+   "name": "OpenAI: gpt-oss-20b (batch)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.000000112",
+    "prompt": "0.000000024"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "medium"
+    ]
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "logit_bias",
+    "max_tokens",
+    "min_p",
+    "presence_penalty",
+    "reasoning",
+    "reasoning_effort",
+    "repetition_penalty",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
     "top_p"
    ],
    "supported_voices": null,
@@ -32110,9 +32988,9 @@
    "name": "Qwen: Qwen3.6 27B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002",
-    "input_cache_read": "0.00000003",
-    "prompt": "0.0000003"
+    "completion": "0.0000027",
+    "input_cache_read": "0.00000015",
+    "prompt": "0.00000032"
    },
    "reasoning": {
     "default_enabled": true,
@@ -32143,7 +33021,7 @@
    "top_provider": {
     "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 262140
    }
   },
   {
@@ -34417,8 +35295,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -34435,7 +35313,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -34982,7 +35860,6 @@
     "frequency_penalty",
     "include_reasoning",
     "logit_bias",
-    "logprobs",
     "max_tokens",
     "min_p",
     "presence_penalty",
@@ -34995,7 +35872,6 @@
     "tool_choice",
     "tools",
     "top_k",
-    "top_logprobs",
     "top_p"
    ],
    "supported_voices": null,
@@ -38943,201 +39819,6 @@
     ]
    },
    "canonical_slug": "z-ai/glm-5.2-20260616",
-   "context_length": 1048576,
-   "created": 1781631930,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "presence_penalty": null,
-    "repetition_penalty": null,
-    "temperature": 1,
-    "top_k": null,
-    "top_p": 0.95
-   },
-   "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
-   "expiration_date": null,
-   "hugging_face_id": "zai-org/GLM-5.2",
-   "id": "z-ai/glm-5.2:batch",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/z-ai/glm-5.2-20260616/endpoints"
-   },
-   "name": "Z.ai: GLM 5.2 (batch)",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.0000022",
-    "input_cache_read": "0.00000007",
-    "prompt": "0.0000007"
-   },
-   "reasoning": {
-    "default_effort": "high",
-    "default_enabled": true,
-    "mandatory": false,
-    "supported_efforts": [
-     "high",
-     "xhigh"
-    ]
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "logit_bias",
-    "logprobs",
-    "max_tokens",
-    "presence_penalty",
-    "reasoning",
-    "reasoning_effort",
-    "repetition_penalty",
-    "response_format",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 1048576,
-    "is_moderated": false,
-    "max_completion_tokens": 943718
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": 38.4,
-     "coding_index": 68.8,
-     "intelligence_index": 33.7
-    },
-    "design_arena": [
-     {
-      "arena": "agents",
-      "category": "agenticgamedev",
-      "elo": 1205,
-      "rank": 10,
-      "win_rate": 49
-     },
-     {
-      "arena": "agents",
-      "category": "androidnative",
-      "elo": 1189,
-      "rank": 17,
-      "win_rate": 53
-     },
-     {
-      "arena": "agents",
-      "category": "fullstack",
-      "elo": 1252,
-      "rank": 11,
-      "win_rate": 61
-     },
-     {
-      "arena": "agents",
-      "category": "godotgamedev",
-      "elo": 1142,
-      "rank": 17,
-      "win_rate": 40.1
-     },
-     {
-      "arena": "agents",
-      "category": "htmlslides",
-      "elo": 1178,
-      "rank": 13,
-      "win_rate": 49.6
-     },
-     {
-      "arena": "agents",
-      "category": "mobileapps",
-      "elo": 1191,
-      "rank": 22,
-      "win_rate": 50.5
-     },
-     {
-      "arena": "agents",
-      "category": "python-pptxslides",
-      "elo": 1194,
-      "rank": 16,
-      "win_rate": 48.7
-     },
-     {
-      "arena": "agents",
-      "category": "webapps",
-      "elo": 1229,
-      "rank": 13,
-      "win_rate": 56
-     },
-     {
-      "arena": "models",
-      "category": "3d",
-      "elo": 1319,
-      "rank": 13,
-      "win_rate": 53.8
-     },
-     {
-      "arena": "models",
-      "category": "asciiart",
-      "elo": 1222,
-      "rank": 22,
-      "win_rate": 47.5
-     },
-     {
-      "arena": "models",
-      "category": "codecategories",
-      "elo": 1305,
-      "rank": 11,
-      "win_rate": 52.8
-     },
-     {
-      "arena": "models",
-      "category": "dataviz",
-      "elo": 1306,
-      "rank": 10,
-      "win_rate": 53.3
-     },
-     {
-      "arena": "models",
-      "category": "gamedev",
-      "elo": 1293,
-      "rank": 17,
-      "win_rate": 49.7
-     },
-     {
-      "arena": "models",
-      "category": "svg",
-      "elo": 1239,
-      "rank": 15,
-      "win_rate": 50.3
-     },
-     {
-      "arena": "models",
-      "category": "uicomponent",
-      "elo": 1307,
-      "rank": 13,
-      "win_rate": 55.2
-     },
-     {
-      "arena": "models",
-      "category": "website",
-      "elo": 1302,
-      "rank": 12,
-      "win_rate": 53.1
-     }
-    ]
-   },
-   "canonical_slug": "z-ai/glm-5.2-20260616",
    "context_length": 32768,
    "created": 1781631930,
    "default_parameters": {
@@ -39309,9 +39990,9 @@
    "name": "Z.ai: GLM 5.3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000264",
-    "input_cache_read": "0.000000156",
-    "prompt": "0.00000084"
+    "completion": "0.0000020548",
+    "input_cache_read": "0.00000012142",
+    "prompt": "0.0000006538"
    },
    "reasoning": {
     "default_effort": "max",
@@ -39591,9 +40272,9 @@
    "name": "Z.ai: GLM 5.3 Flash (batch)",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000025",
-    "input_cache_read": "0.000000015",
-    "prompt": "0.000000075"
+    "completion": "0.0000002",
+    "input_cache_read": "0.000000012",
+    "prompt": "0.00000006"
    },
    "reasoning": {
     "default_effort": "max",
@@ -39609,27 +40290,27 @@
     "frequency_penalty",
     "include_reasoning",
     "logit_bias",
-    "logprobs",
     "max_tokens",
+    "min_p",
     "presence_penalty",
     "reasoning",
     "reasoning_effort",
     "repetition_penalty",
     "response_format",
+    "seed",
     "stop",
     "structured_outputs",
     "temperature",
     "tool_choice",
     "tools",
     "top_k",
-    "top_logprobs",
     "top_p"
    ],
    "supported_voices": null,
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    }
   },
   {
@@ -39813,9 +40494,9 @@
    "name": "Z.ai: GLM 5.3 (batch)",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000022",
-    "input_cache_read": "0.00000013",
-    "prompt": "0.0000007"
+    "completion": "0.0000024",
+    "input_cache_read": "0.00000012",
+    "prompt": "0.00000072"
    },
    "reasoning": {
     "default_effort": "max",
@@ -39831,27 +40512,27 @@
     "frequency_penalty",
     "include_reasoning",
     "logit_bias",
-    "logprobs",
     "max_tokens",
+    "min_p",
     "presence_penalty",
     "reasoning",
     "reasoning_effort",
     "repetition_penalty",
     "response_format",
+    "seed",
     "stop",
     "structured_outputs",
     "temperature",
     "tool_choice",
     "tools",
     "top_k",
-    "top_logprobs",
     "top_p"
    ],
    "supported_voices": null,
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    }
   },
   {
@@ -40211,8 +40892,8 @@
   },
   {
    "alias_target": {
-    "name": "Anthropic: Claude Opus 5",
-    "slug": "anthropic/claude-opus-5"
+    "name": "Anthropic: Claude Opus 5.5",
+    "slug": "anthropic/claude-opus-5.5"
    },
    "architecture": {
     "input_modalities": [
@@ -40242,17 +40923,16 @@
    "name": "Anthropic: Claude Opus Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000025",
-    "input_cache_read": "0.0000005",
-    "input_cache_write": "0.00000625",
-    "input_cache_write_1h": "0.00001",
-    "prompt": "0.000005",
+    "completion": "0.00002",
+    "input_cache_read": "0.0000002",
+    "input_cache_write": "0.000005",
+    "input_cache_write_1h": "0.000008",
+    "prompt": "0.000004",
     "web_search": "0.01"
    },
    "reasoning": {
     "default_effort": "high",
-    "default_enabled": true,
-    "mandatory": false,
+    "mandatory": true,
     "supported_efforts": [
      "high",
      "low",
@@ -40463,9 +41143,9 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000288",
-    "input_cache_read": "0.000000088",
-    "prompt": "0.000000624"
+    "completion": "0.00000163152",
+    "input_cache_read": "0.000000017304",
+    "prompt": "0.00000054384"
    },
    "reasoning": {
     "default_effort": "high",
@@ -40502,7 +41182,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -40913,8 +41593,8 @@
   },
   {
    "alias_target": {
-    "name": "OpenAI: GPT-5.6 Luna",
-    "slug": "openai/gpt-5.6-luna"
+    "name": "OpenAI: GPT-6 Luna",
+    "slug": "openai/gpt-6-luna"
    },
    "architecture": {
     "input_modalities": [
@@ -40944,26 +41624,26 @@
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "~openai/gpt-luna-latest",
-   "knowledge_cutoff": "2026-02-16",
+   "knowledge_cutoff": null,
    "links": {
     "details": "/api/v1/models/~openai/gpt-luna-latest/endpoints"
    },
    "name": "OpenAI: GPT Luna Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000012",
-    "input_cache_read": "0.00000002",
-    "input_cache_write": "0.00000025",
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000001",
+    "input_cache_write": "0.000000125",
     "overrides": [
      {
-      "completion": "0.0000018",
-      "input_cache_read": "0.00000004",
-      "input_cache_write": "0.0000005",
+      "completion": "0.00000075",
+      "input_cache_read": "0.00000002",
+      "input_cache_write": "0.00000025",
       "min_prompt_tokens": 272000,
-      "prompt": "0.0000004"
+      "prompt": "0.0000002"
      }
     ],
-    "prompt": "0.0000002",
+    "prompt": "0.0000001",
     "web_search": "0.01"
    },
    "reasoning": {
@@ -40981,7 +41661,6 @@
    },
    "supported_parameters": [
     "include_reasoning",
-    "max_completion_tokens",
     "max_tokens",
     "reasoning",
     "reasoning_effort",
@@ -40994,7 +41673,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 1050000,
-    "is_moderated": false,
+    "is_moderated": true,
     "max_completion_tokens": 128000
    }
   },
@@ -41076,8 +41755,8 @@
   },
   {
    "alias_target": {
-    "name": "OpenAI: GPT-5.6 Sol",
-    "slug": "openai/gpt-5.6-sol"
+    "name": "OpenAI: GPT-6 Sol",
+    "slug": "openai/gpt-6-sol"
    },
    "architecture": {
     "input_modalities": [
@@ -41107,7 +41786,7 @@
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "~openai/gpt-sol-latest",
-   "knowledge_cutoff": "2026-02-16",
+   "knowledge_cutoff": null,
    "links": {
     "details": "/api/v1/models/~openai/gpt-sol-latest/endpoints"
    },
@@ -41144,7 +41823,6 @@
    },
    "supported_parameters": [
     "include_reasoning",
-    "max_completion_tokens",
     "max_tokens",
     "reasoning",
     "reasoning_effort",
@@ -41444,9 +42122,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002057",
-    "input_cache_read": "0.000000107525",
-    "prompt": "0.0000006545"
+    "completion": "0.0000020548",
+    "input_cache_read": "0.00000012142",
+    "prompt": "0.0000006538"
    },
    "reasoning": {
     "default_effort": "max",
@@ -41485,12 +42163,12 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    }
   }
  ],
  "links": {
   "next": null
  },
- "total_count": 444
+ "total_count": 452
 }

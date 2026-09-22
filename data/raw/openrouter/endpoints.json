@@ -16,7 +16,7 @@
    "description": "Aion-2.0 is a variant of DeepSeek V3.2 optimized for immersive roleplaying and storytelling. It is particularly strong at introducing tension, crises, and conflict into stories, making narratives feel more engaging....",
    "endpoints": [
     {
-     "context_length": 131072,
+     "context_length": 1048576,
      "max_completion_tokens": 32768,
      "max_prompt_tokens": null,
      "model_id": "aion-labs/aion-2.0",
@@ -70,7 +70,7 @@
    "description": "Aion-3.0 is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models. It uses a collaborative generation process in which multiple specialized models each contribute...",
    "endpoints": [
     {
-     "context_length": 131072,
+     "context_length": 1048576,
      "max_completion_tokens": 32768,
      "max_prompt_tokens": null,
      "model_id": "aion-labs/aion-3.0",
@@ -124,7 +124,7 @@
    "description": "Aion-3.0 Mini is a multi-model roleplaying and storytelling system from AionLabs, built on the DeepSeek family of models. It uses a collaborative generation process in which multiple specialized models each...",
    "endpoints": [
     {
-     "context_length": 131072,
+     "context_length": 1048576,
      "max_completion_tokens": 32768,
      "max_prompt_tokens": null,
      "model_id": "aion-labs/aion-3.0-mini",
@@ -3342,6 +3342,463 @@
    ],
    "id": "anthropic/claude-opus-5",
    "name": "Anthropic: Claude Opus 5"
+  },
+  "anthropic/claude-opus-5.5": {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Claude"
+   },
+   "created": 1790094732,
+   "description": "Claude Opus 5.5 is Anthropic's flagship model for demanding reasoning, coding, and long-horizon agentic work, succeeding Claude Opus 5. It is particularly strong at multi-step changes in large codebases, code...",
+   "endpoints": [
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "anthropic/claude-opus-5.5",
+     "model_name": "Anthropic: Claude Opus 5.5",
+     "name": "Amazon Bedrock | anthropic/claude-opus-5.5-20260921",
+     "pricing": {
+      "completion": "0.00002",
+      "discount": 0,
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.000005",
+      "input_cache_write_1h": "0.000008",
+      "prompt": "0.000004",
+      "web_search": "0.01"
+     },
+     "provider_name": "Amazon Bedrock",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "amazon-bedrock"
+    },
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "anthropic/claude-opus-5.5",
+     "model_name": "Anthropic: Claude Opus 5.5",
+     "name": "Amazon Bedrock | anthropic/claude-opus-5.5-20260921",
+     "pricing": {
+      "completion": "0.000022",
+      "discount": 0,
+      "input_cache_read": "0.00000022",
+      "input_cache_write": "0.0000055",
+      "input_cache_write_1h": "0.0000088",
+      "prompt": "0.0000044",
+      "web_search": "0.01"
+     },
+     "provider_name": "Amazon Bedrock",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "amazon-bedrock/eu-west-1"
+    },
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "anthropic/claude-opus-5.5",
+     "model_name": "Anthropic: Claude Opus 5.5",
+     "name": "Amazon Bedrock | anthropic/claude-opus-5.5-20260921",
+     "pricing": {
+      "completion": "0.000022",
+      "discount": 0,
+      "input_cache_read": "0.00000022",
+      "input_cache_write": "0.0000055",
+      "input_cache_write_1h": "0.0000088",
+      "prompt": "0.0000044",
+      "web_search": "0.01"
+     },
+     "provider_name": "Amazon Bedrock",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "amazon-bedrock/us-east-1"
+    },
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "anthropic/claude-opus-5.5",
+     "model_name": "Anthropic: Claude Opus 5.5",
+     "name": "Anthropic | anthropic/claude-opus-5.5-20260921",
+     "pricing": {
+      "completion": "0.00002",
+      "discount": 0,
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.000005",
+      "input_cache_write_1h": "0.000008",
+      "prompt": "0.000004",
+      "web_search": "0.01"
+     },
+     "provider_name": "Anthropic",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "anthropic"
+    },
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "anthropic/claude-opus-5.5",
+     "model_name": "Anthropic: Claude Opus 5.5",
+     "name": "Anthropic | anthropic/claude-opus-5.5-20260921",
+     "pricing": {
+      "completion": "0.00004",
+      "discount": 0,
+      "input_cache_read": "0.0000004",
+      "input_cache_write": "0.00001",
+      "input_cache_write_1h": "0.000016",
+      "prompt": "0.000008",
+      "web_search": "0.01"
+     },
+     "provider_name": "Anthropic",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "anthropic/fast"
+    },
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "anthropic/claude-opus-5.5",
+     "model_name": "Anthropic: Claude Opus 5.5",
+     "name": "Azure | anthropic/claude-opus-5.5-20260921",
+     "pricing": {
+      "completion": "0.00002",
+      "discount": 0,
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.000005",
+      "input_cache_write_1h": "0.000008",
+      "prompt": "0.000004",
+      "web_search": "0.01"
+     },
+     "provider_name": "Azure",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "azure/global"
+    },
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "anthropic/claude-opus-5.5",
+     "model_name": "Anthropic: Claude Opus 5.5",
+     "name": "Azure | anthropic/claude-opus-5.5-20260921",
+     "pricing": {
+      "completion": "0.000022",
+      "discount": 0,
+      "input_cache_read": "0.00000022",
+      "input_cache_write": "0.0000055",
+      "input_cache_write_1h": "0.0000088",
+      "prompt": "0.0000044",
+      "web_search": "0.01"
+     },
+     "provider_name": "Azure",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "azure/us"
+    },
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "anthropic/claude-opus-5.5",
+     "model_name": "Anthropic: Claude Opus 5.5",
+     "name": "Claude Platform on AWS | anthropic/claude-opus-5.5-20260921",
+     "pricing": {
+      "completion": "0.00002",
+      "discount": 0,
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.000005",
+      "input_cache_write_1h": "0.000008",
+      "prompt": "0.000004",
+      "web_search": "0.01"
+     },
+     "provider_name": "Claude Platform on AWS",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "claude-on-aws"
+    },
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "anthropic/claude-opus-5.5",
+     "model_name": "Anthropic: Claude Opus 5.5",
+     "name": "Google | anthropic/claude-opus-5.5-20260921",
+     "pricing": {
+      "completion": "0.00002",
+      "discount": 0,
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.000005",
+      "input_cache_write_1h": "0.000008",
+      "prompt": "0.000004",
+      "web_search": "0.01"
+     },
+     "provider_name": "Google",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "google-vertex/global"
+    },
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "anthropic/claude-opus-5.5",
+     "model_name": "Anthropic: Claude Opus 5.5",
+     "name": "Google | anthropic/claude-opus-5.5-20260921",
+     "pricing": {
+      "completion": "0.000022",
+      "discount": 0,
+      "input_cache_read": "0.00000022",
+      "input_cache_write": "0.0000055",
+      "input_cache_write_1h": "0.0000088",
+      "prompt": "0.0000044",
+      "web_search": "0.01"
+     },
+     "provider_name": "Google",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "google-vertex/us"
+    },
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "anthropic/claude-opus-5.5",
+     "model_name": "Anthropic: Claude Opus 5.5",
+     "name": "Google | anthropic/claude-opus-5.5-20260921",
+     "pricing": {
+      "completion": "0.000022",
+      "discount": 0,
+      "input_cache_read": "0.00000022",
+      "input_cache_write": "0.0000055",
+      "input_cache_write_1h": "0.0000088",
+      "prompt": "0.0000044",
+      "web_search": "0.01"
+     },
+     "provider_name": "Google",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "google-vertex/europe"
+    }
+   ],
+   "id": "anthropic/claude-opus-5.5",
+   "name": "Anthropic: Claude Opus 5.5"
   },
   "anthropic/claude-sonnet-4": {
    "architecture": {
@@ -7415,10 +7872,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "Baidu | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.00000028",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000014"
+      "completion": "0.0000000798",
+      "discount": 0.715,
+      "input_cache_read": "0.00000000798",
+      "prompt": "0.0000000399"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -7834,10 +8291,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.000000177212",
-      "discount": 0.3671,
-      "input_cache_read": "0.0000000177212",
-      "prompt": "0.000000088606"
+      "completion": "0.000000098",
+      "discount": 0.65,
+      "input_cache_read": "0.0000000098",
+      "prompt": "0.000000049"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -7934,9 +8391,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.000001056",
+      "completion": "0.000000528",
       "discount": 0,
-      "input_cache_read": "0.0000000352",
+      "input_cache_read": "0.0000000176",
       "overrides": [
        {
         "completion": "0.000000528",
@@ -7953,7 +8410,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000352"
+      "prompt": "0.000000176"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -8408,10 +8865,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Inceptron | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.0000003",
+      "completion": "0.0000005",
       "discount": 0,
-      "input_cache_read": "0.00000004",
-      "prompt": "0.00000006"
+      "input_cache_read": "0.00000005",
+      "prompt": "0.00000012"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -9564,10 +10021,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.00000338",
-      "discount": 0,
-      "input_cache_read": "0.00000014",
-      "prompt": "0.00000169"
+      "completion": "0.00000181168",
+      "discount": 0.464,
+      "input_cache_read": "0.00000007504",
+      "prompt": "0.00000090584"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10019,10 +10476,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.00000191052",
-      "discount": 0.451,
-      "input_cache_read": "0.000000079605",
-      "prompt": "0.00000095526"
+      "completion": "0.000001808208",
+      "discount": 0.4804,
+      "input_cache_read": "0.000000075342",
+      "prompt": "0.000000904104"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -10119,9 +10576,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.000003366",
+      "completion": "0.0000017424",
       "discount": 0,
-      "input_cache_read": "0.0000001122",
+      "input_cache_read": "0.00000005808",
       "overrides": [
        {
         "completion": "0.0000017424",
@@ -10138,7 +10595,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000001122"
+      "prompt": "0.0000005808"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -10222,10 +10679,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "Baidu | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000396",
-      "discount": 0,
-      "input_cache_read": "0.000000042",
-      "prompt": "0.00000132"
+      "completion": "0.00000163152",
+      "discount": 0.588,
+      "input_cache_read": "0.000000017304",
+      "prompt": "0.00000054384"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10723,7 +11180,7 @@
      "pricing": {
       "completion": "0.00000288",
       "discount": 0.2,
-      "input_cache_read": "0.000000088",
+      "input_cache_read": "0.000000044",
       "prompt": "0.000000624"
      },
      "provider_name": "Ionstream",
@@ -11062,10 +11519,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.000002006136",
-      "discount": 0.4934,
-      "input_cache_read": "0.0000000222904",
-      "prompt": "0.000000668712"
+      "completion": "0.00000163548",
+      "discount": 0.587,
+      "input_cache_read": "0.000000018172",
+      "prompt": "0.00000054516"
      },
      "provider_name": "StreamLake",
      "quantization": "unknown",
@@ -11189,7 +11646,7 @@
       "completion": "0.0000029",
       "discount": 0,
       "input_cache_read": "0.00000016",
-      "prompt": "0.00000067"
+      "prompt": "0.00000062"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -11253,9 +11710,9 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.00000003",
+      "input_cache_read": "0.000000015",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -11272,7 +11729,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000003"
+      "prompt": "0.00000015"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -12153,10 +12610,10 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "StreamLake | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.00000087876",
-      "discount": 0.2677,
-      "input_cache_read": "0.0000000043938",
-      "prompt": "0.00000021969"
+      "completion": "0.0000006",
+      "discount": 0.5,
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000015"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -17598,6 +18055,48 @@
      "tag": "cloudflare"
     },
     {
+     "context_length": 262144,
+     "max_completion_tokens": 235929,
+     "max_prompt_tokens": null,
+     "model_id": "google/gemma-4-26b-a4b-it",
+     "model_name": "Google: Gemma 4 26B A4B ",
+     "name": "CoreWeave | google/gemma-4-26b-a4b-it-20260403",
+     "pricing": {
+      "completion": "0.0000003",
+      "discount": 0,
+      "input_cache_read": "0.00000005",
+      "prompt": "0.0000001"
+     },
+     "provider_name": "CoreWeave",
+     "quantization": "bf16",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "coreweave/bf16"
+    },
+    {
      "context_length": 131072,
      "max_completion_tokens": 32768,
      "max_prompt_tokens": null,
@@ -18535,48 +19034,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "siliconflow/fp8"
-    },
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 235929,
-     "max_prompt_tokens": null,
-     "model_id": "google/gemma-4-31b-it",
-     "model_name": "Google: Gemma 4 31B",
-     "name": "Together | google/gemma-4-31b-it-20260402",
-     "pricing": {
-      "completion": "0.00000097",
-      "discount": 0,
-      "prompt": "0.00000039"
-     },
-     "provider_name": "Together",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "response_format",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": false,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "together"
     },
     {
      "context_length": 256000,
@@ -24525,47 +24982,6 @@
      "tag": "dekallm/fp8"
     },
     {
-     "context_length": 128000,
-     "max_completion_tokens": 102400,
-     "max_prompt_tokens": null,
-     "model_id": "mistralai/mistral-nemo",
-     "model_name": "Mistral: Mistral Nemo",
-     "name": "Io Net | mistralai/mistral-nemo",
-     "pricing": {
-      "completion": "0.0000001472",
-      "discount": 0.08,
-      "input_cache_read": "0.00000002668",
-      "prompt": "0.00000004048"
-     },
-     "provider_name": "Io Net",
-     "quantization": "fp16",
-     "supported_parameters": [
-      "frequency_penalty",
-      "logprobs",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": false,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "io-net/fp16"
-    },
-    {
      "context_length": 60288,
      "max_completion_tokens": 16000,
      "max_prompt_tokens": null,
@@ -25963,10 +26379,10 @@
      "model_name": "MoonshotAI: Kimi K2.6",
      "name": "Baidu | moonshotai/kimi-k2.6-20260420",
      "pricing": {
-      "completion": "0.000004",
-      "discount": 0,
-      "input_cache_read": "0.00000016",
-      "prompt": "0.00000095"
+      "completion": "0.000001816",
+      "discount": 0.546,
+      "input_cache_read": "0.00000007264",
+      "prompt": "0.0000004313"
      },
      "provider_name": "Baidu",
      "quantization": "fp4",
@@ -26463,10 +26879,10 @@
      "model_name": "MoonshotAI: Kimi K2.6",
      "name": "Inceptron | moonshotai/kimi-k2.6-20260420",
      "pricing": {
-      "completion": "0.00000297",
+      "completion": "0.0000023797",
       "discount": 0,
-      "input_cache_read": "0.0000001284",
-      "prompt": "0.0000004972"
+      "input_cache_read": "0.0000001174",
+      "prompt": "0.0000004321"
      },
      "provider_name": "Inceptron",
      "quantization": "int4",
@@ -27983,10 +28399,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Morph | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.0000119",
-      "discount": 0.15,
-      "input_cache_read": "0.0000002465",
-      "prompt": "0.000002125"
+      "completion": "0.0000133",
+      "discount": 0.05,
+      "input_cache_read": "0.0000002755",
+      "prompt": "0.000002375"
      },
      "provider_name": "Morph",
      "quantization": "unknown",
@@ -28123,10 +28539,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Phala | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.00001035",
-      "discount": 0.31,
-      "input_cache_read": "0.000000207",
-      "prompt": "0.00000207"
+      "completion": "0.0000105",
+      "discount": 0.3,
+      "input_cache_read": "0.00000021",
+      "prompt": "0.0000021"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -28300,7 +28716,7 @@
       "completion": "0.00001095",
       "discount": 0,
       "input_cache_read": "0.00000021",
-      "prompt": "0.0000024"
+      "prompt": "0.0000021"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -36041,6 +36457,742 @@
    "id": "openai/gpt-6-astra-pro",
    "name": "OpenAI: GPT-6 Astra Pro"
   },
+  "openai/gpt-6-luna": {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "created": 1790100786,
+   "description": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive workloads such as chat, classification, and lightweight agentic...",
+   "endpoints": [
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-luna",
+     "model_name": "OpenAI: GPT-6 Luna",
+     "name": "Amazon Bedrock | openai/gpt-6-luna-20260922",
+     "pricing": {
+      "completion": "0.00000055",
+      "discount": 0,
+      "input_cache_read": "0.000000011",
+      "input_cache_write": "0.0000001375",
+      "overrides": [
+       {
+        "completion": "0.000000825",
+        "input_cache_read": "0.000000022",
+        "input_cache_write": "0.000000275",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.00000022"
+       }
+      ],
+      "prompt": "0.00000011",
+      "web_search": "0.01"
+     },
+     "provider_name": "Amazon Bedrock",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": true,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "amazon-bedrock/us-east-1"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-luna",
+     "model_name": "OpenAI: GPT-6 Luna",
+     "name": "OpenAI | openai/gpt-6-luna-20260922",
+     "pricing": {
+      "completion": "0.00000025",
+      "discount": 0,
+      "input_cache_read": "0.000000005",
+      "input_cache_write": "0.0000000625",
+      "overrides": [
+       {
+        "completion": "0.000000375",
+        "input_cache_read": "0.00000001",
+        "input_cache_write": "0.000000125",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.0000001"
+       }
+      ],
+      "prompt": "0.00000005",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai/flex"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-luna",
+     "model_name": "OpenAI: GPT-6 Luna",
+     "name": "OpenAI | openai/gpt-6-luna-20260922",
+     "pricing": {
+      "completion": "0.0000005",
+      "discount": 0,
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.000000125",
+      "overrides": [
+       {
+        "completion": "0.00000075",
+        "input_cache_read": "0.00000002",
+        "input_cache_write": "0.00000025",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.0000002"
+       }
+      ],
+      "prompt": "0.0000001",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-luna",
+     "model_name": "OpenAI: GPT-6 Luna",
+     "name": "OpenAI | openai/gpt-6-luna-20260922",
+     "pricing": {
+      "completion": "0.000001",
+      "discount": 0,
+      "input_cache_read": "0.00000002",
+      "input_cache_write": "0.00000025",
+      "overrides": [
+       {
+        "completion": "0.0000015",
+        "input_cache_read": "0.00000004",
+        "input_cache_write": "0.0000005",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.0000004"
+       }
+      ],
+      "prompt": "0.0000002",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai/fast"
+    }
+   ],
+   "id": "openai/gpt-6-luna",
+   "name": "OpenAI: GPT-6 Luna"
+  },
+  "openai/gpt-6-luna-pro": {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "created": 1790100791,
+   "description": "GPT-6 Luna Pro is the same underlying model as [GPT-6 Luna](https://openrouter.ai/openai/gpt-6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+   "endpoints": [
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-luna-pro",
+     "model_name": "OpenAI: GPT-6 Luna Pro",
+     "name": "OpenAI | openai/gpt-6-luna-pro-20260922",
+     "pricing": {
+      "completion": "0.00000025",
+      "discount": 0,
+      "input_cache_read": "0.000000005",
+      "input_cache_write": "0.0000000625",
+      "overrides": [
+       {
+        "completion": "0.000000375",
+        "input_cache_read": "0.00000001",
+        "input_cache_write": "0.000000125",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.0000001"
+       }
+      ],
+      "prompt": "0.00000005",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai/flex"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-luna-pro",
+     "model_name": "OpenAI: GPT-6 Luna Pro",
+     "name": "OpenAI | openai/gpt-6-luna-pro-20260922",
+     "pricing": {
+      "completion": "0.0000005",
+      "discount": 0,
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.000000125",
+      "overrides": [
+       {
+        "completion": "0.00000075",
+        "input_cache_read": "0.00000002",
+        "input_cache_write": "0.00000025",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.0000002"
+       }
+      ],
+      "prompt": "0.0000001",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-luna-pro",
+     "model_name": "OpenAI: GPT-6 Luna Pro",
+     "name": "OpenAI | openai/gpt-6-luna-pro-20260922",
+     "pricing": {
+      "completion": "0.000001",
+      "discount": 0,
+      "input_cache_read": "0.00000002",
+      "input_cache_write": "0.00000025",
+      "overrides": [
+       {
+        "completion": "0.0000015",
+        "input_cache_read": "0.00000004",
+        "input_cache_write": "0.0000005",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.0000004"
+       }
+      ],
+      "prompt": "0.0000002",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai/fast"
+    }
+   ],
+   "id": "openai/gpt-6-luna-pro",
+   "name": "OpenAI: GPT-6 Luna Pro"
+  },
+  "openai/gpt-6-sol": {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "created": 1790100775,
+   "description": "GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier. It is suited for demanding professional...",
+   "endpoints": [
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-sol",
+     "model_name": "OpenAI: GPT-6 Sol",
+     "name": "Amazon Bedrock | openai/gpt-6-sol-20260922",
+     "pricing": {
+      "completion": "0.000011",
+      "discount": 0,
+      "input_cache_read": "0.00000022",
+      "input_cache_write": "0.00000275",
+      "overrides": [
+       {
+        "completion": "0.0000165",
+        "input_cache_read": "0.00000044",
+        "input_cache_write": "0.0000055",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.0000044"
+       }
+      ],
+      "prompt": "0.0000022",
+      "web_search": "0.01"
+     },
+     "provider_name": "Amazon Bedrock",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": true,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "amazon-bedrock/us-east-1"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-sol",
+     "model_name": "OpenAI: GPT-6 Sol",
+     "name": "OpenAI | openai/gpt-6-sol-20260922",
+     "pricing": {
+      "completion": "0.000005",
+      "discount": 0,
+      "input_cache_read": "0.0000001",
+      "input_cache_write": "0.00000125",
+      "overrides": [
+       {
+        "completion": "0.0000075",
+        "input_cache_read": "0.0000002",
+        "input_cache_write": "0.0000025",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000002"
+       }
+      ],
+      "prompt": "0.000001",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai/flex"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-sol",
+     "model_name": "OpenAI: GPT-6 Sol",
+     "name": "OpenAI | openai/gpt-6-sol-20260922",
+     "pricing": {
+      "completion": "0.00001",
+      "discount": 0,
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.0000025",
+      "overrides": [
+       {
+        "completion": "0.000015",
+        "input_cache_read": "0.0000004",
+        "input_cache_write": "0.000005",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000004"
+       }
+      ],
+      "prompt": "0.000002",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-sol",
+     "model_name": "OpenAI: GPT-6 Sol",
+     "name": "OpenAI | openai/gpt-6-sol-20260922",
+     "pricing": {
+      "completion": "0.00002",
+      "discount": 0,
+      "input_cache_read": "0.0000004",
+      "input_cache_write": "0.000005",
+      "overrides": [
+       {
+        "completion": "0.00003",
+        "input_cache_read": "0.0000008",
+        "input_cache_write": "0.00001",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000008"
+       }
+      ],
+      "prompt": "0.000004",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai/fast"
+    }
+   ],
+   "id": "openai/gpt-6-sol",
+   "name": "OpenAI: GPT-6 Sol"
+  },
+  "openai/gpt-6-sol-pro": {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "created": 1790100781,
+   "description": "GPT-6 Sol Pro is the same underlying model as [GPT-6 Sol](https://openrouter.ai/openai/gpt-6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+   "endpoints": [
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-sol-pro",
+     "model_name": "OpenAI: GPT-6 Sol Pro",
+     "name": "OpenAI | openai/gpt-6-sol-pro-20260922",
+     "pricing": {
+      "completion": "0.000005",
+      "discount": 0,
+      "input_cache_read": "0.0000001",
+      "input_cache_write": "0.00000125",
+      "overrides": [
+       {
+        "completion": "0.0000075",
+        "input_cache_read": "0.0000002",
+        "input_cache_write": "0.0000025",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000002"
+       }
+      ],
+      "prompt": "0.000001",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai/flex"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-sol-pro",
+     "model_name": "OpenAI: GPT-6 Sol Pro",
+     "name": "OpenAI | openai/gpt-6-sol-pro-20260922",
+     "pricing": {
+      "completion": "0.00001",
+      "discount": 0,
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.0000025",
+      "overrides": [
+       {
+        "completion": "0.000015",
+        "input_cache_read": "0.0000004",
+        "input_cache_write": "0.000005",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000004"
+       }
+      ],
+      "prompt": "0.000002",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-sol-pro",
+     "model_name": "OpenAI: GPT-6 Sol Pro",
+     "name": "OpenAI | openai/gpt-6-sol-pro-20260922",
+     "pricing": {
+      "completion": "0.00002",
+      "discount": 0,
+      "input_cache_read": "0.0000004",
+      "input_cache_write": "0.000005",
+      "overrides": [
+       {
+        "completion": "0.00003",
+        "input_cache_read": "0.0000008",
+        "input_cache_write": "0.00001",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000008"
+       }
+      ],
+      "prompt": "0.000004",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai/fast"
+    }
+   ],
+   "id": "openai/gpt-6-sol-pro",
+   "name": "OpenAI: GPT-6 Sol Pro"
+  },
   "openai/gpt-audio": {
    "architecture": {
     "input_modalities": [
@@ -37739,47 +38891,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "siliconflow/fp8"
-    },
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 117964,
-     "max_prompt_tokens": null,
-     "model_id": "openai/gpt-oss-20b",
-     "model_name": "OpenAI: gpt-oss-20b",
-     "name": "Together | openai/gpt-oss-20b",
-     "pricing": {
-      "completion": "0.0000002",
-      "discount": 0,
-      "prompt": "0.00000005"
-     },
-     "provider_name": "Together",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "top_k",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "together"
     }
    ],
    "id": "openai/gpt-oss-20b",
@@ -44853,49 +45964,6 @@
      "max_prompt_tokens": null,
      "model_id": "qwen/qwen3.6-35b-a3b",
      "model_name": "Qwen: Qwen3.6 35B A3B",
-     "name": "Io Net | qwen/qwen3.6-35b-a3b-20260415",
-     "pricing": {
-      "completion": "0.0000012",
-      "discount": 0,
-      "input_cache_read": "0.00000012",
-      "prompt": "0.00000022"
-     },
-     "provider_name": "Io Net",
-     "quantization": "fp8",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": false,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "io-net/fp8"
-    },
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 235929,
-     "max_prompt_tokens": null,
-     "model_id": "qwen/qwen3.6-35b-a3b",
-     "model_name": "Qwen: Qwen3.6 35B A3B",
      "name": "Parasail | qwen/qwen3.6-35b-a3b-20260415",
      "pricing": {
       "completion": "0.000001",
@@ -46175,52 +47243,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "dekallm"
-    },
-    {
-     "context_length": 65536,
-     "max_completion_tokens": 58982,
-     "max_prompt_tokens": null,
-     "model_id": "qwen/qwen3.8-27b",
-     "model_name": "Qwen: Qwen3.8 27B",
-     "name": "Io Net | qwen/qwen3.8-27b-20260814",
-     "pricing": {
-      "completion": "0.000002212",
-      "discount": 0.21,
-      "input_cache_read": "0.0000001422",
-      "prompt": "0.000000237"
-     },
-     "provider_name": "Io Net",
-     "quantization": "fp8",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": false,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "io-net/fp8"
     },
     {
      "context_length": 262144,
@@ -48097,9 +49119,9 @@
      "model_name": "Tencent: Hy3",
      "name": "Tencent | tencent/hy3-20260706",
      "pricing": {
-      "completion": "0.000000528",
+      "completion": "0.00000033",
       "discount": 0,
-      "input_cache_read": "0.000000033",
+      "input_cache_read": "0.000000020625",
       "overrides": [
        {
         "completion": "0.00000033",
@@ -48116,7 +49138,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000132"
+      "prompt": "0.0000000825"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -48715,50 +49737,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/fp8"
-    },
-    {
-     "context_length": 524288,
-     "max_completion_tokens": 471859,
-     "max_prompt_tokens": null,
-     "model_id": "thinkingmachines/inkling-small",
-     "model_name": "Thinking Machines: Inkling Small",
-     "name": "Together | thinkingmachines/inkling-small-20260730",
-     "pricing": {
-      "completion": "0.0000012",
-      "discount": 0,
-      "input_cache_read": "0.0000001",
-      "prompt": "0.0000005"
-     },
-     "provider_name": "Together",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "logprobs",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "together"
     }
    ],
    "id": "thinkingmachines/inkling-small",
@@ -52891,10 +53869,10 @@
      "model_name": "Z.ai: GLM 5.1",
      "name": "Baidu | z-ai/glm-5.1-20260406",
      "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "completion": "0.0000030316",
+      "discount": 0.311,
+      "input_cache_read": "0.00000017914",
+      "prompt": "0.0000009646"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -53473,51 +54451,6 @@
      "tag": "alibaba/fast"
     },
     {
-     "context_length": 202752,
-     "max_completion_tokens": 182476,
-     "max_prompt_tokens": null,
-     "model_id": "z-ai/glm-5.2",
-     "model_name": "Z.ai: GLM 5.2",
-     "name": "Ambient | z-ai/glm-5.2-20260616",
-     "pricing": {
-      "completion": "0.000002",
-      "discount": 0,
-      "input_cache_read": "0.00000015",
-      "prompt": "0.0000006"
-     },
-     "provider_name": "Ambient",
-     "quantization": "fp8",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "ambient/fp8"
-    },
-    {
      "context_length": 1048576,
      "max_completion_tokens": 131072,
      "max_prompt_tokens": null,
@@ -53569,10 +54502,10 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "Baidu | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "completion": "0.0000017644",
+      "discount": 0.599,
+      "input_cache_read": "0.00000010426",
+      "prompt": "0.0000005614"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -53610,10 +54543,10 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "Baidu | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.00000788",
-      "discount": 0,
-      "input_cache_read": "0.00000056",
-      "prompt": "0.00000225"
+      "completion": "0.00000226944",
+      "discount": 0.712,
+      "input_cache_read": "0.00000016128",
+      "prompt": "0.000000648"
      },
      "provider_name": "Baidu",
      "quantization": "fp4",
@@ -54246,10 +55179,10 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "Inceptron | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.00000324",
+      "completion": "0.0000031759",
       "discount": 0,
-      "input_cache_read": "0.0000001943",
-      "prompt": "0.0000010125"
+      "input_cache_read": "0.0000001929",
+      "prompt": "0.0000010105"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -54459,10 +55392,10 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "StreamLake | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.0000020196",
-      "discount": 0.541,
-      "input_cache_read": "0.00000011934",
-      "prompt": "0.0000006426"
+      "completion": "0.00000201476",
+      "discount": 0.5421,
+      "input_cache_read": "0.000000119054",
+      "prompt": "0.00000064106"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -54492,8 +55425,8 @@
      "tag": "streamlake/fp8"
     },
     {
-     "context_length": 512000,
-     "max_completion_tokens": 460800,
+     "context_length": 1048575,
+     "max_completion_tokens": 943717,
      "max_prompt_tokens": null,
      "model_id": "z-ai/glm-5.2",
      "model_name": "Z.ai: GLM 5.2",
@@ -54820,10 +55753,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Baidu | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "completion": "0.0000020548",
+      "discount": 0.533,
+      "input_cache_read": "0.00000012142",
+      "prompt": "0.0000006538"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -55363,10 +56296,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Inceptron | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.0000032912",
+      "completion": "0.0000032889",
       "discount": 0,
-      "input_cache_read": "0.0000002258",
-      "prompt": "0.0000010145"
+      "input_cache_read": "0.0000002453",
+      "prompt": "0.0000010138"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -55445,16 +56378,16 @@
     },
     {
      "context_length": 262124,
-     "max_completion_tokens": 32768,
+     "max_completion_tokens": 65536,
      "max_prompt_tokens": null,
      "model_id": "z-ai/glm-5.3",
      "model_name": "Z.ai: GLM 5.3",
      "name": "Io Net | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.000002684",
-      "discount": 0.39,
-      "input_cache_read": "0.0000001586",
-      "prompt": "0.000000793"
+      "completion": "0.000002772",
+      "discount": 0.37,
+      "input_cache_read": "0.0000001638",
+      "prompt": "0.000000819"
      },
      "provider_name": "Io Net",
      "quantization": "fp8",
@@ -55625,10 +56558,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Morph | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.000002057",
-      "discount": 0.45,
-      "input_cache_read": "0.000000107525",
-      "prompt": "0.0000006545"
+      "completion": "0.0000026928",
+      "discount": 0.28,
+      "input_cache_read": "0.00000014076",
+      "prompt": "0.0000008568"
      },
      "provider_name": "Morph",
      "quantization": "unknown",
