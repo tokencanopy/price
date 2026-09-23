@@ -169,6 +169,122 @@
     ],
     "tokenizer": "Other"
    },
+   "canonical_slug": "aion-labs/aion-3.5-20260923",
+   "context_length": 262144,
+   "created": 1790170961,
+   "default_parameters": {},
+   "description": "Aion 3.5 is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models. It uses a collaborative generation process in which multiple specialized models each...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "aion-labs/aion-3.5",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/aion-labs/aion-3.5-20260923/endpoints"
+   },
+   "name": "AionLabs: Aion 3.5",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.000006",
+    "input_cache_read": "0.00000075",
+    "prompt": "0.000003"
+   },
+   "reasoning": {
+    "default_effort": "high",
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 262144,
+    "is_moderated": false,
+    "max_completion_tokens": 32768
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "aion-labs/aion-3.5-mini-20260923",
+   "context_length": 262144,
+   "created": 1790170962,
+   "default_parameters": {},
+   "description": "Aion 3.5 Mini is a multi-model roleplaying and storytelling system from AionLabs, built on the GLM family of models. It is the smaller, lower-cost sibling of Aion 3.5 and uses...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "aion-labs/aion-3.5-mini",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/aion-labs/aion-3.5-mini-20260923/endpoints"
+   },
+   "name": "AionLabs: Aion 3.5 Mini",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.0000014",
+    "input_cache_read": "0.00000018",
+    "prompt": "0.0000007"
+   },
+   "reasoning": {
+    "default_effort": "high",
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 262144,
+    "is_moderated": false,
+    "max_completion_tokens": 32768
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
    "canonical_slug": "aion-labs/aion-rp-llama-3.1-8b",
    "context_length": 32768,
    "created": 1738696718,
@@ -6750,9 +6866,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000177212",
-    "input_cache_read": "0.0000000177212",
-    "prompt": "0.000000088606"
+    "completion": "0.00000016492",
+    "input_cache_read": "0.000000016492",
+    "prompt": "0.00000008246"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7117,9 +7233,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605",
-    "prompt": "0.00000095526"
+    "completion": "0.000001896252",
+    "input_cache_read": "0.0000000790105",
+    "prompt": "0.000000948126"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7197,9 +7313,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000001496088",
-    "input_cache_read": "0.0000000166232",
-    "prompt": "0.000000498696"
+    "completion": "0.000001386",
+    "input_cache_read": "0.0000000154",
+    "prompt": "0.000000462"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7275,90 +7391,9 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003",
-    "overrides": [
-     {
-      "completion": "0.0000006",
-      "input_cache_read": "0.000000003",
-      "prompt": "0.00000015",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 0,
-      "utc_start": 1000
-     },
-     {
-      "completion": "0.0000006",
-      "input_cache_read": "0.000000003",
-      "prompt": "0.00000015",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 100,
-      "utc_start": 0
-     },
-     {
-      "completion": "0.0000006",
-      "input_cache_read": "0.000000003",
-      "prompt": "0.00000015",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 600,
-      "utc_start": 400
-     },
-     {
-      "completion": "0.0000006",
-      "input_cache_read": "0.000000003",
-      "prompt": "0.00000015",
-      "utc_days": [
-       "saturday",
-       "sunday"
-      ]
-     },
-     {
-      "completion": "0.0000012",
-      "input_cache_read": "0.000000006",
-      "prompt": "0.0000003",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 1000,
-      "utc_start": 600
-     },
-     {
-      "completion": "0.0000012",
-      "input_cache_read": "0.000000006",
-      "prompt": "0.0000003",
-      "utc_days": [
-       "friday",
-       "monday",
-       "thursday",
-       "tuesday",
-       "wednesday"
-      ],
-      "utc_end": 400,
-      "utc_start": 100
-     }
-    ],
-    "prompt": "0.00000015"
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000001",
+    "prompt": "0.0000001"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7396,7 +7431,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 943718
    }
   },
   {
@@ -12857,7 +12892,7 @@
     "design_arena": []
    },
    "canonical_slug": "inclusionai/ling-3.0-flash-vl-20260910",
-   "context_length": 131072,
+   "context_length": 262144,
    "created": 1789056114,
    "default_parameters": {},
    "description": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual...",
@@ -12883,6 +12918,7 @@
     "frequency_penalty",
     "include_reasoning",
     "logit_bias",
+    "logprobs",
     "max_tokens",
     "min_p",
     "presence_penalty",
@@ -12896,79 +12932,12 @@
     "tool_choice",
     "tools",
     "top_k",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 131072,
-    "is_moderated": false,
-    "max_completion_tokens": 32768
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text",
-     "video"
-    ],
-    "instruct_type": null,
-    "modality": "text+image+video->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": 28.7,
-     "coding_index": 57,
-     "intelligence_index": 24.6
-    },
-    "design_arena": []
-   },
-   "canonical_slug": "inclusionai/ling-3.0-flash-vl-20260910",
-   "context_length": 262144,
-   "created": 1789056114,
-   "default_parameters": {},
-   "description": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual...",
-   "expiration_date": null,
-   "hugging_face_id": "inclusionAI/Ling-3.0-flash-VL",
-   "id": "inclusionai/ling-3.0-flash-vl:free",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/inclusionai/ling-3.0-flash-vl-20260910/endpoints"
-   },
-   "name": "inclusionAI: Ling 3.0 Flash VL (free)",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0",
-    "prompt": "0"
-   },
-   "reasoning": {
-    "default_enabled": true,
-    "mandatory": false
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "logprobs",
-    "max_tokens",
-    "presence_penalty",
-    "reasoning",
-    "repetition_penalty",
-    "seed",
-    "stop",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
     "top_logprobs",
     "top_p"
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 262144,
+    "context_length": 131072,
     "is_moderated": false,
     "max_completion_tokens": 32768
    }
@@ -15735,70 +15704,6 @@
     "context_length": 256000,
     "is_moderated": false,
     "max_completion_tokens": 204800
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "file",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+file->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Mistral"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": 2.3,
-     "coding_index": 31.3,
-     "intelligence_index": 8.6
-    },
-    "design_arena": []
-   },
-   "canonical_slug": "mistralai/devstral-2512",
-   "context_length": 262144,
-   "created": 1765285419,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "temperature": 0.3,
-    "top_p": null
-   },
-   "description": "Devstral 2 is a state-of-the-art open-source model by Mistral AI specializing in agentic coding. It is a 123B-parameter dense transformer model supporting a 256K context window. Devstral 2 supports exploring...",
-   "expiration_date": null,
-   "hugging_face_id": "mistralai/Devstral-2-123B-Instruct-2512",
-   "id": "mistralai/devstral-2512",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/mistralai/devstral-2512/endpoints"
-   },
-   "name": "Mistral: Devstral 2 2512",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.000002",
-    "input_cache_read": "0.00000004",
-    "prompt": "0.0000004"
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "max_tokens",
-    "presence_penalty",
-    "response_format",
-    "seed",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 262144,
-    "is_moderated": false,
-    "max_completion_tokens": 209715
    }
   },
   {
@@ -34926,6 +34831,67 @@
   {
    "architecture": {
     "input_modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+video->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "stealth/space-bunny-alpha",
+   "context_length": 1000000,
+   "created": 1790174884,
+   "default_parameters": {},
+   "description": "Space Bunny Alpha is an anonymous large model with blazing-fast inference, strong coding capabilities and native multimodal input support. It delivers adjustable reasoning effort, and a 1M-token context window. Space...",
+   "expiration_date": "2098-12-31",
+   "hugging_face_id": null,
+   "id": "stealth/space-bunny-alpha",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/stealth/space-bunny-alpha/endpoints"
+   },
+   "name": "Space Bunny Alpha",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0",
+    "prompt": "0"
+   },
+   "reasoning": {
+    "default_effort": "max",
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1000000,
+    "is_moderated": false,
+    "max_completion_tokens": 524288
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
      "text"
     ],
     "instruct_type": null,
@@ -35388,8 +35354,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -35406,7 +35372,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -40561,7 +40527,7 @@
     "top_p": 0.95
    },
    "description": "GLM-5.3-FlashX is the high-speed variant of Z.ai's GLM-5.3-Flash, a native multimodal model delivering inference speeds of up to 200 tokens/s. Built on the same hybrid sparse and linear attention architecture...",
-   "expiration_date": null,
+   "expiration_date": "2098-12-31",
    "hugging_face_id": "",
    "id": "z-ai/glm-5.3-flashx",
    "knowledge_cutoff": null,
@@ -40572,7 +40538,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000125",
-    "input_cache_read": "0.000000075",
+    "input_cache_read": "0.00000009",
     "prompt": "0.00000037"
    },
    "reasoning": {
@@ -40720,9 +40686,9 @@
    "name": "Z.ai: GLM 5.3 (batch)",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000024",
-    "input_cache_read": "0.00000012",
-    "prompt": "0.00000072"
+    "completion": "0.000002",
+    "input_cache_read": "0.0000001",
+    "prompt": "0.00000045"
    },
    "reasoning": {
     "default_effort": "max",
@@ -41369,9 +41335,9 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000043",
-    "input_cache_read": "0.000000033",
-    "prompt": "0.0000004"
+    "completion": "0.00000119988",
+    "input_cache_read": "0.000000012726",
+    "prompt": "0.00000039996"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41408,7 +41374,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -42350,9 +42316,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000025",
-    "input_cache_read": "0.000000125",
-    "prompt": "0.0000005625"
+    "completion": "0.0000017644",
+    "input_cache_read": "0.00000010426",
+    "prompt": "0.0000005614"
    },
    "reasoning": {
     "default_effort": "max",
@@ -42398,5 +42364,5 @@
  "links": {
   "next": null
  },
- "total_count": 455
+ "total_count": 456
 }
