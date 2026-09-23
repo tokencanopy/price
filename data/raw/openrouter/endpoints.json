@@ -8267,10 +8267,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
      "name": "OpenInference | deepseek/deepseek-v4-flash-20260423",
      "pricing": {
-      "completion": "0.0000005",
+      "completion": "0.000001",
       "discount": 0,
-      "input_cache_read": "0.000000014",
-      "prompt": "0.00000004"
+      "input_cache_read": "0.00000003",
+      "prompt": "0.0000001"
      },
      "provider_name": "OpenInference",
      "quantization": "fp8",
@@ -9018,8 +9018,8 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "input_cache_read": "0.00000005",
-      "prompt": "0.00000012"
+      "input_cache_read": "0.00000006",
+      "prompt": "0.0000001"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -9036,6 +9036,7 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -9328,10 +9329,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "OpenInference | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.0000008",
+      "completion": "0.000001",
       "discount": 0,
-      "input_cache_read": "0.000000008",
-      "prompt": "0.00000003"
+      "input_cache_read": "0.00000003",
+      "prompt": "0.0000001"
      },
      "provider_name": "OpenInference",
      "quantization": "fp8",
@@ -9752,9 +9753,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Wafer | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000025",
+      "completion": "0.00000035",
       "discount": 0,
-      "input_cache_read": "0.00000007",
+      "input_cache_read": "0.00000008",
       "prompt": "0.0000001"
      },
      "provider_name": "Wafer",
@@ -11085,9 +11086,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000396",
+      "completion": "0.00000198",
       "discount": 0,
-      "input_cache_read": "0.000000044",
+      "input_cache_read": "0.000000022",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -11169,7 +11170,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000132"
+      "prompt": "0.00000066"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -11329,10 +11330,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "Ionstream | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000288",
-      "discount": 0.2,
-      "input_cache_read": "0.000000044",
-      "prompt": "0.000000624"
+      "completion": "0.000002304",
+      "discount": 0.36,
+      "input_cache_read": "0.0000000352",
+      "prompt": "0.0000004992"
      },
      "provider_name": "Ionstream",
      "quantization": "unknown",
@@ -11370,10 +11371,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "NextBit | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.000003366",
+      "completion": "0.000003168",
       "discount": 0,
-      "input_cache_read": "0.000000037",
-      "prompt": "0.000001122"
+      "input_cache_read": "0.000000035",
+      "prompt": "0.000001056"
      },
      "provider_name": "NextBit",
      "quantization": "fp8",
@@ -11796,8 +11797,8 @@
      "pricing": {
       "completion": "0.0000029",
       "discount": 0,
-      "input_cache_read": "0.0000002",
-      "prompt": "0.00000054"
+      "input_cache_read": "0.00000025",
+      "prompt": "0.0000005"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -12129,9 +12130,9 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "DeepSeek | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000006",
+      "input_cache_read": "0.000000003",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -12213,7 +12214,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.0000003"
+      "prompt": "0.00000015"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -12242,6 +12243,48 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepseek"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "name": "DekaLLM | deepseek/deepseek-v4.1-flash-20260910",
+     "pricing": {
+      "completion": "0.000001",
+      "discount": 0,
+      "input_cache_read": "0.00000001",
+      "prompt": "0.0000001"
+     },
+     "provider_name": "DekaLLM",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "dekallm"
     },
     {
      "context_length": 1048576,
@@ -12727,10 +12770,10 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "Relace | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.00000064",
+      "completion": "0.00000052",
       "discount": 0,
-      "input_cache_read": "0.000000016",
-      "prompt": "0.00000004"
+      "input_cache_read": "0.00000001",
+      "prompt": "0.00000012"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -12851,10 +12894,10 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "StreamLake | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.0000006",
-      "discount": 0.5,
-      "input_cache_read": "0.000000003",
-      "prompt": "0.00000015"
+      "completion": "0.00000079404",
+      "discount": 0.3383,
+      "input_cache_read": "0.0000000039702",
+      "prompt": "0.00000019851"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -12979,8 +13022,8 @@
      "pricing": {
       "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000058",
-      "prompt": "0.000000059"
+      "input_cache_read": "0.00000006",
+      "prompt": "0.000000119"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -18507,8 +18550,8 @@
      "tag": "google-vertex/global"
     },
     {
-     "context_length": 262144,
-     "max_completion_tokens": 235929,
+     "context_length": 256000,
+     "max_completion_tokens": 128000,
      "max_prompt_tokens": null,
      "model_id": "google/gemma-4-26b-a4b-it",
      "model_name": "Google: Gemma 4 26B A4B ",
@@ -19204,8 +19247,8 @@
      "tag": "parasail/fp8"
     },
     {
-     "context_length": 131072,
-     "max_completion_tokens": 117964,
+     "context_length": 262144,
+     "max_completion_tokens": 235929,
      "max_prompt_tokens": null,
      "model_id": "google/gemma-4-31b-it",
      "model_name": "Google: Gemma 4 31B",
@@ -28957,7 +29000,7 @@
       "completion": "0.0000145",
       "discount": 0,
       "input_cache_read": "0.00000021",
-      "prompt": "0.00000249"
+      "prompt": "0.00000199"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -48318,17 +48361,17 @@
      "tag": "phala"
     },
     {
-     "context_length": 262144,
+     "context_length": 1000000,
      "max_completion_tokens": 131072,
      "max_prompt_tokens": null,
      "model_id": "qwen/qwen3.8-27b",
      "model_name": "Qwen: Qwen3.8 27B",
      "name": "Reka | qwen/qwen3.8-27b-20260814",
      "pricing": {
-      "completion": "0.000002275",
-      "discount": 0.09,
-      "input_cache_read": "0.0000000455",
-      "prompt": "0.0000001092"
+      "completion": "0.000002175",
+      "discount": 0.13,
+      "input_cache_read": "0.0000000435",
+      "prompt": "0.0000001044"
      },
      "provider_name": "Reka",
      "quantization": "fp8",
@@ -48409,10 +48452,10 @@
      "model_name": "Qwen: Qwen3.8 27B",
      "name": "Wafer | qwen/qwen3.8-27b-20260814",
      "pricing": {
-      "completion": "0.0000025",
+      "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.00000005",
-      "prompt": "0.00000011"
+      "input_cache_read": "0.00000008",
+      "prompt": "0.000000099"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -50153,6 +50196,48 @@
    "description": "Tencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total. It is designed for coding agents, complex tool-use workflows, and productivity tasks that...",
    "endpoints": [
     {
+     "context_length": 1000000,
+     "max_completion_tokens": 64000,
+     "max_prompt_tokens": null,
+     "model_id": "tencent/hy4-preview",
+     "model_name": "Tencent: Hy4 preview",
+     "name": "Novita | tencent/hy4-preview-20260827",
+     "pricing": {
+      "completion": "0.000002501",
+      "discount": 0,
+      "input_cache_read": "0.000000042",
+      "prompt": "0.000000834"
+     },
+     "provider_name": "Novita",
+     "quantization": "fp8",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "novita/fp8"
+    },
+    {
      "context_length": 1048576,
      "max_completion_tokens": 262144,
      "max_prompt_tokens": null,
@@ -50845,6 +50930,105 @@
    ],
    "id": "undi95/remm-slerp-l2-13b",
    "name": "ReMM SLERP 13B"
+  },
+  "upstage/solar-mini4": {
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "created": 1790160358,
+   "description": "Solar Mini 4 is Upstage's compact, cost-efficient language model, a 35B-parameter mixture-of-experts with 3B active parameters and a 524K context window. It is built for agentic use cases where response...",
+   "endpoints": [
+    {
+     "context_length": 524288,
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "model_id": "upstage/solar-mini4",
+     "model_name": "Upstage: Solar Mini 4",
+     "name": "Upstage | upstage/solar-mini4-20260922",
+     "pricing": {
+      "completion": "0.0000002",
+      "discount": 0.5,
+      "input_cache_read": "0.000000005",
+      "prompt": "0.00000005"
+     },
+     "provider_name": "Upstage",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "parallel_tool_calls",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "upstage/zdr"
+    },
+    {
+     "context_length": 524288,
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "model_id": "upstage/solar-mini4",
+     "model_name": "Upstage: Solar Mini 4",
+     "name": "Upstage | upstage/solar-mini4-20260922",
+     "pricing": {
+      "completion": "0.0000002",
+      "discount": 0.5,
+      "input_cache_read": "0.000000005",
+      "prompt": "0.00000005"
+     },
+     "provider_name": "Upstage",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "parallel_tool_calls",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "upstage"
+    }
+   ],
+   "id": "upstage/solar-mini4",
+   "name": "Upstage: Solar Mini 4"
   },
   "upstage/solar-pro-3": {
    "architecture": {
@@ -56240,6 +56424,7 @@
       "response_format",
       "seed",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -56560,8 +56745,8 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "input_cache_read": "0.0000003",
+      "prompt": "0.00000154"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -57425,10 +57610,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Io Net | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.000002772",
-      "discount": 0.37,
-      "input_cache_read": "0.0000001638",
-      "prompt": "0.000000819"
+      "completion": "0.000002728",
+      "discount": 0.38,
+      "input_cache_read": "0.0000001612",
+      "prompt": "0.000000806"
      },
      "provider_name": "Io Net",
      "quantization": "fp8",
@@ -58076,7 +58261,7 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.0000003",
+      "input_cache_read": "0.00000036",
       "prompt": "0.00000119"
      },
      "provider_name": "Wafer",
@@ -58738,10 +58923,10 @@
      "model_name": "Z.ai: GLM 5.3 Flash",
      "name": "Io Net | z-ai/glm-5.3-flash-20260826",
      "pricing": {
-      "completion": "0.0000005",
-      "discount": 0,
-      "input_cache_read": "0.00000003",
-      "prompt": "0.00000015"
+      "completion": "0.000000485",
+      "discount": 0.03,
+      "input_cache_read": "0.0000000291",
+      "prompt": "0.0000001455"
      },
      "provider_name": "Io Net",
      "quantization": "fp8",
@@ -58913,10 +59098,10 @@
      "model_name": "Z.ai: GLM 5.3 Flash",
      "name": "NextBit | z-ai/glm-5.3-flash-20260826",
      "pricing": {
-      "completion": "0.0000006",
+      "completion": "0.00000055",
       "discount": 0,
-      "input_cache_read": "0.000000036",
-      "prompt": "0.00000018"
+      "input_cache_read": "0.000000033",
+      "prompt": "0.000000165"
      },
      "provider_name": "NextBit",
      "quantization": "fp8",
@@ -59424,7 +59609,7 @@
       "completion": "0.00000035",
       "discount": 0,
       "input_cache_read": "0.00000002",
-      "prompt": "0.0000001"
+      "prompt": "0.000000089"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
