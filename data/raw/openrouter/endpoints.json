@@ -846,6 +846,7 @@
       "reasoning_effort",
       "response_format",
       "stop",
+      "structured_outputs",
       "tool_choice",
       "tools",
       "verbosity"
@@ -1106,6 +1107,7 @@
       "reasoning_effort",
       "response_format",
       "stop",
+      "structured_outputs",
       "tool_choice",
       "tools",
       "verbosity"
@@ -1369,6 +1371,7 @@
       "max_tokens",
       "reasoning",
       "response_format",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -1730,6 +1733,7 @@
       "max_tokens",
       "reasoning",
       "response_format",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -1956,6 +1960,7 @@
       "reasoning_effort",
       "response_format",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -2263,6 +2268,7 @@
       "reasoning",
       "reasoning_effort",
       "response_format",
+      "structured_outputs",
       "tool_choice",
       "tools",
       "verbosity"
@@ -2681,6 +2687,7 @@
       "reasoning_effort",
       "response_format",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -2722,6 +2729,7 @@
       "reasoning_effort",
       "response_format",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -3141,6 +3149,7 @@
       "reasoning_effort",
       "response_format",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -3182,6 +3191,7 @@
       "reasoning_effort",
       "response_format",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -3601,6 +3611,7 @@
       "reasoning_effort",
       "response_format",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -3642,6 +3653,7 @@
       "reasoning_effort",
       "response_format",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -4134,6 +4146,7 @@
       "max_tokens",
       "reasoning",
       "response_format",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -4519,6 +4532,7 @@
       "reasoning_effort",
       "response_format",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -4908,6 +4922,7 @@
       "reasoning_effort",
       "response_format",
       "stop",
+      "structured_outputs",
       "tool_choice",
       "tools",
       "verbosity"
@@ -4948,6 +4963,7 @@
       "reasoning_effort",
       "response_format",
       "stop",
+      "structured_outputs",
       "tool_choice",
       "tools",
       "verbosity"
@@ -9738,7 +9754,7 @@
      "pricing": {
       "completion": "0.00000025",
       "discount": 0,
-      "input_cache_read": "0.00000005",
+      "input_cache_read": "0.00000007",
       "prompt": "0.0000001"
      },
      "provider_name": "Wafer",
@@ -11069,9 +11085,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000198",
+      "completion": "0.00000396",
       "discount": 0,
-      "input_cache_read": "0.000000022",
+      "input_cache_read": "0.000000044",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -11153,7 +11169,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000066"
+      "prompt": "0.00000132"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -11654,10 +11670,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.000001856052",
-      "discount": 0.5313,
-      "input_cache_read": "0.0000000206228",
-      "prompt": "0.000000618684"
+      "completion": "0.000001496088",
+      "discount": 0.6222,
+      "input_cache_read": "0.0000000166232",
+      "prompt": "0.000000498696"
      },
      "provider_name": "StreamLake",
      "quantization": "unknown",
@@ -11781,7 +11797,7 @@
       "completion": "0.0000029",
       "discount": 0,
       "input_cache_read": "0.0000002",
-      "prompt": "0.00000062"
+      "prompt": "0.00000054"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -12113,9 +12129,9 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "DeepSeek | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.0000006",
+      "completion": "0.0000012",
       "discount": 0,
-      "input_cache_read": "0.000000003",
+      "input_cache_read": "0.000000006",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -12197,7 +12213,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000015"
+      "prompt": "0.0000003"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -12352,6 +12368,51 @@
     },
     {
      "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "name": "Krea | deepseek/deepseek-v4.1-flash-20260910",
+     "pricing": {
+      "completion": "0.0000009",
+      "discount": 0,
+      "input_cache_read": "0.000000006",
+      "prompt": "0.000000225"
+     },
+     "provider_name": "Krea",
+     "quantization": "fp8",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": false,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "krea/fp8"
+    },
+    {
+     "context_length": 1048576,
      "max_completion_tokens": 393216,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4.1-flash",
@@ -12443,10 +12504,10 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "Morph | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.00000048",
-      "discount": 0.6,
-      "input_cache_read": "0.0000000036",
-      "prompt": "0.00000012"
+      "completion": "0.00000051",
+      "discount": 0.15,
+      "input_cache_read": "0.00000000255",
+      "prompt": "0.0000001275"
      },
      "provider_name": "Morph",
      "quantization": "unknown",
@@ -12666,10 +12727,10 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "Relace | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.00000056",
+      "completion": "0.00000064",
       "discount": 0,
-      "input_cache_read": "0.00000001",
-      "prompt": "0.00000012"
+      "input_cache_read": "0.000000016",
+      "prompt": "0.00000004"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -12918,8 +12979,8 @@
      "pricing": {
       "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.00000004",
-      "prompt": "0.000000125"
+      "input_cache_read": "0.000000058",
+      "prompt": "0.000000059"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -28415,10 +28476,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "InferenceNet | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.0000075",
-      "discount": 0.5,
-      "input_cache_read": "0.00000015",
-      "prompt": "0.0000015"
+      "completion": "0.00000975",
+      "discount": 0.35,
+      "input_cache_read": "0.000000195",
+      "prompt": "0.00000195"
      },
      "provider_name": "InferenceNet",
      "quantization": "fp4",
@@ -28579,10 +28640,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Morph | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.0000098",
-      "discount": 0.3,
-      "input_cache_read": "0.000000203",
-      "prompt": "0.00000175"
+      "completion": "0.000014",
+      "discount": 0,
+      "input_cache_read": "0.00000029",
+      "prompt": "0.0000025"
      },
      "provider_name": "Morph",
      "quantization": "unknown",
@@ -28719,10 +28780,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Phala | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.00000975",
-      "discount": 0.35,
-      "input_cache_read": "0.000000195",
-      "prompt": "0.00000195"
+      "completion": "0.0000105",
+      "discount": 0.3,
+      "input_cache_read": "0.00000021",
+      "prompt": "0.0000021"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -28765,10 +28826,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Relace | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.0000085",
+      "completion": "0.00000975",
       "discount": 0,
-      "input_cache_read": "0.00000017",
-      "prompt": "0.0000017"
+      "input_cache_read": "0.000000195",
+      "prompt": "0.00000195"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -28805,10 +28866,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Sail Research | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.00001433",
+      "completion": "0.000010758",
       "discount": 0,
       "input_cache_read": "0.0000003",
-      "prompt": "0.00000135"
+      "prompt": "0.0000014989"
      },
      "provider_name": "Sail Research",
      "quantization": "fp4",
@@ -28893,10 +28954,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Wafer | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.00001095",
+      "completion": "0.0000145",
       "discount": 0,
       "input_cache_read": "0.00000021",
-      "prompt": "0.0000021"
+      "prompt": "0.00000249"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -34988,20 +35049,20 @@
      "model_name": "OpenAI: GPT-5.6 Sol",
      "name": "Azure | openai/gpt-5.6-sol-20260709",
      "pricing": {
-      "completion": "0.00003",
+      "completion": "0.00002",
       "discount": 0,
-      "input_cache_read": "0.0000005",
-      "input_cache_write": "0.00000625",
+      "input_cache_read": "0.0000004",
+      "input_cache_write": "0.000005",
       "overrides": [
        {
-        "completion": "0.000045",
-        "input_cache_read": "0.000001",
-        "input_cache_write": "0.0000125",
+        "completion": "0.00003",
+        "input_cache_read": "0.0000008",
+        "input_cache_write": "0.00001",
         "min_prompt_tokens": 272000,
-        "prompt": "0.00001"
+        "prompt": "0.000008"
        }
       ],
-      "prompt": "0.000005",
+      "prompt": "0.000004",
       "web_search": "0.01"
      },
      "provider_name": "Azure",
@@ -35035,20 +35096,20 @@
      "model_name": "OpenAI: GPT-5.6 Sol",
      "name": "Azure | openai/gpt-5.6-sol-20260709",
      "pricing": {
-      "completion": "0.000033",
+      "completion": "0.000022",
       "discount": 0,
-      "input_cache_read": "0.00000055",
-      "input_cache_write": "0.000006875",
+      "input_cache_read": "0.00000044",
+      "input_cache_write": "0.0000055",
       "overrides": [
        {
-        "completion": "0.0000495",
-        "input_cache_read": "0.0000011",
-        "input_cache_write": "0.00001375",
+        "completion": "0.000033",
+        "input_cache_read": "0.00000088",
+        "input_cache_write": "0.000011",
         "min_prompt_tokens": 272000,
-        "prompt": "0.000011"
+        "prompt": "0.0000088"
        }
       ],
-      "prompt": "0.0000055",
+      "prompt": "0.0000044",
       "web_search": "0.01"
      },
      "provider_name": "Azure",
@@ -35082,20 +35143,20 @@
      "model_name": "OpenAI: GPT-5.6 Sol",
      "name": "Azure | openai/gpt-5.6-sol-20260709",
      "pricing": {
-      "completion": "0.000033",
+      "completion": "0.000022",
       "discount": 0,
-      "input_cache_read": "0.00000055",
-      "input_cache_write": "0.000006875",
+      "input_cache_read": "0.00000044",
+      "input_cache_write": "0.0000055",
       "overrides": [
        {
-        "completion": "0.0000495",
-        "input_cache_read": "0.0000011",
-        "input_cache_write": "0.00001375",
+        "completion": "0.000033",
+        "input_cache_read": "0.00000088",
+        "input_cache_write": "0.000011",
         "min_prompt_tokens": 272000,
-        "prompt": "0.000011"
+        "prompt": "0.0000088"
        }
       ],
-      "prompt": "0.0000055",
+      "prompt": "0.0000044",
       "web_search": "0.01"
      },
      "provider_name": "Azure",
@@ -35291,20 +35352,20 @@
      "model_name": "OpenAI: GPT-5.6 Sol Pro",
      "name": "Azure | openai/gpt-5.6-sol-pro-20260709",
      "pricing": {
-      "completion": "0.00003",
+      "completion": "0.00002",
       "discount": 0,
-      "input_cache_read": "0.0000005",
-      "input_cache_write": "0.00000625",
+      "input_cache_read": "0.0000004",
+      "input_cache_write": "0.000005",
       "overrides": [
        {
-        "completion": "0.000045",
-        "input_cache_read": "0.000001",
-        "input_cache_write": "0.0000125",
+        "completion": "0.00003",
+        "input_cache_read": "0.0000008",
+        "input_cache_write": "0.00001",
         "min_prompt_tokens": 272000,
-        "prompt": "0.00001"
+        "prompt": "0.000008"
        }
       ],
-      "prompt": "0.000005",
+      "prompt": "0.000004",
       "web_search": "0.01"
      },
      "provider_name": "Azure",
@@ -35338,20 +35399,20 @@
      "model_name": "OpenAI: GPT-5.6 Sol Pro",
      "name": "Azure | openai/gpt-5.6-sol-pro-20260709",
      "pricing": {
-      "completion": "0.000033",
+      "completion": "0.000022",
       "discount": 0,
-      "input_cache_read": "0.00000055",
-      "input_cache_write": "0.000006875",
+      "input_cache_read": "0.00000044",
+      "input_cache_write": "0.0000055",
       "overrides": [
        {
-        "completion": "0.0000495",
-        "input_cache_read": "0.0000011",
-        "input_cache_write": "0.00001375",
+        "completion": "0.000033",
+        "input_cache_read": "0.00000088",
+        "input_cache_write": "0.000011",
         "min_prompt_tokens": 272000,
-        "prompt": "0.000011"
+        "prompt": "0.0000088"
        }
       ],
-      "prompt": "0.0000055",
+      "prompt": "0.0000044",
       "web_search": "0.01"
      },
      "provider_name": "Azure",
@@ -36748,6 +36809,147 @@
      "max_prompt_tokens": 922000,
      "model_id": "openai/gpt-6-luna",
      "model_name": "OpenAI: GPT-6 Luna",
+     "name": "Azure | openai/gpt-6-luna-20260922",
+     "pricing": {
+      "completion": "0.0000005",
+      "discount": 0,
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.000000125",
+      "overrides": [
+       {
+        "completion": "0.00000075",
+        "input_cache_read": "0.00000002",
+        "input_cache_write": "0.00000025",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.0000002"
+       }
+      ],
+      "prompt": "0.0000001",
+      "web_search": "0.01"
+     },
+     "provider_name": "Azure",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "azure"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "openai/gpt-6-luna",
+     "model_name": "OpenAI: GPT-6 Luna",
+     "name": "Azure | openai/gpt-6-luna-20260922",
+     "pricing": {
+      "completion": "0.00000055",
+      "discount": 0,
+      "input_cache_read": "0.000000011",
+      "input_cache_write": "0.0000001375",
+      "overrides": [
+       {
+        "completion": "0.000000825",
+        "input_cache_read": "0.000000022",
+        "input_cache_write": "0.000000275",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.00000022"
+       }
+      ],
+      "prompt": "0.00000011",
+      "web_search": "0.01"
+     },
+     "provider_name": "Azure",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "azure/us"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "openai/gpt-6-luna",
+     "model_name": "OpenAI: GPT-6 Luna",
+     "name": "Azure | openai/gpt-6-luna-20260922",
+     "pricing": {
+      "completion": "0.00000055",
+      "discount": 0,
+      "input_cache_read": "0.000000011",
+      "input_cache_write": "0.0000001375",
+      "overrides": [
+       {
+        "completion": "0.000000825",
+        "input_cache_read": "0.000000022",
+        "input_cache_write": "0.000000275",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.00000022"
+       }
+      ],
+      "prompt": "0.00000011",
+      "web_search": "0.01"
+     },
+     "provider_name": "Azure",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "azure/eu"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-luna",
+     "model_name": "OpenAI: GPT-6 Luna",
      "name": "OpenAI | openai/gpt-6-luna-20260922",
      "pricing": {
       "completion": "0.00000025",
@@ -36904,6 +37106,147 @@
    "created": 1790100791,
    "description": "GPT-6 Luna Pro is the same underlying model as [GPT-6 Luna](https://openrouter.ai/openai/gpt-6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
    "endpoints": [
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-luna-pro",
+     "model_name": "OpenAI: GPT-6 Luna Pro",
+     "name": "Azure | openai/gpt-6-luna-pro-20260922",
+     "pricing": {
+      "completion": "0.0000005",
+      "discount": 0,
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.000000125",
+      "overrides": [
+       {
+        "completion": "0.00000075",
+        "input_cache_read": "0.00000002",
+        "input_cache_write": "0.00000025",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.0000002"
+       }
+      ],
+      "prompt": "0.0000001",
+      "web_search": "0.01"
+     },
+     "provider_name": "Azure",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "azure"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "openai/gpt-6-luna-pro",
+     "model_name": "OpenAI: GPT-6 Luna Pro",
+     "name": "Azure | openai/gpt-6-luna-pro-20260922",
+     "pricing": {
+      "completion": "0.00000055",
+      "discount": 0,
+      "input_cache_read": "0.000000011",
+      "input_cache_write": "0.0000001375",
+      "overrides": [
+       {
+        "completion": "0.000000825",
+        "input_cache_read": "0.000000022",
+        "input_cache_write": "0.000000275",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.00000022"
+       }
+      ],
+      "prompt": "0.00000011",
+      "web_search": "0.01"
+     },
+     "provider_name": "Azure",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "azure/us"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "openai/gpt-6-luna-pro",
+     "model_name": "OpenAI: GPT-6 Luna Pro",
+     "name": "Azure | openai/gpt-6-luna-pro-20260922",
+     "pricing": {
+      "completion": "0.00000055",
+      "discount": 0,
+      "input_cache_read": "0.000000011",
+      "input_cache_write": "0.0000001375",
+      "overrides": [
+       {
+        "completion": "0.000000825",
+        "input_cache_read": "0.000000022",
+        "input_cache_write": "0.000000275",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.00000022"
+       }
+      ],
+      "prompt": "0.00000011",
+      "web_search": "0.01"
+     },
+     "provider_name": "Azure",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "azure/eu"
+    },
     {
      "context_length": 1050000,
      "max_completion_tokens": 128000,
@@ -37113,25 +37456,119 @@
     {
      "context_length": 1050000,
      "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-sol",
+     "model_name": "OpenAI: GPT-6 Sol",
+     "name": "Azure | openai/gpt-6-sol-20260922",
+     "pricing": {
+      "completion": "0.00001",
+      "discount": 0,
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.0000025",
+      "overrides": [
+       {
+        "completion": "0.000015",
+        "input_cache_read": "0.0000004",
+        "input_cache_write": "0.000005",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000004"
+       }
+      ],
+      "prompt": "0.000002",
+      "web_search": "0.01"
+     },
+     "provider_name": "Azure",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "azure"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
      "max_prompt_tokens": null,
      "model_id": "openai/gpt-6-sol",
      "model_name": "OpenAI: GPT-6 Sol",
      "name": "Azure | openai/gpt-6-sol-20260922",
      "pricing": {
-      "completion": "0.0000165",
+      "completion": "0.000011",
       "discount": 0,
-      "input_cache_read": "0.000000275",
-      "input_cache_write": "0.0000034375",
+      "input_cache_read": "0.00000022",
+      "input_cache_write": "0.00000275",
       "overrides": [
        {
-        "completion": "0.00002475",
-        "input_cache_read": "0.00000055",
-        "input_cache_write": "0.000006875",
+        "completion": "0.0000165",
+        "input_cache_read": "0.00000044",
+        "input_cache_write": "0.0000055",
         "min_prompt_tokens": 272000,
-        "prompt": "0.0000055"
+        "prompt": "0.0000044"
        }
       ],
-      "prompt": "0.00000275",
+      "prompt": "0.0000022",
+      "web_search": "0.01"
+     },
+     "provider_name": "Azure",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "azure/us"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "openai/gpt-6-sol",
+     "model_name": "OpenAI: GPT-6 Sol",
+     "name": "Azure | openai/gpt-6-sol-20260922",
+     "pricing": {
+      "completion": "0.000011",
+      "discount": 0,
+      "input_cache_read": "0.00000022",
+      "input_cache_write": "0.00000275",
+      "overrides": [
+       {
+        "completion": "0.0000165",
+        "input_cache_read": "0.00000044",
+        "input_cache_write": "0.0000055",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.0000044"
+       }
+      ],
+      "prompt": "0.0000022",
       "web_search": "0.01"
      },
      "provider_name": "Azure",
@@ -37319,6 +37756,147 @@
    "created": 1790100781,
    "description": "GPT-6 Sol Pro is the same underlying model as [GPT-6 Sol](https://openrouter.ai/openai/gpt-6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
    "endpoints": [
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6-sol-pro",
+     "model_name": "OpenAI: GPT-6 Sol Pro",
+     "name": "Azure | openai/gpt-6-sol-pro-20260922",
+     "pricing": {
+      "completion": "0.00001",
+      "discount": 0,
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.0000025",
+      "overrides": [
+       {
+        "completion": "0.000015",
+        "input_cache_read": "0.0000004",
+        "input_cache_write": "0.000005",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000004"
+       }
+      ],
+      "prompt": "0.000002",
+      "web_search": "0.01"
+     },
+     "provider_name": "Azure",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "azure"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "openai/gpt-6-sol-pro",
+     "model_name": "OpenAI: GPT-6 Sol Pro",
+     "name": "Azure | openai/gpt-6-sol-pro-20260922",
+     "pricing": {
+      "completion": "0.000011",
+      "discount": 0,
+      "input_cache_read": "0.00000022",
+      "input_cache_write": "0.00000275",
+      "overrides": [
+       {
+        "completion": "0.0000165",
+        "input_cache_read": "0.00000044",
+        "input_cache_write": "0.0000055",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.0000044"
+       }
+      ],
+      "prompt": "0.0000022",
+      "web_search": "0.01"
+     },
+     "provider_name": "Azure",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "azure/us"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "openai/gpt-6-sol-pro",
+     "model_name": "OpenAI: GPT-6 Sol Pro",
+     "name": "Azure | openai/gpt-6-sol-pro-20260922",
+     "pricing": {
+      "completion": "0.000011",
+      "discount": 0,
+      "input_cache_read": "0.00000022",
+      "input_cache_write": "0.00000275",
+      "overrides": [
+       {
+        "completion": "0.0000165",
+        "input_cache_read": "0.00000044",
+        "input_cache_write": "0.0000055",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.0000044"
+       }
+      ],
+      "prompt": "0.0000022",
+      "web_search": "0.01"
+     },
+     "provider_name": "Azure",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "azure/eu"
+    },
     {
      "context_length": 1050000,
      "max_completion_tokens": 128000,
@@ -47482,7 +48060,7 @@
       "completion": "0.0000025",
       "discount": 0,
       "input_cache_read": "0.00000005",
-      "prompt": "0.000000117"
+      "prompt": "0.0000001"
      },
      "provider_name": "DekaLLM",
      "quantization": "unknown",
@@ -47747,10 +48325,10 @@
      "model_name": "Qwen: Qwen3.8 27B",
      "name": "Reka | qwen/qwen3.8-27b-20260814",
      "pricing": {
-      "completion": "0.000002475",
-      "discount": 0.01,
-      "input_cache_read": "0.0000000495",
-      "prompt": "0.0000001188"
+      "completion": "0.000002275",
+      "discount": 0.09,
+      "input_cache_read": "0.0000000455",
+      "prompt": "0.0000001092"
      },
      "provider_name": "Reka",
      "quantization": "fp8",
@@ -49574,6 +50152,45 @@
    "created": 1787897375,
    "description": "Tencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total. It is designed for coding agents, complex tool-use workflows, and productivity tasks that...",
    "endpoints": [
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 262144,
+     "max_prompt_tokens": null,
+     "model_id": "tencent/hy4-preview",
+     "model_name": "Tencent: Hy4 preview",
+     "name": "SiliconFlow | tencent/hy4-preview-20260827",
+     "pricing": {
+      "completion": "0.000002501",
+      "discount": 0,
+      "input_cache_read": "0.000000042",
+      "prompt": "0.000000834"
+     },
+     "provider_name": "SiliconFlow",
+     "quantization": "fp8",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "siliconflow/fp8"
+    },
     {
      "context_length": 1048576,
      "max_completion_tokens": 64000,
@@ -56720,10 +57337,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Inceptron | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.0000037269",
+      "completion": "0.0000039785",
       "discount": 0,
-      "input_cache_read": "0.0000002517",
-      "prompt": "0.0000010284"
+      "input_cache_read": "0.0000002767",
+      "prompt": "0.0000009856"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -56757,7 +57374,7 @@
      "tag": "inceptron/fp4"
     },
     {
-     "context_length": 1000000,
+     "context_length": 1048576,
      "max_completion_tokens": 131072,
      "max_prompt_tokens": null,
      "model_id": "z-ai/glm-5.3",
@@ -56982,10 +57599,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Morph | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.000002244",
-      "discount": 0.4,
-      "input_cache_read": "0.0000001173",
-      "prompt": "0.000000714"
+      "completion": "0.0000027302",
+      "discount": 0.27,
+      "input_cache_read": "0.000000142715",
+      "prompt": "0.0000008687"
      },
      "provider_name": "Morph",
      "quantization": "unknown",
@@ -57152,6 +57769,45 @@
      },
      "supports_voice_cloning": false,
      "tag": "phala"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "model_id": "z-ai/glm-5.3",
+     "model_name": "Z.ai: GLM 5.3",
+     "name": "PrimeIntellect | z-ai/glm-5.3-20260816",
+     "pricing": {
+      "completion": "0.0000044",
+      "discount": 0,
+      "input_cache_read": "0.00000026",
+      "prompt": "0.0000014"
+     },
+     "provider_name": "PrimeIntellect",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "primeintellect"
     },
     {
      "context_length": 262144,
@@ -57420,8 +58076,8 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "input_cache_read": "0.0000003",
+      "prompt": "0.00000119"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -58163,10 +58819,10 @@
      "model_name": "Z.ai: GLM 5.3 Flash",
      "name": "Morph | z-ai/glm-5.3-flash-20260826",
      "pricing": {
-      "completion": "0.00000028",
-      "discount": 0.2,
-      "input_cache_read": "0.000000016",
-      "prompt": "0.00000008"
+      "completion": "0.000000308",
+      "discount": 0.12,
+      "input_cache_read": "0.0000000176",
+      "prompt": "0.000000088"
      },
      "provider_name": "Morph",
      "quantization": "unknown",
@@ -58552,6 +59208,48 @@
      },
      "supports_voice_cloning": false,
      "tag": "relace"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "model_id": "z-ai/glm-5.3-flash",
+     "model_name": "Z.ai: GLM 5.3 Flash",
+     "name": "Sail Research | z-ai/glm-5.3-flash-20260826",
+     "pricing": {
+      "completion": "0.000000475",
+      "discount": 0,
+      "input_cache_read": "0.0000000285",
+      "prompt": "0.0000001425"
+     },
+     "provider_name": "Sail Research",
+     "quantization": "fp8",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "sail-research/us"
     },
     {
      "context_length": 1048576,

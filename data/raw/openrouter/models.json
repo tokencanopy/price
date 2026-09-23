@@ -7197,8 +7197,8 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022",
+    "completion": "0.00000396",
+    "input_cache_read": "0.000000044",
     "overrides": [
      {
       "completion": "0.00000198",
@@ -7280,7 +7280,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000066"
+    "prompt": "0.00000132"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7356,9 +7356,9 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000005",
-    "input_cache_read": "0.00000001",
-    "prompt": "0.0000001"
+    "completion": "0.00000064",
+    "input_cache_read": "0.000000016",
+    "prompt": "0.00000004"
    },
    "reasoning": {
     "default_effort": "high",
@@ -13194,7 +13194,8 @@
     "tool_choice",
     "tools",
     "top_k",
-    "top_logprobs"
+    "top_logprobs",
+    "top_p"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -27094,6 +27095,7 @@
    },
    "supported_parameters": [
     "include_reasoning",
+    "max_completion_tokens",
     "max_tokens",
     "reasoning",
     "reasoning_effort",
@@ -27176,6 +27178,7 @@
    },
    "supported_parameters": [
     "include_reasoning",
+    "max_completion_tokens",
     "max_tokens",
     "reasoning",
     "reasoning_effort",
@@ -27438,6 +27441,7 @@
    },
    "supported_parameters": [
     "include_reasoning",
+    "max_completion_tokens",
     "max_tokens",
     "reasoning",
     "reasoning_effort",
@@ -27520,6 +27524,7 @@
    },
    "supported_parameters": [
     "include_reasoning",
+    "max_completion_tokens",
     "max_tokens",
     "reasoning",
     "reasoning_effort",
@@ -35557,6 +35562,7 @@
     ]
    },
    "supported_parameters": [
+    "frequency_penalty",
     "include_reasoning",
     "max_completion_tokens",
     "max_tokens",
@@ -35567,7 +35573,9 @@
     "structured_outputs",
     "temperature",
     "tool_choice",
-    "tools"
+    "tools",
+    "top_k",
+    "top_p"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -41214,9 +41222,9 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000005",
-    "input_cache_read": "0.00000001",
-    "prompt": "0.0000001"
+    "completion": "0.00000064",
+    "input_cache_read": "0.000000016",
+    "prompt": "0.00000004"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41617,9 +41625,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00001433",
+    "completion": "0.000010758",
     "input_cache_read": "0.0000003",
-    "prompt": "0.00000135"
+    "prompt": "0.0000014989"
    },
    "reasoning": {
     "default_effort": "max",
@@ -41809,6 +41817,7 @@
    },
    "supported_parameters": [
     "include_reasoning",
+    "max_completion_tokens",
     "max_tokens",
     "reasoning",
     "reasoning_effort",
@@ -41971,6 +41980,7 @@
    },
    "supported_parameters": [
     "include_reasoning",
+    "max_completion_tokens",
     "max_tokens",
     "reasoning",
     "reasoning_effort",
