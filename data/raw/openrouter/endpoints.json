@@ -9127,10 +9127,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Inceptron | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.0000006128",
+      "completion": "0.0000004138",
       "discount": 0,
       "input_cache_read": "0.00000006",
-      "prompt": "0.0000000908"
+      "prompt": "0.0000000828"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -9615,10 +9615,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Relace | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000064",
+      "completion": "0.00000032",
       "discount": 0,
       "input_cache_read": "0.000000016",
-      "prompt": "0.00000004"
+      "prompt": "0.00000003"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -9866,7 +9866,7 @@
      "pricing": {
       "completion": "0.00000035",
       "discount": 0,
-      "input_cache_read": "0.00000007",
+      "input_cache_read": "0.00000002",
       "prompt": "0.00000008"
      },
      "provider_name": "Wafer",
@@ -11197,9 +11197,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000198",
+      "completion": "0.00000396",
       "discount": 0,
-      "input_cache_read": "0.000000022",
+      "input_cache_read": "0.000000044",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -11281,7 +11281,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000066"
+      "prompt": "0.00000132"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -11910,7 +11910,7 @@
       "completion": "0.0000029",
       "discount": 0,
       "input_cache_read": "0.00000025",
-      "prompt": "0.0000003865"
+      "prompt": "0.00000039"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -12242,9 +12242,9 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "DeepSeek | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.0000006",
+      "completion": "0.0000012",
       "discount": 0,
-      "input_cache_read": "0.000000003",
+      "input_cache_read": "0.000000006",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -12326,7 +12326,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000015"
+      "prompt": "0.0000003"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -12367,7 +12367,7 @@
       "completion": "0.000001",
       "discount": 0,
       "input_cache_read": "0.00000001",
-      "prompt": "0.0000001"
+      "prompt": "0.00000004"
      },
      "provider_name": "DekaLLM",
      "quantization": "unknown",
@@ -12659,10 +12659,10 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "Morph | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.00000051",
-      "discount": 0.15,
-      "input_cache_read": "0.00000000255",
-      "prompt": "0.0000001275"
+      "completion": "0.00000024",
+      "discount": 0.6,
+      "input_cache_read": "0.0000000012",
+      "prompt": "0.00000006"
      },
      "provider_name": "Morph",
      "quantization": "unknown",
@@ -12882,13 +12882,13 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "Relace | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.0000005",
+      "completion": "0.00000025",
       "discount": 0,
-      "input_cache_read": "0.00000001",
-      "prompt": "0.0000001"
+      "input_cache_read": "0.000000005",
+      "prompt": "0.00000005"
      },
      "provider_name": "Relace",
-     "quantization": "fp4",
+     "quantization": "unknown",
      "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
@@ -12914,7 +12914,7 @@
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "relace/fp4"
+     "tag": "relace"
     },
     {
      "context_length": 1048576,
@@ -13134,8 +13134,8 @@
      "pricing": {
       "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.00000006",
-      "prompt": "0.000000099"
+      "input_cache_read": "0.000000006",
+      "prompt": "0.0000002"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -13174,6 +13174,71 @@
    ],
    "id": "deepseek/deepseek-v4.1-flash",
    "name": "DeepSeek: DeepSeek V4.1 Flash"
+  },
+  "fireworks/ember-1": {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "created": 1790208461,
+   "description": "Ember-1 is a specialized reasoning model from Fireworks Research, built on [Kimi K3](https://openrouter.ai/moonshotai/kimi-k3). It is designed to make every token go further: it produces shorter reasoning traces, using roughly 40%...",
+   "endpoints": [
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "fireworks/ember-1",
+     "model_name": "Fireworks: Ember-1",
+     "name": "Fireworks | fireworks/ember-1-20260923",
+     "pricing": {
+      "completion": "0.000015",
+      "discount": 0,
+      "input_cache_read": "0.0000003",
+      "prompt": "0.000003"
+     },
+     "provider_name": "Fireworks",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "fireworks"
+    }
+   ],
+   "id": "fireworks/ember-1",
+   "name": "Fireworks: Ember-1"
   },
   "google/gemini-2.5-flash": {
    "architecture": {
@@ -28539,10 +28604,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "InferenceNet | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.0000069875",
-      "discount": 0.35,
-      "input_cache_read": "0.000000195",
-      "prompt": "0.00000091"
+      "completion": "0.00001075",
+      "discount": 0,
+      "input_cache_read": "0.0000003",
+      "prompt": "0.0000014"
      },
      "provider_name": "InferenceNet",
      "quantization": "fp4",
@@ -28889,10 +28954,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Relace | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.00000975",
+      "completion": "0.0000105",
       "discount": 0,
-      "input_cache_read": "0.000000195",
-      "prompt": "0.00000195"
+      "input_cache_read": "0.00000021",
+      "prompt": "0.0000021"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -28929,7 +28994,7 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Sail Research | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.000010758",
+      "completion": "0.0000115",
       "discount": 0,
       "input_cache_read": "0.0000003",
       "prompt": "0.0000014989"
@@ -29019,7 +29084,7 @@
      "pricing": {
       "completion": "0.0000145",
       "discount": 0,
-      "input_cache_read": "0.00000025",
+      "input_cache_read": "0.000000199",
       "prompt": "0.00000199"
      },
      "provider_name": "Wafer",
@@ -29157,122 +29222,6 @@
    ],
    "id": "morph/morph-v3-large",
    "name": "Morph: Morph V3 Large"
-  },
-  "nex-agi/nex-n2.5-mini": {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "created": 1788890061,
-   "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
-   "endpoints": [
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 235929,
-     "max_prompt_tokens": null,
-     "model_id": "nex-agi/nex-n2.5-mini",
-     "model_name": "Nex AGI: Nex-N2.5-Mini",
-     "name": "Nex AGI | nex-agi/nex-n2.5-mini-20260908",
-     "pricing": {
-      "completion": "0.0000001",
-      "discount": 0,
-      "input_cache_read": "0.0000000025",
-      "prompt": "0.000000025"
-     },
-     "provider_name": "Nex AGI",
-     "quantization": "bf16",
-     "supported_parameters": [
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "reasoning",
-      "reasoning_effort",
-      "structured_outputs",
-      "temperature",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "nex-agi/bf16"
-    }
-   ],
-   "id": "nex-agi/nex-n2.5-mini",
-   "name": "Nex AGI: Nex-N2.5-Mini"
-  },
-  "nex-agi/nex-n2.5-pro": {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "created": 1788890050,
-   "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
-   "endpoints": [
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 235929,
-     "max_prompt_tokens": null,
-     "model_id": "nex-agi/nex-n2.5-pro",
-     "model_name": "Nex AGI: Nex-N2.5-Pro",
-     "name": "Nex AGI | nex-agi/nex-n2.5-pro-20260907",
-     "pricing": {
-      "completion": "0.00000025",
-      "discount": 0,
-      "input_cache_read": "0.000000015",
-      "prompt": "0.000000075"
-     },
-     "provider_name": "Nex AGI",
-     "quantization": "fp8",
-     "supported_parameters": [
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "reasoning",
-      "reasoning_effort",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_implicit_caching": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "nex-agi/fp8"
-    }
-   ],
-   "id": "nex-agi/nex-n2.5-pro",
-   "name": "Nex AGI: Nex-N2.5-Pro"
   },
   "nousresearch/hermes-3-llama-3.1-405b": {
    "architecture": {
@@ -48120,10 +48069,10 @@
      "model_name": "Qwen: Qwen3.8 27B",
      "name": "DekaLLM | qwen/qwen3.8-27b-20260814",
      "pricing": {
-      "completion": "0.0000025",
+      "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.00000005",
-      "prompt": "0.0000001"
+      "input_cache_read": "0.000000087",
+      "prompt": "0.000000096"
      },
      "provider_name": "DekaLLM",
      "quantization": "unknown",
@@ -48381,17 +48330,17 @@
      "tag": "phala"
     },
     {
-     "context_length": 1000000,
+     "context_length": 262144,
      "max_completion_tokens": 131072,
      "max_prompt_tokens": null,
      "model_id": "qwen/qwen3.8-27b",
      "model_name": "Qwen: Qwen3.8 27B",
      "name": "Reka | qwen/qwen3.8-27b-20260814",
      "pricing": {
-      "completion": "0.000002175",
-      "discount": 0.13,
-      "input_cache_read": "0.0000000435",
-      "prompt": "0.0000001044"
+      "completion": "0.0000044",
+      "discount": 0,
+      "input_cache_read": "0.000000089",
+      "prompt": "0.000000098"
      },
      "provider_name": "Reka",
      "quantization": "fp8",
@@ -48474,8 +48423,8 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.000000089",
-      "prompt": "0.000000099"
+      "input_cache_read": "0.000000087",
+      "prompt": "0.000000097"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -49687,7 +49636,7 @@
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "deepinfra"
+     "tag": "deepinfra/us"
     },
     {
      "context_length": 262144,
@@ -49896,6 +49845,45 @@
    "created": 1787231561,
    "description": "Hy-MT2-30B-A3B is Tencent's flagship translation model in the Hy-MT2 family. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glossary-based, and...",
    "endpoints": [
+    {
+     "context_length": 32768,
+     "max_completion_tokens": 8192,
+     "max_prompt_tokens": null,
+     "model_id": "tencent/hy-mt2-30b-a3b",
+     "model_name": "Tencent: Hy-MT2-30B-A3B",
+     "name": "Reka | tencent/hy-mt2-30b-a3b-20260521",
+     "pricing": {
+      "completion": "0.00000028",
+      "discount": 0,
+      "input_cache_read": "0.00000003",
+      "prompt": "0.00000007"
+     },
+     "provider_name": "Reka",
+     "quantization": "bf16",
+     "supported_parameters": [
+      "frequency_penalty",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "reka/bf16"
+    },
     {
      "context_length": 8192,
      "max_completion_tokens": 4096,
@@ -56886,7 +56874,7 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.00000034",
+      "input_cache_read": "0.00000026",
       "prompt": "0.0000014"
      },
      "provider_name": "Wafer",
@@ -57663,10 +57651,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Inceptron | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.0000037298",
+      "completion": "0.0000034192",
       "discount": 0,
-      "input_cache_read": "0.000000257",
-      "prompt": "0.0000008902"
+      "input_cache_read": "0.0000002287",
+      "prompt": "0.0000009067"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -57707,10 +57695,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "InferenceNet | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.000003",
-      "discount": 0,
-      "input_cache_read": "0.00000015",
-      "prompt": "0.0000009"
+      "completion": "0.00000228",
+      "discount": 0.23999999999999988,
+      "input_cache_read": "0.000000114",
+      "prompt": "0.000000684"
      },
      "provider_name": "InferenceNet",
      "quantization": "fp4",
@@ -57751,10 +57739,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Io Net | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.000002684",
-      "discount": 0.39,
-      "input_cache_read": "0.0000001586",
-      "prompt": "0.000000793"
+      "completion": "0.000002596",
+      "discount": 0,
+      "input_cache_read": "0.0000001534",
+      "prompt": "0.000000767"
      },
      "provider_name": "Io Net",
      "quantization": "fp8",
@@ -57803,7 +57791,7 @@
       "prompt": "0.0000014"
      },
      "provider_name": "Mistral",
-     "quantization": "unknown",
+     "quantization": "nvfp4",
      "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
@@ -57830,7 +57818,7 @@
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "mistral"
+     "tag": "mistral/nvfp4"
     },
     {
      "context_length": 1048576,
@@ -57880,10 +57868,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Morph | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.0000027302",
-      "discount": 0.27,
-      "input_cache_read": "0.000000142715",
-      "prompt": "0.0000008687"
+      "completion": "0.0000021692",
+      "discount": 0.42,
+      "input_cache_read": "0.00000011339",
+      "prompt": "0.0000006902"
      },
      "provider_name": "Morph",
      "quantization": "unknown",
@@ -58930,10 +58918,10 @@
      "model_name": "Z.ai: GLM 5.3 Flash",
      "name": "Inceptron | z-ai/glm-5.3-flash-20260826",
      "pricing": {
-      "completion": "0.0000005",
+      "completion": "0.00000028",
       "discount": 0,
       "input_cache_read": "0.00000007",
-      "prompt": "0.00000015"
+      "prompt": "0.00000009"
      },
      "provider_name": "Inceptron",
      "quantization": "fp8",
@@ -58975,10 +58963,10 @@
      "model_name": "Z.ai: GLM 5.3 Flash",
      "name": "InferenceNet | z-ai/glm-5.3-flash-20260826",
      "pricing": {
-      "completion": "0.00000028",
-      "discount": 0,
-      "input_cache_read": "0.00000002",
-      "prompt": "0.00000009"
+      "completion": "0.00000014",
+      "discount": 0.5,
+      "input_cache_read": "0.00000001",
+      "prompt": "0.000000045"
      },
      "provider_name": "InferenceNet",
      "quantization": "fp4",
@@ -59019,10 +59007,10 @@
      "model_name": "Z.ai: GLM 5.3 Flash",
      "name": "Io Net | z-ai/glm-5.3-flash-20260826",
      "pricing": {
-      "completion": "0.000000475",
-      "discount": 0.05,
-      "input_cache_read": "0.0000000285",
-      "prompt": "0.0000001425"
+      "completion": "0.000000378",
+      "discount": 0.1,
+      "input_cache_read": "0.0000000225",
+      "prompt": "0.0000001125"
      },
      "provider_name": "Io Net",
      "quantization": "fp8",
@@ -59457,10 +59445,10 @@
      "model_name": "Z.ai: GLM 5.3 Flash",
      "name": "Relace | z-ai/glm-5.3-flash-20260826",
      "pricing": {
-      "completion": "0.00000036",
+      "completion": "0.00000028",
       "discount": 0,
       "input_cache_read": "0.00000002",
-      "prompt": "0.0000001"
+      "prompt": "0.00000007"
      },
      "provider_name": "Relace",
      "quantization": "unknown",

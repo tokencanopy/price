@@ -7015,9 +7015,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000064",
+    "completion": "0.00000032",
     "input_cache_read": "0.000000016",
-    "prompt": "0.00000004"
+    "prompt": "0.00000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7575,6 +7575,75 @@
     "context_length": 512000,
     "is_moderated": false,
     "max_completion_tokens": 460800
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "fireworks/ember-1-20260923",
+   "context_length": 1048576,
+   "created": 1790208461,
+   "default_parameters": {},
+   "description": "Ember-1 is a specialized reasoning model from Fireworks Research, built on [Kimi K3](https://openrouter.ai/moonshotai/kimi-k3). It is designed to make every token go further: it produces shorter reasoning traces, using roughly 40%...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "fireworks/ember-1",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/fireworks/ember-1-20260923/endpoints"
+   },
+   "name": "Fireworks: Ember-1",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.000015",
+    "input_cache_read": "0.0000003",
+    "prompt": "0.000003"
+   },
+   "reasoning": {
+    "default_effort": "max",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max"
+    ]
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "logit_bias",
+    "logprobs",
+    "max_tokens",
+    "presence_penalty",
+    "reasoning",
+    "reasoning_effort",
+    "repetition_penalty",
+    "response_format",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_logprobs",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1048576,
+    "is_moderated": false,
+    "max_completion_tokens": 943718
    }
   },
   {
@@ -18763,70 +18832,6 @@
     "top_p": 0.95
    },
    "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
-   "expiration_date": null,
-   "hugging_face_id": "nex-agi/Nex-N2.5-mini",
-   "id": "nex-agi/nex-n2.5-mini",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/nex-agi/nex-n2.5-mini-20260908/endpoints"
-   },
-   "name": "Nex AGI: Nex-N2.5-Mini",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.0000001",
-    "input_cache_read": "0.0000000025",
-    "prompt": "0.000000025"
-   },
-   "reasoning": {
-    "default_effort": "high",
-    "mandatory": false,
-    "supported_efforts": [
-     "high",
-     "medium",
-     "none"
-    ]
-   },
-   "supported_parameters": [
-    "include_reasoning",
-    "logprobs",
-    "max_tokens",
-    "reasoning",
-    "reasoning_effort",
-    "structured_outputs",
-    "temperature",
-    "top_k",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 262144,
-    "is_moderated": false,
-    "max_completion_tokens": 235929
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "canonical_slug": "nex-agi/nex-n2.5-mini-20260908",
-   "context_length": 262144,
-   "created": 1788890061,
-   "default_parameters": {
-    "temperature": 0.7,
-    "top_k": 40,
-    "top_p": 0.95
-   },
-   "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
    "expiration_date": "2026-09-25",
    "hugging_face_id": "nex-agi/Nex-N2.5-mini",
    "id": "nex-agi/nex-n2.5-mini:free",
@@ -18856,72 +18861,6 @@
     "reasoning",
     "reasoning_effort",
     "response_format",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 262144,
-    "is_moderated": false,
-    "max_completion_tokens": 235929
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "canonical_slug": "nex-agi/nex-n2.5-pro-20260907",
-   "context_length": 262144,
-   "created": 1788890050,
-   "default_parameters": {
-    "temperature": 0.7,
-    "top_k": 40,
-    "top_p": 0.95
-   },
-   "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
-   "expiration_date": null,
-   "hugging_face_id": "nex-agi/Nex-N2.5-Pro",
-   "id": "nex-agi/nex-n2.5-pro",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/nex-agi/nex-n2.5-pro-20260907/endpoints"
-   },
-   "name": "Nex AGI: Nex-N2.5-Pro",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.00000025",
-    "input_cache_read": "0.000000015",
-    "prompt": "0.000000075"
-   },
-   "reasoning": {
-    "default_effort": "high",
-    "mandatory": false,
-    "supported_efforts": [
-     "high",
-     "medium",
-     "none"
-    ]
-   },
-   "supported_parameters": [
-    "include_reasoning",
-    "logprobs",
-    "max_tokens",
-    "reasoning",
-    "reasoning_effort",
     "structured_outputs",
     "temperature",
     "tool_choice",
@@ -30914,8 +30853,8 @@
    "name": "Qwen: Qwen3 30B A3B Instruct 2507",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000019305",
-    "prompt": "0.00000004815"
+    "completion": "0.0000003",
+    "prompt": "0.0000001"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -30937,9 +30876,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 128000,
+    "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 32000
+    "max_completion_tokens": 235929
    }
   },
   {
@@ -35418,7 +35357,7 @@
     "tokenizer": "Other"
    },
    "canonical_slug": "tencent/hy-mt2-30b-a3b-20260521",
-   "context_length": 8192,
+   "context_length": 32768,
    "created": 1787231561,
    "default_parameters": {},
    "description": "Hy-MT2-30B-A3B is Tencent's flagship translation model in the Hy-MT2 family. It supports 33 language pairs and five Chinese dialect and minority-language pairs, with workflows for structured, delimiter-based, contextual, glossary-based, and...",
@@ -35436,12 +35375,19 @@
     "prompt": "0.000000074"
    },
    "supported_parameters": [
+    "frequency_penalty",
+    "logprobs",
     "max_completion_tokens",
     "max_tokens",
+    "presence_penalty",
     "response_format",
+    "seed",
     "stop",
     "structured_outputs",
-    "temperature"
+    "temperature",
+    "top_k",
+    "top_logprobs",
+    "top_p"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -41555,9 +41501,9 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.00000006",
-    "prompt": "0.000000099"
+    "completion": "0.000001",
+    "input_cache_read": "0.00000001",
+    "prompt": "0.00000004"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41634,7 +41580,7 @@
    "pricing": {
     "completion": "0.0000029",
     "input_cache_read": "0.00000025",
-    "prompt": "0.0000003865"
+    "prompt": "0.00000039"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41705,9 +41651,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000055",
-    "input_cache_read": "0.0000000228",
-    "prompt": "0.000000038"
+    "completion": "0.00000032",
+    "input_cache_read": "0.000000016",
+    "prompt": "0.00000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41958,9 +41904,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000069875",
-    "input_cache_read": "0.000000195",
-    "prompt": "0.00000091"
+    "completion": "0.00001075",
+    "input_cache_read": "0.0000003",
+    "prompt": "0.0000014"
    },
    "reasoning": {
     "default_effort": "max",
@@ -42535,9 +42481,9 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000025",
-    "input_cache_read": "0.000000015",
-    "prompt": "0.000000075"
+    "completion": "0.00000014",
+    "input_cache_read": "0.00000001",
+    "prompt": "0.000000045"
    },
    "reasoning": {
     "default_effort": "max",
@@ -42576,7 +42522,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 128000
    }
   },
   {
@@ -42661,5 +42607,5 @@
  "links": {
   "next": null
  },
- "total_count": 459
+ "total_count": 458
 }
