@@ -6880,9 +6880,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000177212",
-    "input_cache_read": "0.0000000177212",
-    "prompt": "0.000000088606"
+    "completion": "0.0000001526",
+    "input_cache_read": "0.00000001526",
+    "prompt": "0.0000000763"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7247,9 +7247,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000018792",
-    "input_cache_read": "0.0000000783",
-    "prompt": "0.0000009396"
+    "completion": "0.000001784544",
+    "input_cache_read": "0.000000074356",
+    "prompt": "0.000000892272"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7405,9 +7405,90 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000042",
-    "input_cache_read": "0.0000000042",
-    "prompt": "0.00000014"
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000003",
+    "overrides": [
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000015",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 0,
+      "utc_start": 1000
+     },
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000015",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 100,
+      "utc_start": 0
+     },
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000015",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 600,
+      "utc_start": 400
+     },
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000015",
+      "utc_days": [
+       "saturday",
+       "sunday"
+      ]
+     },
+     {
+      "completion": "0.0000012",
+      "input_cache_read": "0.000000006",
+      "prompt": "0.0000003",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 1000,
+      "utc_start": 600
+     },
+     {
+      "completion": "0.0000012",
+      "input_cache_read": "0.000000006",
+      "prompt": "0.0000003",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 400,
+      "utc_start": 100
+     }
+    ],
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7445,7 +7526,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -35528,8 +35609,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -35546,7 +35627,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -40363,9 +40444,9 @@
    "name": "Z.ai: GLM 5.3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000264",
-    "input_cache_read": "0.000000156",
-    "prompt": "0.00000084"
+    "completion": "0.0000044",
+    "input_cache_read": "0.00000026",
+    "prompt": "0.0000014"
    },
    "reasoning": {
     "default_effort": "max",
@@ -40402,9 +40483,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1048575,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943717
    }
   },
   {
@@ -41585,9 +41666,9 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000029",
-    "input_cache_read": "0.00000025",
-    "prompt": "0.00000039"
+    "completion": "0.0000011682",
+    "input_cache_read": "0.00000001239",
+    "prompt": "0.0000003894"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41624,7 +41705,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -41911,9 +41992,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00001075",
+    "completion": "0.0000115",
     "input_cache_read": "0.0000003",
-    "prompt": "0.0000014"
+    "prompt": "0.00000135"
    },
    "reasoning": {
     "default_effort": "max",
@@ -42566,9 +42647,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000025",
-    "input_cache_read": "0.000000125",
-    "prompt": "0.0000005625"
+    "completion": "0.0000017644",
+    "input_cache_read": "0.00000010426",
+    "prompt": "0.0000005614"
    },
    "reasoning": {
     "default_effort": "max",
