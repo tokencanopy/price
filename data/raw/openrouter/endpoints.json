@@ -9131,7 +9131,7 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Inceptron | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.000000829",
+      "completion": "0.000000483",
       "discount": 0,
       "input_cache_read": "0.00000006",
       "prompt": "0.0000000828"
@@ -9444,7 +9444,7 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "OpenInference | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.0000008",
+      "completion": "0.0000004",
       "discount": 0,
       "input_cache_read": "0.000000008",
       "prompt": "0.00000003"
@@ -9535,10 +9535,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Phala | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000132",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000044"
+      "completion": "0.000000924",
+      "discount": 0.3,
+      "input_cache_read": "0.0000000196",
+      "prompt": "0.000000308"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -10332,10 +10332,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.0000015717",
-      "discount": 0.535,
-      "input_cache_read": "0.0000000651",
-      "prompt": "0.00000078585"
+      "completion": "0.00000156494",
+      "discount": 0.537,
+      "input_cache_read": "0.00000006482",
+      "prompt": "0.00000078247"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10787,10 +10787,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "pricing": {
-      "completion": "0.000001568088",
-      "discount": 0.5494,
-      "input_cache_read": "0.000000065337",
-      "prompt": "0.000000784044"
+      "completion": "0.000001566",
+      "discount": 0.55,
+      "input_cache_read": "0.00000006525",
+      "prompt": "0.000000783"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -11245,9 +11245,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000396",
+      "completion": "0.00000198",
       "discount": 0,
-      "input_cache_read": "0.000000044",
+      "input_cache_read": "0.000000022",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -11329,7 +11329,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000132"
+      "prompt": "0.00000066"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -11493,7 +11493,7 @@
       "completion": "0.00000288",
       "discount": 0.36,
       "input_cache_read": "0.00000008832",
-      "prompt": "0.00000036992"
+      "prompt": "0.0000002528"
      },
      "provider_name": "Ionstream",
      "quantization": "unknown",
@@ -11661,10 +11661,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "Phala | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000436",
-      "discount": 0,
-      "input_cache_read": "0.00000015",
-      "prompt": "0.00000145"
+      "completion": "0.0000028776",
+      "discount": 0.34,
+      "input_cache_read": "0.000000099",
+      "prompt": "0.000000957"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -11958,7 +11958,7 @@
       "completion": "0.0000035",
       "discount": 0,
       "input_cache_read": "0.00000025",
-      "prompt": "0.00000026"
+      "prompt": "0.00000035"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -12290,9 +12290,9 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "DeepSeek | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000006",
+      "input_cache_read": "0.000000003",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -12374,7 +12374,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.0000003"
+      "prompt": "0.00000015"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -18818,6 +18818,41 @@
      "tag": "google-vertex/global"
     },
     {
+     "context_length": 262144,
+     "max_completion_tokens": 235929,
+     "max_prompt_tokens": null,
+     "model_id": "google/gemma-4-26b-a4b-it",
+     "model_name": "Google: Gemma 4 26B A4B ",
+     "name": "Io Net | google/gemma-4-26b-a4b-it-20260403",
+     "pricing": {
+      "completion": "0.0000005",
+      "discount": 0,
+      "input_cache_read": "0.00000015",
+      "prompt": "0.00000015"
+     },
+     "provider_name": "Io Net",
+     "quantization": "bf16",
+     "supported_parameters": [
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "reasoning",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": false,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "io-net/bf16"
+    },
+    {
      "context_length": 256000,
      "max_completion_tokens": 128000,
      "max_prompt_tokens": null,
@@ -18987,6 +19022,47 @@
      },
      "supports_voice_cloning": false,
      "tag": "parasail/bf16"
+    },
+    {
+     "context_length": 262144,
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "model_id": "google/gemma-4-26b-a4b-it",
+     "model_name": "Google: Gemma 4 26B A4B ",
+     "name": "Reka | google/gemma-4-26b-a4b-it-20260403",
+     "pricing": {
+      "completion": "0.0000003",
+      "discount": 0,
+      "input_cache_read": "0.00000005",
+      "prompt": "0.00000009"
+     },
+     "provider_name": "Reka",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "reka"
     },
     {
      "context_length": 262144,
@@ -19387,6 +19463,41 @@
     },
     {
      "context_length": 262144,
+     "max_completion_tokens": 16384,
+     "max_prompt_tokens": null,
+     "model_id": "google/gemma-4-31b-it",
+     "model_name": "Google: Gemma 4 31B",
+     "name": "Io Net | google/gemma-4-31b-it-20260402",
+     "pricing": {
+      "completion": "0.00000115",
+      "discount": 0,
+      "prompt": "0.00000038"
+     },
+     "provider_name": "Io Net",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": false,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "io-net"
+    },
+    {
+     "context_length": 262144,
      "max_completion_tokens": 235929,
      "max_prompt_tokens": null,
      "model_id": "google/gemma-4-31b-it",
@@ -19513,6 +19624,47 @@
      },
      "supports_voice_cloning": false,
      "tag": "parasail/fp8"
+    },
+    {
+     "context_length": 262144,
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "model_id": "google/gemma-4-31b-it",
+     "model_name": "Google: Gemma 4 31B",
+     "name": "Reka | google/gemma-4-31b-it-20260402",
+     "pricing": {
+      "completion": "0.00000034",
+      "discount": 0,
+      "input_cache_read": "0.00000005",
+      "prompt": "0.00000009"
+     },
+     "provider_name": "Reka",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "reka"
     },
     {
      "context_length": 131072,
@@ -25737,18 +25889,16 @@
       "seed",
       "stop",
       "temperature",
-      "tool_choice",
-      "tools",
       "top_k",
       "top_logprobs",
       "top_p"
      ],
      "supports_implicit_caching": false,
      "supports_tool_choice": {
-      "auto": true,
-      "function": true,
+      "auto": false,
+      "function": false,
       "none": false,
-      "required": true
+      "required": false
      },
      "supports_voice_cloning": false,
      "tag": "io-net/fp16"
@@ -29289,10 +29439,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Morph | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.0000084",
-      "discount": 0.4,
-      "input_cache_read": "0.000000174",
-      "prompt": "0.0000015"
+      "completion": "0.0000119",
+      "discount": 0.15,
+      "input_cache_read": "0.0000002465",
+      "prompt": "0.000002125"
      },
      "provider_name": "Morph",
      "quantization": "unknown",
@@ -29382,10 +29532,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Phala | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.0000105",
-      "discount": 0.3,
-      "input_cache_read": "0.00000021",
-      "prompt": "0.0000021"
+      "completion": "0.00001275",
+      "discount": 0.15,
+      "input_cache_read": "0.000000255",
+      "prompt": "0.00000255"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -30543,6 +30693,36 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/bf16"
+    },
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "model_id": "nvidia/nemotron-3.5-lightning",
+     "model_name": "NVIDIA: Nemotron 3.5 Lightning",
+     "name": "Io Net | nvidia/nemotron-3.5-lightning-20260807",
+     "pricing": {
+      "completion": "0.0000002",
+      "discount": 0,
+      "prompt": "0.00000007"
+     },
+     "provider_name": "Io Net",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "temperature"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "io-net"
     },
     {
      "context_length": 262144,
@@ -47383,6 +47563,49 @@
     },
     {
      "context_length": 262144,
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "model_id": "qwen/qwen3.6-35b-a3b",
+     "model_name": "Qwen: Qwen3.6 35B A3B",
+     "name": "Reka | qwen/qwen3.6-35b-a3b-20260415",
+     "pricing": {
+      "completion": "0.000001",
+      "discount": 0,
+      "input_cache_read": "0.00000005",
+      "prompt": "0.00000015"
+     },
+     "provider_name": "Reka",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_implicit_caching": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "reka"
+    },
+    {
+     "context_length": 262144,
      "max_completion_tokens": 235929,
      "max_prompt_tokens": null,
      "model_id": "qwen/qwen3.6-35b-a3b",
@@ -48590,7 +48813,7 @@
       "completion": "0.00000255",
       "discount": 0,
       "input_cache_read": "0.0000001",
-      "prompt": "0.00000024"
+      "prompt": "0.000000105"
      },
      "provider_name": "Ionstream",
      "quantization": "fp8",
@@ -56971,8 +57194,8 @@
      "pricing": {
       "completion": "0.0000031759",
       "discount": 0,
-      "input_cache_read": "0.0000001877",
-      "prompt": "0.0000008982"
+      "input_cache_read": "0.0000002085",
+      "prompt": "0.0000006456"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -57308,7 +57531,7 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "Wafer | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.0000053",
+      "completion": "0.0000044",
       "discount": 0,
       "input_cache_read": "0.00000026",
       "prompt": "0.0000014"
@@ -58130,10 +58353,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Inceptron | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.0000026466",
+      "completion": "0.0000026807",
       "discount": 0,
-      "input_cache_read": "0.0000002033",
-      "prompt": "0.000000786"
+      "input_cache_read": "0.0000001978",
+      "prompt": "0.0000007677"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -58221,7 +58444,7 @@
       "completion": "0.00000262",
       "discount": 0,
       "input_cache_read": "0.00000014",
-      "prompt": "0.00000078"
+      "prompt": "0.00000077"
      },
      "provider_name": "Io Net",
      "quantization": "fp8",
@@ -58392,10 +58615,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Morph | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.000002057",
-      "discount": 0.45,
-      "input_cache_read": "0.000000107525",
-      "prompt": "0.0000006545"
+      "completion": "0.0000018326",
+      "discount": 0.51,
+      "input_cache_read": "0.000000095795",
+      "prompt": "0.0000005831"
      },
      "provider_name": "Morph",
      "quantization": "unknown",
@@ -58916,7 +59139,7 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.00000036",
+      "input_cache_read": "0.00000026",
       "prompt": "0.0000014"
      },
      "provider_name": "Wafer",
@@ -59536,7 +59759,7 @@
       "completion": "0.0000005",
       "discount": 0,
       "input_cache_read": "0.00000007",
-      "prompt": "0.00000015"
+      "prompt": "0.00000011"
      },
      "provider_name": "Inceptron",
      "quantization": "fp8",
@@ -59880,7 +60103,7 @@
     },
     {
      "context_length": 1048576,
-     "max_completion_tokens": 102400,
+     "max_completion_tokens": 943718,
      "max_prompt_tokens": null,
      "model_id": "z-ai/glm-5.3-flash",
      "model_name": "Z.ai: GLM 5.3 Flash",
