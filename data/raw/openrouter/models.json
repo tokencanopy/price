@@ -6896,9 +6896,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000098",
-    "input_cache_read": "0.0000000098",
-    "prompt": "0.000000049"
+    "completion": "0.00000009408",
+    "input_cache_read": "0.000000009408",
+    "prompt": "0.00000004704"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7263,9 +7263,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000001566",
-    "input_cache_read": "0.00000006525",
-    "prompt": "0.000000783"
+    "completion": "0.000001324488",
+    "input_cache_read": "0.000000055187",
+    "prompt": "0.000000662244"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7343,9 +7343,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000001386",
-    "input_cache_read": "0.0000000154",
-    "prompt": "0.000000462"
+    "completion": "0.00000103752",
+    "input_cache_read": "0.000000011528",
+    "prompt": "0.00000034584"
    },
    "reasoning": {
     "default_effort": "high",
@@ -12071,9 +12071,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000003",
-    "input_cache_read": "0.00000005",
-    "prompt": "0.00000009"
+    "completion": "0.000000225",
+    "input_cache_read": "0.0000000375",
+    "prompt": "0.0000000675"
    },
    "reasoning": {
     "default_enabled": false,
@@ -13122,9 +13122,9 @@
    "name": "inclusionAI: Ling 3.0 Flash VL",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000018",
-    "input_cache_read": "0.000000012",
-    "prompt": "0.00000006"
+    "completion": "0.0000000616",
+    "input_cache_read": "0.0000000042",
+    "prompt": "0.000000021"
    },
    "reasoning": {
     "default_enabled": true,
@@ -13153,7 +13153,7 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 131072,
+    "context_length": 262144,
     "is_moderated": false,
     "max_completion_tokens": 32768
    }
@@ -19113,138 +19113,6 @@
     "context_length": 262144,
     "is_moderated": false,
     "max_completion_tokens": 131072
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "canonical_slug": "nex-agi/nex-n2.5-mini-20260908",
-   "context_length": 262144,
-   "created": 1788890061,
-   "default_parameters": {
-    "temperature": 0.7,
-    "top_k": 40,
-    "top_p": 0.95
-   },
-   "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
-   "expiration_date": "2026-09-25",
-   "hugging_face_id": "nex-agi/Nex-N2.5-mini",
-   "id": "nex-agi/nex-n2.5-mini:free",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/nex-agi/nex-n2.5-mini-20260908/endpoints"
-   },
-   "name": "Nex AGI: Nex-N2.5-Mini (free)",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0",
-    "prompt": "0"
-   },
-   "reasoning": {
-    "default_effort": "high",
-    "mandatory": false,
-    "supported_efforts": [
-     "high",
-     "medium",
-     "none"
-    ]
-   },
-   "supported_parameters": [
-    "include_reasoning",
-    "logprobs",
-    "max_tokens",
-    "reasoning",
-    "reasoning_effort",
-    "response_format",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 262144,
-    "is_moderated": false,
-    "max_completion_tokens": 235929
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "canonical_slug": "nex-agi/nex-n2.5-pro-20260907",
-   "context_length": 262144,
-   "created": 1788890050,
-   "default_parameters": {
-    "temperature": 0.7,
-    "top_k": 40,
-    "top_p": 0.95
-   },
-   "description": "Nex-N2.5 is an agentic model built to turn goals into working, verified outcomes. Its core strength is agentic coding within a visual feedback loop: it can explore codebases, implement multi-file...",
-   "expiration_date": "2026-09-25",
-   "hugging_face_id": "nex-agi/Nex-N2.5-Pro",
-   "id": "nex-agi/nex-n2.5-pro:free",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/nex-agi/nex-n2.5-pro-20260907/endpoints"
-   },
-   "name": "Nex AGI: Nex-N2.5-Pro (free)",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0",
-    "prompt": "0"
-   },
-   "reasoning": {
-    "default_effort": "high",
-    "mandatory": false,
-    "supported_efforts": [
-     "high",
-     "medium",
-     "none"
-    ]
-   },
-   "supported_parameters": [
-    "include_reasoning",
-    "logprobs",
-    "max_tokens",
-    "reasoning",
-    "reasoning_effort",
-    "response_format",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 262144,
-    "is_moderated": false,
-    "max_completion_tokens": 235929
    }
   },
   {
@@ -29768,6 +29636,71 @@
   {
    "architecture": {
     "input_modalities": [
+     "audio",
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+audio+video->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "perceptron/perceptron-mk1.5-20260925",
+   "context_length": 36864,
+   "created": 1790352661,
+   "default_parameters": {},
+   "description": "Perceptron Mk1.5 is Perceptron's embodied reasoning model for physical agents. It accepts text, image, video, and audio input, and answers with text plus optional structured annotations: points, boxes, polygons, tracks,...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "perceptron/perceptron-mk1.5",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/perceptron/perceptron-mk1.5-20260925/endpoints"
+   },
+   "name": "Perceptron: Perceptron Mk1.5",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.0000015",
+    "prompt": "0.00000015"
+   },
+   "reasoning": {
+    "default_effort": "high",
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "medium",
+     "minimal",
+     "none"
+    ]
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "max_tokens",
+    "presence_penalty",
+    "reasoning",
+    "reasoning_effort",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 36864,
+    "is_moderated": false,
+    "max_completion_tokens": 8192
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
      "image",
      "text"
     ],
@@ -30541,7 +30474,7 @@
     "top_p": null
    },
    "description": "Qwen Plus 0728, based on the Qwen3 foundation model, is a 1 million context hybrid reasoning model with a balanced performance, speed, and cost combination.",
-   "expiration_date": null,
+   "expiration_date": "2026-10-09",
    "hugging_face_id": "",
    "id": "qwen/qwen-plus-2025-07-28",
    "knowledge_cutoff": "2025-03-31",
@@ -30774,7 +30707,7 @@
    "created": 1745875757,
    "default_parameters": {},
    "description": "Qwen3-235B-A22B is a 235B parameter mixture-of-experts (MoE) model developed by Qwen, activating 22B parameters per forward pass. It supports seamless switching between a \"thinking\" mode for complex reasoning, math, and...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-09",
    "hugging_face_id": "Qwen/Qwen3-235B-A22B",
    "id": "qwen/qwen3-235b-a22b",
    "knowledge_cutoff": "2025-03-31",
@@ -30987,7 +30920,7 @@
     "top_p": null
    },
    "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks. It activates 22B of its 235B parameters per forward pass and natively supports up to 262,144...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-09",
    "hugging_face_id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
    "id": "qwen/qwen3-235b-a22b-thinking-2507",
    "knowledge_cutoff": "2025-06-30",
@@ -31226,7 +31159,7 @@
    "created": 1756399192,
    "default_parameters": {},
    "description": "Qwen3-30B-A3B-Thinking-2507 is a 30B parameter Mixture-of-Experts reasoning model optimized for complex tasks requiring extended multi-step thinking. The model is designed specifically for \u201cthinking mode,\u201d where internal reasoning traces are separated...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-09",
    "hugging_face_id": "Qwen/Qwen3-30B-A3B-Thinking-2507",
    "id": "qwen/qwen3-30b-a3b-thinking-2507",
    "knowledge_cutoff": "2025-06-30",
@@ -31363,7 +31296,7 @@
     "top_p": 0.95
    },
    "description": "Qwen3-8B is a dense 8.2B parameter causal language model from the Qwen3 series, designed for both reasoning-heavy tasks and efficient dialogue. It supports seamless switching between \"thinking\" mode for math,...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-09",
    "hugging_face_id": "Qwen/Qwen3-8B",
    "id": "qwen/qwen3-8b",
    "knowledge_cutoff": "2025-03-31",
@@ -31740,7 +31673,7 @@
     "top_p": null
    },
    "description": "Qwen3 Coder Plus is Alibaba's proprietary version of the Open Source Qwen3 Coder 480B A35B. It is a powerful coding agent model specializing in autonomous programming via tool calling and...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-09",
    "hugging_face_id": "",
    "id": "qwen/qwen3-coder-plus",
    "knowledge_cutoff": "2025-06-30",
@@ -31875,7 +31808,7 @@
     "top_p": 1
    },
    "description": "Qwen3-Max is an updated release built on the Qwen3 series, offering major improvements in reasoning, instruction following, multilingual support, and long-tail knowledge coverage compared to the January 2025 version. It...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-09",
    "hugging_face_id": "",
    "id": "qwen/qwen3-max",
    "knowledge_cutoff": "2025-06-30",
@@ -31953,7 +31886,7 @@
     "top_p": null
    },
    "description": "Qwen3-Max-Thinking is the flagship reasoning model in the Qwen3 series, designed for high-stakes cognitive tasks that require deep, multi-step reasoning. By significantly scaling model capacity and reinforcement learning compute, it...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-09",
    "hugging_face_id": null,
    "id": "qwen/qwen3-max-thinking",
    "knowledge_cutoff": null,
@@ -32221,7 +32154,7 @@
     "top_p": 0.95
    },
    "description": "Qwen3-VL-235B-A22B Thinking is a multimodal model that unifies strong text generation with visual understanding across images and video. The Thinking model is optimized for multimodal reasoning in STEM and math....",
-   "expiration_date": null,
+   "expiration_date": "2026-10-09",
    "hugging_face_id": "Qwen/Qwen3-VL-235B-A22B-Thinking",
    "id": "qwen/qwen3-vl-235b-a22b-thinking",
    "knowledge_cutoff": "2025-03-31",
@@ -32352,7 +32285,7 @@
     "top_p": 0.95
    },
    "description": "Qwen3-VL-30B-A3B-Thinking is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Thinking variant enhances reasoning in STEM, math, and complex tasks. It excels...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-09",
    "hugging_face_id": "Qwen/Qwen3-VL-30B-A3B-Thinking",
    "id": "qwen/qwen3-vl-30b-a3b-thinking",
    "knowledge_cutoff": "2025-03-31",
@@ -32418,7 +32351,7 @@
     "top_p": 0.8
    },
    "description": "Qwen3-VL-32B-Instruct is a large-scale multimodal vision-language model designed for high-precision understanding and reasoning across text, images, and video. With 32 billion parameters, it combines deep visual perception with advanced text...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-09",
    "hugging_face_id": "Qwen/Qwen3-VL-32B-Instruct",
    "id": "qwen/qwen3-vl-32b-instruct",
    "knowledge_cutoff": null,
@@ -32476,7 +32409,7 @@
     "top_p": 0.8
    },
    "description": "Qwen3-VL-8B-Instruct is a multimodal vision-language model from the Qwen3-VL series, built for high-fidelity understanding and reasoning across text, images, and video. It features improved multimodal fusion with Interleaved-MRoPE for long-horizon...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-09",
    "hugging_face_id": "Qwen/Qwen3-VL-8B-Instruct",
    "id": "qwen/qwen3-vl-8b-instruct",
    "knowledge_cutoff": null,
@@ -32535,7 +32468,7 @@
     "top_p": 0.95
    },
    "description": "Qwen3-VL-8B-Thinking is the reasoning-optimized variant of the Qwen3-VL-8B multimodal model, designed for advanced visual and textual reasoning across complex scenes, documents, and temporal sequences. It integrates enhanced multimodal alignment and...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-09",
    "hugging_face_id": "Qwen/Qwen3-VL-8B-Thinking",
    "id": "qwen/qwen3-vl-8b-thinking",
    "knowledge_cutoff": null,
@@ -33515,7 +33448,7 @@
    "created": 1777260242,
    "default_parameters": {},
    "description": "Qwen3.6-Max-Preview is a proprietary frontier model from Alibaba Cloud built on a sparse mixture-of-experts architecture with approximately 1 trillion total parameters. It is optimized for agentic coding, tool use, and...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-09",
    "hugging_face_id": null,
    "id": "qwen/qwen3.6-max-preview",
    "knowledge_cutoff": null,
@@ -35819,8 +35752,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -35837,7 +35770,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -40483,7 +40416,7 @@
     ]
    },
    "canonical_slug": "z-ai/glm-5.2-20260616",
-   "context_length": 32768,
+   "context_length": 131072,
    "created": 1781631930,
    "default_parameters": {
     "frequency_penalty": null,
@@ -40533,9 +40466,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 32768,
+    "context_length": 131072,
     "is_moderated": false,
-    "max_completion_tokens": 29491
+    "max_completion_tokens": 117964
    }
   },
   {
@@ -41799,9 +41732,9 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000049",
+    "completion": "0.0000005",
     "input_cache_read": "0.00000001",
-    "prompt": "0.00000004"
+    "prompt": "0.0000001"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41876,7 +41809,7 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000288",
+    "completion": "0.0000019584",
     "input_cache_read": "0.00000008832",
     "prompt": "0.0000002528"
    },
@@ -42203,8 +42136,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000105346",
-    "input_cache_read": "0.00000033",
-    "prompt": "0.0000008845"
+    "input_cache_read": "0.0000003",
+    "prompt": "0.0000012"
    },
    "reasoning": {
     "default_effort": "max",
@@ -42905,5 +42838,5 @@
  "links": {
   "next": null
  },
- "total_count": 460
+ "total_count": 459
 }
