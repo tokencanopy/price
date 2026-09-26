@@ -7384,9 +7384,9 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000012",
-    "input_cache_read": "0.000000006",
-    "prompt": "0.0000003"
+    "completion": "0.00000029",
+    "input_cache_read": "0.000000001",
+    "prompt": "0.000000035"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7422,9 +7422,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1040000,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 384000
    }
   },
   {
@@ -20327,7 +20327,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 8191,
-    "is_moderated": false,
+    "is_moderated": true,
     "max_completion_tokens": 4096
    }
   },
@@ -32480,7 +32480,7 @@
    "top_provider": {
     "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 235929
    }
   },
   {
@@ -35647,8 +35647,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -35665,7 +35665,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",

@@ -8927,9 +8927,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.000001056",
+      "completion": "0.000000528",
       "discount": 0,
-      "input_cache_read": "0.0000000352",
+      "input_cache_read": "0.0000000176",
       "overrides": [
        {
         "completion": "0.000000528",
@@ -8946,7 +8946,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000352"
+      "prompt": "0.000000176"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -11224,9 +11224,9 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.000003366",
+      "completion": "0.0000017424",
       "discount": 0,
-      "input_cache_read": "0.0000001122",
+      "input_cache_read": "0.00000005808",
       "overrides": [
        {
         "completion": "0.0000017424",
@@ -11243,7 +11243,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000001122"
+      "prompt": "0.0000005808"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -12323,9 +12323,9 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.00000003",
+      "input_cache_read": "0.000000015",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -12342,7 +12342,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000003"
+      "prompt": "0.00000015"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -13404,10 +13404,10 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "Sail Research | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.00000075",
+      "completion": "0.0000004",
       "discount": 0,
       "input_cache_read": "0.00000001",
-      "prompt": "0.00000013"
+      "prompt": "0.00000008"
      },
      "provider_name": "Sail Research",
      "quantization": "fp4",
@@ -20331,8 +20331,8 @@
      "tag": "reka"
     },
     {
-     "context_length": 131072,
-     "max_completion_tokens": 117964,
+     "context_length": 262144,
+     "max_completion_tokens": 235929,
      "max_prompt_tokens": null,
      "model_id": "google/gemma-4-31b-it",
      "model_name": "Google: Gemma 4 31B",
@@ -28416,10 +28416,10 @@
      "model_name": "MoonshotAI: Kimi K2.6",
      "name": "Baidu | moonshotai/kimi-k2.6-20260420",
      "pricing": {
-      "completion": "0.000001828",
-      "discount": 0.543,
-      "input_cache_read": "0.00000007312",
-      "prompt": "0.00000043415"
+      "completion": "0.00000172",
+      "discount": 0.57,
+      "input_cache_read": "0.0000000688",
+      "prompt": "0.0000004085"
      },
      "provider_name": "Baidu",
      "quantization": "fp4",
@@ -28860,8 +28860,8 @@
      "pricing": {
       "completion": "0.00000239",
       "discount": 0,
-      "input_cache_read": "0.0000001047",
-      "prompt": "0.0000004344"
+      "input_cache_read": "0.0000000891",
+      "prompt": "0.0000004088"
      },
      "provider_name": "Inceptron",
      "quantization": "int4",
@@ -52814,9 +52814,9 @@
      "model_name": "Tencent: Hy3",
      "name": "Tencent | tencent/hy3-20260706",
      "pricing": {
-      "completion": "0.000000528",
+      "completion": "0.00000033",
       "discount": 0,
-      "input_cache_read": "0.000000033",
+      "input_cache_read": "0.000000020625",
       "overrides": [
        {
         "completion": "0.00000033",
@@ -52833,7 +52833,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000132"
+      "prompt": "0.0000000825"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -59398,9 +59398,9 @@
      "model_name": "Z.ai: GLM 5.2",
      "name": "Inceptron | z-ai/glm-5.2-20260616",
      "pricing": {
-      "completion": "0.0000020731",
+      "completion": "0.0000019195",
       "discount": 0,
-      "input_cache_read": "0.0000001815",
+      "input_cache_read": "0.0000001361",
       "prompt": "0.0000004886"
      },
      "provider_name": "Inceptron",
@@ -60703,10 +60703,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Inceptron | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.0000016714",
+      "completion": "0.0000014326",
       "discount": 0,
-      "input_cache_read": "0.0000001017",
-      "prompt": "0.0000003989"
+      "input_cache_read": "0.0000000848",
+      "prompt": "0.0000003799"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -60795,10 +60795,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Io Net | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.000002489",
-      "discount": 0.05,
-      "input_cache_read": "0.000000133",
-      "prompt": "0.0000007315"
+      "completion": "0.000002482",
+      "discount": 0.15,
+      "input_cache_read": "0.000000119",
+      "prompt": "0.0000006545"
      },
      "provider_name": "Io Net",
      "quantization": "fp8",
@@ -63164,7 +63164,7 @@
       "completion": "0.0000005",
       "discount": 0,
       "input_cache_read": "0.00000003",
-      "prompt": "0.00000019"
+      "prompt": "0.00000039"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
