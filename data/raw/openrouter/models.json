@@ -649,57 +649,6 @@
   {
    "architecture": {
     "input_modalities": [
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Claude"
-   },
-   "canonical_slug": "anthropic/claude-3-haiku",
-   "context_length": 200000,
-   "created": 1710288000,
-   "default_parameters": {},
-   "description": "Claude 3 Haiku is Anthropic's fastest and most compact model for\nnear-instant responsiveness. Quick and accurate targeted performance.\n\nSee the launch announcement and benchmark results [here](https://www.anthropic.com/news/claude-3-haiku)\n\n#multimodal",
-   "expiration_date": null,
-   "hugging_face_id": null,
-   "id": "anthropic/claude-3-haiku",
-   "knowledge_cutoff": "2023-08-31",
-   "links": {
-    "details": "/api/v1/models/anthropic/claude-3-haiku/endpoints"
-   },
-   "name": "Anthropic: Claude 3 Haiku",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.00000125",
-    "input_cache_read": "0.00000003",
-    "input_cache_write": "0.0000003",
-    "input_cache_write_1h": "0.0000005",
-    "prompt": "0.00000025",
-    "web_search": "0.01"
-   },
-   "supported_parameters": [
-    "max_tokens",
-    "stop",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 200000,
-    "is_moderated": true,
-    "max_completion_tokens": 4096
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
      "file",
      "image",
      "text"
@@ -7047,7 +6996,7 @@
    "pricing": {
     "completion": "0.00000032",
     "input_cache_read": "0.000000016",
-    "prompt": "0.000000022"
+    "prompt": "0.000000021"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7277,9 +7226,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000858168",
-    "input_cache_read": "0.000000035757",
-    "prompt": "0.000000429084"
+    "completion": "0.000000837636",
+    "input_cache_read": "0.0000000349015",
+    "prompt": "0.000000418818"
    },
    "reasoning": {
     "default_effort": "high",
@@ -26379,7 +26328,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 1050000,
-    "is_moderated": true,
+    "is_moderated": false,
     "max_completion_tokens": 128000
    }
   },
@@ -40513,9 +40462,9 @@
    "name": "Z.ai: GLM 5.3 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000014",
-    "input_cache_read": "0.00000001",
-    "prompt": "0.000000045"
+    "completion": "0.0000005",
+    "input_cache_read": "0.000000015",
+    "prompt": "0.00000004"
    },
    "reasoning": {
     "default_effort": "max",
@@ -40554,7 +40503,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 131072
    }
   },
   {
@@ -41669,7 +41618,7 @@
    "pricing": {
     "completion": "0.00000032",
     "input_cache_read": "0.000000016",
-    "prompt": "0.000000022"
+    "prompt": "0.000000021"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42497,9 +42446,9 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000014",
-    "input_cache_read": "0.00000001",
-    "prompt": "0.000000045"
+    "completion": "0.0000005",
+    "input_cache_read": "0.000000015",
+    "prompt": "0.00000004"
    },
    "reasoning": {
     "default_effort": "max",
@@ -42538,7 +42487,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 131072
    }
   },
   {
@@ -42575,9 +42524,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000017556",
-    "input_cache_read": "0.00000010374",
-    "prompt": "0.0000005586"
+    "completion": "0.0000014916",
+    "input_cache_read": "0.00000008814",
+    "prompt": "0.0000004746"
    },
    "reasoning": {
     "default_effort": "max",
@@ -42623,5 +42572,5 @@
  "links": {
   "next": null
  },
- "total_count": 459
+ "total_count": 458
 }
