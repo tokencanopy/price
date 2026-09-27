@@ -7109,9 +7109,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000066",
-    "input_cache_read": "0.000000007",
-    "prompt": "0.00000022"
+    "completion": "0.0000006468",
+    "input_cache_read": "0.00000000686",
+    "prompt": "0.0000002156"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7149,7 +7149,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 262144
    }
   },
   {
@@ -7349,8 +7349,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000035",
-    "input_cache_read": "0.00000024584",
-    "prompt": "0.00000024634"
+    "input_cache_read": "0.00000024452",
+    "prompt": "0.00000024502"
    },
    "reasoning": {
     "default_effort": "high",
@@ -30959,7 +30959,7 @@
     "top_p": null
    },
    "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique...",
-   "expiration_date": "2026-10-09",
+   "expiration_date": null,
    "hugging_face_id": "Qwen/Qwen3-30B-A3B",
    "id": "qwen/qwen3-30b-a3b",
    "knowledge_cutoff": "2025-03-31",
@@ -30969,8 +30969,8 @@
    "name": "Qwen: Qwen3 30B A3B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000052",
-    "prompt": "0.00000013"
+    "completion": "0.0000005",
+    "prompt": "0.00000012"
    },
    "reasoning": {
     "default_enabled": true,
@@ -30997,9 +30997,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 131072,
+    "context_length": 40960,
     "is_moderated": false,
-    "max_completion_tokens": 8192
+    "max_completion_tokens": 16384
    }
   },
   {
@@ -40392,9 +40392,9 @@
    "name": "Z.ai: GLM 5.3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000748",
-    "input_cache_read": "0.0000000391",
-    "prompt": "0.000000238"
+    "completion": "0.0000008602",
+    "input_cache_read": "0.000000044965",
+    "prompt": "0.0000002737"
    },
    "reasoning": {
     "default_effort": "max",
@@ -40533,9 +40533,9 @@
    "name": "Z.ai: GLM 5.3 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000005",
-    "input_cache_read": "0.000000015",
-    "prompt": "0.00000004"
+    "completion": "0.00000014",
+    "input_cache_read": "0.00000001",
+    "prompt": "0.000000045"
    },
    "reasoning": {
     "default_effort": "max",
@@ -40574,7 +40574,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 128000
    }
   },
   {
@@ -41614,9 +41614,9 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000073656",
-    "input_cache_read": "0.000000007812",
-    "prompt": "0.00000024552"
+    "completion": "0.0000007326",
+    "input_cache_read": "0.00000000777",
+    "prompt": "0.0000002442"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42517,9 +42517,9 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000005",
-    "input_cache_read": "0.000000015",
-    "prompt": "0.00000004"
+    "completion": "0.00000014",
+    "input_cache_read": "0.00000001",
+    "prompt": "0.000000045"
    },
    "reasoning": {
     "default_effort": "max",
@@ -42558,7 +42558,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 128000
    }
   },
   {
@@ -42595,9 +42595,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000748",
-    "input_cache_read": "0.0000000391",
-    "prompt": "0.000000238"
+    "completion": "0.0000008602",
+    "input_cache_read": "0.000000044965",
+    "prompt": "0.0000002737"
    },
    "reasoning": {
     "default_effort": "max",
