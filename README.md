@@ -3,7 +3,7 @@
 **A public, machine-readable record of what LLM inference actually costs — and how that price changes over time.** Refreshed every 6 hours.
 
 <!-- BEGIN STATS -->
-**15,283** price points · **986** models · **76** platforms · updated **2026-09-27 12:38 UTC** · history since **2026-09-02** (26 snapshots)
+**15,283** price points · **986** models · **76** platforms · updated **2026-09-27 18:32 UTC** · history since **2026-09-02** (26 snapshots)
 <!-- END STATS -->
 
 Every provider publishes today's price. **Nobody publishes yesterday's.** This repo
@@ -40,8 +40,8 @@ yourself.
 <!-- BEGIN TABLE -->
 | Model | Platforms | Cheapest | Input $/M | Output $/M | Spread |
 |---|--:|---|--:|--:|--:|
-| Z.ai: GLM 5.3 | 33 | [Reka](https://reka.ai/) | $0.27 | $2.57 | 7.7× |
-| Z.ai: GLM 5.3 Flash | 31 | [InferenceNet](https://inference.net/) | $0.04 | $0.14 | 9.6× |
+| Z.ai: GLM 5.3 | 33 | [Reka](https://reka.ai/) | $0.34 | $2.57 | 6.1× |
+| Z.ai: GLM 5.3 Flash | 31 | [InferenceNet](https://inference.net/) | $0.04 | $0.14 | 6.7× |
 | DeepSeek: DeepSeek V4 Flash 0731 | 29 | [Relace](https://www.relace.ai/) | $0.02 | $0.32 | 21.0× |
 | DeepSeek: DeepSeek V4.1 Flash | 26 | [InferenceNet](https://inference.net/) | $0.04 | $0.29 | 10.7× |
 | Z.ai: GLM 5.2 | 26 | [Baidu](https://intl.cloud.baidu.com/) | $0.49 | $1.54 | 4.6× |

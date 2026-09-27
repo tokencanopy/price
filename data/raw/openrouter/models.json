@@ -5999,8 +5999,8 @@
    "name": "DeepSeek: DeepSeek V3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000089",
-    "prompt": "0.00000032"
+    "completion": "0.0000010287",
+    "prompt": "0.0000002574"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -6021,9 +6021,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 163840,
+    "context_length": 128000,
     "is_moderated": false,
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 16000
    }
   },
   {
@@ -7363,8 +7363,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000035",
-    "input_cache_read": "0.00000024452",
-    "prompt": "0.00000024502"
+    "input_cache_read": "0.000000172",
+    "prompt": "0.00000029304"
    },
    "reasoning": {
     "default_effort": "high",
@@ -35703,8 +35703,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -35721,7 +35721,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42610,8 +42610,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000002574",
-    "input_cache_read": "0.000000044965",
-    "prompt": "0.0000002737"
+    "input_cache_read": "0.0000000595102",
+    "prompt": "0.0000003426"
    },
    "reasoning": {
     "default_effort": "max",
