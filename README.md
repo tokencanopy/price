@@ -3,7 +3,7 @@
 **A public, machine-readable record of what LLM inference actually costs — and how that price changes over time.** Refreshed every 6 hours.
 
 <!-- BEGIN STATS -->
-**15,283** price points · **986** models · **76** platforms · updated **2026-09-27 06:42 UTC** · history since **2026-09-02** (26 snapshots)
+**15,283** price points · **986** models · **76** platforms · updated **2026-09-27 12:38 UTC** · history since **2026-09-02** (26 snapshots)
 <!-- END STATS -->
 
 Every provider publishes today's price. **Nobody publishes yesterday's.** This repo
@@ -40,7 +40,7 @@ yourself.
 <!-- BEGIN TABLE -->
 | Model | Platforms | Cheapest | Input $/M | Output $/M | Spread |
 |---|--:|---|--:|--:|--:|
-| Z.ai: GLM 5.3 | 33 | [Inceptron](https://www.inceptron.io/) | $0.27 | $1.03 | 7.7× |
+| Z.ai: GLM 5.3 | 33 | [Reka](https://reka.ai/) | $0.27 | $2.57 | 7.7× |
 | Z.ai: GLM 5.3 Flash | 31 | [InferenceNet](https://inference.net/) | $0.04 | $0.14 | 9.6× |
 | DeepSeek: DeepSeek V4 Flash 0731 | 29 | [Relace](https://www.relace.ai/) | $0.02 | $0.32 | 21.0× |
 | DeepSeek: DeepSeek V4.1 Flash | 26 | [InferenceNet](https://inference.net/) | $0.04 | $0.29 | 10.7× |
@@ -48,7 +48,7 @@ yourself.
 | OpenAI: gpt-oss-120b | 21 | [AkashML](https://akashml.com/) | $0.03 | $0.17 | 11.7× |
 | DeepSeek: DeepSeek V4 Pro 0813 | 21 | [Baidu](https://intl.cloud.baidu.com/) | $0.24 | $0.73 | 6.8× |
 | MoonshotAI: Kimi K2.6 | 19 | [Baidu](https://intl.cloud.baidu.com/) | $0.41 | $1.72 | 2.7× |
-| MoonshotAI: Kimi K3 | 17 | [InferenceNet](https://inference.net/) | $1.00 | $9.00 | 3.5× |
+| MoonshotAI: Kimi K3 | 17 | [Morph](https://morphllm.com/) | $0.99 | $5.53 | 3.5× |
 | Qwen: Qwen3.8 27B | 16 | [Darkbloom](https://www.darkbloom.dev/) | $0.07 | $2.20 | 6.5× |
 | DeepSeek: DeepSeek V4 Flash 0423 | 16 | [Relace](https://www.relace.ai/) | $0.03 | $1.28 | 7.0× |
 | MoonshotAI: Kimi K2.7 Code | 15 | [Inceptron](https://www.inceptron.io/) | $0.66 | $3.30 | 1.4× |

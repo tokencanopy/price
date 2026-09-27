@@ -9894,10 +9894,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
      "name": "Phala | deepseek/deepseek-v4-flash-20260731",
      "pricing": {
-      "completion": "0.00000132",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000044"
+      "completion": "0.000000924",
+      "discount": 0.3,
+      "input_cache_read": "0.0000000196",
+      "prompt": "0.000000308"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -11946,10 +11946,10 @@
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "Phala | deepseek/deepseek-v4-pro-20260813",
      "pricing": {
-      "completion": "0.00000436",
-      "discount": 0,
-      "input_cache_read": "0.00000015",
-      "prompt": "0.00000145"
+      "completion": "0.0000028776",
+      "discount": 0.34,
+      "input_cache_read": "0.000000099",
+      "prompt": "0.000000957"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -12727,10 +12727,10 @@
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "DekaLLM | deepseek/deepseek-v4.1-flash-20260910",
      "pricing": {
-      "completion": "0.0000006",
+      "completion": "0.0000004",
       "discount": 0,
       "input_cache_read": "0.000000005",
-      "prompt": "0.00000015"
+      "prompt": "0.00000012"
      },
      "provider_name": "DekaLLM",
      "quantization": "unknown",
@@ -19611,7 +19611,7 @@
     },
     {
      "context_length": 262144,
-     "max_completion_tokens": 131072,
+     "max_completion_tokens": 32768,
      "max_prompt_tokens": null,
      "model_id": "google/gemma-4-26b-a4b-it",
      "model_name": "Google: Gemma 4 26B A4B ",
@@ -26757,10 +26757,10 @@
      "model_name": "Mistral: Mistral Nemo",
      "name": "Io Net | mistralai/mistral-nemo",
      "pricing": {
-      "completion": "0.0000001472",
-      "discount": 0.08,
-      "input_cache_read": "0.00000002668",
-      "prompt": "0.00000004048"
+      "completion": "0.0000001392",
+      "discount": 0.13,
+      "input_cache_read": "0.00000002523",
+      "prompt": "0.00000003828"
      },
      "provider_name": "Io Net",
      "quantization": "fp16",
@@ -30404,10 +30404,10 @@
      "model_name": "MoonshotAI: Kimi K3",
      "name": "Morph | moonshotai/kimi-k3-20260715",
      "pricing": {
-      "completion": "0.0000091",
-      "discount": 0.35,
-      "input_cache_read": "0.0000001885",
-      "prompt": "0.000001625"
+      "completion": "0.00000553",
+      "discount": 0.605,
+      "input_cache_read": "0.00000011455",
+      "prompt": "0.0000009875"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -31719,10 +31719,10 @@
      "model_name": "NVIDIA: Nemotron 3.5 Lightning",
      "name": "Io Net | nvidia/nemotron-3.5-lightning-20260807",
      "pricing": {
-      "completion": "0.00000019",
-      "discount": 0.05,
-      "input_cache_read": "0.00000003325",
-      "prompt": "0.0000000665"
+      "completion": "0.00000018",
+      "discount": 0.1,
+      "input_cache_read": "0.0000000315",
+      "prompt": "0.000000063"
      },
      "provider_name": "Io Net",
      "quantization": "unknown",
@@ -50625,10 +50625,10 @@
      "model_name": "Qwen: Qwen3.8 27B",
      "name": "DekaLLM | qwen/qwen3.8-27b-20260814",
      "pricing": {
-      "completion": "0.0000044",
+      "completion": "0.0000025",
       "discount": 0,
       "input_cache_read": "0.000000087",
-      "prompt": "0.000000096"
+      "prompt": "0.00000008"
      },
      "provider_name": "DekaLLM",
      "quantization": "unknown",
@@ -50907,8 +50907,8 @@
      "pricing": {
       "completion": "0.0000025",
       "discount": 0,
-      "input_cache_read": "0.0000000802",
-      "prompt": "0.0000000802"
+      "input_cache_read": "0.000000079",
+      "prompt": "0.000000079"
      },
      "provider_name": "Reka",
      "quantization": "unknown",
@@ -60693,10 +60693,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Inceptron | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.0000010322",
+      "completion": "0.0000025146",
       "discount": 0,
-      "input_cache_read": "0.0000000562",
-      "prompt": "0.0000002737"
+      "input_cache_read": "0.0000000623",
+      "prompt": "0.0000003032"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -60785,10 +60785,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Io Net | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.000002482",
-      "discount": 0.15,
-      "input_cache_read": "0.000000119",
-      "prompt": "0.0000006545"
+      "completion": "0.000001898",
+      "discount": 0.35,
+      "input_cache_read": "0.000000091",
+      "prompt": "0.0000005005"
      },
      "provider_name": "Io Net",
      "quantization": "fp8",
@@ -61057,10 +61057,10 @@
      "model_name": "Z.ai: GLM 5.3",
      "name": "Morph | z-ai/glm-5.3-20260816",
      "pricing": {
-      "completion": "0.0000008602",
-      "discount": 0.77,
-      "input_cache_read": "0.000000044965",
-      "prompt": "0.0000002737"
+      "completion": "0.000001138456",
+      "discount": 0.6956,
+      "input_cache_read": "0.0000000595102",
+      "prompt": "0.000000362236"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -61287,8 +61287,8 @@
      "pricing": {
       "completion": "0.000002574",
       "discount": 0,
-      "input_cache_read": "0.0000001521",
-      "prompt": "0.000000683"
+      "input_cache_read": "0.000000044965",
+      "prompt": "0.0000002737"
      },
      "provider_name": "Reka",
      "quantization": "unknown",
@@ -62387,10 +62387,10 @@
      "model_name": "Z.ai: GLM 5.3 Flash",
      "name": "Io Net | z-ai/glm-5.3-flash-20260826",
      "pricing": {
-      "completion": "0.0000005",
-      "discount": 0,
-      "input_cache_read": "0.00000003",
-      "prompt": "0.00000015"
+      "completion": "0.00000045",
+      "discount": 0.1,
+      "input_cache_read": "0.000000027",
+      "prompt": "0.000000135"
      },
      "provider_name": "Io Net",
      "quantization": "fp8",
@@ -62477,10 +62477,10 @@
      "model_name": "Z.ai: GLM 5.3 Flash",
      "name": "Morph | z-ai/glm-5.3-flash-20260826",
      "pricing": {
-      "completion": "0.00000056826",
-      "discount": 0.1882,
-      "input_cache_read": "0.000000032472",
-      "prompt": "0.00000016236"
+      "completion": "0.0000007",
+      "discount": 0,
+      "input_cache_read": "0.00000004",
+      "prompt": "0.0000002"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
