@@ -7283,9 +7283,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000018966",
-    "input_cache_read": "0.000000079025",
-    "prompt": "0.0000009483"
+    "completion": "0.00000191052",
+    "input_cache_read": "0.000000079605",
+    "prompt": "0.00000095526"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7363,9 +7363,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000035",
-    "input_cache_read": "0.0000002518",
-    "prompt": "0.0000002523"
+    "completion": "0.0000042",
+    "input_cache_read": "0.0000002261",
+    "prompt": "0.0000002266"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7442,8 +7442,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000006",
-    "input_cache_read": "0.00000002678",
-    "prompt": "0.00000002975"
+    "input_cache_read": "0.000000029",
+    "prompt": "0.0000000295"
    },
    "reasoning": {
     "default_effort": "high",
@@ -14072,7 +14072,6 @@
     "frequency_penalty",
     "include_reasoning",
     "logit_bias",
-    "logprobs",
     "max_tokens",
     "min_p",
     "presence_penalty",
@@ -14087,7 +14086,6 @@
     "tool_choice",
     "tools",
     "top_k",
-    "top_logprobs",
     "top_p"
    ],
    "supported_voices": null,
@@ -15053,8 +15051,8 @@
    "name": "MiniMax: MiniMax M2",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000102",
-    "prompt": "0.000000255"
+    "completion": "0.0000012",
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "mandatory": true
@@ -15080,9 +15078,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 204800,
+    "context_length": 196608,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 176947
    }
   },
   {
@@ -18372,9 +18370,9 @@
    "name": "MoonshotAI: Kimi K2.6",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000004",
-    "input_cache_read": "0.00000016",
-    "prompt": "0.00000095"
+    "completion": "0.00000341",
+    "input_cache_read": "0.00000015",
+    "prompt": "0.00000065"
    },
    "reasoning": {
     "default_enabled": true,
@@ -30567,7 +30565,7 @@
    "created": 1745876478,
    "default_parameters": {},
    "description": "Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for...",
-   "expiration_date": "2026-10-09",
+   "expiration_date": null,
    "hugging_face_id": "Qwen/Qwen3-14B",
    "id": "qwen/qwen3-14b",
    "knowledge_cutoff": "2025-03-31",
@@ -30577,8 +30575,8 @@
    "name": "Qwen: Qwen3 14B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000091",
-    "prompt": "0.0000002275"
+    "completion": "0.00000024",
+    "prompt": "0.00000012"
    },
    "reasoning": {
     "mandatory": false
@@ -30606,9 +30604,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 131072,
+    "context_length": 40960,
     "is_moderated": false,
-    "max_completion_tokens": 8192
+    "max_completion_tokens": 16384
    }
   },
   {
@@ -30988,7 +30986,7 @@
     "top_p": null
    },
    "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique...",
-   "expiration_date": "2026-10-09",
+   "expiration_date": null,
    "hugging_face_id": "Qwen/Qwen3-30B-A3B",
    "id": "qwen/qwen3-30b-a3b",
    "knowledge_cutoff": "2025-03-31",
@@ -30998,8 +30996,8 @@
    "name": "Qwen: Qwen3 30B A3B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000052",
-    "prompt": "0.00000013"
+    "completion": "0.0000005",
+    "prompt": "0.00000012"
    },
    "reasoning": {
     "default_enabled": true,
@@ -31026,9 +31024,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 131072,
+    "context_length": 40960,
     "is_moderated": false,
-    "max_completion_tokens": 8192
+    "max_completion_tokens": 16384
    }
   },
   {
@@ -41566,8 +41564,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000006",
-    "input_cache_read": "0.00000002678",
-    "prompt": "0.00000002975"
+    "input_cache_read": "0.000000029",
+    "prompt": "0.0000000295"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41642,9 +41640,9 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000035",
-    "input_cache_read": "0.0000002518",
-    "prompt": "0.0000002523"
+    "completion": "0.0000042",
+    "input_cache_read": "0.0000002261",
+    "prompt": "0.0000002266"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42623,9 +42621,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002574",
-    "input_cache_read": "0.00000006604",
-    "prompt": "0.0000003556"
+    "completion": "0.000002805",
+    "input_cache_read": "0.000000146625",
+    "prompt": "0.0000001785"
    },
    "reasoning": {
     "default_effort": "max",
@@ -42662,9 +42660,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 262144,
+    "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 943718
    }
   }
  ],
