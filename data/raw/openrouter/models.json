@@ -6901,9 +6901,8 @@
    "name": "DeepSeek: DeepSeek V3.2 Exp",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000002016",
-    "input_cache_read": "0.0000000672",
-    "prompt": "0.0000001344"
+    "completion": "0.00000041",
+    "prompt": "0.00000027"
    },
    "reasoning": {
     "mandatory": false
@@ -7164,7 +7163,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000032",
-    "input_cache_read": "0.00000001",
+    "input_cache_read": "0.000000018",
     "prompt": "0.000000018"
    },
    "reasoning": {
@@ -7476,8 +7475,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000042",
-    "input_cache_read": "0.0000003159",
-    "prompt": "0.0000003949"
+    "input_cache_read": "0.00000032",
+    "prompt": "0.0000004"
    },
    "reasoning": {
     "default_effort": "high",
@@ -34310,8 +34309,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000044",
-    "input_cache_read": "0.0000000439",
-    "prompt": "0.0000000549"
+    "input_cache_read": "0.0000000517",
+    "prompt": "0.0000000647"
    },
    "reasoning": {
     "default_effort": "xhigh",
@@ -40445,8 +40444,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000044",
-    "input_cache_read": "0.00000026",
-    "prompt": "0.0000003349"
+    "input_cache_read": "0.0000002599",
+    "prompt": "0.0000003249"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41749,7 +41748,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000006",
-    "input_cache_read": "0.00000001",
+    "input_cache_read": "0.00000002",
     "prompt": "0.00000002"
    },
    "reasoning": {
@@ -41827,7 +41826,7 @@
    "pricing": {
     "completion": "0.0000019584",
     "input_cache_read": "0.00000007488",
-    "prompt": "0.00000022592"
+    "prompt": "0.00000015808"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41898,9 +41897,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000032",
+    "completion": "0.0000007",
     "input_cache_read": "0.00000001",
-    "prompt": "0.000000018"
+    "prompt": "0.000000012"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42151,9 +42150,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000111062",
-    "input_cache_read": "0.000000288057",
-    "prompt": "0.00000085825"
+    "completion": "0.00001",
+    "input_cache_read": "0.0000004",
+    "prompt": "0.0000004"
    },
    "reasoning": {
     "default_effort": "max",
@@ -42728,9 +42727,9 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000005",
-    "input_cache_read": "0.000000015",
-    "prompt": "0.00000004"
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000001",
+    "prompt": "0.00000002"
    },
    "reasoning": {
     "default_effort": "max",
@@ -42769,7 +42768,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    }
   },
   {
@@ -42807,8 +42806,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000004",
-    "input_cache_read": "0.00000015",
-    "prompt": "0.00000015"
+    "input_cache_read": "0.00000019",
+    "prompt": "0.00000019"
    },
    "reasoning": {
     "default_effort": "max",
