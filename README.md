@@ -3,7 +3,7 @@
 **A public, machine-readable record of what LLM inference actually costs — and how that price changes over time.** Refreshed every 6 hours.
 
 <!-- BEGIN STATS -->
-**15,331** price points · **989** models · **78** platforms · updated **2026-09-29 06:47 UTC** · history since **2026-09-02** (28 snapshots)
+**15,331** price points · **989** models · **78** platforms · updated **2026-09-29 12:43 UTC** · history since **2026-09-02** (28 snapshots)
 <!-- END STATS -->
 
 Every provider publishes today's price. **Nobody publishes yesterday's.** This repo
@@ -41,16 +41,16 @@ yourself.
 | Model | Platforms | Cheapest | Input $/M | Output $/M | Spread |
 |---|--:|---|--:|--:|--:|
 | Z.ai: GLM 5.3 | 32 | [Relace](https://www.relace.ai/) | $0.19 | $4.00 | 11.1× |
-| Z.ai: GLM 5.3 Flash | 31 | [OpenInference](https://www.openinference.ai/) | $0.02 | $0.30 | 37.5× |
+| Z.ai: GLM 5.3 Flash | 31 | [OpenInference](https://www.openinference.ai/) | $0.02 | $0.30 | 50.0× |
 | DeepSeek: DeepSeek V4.1 Flash | 29 | [Relace](https://www.relace.ai/) | $0.02 | $0.60 | 18.8× |
-| DeepSeek: DeepSeek V4 Flash 0731 | 28 | [OpenInference](https://www.openinference.ai/) | $0.01 | $0.70 | 36.7× |
-| Z.ai: GLM 5.2 | 27 | [Relace](https://www.relace.ai/) | $0.20 | $4.00 | 11.2× |
+| DeepSeek: DeepSeek V4 Flash 0731 | 28 | [OpenInference](https://www.openinference.ai/) | $0.01 | $1.25 | 36.7× |
+| Z.ai: GLM 5.2 | 27 | [Wafer](https://www.wafer.ai/) | $0.19 | $4.40 | 11.5× |
 | OpenAI: gpt-oss-120b | 21 | [CoreWeave](https://coreweave.com/) | $0.03 | $0.17 | 11.7× |
-| DeepSeek: DeepSeek V4 Pro 0813 | 21 | [Ionstream](https://ionstream.ai/) | $0.16 | $1.96 | 10.4× |
+| DeepSeek: DeepSeek V4 Pro 0813 | 21 | [Ionstream](https://ionstream.ai/) | $0.10 | $1.96 | 17.2× |
 | MoonshotAI: Kimi K3 | 18 | [Relace](https://www.relace.ai/) | $0.40 | $10.00 | 8.6× |
 | MoonshotAI: Kimi K2.6 | 18 | [Inceptron](https://www.inceptron.io/) | $0.47 | $2.45 | 2.3× |
-| Qwen: Qwen3.8 27B | 16 | [Reka](https://reka.ai/) | $0.04 | $4.40 | 10.5× |
-| DeepSeek: DeepSeek V4 Flash 0423 | 15 | [OpenInference](https://www.openinference.ai/) | $0.01 | $0.70 | 17.5× |
+| Qwen: Qwen3.8 27B | 16 | [Wafer](https://www.wafer.ai/) | $0.04 | $4.40 | 11.1× |
+| DeepSeek: DeepSeek V4 Flash 0423 | 15 | [OpenInference](https://www.openinference.ai/) | $0.01 | $1.25 | 17.5× |
 | DeepSeek: DeepSeek V4 Pro 0423 | 15 | [Relace](https://www.relace.ai/) | $0.25 | $3.50 | 7.6× |
 | Z.ai: GLM 5.1 | 14 | [StreamLake](https://www.streamlake.ai/) | $0.97 | $3.04 | 1.5× |
 | Google: Gemma 4 31B | 14 | [Reka](https://reka.ai/) | $0.08 | $0.30 | 9.4× |

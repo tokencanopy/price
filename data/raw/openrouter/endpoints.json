@@ -9293,10 +9293,10 @@
      "name": "Baidu | deepseek/deepseek-v4-flash-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000028",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000014"
+      "completion": "0.00000017696",
+      "discount": 0.368,
+      "input_cache_read": "0.000000017696",
+      "prompt": "0.00000008848"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -9559,7 +9559,7 @@
      "name": "OpenInference | deepseek/deepseek-v4-flash-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000007",
+      "completion": "0.00000125",
       "discount": 0,
       "input_cache_read": "0.00000001",
       "prompt": "0.000000012"
@@ -10358,7 +10358,7 @@
      "name": "Inceptron | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000004784",
+      "completion": "0.00000065",
       "discount": 0,
       "input_cache_read": "0.000000027",
       "prompt": "0.000000056"
@@ -10692,7 +10692,7 @@
      "name": "OpenInference | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000007",
+      "completion": "0.00000125",
       "discount": 0,
       "input_cache_read": "0.00000001",
       "prompt": "0.000000012"
@@ -10789,10 +10789,10 @@
      "name": "Phala | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000132",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000044"
+      "completion": "0.000000924",
+      "discount": 0.3,
+      "input_cache_read": "0.0000000196",
+      "prompt": "0.000000308"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -11195,8 +11195,8 @@
      "pricing": {
       "completion": "0.00000035",
       "discount": 0,
-      "input_cache_read": "0.0000000499",
-      "prompt": "0.0000000624"
+      "input_cache_read": "0.0000000531",
+      "prompt": "0.00000007"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -11592,10 +11592,10 @@
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000338",
-      "discount": 0,
-      "input_cache_read": "0.00000014",
-      "prompt": "0.00000169"
+      "completion": "0.0000019097",
+      "discount": 0.435,
+      "input_cache_read": "0.0000000791",
+      "prompt": "0.00000095485"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -12039,10 +12039,10 @@
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000191052",
-      "discount": 0.451,
-      "input_cache_read": "0.000000079605",
-      "prompt": "0.00000095526"
+      "completion": "0.000001906344",
+      "discount": 0.4522,
+      "input_cache_read": "0.000000079431",
+      "prompt": "0.000000953172"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -12254,10 +12254,10 @@
      "name": "Baidu | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000396",
-      "discount": 0,
-      "input_cache_read": "0.000000042",
-      "prompt": "0.00000132"
+      "completion": "0.00000197604",
+      "discount": 0.501,
+      "input_cache_read": "0.000000020958",
+      "prompt": "0.00000065868"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -12441,9 +12441,9 @@
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000396",
+      "completion": "0.00000198",
       "discount": 0,
-      "input_cache_read": "0.000000044",
+      "input_cache_read": "0.000000022",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -12525,7 +12525,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000132"
+      "prompt": "0.00000066"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -12650,10 +12650,10 @@
      "name": "Io Net | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000315",
-      "discount": 0.1,
-      "input_cache_read": "0.000000081",
-      "prompt": "0.00000063"
+      "completion": "0.00000245",
+      "discount": 0.3,
+      "input_cache_read": "0.000000063",
+      "prompt": "0.00000049"
      },
      "provider_name": "Io Net",
      "quantization": "fp8",
@@ -12663,6 +12663,8 @@
       "max_tokens",
       "reasoning",
       "reasoning_effort",
+      "response_format",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -12693,7 +12695,7 @@
       "completion": "0.0000019584",
       "discount": 0.36,
       "input_cache_read": "0.00000007488",
-      "prompt": "0.00000015808"
+      "prompt": "0.000000096"
      },
      "provider_name": "Ionstream",
      "quantization": "unknown",
@@ -12873,10 +12875,10 @@
      "name": "Phala | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000436",
-      "discount": 0,
-      "input_cache_read": "0.00000015",
-      "prompt": "0.00000145"
+      "completion": "0.0000028776",
+      "discount": 0.34,
+      "input_cache_read": "0.000000099",
+      "prompt": "0.000000957"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -12922,8 +12924,8 @@
      "pricing": {
       "completion": "0.0000035",
       "discount": 0,
-      "input_cache_read": "0.00000025",
-      "prompt": "0.00000025"
+      "input_cache_read": "0.00000015",
+      "prompt": "0.00000015"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -13142,8 +13144,8 @@
      "pricing": {
       "completion": "0.0000042",
       "discount": 0,
-      "input_cache_read": "0.00000032",
-      "prompt": "0.0000004"
+      "input_cache_read": "0.000000384",
+      "prompt": "0.00000048"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -13537,9 +13539,9 @@
      "name": "DeepSeek | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000006",
+      "input_cache_read": "0.000000003",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -13621,7 +13623,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.0000003"
+      "prompt": "0.00000015"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -14357,10 +14359,10 @@
      "name": "Phala | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001104",
-      "discount": 0.2,
-      "input_cache_read": "0.00000000552",
-      "prompt": "0.000000276"
+      "completion": "0.00000084",
+      "discount": 0.3,
+      "input_cache_read": "0.0000000042",
+      "prompt": "0.00000021"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -14538,10 +14540,10 @@
      "name": "StreamLake | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000714",
-      "discount": 0.405,
-      "input_cache_read": "0.00000000357",
-      "prompt": "0.0000001785"
+      "completion": "0.00000066",
+      "discount": 0.45,
+      "input_cache_read": "0.0000000033",
+      "prompt": "0.000000165"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -20860,8 +20862,8 @@
      "tag": "google-vertex/global"
     },
     {
-     "context_length": 262144,
-     "max_completion_tokens": 235929,
+     "context_length": 262142,
+     "max_completion_tokens": 235927,
      "max_prompt_tokens": null,
      "model_id": "google/gemma-4-26b-a4b-it",
      "model_name": "Google: Gemma 4 26B A4B ",
@@ -20952,10 +20954,10 @@
      "name": "NextBit | google/gemma-4-26b-a4b-it-20260403",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000255",
+      "completion": "0.0000003",
       "discount": 0,
-      "input_cache_read": "0.0000000425",
-      "prompt": "0.0000000765"
+      "input_cache_read": "0.00000005",
+      "prompt": "0.00000009"
      },
      "provider_name": "NextBit",
      "quantization": "bf16",
@@ -21770,8 +21772,8 @@
      "tag": "reka"
     },
     {
-     "context_length": 131072,
-     "max_completion_tokens": 117964,
+     "context_length": 262144,
+     "max_completion_tokens": 235929,
      "max_prompt_tokens": null,
      "model_id": "google/gemma-4-31b-it",
      "model_name": "Google: Gemma 4 31B",
@@ -30443,7 +30445,7 @@
       "completion": "0.00000245",
       "discount": 0,
       "input_cache_read": "0.0000000975",
-      "prompt": "0.000000475"
+      "prompt": "0.000000465"
      },
      "provider_name": "Inceptron",
      "quantization": "int4",
@@ -31984,10 +31986,10 @@
      "name": "Morph | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000108206",
+      "completion": "0.000010696",
       "discount": 0,
       "input_cache_read": "0.00000029",
-      "prompt": "0.00000125"
+      "prompt": "0.00000122775"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -33440,7 +33442,7 @@
      "tag": "deepinfra/bf16"
     },
     {
-     "context_length": 1000000,
+     "context_length": 262144,
      "max_completion_tokens": 131072,
      "max_prompt_tokens": null,
      "model_id": "nvidia/nemotron-3.5-lightning",
@@ -33461,6 +33463,7 @@
       "max_tokens",
       "reasoning",
       "temperature",
+      "tools",
       "top_logprobs"
      ],
      "supports_image_reference": false,
@@ -38836,7 +38839,7 @@
     "tokenizer": "GPT"
    },
    "created": 1783590867,
-   "description": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+   "description": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
    "endpoints": [
     {
      "context_length": 1050000,
@@ -39552,7 +39555,7 @@
     "tokenizer": "GPT"
    },
    "created": 1783590854,
-   "description": "GPT-5.6 Sol Pro is the same underlying model as [GPT-5.6 Sol](https://openrouter.ai/openai/gpt-5.6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+   "description": "GPT-5.6 Sol Pro is the same underlying model as [GPT-5.6 Sol](https://openrouter.ai/openai/gpt-5.6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
    "endpoints": [
     {
      "context_length": 1050000,
@@ -40268,7 +40271,7 @@
     "tokenizer": "GPT"
    },
    "created": 1783590861,
-   "description": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+   "description": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
    "endpoints": [
     {
      "context_length": 1050000,
@@ -40927,7 +40930,7 @@
     "tokenizer": "GPT"
    },
    "created": 1788552835,
-   "description": "GPT-6 Astra Pro is the same underlying model as [GPT-6 Astra](https://openrouter.ai/openai/gpt-6-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+   "description": "GPT-6 Astra Pro is the same underlying model as [GPT-6 Astra](https://openrouter.ai/openai/gpt-6-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
    "endpoints": [
     {
      "context_length": 1050000,
@@ -41643,7 +41646,7 @@
     "tokenizer": "GPT"
    },
    "created": 1790100791,
-   "description": "GPT-6 Luna Pro is the same underlying model as [GPT-6 Luna](https://openrouter.ai/openai/gpt-6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+   "description": "GPT-6 Luna Pro is the same underlying model as [GPT-6 Luna](https://openrouter.ai/openai/gpt-6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
    "endpoints": [
     {
      "context_length": 1050000,
@@ -42416,7 +42419,7 @@
     "tokenizer": "GPT"
    },
    "created": 1790100781,
-   "description": "GPT-6 Sol Pro is the same underlying model as [GPT-6 Sol](https://openrouter.ai/openai/gpt-6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+   "description": "GPT-6 Sol Pro is the same underlying model as [GPT-6 Sol](https://openrouter.ai/openai/gpt-6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
    "endpoints": [
     {
      "context_length": 1050000,
@@ -53579,7 +53582,7 @@
      "name": "Ionstream | qwen/qwen3.8-27b-20260814",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000002775",
+      "completion": "0.00000255",
       "discount": 0,
       "input_cache_read": "0.000000085",
       "prompt": "0.000000089"
@@ -53763,8 +53766,8 @@
      "tag": "parasail/fp8"
     },
     {
-     "context_length": 262144,
-     "max_completion_tokens": 235929,
+     "context_length": 1000000,
+     "max_completion_tokens": 262144,
      "max_prompt_tokens": null,
      "model_id": "qwen/qwen3.8-27b",
      "model_name": "Qwen: Qwen3.8 27B",
@@ -53910,8 +53913,8 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.0000000517",
-      "prompt": "0.0000000647"
+      "input_cache_read": "0.0000000326",
+      "prompt": "0.0000000407"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -62783,10 +62786,10 @@
      "name": "Inceptron | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000295",
+      "completion": "0.0000028673",
       "discount": 0,
-      "input_cache_read": "0.000000191",
-      "prompt": "0.0000003933"
+      "input_cache_read": "0.000000169",
+      "prompt": "0.0000003916"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -63285,8 +63288,8 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.0000002599",
-      "prompt": "0.0000003249"
+      "input_cache_read": "0.0000001559",
+      "prompt": "0.0000001949"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -63580,10 +63583,10 @@
      "name": "Baidu | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "completion": "0.0000043956",
+      "discount": 0.001,
+      "input_cache_read": "0.00000025974",
+      "prompt": "0.0000013986"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -64162,10 +64165,10 @@
      "name": "Inceptron | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000314",
+      "completion": "0.0000026167",
       "discount": 0,
       "input_cache_read": "0.0000001836",
-      "prompt": "0.0000003255"
+      "prompt": "0.00000031"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -64488,7 +64491,7 @@
       "completion": "0.000002992",
       "discount": 0,
       "input_cache_read": "0.0000001955",
-      "prompt": "0.000000714"
+      "prompt": "0.0000008449"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -64622,17 +64625,17 @@
     },
     {
      "context_length": 1048576,
-     "max_completion_tokens": 131072,
+     "max_completion_tokens": 943718,
      "max_prompt_tokens": null,
      "model_id": "z-ai/glm-5.3",
      "model_name": "Z.ai: GLM 5.3",
      "name": "Phala | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000308",
-      "discount": 0.3,
-      "input_cache_read": "0.000000182",
-      "prompt": "0.00000098"
+      "completion": "0.00000176",
+      "discount": 0.6,
+      "input_cache_read": "0.000000104",
+      "prompt": "0.00000056"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -65041,7 +65044,7 @@
       "completion": "0.0000044",
       "discount": 0,
       "input_cache_read": "0.0000002359",
-      "prompt": "0.0000003539"
+      "prompt": "0.0000002949"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -65091,7 +65094,7 @@
       "completion": "0.0000044",
       "discount": 0,
       "input_cache_read": "0.0000002359",
-      "prompt": "0.0000003539"
+      "prompt": "0.0000002949"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -65800,7 +65803,7 @@
       "completion": "0.00000045",
       "discount": 0,
       "input_cache_read": "0.00000004",
-      "prompt": "0.00000012"
+      "prompt": "0.00000015"
      },
      "provider_name": "Inceptron",
      "quantization": "fp8",
@@ -66129,10 +66132,10 @@
      "name": "Novita | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000375",
-      "discount": 0.25,
-      "input_cache_read": "0.0000000225",
-      "prompt": "0.0000001125"
+      "completion": "0.00000028",
+      "discount": 0.44,
+      "input_cache_read": "0.0000000168",
+      "prompt": "0.000000084"
      },
      "provider_name": "Novita",
      "quantization": "fp8",
@@ -66676,7 +66679,7 @@
       "completion": "0.0000005",
       "discount": 0,
       "input_cache_read": "0.00000003",
-      "prompt": "0.00000075"
+      "prompt": "0.000001"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
