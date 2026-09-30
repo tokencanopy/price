@@ -7171,9 +7171,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000032",
-    "input_cache_read": "0.000000018",
-    "prompt": "0.000000018"
+    "completion": "0.00000128",
+    "input_cache_read": "0.00000001",
+    "prompt": "0.00000001"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7483,8 +7483,8 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022",
+    "completion": "0.00000396",
+    "input_cache_read": "0.000000044",
     "overrides": [
      {
       "completion": "0.00000198",
@@ -7566,7 +7566,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000066"
+    "prompt": "0.00000132"
    },
    "reasoning": {
     "default_effort": "high",
@@ -18723,9 +18723,9 @@
    "name": "MoonshotAI: Kimi K2.7 Code",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000033",
+    "completion": "0.00000335",
     "input_cache_read": "0.00000018",
-    "prompt": "0.0000006562"
+    "prompt": "0.0000006712"
    },
    "reasoning": {
     "default_enabled": true,
@@ -40886,8 +40886,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000399",
-    "input_cache_read": "0.0000001159",
-    "prompt": "0.0000001449"
+    "input_cache_read": "0.00000024",
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42267,8 +42267,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000035",
-    "input_cache_read": "0.00000015",
-    "prompt": "0.00000015"
+    "input_cache_read": "0.0000002",
+    "prompt": "0.0000002"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42339,9 +42339,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000125",
+    "completion": "0.00000128",
     "input_cache_read": "0.00000001",
-    "prompt": "0.000000012"
+    "prompt": "0.00000001"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43239,7 +43239,7 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000015",
+    "completion": "0.000004",
     "input_cache_read": "0.00000012",
     "prompt": "0.00000012"
    },
