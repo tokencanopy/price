@@ -7028,9 +7028,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000016184",
-    "input_cache_read": "0.000000016184",
-    "prompt": "0.00000008092"
+    "completion": "0.00000015708",
+    "input_cache_read": "0.000000015708",
+    "prompt": "0.00000007854"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7066,9 +7066,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1024000,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 384000
    }
   },
   {
@@ -13319,6 +13319,7 @@
     "max_tokens",
     "min_p",
     "presence_penalty",
+    "repetition_penalty",
     "response_format",
     "seed",
     "stop",
@@ -13371,6 +13372,7 @@
     "max_tokens",
     "min_p",
     "presence_penalty",
+    "repetition_penalty",
     "response_format",
     "seed",
     "stop",
@@ -31597,7 +31599,7 @@
     "top_p": null
    },
    "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique...",
-   "expiration_date": "2026-10-09",
+   "expiration_date": null,
    "hugging_face_id": "Qwen/Qwen3-30B-A3B",
    "id": "qwen/qwen3-30b-a3b",
    "knowledge_cutoff": "2025-03-31",
@@ -31607,8 +31609,8 @@
    "name": "Qwen: Qwen3 30B A3B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000052",
-    "prompt": "0.00000013"
+    "completion": "0.0000005",
+    "prompt": "0.00000012"
    },
    "reasoning": {
     "default_enabled": true,
@@ -31635,9 +31637,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 131072,
+    "context_length": 40960,
     "is_moderated": false,
-    "max_completion_tokens": 8192
+    "max_completion_tokens": 16384
    }
   },
   {
@@ -36326,8 +36328,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -36344,7 +36346,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -36485,8 +36487,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -36503,7 +36505,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -40895,7 +40897,7 @@
    "pricing": {
     "completion": "0.00000399",
     "input_cache_read": "0.00000026",
-    "prompt": "0.00000041"
+    "prompt": "0.000000432"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42600,9 +42602,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000079431",
-    "input_cache_read": "0.0000004",
-    "prompt": "0.0000003177"
+    "completion": "0.000009",
+    "input_cache_read": "0.00000028",
+    "prompt": "0.00000029"
    },
    "reasoning": {
     "default_effort": "max",
