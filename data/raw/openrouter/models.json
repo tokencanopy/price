@@ -7042,9 +7042,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000015708",
-    "input_cache_read": "0.000000015708",
-    "prompt": "0.00000007854"
+    "completion": "0.000000084",
+    "input_cache_read": "0.0000000084",
+    "prompt": "0.000000042"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7178,8 +7178,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000079",
-    "prompt": "0.0000000079"
+    "input_cache_read": "0.0000000108",
+    "prompt": "0.0000000108"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7409,9 +7409,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000001566",
-    "input_cache_read": "0.00000006525",
-    "prompt": "0.000000783"
+    "completion": "0.00000046284",
+    "input_cache_read": "0.000000019285",
+    "prompt": "0.00000023142"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7649,8 +7649,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000006",
-    "input_cache_read": "0.0000000177",
-    "prompt": "0.0000000177"
+    "input_cache_read": "0.000000027",
+    "prompt": "0.000000027"
    },
    "reasoning": {
     "default_effort": "high",
@@ -18918,8 +18918,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00001",
-    "input_cache_read": "0.00000027",
-    "prompt": "0.00000028"
+    "input_cache_read": "0.0000007034",
+    "prompt": "0.0000007034"
    },
    "reasoning": {
     "default_effort": "max",
@@ -28188,169 +28188,6 @@
   {
    "architecture": {
     "input_modalities": [
-     "file",
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image+file->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "GPT"
-   },
-   "canonical_slug": "openai/gpt-6.1-sol-pro-20260929",
-   "context_length": 1050000,
-   "created": 1790702886,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "presence_penalty": null,
-    "repetition_penalty": null,
-    "temperature": null,
-    "top_k": null,
-    "top_p": null
-   },
-   "description": "GPT-6.1 Sol Pro is the same underlying model as [GPT-6.1 Sol](https://openrouter.ai/openai/gpt-6.1-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
-   "expiration_date": null,
-   "hugging_face_id": null,
-   "id": "openai/gpt-6.1-sol-pro:batch",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/openai/gpt-6.1-sol-pro-20260929/endpoints"
-   },
-   "name": "OpenAI: GPT-6.1 Sol Pro (batch)",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.000005",
-    "input_cache_read": "0.00000005",
-    "input_cache_write": "0.00000125",
-    "overrides": [
-     {
-      "completion": "0.0000075",
-      "input_cache_read": "0.0000001",
-      "input_cache_write": "0.0000025",
-      "min_prompt_tokens": 272000,
-      "prompt": "0.000002"
-     }
-    ],
-    "prompt": "0.000001",
-    "web_search": "0.01"
-   },
-   "reasoning": {
-    "default_effort": "medium",
-    "default_enabled": true,
-    "mandatory": true,
-    "supported_efforts": [
-     "high",
-     "low",
-     "max",
-     "medium",
-     "xhigh"
-    ]
-   },
-   "supported_parameters": [
-    "include_reasoning",
-    "max_tokens",
-    "reasoning",
-    "reasoning_effort",
-    "response_format",
-    "seed",
-    "structured_outputs",
-    "tool_choice",
-    "tools"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 1050000,
-    "is_moderated": true,
-    "max_completion_tokens": 128000
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "file",
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image+file->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "GPT"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": null,
-     "coding_index": null,
-     "intelligence_index": 51.8
-    },
-    "design_arena": []
-   },
-   "canonical_slug": "openai/gpt-6.1-sol-20260929",
-   "context_length": 1050000,
-   "created": 1790702882,
-   "default_parameters": {},
-   "description": "GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series. It is suited for agentic coding, computer use, document-heavy professional...",
-   "expiration_date": null,
-   "hugging_face_id": null,
-   "id": "openai/gpt-6.1-sol:batch",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/openai/gpt-6.1-sol-20260929/endpoints"
-   },
-   "name": "OpenAI: GPT-6.1 Sol (batch)",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.000005",
-    "input_cache_read": "0.00000005",
-    "input_cache_write": "0.00000125",
-    "overrides": [
-     {
-      "completion": "0.0000075",
-      "input_cache_read": "0.0000001",
-      "input_cache_write": "0.0000025",
-      "min_prompt_tokens": 272000,
-      "prompt": "0.000002"
-     }
-    ],
-    "prompt": "0.000001",
-    "web_search": "0.01"
-   },
-   "reasoning": {
-    "default_effort": "medium",
-    "default_enabled": true,
-    "mandatory": true,
-    "supported_efforts": [
-     "high",
-     "low",
-     "max",
-     "medium",
-     "xhigh"
-    ]
-   },
-   "supported_parameters": [
-    "include_reasoning",
-    "max_tokens",
-    "reasoning",
-    "reasoning_effort",
-    "response_format",
-    "seed",
-    "structured_outputs",
-    "tool_choice",
-    "tools"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 1050000,
-    "is_moderated": true,
-    "max_completion_tokens": 128000
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
      "audio",
      "text"
     ],
@@ -31612,7 +31449,7 @@
     "top_p": null
    },
    "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique...",
-   "expiration_date": "2026-10-09",
+   "expiration_date": null,
    "hugging_face_id": "Qwen/Qwen3-30B-A3B",
    "id": "qwen/qwen3-30b-a3b",
    "knowledge_cutoff": "2025-03-31",
@@ -31622,8 +31459,8 @@
    "name": "Qwen: Qwen3 30B A3B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000052",
-    "prompt": "0.00000013"
+    "completion": "0.0000005",
+    "prompt": "0.00000012"
    },
    "reasoning": {
     "default_enabled": true,
@@ -31650,9 +31487,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 131072,
+    "context_length": 40960,
     "is_moderated": false,
-    "max_completion_tokens": 8192
+    "max_completion_tokens": 16384
    }
   },
   {
@@ -40955,9 +40792,9 @@
    "name": "Z.ai: GLM 5.2",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000399",
+    "completion": "0.0000044",
     "input_cache_read": "0.00000026",
-    "prompt": "0.0000003249"
+    "prompt": "0.0000014"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41114,9 +40951,9 @@
    "name": "Z.ai: GLM 5.3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000634",
-    "input_cache_read": "0.0000002217",
-    "prompt": "0.0000002219"
+    "completion": "0.0000044",
+    "input_cache_read": "0.00000024",
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "max",
@@ -42260,8 +42097,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000006",
-    "input_cache_read": "0.0000000177",
-    "prompt": "0.0000000177"
+    "input_cache_read": "0.000000027",
+    "prompt": "0.000000027"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42336,9 +42173,9 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000035",
-    "input_cache_read": "0.000000123",
-    "prompt": "0.000000123"
+    "completion": "0.00000072072",
+    "input_cache_read": "0.000000007644",
+    "prompt": "0.00000024024"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42409,9 +42246,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000013068",
-    "input_cache_read": "0.000000001386",
-    "prompt": "0.000000007821"
+    "completion": "0.00000128",
+    "input_cache_read": "0.0000000108",
+    "prompt": "0.0000000108"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42663,8 +42500,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00001",
-    "input_cache_read": "0.00000027",
-    "prompt": "0.00000028"
+    "input_cache_read": "0.0000007034",
+    "prompt": "0.0000007034"
    },
    "reasoning": {
     "default_effort": "max",
@@ -43231,7 +43068,7 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000002475",
+    "completion": "0.0000003",
     "input_cache_read": "0.00000001",
     "prompt": "0.00000002"
    },
@@ -43310,8 +43147,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000004",
-    "input_cache_read": "0.0000001463",
-    "prompt": "0.0000001463"
+    "input_cache_read": "0.000000179",
+    "prompt": "0.000000179"
    },
    "reasoning": {
     "default_effort": "max",
@@ -43357,5 +43194,5 @@
  "links": {
   "next": null
  },
- "total_count": 464
+ "total_count": 462
 }
