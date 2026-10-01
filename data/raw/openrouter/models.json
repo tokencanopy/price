@@ -5104,6 +5104,63 @@
     ],
     "tokenizer": "Other"
    },
+   "canonical_slug": "apodex/apodex-1.1-mini-20261001",
+   "context_length": 262144,
+   "created": 1790875335,
+   "default_parameters": {},
+   "description": "Apodex 1.1 Mini is a reasoning-first model from Apodex, built for complex, long-horizon research and forecasting tasks. It works directly with files, data, code, and tools to produce verifiable results,...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "apodex/apodex-1.1-mini:free",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/apodex/apodex-1.1-mini-20261001/endpoints"
+   },
+   "name": "Apodex: Apodex 1.1 Mini (free)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0",
+    "prompt": "0"
+   },
+   "reasoning": {
+    "mandatory": false
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "max_tokens",
+    "presence_penalty",
+    "reasoning",
+    "repetition_penalty",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 262144,
+    "is_moderated": false,
+    "max_completion_tokens": 235929
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
    "benchmarks": {
     "artificial_analysis": {
      "agentic_index": 1,
@@ -14024,7 +14081,6 @@
     "logit_bias",
     "logprobs",
     "max_tokens",
-    "min_p",
     "presence_penalty",
     "repetition_penalty",
     "response_format",
@@ -18918,8 +18974,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00001",
-    "input_cache_read": "0.0000006797",
-    "prompt": "0.0000006797"
+    "input_cache_read": "0.0000006635",
+    "prompt": "0.0000006635"
    },
    "reasoning": {
     "default_effort": "max",
@@ -22138,7 +22194,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -22229,7 +22286,8 @@
     "structured_outputs",
     "temperature",
     "top_logprobs",
-    "top_p"
+    "top_p",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -22320,7 +22378,8 @@
     "structured_outputs",
     "temperature",
     "top_logprobs",
-    "top_p"
+    "top_p",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -22455,7 +22514,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -22589,7 +22649,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -22882,7 +22943,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -22944,7 +23006,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -23080,7 +23143,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -23207,7 +23271,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -23275,7 +23340,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -23402,7 +23468,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -23537,7 +23604,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -23703,7 +23771,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -23756,7 +23825,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -23860,7 +23930,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -23924,7 +23995,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -23988,7 +24060,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -24153,7 +24226,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -24319,7 +24393,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -24499,7 +24574,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -24576,7 +24652,8 @@
     "seed",
     "stop",
     "structured_outputs",
-    "top_logprobs"
+    "top_logprobs",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -24656,7 +24733,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -24735,7 +24813,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -24969,7 +25048,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -25043,7 +25123,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -25222,7 +25303,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -25458,7 +25540,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -25532,7 +25615,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -25606,7 +25690,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -25841,7 +25926,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -26015,7 +26101,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -26095,7 +26182,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -26357,7 +26445,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -26439,7 +26528,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -26703,7 +26793,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -26783,7 +26874,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -27005,7 +27097,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -27163,7 +27256,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -27237,7 +27331,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -27839,7 +27934,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -27921,7 +28017,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -28094,7 +28191,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -28176,7 +28274,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -35888,10 +35987,8 @@
    "supported_parameters": [
     "frequency_penalty",
     "include_reasoning",
-    "logit_bias",
     "logprobs",
     "max_tokens",
-    "min_p",
     "presence_penalty",
     "reasoning",
     "reasoning_effort",
@@ -36178,8 +36275,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -36196,7 +36293,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -36337,8 +36434,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -36355,7 +36452,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -37115,6 +37212,52 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 262144,
+    "is_moderated": false,
+    "max_completion_tokens": 131072
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "unbiased/pareto-26.10-preview-20260929",
+   "context_length": 1048576,
+   "created": 1790863623,
+   "default_parameters": {},
+   "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. This is a preview of the...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "unbiased/pareto-26.10-preview",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/unbiased/pareto-26.10-preview-20260929/endpoints"
+   },
+   "name": "Pareto 26.10 Preview",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.0000032",
+    "input_cache_read": "0.00000003",
+    "prompt": "0.0000008"
+   },
+   "supported_parameters": [
+    "max_tokens",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1048576,
     "is_moderated": false,
     "max_completion_tokens": 131072
    }
@@ -40792,9 +40935,9 @@
    "name": "Z.ai: GLM 5.2",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000044",
+    "completion": "0.00000399",
     "input_cache_read": "0.00000026",
-    "prompt": "0.0000014"
+    "prompt": "0.00000041"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42097,8 +42240,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000006",
-    "input_cache_read": "0.0000000243",
-    "prompt": "0.0000000243"
+    "input_cache_read": "0.0000000255",
+    "prompt": "0.0000000255"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42173,9 +42316,9 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000035",
-    "input_cache_read": "0.0000001853",
-    "prompt": "0.0000001853"
+    "completion": "0.00000045936",
+    "input_cache_read": "0.000000004872",
+    "prompt": "0.00000015312"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42500,8 +42643,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00001",
-    "input_cache_read": "0.0000006797",
-    "prompt": "0.0000006797"
+    "input_cache_read": "0.0000006635",
+    "prompt": "0.0000006635"
    },
    "reasoning": {
     "default_effort": "max",
@@ -42775,7 +42918,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -42854,7 +42998,8 @@
     "seed",
     "structured_outputs",
     "tool_choice",
-    "tools"
+    "tools",
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -43146,9 +43291,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002694",
-    "input_cache_read": "0.000000176",
-    "prompt": "0.00000006"
+    "completion": "0.00000114",
+    "input_cache_read": "0.000000067",
+    "prompt": "0.00000012"
    },
    "reasoning": {
     "default_effort": "max",
@@ -43185,14 +43330,14 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 235929
    }
   }
  ],
  "links": {
   "next": null
  },
- "total_count": 462
+ "total_count": 464
 }

@@ -9755,9 +9755,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001056",
+      "completion": "0.000000528",
       "discount": 0,
-      "input_cache_read": "0.0000000352",
+      "input_cache_read": "0.0000000176",
       "overrides": [
        {
         "completion": "0.000000528",
@@ -9774,7 +9774,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000352"
+      "prompt": "0.000000176"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -11813,10 +11813,10 @@
      "name": "Reka | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000026",
+      "completion": "0.000002",
       "discount": 0,
-      "input_cache_read": "0.00000013",
-      "prompt": "0.0000013"
+      "input_cache_read": "0.0000002",
+      "prompt": "0.000001"
      },
      "provider_name": "Reka",
      "quantization": "unknown",
@@ -11877,6 +11877,7 @@
       "reasoning",
       "reasoning_effort",
       "repetition_penalty",
+      "response_format",
       "stop",
       "temperature",
       "tool_choice",
@@ -12052,9 +12053,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000003366",
+      "completion": "0.0000017424",
       "discount": 0,
-      "input_cache_read": "0.0000001122",
+      "input_cache_read": "0.00000005808",
       "overrides": [
        {
         "completion": "0.0000017424",
@@ -12071,7 +12072,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000001122"
+      "prompt": "0.0000005808"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -12161,10 +12162,10 @@
      "name": "Baidu | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000058608",
-      "discount": 0.852,
-      "input_cache_read": "0.000000006216",
-      "prompt": "0.00000019536"
+      "completion": "0.00000045936",
+      "discount": 0.884,
+      "input_cache_read": "0.000000004872",
+      "prompt": "0.00000015312"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -12557,7 +12558,7 @@
      "name": "Ionstream | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001796352",
+      "completion": "0.0000017424",
       "discount": 0.36,
       "input_cache_read": "0.00000008832",
       "prompt": "0.000000362496"
@@ -12781,18 +12782,18 @@
      "tag": "phala"
     },
     {
-     "context_length": 1024000,
-     "max_completion_tokens": 384000,
+     "context_length": 1048576,
+     "max_completion_tokens": 393216,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4-pro-0813",
      "model_name": "DeepSeek: DeepSeek V4 Pro 0813",
      "name": "Reka | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000003366",
+      "completion": "0.0000017424",
       "discount": 0,
-      "input_cache_read": "0.0000001122",
-      "prompt": "0.000001122"
+      "input_cache_read": "0.0000000581",
+      "prompt": "0.0000005808"
      },
      "provider_name": "Reka",
      "quantization": "unknown",
@@ -12834,8 +12835,8 @@
      "pricing": {
       "completion": "0.0000035",
       "discount": 0,
-      "input_cache_read": "0.0000001853",
-      "prompt": "0.0000001853"
+      "input_cache_read": "0.0000002497",
+      "prompt": "0.0000002497"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -13122,9 +13123,9 @@
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.00000003",
+      "input_cache_read": "0.000000015",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -13141,7 +13142,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000003"
+      "prompt": "0.00000015"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -13849,7 +13850,7 @@
      "pricing": {
       "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.00000002",
+      "input_cache_read": "0.00000001",
       "prompt": "0.00000004"
      },
      "provider_name": "InferenceNet",
@@ -14030,6 +14031,47 @@
      },
      "supports_voice_cloning": false,
      "tag": "makora/fp8"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "name": "Modal | deepseek/deepseek-v4.1-flash-20260910",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000012",
+      "discount": 0,
+      "input_cache_read": "0.00000003",
+      "prompt": "0.0000003"
+     },
+     "provider_name": "Modal",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+     ],
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "modal"
     },
     {
      "context_length": 1048576,
@@ -14317,17 +14359,17 @@
     },
     {
      "context_length": 1048576,
-     "max_completion_tokens": 131072,
+     "max_completion_tokens": 943718,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4.1-flash",
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "Reka | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000084",
+      "completion": "0.000000564",
       "discount": 0,
-      "input_cache_read": "0.000000008",
-      "prompt": "0.0000002"
+      "input_cache_read": "0.0000000141",
+      "prompt": "0.000000141"
      },
      "provider_name": "Reka",
      "quantization": "unknown",
@@ -14373,8 +14415,8 @@
      "pricing": {
       "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.0000000243",
-      "prompt": "0.0000000243"
+      "input_cache_read": "0.0000000255",
+      "prompt": "0.0000000255"
      },
      "provider_name": "Relace",
      "quantization": "unknown",
@@ -21650,8 +21692,8 @@
      "tag": "parasail/fp8"
     },
     {
-     "context_length": 131072,
-     "max_completion_tokens": 117964,
+     "context_length": 262144,
+     "max_completion_tokens": 235929,
      "max_prompt_tokens": null,
      "model_id": "google/gemma-4-31b-it",
      "model_name": "Google: Gemma 4 31B",
@@ -23950,48 +23992,6 @@
    "created": 1743881822,
    "description": "Llama 4 Maverick 17B Instruct (128E) is a high-capacity multimodal language model from Meta, built on a mixture-of-experts (MoE) architecture with 128 experts and 17 billion active parameters per forward...",
    "endpoints": [
-    {
-     "context_length": 1048576,
-     "max_completion_tokens": 16384,
-     "max_prompt_tokens": null,
-     "model_id": "meta-llama/llama-4-maverick",
-     "model_name": "Meta: Llama 4 Maverick",
-     "name": "DeepInfra | meta-llama/llama-4-maverick-17b-128e-instruct",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000008",
-      "discount": 0,
-      "prompt": "0.0000002"
-     },
-     "provider_name": "DeepInfra",
-     "quantization": "fp8",
-     "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "top_k",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "deepinfra/base"
-    },
     {
      "context_length": 128000,
      "max_completion_tokens": 16384,
@@ -31653,8 +31653,8 @@
      "pricing": {
       "completion": "0.000013",
       "discount": 0,
-      "input_cache_read": "0.00000168",
-      "prompt": "0.00000169"
+      "input_cache_read": "0.0000005",
+      "prompt": "0.00000139"
      },
      "provider_name": "InferenceNet",
      "quantization": "fp4",
@@ -31828,10 +31828,10 @@
      "name": "Morph | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000011082",
+      "completion": "0.000009107",
       "discount": 0,
       "input_cache_read": "0.00000029",
-      "prompt": "0.000002404"
+      "prompt": "0.000002051"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -31978,8 +31978,8 @@
      "pricing": {
       "completion": "0.00001",
       "discount": 0,
-      "input_cache_read": "0.0000006797",
-      "prompt": "0.0000006797"
+      "input_cache_read": "0.0000006635",
+      "prompt": "0.0000006635"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -32066,10 +32066,10 @@
      "name": "Together | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000015",
+      "completion": "0.0000135",
       "discount": 0,
-      "input_cache_read": "0.0000003",
-      "prompt": "0.000003"
+      "input_cache_read": "0.00000027",
+      "prompt": "0.0000027"
      },
      "provider_name": "Together",
      "quantization": "unknown",
@@ -32116,7 +32116,7 @@
       "completion": "0.000014",
       "discount": 0,
       "input_cache_read": "0.0000003",
-      "prompt": "0.0000014417"
+      "prompt": "0.00000139"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -34970,7 +34970,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -35014,7 +35015,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -35061,7 +35063,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -35133,7 +35136,8 @@
       "structured_outputs",
       "temperature",
       "top_logprobs",
-      "top_p"
+      "top_p",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -35205,7 +35209,8 @@
       "structured_outputs",
       "temperature",
       "top_logprobs",
-      "top_p"
+      "top_p",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -35270,7 +35275,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -35314,7 +35320,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -35361,7 +35368,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -35408,7 +35416,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -35678,7 +35687,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -35743,7 +35753,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -35787,7 +35798,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -35834,7 +35846,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -35881,7 +35894,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -35928,7 +35942,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -35992,7 +36007,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -36056,7 +36072,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -36120,7 +36137,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -36185,7 +36203,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -36232,7 +36251,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -36279,7 +36299,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -36326,7 +36347,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -36388,7 +36410,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -36452,7 +36475,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -36519,7 +36543,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -36584,7 +36609,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -36631,7 +36657,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -36678,7 +36705,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -36743,8 +36771,11 @@
       "max_tokens",
       "reasoning",
       "reasoning_effort",
+      "response_format",
+      "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -36796,7 +36827,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -36848,7 +36880,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -36900,7 +36933,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -36955,7 +36989,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -37010,7 +37045,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -37065,7 +37101,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -37136,7 +37173,8 @@
       "seed",
       "stop",
       "structured_outputs",
-      "top_logprobs"
+      "top_logprobs",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -37201,7 +37239,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -37245,7 +37284,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -37292,7 +37332,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -37339,7 +37380,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -37386,7 +37428,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -37660,7 +37703,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -37713,7 +37757,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -37766,7 +37811,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -37831,8 +37877,11 @@
       "max_tokens",
       "reasoning",
       "reasoning_effort",
+      "response_format",
+      "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": true,
@@ -37887,7 +37936,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -37942,7 +37992,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -37997,7 +38048,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -38052,7 +38104,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -38107,7 +38160,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -38162,7 +38216,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -38236,7 +38291,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -38289,7 +38345,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -38777,7 +38834,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -38834,7 +38892,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -38891,7 +38950,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -38948,7 +39008,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -39005,7 +39066,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -39493,7 +39555,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -39550,7 +39613,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -39607,7 +39671,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -39664,7 +39729,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -39721,7 +39787,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -40209,7 +40276,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -40266,7 +40334,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -40323,7 +40392,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -40380,7 +40450,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -40437,7 +40508,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -40925,7 +40997,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -40982,7 +41055,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -41039,7 +41113,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -41096,7 +41171,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -41153,7 +41229,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -41210,7 +41287,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -42471,7 +42549,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -42528,7 +42607,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -42585,7 +42665,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -42642,7 +42723,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -42699,7 +42781,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -42756,7 +42839,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -42834,7 +42918,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -42891,7 +42976,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -42948,7 +43034,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -43005,7 +43092,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -43062,7 +43150,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -43119,7 +43208,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -43197,7 +43287,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -43254,7 +43345,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -43311,7 +43403,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -43368,7 +43461,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -43425,7 +43519,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -43482,7 +43577,8 @@
       "seed",
       "structured_outputs",
       "tool_choice",
-      "tools"
+      "tools",
+      "verbosity"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
@@ -44329,9 +44425,9 @@
      "name": "Mancer 2 | openai/gpt-oss-120b",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000003",
+      "completion": "0.000000275",
       "discount": 0,
-      "prompt": "0.00000005"
+      "prompt": "0.000000045"
      },
      "provider_name": "Mancer 2",
      "quantization": "fp8",
@@ -50598,50 +50694,6 @@
     },
     {
      "context_length": 262144,
-     "max_completion_tokens": 81920,
-     "max_prompt_tokens": null,
-     "model_id": "qwen/qwen3.5-122b-a10b",
-     "model_name": "Qwen: Qwen3.5-122B-A10B",
-     "name": "DeepInfra | qwen/qwen3.5-122b-a10b-20260224",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000024",
-      "discount": 0,
-      "prompt": "0.00000029"
-     },
-     "provider_name": "DeepInfra",
-     "quantization": "fp4",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "deepinfra/fp4"
-    },
-    {
-     "context_length": 262144,
      "max_completion_tokens": 65536,
      "max_prompt_tokens": null,
      "model_id": "qwen/qwen3.5-122b-a10b",
@@ -52949,52 +53001,6 @@
     },
     {
      "context_length": 262144,
-     "max_completion_tokens": 131072,
-     "max_prompt_tokens": null,
-     "model_id": "qwen/qwen3.6-35b-a3b",
-     "model_name": "Qwen: Qwen3.6 35B A3B",
-     "name": "Reka | qwen/qwen3.6-35b-a3b-20260415",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.000001",
-      "discount": 0,
-      "input_cache_read": "0.00000005",
-      "prompt": "0.0000001"
-     },
-     "provider_name": "Reka",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "reka"
-    },
-    {
-     "context_length": 262144,
      "max_completion_tokens": 235929,
      "max_prompt_tokens": null,
      "model_id": "qwen/qwen3.6-35b-a3b",
@@ -53975,6 +53981,49 @@
      "tag": "alibaba"
     },
     {
+     "context_length": 65536,
+     "max_completion_tokens": 32768,
+     "max_prompt_tokens": null,
+     "model_id": "qwen/qwen3.8-27b",
+     "model_name": "Qwen: Qwen3.8 27B",
+     "name": "Cerebras | qwen/qwen3.8-27b-20260814",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000149",
+      "discount": 0,
+      "input_cache_read": "0.00000099",
+      "prompt": "0.00000099"
+     },
+     "provider_name": "Cerebras",
+     "quantization": "fp16",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "seed",
+      "stop",
+      "temperature",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "cerebras/fp16"
+    },
+    {
      "context_length": 262144,
      "max_completion_tokens": 65536,
      "max_prompt_tokens": null,
@@ -54270,7 +54319,7 @@
      "name": "Ionstream | qwen/qwen3.8-27b-20260814",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000255",
+      "completion": "0.0000025",
       "discount": 0,
       "input_cache_read": "0.000000085",
       "prompt": "0.0000000893"
@@ -55853,52 +55902,6 @@
    "endpoints": [
     {
      "context_length": 262144,
-     "max_completion_tokens": 32768,
-     "max_prompt_tokens": null,
-     "model_id": "stepfun/step-3.7-flash",
-     "model_name": "StepFun: Step 3.7 Flash",
-     "name": "DeepInfra | stepfun/step-3.7-flash-20260528",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000092",
-      "discount": 0.2,
-      "input_cache_read": "0.000000032",
-      "prompt": "0.00000016"
-     },
-     "provider_name": "DeepInfra",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": false,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "deepinfra/us"
-    },
-    {
-     "context_length": 262144,
      "max_completion_tokens": 256000,
      "max_prompt_tokens": null,
      "model_id": "stepfun/step-3.7-flash",
@@ -56459,9 +56462,9 @@
      "name": "Tencent | tencent/hy3-20260706",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000528",
+      "completion": "0.00000033",
       "discount": 0,
-      "input_cache_read": "0.000000033",
+      "input_cache_read": "0.000000020625",
       "overrides": [
        {
         "completion": "0.00000033",
@@ -56478,7 +56481,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000132"
+      "prompt": "0.0000000825"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -56727,9 +56730,9 @@
      "name": "Tencent | tencent/hy4-preview-20260827",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000002501",
+      "completion": "0.0000022509",
       "discount": 0,
-      "input_cache_read": "0.000000042",
+      "input_cache_read": "0.0000000378",
       "overrides": [
        {
         "completion": "0.0000022509",
@@ -56746,7 +56749,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000834"
+      "prompt": "0.0000007506"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -57222,6 +57225,61 @@
    ],
    "id": "unbiased/pareto",
    "name": "Pareto"
+  },
+  "unbiased/pareto-26.10-preview": {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "created": 1790863623,
+   "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. This is a preview of the...",
+   "endpoints": [
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "model_id": "unbiased/pareto-26.10-preview",
+     "model_name": "Pareto 26.10 Preview",
+     "name": "Unbiased | unbiased/pareto-26.10-preview-20260929",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000032",
+      "discount": 0,
+      "input_cache_read": "0.00000003",
+      "prompt": "0.0000008"
+     },
+     "provider_name": "Unbiased",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "max_tokens",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+     ],
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": false,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "unbiased"
+    }
+   ],
+   "id": "unbiased/pareto-26.10-preview",
+   "name": "Pareto 26.10 Preview"
   },
   "undi95/remm-slerp-l2-13b": {
    "architecture": {
@@ -62164,53 +62222,6 @@
     },
     {
      "context_length": 202752,
-     "max_completion_tokens": 65536,
-     "max_prompt_tokens": null,
-     "model_id": "z-ai/glm-5.1",
-     "model_name": "Z.ai: GLM 5.1",
-     "name": "DeepInfra | z-ai/glm-5.1-20260406",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000035",
-      "discount": 0,
-      "input_cache_read": "0.000000205",
-      "prompt": "0.00000105"
-     },
-     "provider_name": "DeepInfra",
-     "quantization": "fp4",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "deepinfra/fp4"
-    },
-    {
-     "context_length": 202752,
      "max_completion_tokens": 182476,
      "max_prompt_tokens": null,
      "model_id": "z-ai/glm-5.1",
@@ -63581,7 +63592,7 @@
       "completion": "0.000002842",
       "discount": 0,
       "input_cache_read": "0.000000196",
-      "prompt": "0.000000077"
+      "prompt": "0.00000017"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -63769,10 +63780,10 @@
      "name": "Reka | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000014",
-      "discount": 0,
-      "input_cache_read": "0.00000014",
-      "prompt": "0.0000007"
+      "completion": "0.00000091",
+      "discount": 0.35,
+      "input_cache_read": "0.000000091",
+      "prompt": "0.000000455"
      },
      "provider_name": "Reka",
      "quantization": "unknown",
@@ -64035,10 +64046,10 @@
      "name": "Wafer | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000044",
+      "completion": "0.00000399",
       "discount": 0,
       "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "prompt": "0.00000041"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -64963,8 +64974,8 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.0000002",
-      "prompt": "0.00000024"
+      "input_cache_read": "0.00000021",
+      "prompt": "0.00000022"
      },
      "provider_name": "InferenceNet",
      "quantization": "unknown",
@@ -65241,7 +65252,7 @@
       "completion": "0.000002694",
       "discount": 0,
       "input_cache_read": "0.000000176",
-      "prompt": "0.00000006"
+      "prompt": "0.000000131"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -65474,7 +65485,7 @@
       "completion": "0.00000114",
       "discount": 0,
       "input_cache_read": "0.000000067",
-      "prompt": "0.00000037"
+      "prompt": "0.00000012"
      },
      "provider_name": "Reka",
      "quantization": "unknown",
@@ -66591,7 +66602,7 @@
     },
     {
      "context_length": 1048576,
-     "max_completion_tokens": 128000,
+     "max_completion_tokens": 262144,
      "max_prompt_tokens": null,
      "model_id": "z-ai/glm-5.3-flash",
      "model_name": "Z.ai: GLM 5.3 Flash",
@@ -66600,8 +66611,8 @@
      "pricing": {
       "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.00000004",
-      "prompt": "0.000000042"
+      "input_cache_read": "0.000000044",
+      "prompt": "0.000000046"
      },
      "provider_name": "InferenceNet",
      "quantization": "fp4",
@@ -66646,10 +66657,10 @@
      "name": "Io Net | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000005",
-      "discount": 0,
-      "input_cache_read": "0.00000003",
-      "prompt": "0.00000015"
+      "completion": "0.00000045",
+      "discount": 0.1,
+      "input_cache_read": "0.000000027",
+      "prompt": "0.000000135"
      },
      "provider_name": "Io Net",
      "quantization": "fp8",
@@ -66787,10 +66798,10 @@
      "name": "Near AI | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000004",
-      "discount": 0.2,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000012"
+      "completion": "0.00000035",
+      "discount": 0.3,
+      "input_cache_read": "0.0000000245",
+      "prompt": "0.000000105"
      },
      "provider_name": "Near AI",
      "quantization": "fp8",
