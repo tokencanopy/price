@@ -7099,9 +7099,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000084",
-    "input_cache_read": "0.0000000084",
-    "prompt": "0.000000042"
+    "completion": "0.000000056",
+    "input_cache_read": "0.0000000056",
+    "prompt": "0.000000028"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7705,9 +7705,9 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000012",
-    "input_cache_read": "0.000000006",
-    "prompt": "0.0000003"
+    "completion": "0.0000006",
+    "input_cache_read": "0.00000002",
+    "prompt": "0.00000002"
    },
    "reasoning": {
     "default_effort": "high",
@@ -13339,6 +13339,64 @@
     "seed",
     "stop",
     "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_logprobs",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 262144,
+    "is_moderated": false,
+    "max_completion_tokens": 32768
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "inclusionai/ling-3.1-flash-20261002",
+   "context_length": 262144,
+   "created": 1790950024,
+   "default_parameters": {},
+   "description": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total.",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "inclusionai/ling-3.1-flash",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/inclusionai/ling-3.1-flash-20261002/endpoints"
+   },
+   "name": "inclusionAI: Ling 3.1 Flash",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0",
+    "prompt": "0"
+   },
+   "reasoning": {
+    "default_enabled": true,
+    "mandatory": false
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "logprobs",
+    "max_tokens",
+    "presence_penalty",
+    "reasoning",
+    "repetition_penalty",
+    "seed",
+    "stop",
     "temperature",
     "tool_choice",
     "tools",
@@ -19988,9 +20046,9 @@
    "name": "NVIDIA: Nemotron 3 Ultra",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000022",
-    "input_cache_read": "0.0000001",
-    "prompt": "0.0000005"
+    "completion": "0.0000024",
+    "input_cache_read": "0.00000012",
+    "prompt": "0.0000006"
    },
    "reasoning": {
     "default_effort": "high",
@@ -20024,9 +20082,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 262144,
+    "context_length": 202800,
     "is_moderated": false,
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 182520
    }
   },
   {
@@ -22271,16 +22329,12 @@
     "mandatory": true
    },
    "supported_parameters": [
-    "frequency_penalty",
     "include_reasoning",
-    "logit_bias",
     "logprobs",
     "max_tokens",
-    "presence_penalty",
     "reasoning",
     "response_format",
     "seed",
-    "stop",
     "structured_outputs",
     "temperature",
     "top_logprobs",
@@ -22363,16 +22417,12 @@
     "mandatory": true
    },
    "supported_parameters": [
-    "frequency_penalty",
     "include_reasoning",
-    "logit_bias",
     "logprobs",
     "max_tokens",
-    "presence_penalty",
     "reasoning",
     "response_format",
     "seed",
-    "stop",
     "structured_outputs",
     "temperature",
     "top_logprobs",
@@ -24640,17 +24690,13 @@
     ]
    },
    "supported_parameters": [
-    "frequency_penalty",
     "include_reasoning",
-    "logit_bias",
     "logprobs",
     "max_tokens",
-    "presence_penalty",
     "reasoning",
     "reasoning_effort",
     "response_format",
     "seed",
-    "stop",
     "structured_outputs",
     "top_logprobs",
     "verbosity"
@@ -30517,7 +30563,7 @@
    "created": 1784652683,
    "default_parameters": {},
    "description": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-31",
    "hugging_face_id": "poolside/Laguna-S-2.1",
    "id": "poolside/laguna-s-2.1",
    "knowledge_cutoff": null,
@@ -30567,7 +30613,7 @@
    "created": 1784652683,
    "default_parameters": {},
    "description": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-31",
    "hugging_face_id": "poolside/Laguna-S-2.1",
    "id": "poolside/laguna-s-2.1:free",
    "knowledge_cutoff": null,
@@ -30616,7 +30662,7 @@
    "created": 1783002429,
    "default_parameters": {},
    "description": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-31",
    "hugging_face_id": "poolside/Laguna-XS-2.1",
    "id": "poolside/laguna-xs-2.1",
    "knowledge_cutoff": null,
@@ -30666,7 +30712,7 @@
    "created": 1783002429,
    "default_parameters": {},
    "description": "Laguna XS 2.1 is the latest coding agent model in the 33B-A3B category from [Poolside](https://poolside.ai/) and a step forward from their Laguna XS.2 model (released in April 2026). It combines...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-31",
    "hugging_face_id": "poolside/Laguna-XS-2.1",
    "id": "poolside/laguna-xs-2.1:free",
    "knowledge_cutoff": null,
@@ -36292,8 +36338,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -36310,7 +36356,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -36451,8 +36497,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -36469,7 +36515,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -39301,6 +39347,7 @@
     "frequency_penalty",
     "include_reasoning",
     "logit_bias",
+    "logprobs",
     "max_tokens",
     "min_p",
     "presence_penalty",
@@ -39314,6 +39361,7 @@
     "tool_choice",
     "tools",
     "top_k",
+    "top_logprobs",
     "top_p"
    ],
    "supported_voices": null,
@@ -42256,9 +42304,9 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000012",
-    "input_cache_read": "0.000000002115",
-    "prompt": "0.000000015"
+    "completion": "0.0000006",
+    "input_cache_read": "0.00000002",
+    "prompt": "0.00000002"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42406,7 +42454,7 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000016",
+    "completion": "0.000001472",
     "input_cache_read": "0.000000005775",
     "prompt": "0.000000005775"
    },
@@ -42661,7 +42709,7 @@
    "pricing": {
     "completion": "0.000013",
     "input_cache_read": "0.0000008",
-    "prompt": "0.00000139"
+    "prompt": "0.00000134"
    },
    "reasoning": {
     "default_effort": "max",
@@ -43359,5 +43407,5 @@
  "links": {
   "next": null
  },
- "total_count": 464
+ "total_count": 465
 }
