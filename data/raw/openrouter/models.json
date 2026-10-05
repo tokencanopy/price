@@ -334,7 +334,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 23,
-     "intelligence_index": null
+     "intelligence_index": 13.4
     },
     "design_arena": []
    },
@@ -394,6 +394,14 @@
     ],
     "tokenizer": "Nova"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 6.7
+    },
+    "design_arena": []
+   },
    "canonical_slug": "amazon/nova-lite-v1",
    "context_length": 300000,
    "created": 1733437363,
@@ -438,6 +446,14 @@
      "text"
     ],
     "tokenizer": "Nova"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 5.9
+    },
+    "design_arena": []
    },
    "canonical_slug": "amazon/nova-micro-v1",
    "context_length": 128000,
@@ -486,6 +502,11 @@
     "tokenizer": "Nova"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 9.2
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -548,6 +569,11 @@
     "tokenizer": "Nova"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 7
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -1674,6 +1700,11 @@
     "tokenizer": "Claude"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 22.8
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -1798,6 +1829,11 @@
     "tokenizer": "Claude"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 22.8
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -1922,6 +1958,11 @@
     "tokenizer": "Claude"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 29.1
+    },
     "design_arena": [
      {
       "arena": "agents",
@@ -2070,6 +2111,11 @@
     "tokenizer": "Claude"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 29.1
+    },
     "design_arena": [
      {
       "arena": "agents",
@@ -2216,6 +2262,11 @@
     "tokenizer": "Claude"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 31.9
+    },
     "design_arena": [
      {
       "arena": "agents",
@@ -2382,6 +2433,11 @@
     "tokenizer": "Claude"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 31.9
+    },
     "design_arena": [
      {
       "arena": "agents",
@@ -2549,7 +2605,7 @@
     "artificial_analysis": {
      "agentic_index": 38.6,
      "coding_index": 73.6,
-     "intelligence_index": null
+     "intelligence_index": 40.7
     },
     "design_arena": []
    },
@@ -2625,7 +2681,7 @@
     "artificial_analysis": {
      "agentic_index": 38.6,
      "coding_index": 73.6,
-     "intelligence_index": null
+     "intelligence_index": 40.7
     },
     "design_arena": []
    },
@@ -3776,7 +3832,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 37.6,
-     "intelligence_index": null
+     "intelligence_index": 18.9
     },
     "design_arena": [
      {
@@ -6364,6 +6420,11 @@
     "tokenizer": "DeepSeek"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 13.7
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -6550,6 +6611,11 @@
     "tokenizer": "DeepSeek"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 13.1
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -6746,7 +6812,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000001",
-    "prompt": "0.00000027"
+    "input_cache_read": "0.000000135",
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "mandatory": false
@@ -6772,9 +6839,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 163840,
+    "context_length": 131072,
     "is_moderated": false,
-    "max_completion_tokens": 147456
+    "max_completion_tokens": 65536
    }
   },
   {
@@ -6793,7 +6860,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 44.2,
-     "intelligence_index": null
+     "intelligence_index": 21.5
     },
     "design_arena": [
      {
@@ -6925,6 +6992,11 @@
     "tokenizer": "DeepSeek"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 16.6
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -7306,6 +7378,14 @@
      "text"
     ],
     "tokenizer": "DeepSeek"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": 47.5,
+     "coding_index": 65,
+     "intelligence_index": 34.8
+    },
+    "design_arena": []
    },
    "canonical_slug": "deepseek/deepseek-v4-flash-vision-exp-20260821",
    "context_length": 1048576,
@@ -7897,6 +7977,11 @@
     "tokenizer": "Gemini"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 15.5
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -8105,6 +8190,14 @@
     ],
     "tokenizer": "Gemini"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 10.4
+    },
+    "design_arena": []
+   },
    "canonical_slug": "google/gemini-2.5-flash-lite",
    "context_length": 1048576,
    "created": 1753200276,
@@ -8172,6 +8265,14 @@
      "text"
     ],
     "tokenizer": "Gemini"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 10.4
+    },
+    "design_arena": []
    },
    "canonical_slug": "google/gemini-2.5-flash-lite",
    "context_length": 1048576,
@@ -8241,6 +8342,11 @@
     "tokenizer": "Gemini"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 15.5
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -8694,6 +8800,11 @@
     "tokenizer": "Gemini"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 26.3
+    },
     "design_arena": [
      {
       "arena": "agents",
@@ -8861,6 +8972,11 @@
     "tokenizer": "Gemini"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 26.3
+    },
     "design_arena": [
      {
       "arena": "agents",
@@ -10270,9 +10386,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "agentic_index": 26,
-     "coding_index": 70.1,
-     "intelligence_index": 32.6
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 33.6
     },
     "design_arena": [
      {
@@ -10679,9 +10795,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "agentic_index": 26,
-     "coding_index": 70.1,
-     "intelligence_index": 32.6
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 33.6
     },
     "design_arena": [
      {
@@ -11286,9 +11402,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "agentic_index": 35.2,
-     "coding_index": 76.1,
-     "intelligence_index": 39.1
+     "agentic_index": null,
+     "coding_index": 71.5,
+     "intelligence_index": 39.6
     },
     "design_arena": [
      {
@@ -11465,9 +11581,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "agentic_index": 35.2,
-     "coding_index": 76.1,
-     "intelligence_index": 39.1
+     "agentic_index": null,
+     "coding_index": 71.5,
+     "intelligence_index": 39.6
     },
     "design_arena": [
      {
@@ -12179,7 +12295,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 2.7,
-     "intelligence_index": null
+     "intelligence_index": 4.8
     },
     "design_arena": []
    },
@@ -12241,7 +12357,7 @@
     "artificial_analysis": {
      "agentic_index": 2.9,
      "coding_index": 39.3,
-     "intelligence_index": null
+     "intelligence_index": 16.7
     },
     "design_arena": []
    },
@@ -12318,7 +12434,7 @@
     "artificial_analysis": {
      "agentic_index": 2.9,
      "coding_index": 39.3,
-     "intelligence_index": null
+     "intelligence_index": 16.7
     },
     "design_arena": []
    },
@@ -12688,6 +12804,14 @@
     ],
     "tokenizer": "Other"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 5.1
+    },
+    "design_arena": []
+   },
    "canonical_slug": "ibm-granite/granite-4.0-h-micro",
    "context_length": 131000,
    "created": 1760927695,
@@ -12830,7 +12954,7 @@
     "artificial_analysis": {
      "agentic_index": 1.6,
      "coding_index": 31.1,
-     "intelligence_index": null
+     "intelligence_index": 13.8
     },
     "design_arena": [
      {
@@ -13533,6 +13657,14 @@
     ],
     "tokenizer": "Other"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": 7.7,
+     "intelligence_index": 8.4
+    },
+    "design_arena": []
+   },
    "canonical_slug": "liquid/lfm-2.5-2.6b-20260811",
    "context_length": 65536,
    "created": 1786470519,
@@ -13720,6 +13852,14 @@
     ],
     "tokenizer": "Llama3"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 6.6
+    },
+    "design_arena": []
+   },
    "canonical_slug": "meta-llama/llama-3.1-70b-instruct",
    "context_length": 131072,
    "created": 1721692800,
@@ -13778,7 +13918,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 5.4,
-     "intelligence_index": null
+     "intelligence_index": 6.9
     },
     "design_arena": []
    },
@@ -13839,6 +13979,14 @@
     ],
     "tokenizer": "Llama3"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 4.8
+    },
+    "design_arena": []
+   },
    "canonical_slug": "meta-llama/llama-3.2-1b-instruct",
    "context_length": 60000,
    "created": 1727222400,
@@ -13888,6 +14036,14 @@
      "text"
     ],
     "tokenizer": "Llama3"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 5.7
+    },
+    "design_arena": []
    },
    "canonical_slug": "meta-llama/llama-3.2-3b-instruct",
    "context_length": 131072,
@@ -13946,7 +14102,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 11.9,
-     "intelligence_index": null
+     "intelligence_index": 7.7
     },
     "design_arena": []
    },
@@ -13965,8 +14121,9 @@
    "name": "Meta: Llama 3.3 70B Instruct",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000032",
-    "prompt": "0.0000001"
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000011",
+    "prompt": "0.00000022"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -14011,7 +14168,7 @@
     "artificial_analysis": {
      "agentic_index": 0.6,
      "coding_index": 16.3,
-     "intelligence_index": null
+     "intelligence_index": 10
     },
     "design_arena": [
      {
@@ -14118,7 +14275,7 @@
     "artificial_analysis": {
      "agentic_index": 0.5,
      "coding_index": 8.2,
-     "intelligence_index": null
+     "intelligence_index": 8.1
     },
     "design_arena": [
      {
@@ -14263,6 +14420,14 @@
      "text"
     ],
     "tokenizer": "Other"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": 8.5,
+     "coding_index": 49,
+     "intelligence_index": 17.5
+    },
+    "design_arena": []
    },
    "canonical_slug": "meta/muse-glimmer-30b-20260810",
    "context_length": 131072,
@@ -14776,6 +14941,11 @@
     "tokenizer": "Other"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": 55.5,
+     "coding_index": 75.8,
+     "intelligence_index": 48.1
+    },
     "design_arena": [
      {
       "arena": "agents",
@@ -15003,6 +15173,14 @@
     ],
     "tokenizer": "Other"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 5.9
+    },
+    "design_arena": []
+   },
    "canonical_slug": "microsoft/phi-4",
    "context_length": 16384,
    "created": 1736489872,
@@ -15151,6 +15329,14 @@
     ],
     "tokenizer": "Other"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 11.7
+    },
+    "design_arena": []
+   },
    "canonical_slug": "minimax/minimax-m1",
    "context_length": 1000000,
    "created": 1750200414,
@@ -15211,6 +15397,11 @@
     "tokenizer": "Other"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 18.6
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -15374,6 +15565,11 @@
     "tokenizer": "Other"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 20.9
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -15488,6 +15684,11 @@
     "tokenizer": "Other"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 22.8
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -16564,6 +16765,14 @@
     ],
     "tokenizer": "Mistral"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 5.8
+    },
+    "design_arena": []
+   },
    "canonical_slug": "mistralai/mistral-large",
    "context_length": 128000,
    "created": 1708905600,
@@ -16617,6 +16826,14 @@
      "text"
     ],
     "tokenizer": "Mistral"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 7.6
+    },
+    "design_arena": []
    },
    "canonical_slug": "mistralai/mistral-large-2407",
    "context_length": 131072,
@@ -16918,6 +17135,11 @@
     "tokenizer": "Mistral"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 9
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -17471,6 +17693,14 @@
     ],
     "tokenizer": "Mistral"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 6.5
+    },
+    "design_arena": []
+   },
    "canonical_slug": "mistralai/mistral-saba-2502",
    "context_length": 32768,
    "created": 1739803239,
@@ -17523,6 +17753,14 @@
      "text"
     ],
     "tokenizer": "Mistral"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 6.7
+    },
+    "design_arena": []
    },
    "canonical_slug": "mistralai/mistral-small-24b-instruct-2501",
    "context_length": 32768,
@@ -17895,6 +18133,14 @@
     ],
     "tokenizer": "Mistral"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 5.7
+    },
+    "design_arena": []
+   },
    "canonical_slug": "mistralai/mixtral-8x22b-instruct",
    "context_length": 65536,
    "created": 1713312000,
@@ -18007,6 +18253,11 @@
     "tokenizer": "Other"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 12.7
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -18096,6 +18347,11 @@
     "tokenizer": "Other"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 15.3
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -18168,8 +18424,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "agentic_index": null,
-     "coding_index": 21,
-     "intelligence_index": null
+     "coding_index": null,
+     "intelligence_index": 22
     },
     "design_arena": [
      {
@@ -18253,7 +18509,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 46.8,
-     "intelligence_index": null
+     "intelligence_index": 23.5
     },
     "design_arena": [
      {
@@ -18979,8 +19235,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000014",
-    "input_cache_read": "0.00000022",
-    "prompt": "0.00000067"
+    "input_cache_read": "0.00000046",
+    "prompt": "0.00000139"
    },
    "reasoning": {
     "default_effort": "max",
@@ -19450,6 +19706,14 @@
     ],
     "tokenizer": "Llama3"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 7.4
+    },
+    "design_arena": []
+   },
    "canonical_slug": "nousresearch/hermes-3-llama-3.1-405b",
    "context_length": 131072,
    "created": 1723766400,
@@ -19502,6 +19766,14 @@
     ],
     "tokenizer": "Llama3"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 6.7
+    },
+    "design_arena": []
+   },
    "canonical_slug": "nousresearch/hermes-3-llama-3.1-70b",
    "context_length": 131072,
    "created": 1723939200,
@@ -19552,6 +19824,14 @@
      "text"
     ],
     "tokenizer": "Other"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 7.5
+    },
+    "design_arena": []
    },
    "canonical_slug": "nousresearch/hermes-4-405b",
    "context_length": 131072,
@@ -19686,7 +19966,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 13.8,
-     "intelligence_index": null
+     "intelligence_index": 10.3
     },
     "design_arena": []
    },
@@ -20469,7 +20749,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 10.7,
-     "intelligence_index": null
+     "intelligence_index": 5.5
     },
     "design_arena": []
    },
@@ -20688,7 +20968,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 10.7,
-     "intelligence_index": null
+     "intelligence_index": 5.5
     },
     "design_arena": []
    },
@@ -20750,7 +21030,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 13.1,
-     "intelligence_index": null
+     "intelligence_index": 6.7
     },
     "design_arena": []
    },
@@ -20813,7 +21093,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 21.5,
-     "intelligence_index": null
+     "intelligence_index": 7
     },
     "design_arena": []
    },
@@ -20875,7 +21155,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 21.5,
-     "intelligence_index": null
+     "intelligence_index": 7
     },
     "design_arena": []
    },
@@ -20936,6 +21216,11 @@
     "tokenizer": "GPT"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 12.7
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -21037,7 +21322,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 20.2,
-     "intelligence_index": null
+     "intelligence_index": 10.2
     },
     "design_arena": [
      {
@@ -21140,7 +21425,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 20.2,
-     "intelligence_index": null
+     "intelligence_index": 10.2
     },
     "design_arena": [
      {
@@ -21242,7 +21527,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 11.1,
-     "intelligence_index": null
+     "intelligence_index": 7.8
     },
     "design_arena": [
      {
@@ -21345,7 +21630,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 11.1,
-     "intelligence_index": null
+     "intelligence_index": 7.8
     },
     "design_arena": [
      {
@@ -21444,6 +21729,11 @@
     "tokenizer": "GPT"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 12.7
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -21649,7 +21939,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 24.2,
-     "intelligence_index": null
+     "intelligence_index": 7.3
     },
     "design_arena": []
    },
@@ -21711,6 +22001,14 @@
     ],
     "tokenizer": "GPT"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 7.7
+    },
+    "design_arena": []
+   },
    "canonical_slug": "openai/gpt-4o-2024-08-06",
    "context_length": 128000,
    "created": 1722902400,
@@ -21769,6 +22067,14 @@
      "text"
     ],
     "tokenizer": "GPT"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 8.4
+    },
+    "design_arena": []
    },
    "canonical_slug": "openai/gpt-4o-2024-11-20",
    "context_length": 128000,
@@ -21832,7 +22138,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 11.4,
-     "intelligence_index": null
+     "intelligence_index": 6.7
     },
     "design_arena": []
    },
@@ -21957,7 +22263,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 11.4,
-     "intelligence_index": null
+     "intelligence_index": 6.7
     },
     "design_arena": []
    },
@@ -22129,7 +22435,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 37.8,
-     "intelligence_index": null
+     "intelligence_index": 23
     },
     "design_arena": [
      {
@@ -22439,9 +22745,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "agentic_index": 6.8,
-     "coding_index": 15.6,
-     "intelligence_index": 16.8
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 20.6
     },
     "design_arena": [
      {
@@ -22575,9 +22881,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "agentic_index": 6.8,
-     "coding_index": 15.6,
-     "intelligence_index": 16.8
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 20.6
     },
     "design_arena": [
      {
@@ -22709,6 +23015,11 @@
     "tokenizer": "GPT"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 13
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -22826,6 +23137,11 @@
     "tokenizer": "GPT"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 13
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -23071,7 +23387,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 49.4,
-     "intelligence_index": null
+     "intelligence_index": 24.7
     },
     "design_arena": [
      {
@@ -23204,6 +23520,11 @@
     "tokenizer": "GPT"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 23.7
+    },
     "design_arena": [
      {
       "arena": "agents",
@@ -23401,6 +23722,11 @@
     "tokenizer": "GPT"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 20.4
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -23533,7 +23859,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 49.4,
-     "intelligence_index": null
+     "intelligence_index": 24.7
     },
     "design_arena": [
      {
@@ -23666,6 +23992,11 @@
     "tokenizer": "GPT"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 30.4
+    },
     "design_arena": [
      {
       "arena": "agents",
@@ -23886,6 +24217,11 @@
     "tokenizer": "GPT"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 28.5
+    },
     "design_arena": [
      {
       "arena": "agents",
@@ -24122,6 +24458,11 @@
     "tokenizer": "GPT"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 30.4
+    },
     "design_arena": [
      {
       "arena": "agents",
@@ -24288,6 +24629,11 @@
     "tokenizer": "GPT"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 32.5
+    },
     "design_arena": [
      {
       "arena": "agents",
@@ -24458,7 +24804,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 71.1,
-     "intelligence_index": null
+     "intelligence_index": 39
     },
     "design_arena": [
      {
@@ -25186,7 +25532,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 71.1,
-     "intelligence_index": null
+     "intelligence_index": 39
     },
     "design_arena": [
      {
@@ -27031,7 +27377,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 37.8,
-     "intelligence_index": null
+     "intelligence_index": 23
     },
     "design_arena": [
      {
@@ -28773,9 +29119,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "agentic_index": 1.2,
-     "coding_index": 20.7,
-     "intelligence_index": 9
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 10
     },
     "design_arena": [
      {
@@ -28869,9 +29215,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "agentic_index": 1.2,
-     "coding_index": 20.7,
-     "intelligence_index": 9
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 10
     },
     "design_arena": [
      {
@@ -29020,7 +29366,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 39.7,
-     "intelligence_index": null
+     "intelligence_index": 15.2
     },
     "design_arena": []
    },
@@ -29085,6 +29431,14 @@
     ],
     "tokenizer": "GPT"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 12.4
+    },
+    "design_arena": []
+   },
    "canonical_slug": "openai/o1-pro",
    "context_length": 200000,
    "created": 1742423211,
@@ -29137,6 +29491,11 @@
     "tokenizer": "GPT"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 20.2
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -29227,6 +29586,14 @@
      "text"
     ],
     "tokenizer": "GPT"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 12.5
+    },
+    "design_arena": []
    },
    "canonical_slug": "openai/o3-mini-2025-01-31",
    "context_length": 200000,
@@ -29358,6 +29725,14 @@
     ],
     "tokenizer": "GPT"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 12.5
+    },
+    "design_arena": []
+   },
    "canonical_slug": "openai/o3-mini-2025-01-31",
    "context_length": 200000,
    "created": 1738351721,
@@ -29419,6 +29794,14 @@
     ],
     "tokenizer": "GPT"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 21.9
+    },
+    "design_arena": []
+   },
    "canonical_slug": "openai/o3-pro-2025-06-10",
    "context_length": 200000,
    "created": 1749598352,
@@ -29477,6 +29860,11 @@
     "tokenizer": "GPT"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 20.2
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -29570,6 +29958,11 @@
     "tokenizer": "GPT"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 16.7
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -29733,6 +30126,11 @@
     "tokenizer": "GPT"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 16.7
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -30286,6 +30684,14 @@
     ],
     "tokenizer": "Other"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 7.7
+    },
+    "design_arena": []
+   },
    "canonical_slug": "perplexity/sonar",
    "context_length": 127072,
    "created": 1738013808,
@@ -30386,6 +30792,14 @@
      "text"
     ],
     "tokenizer": "Other"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 7.6
+    },
+    "design_arena": []
    },
    "canonical_slug": "perplexity/sonar-pro",
    "context_length": 200000,
@@ -30492,6 +30906,14 @@
      "text"
     ],
     "tokenizer": "Other"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 11.8
+    },
+    "design_arena": []
    },
    "canonical_slug": "perplexity/sonar-reasoning-pro",
    "context_length": 128000,
@@ -30815,6 +31237,14 @@
     ],
     "tokenizer": "Qwen"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 7.7
+    },
+    "design_arena": []
+   },
    "canonical_slug": "qwen/qwen-2.5-72b-instruct",
    "context_length": 32768,
    "created": 1726704000,
@@ -30925,6 +31355,14 @@
      "text"
     ],
     "tokenizer": "Qwen"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 6.7
+    },
+    "design_arena": []
    },
    "canonical_slug": "qwen/qwen-2.5-coder-32b-instruct",
    "context_length": 32768,
@@ -31167,7 +31605,7 @@
     "artificial_analysis": {
      "agentic_index": 0.9,
      "coding_index": 13.8,
-     "intelligence_index": null
+     "intelligence_index": 8.2
     },
     "design_arena": []
    },
@@ -31233,6 +31671,11 @@
     "tokenizer": "Qwen3"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 9.5
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -31334,6 +31777,11 @@
     "tokenizer": "Qwen3"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 12
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -31550,6 +31998,11 @@
     "tokenizer": "Qwen3"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 7.6
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -31651,6 +32104,14 @@
      "text"
     ],
     "tokenizer": "Qwen3"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 7.5
+    },
+    "design_arena": []
    },
    "canonical_slug": "qwen/qwen3-30b-a3b-instruct-2507",
    "context_length": 262144,
@@ -31789,7 +32250,7 @@
     "artificial_analysis": {
      "agentic_index": 0.9,
      "coding_index": 15.3,
-     "intelligence_index": null
+     "intelligence_index": 8.6
     },
     "design_arena": []
    },
@@ -31859,7 +32320,7 @@
     "artificial_analysis": {
      "agentic_index": 0.8,
      "coding_index": 9,
-     "intelligence_index": null
+     "intelligence_index": 7.3
     },
     "design_arena": []
    },
@@ -31927,6 +32388,11 @@
     "tokenizer": "Qwen3"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 11.9
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -32023,6 +32489,11 @@
     "tokenizer": "Qwen3"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 9.6
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -32319,6 +32790,11 @@
     "tokenizer": "Qwen3"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 15.6
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -32456,6 +32932,14 @@
     ],
     "tokenizer": "Qwen"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 21.3
+    },
+    "design_arena": []
+   },
    "canonical_slug": "qwen/qwen3-max-thinking-20260123",
    "context_length": 262144,
    "created": 1770671901,
@@ -32530,6 +33014,14 @@
     ],
     "tokenizer": "Qwen3"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 9.6
+    },
+    "design_arena": []
+   },
    "canonical_slug": "qwen/qwen3-next-80b-a3b-instruct-2509",
    "context_length": 262144,
    "created": 1757612213,
@@ -32591,7 +33083,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 17.4,
-     "intelligence_index": null
+     "intelligence_index": 11.2
     },
     "design_arena": []
    },
@@ -32659,6 +33151,14 @@
     ],
     "tokenizer": "Qwen3"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 9.9
+    },
+    "design_arena": []
+   },
    "canonical_slug": "qwen/qwen3-vl-235b-a22b-instruct",
    "context_length": 262144,
    "created": 1758668687,
@@ -32720,6 +33220,14 @@
      "text"
     ],
     "tokenizer": "Qwen3"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 13.4
+    },
+    "design_arena": []
    },
    "canonical_slug": "qwen/qwen3-vl-235b-a22b-thinking",
    "context_length": 131072,
@@ -32788,6 +33296,14 @@
     ],
     "tokenizer": "Qwen3"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 7.9
+    },
+    "design_arena": []
+   },
    "canonical_slug": "qwen/qwen3-vl-30b-a3b-instruct",
    "context_length": 262144,
    "created": 1759794476,
@@ -32851,6 +33367,14 @@
      "text"
     ],
     "tokenizer": "Qwen3"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 9.5
+    },
+    "design_arena": []
    },
    "canonical_slug": "qwen/qwen3-vl-30b-a3b-thinking",
    "context_length": 262144,
@@ -32918,6 +33442,14 @@
     ],
     "tokenizer": "Qwen"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 11.9
+    },
+    "design_arena": []
+   },
    "canonical_slug": "qwen/qwen3-vl-32b-instruct",
    "context_length": 131072,
    "created": 1761231332,
@@ -32979,6 +33511,14 @@
     ],
     "tokenizer": "Qwen3"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 7.3
+    },
+    "design_arena": []
+   },
    "canonical_slug": "qwen/qwen3-vl-8b-instruct",
    "context_length": 262144,
    "created": 1760463308,
@@ -33038,6 +33578,14 @@
      "text"
     ],
     "tokenizer": "Qwen3"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 8.2
+    },
+    "design_arena": []
    },
    "canonical_slug": "qwen/qwen3-vl-8b-thinking",
    "context_length": 131072,
@@ -33104,9 +33652,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "agentic_index": 7.6,
-     "coding_index": 45.7,
-     "intelligence_index": 15.6
+     "agentic_index": null,
+     "coding_index": 43.3,
+     "intelligence_index": 17.7
     },
     "design_arena": []
    },
@@ -33179,6 +33727,14 @@
      "text"
     ],
     "tokenizer": "Qwen3"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 22.9
+    },
+    "design_arena": []
    },
    "canonical_slug": "qwen/qwen3.5-27b-20260224",
    "context_length": 262144,
@@ -33253,8 +33809,8 @@
    "benchmarks": {
     "artificial_analysis": {
      "agentic_index": null,
-     "coding_index": 37,
-     "intelligence_index": null
+     "coding_index": null,
+     "intelligence_index": 19.3
     },
     "design_arena": []
    },
@@ -33331,9 +33887,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "agentic_index": 8.3,
-     "coding_index": 48.2,
-     "intelligence_index": 18.4
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 21.4
     },
     "design_arena": [
      {
@@ -33460,9 +34016,9 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "agentic_index": 1.2,
-     "coding_index": 28.7,
-     "intelligence_index": 11.2
+     "agentic_index": null,
+     "coding_index": 23.5,
+     "intelligence_index": 13.3
     },
     "design_arena": []
    },
@@ -34022,6 +34578,14 @@
     ],
     "tokenizer": "Qwen"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 28.4
+    },
+    "design_arena": []
+   },
    "canonical_slug": "qwen/qwen3.6-max-preview-20260420",
    "context_length": 262144,
    "created": 1777260242,
@@ -34096,7 +34660,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 54.5,
-     "intelligence_index": null
+     "intelligence_index": 27
     },
     "design_arena": [
      {
@@ -34809,82 +35373,6 @@
     ],
     "tokenizer": "Qwen"
    },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": 45.8,
-     "coding_index": 68.1,
-     "intelligence_index": 33.7
-    },
-    "design_arena": []
-   },
-   "canonical_slug": "qwen/qwen3.8-27b-20260814",
-   "context_length": 262144,
-   "created": 1786722910,
-   "default_parameters": {
-    "temperature": 1,
-    "top_k": 20,
-    "top_p": 0.95
-   },
-   "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be...",
-   "expiration_date": null,
-   "hugging_face_id": "Qwen/Qwen3.8-27B",
-   "id": "qwen/qwen3.8-27b:free",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/qwen/qwen3.8-27b-20260814/endpoints"
-   },
-   "name": "Qwen: Qwen3.8 27B (free)",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0",
-    "prompt": "0"
-   },
-   "reasoning": {
-    "default_effort": "xhigh",
-    "default_enabled": true,
-    "mandatory": false,
-    "supported_efforts": [
-     "low",
-     "medium",
-     "xhigh"
-    ]
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "max_tokens",
-    "presence_penalty",
-    "reasoning",
-    "reasoning_effort",
-    "repetition_penalty",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 262144,
-    "is_moderated": false,
-    "max_completion_tokens": 235929
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text",
-     "video"
-    ],
-    "instruct_type": null,
-    "modality": "text+image+video->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen"
-   },
    "canonical_slug": "qwen/qwen3.8-flash-20260826",
    "context_length": 1000000,
    "created": 1787773060,
@@ -35225,6 +35713,14 @@
      "text"
     ],
     "tokenizer": "Other"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 6.4
+    },
+    "design_arena": []
    },
    "canonical_slug": "rekaai/reka-flash-3",
    "context_length": 65536,
@@ -35809,67 +36305,6 @@
   {
    "architecture": {
     "input_modalities": [
-     "image",
-     "text",
-     "video"
-    ],
-    "instruct_type": null,
-    "modality": "text+image+video->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "canonical_slug": "stealth/space-bunny-alpha",
-   "context_length": 1000000,
-   "created": 1790174884,
-   "default_parameters": {},
-   "description": "Space Bunny Alpha is an anonymous large model with blazing-fast inference, strong coding capabilities and native multimodal input support. It delivers adjustable reasoning effort, and a 1M-token context window. Space...",
-   "expiration_date": "2026-10-05",
-   "hugging_face_id": null,
-   "id": "stealth/space-bunny-alpha",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/stealth/space-bunny-alpha/endpoints"
-   },
-   "name": "Space Bunny Alpha",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0",
-    "prompt": "0"
-   },
-   "reasoning": {
-    "default_effort": "max",
-    "mandatory": true,
-    "supported_efforts": [
-     "high",
-     "low",
-     "max",
-     "medium",
-     "xhigh"
-    ]
-   },
-   "supported_parameters": [
-    "include_reasoning",
-    "max_tokens",
-    "reasoning",
-    "reasoning_effort",
-    "response_format",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 1000000,
-    "is_moderated": false,
-    "max_completion_tokens": 524288
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
      "text"
     ],
     "instruct_type": null,
@@ -35878,6 +36313,14 @@
      "text"
     ],
     "tokenizer": "Other"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 17
+    },
+    "design_arena": []
    },
    "canonical_slug": "stepfun/step-3.5-flash",
    "context_length": 262144,
@@ -35943,7 +36386,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 39.6,
-     "intelligence_index": null
+     "intelligence_index": 19.5
     },
     "design_arena": [
      {
@@ -36330,8 +36773,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -36348,7 +36791,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -36489,8 +36932,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -36507,7 +36950,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -37543,7 +37986,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 52.7,
-     "intelligence_index": null
+     "intelligence_index": 28.2
     },
     "design_arena": [
      {
@@ -37715,6 +38158,11 @@
     "tokenizer": "Grok"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 25.7
+    },
     "design_arena": [
      {
       "arena": "agents",
@@ -38958,7 +39406,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 51.5,
-     "intelligence_index": null
+     "intelligence_index": 27.2
     },
     "design_arena": []
    },
@@ -39040,7 +39488,7 @@
     "artificial_analysis": {
      "agentic_index": 15.8,
      "coding_index": 56.8,
-     "intelligence_index": null
+     "intelligence_index": 25.2
     },
     "design_arena": [
      {
@@ -39563,6 +40011,11 @@
     "tokenizer": "Other"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 12.8
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -39672,6 +40125,11 @@
     "tokenizer": "Other"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 11.1
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -39785,6 +40243,14 @@
     ],
     "tokenizer": "Other"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 7.6
+    },
+    "design_arena": []
+   },
    "canonical_slug": "z-ai/glm-4.5v",
    "context_length": 65536,
    "created": 1754922288,
@@ -39850,7 +40316,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 45.8,
-     "intelligence_index": null
+     "intelligence_index": 18.5
     },
     "design_arena": [
      {
@@ -40001,6 +40467,14 @@
     ],
     "tokenizer": "Other"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 11.2
+    },
+    "design_arena": []
+   },
    "canonical_slug": "z-ai/glm-4.6-20251208",
    "context_length": 131072,
    "created": 1765207462,
@@ -40066,7 +40540,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": 45.3,
-     "intelligence_index": null
+     "intelligence_index": 22.2
     },
     "design_arena": [
      {
@@ -40225,6 +40699,11 @@
     "tokenizer": "Other"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 14.9
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -40344,6 +40823,11 @@
     "tokenizer": "Other"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 27.9
+    },
     "design_arena": [
      {
       "arena": "agents",
@@ -40504,6 +40988,11 @@
     "tokenizer": "Other"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 26.6
+    },
     "design_arena": [
      {
       "arena": "models",
@@ -40992,9 +41481,9 @@
    "name": "Z.ai: GLM 5.2",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000016",
-    "input_cache_read": "0.0000000224",
-    "prompt": "0.0000000224"
+    "completion": "0.000012",
+    "input_cache_read": "0.000000032",
+    "prompt": "0.000000032"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41780,6 +42269,11 @@
     "tokenizer": "Other"
    },
    "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 23.5
+    },
     "design_arena": [
      {
       "arena": "agents",
@@ -42701,7 +43195,7 @@
    "pricing": {
     "completion": "0.000013",
     "input_cache_read": "0.00000045",
-    "prompt": "0.00000066"
+    "prompt": "0.0000007717"
    },
    "reasoning": {
     "default_effort": "max",
@@ -43399,5 +43893,5 @@
  "links": {
   "next": null
  },
- "total_count": 466
+ "total_count": 464
 }
