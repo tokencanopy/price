@@ -9517,8 +9517,8 @@
      "pricing": {
       "completion": "0.000001664",
       "discount": 0,
-      "input_cache_read": "0.00000002912",
-      "prompt": "0.00000002912"
+      "input_cache_read": "0.000000039",
+      "prompt": "0.000000039"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -9614,8 +9614,8 @@
      "pricing": {
       "completion": "0.00000128",
       "discount": 0,
-      "input_cache_read": "0.0000000224",
-      "prompt": "0.0000000224"
+      "input_cache_read": "0.00000003",
+      "prompt": "0.00000003"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -9699,10 +9699,10 @@
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000056",
-      "discount": 0.8,
-      "input_cache_read": "0.0000000056",
-      "prompt": "0.000000028"
+      "completion": "0.000000084",
+      "discount": 0.7,
+      "input_cache_read": "0.0000000084",
+      "prompt": "0.000000042"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -11057,8 +11057,8 @@
      "pricing": {
       "completion": "0.00000084",
       "discount": 0,
-      "input_cache_read": "0.00000006",
-      "prompt": "0.00000012"
+      "input_cache_read": "0.0000001",
+      "prompt": "0.00000017"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -11815,7 +11815,7 @@
      "name": "Reka | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001625",
+      "completion": "0.00000208",
       "discount": 0.35,
       "input_cache_read": "0.00000013",
       "prompt": "0.0000008125"
@@ -12558,7 +12558,7 @@
      "pricing": {
       "completion": "0.000001980032",
       "discount": 0.36,
-      "input_cache_read": "0.000000075072",
+      "input_cache_read": "0.000000063808",
       "prompt": "0.000000237696"
      },
      "provider_name": "Ionstream",
@@ -12760,7 +12760,6 @@
       "response_format",
       "seed",
       "stop",
-      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -12875,10 +12874,10 @@
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000002545884",
-      "discount": 0.3571,
-      "input_cache_read": "0.0000000282876",
-      "prompt": "0.000000848628"
+      "completion": "0.00000198",
+      "discount": 0.5,
+      "input_cache_read": "0.000000022",
+      "prompt": "0.00000066"
      },
      "provider_name": "StreamLake",
      "quantization": "unknown",
@@ -13010,8 +13009,8 @@
      "pricing": {
       "completion": "0.000005",
       "discount": 0,
-      "input_cache_read": "0.0000007",
-      "prompt": "0.00000085"
+      "input_cache_read": "0.0000004",
+      "prompt": "0.00000045"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -13810,7 +13809,7 @@
       "completion": "0.0000003",
       "discount": 0,
       "input_cache_read": "0.000000018",
-      "prompt": "0.000000025"
+      "prompt": "0.00000006"
      },
      "provider_name": "InferenceNet",
      "quantization": "unknown",
@@ -13858,7 +13857,7 @@
       "completion": "0.00000115",
       "discount": 0,
       "input_cache_read": "0.0000000055",
-      "prompt": "0.0000001"
+      "prompt": "0.0000001188"
      },
      "provider_name": "Ionstream",
      "quantization": "unknown",
@@ -13992,7 +13991,7 @@
      "name": "Morph | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000005",
+      "completion": "0.00000045",
       "discount": 0,
       "input_cache_read": "0.000000008",
       "prompt": "0.000000058"
@@ -14496,10 +14495,10 @@
      "name": "Wafer | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000075",
+      "completion": "0.0000012",
       "discount": 0,
-      "input_cache_read": "0.000000048",
-      "prompt": "0.00000005"
+      "input_cache_read": "0.00000006",
+      "prompt": "0.000000065"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -20595,6 +20594,52 @@
      "tag": "io-net/bf16"
     },
     {
+     "context_length": 256000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "google/gemma-4-26b-a4b-it",
+     "model_name": "Google: Gemma 4 26B A4B ",
+     "name": "Makora | google/gemma-4-26b-a4b-it-20260403",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000032",
+      "discount": 0,
+      "input_cache_read": "0.000000032",
+      "prompt": "0.00000008"
+     },
+     "provider_name": "Makora",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": false,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "makora"
+    },
+    {
      "context_length": 262144,
      "max_completion_tokens": 235929,
      "max_prompt_tokens": null,
@@ -20603,10 +20648,10 @@
      "name": "NextBit | google/gemma-4-26b-a4b-it-20260403",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000225",
-      "discount": 0.25,
-      "input_cache_read": "0.0000000375",
-      "prompt": "0.0000000675"
+      "completion": "0.0000003",
+      "discount": 0,
+      "input_cache_read": "0.00000005",
+      "prompt": "0.00000009"
      },
      "provider_name": "NextBit",
      "quantization": "bf16",
@@ -21065,52 +21110,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/fp8"
-    },
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 235929,
-     "max_prompt_tokens": null,
-     "model_id": "google/gemma-4-31b-it",
-     "model_name": "Google: Gemma 4 31B",
-     "name": "DekaLLM | google/gemma-4-31b-it-20260402",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000033",
-      "discount": 0,
-      "input_cache_read": "0.00000005",
-      "prompt": "0.0000001"
-     },
-     "provider_name": "DekaLLM",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "dekallm"
     },
     {
      "context_length": 262144,
@@ -31153,10 +31152,10 @@
      "name": "Decart | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000132",
-      "discount": 0.12,
-      "input_cache_read": "0.000000264",
-      "prompt": "0.00000264"
+      "completion": "0.000009",
+      "discount": 0.4,
+      "input_cache_read": "0.00000018",
+      "prompt": "0.0000018"
      },
      "provider_name": "Decart",
      "quantization": "mxfp4",
@@ -31434,7 +31433,7 @@
      "pricing": {
       "completion": "0.000014",
       "discount": 0,
-      "input_cache_read": "0.00000066",
+      "input_cache_read": "0.00000022",
       "prompt": "0.00000067"
      },
      "provider_name": "InferenceNet",
@@ -31480,7 +31479,7 @@
      "name": "InferenceNet | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00002",
+      "completion": "0.000015",
       "discount": 0,
       "input_cache_read": "0.00000045",
       "prompt": "0.0000035"
@@ -31657,10 +31656,10 @@
      "name": "Morph | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000004032",
+      "completion": "0.0000119",
       "discount": 0,
       "input_cache_read": "0.00000029",
-      "prompt": "0.000000675"
+      "prompt": "0.0000025"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -31808,7 +31807,7 @@
       "completion": "0.000013",
       "discount": 0,
       "input_cache_read": "0.00000045",
-      "prompt": "0.00000066"
+      "prompt": "0.000000625"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -31944,7 +31943,7 @@
      "pricing": {
       "completion": "0.000015",
       "discount": 0,
-      "input_cache_read": "0.000000375",
+      "input_cache_read": "0.00000045",
       "prompt": "0.00000115"
      },
      "provider_name": "Wafer",
@@ -44379,7 +44378,7 @@
      "name": "Mancer 2 | openai/gpt-oss-120b",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000275",
+      "completion": "0.00000025",
       "discount": 0,
       "prompt": "0.000000045"
      },
@@ -44606,7 +44605,7 @@
     },
     {
      "context_length": 131072,
-     "max_completion_tokens": 117964,
+     "max_completion_tokens": 32768,
      "max_prompt_tokens": null,
      "model_id": "openai/gpt-oss-120b",
      "model_name": "OpenAI: gpt-oss-120b",
@@ -60205,53 +60204,6 @@
      "tag": "gmicloud/bf16"
     },
     {
-     "context_length": 1048576,
-     "max_completion_tokens": 943718,
-     "max_prompt_tokens": null,
-     "model_id": "xiaomi/mimo-v2.6-flash",
-     "model_name": "Xiaomi: MiMo-V2.6-Flash",
-     "name": "InferenceNet | xiaomi/mimo-v2.6-flash-20260921",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000028",
-      "discount": 0,
-      "input_cache_read": "0.00000011",
-      "prompt": "0.000000115"
-     },
-     "provider_name": "InferenceNet",
-     "quantization": "fp8",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "inference-net/fp8"
-    },
-    {
      "context_length": 1048320,
      "max_completion_tokens": 131072,
      "max_prompt_tokens": null,
@@ -60263,7 +60215,7 @@
       "completion": "0.000000252",
       "discount": 0,
       "input_cache_read": "0.0000000025",
-      "prompt": "0.000000118"
+      "prompt": "0.000000099"
      },
      "provider_name": "Io Net",
      "quantization": "fp8",
@@ -63270,10 +63222,10 @@
      "name": "Decart | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000304",
-      "discount": 0.24,
-      "input_cache_read": "0.00000019",
-      "prompt": "0.000000494"
+      "completion": "0.00000236",
+      "discount": 0.41,
+      "input_cache_read": "0.0000001475",
+      "prompt": "0.0000003835"
      },
      "provider_name": "Decart",
      "quantization": "mxfp4",
@@ -63589,10 +63541,10 @@
      "name": "InferenceNet | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000004",
+      "completion": "0.000006",
       "discount": 0,
-      "input_cache_read": "0.00000011",
-      "prompt": "0.00000012"
+      "input_cache_read": "0.000000055",
+      "prompt": "0.00000006"
      },
      "provider_name": "InferenceNet",
      "quantization": "unknown",
@@ -63732,7 +63684,7 @@
       "completion": "0.000003179",
       "discount": 0,
       "input_cache_read": "0.000000166",
-      "prompt": "0.000000124"
+      "prompt": "0.00000017"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -63920,10 +63872,10 @@
      "name": "Relace | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000008",
+      "completion": "0.000016",
       "discount": 0,
-      "input_cache_read": "0.000000096",
-      "prompt": "0.000000096"
+      "input_cache_read": "0.000000024",
+      "prompt": "0.000000024"
      },
      "provider_name": "Relace",
      "quantization": "unknown",
@@ -64005,10 +63957,10 @@
      "name": "StreamLake | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000174592",
-      "discount": 0.6032,
-      "input_cache_read": "0.000000103168",
-      "prompt": "0.00000055552"
+      "completion": "0.0000020196",
+      "discount": 0.541,
+      "input_cache_read": "0.00000011934",
+      "prompt": "0.0000006426"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -64139,10 +64091,10 @@
      "name": "Wafer | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000017",
+      "completion": "0.000008",
       "discount": 0,
-      "input_cache_read": "0.00000031",
-      "prompt": "0.00000038"
+      "input_cache_read": "0.000000027",
+      "prompt": "0.00000003"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -65113,10 +65065,10 @@
      "name": "InferenceNet | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000005",
+      "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.00000007",
-      "prompt": "0.00000008"
+      "input_cache_read": "0.00000004",
+      "prompt": "0.00000012"
      },
      "provider_name": "InferenceNet",
      "quantization": "unknown",
@@ -65393,7 +65345,7 @@
       "completion": "0.000003179",
       "discount": 0,
       "input_cache_read": "0.000000166",
-      "prompt": "0.000000095"
+      "prompt": "0.000000131"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -65718,7 +65670,7 @@
      "name": "Reka | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000286",
+      "completion": "0.00000429",
       "discount": 0.35,
       "input_cache_read": "0.0000001274",
       "prompt": "0.0000008645"
@@ -65765,10 +65717,10 @@
      "name": "Relace | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000044",
+      "completion": "0.000012",
       "discount": 0,
-      "input_cache_read": "0.0000000898",
-      "prompt": "0.000000136"
+      "input_cache_read": "0.00000003",
+      "prompt": "0.00000003"
      },
      "provider_name": "Relace",
      "quantization": "unknown",
@@ -65780,7 +65732,6 @@
       "reasoning",
       "reasoning_effort",
       "repetition_penalty",
-      "response_format",
       "seed",
       "stop",
       "temperature",
@@ -66038,60 +65989,10 @@
      "name": "Wafer | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000004",
+      "completion": "0.000008",
       "discount": 0,
-      "input_cache_read": "0.000000209",
-      "prompt": "0.00000022"
-     },
-     "provider_name": "Wafer",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "logprobs",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "wafer"
-    },
-    {
-     "context_length": 1048576,
-     "max_completion_tokens": 943718,
-     "max_prompt_tokens": null,
-     "model_id": "z-ai/glm-5.3",
-     "model_name": "Z.ai: GLM 5.3",
-     "name": "Wafer | z-ai/glm-5.3-20260816",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.00000066"
+      "input_cache_read": "0.000000065",
+      "prompt": "0.00000007"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -66128,6 +66029,56 @@
      },
      "supports_voice_cloning": false,
      "tag": "wafer/us"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "z-ai/glm-5.3",
+     "model_name": "Z.ai: GLM 5.3",
+     "name": "Wafer | z-ai/glm-5.3-20260816",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.000008",
+      "discount": 0,
+      "input_cache_read": "0.000000095",
+      "prompt": "0.0000001"
+     },
+     "provider_name": "Wafer",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "wafer"
     },
     {
      "context_length": 1048576,
@@ -66477,10 +66428,10 @@
      "name": "Decart | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000375",
-      "discount": 0.25,
-      "input_cache_read": "0.0000000225",
-      "prompt": "0.0000001125"
+      "completion": "0.0000003",
+      "discount": 0.4,
+      "input_cache_read": "0.000000018",
+      "prompt": "0.00000009"
      },
      "provider_name": "Decart",
      "quantization": "fp4",
@@ -66929,53 +66880,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "inference-net/fp4"
-    },
-    {
-     "context_length": 262124,
-     "max_completion_tokens": 65536,
-     "max_prompt_tokens": null,
-     "model_id": "z-ai/glm-5.3-flash",
-     "model_name": "Z.ai: GLM 5.3 Flash",
-     "name": "Io Net | z-ai/glm-5.3-flash-20260826",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.000000375",
-      "discount": 0.25,
-      "input_cache_read": "0.0000000225",
-      "prompt": "0.0000001125"
-     },
-     "provider_name": "Io Net",
-     "quantization": "fp8",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "io-net/fp8"
     },
     {
      "context_length": 1048576,
@@ -67542,10 +67446,10 @@
      "name": "StreamLake | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000002795",
-      "discount": 0.441,
-      "input_cache_read": "0.00000001677",
-      "prompt": "0.00000008385"
+      "completion": "0.00000029",
+      "discount": 0.42,
+      "input_cache_read": "0.0000000174",
+      "prompt": "0.000000087"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -67677,8 +67581,8 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "input_cache_read": "0.000000095",
-      "prompt": "0.0000001"
+      "input_cache_read": "0.000000045",
+      "prompt": "0.00000005"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
