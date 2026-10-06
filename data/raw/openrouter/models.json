@@ -7181,8 +7181,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000128",
-    "input_cache_read": "0.00000003",
-    "prompt": "0.00000003"
+    "input_cache_read": "0.0000000048",
+    "prompt": "0.0000000048"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7316,8 +7316,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000152",
-    "prompt": "0.0000000152"
+    "input_cache_read": "0.000000009",
+    "prompt": "0.000000009"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7635,8 +7635,8 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022",
+    "completion": "0.00000396",
+    "input_cache_read": "0.000000044",
     "overrides": [
      {
       "completion": "0.00000198",
@@ -7718,7 +7718,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000066"
+    "prompt": "0.00000132"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7794,9 +7794,9 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000012",
-    "input_cache_read": "0.000000006",
-    "prompt": "0.0000003"
+    "completion": "0.0000024",
+    "input_cache_read": "0.000000003",
+    "prompt": "0.000000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -12455,9 +12455,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425",
-    "prompt": "0.0000000765"
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005",
+    "prompt": "0.00000009"
    },
    "reasoning": {
     "default_enabled": false,
@@ -18535,6 +18535,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000025",
+    "input_cache_read": "0.00000015",
     "prompt": "0.0000006"
    },
    "reasoning": {
@@ -18564,7 +18565,7 @@
    "top_provider": {
     "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 98304
    }
   },
   {
@@ -19310,8 +19311,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000014",
-    "input_cache_read": "0.00000039",
-    "prompt": "0.00000119"
+    "input_cache_read": "0.00000031",
+    "prompt": "0.00000095"
    },
    "reasoning": {
     "default_effort": "max",
@@ -20972,7 +20973,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 16385,
-    "is_moderated": false,
+    "is_moderated": true,
     "max_completion_tokens": 4096
    }
   },
@@ -41556,8 +41557,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000012",
-    "input_cache_read": "0.0000000464",
-    "prompt": "0.0000000464"
+    "input_cache_read": "0.00000015",
+    "prompt": "0.000000152"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41856,8 +41857,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000005",
-    "input_cache_read": "0.0000000232",
-    "prompt": "0.0000000352"
+    "input_cache_read": "0.00000003",
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "max",
@@ -41894,9 +41895,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1048575,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943717
    }
   },
   {
@@ -42941,9 +42942,9 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000042",
-    "input_cache_read": "0.0000003",
-    "prompt": "0.0000003"
+    "completion": "0.000005",
+    "input_cache_read": "0.00000018",
+    "prompt": "0.00000019"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42980,7 +42981,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    }
   },
   {
@@ -43015,8 +43016,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000152",
-    "prompt": "0.0000000152"
+    "input_cache_read": "0.000000009",
+    "prompt": "0.000000009"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43269,7 +43270,7 @@
    "pricing": {
     "completion": "0.000013",
     "input_cache_read": "0.00000045",
-    "prompt": "0.000001"
+    "prompt": "0.00000084"
    },
    "reasoning": {
     "default_effort": "max",
@@ -43842,8 +43843,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000005",
-    "input_cache_read": "0.0000000232",
-    "prompt": "0.0000000352"
+    "input_cache_read": "0.0000000141",
+    "prompt": "0.0000000214"
    },
    "reasoning": {
     "default_effort": "max",
