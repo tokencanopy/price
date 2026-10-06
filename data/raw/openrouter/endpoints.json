@@ -9379,8 +9379,8 @@
      "pricing": {
       "completion": "0.000001408",
       "discount": 0,
-      "input_cache_read": "0.00000000528",
-      "prompt": "0.00000000528"
+      "input_cache_read": "0.0000000132",
+      "prompt": "0.0000000132"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -9476,8 +9476,8 @@
      "pricing": {
       "completion": "0.00000128",
       "discount": 0,
-      "input_cache_read": "0.0000000048",
-      "prompt": "0.0000000048"
+      "input_cache_read": "0.0000000106",
+      "prompt": "0.0000000106"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -10416,8 +10416,8 @@
      "pricing": {
       "completion": "0.000001408",
       "discount": 0,
-      "input_cache_read": "0.0000000099",
-      "prompt": "0.0000000099"
+      "input_cache_read": "0.00000001474",
+      "prompt": "0.00000001474"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -10511,10 +10511,10 @@
      "name": "Phala | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000132",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000044"
+      "completion": "0.000000924",
+      "discount": 0.3,
+      "input_cache_read": "0.0000000196",
+      "prompt": "0.000000308"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -10603,8 +10603,8 @@
      "pricing": {
       "completion": "0.00000128",
       "discount": 0,
-      "input_cache_read": "0.000000009",
-      "prompt": "0.000000009"
+      "input_cache_read": "0.0000000118",
+      "prompt": "0.0000000118"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -11676,7 +11676,7 @@
      "native_tools": {},
      "pricing": {
       "completion": "0.000009",
-      "discount": 0,
+      "discount": 0.1,
       "input_cache_read": "0.00000018",
       "prompt": "0.0000009"
      },
@@ -12207,9 +12207,9 @@
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000396",
+      "completion": "0.00000198",
       "discount": 0,
-      "input_cache_read": "0.000000044",
+      "input_cache_read": "0.000000022",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -12291,7 +12291,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000132"
+      "prompt": "0.00000066"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -12419,7 +12419,7 @@
       "completion": "0.000001980032",
       "discount": 0.36,
       "input_cache_read": "0.000000075072",
-      "prompt": "0.000000380288"
+      "prompt": "0.000000633664"
      },
      "provider_name": "Ionstream",
      "quantization": "unknown",
@@ -12649,10 +12649,10 @@
      "name": "Phala | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000436",
-      "discount": 0,
-      "input_cache_read": "0.00000015",
-      "prompt": "0.00000145"
+      "completion": "0.0000028776",
+      "discount": 0.34,
+      "input_cache_read": "0.000000099",
+      "prompt": "0.000000957"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -12695,10 +12695,10 @@
      "name": "Relace | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000006",
+      "completion": "0.0000042",
       "discount": 0,
-      "input_cache_read": "0.00000029",
-      "prompt": "0.0000002854"
+      "input_cache_read": "0.00000015",
+      "prompt": "0.000000152"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -13011,8 +13011,8 @@
      "pricing": {
       "completion": "0.000005",
       "discount": 0,
-      "input_cache_read": "0.00000018",
-      "prompt": "0.00000019"
+      "input_cache_read": "0.00000036",
+      "prompt": "0.0000004"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -13456,9 +13456,9 @@
      "name": "DeepSeek | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000006",
+      "input_cache_read": "0.000000003",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -13540,7 +13540,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.0000003"
+      "prompt": "0.00000015"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -13856,7 +13856,7 @@
      "name": "Ionstream | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001175",
+      "completion": "0.00000115",
       "discount": 0,
       "input_cache_read": "0.0000000055",
       "prompt": "0.0000001386"
@@ -13993,10 +13993,10 @@
      "name": "Morph | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000284",
+      "completion": "0.00000039",
       "discount": 0,
       "input_cache_read": "0.000000009",
-      "prompt": "0.000000068"
+      "prompt": "0.000000098"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -14087,10 +14087,10 @@
      "name": "Novita | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000096",
-      "discount": 0.2,
-      "input_cache_read": "0.0000000048",
-      "prompt": "0.00000024"
+      "completion": "0.00000078",
+      "discount": 0.35,
+      "input_cache_read": "0.0000000039",
+      "prompt": "0.000000195"
      },
      "provider_name": "Novita",
      "quantization": "fp8",
@@ -14134,10 +14134,10 @@
      "name": "OpenInference | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000264",
+      "completion": "0.00000132",
       "discount": 0,
-      "input_cache_read": "0.0000000033",
-      "prompt": "0.0000000033"
+      "input_cache_read": "0.0000000165",
+      "prompt": "0.000000021421"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -14270,6 +14270,53 @@
     },
     {
      "context_length": 1048576,
+     "max_completion_tokens": 393216,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "name": "Reka | deepseek/deepseek-v4.1-flash-20260910",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000018",
+      "discount": 0.1,
+      "input_cache_read": "0.000000009",
+      "prompt": "0.00000018"
+     },
+     "provider_name": "Reka",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "reka"
+    },
+    {
+     "context_length": 1048576,
      "max_completion_tokens": 943718,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4.1-flash",
@@ -14277,10 +14324,10 @@
      "name": "Relace | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000024",
+      "completion": "0.0000012",
       "discount": 0,
-      "input_cache_read": "0.000000003",
-      "prompt": "0.000000003"
+      "input_cache_read": "0.000000015",
+      "prompt": "0.000000011421"
      },
      "provider_name": "Relace",
      "quantization": "unknown",
@@ -20614,10 +20661,10 @@
      "name": "Io Net | google/gemma-4-26b-a4b-it-20260403",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000027",
-      "discount": 0.1,
-      "input_cache_read": "0.0000000261",
-      "prompt": "0.0000000621"
+      "completion": "0.000000255",
+      "discount": 0.15,
+      "input_cache_read": "0.00000002465",
+      "prompt": "0.00000005865"
      },
      "provider_name": "Io Net",
      "quantization": "bf16",
@@ -27981,8 +28028,8 @@
      "pricing": {
       "completion": "0.00000003",
       "discount": 0,
-      "input_cache_read": "0.000000019",
-      "prompt": "0.000000025"
+      "input_cache_read": "0.000000015",
+      "prompt": "0.000000023"
      },
      "provider_name": "Io Net",
      "quantization": "fp16",
@@ -31164,10 +31211,10 @@
      "name": "Decart | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000126",
-      "discount": 0.16,
-      "input_cache_read": "0.000000252",
-      "prompt": "0.00000252"
+      "completion": "0.00001005",
+      "discount": 0.33,
+      "input_cache_read": "0.000000201",
+      "prompt": "0.00000201"
      },
      "provider_name": "Decart",
      "quantization": "mxfp4",
@@ -31668,10 +31715,10 @@
      "name": "Morph | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000012834",
+      "completion": "0.000013296",
       "discount": 0,
       "input_cache_read": "0.000000278",
-      "prompt": "0.00000085"
+      "prompt": "0.000001274"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -31819,7 +31866,7 @@
       "completion": "0.000013",
       "discount": 0,
       "input_cache_read": "0.00000045",
-      "prompt": "0.00000084"
+      "prompt": "0.00000083"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -31859,10 +31906,10 @@
      "name": "Sail Research | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000014",
+      "completion": "0.0000135",
       "discount": 0,
       "input_cache_read": "0.0000003",
-      "prompt": "0.0000028"
+      "prompt": "0.00000084"
      },
      "provider_name": "Sail Research",
      "quantization": "fp4",
@@ -31956,7 +32003,7 @@
       "completion": "0.000014",
       "discount": 0,
       "input_cache_read": "0.0000004",
-      "prompt": "0.000001"
+      "prompt": "0.00000095"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -54376,7 +54423,7 @@
      "name": "Ionstream | qwen/qwen3.8-27b-20260814",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000022",
+      "completion": "0.00000198",
       "discount": 0,
       "input_cache_read": "0.000000085",
       "prompt": "0.0000000893"
@@ -54659,10 +54706,10 @@
      "name": "Reka | qwen/qwen3.8-27b-20260814",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000003",
-      "discount": 0,
-      "input_cache_read": "0.00000002",
-      "prompt": "0.00000005"
+      "completion": "0.00000435",
+      "discount": 0.5,
+      "input_cache_read": "0.0000000155",
+      "prompt": "0.0000000239"
      },
      "provider_name": "Reka",
      "quantization": "unknown",
@@ -60253,10 +60300,10 @@
      "name": "Io Net | xiaomi/mimo-v2.6-flash-20260921",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000028",
+      "completion": "0.0000003",
       "discount": 0,
-      "input_cache_read": "0.0000000035",
-      "prompt": "0.000000145"
+      "input_cache_read": "0.0000000039",
+      "prompt": "0.000000149"
      },
      "provider_name": "Io Net",
      "quantization": "fp8",
@@ -63216,10 +63263,10 @@
      "name": "Decart | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000224",
-      "discount": 0.44,
-      "input_cache_read": "0.00000014",
-      "prompt": "0.000000364"
+      "completion": "0.00000372",
+      "discount": 0.07,
+      "input_cache_read": "0.0000002325",
+      "prompt": "0.0000006045"
      },
      "provider_name": "Decart",
      "quantization": "mxfp4",
@@ -65727,6 +65774,7 @@
       "reasoning",
       "reasoning_effort",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
       "temperature",
@@ -66036,8 +66084,8 @@
      "pricing": {
       "completion": "0.000007",
       "discount": 0,
-      "input_cache_read": "0.000000095",
-      "prompt": "0.0000001"
+      "input_cache_read": "0.00000014",
+      "prompt": "0.00000015"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -66840,7 +66888,7 @@
       "completion": "0.0000005",
       "discount": 0,
       "input_cache_read": "0.00000003",
-      "prompt": "0.00000015"
+      "prompt": "0.0000001"
      },
      "provider_name": "InferenceNet",
      "quantization": "fp4",
@@ -66928,10 +66976,10 @@
      "name": "Morph | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000357",
+      "completion": "0.000000646",
       "discount": 0,
       "input_cache_read": "0.00000004",
-      "prompt": "0.000000135"
+      "prompt": "0.000000185"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -67120,8 +67168,8 @@
      "pricing": {
       "completion": "0.0000006875",
       "discount": 0,
-      "input_cache_read": "0.00000001551",
-      "prompt": "0.00000002354"
+      "input_cache_read": "0.00000002684",
+      "prompt": "0.00000002684"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -67262,10 +67310,10 @@
      "name": "Reka | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000002",
-      "discount": 0.2,
-      "input_cache_read": "0.00000008",
-      "prompt": "0.0000004"
+      "completion": "0.00000175",
+      "discount": 0.3,
+      "input_cache_read": "0.00000007",
+      "prompt": "0.00000035"
      },
      "provider_name": "Reka",
      "quantization": "unknown",
@@ -67311,8 +67359,8 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "input_cache_read": "0.0000000141",
-      "prompt": "0.0000000214"
+      "input_cache_read": "0.0000000244",
+      "prompt": "0.0000000244"
      },
      "provider_name": "Relace",
      "quantization": "unknown",
