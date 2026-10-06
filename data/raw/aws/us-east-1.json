@@ -1878,6 +1878,22 @@
    "productFamily": "Amazon Bedrock",
    "sku": "53RSDS8TW8CSB2KA"
   },
+  "545D9MCNGJ6YH7ZP": {
+   "attributes": {
+    "feature": "On-demand Inference",
+    "inferenceType": "Speech Understanding input token",
+    "location": "US East (N. Virginia)",
+    "locationType": "AWS Region",
+    "model": "Nova 2.5 Sonic",
+    "operation": "",
+    "regionCode": "us-east-1",
+    "servicecode": "AmazonBedrock",
+    "servicename": "Amazon Bedrock",
+    "usagetype": "USE1-NovaSonic2.5-speech-input-tokens"
+   },
+   "productFamily": "Amazon Bedrock",
+   "sku": "545D9MCNGJ6YH7ZP"
+  },
   "55ZV9VPWSDHUWN3G": {
    "attributes": {
     "feature": "Model Customization",
@@ -7869,6 +7885,22 @@
    },
    "productFamily": "Amazon Bedrock",
    "sku": "FRWK8A3NDCMB6QXA"
+  },
+  "FS6KSC7AWUD3CMSS": {
+   "attributes": {
+    "feature": "On-demand Inference",
+    "inferenceType": "Text Input Token",
+    "location": "US East (N. Virginia)",
+    "locationType": "AWS Region",
+    "model": "Nova 2.5 Sonic",
+    "operation": "",
+    "regionCode": "us-east-1",
+    "servicecode": "AmazonBedrock",
+    "servicename": "Amazon Bedrock",
+    "usagetype": "USE1-NovaSonic2.5-text-input-tokens"
+   },
+   "productFamily": "Amazon Bedrock",
+   "sku": "FS6KSC7AWUD3CMSS"
   },
   "FSY9M8QBH2ZWDM7N": {
    "attributes": {
@@ -15220,6 +15252,22 @@
    "productFamily": "Amazon Bedrock",
    "sku": "VMMW9TM8DRZAW2S9"
   },
+  "VMV2TR4RQK8R628X": {
+   "attributes": {
+    "feature": "On-demand Inference",
+    "inferenceType": "Speech Understanding output token",
+    "location": "US East (N. Virginia)",
+    "locationType": "AWS Region",
+    "model": "Nova 2.5 Sonic",
+    "operation": "",
+    "regionCode": "us-east-1",
+    "servicecode": "AmazonBedrock",
+    "servicename": "Amazon Bedrock",
+    "usagetype": "USE1-NovaSonic2.5-speech-output-tokens"
+   },
+   "productFamily": "Amazon Bedrock",
+   "sku": "VMV2TR4RQK8R628X"
+  },
   "VPQ6T4FEF56X6U47": {
    "attributes": {
     "feature": "Provisioned Throughput Inference - Custom - 6 months",
@@ -16349,6 +16397,22 @@
    },
    "productFamily": "Amazon Bedrock",
    "sku": "XB2MCQT4XWZRUUYT"
+  },
+  "XC39NVNGRPCQNSAZ": {
+   "attributes": {
+    "feature": "On-demand Inference",
+    "inferenceType": "Text output token",
+    "location": "US East (N. Virginia)",
+    "locationType": "AWS Region",
+    "model": "Nova 2.5 Sonic",
+    "operation": "",
+    "regionCode": "us-east-1",
+    "servicecode": "AmazonBedrock",
+    "servicename": "Amazon Bedrock",
+    "usagetype": "USE1-NovaSonic2.5-text-output-tokens"
+   },
+   "productFamily": "Amazon Bedrock",
+   "sku": "XC39NVNGRPCQNSAZ"
   },
   "XCGD5XZSNC8BNNDW": {
    "attributes": {
@@ -17823,7 +17887,7 @@
    "sku": "ZZEREKCP9CH2VZP4"
   }
  },
- "publicationDate": "2026-10-05T21:04:10Z",
+ "publicationDate": "2026-10-06T14:47:26Z",
  "terms": {
   "OnDemand": {
    "22Z2C7232PZ4PV5K": {
@@ -20196,6 +20260,27 @@
       }
      },
      "sku": "53RSDS8TW8CSB2KA",
+     "termAttributes": {}
+    }
+   },
+   "545D9MCNGJ6YH7ZP": {
+    "545D9MCNGJ6YH7ZP.JRTCKXETXF": {
+     "effectiveDate": "2026-10-01T00:00:00Z",
+     "offerTermCode": "JRTCKXETXF",
+     "priceDimensions": {
+      "545D9MCNGJ6YH7ZP.JRTCKXETXF.6YS6EN2CT7": {
+       "appliesTo": [],
+       "beginRange": "0",
+       "description": "$0.003 per 1k tokens for USE1-NovaSonic2.5-speech-input-tokens in US East (N. Virginia)",
+       "endRange": "Inf",
+       "pricePerUnit": {
+        "USD": "0.0030000000"
+       },
+       "rateCode": "545D9MCNGJ6YH7ZP.JRTCKXETXF.6YS6EN2CT7",
+       "unit": "1k tokens"
+      }
+     },
+     "sku": "545D9MCNGJ6YH7ZP",
      "termAttributes": {}
     }
    },
@@ -27819,6 +27904,27 @@
       }
      },
      "sku": "FRWK8A3NDCMB6QXA",
+     "termAttributes": {}
+    }
+   },
+   "FS6KSC7AWUD3CMSS": {
+    "FS6KSC7AWUD3CMSS.JRTCKXETXF": {
+     "effectiveDate": "2026-10-01T00:00:00Z",
+     "offerTermCode": "JRTCKXETXF",
+     "priceDimensions": {
+      "FS6KSC7AWUD3CMSS.JRTCKXETXF.6YS6EN2CT7": {
+       "appliesTo": [],
+       "beginRange": "0",
+       "description": "$0.00033 per 1k tokens for USE1-NovaSonic2.5-text-input-tokens in US East (N. Virginia)",
+       "endRange": "Inf",
+       "pricePerUnit": {
+        "USD": "0.0003300000"
+       },
+       "rateCode": "FS6KSC7AWUD3CMSS.JRTCKXETXF.6YS6EN2CT7",
+       "unit": "1k tokens"
+      }
+     },
+     "sku": "FS6KSC7AWUD3CMSS",
      "termAttributes": {}
     }
    },
@@ -37167,6 +37273,27 @@
      "termAttributes": {}
     }
    },
+   "VMV2TR4RQK8R628X": {
+    "VMV2TR4RQK8R628X.JRTCKXETXF": {
+     "effectiveDate": "2026-10-01T00:00:00Z",
+     "offerTermCode": "JRTCKXETXF",
+     "priceDimensions": {
+      "VMV2TR4RQK8R628X.JRTCKXETXF.6YS6EN2CT7": {
+       "appliesTo": [],
+       "beginRange": "0",
+       "description": "$0.012 per 1k tokens for USE1-NovaSonic2.5-speech-output-tokens in US East (N. Virginia)",
+       "endRange": "Inf",
+       "pricePerUnit": {
+        "USD": "0.0120000000"
+       },
+       "rateCode": "VMV2TR4RQK8R628X.JRTCKXETXF.6YS6EN2CT7",
+       "unit": "1k tokens"
+      }
+     },
+     "sku": "VMV2TR4RQK8R628X",
+     "termAttributes": {}
+    }
+   },
    "VPQ6T4FEF56X6U47": {
     "VPQ6T4FEF56X6U47.JRTCKXETXF": {
      "effectiveDate": "2026-10-01T00:00:00Z",
@@ -38592,6 +38719,27 @@
       }
      },
      "sku": "XB2MCQT4XWZRUUYT",
+     "termAttributes": {}
+    }
+   },
+   "XC39NVNGRPCQNSAZ": {
+    "XC39NVNGRPCQNSAZ.JRTCKXETXF": {
+     "effectiveDate": "2026-10-01T00:00:00Z",
+     "offerTermCode": "JRTCKXETXF",
+     "priceDimensions": {
+      "XC39NVNGRPCQNSAZ.JRTCKXETXF.6YS6EN2CT7": {
+       "appliesTo": [],
+       "beginRange": "0",
+       "description": "$0.00275 per 1k tokens for USE1-NovaSonic2.5-text-output-tokens in US East (N. Virginia)",
+       "endRange": "Inf",
+       "pricePerUnit": {
+        "USD": "0.0027500000"
+       },
+       "rateCode": "XC39NVNGRPCQNSAZ.JRTCKXETXF.6YS6EN2CT7",
+       "unit": "1k tokens"
+      }
+     },
+     "sku": "XC39NVNGRPCQNSAZ",
      "termAttributes": {}
     }
    },
@@ -40466,5 +40614,5 @@
    }
   }
  },
- "version": "20261005210410"
+ "version": "20261006144726"
 }

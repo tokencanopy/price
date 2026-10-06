@@ -7181,8 +7181,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000106",
-    "prompt": "0.0000000106"
+    "input_cache_read": "0.0000000005",
+    "prompt": "0.0000000005"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7316,8 +7316,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000118",
-    "prompt": "0.0000000118"
+    "input_cache_read": "0.0000000079",
+    "prompt": "0.0000000079"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7794,9 +7794,9 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000132",
-    "input_cache_read": "0.0000000165",
-    "prompt": "0.000000021421"
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000015",
+    "prompt": "0.000000019474"
    },
    "reasoning": {
     "default_effort": "high",
@@ -12174,6 +12174,69 @@
   {
    "architecture": {
     "input_modalities": [
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image->text+image",
+    "output_modalities": [
+     "image",
+     "text"
+    ],
+    "tokenizer": "Gemini"
+   },
+   "canonical_slug": "google/gemini-nano-banana-2.1-20261006",
+   "context_length": 65536,
+   "created": 1791300825,
+   "default_parameters": {},
+   "description": "Nano Banana 2.1 (Gemini Nano Banana 2.1) is Google's image generation and editing model on the Flash tier, succeeding Nano Banana 2 and Nano Banana Pro. It improves product recontextualization,...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "google/gemini-nano-banana-2.1",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/google/gemini-nano-banana-2.1-20261006/endpoints"
+   },
+   "name": "Google: Nano Banana 2.1",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.0000075",
+    "image_output": "0.00003",
+    "prompt": "0.0000015",
+    "web_search": "0.014"
+   },
+   "reasoning": {
+    "default_effort": "minimal",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "minimal"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 65536,
+    "is_moderated": false,
+    "max_completion_tokens": 58982
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
      "text"
     ],
     "instruct_type": "gemma",
@@ -14306,6 +14369,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000006525",
+    "input_cache_read": "0.00000005",
     "prompt": "0.0000001875"
    },
    "supported_parameters": [
@@ -17198,6 +17262,71 @@
   {
    "architecture": {
     "input_modalities": [
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Mistral"
+   },
+   "canonical_slug": "mistralai/mistral-large-4-0-20261006",
+   "context_length": 524288,
+   "created": 1791294122,
+   "default_parameters": {},
+   "description": "Mistral Large 4 is a frontier multimodal (text and image input) model from Mistral AI built for reasoning, coding, and agentic workloads. It offers a 512K-token context window with up...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "mistralai/mistral-large-4-0",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/mistralai/mistral-large-4-0-20261006/endpoints"
+   },
+   "name": "Mistral: Mistral Large 4",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00000209",
+    "input_cache_read": "0.00000007",
+    "prompt": "0.00000068"
+   },
+   "reasoning": {
+    "default_effort": "high",
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "none"
+    ]
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "logprobs",
+    "max_tokens",
+    "presence_penalty",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_logprobs",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 524288,
+    "is_moderated": false,
+    "max_completion_tokens": 262144
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
      "file",
      "image",
      "text"
@@ -19309,9 +19438,9 @@
    "name": "MoonshotAI: Kimi K3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000014",
-    "input_cache_read": "0.00000031",
-    "prompt": "0.00000095"
+    "completion": "0.000015",
+    "input_cache_read": "0.00000023",
+    "prompt": "0.00000069"
    },
    "reasoning": {
     "default_effort": "max",
@@ -36847,8 +36976,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -36865,7 +36994,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -37006,8 +37135,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -37024,7 +37153,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42866,7 +42995,7 @@
    "pricing": {
     "completion": "0.0000012",
     "input_cache_read": "0.000000015",
-    "prompt": "0.000000011421"
+    "prompt": "0.000000019474"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42942,8 +43071,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000042",
-    "input_cache_read": "0.00000015",
-    "prompt": "0.000000152"
+    "input_cache_read": "0.00000025",
+    "prompt": "0.0000002514"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43015,8 +43144,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000118",
-    "prompt": "0.0000000118"
+    "input_cache_read": "0.0000000079",
+    "prompt": "0.0000000079"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43269,7 +43398,7 @@
    "pricing": {
     "completion": "0.000013",
     "input_cache_read": "0.00000045",
-    "prompt": "0.00000083"
+    "prompt": "0.00000068"
    },
    "reasoning": {
     "default_effort": "max",
@@ -43842,8 +43971,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000005",
-    "input_cache_read": "0.0000000244",
-    "prompt": "0.0000000244"
+    "input_cache_read": "0.0000000214",
+    "prompt": "0.0000000214"
    },
    "reasoning": {
     "default_effort": "max",
@@ -43967,5 +44096,5 @@
  "links": {
   "next": null
  },
- "total_count": 464
+ "total_count": 466
 }
