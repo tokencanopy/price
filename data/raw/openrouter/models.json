@@ -7823,8 +7823,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000012",
-    "input_cache_read": "0.00000002",
-    "prompt": "0.00000005"
+    "input_cache_read": "0.000000006",
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -19407,7 +19407,7 @@
    "pricing": {
     "completion": "0.000015",
     "input_cache_read": "0.00000043",
-    "prompt": "0.00000062"
+    "prompt": "0.0000005"
    },
    "reasoning": {
     "default_effort": "max",
@@ -20084,7 +20084,6 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000002",
-    "input_cache_read": "0.00000003",
     "prompt": "0.00000005"
    },
    "reasoning": {
@@ -20115,7 +20114,7 @@
    "top_provider": {
     "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 32768
    }
   },
   {
@@ -20773,9 +20772,9 @@
    "name": "NVIDIA: Nemotron 3.5 Lightning",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000016",
-    "input_cache_read": "0.00000003",
-    "prompt": "0.00000006"
+    "completion": "0.00000014",
+    "input_cache_read": "0.0000000245",
+    "prompt": "0.000000049"
    },
    "reasoning": {
     "mandatory": false
@@ -20805,7 +20804,7 @@
    "top_provider": {
     "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 131072
    }
   },
   {
@@ -35438,7 +35437,7 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1000000,
+    "context_length": 1048576,
     "is_moderated": false,
     "max_completion_tokens": 131072
    }
@@ -36943,8 +36942,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -36961,7 +36960,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -37102,8 +37101,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -37120,7 +37119,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42968,8 +42967,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000012",
-    "input_cache_read": "0.00000002",
-    "prompt": "0.00000005"
+    "input_cache_read": "0.00000003",
+    "prompt": "0.000000049"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43005,9 +43004,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1040000,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -43044,9 +43043,9 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000043",
-    "input_cache_read": "0.000000033",
-    "prompt": "0.0000004"
+    "completion": "0.0000042",
+    "input_cache_read": "0.00000029",
+    "prompt": "0.0000002917"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43083,7 +43082,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -43372,7 +43371,7 @@
    "pricing": {
     "completion": "0.000013",
     "input_cache_read": "0.00000045",
-    "prompt": "0.00000061"
+    "prompt": "0.00000049"
    },
    "reasoning": {
     "default_effort": "max",
@@ -43945,8 +43944,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000005",
-    "input_cache_read": "0.0000000214",
-    "prompt": "0.0000000214"
+    "input_cache_read": "0.000000025",
+    "prompt": "0.00000004"
    },
    "reasoning": {
     "default_effort": "max",
