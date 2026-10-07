@@ -7663,8 +7663,8 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022",
+    "completion": "0.00000396",
+    "input_cache_read": "0.000000044",
     "overrides": [
      {
       "completion": "0.00000198",
@@ -7746,7 +7746,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000066"
+    "prompt": "0.00000132"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7822,9 +7822,9 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000003",
-    "input_cache_read": "0.000000012",
-    "prompt": "0.000000039"
+    "completion": "0.0000012",
+    "input_cache_read": "0.00000002",
+    "prompt": "0.00000005"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7860,9 +7860,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1040000,
+    "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    }
   },
   {
@@ -12546,9 +12546,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425",
-    "prompt": "0.0000000765"
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005",
+    "prompt": "0.00000009"
    },
    "reasoning": {
     "default_enabled": false,
@@ -13747,68 +13747,6 @@
     "context_length": 128000,
     "is_moderated": false,
     "max_completion_tokens": 8192
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "canonical_slug": "kwaipilot/kat-coder-pro-v2.5-20260710",
-   "context_length": 262144,
-   "created": 1783714589,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "presence_penalty": null,
-    "repetition_penalty": null,
-    "temperature": null,
-    "top_k": null,
-    "top_p": null
-   },
-   "description": "KAT-Coder-Pro V2.5 is a flagship-level Agentic Coding model that can directly hand over an entire issue or an entire business workflow to it, allowing it to autonomously locate and make...",
-   "expiration_date": null,
-   "hugging_face_id": null,
-   "id": "kwaipilot/kat-coder-pro-v2.5",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/kwaipilot/kat-coder-pro-v2.5-20260710/endpoints"
-   },
-   "name": "Kwaipilot: KAT-Coder-Pro V2.5",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.00000296",
-    "input_cache_read": "0.00000015",
-    "prompt": "0.00000074"
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "logit_bias",
-    "max_tokens",
-    "min_p",
-    "presence_penalty",
-    "repetition_penalty",
-    "response_format",
-    "seed",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 262144,
-    "is_moderated": false,
-    "max_completion_tokens": 235929
    }
   },
   {
@@ -19087,9 +19025,9 @@
    "name": "MoonshotAI: Kimi K2.6",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000004",
-    "input_cache_read": "0.00000016",
-    "prompt": "0.00000095"
+    "completion": "0.00000245",
+    "input_cache_read": "0.0000000975",
+    "prompt": "0.000000465"
    },
    "reasoning": {
     "default_enabled": true,
@@ -19468,8 +19406,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000015",
-    "input_cache_read": "0.00000034",
-    "prompt": "0.00000069"
+    "input_cache_read": "0.00000043",
+    "prompt": "0.00000062"
    },
    "reasoning": {
     "default_effort": "max",
@@ -41721,8 +41659,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000012",
-    "input_cache_read": "0.00000015",
-    "prompt": "0.000000152"
+    "input_cache_read": "0.00000003",
+    "prompt": "0.00000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43029,9 +42967,9 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000003",
-    "input_cache_read": "0.000000012",
-    "prompt": "0.000000039"
+    "completion": "0.0000012",
+    "input_cache_read": "0.00000002",
+    "prompt": "0.00000005"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43067,9 +43005,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1040000,
+    "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    }
   },
   {
@@ -43108,7 +43046,7 @@
    "pricing": {
     "completion": "0.0000042",
     "input_cache_read": "0.0000003",
-    "prompt": "0.0000003"
+    "prompt": "0.0000002999"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43434,7 +43372,7 @@
    "pricing": {
     "completion": "0.000013",
     "input_cache_read": "0.00000045",
-    "prompt": "0.00000068"
+    "prompt": "0.00000061"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44006,9 +43944,9 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000005",
-    "input_cache_read": "0.0000000214",
-    "prompt": "0.0000000214"
+    "completion": "0.0000006875",
+    "input_cache_read": "0.00000002354",
+    "prompt": "0.00000002354"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44047,7 +43985,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    }
   },
   {
@@ -44084,9 +44022,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000044",
+    "completion": "0.000012",
     "input_cache_read": "0.00000003",
-    "prompt": "0.00000006"
+    "prompt": "0.00000003"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44132,5 +44070,5 @@
  "links": {
   "next": null
  },
- "total_count": 466
+ "total_count": 465
 }
