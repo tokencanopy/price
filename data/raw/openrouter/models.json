@@ -7388,8 +7388,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000128",
-    "input_cache_read": "0.00000003",
-    "prompt": "0.00000003"
+    "input_cache_read": "0.0000000054",
+    "prompt": "0.0000000054"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7523,8 +7523,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000128",
-    "input_cache_read": "0.000000018",
-    "prompt": "0.000000018"
+    "input_cache_read": "0.0000000046",
+    "prompt": "0.0000000046"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7762,9 +7762,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000004176",
-    "input_cache_read": "0.0000000174",
-    "prompt": "0.0000002088"
+    "completion": "0.00000191052",
+    "input_cache_read": "0.000000079605",
+    "prompt": "0.00000095526"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7842,8 +7842,8 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022",
+    "completion": "0.00000396",
+    "input_cache_read": "0.000000044",
     "overrides": [
      {
       "completion": "0.00000198",
@@ -7925,7 +7925,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000066"
+    "prompt": "0.00000132"
    },
    "reasoning": {
     "default_effort": "high",
@@ -12725,9 +12725,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425",
-    "prompt": "0.0000000765"
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005",
+    "prompt": "0.00000009"
    },
    "reasoning": {
     "default_enabled": false,
@@ -19608,9 +19608,9 @@
    "name": "MoonshotAI: Kimi K3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000015",
-    "input_cache_read": "0.00000043",
-    "prompt": "0.0000008"
+    "completion": "0.0000123",
+    "input_cache_read": "0.0000004",
+    "prompt": "0.0000006"
    },
    "reasoning": {
     "default_effort": "max",
@@ -41874,9 +41874,9 @@
    "name": "Z.ai: GLM 5.2",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000012",
-    "input_cache_read": "0.0000000795",
-    "prompt": "0.0000000883"
+    "completion": "0.00001",
+    "input_cache_read": "0.00000003",
+    "prompt": "0.00000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43191,9 +43191,9 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000012",
-    "input_cache_read": "0.00000001",
-    "prompt": "0.0000000116"
+    "completion": "0.0000024",
+    "input_cache_read": "0.000000003",
+    "prompt": "0.000000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43268,9 +43268,9 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000042",
-    "input_cache_read": "0.0000002",
-    "prompt": "0.0000002681"
+    "completion": "0.000008",
+    "input_cache_read": "0.00000012",
+    "prompt": "0.0000001575"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43341,9 +43341,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000128",
-    "input_cache_read": "0.000000018",
-    "prompt": "0.000000018"
+    "completion": "0.000000816293",
+    "input_cache_read": "0.00000000368",
+    "prompt": "0.00000000368"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43596,7 +43596,7 @@
    "pricing": {
     "completion": "0.000013",
     "input_cache_read": "0.00000045",
-    "prompt": "0.000000528"
+    "prompt": "0.00000059"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44168,9 +44168,9 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000005",
-    "input_cache_read": "0.000000025",
-    "prompt": "0.00000004"
+    "completion": "0.00000116923",
+    "input_cache_read": "0.00000002",
+    "prompt": "0.000000032"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44209,7 +44209,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    }
   },
   {
