@@ -5555,60 +5555,6 @@
    "architecture": {
     "input_modalities": [
      "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "canonical_slug": "baidu/ernie-4.5-vl-424b-a47b",
-   "context_length": 123000,
-   "created": 1751300903,
-   "default_parameters": {},
-   "description": "ERNIE-4.5-VL-424B-A47B is a multimodal Mixture-of-Experts (MoE) model from Baidu\u2019s ERNIE 4.5 series, featuring 424B total parameters with 47B active per token. It is trained jointly on text and image data...",
-   "expiration_date": "2026-10-08",
-   "hugging_face_id": "baidu/ERNIE-4.5-VL-424B-A47B-PT",
-   "id": "baidu/ernie-4.5-vl-424b-a47b",
-   "knowledge_cutoff": "2025-03-31",
-   "links": {
-    "details": "/api/v1/models/baidu/ernie-4.5-vl-424b-a47b/endpoints"
-   },
-   "name": "Baidu: ERNIE 4.5 VL 424B A47B ",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.00000125",
-    "prompt": "0.00000042"
-   },
-   "reasoning": {
-    "mandatory": false
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "max_tokens",
-    "presence_penalty",
-    "reasoning",
-    "repetition_penalty",
-    "seed",
-    "stop",
-    "temperature",
-    "top_k",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 123000,
-    "is_moderated": false,
-    "max_completion_tokens": 16000
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "image",
      "text",
      "video"
     ],
@@ -7388,8 +7334,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000099",
-    "prompt": "0.0000000099"
+    "input_cache_read": "0.0000000131",
+    "prompt": "0.0000000131"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7523,8 +7469,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000079",
-    "prompt": "0.0000000079"
+    "input_cache_read": "0.0000000046",
+    "prompt": "0.0000000046"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7762,9 +7708,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000594732",
-    "input_cache_read": "0.0000000247805",
-    "prompt": "0.000000297366"
+    "completion": "0.000000574548",
+    "input_cache_read": "0.0000000239395",
+    "prompt": "0.000000287274"
    },
    "reasoning": {
     "default_effort": "high",
@@ -8001,9 +7947,9 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000001",
-    "input_cache_read": "0.00000001",
-    "prompt": "0.0000000356"
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006",
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -13644,16 +13590,17 @@
    "description": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for...",
    "expiration_date": null,
    "hugging_face_id": null,
-   "id": "inclusionai/ling-3.0-flash-sante:free",
+   "id": "inclusionai/ling-3.0-flash-sante",
    "knowledge_cutoff": null,
    "links": {
     "details": "/api/v1/models/inclusionai/ling-3.0-flash-sante-20260904/endpoints"
    },
-   "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
+   "name": "inclusionAI: Ling 3.0 Flash Sante",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0",
-    "prompt": "0"
+    "completion": "0.0000001232",
+    "input_cache_read": "0.0000000084",
+    "prompt": "0.000000042"
    },
    "reasoning": {
     "default_enabled": true,
@@ -15932,19 +15879,13 @@
     "mandatory": true
    },
    "supported_parameters": [
-    "frequency_penalty",
     "include_reasoning",
     "max_tokens",
-    "presence_penalty",
     "reasoning",
-    "repetition_penalty",
     "response_format",
-    "seed",
-    "stop",
     "temperature",
     "tool_choice",
     "tools",
-    "top_k",
     "top_p"
    ],
    "supported_voices": null,
@@ -17463,7 +17404,7 @@
     ]
    },
    "canonical_slug": "mistralai/mistral-large-4-0-20261006",
-   "context_length": 524288,
+   "context_length": 1048576,
    "created": 1791294122,
    "default_parameters": {},
    "description": "Mistral Large 4 is a frontier multimodal (text and image input) model from Mistral AI built for reasoning, coding, and agentic workloads. It offers a 512K-token context window with up...",
@@ -17510,7 +17451,7 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 524288,
+    "context_length": 1048576,
     "is_moderated": false,
     "max_completion_tokens": 262144
    }
@@ -19250,8 +19191,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000245",
-    "input_cache_read": "0.0000000975",
-    "prompt": "0.000000465"
+    "input_cache_read": "0.0000001211",
+    "prompt": "0.0000004375"
    },
    "reasoning": {
     "default_enabled": true,
@@ -19629,9 +19570,9 @@
    "name": "MoonshotAI: Kimi K3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000123",
-    "input_cache_read": "0.00000043",
-    "prompt": "0.00000062"
+    "completion": "0.000014",
+    "input_cache_read": "0.00000066",
+    "prompt": "0.00000099"
    },
    "reasoning": {
     "default_effort": "max",
@@ -20319,7 +20260,6 @@
     "logit_bias",
     "logprobs",
     "max_tokens",
-    "min_p",
     "presence_penalty",
     "reasoning",
     "repetition_penalty",
@@ -20453,8 +20393,8 @@
    "name": "NVIDIA: Nemotron 3 Super",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000004",
-    "prompt": "0.000000085"
+    "completion": "0.00000045",
+    "prompt": "0.00000008"
    },
    "reasoning": {
     "default_effort": "medium",
@@ -20492,7 +20432,7 @@
    "top_provider": {
     "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 235929
    }
   },
   {
@@ -32364,11 +32304,9 @@
    "supported_parameters": [
     "frequency_penalty",
     "include_reasoning",
-    "logprobs",
     "max_tokens",
     "presence_penalty",
     "reasoning",
-    "repetition_penalty",
     "response_format",
     "seed",
     "stop",
@@ -32376,7 +32314,6 @@
     "tool_choice",
     "tools",
     "top_k",
-    "top_logprobs",
     "top_p"
    ],
    "supported_voices": null,
@@ -32529,8 +32466,8 @@
    "name": "Qwen: Qwen3 30B A3B Instruct 2507",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000019305",
-    "prompt": "0.00000004815"
+    "completion": "0.0000003",
+    "prompt": "0.0000001"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -32552,9 +32489,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 128000,
+    "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 32000
+    "max_completion_tokens": 235929
    }
   },
   {
@@ -32680,6 +32617,7 @@
     "frequency_penalty",
     "include_reasoning",
     "logit_bias",
+    "logprobs",
     "max_tokens",
     "min_p",
     "presence_penalty",
@@ -32692,7 +32630,9 @@
     "temperature",
     "tool_choice",
     "tools",
+    "top_a",
     "top_k",
+    "top_logprobs",
     "top_p"
    ],
    "supported_voices": null,
@@ -32939,7 +32879,6 @@
     "logprobs",
     "max_tokens",
     "presence_penalty",
-    "repetition_penalty",
     "response_format",
     "seed",
     "stop",
@@ -33425,7 +33364,7 @@
    "created": 1757612213,
    "default_parameters": {},
    "description": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without \u201cthinking\u201d traces. It targets complex tasks across reasoning, code generation, knowledge QA, and multilingual...",
-   "expiration_date": "2026-10-08",
+   "expiration_date": null,
    "hugging_face_id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
    "id": "qwen/qwen3-next-80b-a3b-instruct",
    "knowledge_cutoff": "2025-09-30",
@@ -33435,8 +33374,8 @@
    "name": "Qwen: Qwen3 Next 80B A3B Instruct",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000015",
-    "prompt": "0.00000015"
+    "completion": "0.0000011",
+    "prompt": "0.00000009"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -33459,9 +33398,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 131072,
+    "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 16384
    }
   },
   {
@@ -33661,7 +33600,6 @@
     "max_tokens",
     "presence_penalty",
     "reasoning",
-    "repetition_penalty",
     "response_format",
     "seed",
     "stop",
@@ -34781,8 +34719,9 @@
    "name": "Qwen: Qwen3.6 27B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000027",
-    "prompt": "0.00000045"
+    "completion": "0.000002",
+    "input_cache_read": "0.00000003",
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_enabled": true,
@@ -36635,8 +36574,6 @@
     "stop",
     "structured_outputs",
     "temperature",
-    "tool_choice",
-    "tools",
     "top_k",
     "top_p"
    ],
@@ -37240,8 +37177,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -37258,7 +37195,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -37399,8 +37336,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -37417,7 +37354,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42121,9 +42058,9 @@
    "name": "Z.ai: GLM 5.3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000339",
+    "completion": "0.0000042",
     "input_cache_read": "0.000000048",
-    "prompt": "0.000000049"
+    "prompt": "0.0000001"
    },
    "reasoning": {
     "default_effort": "max",
@@ -43279,9 +43216,9 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000001",
+    "completion": "0.0000012",
     "input_cache_read": "0.00000001",
-    "prompt": "0.0000000356"
+    "prompt": "0.0000000283"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43357,8 +43294,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000008",
-    "input_cache_read": "0.000000081",
-    "prompt": "0.000000108"
+    "input_cache_read": "0.0000000953",
+    "prompt": "0.0000001271"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43429,9 +43366,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000313086",
-    "input_cache_read": "0.00000000632",
-    "prompt": "0.00000000632"
+    "completion": "0.000000549104",
+    "input_cache_read": "0.00000000368",
+    "prompt": "0.00000000368"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43684,7 +43621,7 @@
    "pricing": {
     "completion": "0.000013",
     "input_cache_read": "0.00000045",
-    "prompt": "0.00000045"
+    "prompt": "0.00000083"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44256,7 +44193,7 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000333595",
+    "completion": "0.00000352495",
     "input_cache_read": "0.00000002",
     "prompt": "0.000000032"
    },
@@ -44335,8 +44272,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000012",
-    "input_cache_read": "0.0000000335",
-    "prompt": "0.000000036"
+    "input_cache_read": "0.0000000558",
+    "prompt": "0.00000006"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44382,5 +44319,5 @@
  "links": {
   "next": null
  },
- "total_count": 468
+ "total_count": 467
 }
