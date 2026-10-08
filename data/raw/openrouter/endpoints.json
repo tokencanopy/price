@@ -1772,6 +1772,613 @@
    "id": "anthropic/claude-haiku-4.5",
    "name": "Anthropic: Claude Haiku 4.5"
   },
+  "anthropic/claude-haiku-5.5": {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Claude"
+   },
+   "created": 1791397883,
+   "description": "Claude Haiku 5.5 is Anthropic's small, fast model for high-volume, cost-sensitive work such as summarization, subagents, and browser use. It succeeds Claude Haiku 4.5 with stronger coding, computer use, and...",
+   "endpoints": [
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "anthropic/claude-haiku-5.5",
+     "model_name": "Anthropic: Claude Haiku 5.5",
+     "name": "Amazon Bedrock | anthropic/claude-haiku-5.5-20261007",
+     "native_tools": {
+      "openrouter:bash": {
+       "type": "bash_20250124"
+      }
+     },
+     "pricing": {
+      "completion": "0.0000005",
+      "discount": 0,
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.000000125",
+      "input_cache_write_1h": "0.0000002",
+      "overrides": [
+       {
+        "completion": "0.0000025",
+        "input_cache_read": "0.00000005",
+        "input_cache_write": "0.000000625",
+        "input_cache_write_1h": "0.000001",
+        "min_prompt_tokens": 100000,
+        "prompt": "0.0000005"
+       }
+      ],
+      "prompt": "0.0000001",
+      "web_search": "0.01"
+     },
+     "provider_name": "Amazon Bedrock",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "amazon-bedrock"
+    },
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "anthropic/claude-haiku-5.5",
+     "model_name": "Anthropic: Claude Haiku 5.5",
+     "name": "Amazon Bedrock | anthropic/claude-haiku-5.5-20261007",
+     "native_tools": {
+      "openrouter:bash": {
+       "type": "bash_20250124"
+      }
+     },
+     "pricing": {
+      "completion": "0.00000055",
+      "discount": 0,
+      "input_cache_read": "0.000000011",
+      "input_cache_write": "0.0000001375",
+      "input_cache_write_1h": "0.00000022",
+      "overrides": [
+       {
+        "completion": "0.00000275",
+        "input_cache_read": "0.000000055",
+        "input_cache_write": "0.0000006875",
+        "input_cache_write_1h": "0.0000011",
+        "min_prompt_tokens": 100000,
+        "prompt": "0.00000055"
+       }
+      ],
+      "prompt": "0.00000011",
+      "web_search": "0.01"
+     },
+     "provider_name": "Amazon Bedrock",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "amazon-bedrock/us-east-1"
+    },
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "anthropic/claude-haiku-5.5",
+     "model_name": "Anthropic: Claude Haiku 5.5",
+     "name": "Amazon Bedrock | anthropic/claude-haiku-5.5-20261007",
+     "native_tools": {
+      "openrouter:bash": {
+       "type": "bash_20250124"
+      }
+     },
+     "pricing": {
+      "completion": "0.00000055",
+      "discount": 0,
+      "input_cache_read": "0.000000011",
+      "input_cache_write": "0.0000001375",
+      "input_cache_write_1h": "0.00000022",
+      "overrides": [
+       {
+        "completion": "0.00000275",
+        "input_cache_read": "0.000000055",
+        "input_cache_write": "0.0000006875",
+        "input_cache_write_1h": "0.0000011",
+        "min_prompt_tokens": 100000,
+        "prompt": "0.00000055"
+       }
+      ],
+      "prompt": "0.00000011",
+      "web_search": "0.01"
+     },
+     "provider_name": "Amazon Bedrock",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "amazon-bedrock/eu-west-1"
+    },
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "anthropic/claude-haiku-5.5",
+     "model_name": "Anthropic: Claude Haiku 5.5",
+     "name": "Anthropic | anthropic/claude-haiku-5.5-20261007",
+     "native_tools": {
+      "openrouter:advisor": {
+       "type": "advisor_20260301"
+      },
+      "openrouter:bash": {
+       "type": "bash_20250124"
+      },
+      "openrouter:web_fetch": {
+       "type": "web_fetch_20260209"
+      },
+      "openrouter:web_search": {
+       "type": "web_search_20260209"
+      }
+     },
+     "pricing": {
+      "completion": "0.0000005",
+      "discount": 0,
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.000000125",
+      "input_cache_write_1h": "0.0000002",
+      "overrides": [
+       {
+        "completion": "0.0000025",
+        "input_cache_read": "0.00000005",
+        "input_cache_write": "0.000000625",
+        "input_cache_write_1h": "0.000001",
+        "min_prompt_tokens": 100000,
+        "prompt": "0.0000005"
+       }
+      ],
+      "prompt": "0.0000001",
+      "web_search": "0.01"
+     },
+     "provider_name": "Anthropic",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "anthropic"
+    },
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "anthropic/claude-haiku-5.5",
+     "model_name": "Anthropic: Claude Haiku 5.5",
+     "name": "Azure | anthropic/claude-haiku-5.5-20261007",
+     "native_tools": {
+      "openrouter:bash": {
+       "type": "bash_20250124"
+      }
+     },
+     "pricing": {
+      "completion": "0.0000005",
+      "discount": 0,
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.000000125",
+      "input_cache_write_1h": "0.0000002",
+      "overrides": [
+       {
+        "completion": "0.0000025",
+        "input_cache_read": "0.00000005",
+        "input_cache_write": "0.000000625",
+        "input_cache_write_1h": "0.000001",
+        "min_prompt_tokens": 100000,
+        "prompt": "0.0000005"
+       }
+      ],
+      "prompt": "0.0000001",
+      "web_search": "0.01"
+     },
+     "provider_name": "Azure",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "azure/global"
+    },
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "anthropic/claude-haiku-5.5",
+     "model_name": "Anthropic: Claude Haiku 5.5",
+     "name": "Azure | anthropic/claude-haiku-5.5-20261007",
+     "native_tools": {
+      "openrouter:bash": {
+       "type": "bash_20250124"
+      }
+     },
+     "pricing": {
+      "completion": "0.00000055",
+      "discount": 0,
+      "input_cache_read": "0.000000011",
+      "input_cache_write": "0.0000001375",
+      "input_cache_write_1h": "0.00000022",
+      "overrides": [
+       {
+        "completion": "0.00000275",
+        "input_cache_read": "0.000000055",
+        "input_cache_write": "0.0000006875",
+        "input_cache_write_1h": "0.0000011",
+        "min_prompt_tokens": 100000,
+        "prompt": "0.00000055"
+       }
+      ],
+      "prompt": "0.00000011",
+      "web_search": "0.01"
+     },
+     "provider_name": "Azure",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_completion_tokens",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "azure/us"
+    },
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "anthropic/claude-haiku-5.5",
+     "model_name": "Anthropic: Claude Haiku 5.5",
+     "name": "Claude Platform on AWS | anthropic/claude-haiku-5.5-20261007",
+     "native_tools": {
+      "openrouter:advisor": {
+       "type": "advisor_20260301"
+      },
+      "openrouter:bash": {
+       "type": "bash_20250124"
+      },
+      "openrouter:web_fetch": {
+       "type": "web_fetch_20260209"
+      },
+      "openrouter:web_search": {
+       "type": "web_search_20260209"
+      }
+     },
+     "pricing": {
+      "completion": "0.0000005",
+      "discount": 0,
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.000000125",
+      "input_cache_write_1h": "0.0000002",
+      "overrides": [
+       {
+        "completion": "0.0000025",
+        "input_cache_read": "0.00000005",
+        "input_cache_write": "0.000000625",
+        "input_cache_write_1h": "0.000001",
+        "min_prompt_tokens": 100000,
+        "prompt": "0.0000005"
+       }
+      ],
+      "prompt": "0.0000001",
+      "web_search": "0.01"
+     },
+     "provider_name": "Claude Platform on AWS",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "claude-on-aws"
+    },
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "anthropic/claude-haiku-5.5",
+     "model_name": "Anthropic: Claude Haiku 5.5",
+     "name": "Google | anthropic/claude-haiku-5.5-20261007",
+     "native_tools": {
+      "openrouter:bash": {
+       "type": "bash_20250124"
+      }
+     },
+     "pricing": {
+      "completion": "0.0000005",
+      "discount": 0,
+      "input_cache_read": "0.00000001",
+      "input_cache_write": "0.000000125",
+      "input_cache_write_1h": "0.0000002",
+      "overrides": [
+       {
+        "completion": "0.0000025",
+        "input_cache_read": "0.00000005",
+        "input_cache_write": "0.000000625",
+        "input_cache_write_1h": "0.000001",
+        "min_prompt_tokens": 100000,
+        "prompt": "0.0000005"
+       }
+      ],
+      "prompt": "0.0000001",
+      "web_search": "0.01"
+     },
+     "provider_name": "Google",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "google-vertex/global"
+    },
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "anthropic/claude-haiku-5.5",
+     "model_name": "Anthropic: Claude Haiku 5.5",
+     "name": "Google | anthropic/claude-haiku-5.5-20261007",
+     "native_tools": {
+      "openrouter:bash": {
+       "type": "bash_20250124"
+      }
+     },
+     "pricing": {
+      "completion": "0.00000055",
+      "discount": 0,
+      "input_cache_read": "0.000000011",
+      "input_cache_write": "0.0000001375",
+      "input_cache_write_1h": "0.00000022",
+      "overrides": [
+       {
+        "completion": "0.00000275",
+        "input_cache_read": "0.000000055",
+        "input_cache_write": "0.0000006875",
+        "input_cache_write_1h": "0.0000011",
+        "min_prompt_tokens": 100000,
+        "prompt": "0.00000055"
+       }
+      ],
+      "prompt": "0.00000011",
+      "web_search": "0.01"
+     },
+     "provider_name": "Google",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "google-vertex/europe"
+    },
+    {
+     "context_length": 1000000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "anthropic/claude-haiku-5.5",
+     "model_name": "Anthropic: Claude Haiku 5.5",
+     "name": "Google | anthropic/claude-haiku-5.5-20261007",
+     "native_tools": {
+      "openrouter:bash": {
+       "type": "bash_20250124"
+      }
+     },
+     "pricing": {
+      "completion": "0.00000055",
+      "discount": 0,
+      "input_cache_read": "0.000000011",
+      "input_cache_write": "0.0000001375",
+      "input_cache_write_1h": "0.00000022",
+      "overrides": [
+       {
+        "completion": "0.00000275",
+        "input_cache_read": "0.000000055",
+        "input_cache_write": "0.0000006875",
+        "input_cache_write_1h": "0.0000011",
+        "min_prompt_tokens": 100000,
+        "prompt": "0.00000055"
+       }
+      ],
+      "prompt": "0.00000011",
+      "web_search": "0.01"
+     },
+     "provider_name": "Google",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "google-vertex/us"
+    }
+   ],
+   "id": "anthropic/claude-haiku-5.5",
+   "name": "Anthropic: Claude Haiku 5.5"
+  },
   "anthropic/claude-opus-4.1": {
    "architecture": {
     "input_modalities": [
@@ -3198,7 +3805,6 @@
       "response_format",
       "stop",
       "structured_outputs",
-      "temperature",
       "tool_choice",
       "tools",
       "verbosity"
@@ -3247,7 +3853,6 @@
       "response_format",
       "stop",
       "structured_outputs",
-      "temperature",
       "tool_choice",
       "tools",
       "verbosity"
@@ -3764,7 +4369,6 @@
       "response_format",
       "stop",
       "structured_outputs",
-      "temperature",
       "tool_choice",
       "tools",
       "verbosity"
@@ -3813,7 +4417,6 @@
       "response_format",
       "stop",
       "structured_outputs",
-      "temperature",
       "tool_choice",
       "tools",
       "verbosity"
@@ -4330,7 +4933,6 @@
       "response_format",
       "stop",
       "structured_outputs",
-      "temperature",
       "tool_choice",
       "tools",
       "verbosity"
@@ -4379,7 +4981,6 @@
       "response_format",
       "stop",
       "structured_outputs",
-      "temperature",
       "tool_choice",
       "tools",
       "verbosity"
@@ -6173,7 +6774,7 @@
      "pricing": {
       "completion": "0.00001",
       "discount": 0,
-      "input_cache_read": "0.0000002",
+      "input_cache_read": "0.0000001",
       "input_cache_write": "0.0000025",
       "input_cache_write_1h": "0.000004",
       "prompt": "0.000002",
@@ -6228,7 +6829,7 @@
      "pricing": {
       "completion": "0.00001",
       "discount": 0,
-      "input_cache_read": "0.0000002",
+      "input_cache_read": "0.0000001",
       "input_cache_write": "0.0000025",
       "input_cache_write_1h": "0.000004",
       "prompt": "0.000002",
@@ -6275,7 +6876,7 @@
      "pricing": {
       "completion": "0.00001",
       "discount": 0,
-      "input_cache_read": "0.0000002",
+      "input_cache_read": "0.0000001",
       "input_cache_write": "0.0000025",
       "input_cache_write_1h": "0.000004",
       "prompt": "0.000002",
@@ -6292,7 +6893,6 @@
       "response_format",
       "stop",
       "structured_outputs",
-      "temperature",
       "tool_choice",
       "tools",
       "verbosity"
@@ -6324,7 +6924,7 @@
      "pricing": {
       "completion": "0.000011",
       "discount": 0,
-      "input_cache_read": "0.00000022",
+      "input_cache_read": "0.00000011",
       "input_cache_write": "0.00000275",
       "input_cache_write_1h": "0.0000044",
       "prompt": "0.0000022",
@@ -6341,7 +6941,6 @@
       "response_format",
       "stop",
       "structured_outputs",
-      "temperature",
       "tool_choice",
       "tools",
       "verbosity"
@@ -6382,7 +6981,7 @@
      "pricing": {
       "completion": "0.00001",
       "discount": 0,
-      "input_cache_read": "0.0000002",
+      "input_cache_read": "0.0000001",
       "input_cache_write": "0.0000025",
       "input_cache_write_1h": "0.000004",
       "prompt": "0.000002",
@@ -6428,7 +7027,7 @@
      "pricing": {
       "completion": "0.00001",
       "discount": 0,
-      "input_cache_read": "0.0000002",
+      "input_cache_read": "0.0000001",
       "input_cache_write": "0.0000025",
       "input_cache_write_1h": "0.000004",
       "prompt": "0.000002",
@@ -6475,7 +7074,7 @@
      "pricing": {
       "completion": "0.000011",
       "discount": 0,
-      "input_cache_read": "0.00000022",
+      "input_cache_read": "0.00000011",
       "input_cache_write": "0.00000275",
       "input_cache_write_1h": "0.0000044",
       "prompt": "0.0000022",
@@ -6522,7 +7121,7 @@
      "pricing": {
       "completion": "0.000011",
       "discount": 0,
-      "input_cache_read": "0.00000022",
+      "input_cache_read": "0.00000011",
       "input_cache_write": "0.00000275",
       "input_cache_write_1h": "0.0000044",
       "prompt": "0.0000022",
@@ -9638,6 +10237,54 @@
      },
      "supports_voice_cloning": false,
      "tag": "venice"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4-flash",
+     "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
+     "name": "Wafer | deepseek/deepseek-v4-flash-20260423",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000028",
+      "discount": 0,
+      "input_cache_read": "0.000000028",
+      "prompt": "0.00000014"
+     },
+     "provider_name": "Wafer",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "wafer"
     }
    ],
    "id": "deepseek/deepseek-v4-flash",
@@ -9667,9 +10314,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000528",
+      "completion": "0.000001056",
       "discount": 0,
-      "input_cache_read": "0.0000000176",
+      "input_cache_read": "0.0000000352",
       "overrides": [
        {
         "completion": "0.000000528",
@@ -9686,7 +10333,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000176"
+      "prompt": "0.000000352"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -10778,10 +11425,10 @@
      "name": "Venice | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000035",
+      "completion": "0.00000026",
       "discount": 0,
-      "input_cache_read": "0.000000035",
-      "prompt": "0.000000175"
+      "input_cache_read": "0.000000028",
+      "prompt": "0.00000013"
      },
      "provider_name": "Venice",
      "quantization": "unknown",
@@ -10822,7 +11469,7 @@
      "name": "Wafer | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000084",
+      "completion": "0.00000023",
       "discount": 0,
       "input_cache_read": "0.00000013",
       "prompt": "0.00000022"
@@ -11773,9 +12420,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000017424",
+      "completion": "0.000003366",
       "discount": 0,
-      "input_cache_read": "0.00000005808",
+      "input_cache_read": "0.0000001122",
       "overrides": [
        {
         "completion": "0.0000017424",
@@ -11792,7 +12439,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000005808"
+      "prompt": "0.000001122"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -12069,9 +12716,9 @@
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000198",
+      "completion": "0.00000396",
       "discount": 0,
-      "input_cache_read": "0.000000022",
+      "input_cache_read": "0.000000044",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -12153,7 +12800,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000066"
+      "prompt": "0.00000132"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -12278,7 +12925,7 @@
      "name": "Ionstream | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001980032",
+      "completion": "0.000002277056",
       "discount": 0.36,
       "input_cache_read": "0.000000078528",
       "prompt": "0.000000653376"
@@ -12514,8 +13161,8 @@
      "pricing": {
       "completion": "0.0000042",
       "discount": 0,
-      "input_cache_read": "0.00000029",
-      "prompt": "0.0000002917"
+      "input_cache_read": "0.0000002",
+      "prompt": "0.000000261"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -12826,10 +13473,10 @@
      "name": "Wafer | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000005",
+      "completion": "0.0000034",
       "discount": 0,
-      "input_cache_read": "0.00000036",
-      "prompt": "0.0000004"
+      "input_cache_read": "0.0000002",
+      "prompt": "0.00000029"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -12896,9 +13543,9 @@
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000006",
+      "completion": "0.0000012",
       "discount": 0,
-      "input_cache_read": "0.000000015",
+      "input_cache_read": "0.00000003",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -12915,7 +13562,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.00000015"
+      "prompt": "0.0000003"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -13273,9 +13920,9 @@
      "name": "DeepSeek | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000006",
+      "completion": "0.0000012",
       "discount": 0,
-      "input_cache_read": "0.000000003",
+      "input_cache_read": "0.000000006",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -13357,7 +14004,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000015"
+      "prompt": "0.0000003"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -13445,10 +14092,10 @@
      "name": "DigitalOcean | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000072",
+      "completion": "0.0000009",
       "discount": 0,
       "input_cache_read": "0.000000006",
-      "prompt": "0.00000018"
+      "prompt": "0.000000225"
      },
      "provider_name": "DigitalOcean",
      "quantization": "unknown",
@@ -13628,7 +14275,7 @@
       "completion": "0.0000012",
       "discount": 0,
       "input_cache_read": "0.00000003",
-      "prompt": "0.000000049"
+      "prompt": "0.000000065"
      },
      "provider_name": "InferenceNet",
      "quantization": "fp8",
@@ -13673,7 +14320,7 @@
      "name": "Ionstream | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000115",
+      "completion": "0.000001175",
       "discount": 0,
       "input_cache_read": "0.0000000055",
       "prompt": "0.000000133"
@@ -13813,7 +14460,7 @@
       "completion": "0.000000424",
       "discount": 0,
       "input_cache_read": "0.000000009",
-      "prompt": "0.000000081"
+      "prompt": "0.000000019"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -14002,8 +14649,8 @@
      "pricing": {
       "completion": "0.0000012",
       "discount": 0,
-      "input_cache_read": "0.00000002",
-      "prompt": "0.00000005"
+      "input_cache_read": "0.00000001",
+      "prompt": "0.0000000116"
      },
      "provider_name": "Relace",
      "quantization": "unknown",
@@ -14270,8 +14917,8 @@
      "pricing": {
       "completion": "0.0000012",
       "discount": 0,
-      "input_cache_read": "0.000000059",
-      "prompt": "0.0000001"
+      "input_cache_read": "0.000000014",
+      "prompt": "0.0000000145"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -20527,10 +21174,10 @@
      "name": "NextBit | google/gemma-4-26b-a4b-it-20260403",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000003",
-      "discount": 0,
-      "input_cache_read": "0.00000005",
-      "prompt": "0.00000009"
+      "completion": "0.000000255",
+      "discount": 0.15,
+      "input_cache_read": "0.0000000425",
+      "prompt": "0.0000000765"
      },
      "provider_name": "NextBit",
      "quantization": "bf16",
@@ -20929,6 +21576,8 @@
       "stop",
       "structured_outputs",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_k",
       "top_p"
      ],
@@ -20937,9 +21586,9 @@
      "supports_multiple_audio_references": false,
      "supports_tool_choice": {
       "auto": true,
-      "function": true,
+      "function": false,
       "none": true,
-      "required": true
+      "required": false
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/turbo"
@@ -21213,8 +21862,8 @@
      "tag": "parasail/fp8"
     },
     {
-     "context_length": 262144,
-     "max_completion_tokens": 235929,
+     "context_length": 131072,
+     "max_completion_tokens": 117964,
      "max_prompt_tokens": null,
      "model_id": "google/gemma-4-31b-it",
      "model_name": "Google: Gemma 4 31B",
@@ -31193,7 +31842,7 @@
       "completion": "0.000015",
       "discount": 0,
       "input_cache_read": "0.00000043",
-      "prompt": "0.0000005"
+      "prompt": "0.0000008"
      },
      "provider_name": "InferenceNet",
      "quantization": "fp4",
@@ -31415,10 +32064,10 @@
      "name": "Morph | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000011593",
+      "completion": "0.00001232",
       "discount": 0,
       "input_cache_read": "0.000000278",
-      "prompt": "0.000000756"
+      "prompt": "0.000000538"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -31566,7 +32215,7 @@
       "completion": "0.000013",
       "discount": 0,
       "input_cache_read": "0.00000045",
-      "prompt": "0.00000049"
+      "prompt": "0.00000047"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -44055,7 +44704,7 @@
      "pricing": {
       "completion": "0.00000025",
       "discount": 0,
-      "prompt": "0.000000045"
+      "prompt": "0.00000005"
      },
      "provider_name": "Mancer 2",
      "quantization": "fp8",
@@ -54039,7 +54688,7 @@
      "name": "Ionstream | qwen/qwen3.8-27b-20260814",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000235",
+      "completion": "0.0000022",
       "discount": 0,
       "input_cache_read": "0.000000085",
       "prompt": "0.0000000893"
@@ -54415,7 +55064,7 @@
       "completion": "0.00000435",
       "discount": 0,
       "input_cache_read": "0.0000000198",
-      "prompt": "0.000000024"
+      "prompt": "0.0000000238"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -56167,9 +56816,9 @@
      "name": "Tencent | tencent/hy3-20260706",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000033",
+      "completion": "0.000000528",
       "discount": 0,
-      "input_cache_read": "0.000000020625",
+      "input_cache_read": "0.000000033",
       "overrides": [
        {
         "completion": "0.00000033",
@@ -56186,7 +56835,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000000825"
+      "prompt": "0.000000132"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -56435,9 +57084,9 @@
      "name": "Tencent | tencent/hy4-preview-20260827",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000022509",
+      "completion": "0.000002501",
       "discount": 0,
-      "input_cache_read": "0.0000000378",
+      "input_cache_read": "0.000000042",
       "overrides": [
        {
         "completion": "0.0000022509",
@@ -56454,7 +57103,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000007506"
+      "prompt": "0.000000834"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -63388,7 +64037,7 @@
       "completion": "0.000003553",
       "discount": 0,
       "input_cache_read": "0.000000137",
-      "prompt": "0.000000093"
+      "prompt": "0.000000186"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -63624,10 +64273,10 @@
      "name": "Relace | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000072",
+      "completion": "0.000012",
       "discount": 0,
-      "input_cache_read": "0.000000162",
-      "prompt": "0.000000171"
+      "input_cache_read": "0.0000000795",
+      "prompt": "0.0000000883"
      },
      "provider_name": "Relace",
      "quantization": "unknown",
@@ -63843,7 +64492,51 @@
      "name": "Wafer | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000008",
+      "completion": "0.0000043",
+      "discount": 0,
+      "input_cache_read": "0.00000018",
+      "prompt": "0.00000019"
+     },
+     "provider_name": "Wafer",
+     "quantization": "unknown",
+     "supported_parameters": [
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "top_k"
+     ],
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "wafer/us"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "z-ai/glm-5.2",
+     "model_name": "Z.ai: GLM 5.2",
+     "name": "Wafer | z-ai/glm-5.2-20260616",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000043",
       "discount": 0,
       "input_cache_read": "0.00000018",
       "prompt": "0.00000019"
@@ -64819,8 +65512,8 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.00000008",
-      "prompt": "0.00000018"
+      "input_cache_read": "0.00000003",
+      "prompt": "0.00000006"
      },
      "provider_name": "InferenceNet",
      "quantization": "fp4",
@@ -65097,7 +65790,7 @@
       "completion": "0.000003553",
       "discount": 0,
       "input_cache_read": "0.000000108",
-      "prompt": "0.000000071"
+      "prompt": "0.000000143"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -65422,10 +66115,10 @@
      "name": "Relace | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000063",
+      "completion": "0.000012",
       "discount": 0,
-      "input_cache_read": "0.0000000585",
-      "prompt": "0.000000063"
+      "input_cache_read": "0.0000000365",
+      "prompt": "0.0000000392"
      },
      "provider_name": "Relace",
      "quantization": "unknown",
@@ -65695,10 +66388,10 @@
      "name": "Wafer | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000007",
+      "completion": "0.00000339",
       "discount": 0,
-      "input_cache_read": "0.000000065",
-      "prompt": "0.00000007"
+      "input_cache_read": "0.000000048",
+      "prompt": "0.000000049"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -65745,7 +66438,7 @@
      "name": "Wafer | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000007",
+      "completion": "0.00000339",
       "discount": 0,
       "input_cache_read": "0.00000016",
       "prompt": "0.00000017"
@@ -66134,10 +66827,10 @@
      "name": "Decart | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000029",
-      "discount": 0.42,
-      "input_cache_read": "0.0000000174",
-      "prompt": "0.000000087"
+      "completion": "0.000000315",
+      "discount": 0.37,
+      "input_cache_read": "0.0000000189",
+      "prompt": "0.0000000945"
      },
      "provider_name": "Decart",
      "quantization": "fp4",
@@ -66550,8 +67243,8 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "input_cache_read": "0.00000004",
-      "prompt": "0.00000007"
+      "input_cache_read": "0.000000045",
+      "prompt": "0.00000008"
      },
      "provider_name": "InferenceNet",
      "quantization": "fp4",
@@ -66641,8 +67334,8 @@
      "pricing": {
       "completion": "0.000000646",
       "discount": 0,
-      "input_cache_read": "0.000000017",
-      "prompt": "0.000000091"
+      "input_cache_read": "0.00000004",
+      "prompt": "0.000000176"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -66871,6 +67564,55 @@
      },
      "supports_voice_cloning": false,
      "tag": "parasail/fp4"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "z-ai/glm-5.3-flash",
+     "model_name": "Z.ai: GLM 5.3 Flash",
+     "name": "Parasail | z-ai/glm-5.3-flash-20260826",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.000000625",
+      "discount": 0,
+      "input_cache_read": "0.0000000375",
+      "prompt": "0.0000001875"
+     },
+     "provider_name": "Parasail",
+     "quantization": "fp4",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "parasail/fast"
     },
     {
      "context_length": 1048576,
@@ -67290,7 +68032,7 @@
       "completion": "0.0000005",
       "discount": 0,
       "input_cache_read": "0.00000003",
-      "prompt": "0.00000013"
+      "prompt": "0.0000001"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
