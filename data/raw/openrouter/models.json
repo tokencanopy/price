@@ -6473,8 +6473,8 @@
    "name": "DeepSeek: DeepSeek V3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000010287",
-    "prompt": "0.0000002574"
+    "completion": "0.00000089",
+    "prompt": "0.00000032"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -6495,9 +6495,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 128000,
+    "context_length": 163840,
     "is_moderated": false,
-    "max_completion_tokens": 16000
+    "max_completion_tokens": 16384
    }
   },
   {
@@ -7334,8 +7334,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000131",
-    "prompt": "0.0000000131"
+    "input_cache_read": "0.0000000228",
+    "prompt": "0.0000000228"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7469,8 +7469,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000079",
-    "prompt": "0.0000000079"
+    "input_cache_read": "0.0000000104",
+    "prompt": "0.0000000104"
    },
    "reasoning": {
     "default_effort": "high",
@@ -12671,9 +12671,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425",
-    "prompt": "0.0000000765"
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005",
+    "prompt": "0.00000009"
    },
    "reasoning": {
     "default_enabled": false,
@@ -19571,9 +19571,9 @@
    "name": "MoonshotAI: Kimi K3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000013",
-    "input_cache_read": "0.0000004",
-    "prompt": "0.00000076"
+    "completion": "0.000012",
+    "input_cache_read": "0.00000035",
+    "prompt": "0.0000005"
    },
    "reasoning": {
     "default_effort": "max",
@@ -20937,9 +20937,9 @@
    "name": "NVIDIA: Nemotron 3.5 Lightning",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000014",
-    "input_cache_read": "0.0000000245",
-    "prompt": "0.000000049"
+    "completion": "0.000000134",
+    "input_cache_read": "0.00000002345",
+    "prompt": "0.0000000469"
    },
    "reasoning": {
     "mandatory": false
@@ -33563,7 +33563,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000011",
-    "prompt": "0.00000009"
+    "input_cache_read": "0.00000007",
+    "prompt": "0.0000001"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -33588,7 +33589,7 @@
    "top_provider": {
     "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 235929
    }
   },
   {
@@ -34359,8 +34360,9 @@
    "name": "Qwen: Qwen3.5-35B-A3B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000013",
-    "prompt": "0.0000001625"
+    "completion": "0.00000075",
+    "input_cache_read": "0.00000004",
+    "prompt": "0.00000008"
    },
    "reasoning": {
     "mandatory": false
@@ -34390,7 +34392,7 @@
    "top_provider": {
     "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 32768
    }
   },
   {
@@ -42085,7 +42087,7 @@
    "name": "Z.ai: GLM 5.2",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000043",
+    "completion": "0.000008",
     "input_cache_read": "0.000000083",
     "prompt": "0.000000084"
    },
@@ -42244,7 +42246,7 @@
    "name": "Z.ai: GLM 5.3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000339",
+    "completion": "0.000007",
     "input_cache_read": "0.000000038",
     "prompt": "0.000000039"
    },
@@ -43402,7 +43404,7 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000012",
+    "completion": "0.0000006",
     "input_cache_read": "0.000000005",
     "prompt": "0.000000016"
    },
@@ -43480,8 +43482,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000008",
-    "input_cache_read": "0.00000018",
-    "prompt": "0.00000018"
+    "input_cache_read": "0.0000002",
+    "prompt": "0.000000198"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43552,9 +43554,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000128",
-    "input_cache_read": "0.0000000079",
-    "prompt": "0.0000000079"
+    "completion": "0.000000148972",
+    "input_cache_read": "0.00000000832",
+    "prompt": "0.00000000832"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43807,7 +43809,7 @@
    "pricing": {
     "completion": "0.000013",
     "input_cache_read": "0.0000003",
-    "prompt": "0.00000075"
+    "prompt": "0.00000049"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44379,7 +44381,7 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002",
+    "completion": "0.00000158731",
     "input_cache_read": "0.00000002",
     "prompt": "0.000000032"
    },
@@ -44457,7 +44459,7 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000012",
+    "completion": "0.0000044",
     "input_cache_read": "0.000000029",
     "prompt": "0.0000000312"
    },
