@@ -7334,8 +7334,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000075",
-    "prompt": "0.0000000075"
+    "input_cache_read": "0.0000000131",
+    "prompt": "0.0000000131"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7469,8 +7469,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000128",
-    "input_cache_read": "0.000000018",
-    "prompt": "0.000000018"
+    "input_cache_read": "0.0000000064",
+    "prompt": "0.0000000064"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7708,9 +7708,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605",
-    "prompt": "0.00000095526"
+    "completion": "0.0000004176",
+    "input_cache_read": "0.0000000174",
+    "prompt": "0.0000002088"
    },
    "reasoning": {
     "default_effort": "high",
@@ -13547,16 +13547,13 @@
    "supported_parameters": [
     "frequency_penalty",
     "include_reasoning",
-    "logit_bias",
     "logprobs",
     "max_tokens",
-    "min_p",
     "presence_penalty",
     "reasoning",
     "repetition_penalty",
     "seed",
     "stop",
-    "structured_outputs",
     "temperature",
     "tool_choice",
     "tools",
@@ -18797,6 +18794,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000025",
+    "input_cache_read": "0.00000015",
     "prompt": "0.0000006"
    },
    "reasoning": {
@@ -18826,7 +18824,7 @@
    "top_provider": {
     "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 98304
    }
   },
   {
@@ -19192,8 +19190,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000245",
-    "input_cache_read": "0.0000000975",
-    "prompt": "0.000000465"
+    "input_cache_read": "0.0000001077",
+    "prompt": "0.0000004344"
    },
    "reasoning": {
     "default_enabled": true,
@@ -19571,9 +19569,9 @@
    "name": "MoonshotAI: Kimi K3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000012",
-    "input_cache_read": "0.0000003",
-    "prompt": "0.0000005"
+    "completion": "0.000014",
+    "input_cache_read": "0.0000006",
+    "prompt": "0.0000009"
    },
    "reasoning": {
     "default_effort": "max",
@@ -32000,73 +31998,6 @@
   {
    "architecture": {
     "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "canonical_slug": "qwen/qwen-plus-2025-07-28",
-   "context_length": 1000000,
-   "created": 1757347599,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "temperature": null,
-    "top_p": null
-   },
-   "description": "Qwen Plus 0728, based on the Qwen3 foundation model, is a 1 million context hybrid reasoning model with a balanced performance, speed, and cost combination.",
-   "expiration_date": "2026-10-09",
-   "hugging_face_id": "",
-   "id": "qwen/qwen-plus-2025-07-28",
-   "knowledge_cutoff": "2025-03-31",
-   "links": {
-    "details": "/api/v1/models/qwen/qwen-plus-2025-07-28/endpoints"
-   },
-   "name": "Qwen: Qwen Plus 0728",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.00000078",
-    "overrides": [
-     {
-      "completion": "0.00000234",
-      "min_prompt_tokens": 256000,
-      "prompt": "0.00000078"
-     }
-    ],
-    "prompt": "0.00000026"
-   },
-   "reasoning": {
-    "mandatory": false
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "logprobs",
-    "max_tokens",
-    "presence_penalty",
-    "response_format",
-    "seed",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 1000000,
-    "is_moderated": false,
-    "max_completion_tokens": 32768
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
      "image",
      "text"
     ],
@@ -32140,7 +32071,7 @@
     "design_arena": []
    },
    "canonical_slug": "qwen/qwen3-14b-04-28",
-   "context_length": 131072,
+   "context_length": 40960,
    "created": 1745876478,
    "default_parameters": {},
    "description": "Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for...",
@@ -32186,112 +32117,6 @@
     "context_length": 40960,
     "is_moderated": false,
     "max_completion_tokens": 16384
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": "qwen3",
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": null,
-     "coding_index": null,
-     "intelligence_index": 9.5
-    },
-    "design_arena": [
-     {
-      "arena": "models",
-      "category": "3d",
-      "elo": 864,
-      "rank": 116,
-      "win_rate": 24.5
-     },
-     {
-      "arena": "models",
-      "category": "codecategories",
-      "elo": 1006,
-      "rank": 116,
-      "win_rate": 38.2
-     },
-     {
-      "arena": "models",
-      "category": "dataviz",
-      "elo": 999,
-      "rank": 110,
-      "win_rate": 40
-     },
-     {
-      "arena": "models",
-      "category": "gamedev",
-      "elo": 935,
-      "rank": 124,
-      "win_rate": 32.9
-     },
-     {
-      "arena": "models",
-      "category": "uicomponent",
-      "elo": 962,
-      "rank": 113,
-      "win_rate": 38.6
-     },
-     {
-      "arena": "models",
-      "category": "website",
-      "elo": 1035,
-      "rank": 116,
-      "win_rate": 40.4
-     }
-    ]
-   },
-   "canonical_slug": "qwen/qwen3-235b-a22b-04-28",
-   "context_length": 131072,
-   "created": 1745875757,
-   "default_parameters": {},
-   "description": "Qwen3-235B-A22B is a 235B parameter mixture-of-experts (MoE) model developed by Qwen, activating 22B parameters per forward pass. It supports seamless switching between a \"thinking\" mode for complex reasoning, math, and...",
-   "expiration_date": "2026-10-09",
-   "hugging_face_id": "Qwen/Qwen3-235B-A22B",
-   "id": "qwen/qwen3-235b-a22b",
-   "knowledge_cutoff": "2025-03-31",
-   "links": {
-    "details": "/api/v1/models/qwen/qwen3-235b-a22b-04-28/endpoints"
-   },
-   "name": "Qwen: Qwen3 235B A22B",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.00000182",
-    "prompt": "0.000000455"
-   },
-   "reasoning": {
-    "mandatory": false
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "max_tokens",
-    "presence_penalty",
-    "reasoning",
-    "response_format",
-    "seed",
-    "stop",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 131072,
-    "is_moderated": false,
-    "max_completion_tokens": 8192
    }
   },
   {
@@ -32465,7 +32290,7 @@
     ]
    },
    "canonical_slug": "qwen/qwen3-235b-a22b-thinking-2507",
-   "context_length": 131072,
+   "context_length": 128000,
    "created": 1753449557,
    "default_parameters": {
     "frequency_penalty": null,
@@ -32473,7 +32298,7 @@
     "top_p": null
    },
    "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks. It activates 22B of its 235B parameters per forward pass and natively supports up to 262,144...",
-   "expiration_date": "2026-10-09",
+   "expiration_date": null,
    "hugging_face_id": "Qwen/Qwen3-235B-A22B-Thinking-2507",
    "id": "qwen/qwen3-235b-a22b-thinking-2507",
    "knowledge_cutoff": "2025-06-30",
@@ -32483,8 +32308,8 @@
    "name": "Qwen: Qwen3 235B A22B Thinking 2507",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000023",
-    "prompt": "0.00000023"
+    "completion": "0.0000035",
+    "prompt": "0.00000045"
    },
    "reasoning": {
     "mandatory": true
@@ -32495,8 +32320,6 @@
     "max_tokens",
     "presence_penalty",
     "reasoning",
-    "response_format",
-    "seed",
     "stop",
     "temperature",
     "tool_choice",
@@ -32506,9 +32329,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 131072,
+    "context_length": 128000,
     "is_moderated": false,
-    "max_completion_tokens": 117964
+    "max_completion_tokens": 16384
    }
   },
   {
@@ -32568,7 +32391,7 @@
     ]
    },
    "canonical_slug": "qwen/qwen3-30b-a3b-04-28",
-   "context_length": 131072,
+   "context_length": 40960,
    "created": 1745878604,
    "default_parameters": {
     "frequency_penalty": null,
@@ -32687,84 +32510,6 @@
     "input_modalities": [
      "text"
     ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": 0.9,
-     "coding_index": 12.1,
-     "intelligence_index": 9.8
-    },
-    "design_arena": [
-     {
-      "arena": "models",
-      "category": "dataviz",
-      "elo": 928,
-      "rank": 121,
-      "win_rate": 33.3
-     },
-     {
-      "arena": "models",
-      "category": "website",
-      "elo": 935,
-      "rank": 128,
-      "win_rate": 35.5
-     }
-    ]
-   },
-   "canonical_slug": "qwen/qwen3-30b-a3b-thinking-2507",
-   "context_length": 81920,
-   "created": 1756399192,
-   "default_parameters": {},
-   "description": "Qwen3-30B-A3B-Thinking-2507 is a 30B parameter Mixture-of-Experts reasoning model optimized for complex tasks requiring extended multi-step thinking. The model is designed specifically for \u201cthinking mode,\u201d where internal reasoning traces are separated...",
-   "expiration_date": "2026-10-09",
-   "hugging_face_id": "Qwen/Qwen3-30B-A3B-Thinking-2507",
-   "id": "qwen/qwen3-30b-a3b-thinking-2507",
-   "knowledge_cutoff": "2025-06-30",
-   "links": {
-    "details": "/api/v1/models/qwen/qwen3-30b-a3b-thinking-2507/endpoints"
-   },
-   "name": "Qwen: Qwen3 30B A3B Thinking 2507",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.0000024",
-    "prompt": "0.0000002"
-   },
-   "reasoning": {
-    "mandatory": true
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "max_tokens",
-    "presence_penalty",
-    "reasoning",
-    "response_format",
-    "seed",
-    "stop",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 81920,
-    "is_moderated": false,
-    "max_completion_tokens": 32768
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
     "instruct_type": "qwen3",
     "modality": "text->text",
     "output_modalities": [
@@ -32805,6 +32550,7 @@
     "frequency_penalty",
     "include_reasoning",
     "logit_bias",
+    "logprobs",
     "max_tokens",
     "min_p",
     "presence_penalty",
@@ -32817,7 +32563,9 @@
     "temperature",
     "tool_choice",
     "tools",
+    "top_a",
     "top_k",
+    "top_logprobs",
     "top_p"
    ],
    "supported_voices": null,
@@ -32825,77 +32573,6 @@
     "context_length": 40960,
     "is_moderated": false,
     "max_completion_tokens": 16384
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": "qwen3",
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": 0.8,
-     "coding_index": 9,
-     "intelligence_index": 7.3
-    },
-    "design_arena": []
-   },
-   "canonical_slug": "qwen/qwen3-8b-04-28",
-   "context_length": 131072,
-   "created": 1745876632,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "presence_penalty": null,
-    "repetition_penalty": null,
-    "temperature": 0.6,
-    "top_k": 20,
-    "top_p": 0.95
-   },
-   "description": "Qwen3-8B is a dense 8.2B parameter causal language model from the Qwen3 series, designed for both reasoning-heavy tasks and efficient dialogue. It supports seamless switching between \"thinking\" mode for math,...",
-   "expiration_date": "2026-10-09",
-   "hugging_face_id": "Qwen/Qwen3-8B",
-   "id": "qwen/qwen3-8b",
-   "knowledge_cutoff": "2025-03-31",
-   "links": {
-    "details": "/api/v1/models/qwen/qwen3-8b-04-28/endpoints"
-   },
-   "name": "Qwen: Qwen3 8B",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.000000455",
-    "prompt": "0.000000117"
-   },
-   "reasoning": {
-    "default_enabled": true,
-    "mandatory": false
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "max_tokens",
-    "presence_penalty",
-    "reasoning",
-    "response_format",
-    "seed",
-    "stop",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 131072,
-    "is_moderated": false,
-    "max_completion_tokens": 8192
    }
   },
   {
@@ -33061,18 +32738,14 @@
    },
    "supported_parameters": [
     "frequency_penalty",
-    "logprobs",
     "max_tokens",
-    "presence_penalty",
     "response_format",
-    "seed",
     "stop",
     "structured_outputs",
     "temperature",
     "tool_choice",
     "tools",
     "top_k",
-    "top_logprobs",
     "top_p"
    ],
    "supported_voices": null,
@@ -33236,306 +32909,6 @@
     ],
     "tokenizer": "Qwen3"
    },
-   "canonical_slug": "qwen/qwen3-coder-plus",
-   "context_length": 1000000,
-   "created": 1758662707,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "temperature": null,
-    "top_p": null
-   },
-   "description": "Qwen3 Coder Plus is Alibaba's proprietary version of the Open Source Qwen3 Coder 480B A35B. It is a powerful coding agent model specializing in autonomous programming via tool calling and...",
-   "expiration_date": "2026-10-09",
-   "hugging_face_id": "",
-   "id": "qwen/qwen3-coder-plus",
-   "knowledge_cutoff": "2025-06-30",
-   "links": {
-    "details": "/api/v1/models/qwen/qwen3-coder-plus/endpoints"
-   },
-   "name": "Qwen: Qwen3 Coder Plus",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.00000325",
-    "input_cache_read": "0.00000013",
-    "input_cache_write": "0.0000008125",
-    "overrides": [
-     {
-      "completion": "0.00000585",
-      "input_cache_read": "0.000000234",
-      "input_cache_write": "0.0000014625",
-      "min_prompt_tokens": 32000,
-      "prompt": "0.00000117"
-     },
-     {
-      "completion": "0.00000975",
-      "input_cache_read": "0.00000039",
-      "input_cache_write": "0.0000024375",
-      "min_prompt_tokens": 128000,
-      "prompt": "0.00000195"
-     }
-    ],
-    "prompt": "0.00000065"
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "logprobs",
-    "max_tokens",
-    "presence_penalty",
-    "response_format",
-    "seed",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 1000000,
-    "is_moderated": false,
-    "max_completion_tokens": 65536
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": null,
-     "coding_index": null,
-     "intelligence_index": 15.6
-    },
-    "design_arena": [
-     {
-      "arena": "models",
-      "category": "3d",
-      "elo": 1079,
-      "rank": 92,
-      "win_rate": 43.5
-     },
-     {
-      "arena": "models",
-      "category": "asciiart",
-      "elo": 1134,
-      "rank": 51,
-      "win_rate": 47.2
-     },
-     {
-      "arena": "models",
-      "category": "codecategories",
-      "elo": 1113,
-      "rank": 92,
-      "win_rate": 44
-     },
-     {
-      "arena": "models",
-      "category": "dataviz",
-      "elo": 1103,
-      "rank": 92,
-      "win_rate": 41.2
-     },
-     {
-      "arena": "models",
-      "category": "gamedev",
-      "elo": 1101,
-      "rank": 90,
-      "win_rate": 43.8
-     },
-     {
-      "arena": "models",
-      "category": "svg",
-      "elo": 1010,
-      "rank": 82,
-      "win_rate": 37.2
-     },
-     {
-      "arena": "models",
-      "category": "uicomponent",
-      "elo": 1081,
-      "rank": 95,
-      "win_rate": 40.2
-     },
-     {
-      "arena": "models",
-      "category": "website",
-      "elo": 1123,
-      "rank": 95,
-      "win_rate": 44.5
-     }
-    ]
-   },
-   "canonical_slug": "qwen/qwen3-max",
-   "context_length": 262144,
-   "created": 1758662808,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "temperature": 1,
-    "top_p": 1
-   },
-   "description": "Qwen3-Max is an updated release built on the Qwen3 series, offering major improvements in reasoning, instruction following, multilingual support, and long-tail knowledge coverage compared to the January 2025 version. It...",
-   "expiration_date": "2026-10-09",
-   "hugging_face_id": "",
-   "id": "qwen/qwen3-max",
-   "knowledge_cutoff": "2025-06-30",
-   "links": {
-    "details": "/api/v1/models/qwen/qwen3-max/endpoints"
-   },
-   "name": "Qwen: Qwen3 Max",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.0000039",
-    "input_cache_read": "0.000000156",
-    "input_cache_write": "0.000000975",
-    "overrides": [
-     {
-      "completion": "0.0000078",
-      "input_cache_read": "0.000000312",
-      "input_cache_write": "0.00000195",
-      "min_prompt_tokens": 32000,
-      "prompt": "0.00000156"
-     },
-     {
-      "completion": "0.00000975",
-      "input_cache_read": "0.00000039",
-      "input_cache_write": "0.0000024375",
-      "min_prompt_tokens": 128000,
-      "prompt": "0.00000195"
-     }
-    ],
-    "prompt": "0.00000078"
-   },
-   "reasoning": {
-    "mandatory": false
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "logprobs",
-    "max_tokens",
-    "presence_penalty",
-    "response_format",
-    "seed",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 262144,
-    "is_moderated": false,
-    "max_completion_tokens": 65536
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": null,
-     "coding_index": null,
-     "intelligence_index": 21.3
-    },
-    "design_arena": []
-   },
-   "canonical_slug": "qwen/qwen3-max-thinking-20260123",
-   "context_length": 262144,
-   "created": 1770671901,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "temperature": null,
-    "top_p": null
-   },
-   "description": "Qwen3-Max-Thinking is the flagship reasoning model in the Qwen3 series, designed for high-stakes cognitive tasks that require deep, multi-step reasoning. By significantly scaling model capacity and reinforcement learning compute, it...",
-   "expiration_date": "2026-10-09",
-   "hugging_face_id": null,
-   "id": "qwen/qwen3-max-thinking",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/qwen/qwen3-max-thinking-20260123/endpoints"
-   },
-   "name": "Qwen: Qwen3 Max Thinking",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.0000039",
-    "overrides": [
-     {
-      "completion": "0.0000078",
-      "min_prompt_tokens": 32000,
-      "prompt": "0.00000156"
-     },
-     {
-      "completion": "0.00000975",
-      "min_prompt_tokens": 128000,
-      "prompt": "0.00000195"
-     }
-    ],
-    "prompt": "0.00000078"
-   },
-   "reasoning": {
-    "mandatory": false
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "logprobs",
-    "max_tokens",
-    "presence_penalty",
-    "reasoning",
-    "response_format",
-    "seed",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 262144,
-    "is_moderated": false,
-    "max_completion_tokens": 65536
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
    "benchmarks": {
     "artificial_analysis": {
      "agentic_index": null,
@@ -33618,7 +32991,7 @@
     "top_p": null
    },
    "description": "Qwen3-Next-80B-A3B-Thinking is a reasoning-first chat model in the Qwen3-Next line that outputs structured \u201cthinking\u201d traces by default. It\u2019s designed for hard multi-step problems; math proofs, code synthesis/debugging, logic, and agentic...",
-   "expiration_date": "2026-10-09",
+   "expiration_date": null,
    "hugging_face_id": "Qwen/Qwen3-Next-80B-A3B-Thinking",
    "id": "qwen/qwen3-next-80b-a3b-thinking",
    "knowledge_cutoff": "2025-09-30",
@@ -33655,9 +33028,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 131072,
+    "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 235929
    }
   },
   {
@@ -33712,80 +33085,6 @@
     "min_p",
     "presence_penalty",
     "repetition_penalty",
-    "response_format",
-    "seed",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 131072,
-    "is_moderated": false,
-    "max_completion_tokens": 32768
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": null,
-     "coding_index": null,
-     "intelligence_index": 13.4
-    },
-    "design_arena": []
-   },
-   "canonical_slug": "qwen/qwen3-vl-235b-a22b-thinking",
-   "context_length": 131072,
-   "created": 1758668690,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "presence_penalty": null,
-    "repetition_penalty": 1,
-    "temperature": 0.8,
-    "top_k": 20,
-    "top_p": 0.95
-   },
-   "description": "Qwen3-VL-235B-A22B Thinking is a multimodal model that unifies strong text generation with visual understanding across images and video. The Thinking model is optimized for multimodal reasoning in STEM and math....",
-   "expiration_date": "2026-10-09",
-   "hugging_face_id": "Qwen/Qwen3-VL-235B-A22B-Thinking",
-   "id": "qwen/qwen3-vl-235b-a22b-thinking",
-   "knowledge_cutoff": "2025-03-31",
-   "links": {
-    "details": "/api/v1/models/qwen/qwen3-vl-235b-a22b-thinking/endpoints"
-   },
-   "name": "Qwen: Qwen3 VL 235B A22B Thinking",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.000004",
-    "prompt": "0.0000004"
-   },
-   "reasoning": {
-    "mandatory": true
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "logprobs",
-    "max_tokens",
-    "presence_penalty",
-    "reasoning",
     "response_format",
     "seed",
     "stop",
@@ -33909,7 +33208,7 @@
     "top_p": 0.95
    },
    "description": "Qwen3-VL-30B-A3B-Thinking is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Thinking variant enhances reasoning in STEM, math, and complex tasks. It excels...",
-   "expiration_date": "2026-10-09",
+   "expiration_date": null,
    "hugging_face_id": "Qwen/Qwen3-VL-30B-A3B-Thinking",
    "id": "qwen/qwen3-vl-30b-a3b-thinking",
    "knowledge_cutoff": "2025-03-31",
@@ -33919,8 +33218,8 @@
    "name": "Qwen: Qwen3 VL 30B A3B Thinking",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000024",
-    "prompt": "0.0000002"
+    "completion": "0.000001",
+    "prompt": "0.00000029"
    },
    "reasoning": {
     "mandatory": true
@@ -33928,95 +33227,21 @@
    "supported_parameters": [
     "frequency_penalty",
     "include_reasoning",
-    "logprobs",
     "max_tokens",
-    "presence_penalty",
     "reasoning",
     "response_format",
-    "seed",
-    "stop",
     "structured_outputs",
     "temperature",
     "tool_choice",
     "tools",
     "top_k",
-    "top_logprobs",
     "top_p"
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 131072,
+    "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 32768
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": null,
-     "coding_index": null,
-     "intelligence_index": 11.9
-    },
-    "design_arena": []
-   },
-   "canonical_slug": "qwen/qwen3-vl-32b-instruct",
-   "context_length": 131072,
-   "created": 1761231332,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "presence_penalty": null,
-    "repetition_penalty": 1,
-    "temperature": 0.7,
-    "top_k": 20,
-    "top_p": 0.8
-   },
-   "description": "Qwen3-VL-32B-Instruct is a large-scale multimodal vision-language model designed for high-precision understanding and reasoning across text, images, and video. With 32 billion parameters, it combines deep visual perception with advanced text...",
-   "expiration_date": "2026-10-09",
-   "hugging_face_id": "Qwen/Qwen3-VL-32B-Instruct",
-   "id": "qwen/qwen3-vl-32b-instruct",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/qwen/qwen3-vl-32b-instruct/endpoints"
-   },
-   "name": "Qwen: Qwen3 VL 32B Instruct",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.000000416",
-    "prompt": "0.000000104"
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "logprobs",
-    "max_tokens",
-    "presence_penalty",
-    "response_format",
-    "seed",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 131072,
-    "is_moderated": false,
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 235929
    }
   },
   {
@@ -34049,7 +33274,7 @@
     "top_p": 0.8
    },
    "description": "Qwen3-VL-8B-Instruct is a multimodal vision-language model from the Qwen3-VL series, built for high-fidelity understanding and reasoning across text, images, and video. It features improved multimodal fusion with Interleaved-MRoPE for long-horizon...",
-   "expiration_date": "2026-10-09",
+   "expiration_date": null,
    "hugging_face_id": "Qwen/Qwen3-VL-8B-Instruct",
    "id": "qwen/qwen3-vl-8b-instruct",
    "knowledge_cutoff": null,
@@ -34059,8 +33284,9 @@
    "name": "Qwen: Qwen3 VL 8B Instruct",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000455",
-    "prompt": "0.000000117"
+    "completion": "0.00000075",
+    "input_cache_read": "0.00000012",
+    "prompt": "0.00000025"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -34082,79 +33308,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 131072,
+    "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 32768
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": null,
-     "coding_index": null,
-     "intelligence_index": 8.2
-    },
-    "design_arena": []
-   },
-   "canonical_slug": "qwen/qwen3-vl-8b-thinking",
-   "context_length": 131072,
-   "created": 1760463746,
-   "default_parameters": {
-    "temperature": 1,
-    "top_p": 0.95
-   },
-   "description": "Qwen3-VL-8B-Thinking is the reasoning-optimized variant of the Qwen3-VL-8B multimodal model, designed for advanced visual and textual reasoning across complex scenes, documents, and temporal sequences. It integrates enhanced multimodal alignment and...",
-   "expiration_date": "2026-10-09",
-   "hugging_face_id": "Qwen/Qwen3-VL-8B-Thinking",
-   "id": "qwen/qwen3-vl-8b-thinking",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/qwen/qwen3-vl-8b-thinking/endpoints"
-   },
-   "name": "Qwen: Qwen3 VL 8B Thinking",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.0000021",
-    "prompt": "0.00000018"
-   },
-   "reasoning": {
-    "mandatory": true
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "logprobs",
-    "max_tokens",
-    "presence_penalty",
-    "reasoning",
-    "response_format",
-    "seed",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 131072,
-    "is_moderated": false,
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 235929
    }
   },
   {
@@ -34905,8 +34061,8 @@
    "name": "Qwen: Qwen3.6 27B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000027",
-    "prompt": "0.00000045"
+    "completion": "0.0000032",
+    "prompt": "0.00000032"
    },
    "reasoning": {
     "default_enabled": true,
@@ -34937,7 +34093,7 @@
    "top_provider": {
     "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 81920
    }
   },
   {
@@ -35082,82 +34238,6 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 1000000,
-    "is_moderated": false,
-    "max_completion_tokens": 65536
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": null,
-     "coding_index": null,
-     "intelligence_index": 28.4
-    },
-    "design_arena": []
-   },
-   "canonical_slug": "qwen/qwen3.6-max-preview-20260420",
-   "context_length": 262144,
-   "created": 1777260242,
-   "default_parameters": {},
-   "description": "Qwen3.6-Max-Preview is a proprietary frontier model from Alibaba Cloud built on a sparse mixture-of-experts architecture with approximately 1 trillion total parameters. It is optimized for agentic coding, tool use, and...",
-   "expiration_date": "2026-10-09",
-   "hugging_face_id": null,
-   "id": "qwen/qwen3.6-max-preview",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/qwen/qwen3.6-max-preview-20260420/endpoints"
-   },
-   "name": "Qwen: Qwen3.6 Max Preview",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.000006162",
-    "input_cache_write": "0.00000128375",
-    "overrides": [
-     {
-      "completion": "0.00000948",
-      "input_cache_write": "0.000001975",
-      "min_prompt_tokens": 128000,
-      "prompt": "0.00000158"
-     }
-    ],
-    "prompt": "0.000001027"
-   },
-   "reasoning": {
-    "default_enabled": true,
-    "mandatory": false
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "logprobs",
-    "max_tokens",
-    "presence_penalty",
-    "reasoning",
-    "response_format",
-    "seed",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 262144,
     "is_moderated": false,
     "max_completion_tokens": 65536
    }
@@ -37362,8 +36442,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -37380,7 +36460,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -37521,8 +36601,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -37539,7 +36619,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42084,7 +41164,7 @@
    "name": "Z.ai: GLM 5.2",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000042",
+    "completion": "0.000008",
     "input_cache_read": "0.000000059",
     "prompt": "0.00000006"
    },
@@ -43401,8 +42481,8 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000012",
-    "input_cache_read": "0.00000001",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000005",
     "prompt": "0.000000016"
    },
    "reasoning": {
@@ -43479,8 +42559,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000008",
-    "input_cache_read": "0.0000002",
-    "prompt": "0.000000198"
+    "input_cache_read": "0.00000013",
+    "prompt": "0.0000001282"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43551,9 +42631,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000046749",
-    "input_cache_read": "0.0000000096",
-    "prompt": "0.0000000144"
+    "completion": "0.00000001467",
+    "input_cache_read": "0.00000000512",
+    "prompt": "0.00000000512"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43804,9 +42884,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000013",
-    "input_cache_read": "0.0000003",
-    "prompt": "0.00000049"
+    "completion": "0.000014",
+    "input_cache_read": "0.00000029",
+    "prompt": "0.00000045"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44378,7 +43458,7 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000498114",
+    "completion": "0.000000140682",
     "input_cache_read": "0.00000002",
     "prompt": "0.000000032"
    },
@@ -44504,5 +43584,5 @@
  "links": {
   "next": null
  },
- "total_count": 469
+ "total_count": 458
 }

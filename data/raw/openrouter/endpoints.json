@@ -8824,51 +8824,6 @@
    "description": "DeepSeek-V3.2 is a large language model designed to harmonize high computational efficiency with strong reasoning and agentic tool-use performance. It introduces DeepSeek Sparse Attention (DSA), a fine-grained sparse attention mechanism...",
    "endpoints": [
     {
-     "context_length": 131072,
-     "max_completion_tokens": 65536,
-     "max_prompt_tokens": 98304,
-     "model_id": "deepseek/deepseek-v3.2",
-     "model_name": "DeepSeek: DeepSeek V3.2",
-     "name": "Alibaba | deepseek/deepseek-v3.2-20251201",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000011115",
-      "discount": 0,
-      "input_cache_read": "0.0000000741",
-      "input_cache_write": "0.00000046345",
-      "prompt": "0.0000003705"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "fp8",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba/fp8"
-    },
-    {
      "context_length": 163840,
      "max_completion_tokens": 147456,
      "max_prompt_tokens": null,
@@ -9459,51 +9414,6 @@
    "description": "DeepSeek V4 Flash is an efficiency-optimized Mixture-of-Experts model from DeepSeek with 284B total parameters and 13B activated parameters, supporting a 1M-token context window. It is designed for fast inference and...",
    "endpoints": [
     {
-     "context_length": 1000000,
-     "max_completion_tokens": 393216,
-     "max_prompt_tokens": 1000000,
-     "model_id": "deepseek/deepseek-v4-flash",
-     "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
-     "name": "Alibaba | deepseek/deepseek-v4-flash-20260423",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.000000268",
-      "discount": 0,
-      "input_cache_read": "0.0000000268",
-      "prompt": "0.000000134"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "fp8",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba/fp8"
-    },
-    {
      "context_length": 1048576,
      "max_completion_tokens": 393216,
      "max_prompt_tokens": null,
@@ -9600,10 +9510,10 @@
      "name": "Baidu | deepseek/deepseek-v4-flash-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000028",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000014"
+      "completion": "0.00000018172",
+      "discount": 0.351,
+      "input_cache_read": "0.000000018172",
+      "prompt": "0.00000009086"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -9864,51 +9774,6 @@
     },
     {
      "context_length": 1048576,
-     "max_completion_tokens": 393216,
-     "max_prompt_tokens": null,
-     "model_id": "deepseek/deepseek-v4-flash",
-     "model_name": "DeepSeek: DeepSeek V4 Flash 0423",
-     "name": "Novita | deepseek/deepseek-v4-flash-20260423",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000028",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000014"
-     },
-     "provider_name": "Novita",
-     "quantization": "fp8",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "novita/fp8"
-    },
-    {
-     "context_length": 1048576,
      "max_completion_tokens": 943718,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4-flash",
@@ -9916,10 +9781,10 @@
      "name": "OpenInference | deepseek/deepseek-v4-flash-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000046749",
+      "completion": "0.00000001467",
       "discount": 0,
-      "input_cache_read": "0.000000006",
-      "prompt": "0.000000006"
+      "input_cache_read": "0.00000001048",
+      "prompt": "0.00000001048"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -10015,8 +9880,8 @@
      "pricing": {
       "completion": "0.00000128",
       "discount": 0,
-      "input_cache_read": "0.0000000075",
-      "prompt": "0.0000000075"
+      "input_cache_read": "0.0000000131",
+      "prompt": "0.0000000131"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -10254,9 +10119,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001056",
+      "completion": "0.000000528",
       "discount": 0,
-      "input_cache_read": "0.0000000352",
+      "input_cache_read": "0.0000000176",
       "overrides": [
        {
         "completion": "0.000000528",
@@ -10273,7 +10138,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000352"
+      "prompt": "0.000000176"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -10763,10 +10628,10 @@
      "name": "Inceptron | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000065",
+      "completion": "0.0000000182",
       "discount": 0,
       "input_cache_read": "0.000000027",
-      "prompt": "0.00000005"
+      "prompt": "0.0000000066"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -10908,10 +10773,10 @@
      "name": "OpenInference | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000046749",
+      "completion": "0.00000001467",
       "discount": 0,
-      "input_cache_read": "0.0000000096",
-      "prompt": "0.0000000144"
+      "input_cache_read": "0.00000000512",
+      "prompt": "0.00000000512"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -11097,8 +10962,8 @@
      "pricing": {
       "completion": "0.00000128",
       "discount": 0,
-      "input_cache_read": "0.000000018",
-      "prompt": "0.000000018"
+      "input_cache_read": "0.0000000064",
+      "prompt": "0.0000000064"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -11276,10 +11141,10 @@
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000396",
-      "discount": 0.7,
-      "input_cache_read": "0.0000000042",
-      "prompt": "0.000000132"
+      "completion": "0.000000264",
+      "discount": 0.8,
+      "input_cache_read": "0.0000000028",
+      "prompt": "0.000000088"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -11761,10 +11626,10 @@
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000338",
-      "discount": 0,
-      "input_cache_read": "0.00000014",
-      "prompt": "0.00000169"
+      "completion": "0.00000040898",
+      "discount": 0.879,
+      "input_cache_read": "0.00000001694",
+      "prompt": "0.00000020449"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -12122,8 +11987,8 @@
      "pricing": {
       "completion": "0.0000042",
       "discount": 0,
-      "input_cache_read": "0.00000023",
-      "prompt": "0.0000003"
+      "input_cache_read": "0.00000015",
+      "prompt": "0.0000002024"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -12207,10 +12072,10 @@
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000191052",
-      "discount": 0.451,
-      "input_cache_read": "0.000000079605",
-      "prompt": "0.00000095526"
+      "completion": "0.0000004176",
+      "discount": 0.88,
+      "input_cache_read": "0.0000000174",
+      "prompt": "0.0000002088"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -12313,9 +12178,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000003366",
+      "completion": "0.0000017424",
       "discount": 0,
-      "input_cache_read": "0.0000001122",
+      "input_cache_read": "0.00000005808",
       "overrides": [
        {
         "completion": "0.0000017424",
@@ -12332,7 +12197,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000001122"
+      "prompt": "0.0000005808"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -12422,10 +12287,10 @@
      "name": "Baidu | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000396",
-      "discount": 0,
-      "input_cache_read": "0.000000042",
-      "prompt": "0.00000132"
+      "completion": "0.00000042768",
+      "discount": 0.892,
+      "input_cache_read": "0.000000004536",
+      "prompt": "0.00000014256"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -12820,7 +12685,7 @@
      "pricing": {
       "completion": "0.00000293",
       "discount": 0,
-      "input_cache_read": "0.00000015",
+      "input_cache_read": "0.000000088",
       "prompt": "0.00000037"
      },
      "provider_name": "Ionstream",
@@ -13008,8 +12873,8 @@
      "pricing": {
       "completion": "0.000008",
       "discount": 0,
-      "input_cache_read": "0.0000002",
-      "prompt": "0.000000198"
+      "input_cache_read": "0.00000013",
+      "prompt": "0.0000001282"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -13320,7 +13185,7 @@
      "name": "Wafer | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000004",
+      "completion": "0.000005",
       "discount": 0,
       "input_cache_read": "0.000000219",
       "prompt": "0.00000022"
@@ -13390,9 +13255,9 @@
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.00000003",
+      "input_cache_read": "0.000000015",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -13409,7 +13274,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000003"
+      "prompt": "0.00000015"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -13498,10 +13363,10 @@
      "name": "Baidu | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
-      "discount": 0,
-      "input_cache_read": "0.000000006",
-      "prompt": "0.0000003"
+      "completion": "0.0000005988",
+      "discount": 0.501,
+      "input_cache_read": "0.000000002994",
+      "prompt": "0.0000001497"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -14169,8 +14034,8 @@
      "pricing": {
       "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.00000001",
-      "prompt": "0.00000005"
+      "input_cache_read": "0.000000008",
+      "prompt": "0.00000004"
      },
      "provider_name": "InferenceNet",
      "quantization": "fp8",
@@ -14215,10 +14080,10 @@
      "name": "Ionstream | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000004",
+      "completion": "0.0000011",
       "discount": 0,
-      "input_cache_read": "0.000000006",
-      "prompt": "0.00000005"
+      "input_cache_read": "0.00000001",
+      "prompt": "0.0000001"
      },
      "provider_name": "Ionstream",
      "quantization": "unknown",
@@ -14357,7 +14222,7 @@
       "completion": "0.0000006",
       "discount": 0,
       "input_cache_read": "0.00000001",
-      "prompt": "0.000000058"
+      "prompt": "0.000000096"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -14592,9 +14457,9 @@
      "name": "Relace | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.00000001",
+      "input_cache_read": "0.000000005",
       "prompt": "0.000000016"
      },
      "provider_name": "Relace",
@@ -14862,8 +14727,8 @@
      "pricing": {
       "completion": "0.0000012",
       "discount": 0,
-      "input_cache_read": "0.000000044",
-      "prompt": "0.000000045"
+      "input_cache_read": "0.000000049",
+      "prompt": "0.00000005"
      },
      "provider_name": "Wafer",
      "quantization": "unknown",
@@ -21849,8 +21714,8 @@
      "tag": "parasail/fp8"
     },
     {
-     "context_length": 131072,
-     "max_completion_tokens": 117964,
+     "context_length": 262144,
+     "max_completion_tokens": 235929,
      "max_prompt_tokens": null,
      "model_id": "google/gemma-4-31b-it",
      "model_name": "Google: Gemma 4 31B",
@@ -22650,52 +22515,6 @@
    "created": 1787846290,
    "description": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment...",
    "endpoints": [
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 235929,
-     "max_prompt_tokens": null,
-     "model_id": "inclusionai/ling-3.0-flash-fin",
-     "model_name": "inclusionAI: Ling 3.0 Flash Fin",
-     "name": "DeepInfra | inclusionai/ling-3.0-flash-fin-20260827",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000018",
-      "discount": 0,
-      "input_cache_read": "0.000000012",
-      "prompt": "0.00000006"
-     },
-     "provider_name": "DeepInfra",
-     "quantization": "fp4",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "deepinfra/fp4"
-    },
     {
      "context_length": 262144,
      "max_completion_tokens": 32768,
@@ -28476,10 +28295,10 @@
      "name": "Io Net | mistralai/mistral-nemo",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000027",
-      "discount": 0.1,
-      "input_cache_read": "0.0000000135",
-      "prompt": "0.0000000207"
+      "completion": "0.000000024",
+      "discount": 0.2,
+      "input_cache_read": "0.000000012",
+      "prompt": "0.0000000184"
      },
      "provider_name": "Io Net",
      "quantization": "fp16",
@@ -30082,10 +29901,10 @@
      "name": "Baidu | moonshotai/kimi-k2.6-20260420",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001956",
-      "discount": 0.511,
-      "input_cache_read": "0.00000007824",
-      "prompt": "0.00000046455"
+      "completion": "0.000001828",
+      "discount": 0.543,
+      "input_cache_read": "0.00000007312",
+      "prompt": "0.00000043415"
      },
      "provider_name": "Baidu",
      "quantization": "fp4",
@@ -30443,8 +30262,8 @@
      "pricing": {
       "completion": "0.00000245",
       "discount": 0,
-      "input_cache_read": "0.0000000975",
-      "prompt": "0.000000465"
+      "input_cache_read": "0.0000001077",
+      "prompt": "0.0000004344"
      },
      "provider_name": "Inceptron",
      "quantization": "int4",
@@ -31573,10 +31392,10 @@
      "name": "Decart | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000096",
-      "discount": 0.36,
-      "input_cache_read": "0.000000192",
-      "prompt": "0.00000192"
+      "completion": "0.00000975",
+      "discount": 0.35,
+      "input_cache_read": "0.000000195",
+      "prompt": "0.00000195"
      },
      "provider_name": "Decart",
      "quantization": "mxfp4",
@@ -31827,6 +31646,8 @@
       "stop",
       "structured_outputs",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_k",
       "top_logprobs",
       "top_p"
@@ -31852,10 +31673,10 @@
      "name": "InferenceNet | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000012",
+      "completion": "0.000014",
       "discount": 0,
-      "input_cache_read": "0.0000003",
-      "prompt": "0.0000005"
+      "input_cache_read": "0.0000006",
+      "prompt": "0.0000009"
      },
      "provider_name": "InferenceNet",
      "quantization": "fp4",
@@ -32080,7 +31901,7 @@
       "completion": "0.000014",
       "discount": 0,
       "input_cache_read": "0.00000029",
-      "prompt": "0.000001335"
+      "prompt": "0.00000045"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -32409,7 +32230,7 @@
      "name": "Wafer | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000012",
+      "completion": "0.000015",
       "discount": 0,
       "input_cache_read": "0.00000045",
       "prompt": "0.0000005"
@@ -47345,75 +47166,6 @@
    "id": "qwen/qwen-plus",
    "name": "Qwen: Qwen-Plus"
   },
-  "qwen/qwen-plus-2025-07-28": {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "created": 1757347599,
-   "description": "Qwen Plus 0728, based on the Qwen3 foundation model, is a 1 million context hybrid reasoning model with a balanced performance, speed, and cost combination.",
-   "endpoints": [
-    {
-     "context_length": 1000000,
-     "max_completion_tokens": 32768,
-     "max_prompt_tokens": 995904,
-     "model_id": "qwen/qwen-plus-2025-07-28",
-     "model_name": "Qwen: Qwen Plus 0728",
-     "name": "Alibaba | qwen/qwen-plus-2025-07-28",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000078",
-      "discount": 0,
-      "overrides": [
-       {
-        "completion": "0.00000234",
-        "min_prompt_tokens": 256000,
-        "prompt": "0.00000078"
-       }
-      ],
-      "prompt": "0.00000026"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    }
-   ],
-   "id": "qwen/qwen-plus-2025-07-28",
-   "name": "Qwen: Qwen Plus 0728"
-  },
   "qwen/qwen2.5-vl-72b-instruct": {
    "architecture": {
     "input_modalities": [
@@ -47493,48 +47245,6 @@
    "created": 1745876478,
    "description": "Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for...",
    "endpoints": [
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 8192,
-     "max_prompt_tokens": 98304,
-     "model_id": "qwen/qwen3-14b",
-     "model_name": "Qwen: Qwen3 14B",
-     "name": "Alibaba | qwen/qwen3-14b-04-28",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000091",
-      "discount": 0,
-      "prompt": "0.0000002275"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "response_format",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    },
     {
      "context_length": 40960,
      "max_completion_tokens": 16384,
@@ -47628,67 +47338,6 @@
    "id": "qwen/qwen3-14b",
    "name": "Qwen: Qwen3 14B"
   },
-  "qwen/qwen3-235b-a22b": {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": "qwen3",
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "created": 1745875757,
-   "description": "Qwen3-235B-A22B is a 235B parameter mixture-of-experts (MoE) model developed by Qwen, activating 22B parameters per forward pass. It supports seamless switching between a \"thinking\" mode for complex reasoning, math, and...",
-   "endpoints": [
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 8192,
-     "max_prompt_tokens": 98304,
-     "model_id": "qwen/qwen3-235b-a22b",
-     "model_name": "Qwen: Qwen3 235B A22B",
-     "name": "Alibaba | qwen/qwen3-235b-a22b-04-28",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000182",
-      "discount": 0,
-      "prompt": "0.000000455"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "response_format",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    }
-   ],
-   "id": "qwen/qwen3-235b-a22b",
-   "name": "Qwen: Qwen3 235B A22B"
-  },
   "qwen/qwen3-235b-a22b-2507": {
    "architecture": {
     "input_modalities": [
@@ -47704,48 +47353,6 @@
    "created": 1753119555,
    "description": "Qwen3-235B-A22B-Instruct-2507 is a multilingual, instruction-tuned mixture-of-experts language model based on the Qwen3-235B architecture, with 22B active parameters per forward pass. It is optimized for general-purpose text generation, including instruction following,...",
    "endpoints": [
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 32768,
-     "max_prompt_tokens": 129024,
-     "model_id": "qwen/qwen3-235b-a22b-2507",
-     "model_name": "Qwen: Qwen3 235B A22B Instruct 2507",
-     "name": "Alibaba | qwen/qwen3-235b-a22b-07-25",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.000000598",
-      "discount": 0,
-      "prompt": "0.0000001495"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    },
     {
      "context_length": 262144,
      "max_completion_tokens": 16384,
@@ -47999,46 +47606,6 @@
     },
     {
      "context_length": 128000,
-     "max_completion_tokens": 32000,
-     "max_prompt_tokens": null,
-     "model_id": "qwen/qwen3-235b-a22b-2507",
-     "model_name": "Qwen: Qwen3 235B A22B Instruct 2507",
-     "name": "StreamLake | qwen/qwen3-235b-a22b-07-25",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000084",
-      "discount": 0.4,
-      "prompt": "0.00000021"
-     },
-     "provider_name": "StreamLake",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "streamlake"
-    },
-    {
-     "context_length": 128000,
      "max_completion_tokens": 16384,
      "max_prompt_tokens": null,
      "model_id": "qwen/qwen3-235b-a22b-2507",
@@ -48096,48 +47663,6 @@
    "created": 1753449557,
    "description": "Qwen3-235B-A22B-Thinking-2507 is a high-performance, open-weight Mixture-of-Experts (MoE) language model optimized for complex reasoning tasks. It activates 22B of its 235B parameters per forward pass and natively supports up to 262,144...",
    "endpoints": [
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 117964,
-     "max_prompt_tokens": null,
-     "model_id": "qwen/qwen3-235b-a22b-thinking-2507",
-     "model_name": "Qwen: Qwen3 235B A22B Thinking 2507",
-     "name": "Alibaba | qwen/qwen3-235b-a22b-thinking-2507",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000023",
-      "discount": 0,
-      "prompt": "0.00000023"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "response_format",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    },
     {
      "context_length": 128000,
      "max_completion_tokens": 16384,
@@ -48197,48 +47722,6 @@
    "created": 1745878604,
    "description": "Qwen3, the latest generation in the Qwen large language model series, features both dense and mixture-of-experts (MoE) architectures to excel in reasoning, multilingual support, and advanced agent tasks. Its unique...",
    "endpoints": [
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 8192,
-     "max_prompt_tokens": 98304,
-     "model_id": "qwen/qwen3-30b-a3b",
-     "model_name": "Qwen: Qwen3 30B A3B",
-     "name": "Alibaba | qwen/qwen3-30b-a3b-04-28",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000052",
-      "discount": 0,
-      "prompt": "0.00000013"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "response_format",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    },
     {
      "context_length": 40960,
      "max_completion_tokens": 16384,
@@ -48304,48 +47787,6 @@
    "created": 1753806965,
    "description": "Qwen3-30B-A3B-Instruct-2507 is a 30.5B-parameter mixture-of-experts language model from Qwen, with 3.3B active parameters per inference. It operates in non-thinking mode and is designed for high-quality instruction following, multilingual understanding, and...",
    "endpoints": [
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 32768,
-     "max_prompt_tokens": 129024,
-     "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
-     "model_name": "Qwen: Qwen3 30B A3B Instruct 2507",
-     "name": "Alibaba | qwen/qwen3-30b-a3b-instruct-2507",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000052",
-      "discount": 0,
-      "prompt": "0.00000013"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    },
     {
      "context_length": 262144,
      "max_completion_tokens": 235929,
@@ -48469,111 +47910,10 @@
      },
      "supports_voice_cloning": false,
      "tag": "siliconflow/fp8"
-    },
-    {
-     "context_length": 128000,
-     "max_completion_tokens": 32000,
-     "max_prompt_tokens": null,
-     "model_id": "qwen/qwen3-30b-a3b-instruct-2507",
-     "model_name": "Qwen: Qwen3 30B A3B Instruct 2507",
-     "name": "StreamLake | qwen/qwen3-30b-a3b-instruct-2507",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000019305",
-      "discount": 0.55,
-      "prompt": "0.00000004815"
-     },
-     "provider_name": "StreamLake",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "streamlake"
     }
    ],
    "id": "qwen/qwen3-30b-a3b-instruct-2507",
    "name": "Qwen: Qwen3 30B A3B Instruct 2507"
-  },
-  "qwen/qwen3-30b-a3b-thinking-2507": {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "created": 1756399192,
-   "description": "Qwen3-30B-A3B-Thinking-2507 is a 30B parameter Mixture-of-Experts reasoning model optimized for complex tasks requiring extended multi-step thinking. The model is designed specifically for \u201cthinking mode,\u201d where internal reasoning traces are separated...",
-   "endpoints": [
-    {
-     "context_length": 81920,
-     "max_completion_tokens": 32768,
-     "max_prompt_tokens": 126976,
-     "model_id": "qwen/qwen3-30b-a3b-thinking-2507",
-     "model_name": "Qwen: Qwen3 30B A3B Thinking 2507",
-     "name": "Alibaba | qwen/qwen3-30b-a3b-thinking-2507",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000024",
-      "discount": 0,
-      "prompt": "0.0000002"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "response_format",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    }
-   ],
-   "id": "qwen/qwen3-30b-a3b-thinking-2507",
-   "name": "Qwen: Qwen3 30B A3B Thinking 2507"
   },
   "qwen/qwen3-32b": {
    "architecture": {
@@ -48675,71 +48015,56 @@
      },
      "supports_voice_cloning": false,
      "tag": "siliconflow/fp8"
-    }
-   ],
-   "id": "qwen/qwen3-32b",
-   "name": "Qwen: Qwen3 32B"
-  },
-  "qwen/qwen3-8b": {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": "qwen3",
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "created": 1745876632,
-   "description": "Qwen3-8B is a dense 8.2B parameter causal language model from the Qwen3 series, designed for both reasoning-heavy tasks and efficient dialogue. It supports seamless switching between \"thinking\" mode for math,...",
-   "endpoints": [
+    },
     {
-     "context_length": 131072,
-     "max_completion_tokens": 8192,
-     "max_prompt_tokens": 98304,
-     "model_id": "qwen/qwen3-8b",
-     "model_name": "Qwen: Qwen3 8B",
-     "name": "Alibaba | qwen/qwen3-8b-04-28",
+     "context_length": 41000,
+     "max_completion_tokens": 16400,
+     "max_prompt_tokens": null,
+     "model_id": "qwen/qwen3-32b",
+     "model_name": "Qwen: Qwen3 32B",
+     "name": "Tenstorrent | qwen/qwen3-32b-04-28",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000455",
+      "completion": "0.0000004",
       "discount": 0,
-      "prompt": "0.000000117"
+      "input_cache_read": "0.00000009",
+      "prompt": "0.00000014"
      },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
+     "provider_name": "Tenstorrent",
+     "quantization": "fp8",
      "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
+      "logit_bias",
+      "logprobs",
       "max_tokens",
+      "min_p",
       "presence_penalty",
       "reasoning",
-      "response_format",
+      "repetition_penalty",
       "seed",
       "stop",
       "temperature",
-      "tool_choice",
-      "tools",
+      "top_a",
       "top_k",
+      "top_logprobs",
       "top_p"
      ],
      "supports_image_reference": false,
      "supports_implicit_caching": false,
      "supports_multiple_audio_references": false,
      "supports_tool_choice": {
-      "auto": true,
+      "auto": false,
       "function": false,
-      "none": true,
+      "none": false,
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "alibaba"
+     "tag": "tenstorrent/fp8"
     }
    ],
-   "id": "qwen/qwen3-8b",
-   "name": "Qwen: Qwen3 8B"
+   "id": "qwen/qwen3-32b",
+   "name": "Qwen: Qwen3 32B"
   },
   "qwen/qwen3-coder": {
    "architecture": {
@@ -48756,61 +48081,6 @@
    "created": 1753230546,
    "description": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team. It is optimized for agentic coding tasks such as function calling, tool use, and long-context reasoning over...",
    "endpoints": [
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 65536,
-     "max_prompt_tokens": 204800,
-     "model_id": "qwen/qwen3-coder",
-     "model_name": "Qwen: Qwen3 Coder 480B A35B",
-     "name": "Alibaba | qwen/qwen3-coder-480b-a35b-07-25",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.000004875",
-      "discount": 0,
-      "overrides": [
-       {
-        "completion": "0.000008775",
-        "min_prompt_tokens": 32000,
-        "prompt": "0.000001755"
-       },
-       {
-        "completion": "0.000014625",
-        "min_prompt_tokens": 128000,
-        "prompt": "0.000002925"
-       }
-      ],
-      "prompt": "0.000000975"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba/opensource"
-    },
     {
      "context_length": 262144,
      "max_completion_tokens": 65536,
@@ -48960,60 +48230,6 @@
    "created": 1753972379,
    "description": "Qwen3-Coder-30B-A3B-Instruct is a 30.5B parameter Mixture-of-Experts (MoE) model with 128 experts (8 active per forward pass), designed for advanced code generation, repository-scale understanding, and agentic tool use. Built on the...",
    "endpoints": [
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 65536,
-     "max_prompt_tokens": 204800,
-     "model_id": "qwen/qwen3-coder-30b-a3b-instruct",
-     "model_name": "Qwen: Qwen3 Coder 30B A3B Instruct",
-     "name": "Alibaba | qwen/qwen3-coder-30b-a3b-instruct",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000014625",
-      "discount": 0,
-      "overrides": [
-       {
-        "completion": "0.0000024375",
-        "min_prompt_tokens": 32000,
-        "prompt": "0.0000004875"
-       },
-       {
-        "completion": "0.0000039",
-        "min_prompt_tokens": 128000,
-        "prompt": "0.00000078"
-       }
-      ],
-      "prompt": "0.0000002925"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    },
     {
      "context_length": 0,
      "max_completion_tokens": 0,
@@ -49188,55 +48404,6 @@
    "endpoints": [
     {
      "context_length": 262144,
-     "max_completion_tokens": 65536,
-     "max_prompt_tokens": 204800,
-     "model_id": "qwen/qwen3-coder-next",
-     "model_name": "Qwen: Qwen3 Coder Next",
-     "name": "Alibaba | qwen/qwen3-coder-next-2025-02-03",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000015",
-      "discount": 0,
-      "overrides": [
-       {
-        "completion": "0.0000025",
-        "min_prompt_tokens": 32000,
-        "prompt": "0.0000005"
-       },
-       {
-        "completion": "0.000004",
-        "min_prompt_tokens": 128000,
-        "prompt": "0.0000008"
-       }
-      ],
-      "prompt": "0.0000003"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": false,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    },
-    {
-     "context_length": 262144,
      "max_completion_tokens": 235929,
      "max_prompt_tokens": null,
      "model_id": "qwen/qwen3-coder-next",
@@ -49280,284 +48447,10 @@
      },
      "supports_voice_cloning": false,
      "tag": "parasail/bf16"
-    },
-    {
-     "context_length": 256000,
-     "max_completion_tokens": 64000,
-     "max_prompt_tokens": null,
-     "model_id": "qwen/qwen3-coder-next",
-     "model_name": "Qwen: Qwen3 Coder Next",
-     "name": "StreamLake | qwen/qwen3-coder-next-2025-02-03",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000009",
-      "discount": 0.4,
-      "input_cache_read": "0.000000036",
-      "prompt": "0.00000018"
-     },
-     "provider_name": "StreamLake",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": false,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "streamlake"
     }
    ],
    "id": "qwen/qwen3-coder-next",
    "name": "Qwen: Qwen3 Coder Next"
-  },
-  "qwen/qwen3-coder-plus": {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "created": 1758662707,
-   "description": "Qwen3 Coder Plus is Alibaba's proprietary version of the Open Source Qwen3 Coder 480B A35B. It is a powerful coding agent model specializing in autonomous programming via tool calling and...",
-   "endpoints": [
-    {
-     "context_length": 1000000,
-     "max_completion_tokens": 65536,
-     "max_prompt_tokens": 997952,
-     "model_id": "qwen/qwen3-coder-plus",
-     "model_name": "Qwen: Qwen3 Coder Plus",
-     "name": "Alibaba | qwen/qwen3-coder-plus",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000325",
-      "discount": 0,
-      "input_cache_read": "0.00000013",
-      "input_cache_write": "0.0000008125",
-      "overrides": [
-       {
-        "completion": "0.00000585",
-        "input_cache_read": "0.000000234",
-        "input_cache_write": "0.0000014625",
-        "min_prompt_tokens": 32000,
-        "prompt": "0.00000117"
-       },
-       {
-        "completion": "0.00000975",
-        "input_cache_read": "0.00000039",
-        "input_cache_write": "0.0000024375",
-        "min_prompt_tokens": 128000,
-        "prompt": "0.00000195"
-       }
-      ],
-      "prompt": "0.00000065"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    }
-   ],
-   "id": "qwen/qwen3-coder-plus",
-   "name": "Qwen: Qwen3 Coder Plus"
-  },
-  "qwen/qwen3-max": {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "created": 1758662808,
-   "description": "Qwen3-Max is an updated release built on the Qwen3 series, offering major improvements in reasoning, instruction following, multilingual support, and long-tail knowledge coverage compared to the January 2025 version. It...",
-   "endpoints": [
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 65536,
-     "max_prompt_tokens": 258048,
-     "model_id": "qwen/qwen3-max",
-     "model_name": "Qwen: Qwen3 Max",
-     "name": "Alibaba | qwen/qwen3-max",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000039",
-      "discount": 0,
-      "input_cache_read": "0.000000156",
-      "input_cache_write": "0.000000975",
-      "overrides": [
-       {
-        "completion": "0.0000078",
-        "input_cache_read": "0.000000312",
-        "input_cache_write": "0.00000195",
-        "min_prompt_tokens": 32000,
-        "prompt": "0.00000156"
-       },
-       {
-        "completion": "0.00000975",
-        "input_cache_read": "0.00000039",
-        "input_cache_write": "0.0000024375",
-        "min_prompt_tokens": 128000,
-        "prompt": "0.00000195"
-       }
-      ],
-      "prompt": "0.00000078"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    }
-   ],
-   "id": "qwen/qwen3-max",
-   "name": "Qwen: Qwen3 Max"
-  },
-  "qwen/qwen3-max-thinking": {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen"
-   },
-   "created": 1770671901,
-   "description": "Qwen3-Max-Thinking is the flagship reasoning model in the Qwen3 series, designed for high-stakes cognitive tasks that require deep, multi-step reasoning. By significantly scaling model capacity and reinforcement learning compute, it...",
-   "endpoints": [
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 65536,
-     "max_prompt_tokens": 258048,
-     "model_id": "qwen/qwen3-max-thinking",
-     "model_name": "Qwen: Qwen3 Max Thinking",
-     "name": "Alibaba | qwen/qwen3-max-thinking-20260123",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000039",
-      "discount": 0,
-      "overrides": [
-       {
-        "completion": "0.0000078",
-        "min_prompt_tokens": 32000,
-        "prompt": "0.00000156"
-       },
-       {
-        "completion": "0.00000975",
-        "min_prompt_tokens": 128000,
-        "prompt": "0.00000195"
-       }
-      ],
-      "prompt": "0.00000078"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    }
-   ],
-   "id": "qwen/qwen3-max-thinking",
-   "name": "Qwen: Qwen3 Max Thinking"
   },
   "qwen/qwen3-next-80b-a3b-instruct": {
    "architecture": {
@@ -49574,48 +48467,6 @@
    "created": 1757612213,
    "description": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without \u201cthinking\u201d traces. It targets complex tasks across reasoning, code generation, knowledge QA, and multilingual...",
    "endpoints": [
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 32768,
-     "max_prompt_tokens": 129024,
-     "model_id": "qwen/qwen3-next-80b-a3b-instruct",
-     "model_name": "Qwen: Qwen3 Next 80B A3B Instruct",
-     "name": "Alibaba | qwen/qwen3-next-80b-a3b-instruct-2509",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000078",
-      "discount": 0,
-      "prompt": "0.0000000975"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    },
     {
      "context_length": 262144,
      "max_completion_tokens": 16384,
@@ -49770,48 +48621,6 @@
    "description": "Qwen3-Next-80B-A3B-Thinking is a reasoning-first chat model in the Qwen3-Next line that outputs structured \u201cthinking\u201d traces by default. It\u2019s designed for hard multi-step problems; math proofs, code synthesis/debugging, logic, and agentic...",
    "endpoints": [
     {
-     "context_length": 131072,
-     "max_completion_tokens": 32768,
-     "max_prompt_tokens": 126976,
-     "model_id": "qwen/qwen3-next-80b-a3b-thinking",
-     "model_name": "Qwen: Qwen3 Next 80B A3B Thinking",
-     "name": "Alibaba | qwen/qwen3-next-80b-a3b-thinking-2509",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000012",
-      "discount": 0,
-      "prompt": "0.00000015"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "response_format",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    },
-    {
      "context_length": 262144,
      "max_completion_tokens": 235929,
      "max_prompt_tokens": null,
@@ -49877,49 +48686,6 @@
    "created": 1758668687,
    "description": "Qwen3-VL-235B-A22B Instruct is an open-weight multimodal model that unifies strong text generation with visual understanding across images and video. The Instruct model targets general vision-language use (VQA, document parsing, chart/table...",
    "endpoints": [
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 32768,
-     "max_prompt_tokens": 129024,
-     "model_id": "qwen/qwen3-vl-235b-a22b-instruct",
-     "model_name": "Qwen: Qwen3 VL 235B A22B Instruct",
-     "name": "Alibaba | qwen/qwen3-vl-235b-a22b-instruct",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000104",
-      "discount": 0,
-      "prompt": "0.00000026"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    },
     {
      "context_length": 262144,
      "max_completion_tokens": 16384,
@@ -50056,71 +48822,6 @@
    "id": "qwen/qwen3-vl-235b-a22b-instruct",
    "name": "Qwen: Qwen3 VL 235B A22B Instruct"
   },
-  "qwen/qwen3-vl-235b-a22b-thinking": {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "created": 1758668690,
-   "description": "Qwen3-VL-235B-A22B Thinking is a multimodal model that unifies strong text generation with visual understanding across images and video. The Thinking model is optimized for multimodal reasoning in STEM and math....",
-   "endpoints": [
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 32768,
-     "max_prompt_tokens": 126976,
-     "model_id": "qwen/qwen3-vl-235b-a22b-thinking",
-     "model_name": "Qwen: Qwen3 VL 235B A22B Thinking",
-     "name": "Alibaba | qwen/qwen3-vl-235b-a22b-thinking",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.000004",
-      "discount": 0,
-      "prompt": "0.0000004"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    }
-   ],
-   "id": "qwen/qwen3-vl-235b-a22b-thinking",
-   "name": "Qwen: Qwen3 VL 235B A22B Thinking"
-  },
   "qwen/qwen3-vl-30b-a3b-instruct": {
    "architecture": {
     "input_modalities": [
@@ -50137,49 +48838,6 @@
    "created": 1759794476,
    "description": "Qwen3-VL-30B-A3B-Instruct is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Instruct variant optimizes instruction-following for general multimodal tasks. It excels in perception...",
    "endpoints": [
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 32768,
-     "max_prompt_tokens": 129024,
-     "model_id": "qwen/qwen3-vl-30b-a3b-instruct",
-     "model_name": "Qwen: Qwen3 VL 30B A3B Instruct",
-     "name": "Alibaba | qwen/qwen3-vl-30b-a3b-instruct",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000052",
-      "discount": 0,
-      "prompt": "0.00000013"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    },
     {
      "context_length": 262144,
      "max_completion_tokens": 16384,
@@ -50327,51 +48985,6 @@
    "description": "Qwen3-VL-30B-A3B-Thinking is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Thinking variant enhances reasoning in STEM, math, and complex tasks. It excels...",
    "endpoints": [
     {
-     "context_length": 131072,
-     "max_completion_tokens": 32768,
-     "max_prompt_tokens": 126976,
-     "model_id": "qwen/qwen3-vl-30b-a3b-thinking",
-     "model_name": "Qwen: Qwen3 VL 30B A3B Thinking",
-     "name": "Alibaba | qwen/qwen3-vl-30b-a3b-thinking",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000024",
-      "discount": 0,
-      "prompt": "0.0000002"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    },
-    {
      "context_length": 262144,
      "max_completion_tokens": 235929,
      "max_prompt_tokens": null,
@@ -50415,69 +49028,6 @@
    "id": "qwen/qwen3-vl-30b-a3b-thinking",
    "name": "Qwen: Qwen3 VL 30B A3B Thinking"
   },
-  "qwen/qwen3-vl-32b-instruct": {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen"
-   },
-   "created": 1761231332,
-   "description": "Qwen3-VL-32B-Instruct is a large-scale multimodal vision-language model designed for high-precision understanding and reasoning across text, images, and video. With 32 billion parameters, it combines deep visual perception with advanced text...",
-   "endpoints": [
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 32768,
-     "max_prompt_tokens": 129024,
-     "model_id": "qwen/qwen3-vl-32b-instruct",
-     "model_name": "Qwen: Qwen3 VL 32B Instruct",
-     "name": "Alibaba | qwen/qwen3-vl-32b-instruct",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.000000416",
-      "discount": 0,
-      "prompt": "0.000000104"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    }
-   ],
-   "id": "qwen/qwen3-vl-32b-instruct",
-   "name": "Qwen: Qwen3 VL 32B Instruct"
-  },
   "qwen/qwen3-vl-8b-instruct": {
    "architecture": {
     "input_modalities": [
@@ -50494,49 +49044,6 @@
    "created": 1760463308,
    "description": "Qwen3-VL-8B-Instruct is a multimodal vision-language model from the Qwen3-VL series, built for high-fidelity understanding and reasoning across text, images, and video. It features improved multimodal fusion with Interleaved-MRoPE for long-horizon...",
    "endpoints": [
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 32768,
-     "max_prompt_tokens": 129024,
-     "model_id": "qwen/qwen3-vl-8b-instruct",
-     "model_name": "Qwen: Qwen3 VL 8B Instruct",
-     "name": "Alibaba | qwen/qwen3-vl-8b-instruct",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.000000455",
-      "discount": 0,
-      "prompt": "0.000000117"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    },
     {
      "context_length": 262144,
      "max_completion_tokens": 235929,
@@ -50586,71 +49093,6 @@
    ],
    "id": "qwen/qwen3-vl-8b-instruct",
    "name": "Qwen: Qwen3 VL 8B Instruct"
-  },
-  "qwen/qwen3-vl-8b-thinking": {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "created": 1760463746,
-   "description": "Qwen3-VL-8B-Thinking is the reasoning-optimized variant of the Qwen3-VL-8B multimodal model, designed for advanced visual and textual reasoning across complex scenes, documents, and temporal sequences. It integrates enhanced multimodal alignment and...",
-   "endpoints": [
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 32768,
-     "max_prompt_tokens": 126976,
-     "model_id": "qwen/qwen3-vl-8b-thinking",
-     "model_name": "Qwen: Qwen3 VL 8B Thinking",
-     "name": "Alibaba | qwen/qwen3-vl-8b-thinking",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000021",
-      "discount": 0,
-      "prompt": "0.00000018"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    }
-   ],
-   "id": "qwen/qwen3-vl-8b-thinking",
-   "name": "Qwen: Qwen3 VL 8B Thinking"
   },
   "qwen/qwen3.5-122b-a10b": {
    "architecture": {
@@ -52665,6 +51107,7 @@
       "stop",
       "structured_outputs",
       "temperature",
+      "tool_choice",
       "tools",
       "top_k",
       "top_logprobs",
@@ -52677,7 +51120,7 @@
       "auto": true,
       "function": true,
       "none": true,
-      "required": true
+      "required": false
      },
      "supports_voice_cloning": false,
      "tag": "reka"
@@ -53317,79 +51760,6 @@
    ],
    "id": "qwen/qwen3.6-flash",
    "name": "Qwen: Qwen3.6 Flash"
-  },
-  "qwen/qwen3.6-max-preview": {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen"
-   },
-   "created": 1777260242,
-   "description": "Qwen3.6-Max-Preview is a proprietary frontier model from Alibaba Cloud built on a sparse mixture-of-experts architecture with approximately 1 trillion total parameters. It is optimized for agentic coding, tool use, and...",
-   "endpoints": [
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 65536,
-     "max_prompt_tokens": 229376,
-     "model_id": "qwen/qwen3.6-max-preview",
-     "model_name": "Qwen: Qwen3.6 Max Preview",
-     "name": "Alibaba | qwen/qwen3.6-max-preview-20260420",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.000006162",
-      "discount": 0,
-      "input_cache_write": "0.00000128375",
-      "overrides": [
-       {
-        "completion": "0.00000948",
-        "input_cache_write": "0.000001975",
-        "min_prompt_tokens": 128000,
-        "prompt": "0.00000158"
-       }
-      ],
-      "prompt": "0.000001027"
-     },
-     "provider_name": "Alibaba",
-     "quantization": "unknown",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "alibaba"
-    }
-   ],
-   "id": "qwen/qwen3.6-max-preview",
-   "name": "Qwen: Qwen3.6 Max Preview"
   },
   "qwen/qwen3.6-plus": {
    "architecture": {
@@ -54613,6 +52983,51 @@
      },
      "supports_voice_cloning": false,
      "tag": "modelrun/fp4"
+    },
+    {
+     "context_length": 262144,
+     "max_completion_tokens": 65536,
+     "max_prompt_tokens": null,
+     "model_id": "qwen/qwen3.8-27b",
+     "model_name": "Qwen: Qwen3.8 27B",
+     "name": "Near AI | qwen/qwen3.8-27b-20260814",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000135",
+      "discount": 0,
+      "input_cache_read": "0.000000018",
+      "prompt": "0.00000004"
+     },
+     "provider_name": "Near AI",
+     "quantization": "fp8",
+     "supported_parameters": [
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "near-ai/fp8"
     },
     {
      "context_length": 1000000,
@@ -56546,9 +54961,9 @@
      "name": "Tencent | tencent/hy3-20260706",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000528",
+      "completion": "0.00000033",
       "discount": 0,
-      "input_cache_read": "0.000000033",
+      "input_cache_read": "0.000000020625",
       "overrides": [
        {
         "completion": "0.00000033",
@@ -56565,7 +54980,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000132"
+      "prompt": "0.0000000825"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -56814,9 +55229,9 @@
      "name": "Tencent | tencent/hy4-preview-20260827",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000002501",
+      "completion": "0.0000022509",
       "discount": 0,
-      "input_cache_read": "0.000000042",
+      "input_cache_read": "0.0000000378",
       "overrides": [
        {
         "completion": "0.0000022509",
@@ -56833,7 +55248,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000834"
+      "prompt": "0.0000007506"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -62947,6 +61362,50 @@
      "name": "Baidu | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
+      "completion": "0.00000265556",
+      "discount": 0.663,
+      "input_cache_read": "0.00000018872",
+      "prompt": "0.00000075825"
+     },
+     "provider_name": "Baidu",
+     "quantization": "fp4",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+     ],
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "baidu/fast"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "model_id": "z-ai/glm-5.2",
+     "model_name": "Z.ai: GLM 5.2",
+     "name": "Baidu | z-ai/glm-5.2-20260616",
+     "native_tools": {},
+     "pricing": {
       "completion": "0.0000044",
       "discount": 0,
       "input_cache_read": "0.00000026",
@@ -62981,50 +61440,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "baidu/fp8"
-    },
-    {
-     "context_length": 1048576,
-     "max_completion_tokens": 131072,
-     "max_prompt_tokens": null,
-     "model_id": "z-ai/glm-5.2",
-     "model_name": "Z.ai: GLM 5.2",
-     "name": "Baidu | z-ai/glm-5.2-20260616",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000788",
-      "discount": 0,
-      "input_cache_read": "0.00000056",
-      "prompt": "0.00000225"
-     },
-     "provider_name": "Baidu",
-     "quantization": "fp4",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "baidu/fast"
     },
     {
      "context_length": 1048576,
@@ -63576,10 +61991,10 @@
      "name": "Inceptron | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000439",
+      "completion": "0.000002064",
       "discount": 0,
-      "input_cache_read": "0.00000025",
-      "prompt": "0.00000139"
+      "input_cache_read": "0.0000002",
+      "prompt": "0.00000125"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -64088,10 +62503,10 @@
      "name": "StreamLake | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000020196",
-      "discount": 0.541,
-      "input_cache_read": "0.00000011934",
-      "prompt": "0.0000006426"
+      "completion": "0.00000174592",
+      "discount": 0.6032,
+      "input_cache_read": "0.000000103168",
+      "prompt": "0.00000055552"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -64222,7 +62637,7 @@
      "name": "Wafer | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000042",
+      "completion": "0.000008",
       "discount": 0,
       "input_cache_read": "0.000000059",
       "prompt": "0.00000006"
@@ -65193,7 +63608,7 @@
      "name": "Inceptron | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000339",
+      "completion": "0.0000022",
       "discount": 0,
       "input_cache_read": "0.0000002",
       "prompt": "0.0000006"
@@ -65290,8 +63705,8 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.00000036",
-      "prompt": "0.0000012"
+      "input_cache_read": "0.00000026",
+      "prompt": "0.00000095"
      },
      "provider_name": "Io Net",
      "quantization": "fp8",
@@ -66923,10 +65338,10 @@
      "name": "Inceptron | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000006",
+      "completion": "0.0000003517",
       "discount": 0,
-      "input_cache_read": "0.00000009",
-      "prompt": "0.000000225"
+      "input_cache_read": "0.000000099",
+      "prompt": "0.000000096"
      },
      "provider_name": "Inceptron",
      "quantization": "fp8",
@@ -66973,8 +65388,8 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "input_cache_read": "0.000000035",
-      "prompt": "0.00000006"
+      "input_cache_read": "0.000000038",
+      "prompt": "0.000000065"
      },
      "provider_name": "InferenceNet",
      "quantization": "fp4",
@@ -67065,7 +65480,7 @@
       "completion": "0.0000007",
       "discount": 0,
       "input_cache_read": "0.00000004",
-      "prompt": "0.000000157"
+      "prompt": "0.00000013"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -67207,7 +65622,7 @@
      "name": "OpenInference | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000498114",
+      "completion": "0.000000140682",
       "discount": 0,
       "input_cache_read": "0.00000002",
       "prompt": "0.000000032"
@@ -67449,7 +65864,7 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "input_cache_read": "0.000000025",
+      "input_cache_read": "0.0000000125",
       "prompt": "0.00000004"
      },
      "provider_name": "Relace",
