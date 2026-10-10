@@ -3,7 +3,7 @@
 **A public, machine-readable record of what LLM inference actually costs — and how that price changes over time.** Refreshed every 6 hours.
 
 <!-- BEGIN STATS -->
-**16,442** price points · **1,031** models · **78** platforms · updated **2026-10-10 06:43 UTC** · history since **2026-09-02** (39 snapshots)
+**16,442** price points · **1,031** models · **78** platforms · updated **2026-10-10 12:38 UTC** · history since **2026-09-02** (39 snapshots)
 <!-- END STATS -->
 
 Every provider publishes today's price. **Nobody publishes yesterday's.** This repo
@@ -41,17 +41,17 @@ yourself.
 | Model | Platforms | Cheapest | Input $/M | Output $/M | Spread |
 |---|--:|---|--:|--:|--:|
 | Z.ai: GLM 5.3 | 33 | [Wafer](https://www.wafer.ai/) | $0.04 | $4.80 | 53.8× |
-| DeepSeek: DeepSeek V4.1 Flash | 30 | [Relace](https://www.relace.ai/) | $0.00 | $0.60 | 206.9× |
+| DeepSeek: DeepSeek V4.1 Flash | 30 | [Relace](https://www.relace.ai/) | $0.00 | $0.60 | 6000.0× |
 | Z.ai: GLM 5.3 Flash | 29 | [Relace](https://www.relace.ai/) | $0.04 | $0.50 | 3.8× |
 | Z.ai: GLM 5.2 | 28 | [Wafer](https://www.wafer.ai/) | $0.06 | $7.00 | 41.7× |
-| DeepSeek: DeepSeek V4 Flash 0731 | 24 | [Relace](https://www.relace.ai/) | $0.01 | $1.28 | 73.3× |
+| DeepSeek: DeepSeek V4 Flash 0731 | 24 | [Relace](https://www.relace.ai/) | $0.01 | $1.28 | 37.9× |
 | OpenAI: gpt-oss-120b | 21 | [AkashML](https://akashml.com/) | $0.03 | $0.19 | 11.7× |
-| MoonshotAI: Kimi K3 | 20 | [Morph](https://morphllm.com/) | $0.45 | $14.90 | 7.7× |
+| MoonshotAI: Kimi K3 | 20 | [Wafer](https://www.wafer.ai/) | $0.31 | $14.00 | 11.1× |
 | Qwen: Qwen3.8 27B | 19 | [Near AI](https://near.ai/) | $0.04 | $1.35 | 24.8× |
-| DeepSeek: DeepSeek V4 Pro 0813 | 19 | [Wafer](https://www.wafer.ai/) | $0.30 | $5.00 | 5.5× |
-| MoonshotAI: Kimi K2.6 | 17 | [Inceptron](https://www.inceptron.io/) | $0.47 | $2.45 | 2.3× |
-| DeepSeek: DeepSeek V4 Flash 0423 | 16 | [Relace](https://www.relace.ai/) | $0.01 | $1.28 | 41.1× |
-| DeepSeek: DeepSeek V4 Pro 0423 | 15 | [Relace](https://www.relace.ai/) | $0.30 | $4.20 | 6.4× |
+| DeepSeek: DeepSeek V4 Pro 0813 | 19 | [Wafer](https://www.wafer.ai/) | $0.22 | $4.00 | 7.5× |
+| MoonshotAI: Kimi K2.6 | 17 | [Baidu](https://intl.cloud.baidu.com/) | $0.46 | $1.96 | 2.3× |
+| DeepSeek: DeepSeek V4 Flash 0423 | 16 | [Relace](https://www.relace.ai/) | $0.02 | $1.28 | 20.4× |
+| DeepSeek: DeepSeek V4 Pro 0423 | 15 | [Baidu](https://intl.cloud.baidu.com/) | $0.30 | $0.60 | 6.4× |
 | Z.ai: GLM 5.1 | 13 | [StreamLake](https://www.streamlake.ai/) | $0.97 | $3.04 | 1.5× |
 | MiniMax: MiniMax M3 | 13 | [CoreWeave](https://coreweave.com/) | $0.23 | $0.96 | 3.3× |
 | Google: Gemma 4 31B | 13 | [DeepInfra](https://deepinfra.com/) | $0.09 | $0.40 | 8.3× |
