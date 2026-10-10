@@ -7378,8 +7378,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000216",
-    "prompt": "0.0000000216"
+    "input_cache_read": "0.00000003",
+    "prompt": "0.00000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7513,8 +7513,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000116",
-    "prompt": "0.0000000116"
+    "input_cache_read": "0.000000018",
+    "prompt": "0.000000018"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7752,9 +7752,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000018966",
-    "input_cache_read": "0.000000079025",
-    "prompt": "0.0000009483"
+    "completion": "0.0000004176",
+    "input_cache_read": "0.0000000174",
+    "prompt": "0.0000002088"
    },
    "reasoning": {
     "default_effort": "high",
@@ -19248,8 +19248,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000245",
-    "input_cache_read": "0.0000000875",
-    "prompt": "0.000000465"
+    "input_cache_read": "0.0000001077",
+    "prompt": "0.0000004344"
    },
    "reasoning": {
     "default_enabled": true,
@@ -19627,9 +19627,9 @@
    "name": "MoonshotAI: Kimi K3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000135",
-    "input_cache_read": "0.00000028",
-    "prompt": "0.00000064"
+    "completion": "0.0000149",
+    "input_cache_read": "0.0000002",
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "max",
@@ -36512,8 +36512,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -36530,7 +36530,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -36671,8 +36671,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -36689,7 +36689,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42650,9 +42650,9 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000004",
-    "input_cache_read": "0.000000219",
-    "prompt": "0.00000022"
+    "completion": "0.00000065736",
+    "input_cache_read": "0.000000006972",
+    "prompt": "0.00000021912"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42689,7 +42689,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -42724,8 +42724,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000116",
-    "prompt": "0.0000000116"
+    "input_cache_read": "0.000000018",
+    "prompt": "0.000000018"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42976,9 +42976,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00001489",
-    "input_cache_read": "0.0000003",
-    "prompt": "0.00000031"
+    "completion": "0.0000149",
+    "input_cache_read": "0.0000002",
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "max",
