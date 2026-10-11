@@ -7526,9 +7526,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000128",
-    "input_cache_read": "0.0000000099",
-    "prompt": "0.0000000099"
+    "completion": "0.00000064",
+    "input_cache_read": "0.0000000175",
+    "prompt": "0.0000000175"
    },
    "reasoning": {
     "default_effort": "high",
@@ -19641,7 +19641,7 @@
    "name": "MoonshotAI: Kimi K3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000015",
+    "completion": "0.00001",
     "input_cache_read": "0.00000055",
     "prompt": "0.0000008"
    },
@@ -32171,8 +32171,8 @@
    "name": "Qwen: Qwen3 14B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000022",
-    "prompt": "0.0000001"
+    "completion": "0.00000024",
+    "prompt": "0.00000012"
    },
    "reasoning": {
     "mandatory": false
@@ -32202,7 +32202,7 @@
    "top_provider": {
     "context_length": 40960,
     "is_moderated": false,
-    "max_completion_tokens": 36864
+    "max_completion_tokens": 16384
    }
   },
   {
@@ -41429,8 +41429,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000048",
-    "input_cache_read": "0.000000038",
-    "prompt": "0.000000039"
+    "input_cache_read": "0.00000005",
+    "prompt": "0.00000007"
    },
    "reasoning": {
     "default_effort": "max",
@@ -42586,9 +42586,9 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000005",
-    "prompt": "0.0000000001"
+    "completion": "0.0000001392",
+    "input_cache_read": "0.000000000696",
+    "prompt": "0.0000000348"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42626,7 +42626,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -42736,9 +42736,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000128",
-    "input_cache_read": "0.0000000099",
-    "prompt": "0.0000000099"
+    "completion": "0.00000064",
+    "input_cache_read": "0.0000000175",
+    "prompt": "0.0000000175"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42989,9 +42989,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00001489",
-    "input_cache_read": "0.0000003",
-    "prompt": "0.00000044"
+    "completion": "0.0000149",
+    "input_cache_read": "0.00000029",
+    "prompt": "0.00000075"
    },
    "reasoning": {
     "default_effort": "max",
@@ -43642,8 +43642,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000048",
-    "input_cache_read": "0.000000038",
-    "prompt": "0.000000039"
+    "input_cache_read": "0.00000005",
+    "prompt": "0.00000007"
    },
    "reasoning": {
     "default_effort": "max",

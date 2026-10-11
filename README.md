@@ -3,7 +3,7 @@
 **A public, machine-readable record of what LLM inference actually costs — and how that price changes over time.** Refreshed every 6 hours.
 
 <!-- BEGIN STATS -->
-**16,434** price points · **1,031** models · **78** platforms · updated **2026-10-11 01:13 UTC** · history since **2026-09-02** (40 snapshots)
+**16,467** price points · **1,031** models · **78** platforms · updated **2026-10-11 06:45 UTC** · history since **2026-09-02** (40 snapshots)
 <!-- END STATS -->
 
 Every provider publishes today's price. **Nobody publishes yesterday's.** This repo
@@ -40,18 +40,18 @@ yourself.
 <!-- BEGIN TABLE -->
 | Model | Platforms | Cheapest | Input $/M | Output $/M | Spread |
 |---|--:|---|--:|--:|--:|
-| Z.ai: GLM 5.3 | 32 | [Wafer](https://www.wafer.ai/) | $0.04 | $4.80 | 53.8× |
-| DeepSeek: DeepSeek V4.1 Flash | 30 | [Relace](https://www.relace.ai/) | $0.00 | $0.60 | 6000.0× |
+| Z.ai: GLM 5.3 | 32 | [Wafer](https://www.wafer.ai/) | $0.07 | $4.80 | 30.0× |
+| DeepSeek: DeepSeek V4.1 Flash | 30 | [Baidu](https://intl.cloud.baidu.com/) | $0.03 | $0.14 | 17.2× |
 | Z.ai: GLM 5.3 Flash | 29 | [Relace](https://www.relace.ai/) | $0.04 | $0.50 | 3.8× |
 | Z.ai: GLM 5.2 | 28 | [Wafer](https://www.wafer.ai/) | $0.06 | $7.00 | 41.7× |
-| DeepSeek: DeepSeek V4 Flash 0731 | 24 | [Relace](https://www.relace.ai/) | $0.01 | $1.28 | 44.4× |
+| DeepSeek: DeepSeek V4 Flash 0731 | 24 | [Relace](https://www.relace.ai/) | $0.02 | $0.64 | 25.1× |
 | OpenAI: gpt-oss-120b | 21 | [AkashML](https://akashml.com/) | $0.03 | $0.19 | 11.7× |
-| MoonshotAI: Kimi K3 | 20 | [Wafer](https://www.wafer.ai/) | $0.44 | $14.00 | 7.8× |
-| Qwen: Qwen3.8 27B | 19 | [Near AI](https://near.ai/) | $0.04 | $1.35 | 24.8× |
+| MoonshotAI: Kimi K3 | 20 | [Morph](https://morphllm.com/) | $0.75 | $14.90 | 4.6× |
+| Qwen: Qwen3.8 27B | 19 | [DekaLLM](https://docs.cloudeka.ai/) | $0.04 | $2.50 | 24.8× |
 | DeepSeek: DeepSeek V4 Pro 0813 | 19 | [Baidu](https://intl.cloud.baidu.com/) | $0.22 | $0.66 | 7.5× |
 | MoonshotAI: Kimi K2.6 | 17 | [Baidu](https://intl.cloud.baidu.com/) | $0.43 | $1.83 | 2.5× |
 | DeepSeek: DeepSeek V4 Flash 0423 | 16 | [Relace](https://www.relace.ai/) | $0.03 | $1.28 | 14.7× |
-| DeepSeek: DeepSeek V4 Pro 0423 | 15 | [Relace](https://www.relace.ai/) | $0.17 | $4.20 | 11.3× |
+| DeepSeek: DeepSeek V4 Pro 0423 | 15 | [Baidu](https://intl.cloud.baidu.com/) | $0.17 | $0.34 | 11.2× |
 | Z.ai: GLM 5.1 | 13 | [StreamLake](https://www.streamlake.ai/) | $0.97 | $3.04 | 1.5× |
 | MiniMax: MiniMax M3 | 13 | [CoreWeave](https://coreweave.com/) | $0.23 | $0.96 | 3.3× |
 | Google: Gemma 4 31B | 13 | [DeepInfra](https://deepinfra.com/) | $0.09 | $0.40 | 8.3× |
@@ -62,16 +62,16 @@ yourself.
 <!-- BEGIN MOVES -->
 | Date | Model | Platform | Metric | Old | New | Change |
 |---|---|---|---|--:|--:|--:|
+| 2026-10-11 | DeepSeek: DeepSeek V4.1 Flash | [OpenInference](https://www.openinference.ai/) | input | $0.00 | $0.06 | +49900.0% |
+| 2026-10-11 | DeepSeek: DeepSeek V4.1 Flash | [Relace](https://www.relace.ai/) | input | $0.00 | $0.05 | +49900.0% |
 | 2026-10-10 | DeepSeek: DeepSeek V4 Flash 0423 | [OpenInference](https://www.openinference.ai/) | output | $0.01 | $1.54 | +10370.4% |
 | 2026-10-10 | DeepSeek: DeepSeek V4 Flash 0731 | [OpenInference](https://www.openinference.ai/) | output | $0.01 | $1.54 | +10370.4% |
 | 2026-10-07 | DeepSeek: DeepSeek V4 Flash 0423 | [Relace](https://www.relace.ai/) | input | $0.00 | $0.03 | +5900.0% |
 | 2026-10-07 | DeepSeek: DeepSeek V4 Flash 0423 | [Relace](https://www.relace.ai/) | cache_read | $0.00 | $0.03 | +5900.0% |
 | 2026-10-07 | DeepSeek: DeepSeek V4 Flash 0423 | [OpenInference](https://www.openinference.ai/) | input | $0.00 | $0.03 | +4185.7% |
 | 2026-10-07 | DeepSeek: DeepSeek V4 Flash 0423 | [OpenInference](https://www.openinference.ai/) | cache_read | $0.00 | $0.03 | +4185.7% |
+| 2026-10-11 | DeepSeek: DeepSeek V4.1 Flash | [OpenInference](https://www.openinference.ai/) | cache_read | $0.00 | $0.00 | +3990.9% |
 | 2026-10-10 | DeepSeek: DeepSeek V4 Flash 0731 | [Inceptron](https://www.inceptron.io/) | output | $0.02 | $0.60 | +3196.7% |
-| 2026-10-05 | Xiaomi: MiMo-V2.6-Flash | [Darkbloom](https://www.darkbloom.dev/) | cache_read | $0.00 | $0.05 | +2400.0% |
-| 2026-10-10 | DeepSeek: DeepSeek V4.1 Flash | [InferenceNet](https://inference.net/) | cache_read | $0.00 | $0.01 | +1400.0% |
-| 2026-10-03 | DeepSeek: DeepSeek V4 Flash 0423 | [Relace](https://www.relace.ai/) | input | $0.00 | $0.01 | +1337.5% |
 <!-- END MOVES -->
 
 ---

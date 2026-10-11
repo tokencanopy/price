@@ -267598,3 +267598,94 @@ observed_at,source,platform,model_key,variant,region,metric,model_name,old_usd_p
 2026-10-11T01:13:29+00:00,openrouter,Phala,nvidia/nvidia-nemotron-3.5-lightning-30b-a3b-bf16,unknown,,cache_read,NVIDIA: Nemotron 3.5 Lightning,0.04,,
 2026-10-11T01:13:29+00:00,openrouter,Phala,nvidia/nvidia-nemotron-3.5-lightning-30b-a3b-bf16,unknown,,input,NVIDIA: Nemotron 3.5 Lightning,0.07,,
 2026-10-11T01:13:29+00:00,openrouter,Phala,nvidia/nvidia-nemotron-3.5-lightning-30b-a3b-bf16,unknown,,output,NVIDIA: Nemotron 3.5 Lightning,0.2,,
+2026-10-11T06:45:12+00:00,openrouter,Wafer,deepseek-ai/deepseek-v4-flash,unknown,,input,DeepSeek: DeepSeek V4 Flash 0423,0.075,0.155,106.67
+2026-10-11T06:45:12+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-flash-0731,fp8,,input,DeepSeek: DeepSeek V4 Flash 0731,0.44,0.1298,-70.5
+2026-10-11T06:45:12+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-flash-0731,fp8,,output,DeepSeek: DeepSeek V4 Flash 0731,1.32,0.3894,-70.5
+2026-10-11T06:45:12+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-flash-0731,fp8,,cache_read,DeepSeek: DeepSeek V4 Flash 0731,0.014,0.00413,-70.5
+2026-10-11T06:45:12+00:00,openrouter,Inceptron,deepseek-ai/deepseek-v4-flash-0731,fp4,,input,DeepSeek: DeepSeek V4 Flash 0731,0.1015,0.1794,76.75
+2026-10-11T06:45:12+00:00,openrouter,OpenInference,deepseek-ai/deepseek-v4-flash-0731,fp4,,input,DeepSeek: DeepSeek V4 Flash 0731,0.01089,0.01925,76.77
+2026-10-11T06:45:12+00:00,openrouter,OpenInference,deepseek-ai/deepseek-v4-flash-0731,fp4,,cache_read,DeepSeek: DeepSeek V4 Flash 0731,0.00792,0.0096,21.21
+2026-10-11T06:45:12+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-flash-0731,fp4,,input,DeepSeek: DeepSeek V4 Flash 0731,0.0099,0.0175,76.77
+2026-10-11T06:45:12+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-flash-0731,fp4,,output,DeepSeek: DeepSeek V4 Flash 0731,1.28,0.64,-50.0
+2026-10-11T06:45:12+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-flash-0731,fp4,,cache_read,DeepSeek: DeepSeek V4 Flash 0731,0.0099,0.0175,76.77
+2026-10-11T06:45:12+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-pro,fp4,,input,DeepSeek: DeepSeek V4 Pro 0423,0.1689,0.45,166.43
+2026-10-11T06:45:12+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-pro,fp4,,output,DeepSeek: DeepSeek V4 Pro 0423,4.2,3.0,-28.57
+2026-10-11T06:45:12+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-pro,fp4,,cache_read,DeepSeek: DeepSeek V4 Pro 0423,0.13,0.09,-30.77
+2026-10-11T06:45:12+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4.1-flash,fp8,,input,DeepSeek: DeepSeek V4.1 Flash,0.1497,0.0348,-76.75
+2026-10-11T06:45:12+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4.1-flash,fp8,,output,DeepSeek: DeepSeek V4.1 Flash,0.5988,0.1392,-76.75
+2026-10-11T06:45:12+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4.1-flash,fp8,,cache_read,DeepSeek: DeepSeek V4.1 Flash,0.002994,0.000696,-76.75
+2026-10-11T06:45:12+00:00,openrouter,InferenceNet,deepseek-ai/deepseek-v4.1-flash,fp8,,output,DeepSeek: DeepSeek V4.1 Flash,0.66,0.4,-39.39
+2026-10-11T06:45:12+00:00,openrouter,Morph,deepseek-ai/deepseek-v4.1-flash,fp8,,input,DeepSeek: DeepSeek V4.1 Flash,0.03,0.05,66.67
+2026-10-11T06:45:12+00:00,openrouter,Morph,deepseek-ai/deepseek-v4.1-flash,fp8,,output,DeepSeek: DeepSeek V4.1 Flash,0.3,0.6,100.0
+2026-10-11T06:45:12+00:00,openrouter,OpenInference,deepseek-ai/deepseek-v4.1-flash,fp4,,input,DeepSeek: DeepSeek V4.1 Flash,0.00011,0.055,49900.0
+2026-10-11T06:45:12+00:00,openrouter,OpenInference,deepseek-ai/deepseek-v4.1-flash,fp4,,cache_read,DeepSeek: DeepSeek V4.1 Flash,0.00011,0.0045,3990.91
+2026-10-11T06:45:12+00:00,openrouter,Relace,deepseek-ai/deepseek-v4.1-flash,unknown,,input,DeepSeek: DeepSeek V4.1 Flash,0.0001,0.05,49900.0
+2026-10-11T06:45:12+00:00,openrouter,Wafer,deepseek-ai/deepseek-v4.1-flash,unknown,,input,DeepSeek: DeepSeek V4.1 Flash,0.01,0.035,250.0
+2026-10-11T06:45:12+00:00,openrouter,Decart,moonshotai/kimi-k3,mxfp4,,input,MoonshotAI: Kimi K3,2.55,2.1,-17.65
+2026-10-11T06:45:12+00:00,openrouter,Decart,moonshotai/kimi-k3,mxfp4,,output,MoonshotAI: Kimi K3,12.75,10.5,-17.65
+2026-10-11T06:45:12+00:00,openrouter,Decart,moonshotai/kimi-k3,mxfp4,,cache_read,MoonshotAI: Kimi K3,0.255,0.21,-17.65
+2026-10-11T06:45:12+00:00,openrouter,InferenceNet,moonshotai/kimi-k3,fp4,,output,MoonshotAI: Kimi K3,15.0,10.0,-33.33
+2026-10-11T06:45:12+00:00,openrouter,Morph,moonshotai/kimi-k3,fp8,,input,MoonshotAI: Kimi K3,0.45,0.75,66.67
+2026-10-11T06:45:12+00:00,openrouter,Wafer,moonshotai/kimi-k3,unknown,,input,MoonshotAI: Kimi K3,0.44,0.85,93.18
+2026-10-11T06:45:12+00:00,openrouter,DekaLLM,qwen/qwen3.8-27b,unknown,,input,Qwen: Qwen3.8 27B,0.049,0.04,-18.37
+2026-10-11T06:45:12+00:00,openrouter,DekaLLM,qwen/qwen3.8-27b,unknown,,output,Qwen: Qwen3.8 27B,3.0,2.5,-16.67
+2026-10-11T06:45:12+00:00,openrouter,Baidu,zai-org/glm-5.2,fp8,,input,Z.ai: GLM 5.2,1.4,1.3986,-0.1
+2026-10-11T06:45:12+00:00,openrouter,Baidu,zai-org/glm-5.2,fp8,,output,Z.ai: GLM 5.2,4.4,4.3956,-0.1
+2026-10-11T06:45:12+00:00,openrouter,Baidu,zai-org/glm-5.2,fp8,,cache_read,Z.ai: GLM 5.2,0.26,0.25974,-0.1
+2026-10-11T06:45:12+00:00,openrouter,Baidu,zai-org/glm-5.2,fp4,,input,Z.ai: GLM 5.2,2.25,1.3995,-37.8
+2026-10-11T06:45:12+00:00,openrouter,Baidu,zai-org/glm-5.2,fp4,,output,Z.ai: GLM 5.2,7.88,4.90136,-37.8
+2026-10-11T06:45:12+00:00,openrouter,Baidu,zai-org/glm-5.2,fp4,,cache_read,Z.ai: GLM 5.2,0.56,0.34832,-37.8
+2026-10-11T06:45:12+00:00,openrouter,Decart,zai-org/glm-5.2,mxfp4,,input,Z.ai: GLM 5.2,0.273,0.26,-4.76
+2026-10-11T06:45:12+00:00,openrouter,Decart,zai-org/glm-5.2,mxfp4,,output,Z.ai: GLM 5.2,1.68,1.6,-4.76
+2026-10-11T06:45:12+00:00,openrouter,Decart,zai-org/glm-5.2,mxfp4,,cache_read,Z.ai: GLM 5.2,0.105,0.1,-4.76
+2026-10-11T06:45:12+00:00,openrouter,Inceptron,zai-org/glm-5.2,fp4,,output,Z.ai: GLM 5.2,5.46,1.95,-64.29
+2026-10-11T06:45:12+00:00,openrouter,InferenceNet,zai-org/glm-5.2,fp4,,input,Z.ai: GLM 5.2,0.218,0.15,-31.19
+2026-10-11T06:45:12+00:00,openrouter,InferenceNet,zai-org/glm-5.2,fp4,,output,Z.ai: GLM 5.2,4.4,0.6,-86.36
+2026-10-11T06:45:12+00:00,openrouter,InferenceNet,zai-org/glm-5.2,fp4,,cache_read,Z.ai: GLM 5.2,0.132,0.1,-24.24
+2026-10-11T06:45:12+00:00,openrouter,Baidu,zai-org/glm-5.3,fp8,,input,Z.ai: GLM 5.3,1.4,0.35,-75.0
+2026-10-11T06:45:12+00:00,openrouter,Baidu,zai-org/glm-5.3,fp8,,output,Z.ai: GLM 5.3,4.4,1.1,-75.0
+2026-10-11T06:45:12+00:00,openrouter,Baidu,zai-org/glm-5.3,fp8,,cache_read,Z.ai: GLM 5.3,0.26,0.065,-75.0
+2026-10-11T06:45:12+00:00,openrouter,Inceptron,zai-org/glm-5.3,fp4,,output,Z.ai: GLM 5.3,2.2,1.1,-50.0
+2026-10-11T06:45:12+00:00,openrouter,Morph,zai-org/glm-5.3,fp8,,input,Z.ai: GLM 5.3,1.995,0.3,-84.96
+2026-10-11T06:45:12+00:00,openrouter,Morph,zai-org/glm-5.3,fp8,,output,Z.ai: GLM 5.3,6.0,2.2,-63.33
+2026-10-11T06:45:12+00:00,openrouter,Morph,zai-org/glm-5.3,fp8,,cache_read,Z.ai: GLM 5.3,0.108,0.06,-44.44
+2026-10-11T06:45:12+00:00,openrouter,Wafer,zai-org/glm-5.3,unknown,,input,Z.ai: GLM 5.3,0.039,0.07,79.49
+2026-10-11T06:45:12+00:00,openrouter,Wafer,zai-org/glm-5.3,unknown,,cache_read,Z.ai: GLM 5.3,0.038,0.05,31.58
+2026-10-11T06:45:12+00:00,openrouter,Inceptron,zai-org/glm-5.3-flash,fp8,,input,Z.ai: GLM 5.3 Flash,0.09,0.12,33.33
+2026-10-11T06:45:12+00:00,openrouter,InferenceNet,zai-org/glm-5.3-flash,fp4,,input,Z.ai: GLM 5.3 Flash,0.075,0.07,-6.67
+2026-10-11T06:45:12+00:00,openrouter,InferenceNet,zai-org/glm-5.3-flash,fp4,,output,Z.ai: GLM 5.3 Flash,0.5,0.08,-84.0
+2026-10-11T06:45:12+00:00,openrouter,InferenceNet,zai-org/glm-5.3-flash,fp4,,cache_read,Z.ai: GLM 5.3 Flash,0.04,0.03,-25.0
+2026-10-11T06:45:12+00:00,openrouter,Wafer,zai-org/glm-5.3-flash,unknown,,input,Z.ai: GLM 5.3 Flash,0.06,0.09,50.0
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.5 longco opt gl,5.5 LongCo opt Gl,qatarcentral,output,Azure OpenAI GPT5,,45.0,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 sol longco cd inp std gl,5.6 sol LongCo Cd Inp Std Gl,qatarcentral,input,Azure OpenAI GPT5,,0.8,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 luna shortco cd inp std gl,5.6 luna ShortCo Cd Inp Std Gl,qatarcentral,input,Azure OpenAI GPT5,,0.02,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 luna shortco opt std gl,5.6 luna ShortCo Opt Std Gl,qatarcentral,output,Azure OpenAI GPT5,,1.2,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.5 longco cd inp gl,5.5 LongCo cd inp Gl,qatarcentral,input,Azure OpenAI GPT5,,1.0,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.4 opt gl,5.4 opt Gl,qatarcentral,output,Azure OpenAI GPT5,,15.0,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.5 longco inp gl,5.5 LongCo inp Gl,qatarcentral,input,Azure OpenAI GPT5,,10.0,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.4 cd inp gl,5.4 cd inp Gl,qatarcentral,input,Azure OpenAI GPT5,,0.25,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.4 longco opt gl,5.4 longco opt Gl,qatarcentral,output,Azure OpenAI GPT5,,22.5,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 luna longco inp std gl,5.6 luna LongCo Inp Std Gl,qatarcentral,input,Azure OpenAI GPT5,,0.4,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 terra longco opt std gl,5.6 terra LongCo Opt Std Gl,qatarcentral,output,Azure OpenAI GPT5,,18.0,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.4 inp gl,5.4 inp Gl,qatarcentral,input,Azure OpenAI GPT5,,2.5,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 luna longco cd inp std gl,5.6 luna LongCo Cd Inp Std Gl,qatarcentral,input,Azure OpenAI GPT5,,0.04,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 sol shortco inp std gl,5.6 sol ShortCo Inp Std Gl,qatarcentral,input,Azure OpenAI GPT5,,4.0,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 terra longco inp std gl,5.6 terra LongCo Inp Std Gl,qatarcentral,input,Azure OpenAI GPT5,,4.0,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 sol longco inp std gl,5.6 sol LongCo Inp Std Gl,qatarcentral,input,Azure OpenAI GPT5,,8.0,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 sol shortco cd inp std gl,5.6 sol ShortCo Cd Inp Std Gl,qatarcentral,input,Azure OpenAI GPT5,,0.4,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.4 mini inp gl,5.4 mini Inp Gl,qatarcentral,input,Azure OpenAI GPT5,,0.75,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 luna shortco inp std gl,5.6 luna ShortCo Inp Std Gl,qatarcentral,input,Azure OpenAI GPT5,,0.2,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 sol shortco opt std gl,5.6 sol ShortCo Opt Std Gl,qatarcentral,output,Azure OpenAI GPT5,,20.0,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.4 mini cd inp gl,5.4 mini cd Inp Gl,qatarcentral,input,Azure OpenAI GPT5,,0.075,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 terra shortco cd inp std gl,5.6 terra ShortCo Cd Inp Std Gl,qatarcentral,input,Azure OpenAI GPT5,,0.2,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.4 longco cd inp gl,5.4 longco cd inp Gl,qatarcentral,input,Azure OpenAI GPT5,,0.5,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 terra shortco opt std gl,5.6 terra ShortCo Opt Std Gl,qatarcentral,output,Azure OpenAI GPT5,,12.0,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.5 shortco inp gl,5.5 ShortCo inp Gl,qatarcentral,input,Azure OpenAI GPT5,,5.0,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.5 shortco cd inp gl,5.5 ShortCo cd inp Gl,qatarcentral,input,Azure OpenAI GPT5,,0.5,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.4 mini opt gl,5.4 mini Opt Gl,qatarcentral,output,Azure OpenAI GPT5,,4.5,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 luna longco opt std gl,5.6 luna LongCo Opt Std Gl,qatarcentral,output,Azure OpenAI GPT5,,1.8,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.5 shortco opt gl,5.5 ShortCo opt Gl,qatarcentral,output,Azure OpenAI GPT5,,30.0,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 terra shortco inp std gl,5.6 terra ShortCo Inp Std Gl,qatarcentral,input,Azure OpenAI GPT5,,2.0,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 terra longco cd inp std gl,5.6 terra LongCo Cd Inp Std Gl,qatarcentral,input,Azure OpenAI GPT5,,0.4,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.4 longco inp gl,5.4 longco inp Gl,qatarcentral,input,Azure OpenAI GPT5,,5.0,
+2026-10-11T06:45:12+00:00,azure,Azure Foundry,azure:azure openai gpt5|5.6 sol longco opt std gl,5.6 sol LongCo Opt Std Gl,qatarcentral,output,Azure OpenAI GPT5,,30.0,
