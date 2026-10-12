@@ -267871,3 +267871,47 @@ observed_at,source,platform,model_key,variant,region,metric,model_name,old_usd_p
 2026-10-12T01:21:08+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-pro,fp4,,cache_read,DeepSeek: DeepSeek V4 Pro 0423,0.09,,
 2026-10-12T01:21:08+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-pro,fp4,,input,DeepSeek: DeepSeek V4 Pro 0423,0.45,,
 2026-10-12T01:21:08+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-pro,fp4,,output,DeepSeek: DeepSeek V4 Pro 0423,3.0,,
+2026-10-12T07:06:59+00:00,openrouter,OpenInference,deepseek-ai/deepseek-v4-flash,fp4,,input,DeepSeek: DeepSeek V4 Flash 0423,0.00792,0.024,203.03
+2026-10-12T07:06:59+00:00,openrouter,OpenInference,deepseek-ai/deepseek-v4-flash,fp4,,cache_read,DeepSeek: DeepSeek V4 Flash 0423,0.00792,0.024,203.03
+2026-10-12T07:06:59+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-flash,fp4,,input,DeepSeek: DeepSeek V4 Flash 0423,0.0075,0.03,300.0
+2026-10-12T07:06:59+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-flash,fp4,,cache_read,DeepSeek: DeepSeek V4 Flash 0423,0.0075,0.03,300.0
+2026-10-12T07:06:59+00:00,openrouter,Wafer,deepseek-ai/deepseek-v4-flash,unknown,,input,DeepSeek: DeepSeek V4 Flash 0423,0.26,0.4,53.85
+2026-10-12T07:06:59+00:00,openrouter,Inceptron,deepseek-ai/deepseek-v4-flash-0731,fp4,,input,DeepSeek: DeepSeek V4 Flash 0731,0.0533,0.1312,146.15
+2026-10-12T07:06:59+00:00,openrouter,OpenInference,deepseek-ai/deepseek-v4-flash-0731,fp4,,input,DeepSeek: DeepSeek V4 Flash 0731,0.00416,0.0128,207.69
+2026-10-12T07:06:59+00:00,openrouter,OpenInference,deepseek-ai/deepseek-v4-flash-0731,fp4,,cache_read,DeepSeek: DeepSeek V4 Flash 0731,0.00416,0.0128,207.69
+2026-10-12T07:06:59+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-flash-0731,fp4,,input,DeepSeek: DeepSeek V4 Flash 0731,0.0052,0.016,207.69
+2026-10-12T07:06:59+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-flash-0731,fp4,,cache_read,DeepSeek: DeepSeek V4 Flash 0731,0.0052,0.016,207.69
+2026-10-12T07:06:59+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-flash-0731,fp8,,input,DeepSeek: DeepSeek V4 Flash 0731,0.088,0.132,50.0
+2026-10-12T07:06:59+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-flash-0731,fp8,,output,DeepSeek: DeepSeek V4 Flash 0731,0.264,0.396,50.0
+2026-10-12T07:06:59+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-flash-0731,fp8,,cache_read,DeepSeek: DeepSeek V4 Flash 0731,0.0028,0.0042,50.0
+2026-10-12T07:06:59+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-pro,fp8,,input,DeepSeek: DeepSeek V4 Pro 0423,0.9483,0.95526,0.73
+2026-10-12T07:06:59+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-pro,fp8,,output,DeepSeek: DeepSeek V4 Pro 0423,1.8966,1.91052,0.73
+2026-10-12T07:06:59+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-pro,fp8,,cache_read,DeepSeek: DeepSeek V4 Pro 0423,0.079025,0.079605,0.73
+2026-10-12T07:06:59+00:00,openrouter,Wafer,deepseek-ai/deepseek-v4-pro-0813,unknown,,input,DeepSeek: DeepSeek V4 Pro 0813,0.21,0.25,19.05
+2026-10-12T07:06:59+00:00,openrouter,Relace,deepseek-ai/deepseek-v4.1-flash,unknown,,cache_read,DeepSeek: DeepSeek V4.1 Flash,0.005,0.008,60.0
+2026-10-12T07:06:59+00:00,openrouter,Wafer,deepseek-ai/deepseek-v4.1-flash,unknown,,input,DeepSeek: DeepSeek V4.1 Flash,0.045,0.07,55.56
+2026-10-12T07:06:59+00:00,openrouter,NextBit,google/gemma-4-26b-a4b-it,bf16,,input,Google: Gemma 4 26B A4B ,0.0675,0.09,33.33
+2026-10-12T07:06:59+00:00,openrouter,NextBit,google/gemma-4-26b-a4b-it,bf16,,output,Google: Gemma 4 26B A4B ,0.225,0.3,33.33
+2026-10-12T07:06:59+00:00,openrouter,NextBit,google/gemma-4-26b-a4b-it,bf16,,cache_read,Google: Gemma 4 26B A4B ,0.0375,0.05,33.33
+2026-10-12T07:06:59+00:00,openrouter,Wafer,moonshotai/kimi-k3,unknown,,input,MoonshotAI: Kimi K3,0.72,0.65,-9.72
+2026-10-12T07:06:59+00:00,openrouter,Wafer,nvidia/nvidia-nemotron-3.5-lightning-30b-a3b-bf16,unknown,,input,NVIDIA: Nemotron 3.5 Lightning,0.1,0.08,-20.0
+2026-10-12T07:06:59+00:00,openrouter,Wafer,nvidia/nvidia-nemotron-3.5-lightning-30b-a3b-bf16,unknown,,cache_read,NVIDIA: Nemotron 3.5 Lightning,0.082,0.062,-24.39
+2026-10-12T07:06:59+00:00,openrouter,Inceptron,zai-org/glm-5.2,fp4,,output,Z.ai: GLM 5.2,5.6742,5.2,-8.36
+2026-10-12T07:06:59+00:00,openrouter,StreamLake,zai-org/glm-5.2,fp8,,input,Z.ai: GLM 5.2,0.55552,0.6426,15.68
+2026-10-12T07:06:59+00:00,openrouter,StreamLake,zai-org/glm-5.2,fp8,,output,Z.ai: GLM 5.2,1.74592,2.0196,15.68
+2026-10-12T07:06:59+00:00,openrouter,StreamLake,zai-org/glm-5.2,fp8,,cache_read,Z.ai: GLM 5.2,0.103168,0.11934,15.68
+2026-10-12T07:06:59+00:00,openrouter,Tenstorrent,zai-org/glm-5.3,fp8,,cache_read,Z.ai: GLM 5.3,0.14,0.1,-28.57
+2026-10-12T07:06:59+00:00,openrouter,Wafer,zai-org/glm-5.3,unknown,,input,Z.ai: GLM 5.3,0.07,0.079,12.86
+2026-10-12T07:06:59+00:00,openrouter,Wafer,zai-org/glm-5.3,unknown,,cache_read,Z.ai: GLM 5.3,0.05,0.059,18.0
+2026-10-12T07:06:59+00:00,openrouter,StreamLake,zai-org/glm-5.3-flash,fp8,,input,Z.ai: GLM 5.3 Flash,0.069,0.05985,-13.26
+2026-10-12T07:06:59+00:00,openrouter,StreamLake,zai-org/glm-5.3-flash,fp8,,output,Z.ai: GLM 5.3 Flash,0.23,0.1995,-13.26
+2026-10-12T07:06:59+00:00,openrouter,StreamLake,zai-org/glm-5.3-flash,fp8,,cache_read,Z.ai: GLM 5.3 Flash,0.0138,0.01197,-13.26
+2026-10-12T07:06:59+00:00,openrouter,DekaLLM,deepseek-ai/deepseek-v4.1-flash,unknown,,cache_read,DeepSeek: DeepSeek V4.1 Flash,0.005,,
+2026-10-12T07:06:59+00:00,openrouter,DekaLLM,deepseek-ai/deepseek-v4.1-flash,unknown,,input,DeepSeek: DeepSeek V4.1 Flash,0.12,,
+2026-10-12T07:06:59+00:00,openrouter,DekaLLM,deepseek-ai/deepseek-v4.1-flash,unknown,,output,DeepSeek: DeepSeek V4.1 Flash,1.2,,
+2026-10-12T07:06:59+00:00,openrouter,DekaLLM,zai-org/glm-5.3-flash,unknown,,cache_read,Z.ai: GLM 5.3 Flash,0.04,,
+2026-10-12T07:06:59+00:00,openrouter,DekaLLM,zai-org/glm-5.3-flash,unknown,,input,Z.ai: GLM 5.3 Flash,0.1,,
+2026-10-12T07:06:59+00:00,openrouter,DekaLLM,zai-org/glm-5.3-flash,unknown,,output,Z.ai: GLM 5.3 Flash,1.0,,
+2026-10-12T07:06:59+00:00,openrouter,Tenstorrent,qwen/qwen3.8-27b,fp4,,cache_read,Qwen: Qwen3.8 27B,0.018,,
+2026-10-12T07:06:59+00:00,openrouter,Tenstorrent,qwen/qwen3.8-27b,fp4,,input,Qwen: Qwen3.8 27B,0.04,,
+2026-10-12T07:06:59+00:00,openrouter,Tenstorrent,qwen/qwen3.8-27b,fp4,,output,Qwen: Qwen3.8 27B,1.35,,
