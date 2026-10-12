@@ -7822,9 +7822,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000895752",
-    "input_cache_read": "0.000000037323",
-    "prompt": "0.000000447876"
+    "completion": "0.00000082476",
+    "input_cache_read": "0.000000034365",
+    "prompt": "0.00000041238"
    },
    "reasoning": {
     "default_effort": "high",
@@ -15549,6 +15549,75 @@
     "completion": "0.0000002",
     "input_cache_read": "0.000000002",
     "prompt": "0.0000001",
+    "web_search": "0.0025"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "minimal",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "repetition_penalty",
+    "response_format",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1048576,
+    "is_moderated": true,
+    "max_completion_tokens": 943718
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "audio",
+     "file",
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file+audio+video->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "meta/muse-wonder-20261012",
+   "context_length": 1048576,
+   "created": 1791807945,
+   "default_parameters": {},
+   "description": "Muse Wonder is a frontier reasoning model from Meta, designed for complex personal and professional agentic tasks. It accepts text, images, video, audio, and PDF documents and returns text, with...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "meta/muse-wonder",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/meta/muse-wonder-20261012/endpoints"
+   },
+   "name": "Meta: Muse Wonder",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00002",
+    "input_cache_read": "0.0000002",
+    "prompt": "0.000004",
     "web_search": "0.0025"
    },
    "reasoning": {
@@ -36704,8 +36773,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -36722,7 +36791,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -36863,8 +36932,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -36881,7 +36950,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -40469,7 +40538,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000009",
-    "input_cache_read": "0.00000005",
+    "input_cache_read": "0.000000055",
     "prompt": "0.0000003"
    },
    "reasoning": {
@@ -42849,9 +42918,9 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000005",
-    "input_cache_read": "0.0000002",
-    "prompt": "0.00000025"
+    "completion": "0.00000074844",
+    "input_cache_read": "0.000000007938",
+    "prompt": "0.00000024948"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42888,7 +42957,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -43175,9 +43244,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00001",
-    "input_cache_read": "0.00000055",
-    "prompt": "0.00000073"
+    "completion": "0.000024",
+    "input_cache_read": "0.0000003",
+    "prompt": "0.00000072"
    },
    "reasoning": {
     "default_effort": "max",
@@ -43875,5 +43944,5 @@
  "links": {
   "next": null
  },
- "total_count": 458
+ "total_count": 459
 }
