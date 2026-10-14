@@ -3,7 +3,7 @@
 **A public, machine-readable record of what LLM inference actually costs — and how that price changes over time.** Refreshed every 6 hours.
 
 <!-- BEGIN STATS -->
-**16,483** price points · **1,035** models · **80** platforms · updated **2026-10-14 06:43 UTC** · history since **2026-09-02** (43 snapshots)
+**16,483** price points · **1,035** models · **80** platforms · updated **2026-10-14 12:41 UTC** · history since **2026-09-02** (43 snapshots)
 <!-- END STATS -->
 
 Every provider publishes today's price. **Nobody publishes yesterday's.** This repo
@@ -40,16 +40,16 @@ yourself.
 <!-- BEGIN TABLE -->
 | Model | Platforms | Cheapest | Input $/M | Output $/M | Spread |
 |---|--:|---|--:|--:|--:|
-| Z.ai: GLM 5.3 | 34 | [Relace](https://www.relace.ai/) | $0.06 | $4.40 | 33.3× |
-| DeepSeek: DeepSeek V4.1 Flash | 30 | [Relace](https://www.relace.ai/) | $0.00 | $0.60 | 162.2× |
+| Z.ai: GLM 5.3 | 34 | [Relace](https://www.relace.ai/) | $0.06 | $4.40 | 36.5× |
+| DeepSeek: DeepSeek V4.1 Flash | 30 | [OpenInference](https://www.openinference.ai/) | $0.02 | $0.89 | 29.8× |
 | Z.ai: GLM 5.3 Flash | 29 | [OpenInference](https://www.openinference.ai/) | $0.04 | $0.90 | 4.2× |
 | Z.ai: GLM 5.2 | 28 | [Wafer](https://www.wafer.ai/) | $0.05 | $7.00 | 50.0× |
 | DeepSeek: DeepSeek V4 Flash 0731 | 24 | [OpenInference](https://www.openinference.ai/) | $0.01 | $0.58 | 30.6× |
 | OpenAI: gpt-oss-120b | 21 | [AkashML](https://akashml.com/) | $0.03 | $0.19 | 11.7× |
-| MoonshotAI: Kimi K3 | 20 | [Relace](https://www.relace.ai/) | $0.56 | $14.00 | 6.2× |
+| MoonshotAI: Kimi K3 | 20 | [Relace](https://www.relace.ai/) | $0.54 | $14.00 | 6.4× |
 | DeepSeek: DeepSeek V4 Pro 0813 | 20 | [Relace](https://www.relace.ai/) | $0.23 | $8.00 | 7.3× |
-| Qwen: Qwen3.8 27B | 19 | [Chutes](https://chutes.ai/) | $0.04 | $1.25 | 25.4× |
-| MoonshotAI: Kimi K2.6 | 17 | [Inceptron](https://www.inceptron.io/) | $0.44 | $2.45 | 2.5× |
+| Qwen: Qwen3.8 27B | 19 | [Darkbloom](https://www.darkbloom.dev/) | $0.04 | $2.20 | 28.3× |
+| MoonshotAI: Kimi K2.6 | 17 | [Baidu](https://intl.cloud.baidu.com/) | $0.44 | $1.86 | 2.5× |
 | DeepSeek: DeepSeek V4 Flash 0423 | 16 | [OpenInference](https://www.openinference.ai/) | $0.04 | $1.15 | 9.8× |
 | DeepSeek: DeepSeek V4 Pro 0423 | 14 | [Parasail](https://www.parasail.io/) | $0.45 | $3.48 | 4.2× |
 | Z.ai: GLM 5.1 | 13 | [StreamLake](https://www.streamlake.ai/) | $0.97 | $3.04 | 1.5× |
