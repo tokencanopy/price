@@ -4082,138 +4082,6 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "agentic_index": null,
-     "coding_index": 37.6,
-     "intelligence_index": 18.9
-    },
-    "design_arena": [
-     {
-      "arena": "models",
-      "category": "3d",
-      "elo": 1140,
-      "rank": 70,
-      "win_rate": 57.8
-     },
-     {
-      "arena": "models",
-      "category": "codecategories",
-      "elo": 1143,
-      "rank": 88,
-      "win_rate": 53.4
-     },
-     {
-      "arena": "models",
-      "category": "dataviz",
-      "elo": 1159,
-      "rank": 77,
-      "win_rate": 56.5
-     },
-     {
-      "arena": "models",
-      "category": "gamedev",
-      "elo": 1142,
-      "rank": 75,
-      "win_rate": 54.8
-     },
-     {
-      "arena": "models",
-      "category": "svg",
-      "elo": 1078,
-      "rank": 66,
-      "win_rate": 51.1
-     },
-     {
-      "arena": "models",
-      "category": "uicomponent",
-      "elo": 1128,
-      "rank": 84,
-      "win_rate": 57.9
-     },
-     {
-      "arena": "models",
-      "category": "website",
-      "elo": 1147,
-      "rank": 89,
-      "win_rate": 52.4
-     }
-    ]
-   },
-   "canonical_slug": "anthropic/claude-4-sonnet-20250522",
-   "context_length": 200000,
-   "created": 1747930371,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "presence_penalty": null,
-    "repetition_penalty": null,
-    "temperature": null,
-    "top_k": null,
-    "top_p": null
-   },
-   "description": "Claude Sonnet 4 significantly enhances the capabilities of its predecessor, Sonnet 3.7, excelling in both coding and reasoning tasks with improved precision and controllability. Achieving state-of-the-art performance on SWE-bench (72.7%),...",
-   "expiration_date": "2026-10-15",
-   "hugging_face_id": "",
-   "id": "anthropic/claude-sonnet-4",
-   "knowledge_cutoff": "2025-01-31",
-   "links": {
-    "details": "/api/v1/models/anthropic/claude-4-sonnet-20250522/endpoints"
-   },
-   "name": "Anthropic: Claude Sonnet 4",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.000015",
-    "input_cache_read": "0.0000003",
-    "input_cache_write": "0.00000375",
-    "input_cache_write_1h": "0.000006",
-    "overrides": [
-     {
-      "completion": "0.0000225",
-      "input_cache_read": "0.0000006",
-      "input_cache_write": "0.0000075",
-      "input_cache_write_1h": "0.000012",
-      "min_prompt_tokens": 200000,
-      "prompt": "0.000006"
-     }
-    ],
-    "prompt": "0.000003",
-    "web_search": "0.01"
-   },
-   "reasoning": {
-    "mandatory": false
-   },
-   "supported_parameters": [
-    "include_reasoning",
-    "max_tokens",
-    "reasoning",
-    "stop",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 200000,
-    "is_moderated": true,
-    "max_completion_tokens": 64000
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "file",
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image+file->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Claude"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
      "agentic_index": 15.8,
      "coding_index": 52.1,
      "intelligence_index": 20.7
@@ -7765,9 +7633,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605",
-    "prompt": "0.00000095526"
+    "completion": "0.000000797616",
+    "input_cache_read": "0.000000033234",
+    "prompt": "0.000000398808"
    },
    "reasoning": {
     "default_effort": "high",
@@ -8004,9 +7872,9 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000072",
-    "input_cache_read": "0.0000000054",
-    "prompt": "0.00000002376"
+    "completion": "0.0000008",
+    "input_cache_read": "0.00000001",
+    "prompt": "0.0000000089"
    },
    "reasoning": {
     "default_effort": "high",
@@ -15648,6 +15516,80 @@
     ],
     "tokenizer": "Other"
    },
+   "canonical_slug": "meta/muse-spark-open-20261015",
+   "context_length": 1048576,
+   "created": 1792087069,
+   "default_parameters": {},
+   "description": "Muse Spark Open is a coding-optimized open-weight model. Trained specifically for agentic coding workflows, it delivers higher first-attempt accuracy, reliable tool calling, and deep codebase understanding across the repos developers...",
+   "expiration_date": null,
+   "hugging_face_id": "meta-models/Muse-Spark-Open-816B-A42B",
+   "id": "meta/muse-spark-open",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/meta/muse-spark-open-20261015/endpoints"
+   },
+   "name": "Meta: Muse Spark Open",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00000425",
+    "input_cache_read": "0.00000015",
+    "prompt": "0.00000125"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "medium",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "logit_bias",
+    "logprobs",
+    "max_tokens",
+    "min_p",
+    "presence_penalty",
+    "reasoning",
+    "reasoning_effort",
+    "repetition_penalty",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_logprobs",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1048576,
+    "is_moderated": false,
+    "max_completion_tokens": 943718
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "audio",
+     "file",
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file+audio+video->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
    "benchmarks": {
     "design_arena": [
      {
@@ -18802,8 +18744,8 @@
    "name": "Mistral: Mistral Small 3.2 24B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000002",
-    "prompt": "0.000000075"
+    "completion": "0.00000025",
+    "prompt": "0.00000009375"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -18826,7 +18768,7 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 128000,
+    "context_length": 256000,
     "is_moderated": false,
     "max_completion_tokens": 16384
    }
@@ -21395,6 +21337,124 @@
     "context_length": 1000000,
     "is_moderated": false,
     "max_completion_tokens": 65536
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+video->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "nvidia/nemotron-3.5-super-vl-20261015",
+   "context_length": 1048576,
+   "created": 1792076662,
+   "default_parameters": {},
+   "description": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video...",
+   "expiration_date": null,
+   "hugging_face_id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL",
+   "id": "nvidia/nemotron-3.5-super-vl",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/nvidia/nemotron-3.5-super-vl-20261015/endpoints"
+   },
+   "name": "NVIDIA: Nemotron 3.5 Super VL",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000002",
+    "prompt": "0.00000015"
+   },
+   "reasoning": {
+    "mandatory": false
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "logit_bias",
+    "logprobs",
+    "max_tokens",
+    "min_p",
+    "presence_penalty",
+    "reasoning",
+    "repetition_penalty",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_logprobs",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 262144,
+    "is_moderated": false,
+    "max_completion_tokens": 235929
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+video->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "nvidia/nemotron-3.5-super-vl-20261015",
+   "context_length": 1000000,
+   "created": 1792076662,
+   "default_parameters": {},
+   "description": "NVIDIA Nemotron 3.5 Super VL is an open multimodal mixture-of-experts model from NVIDIA, with 12B active parameters out of 120B total. It takes text, images, documents, GUI screenshots, and video...",
+   "expiration_date": null,
+   "hugging_face_id": "nvidia/NVIDIA-Nemotron-3.5-Super-VL",
+   "id": "nvidia/nemotron-3.5-super-vl:free",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/nvidia/nemotron-3.5-super-vl-20261015/endpoints"
+   },
+   "name": "NVIDIA: Nemotron 3.5 Super VL (free)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0",
+    "prompt": "0"
+   },
+   "reasoning": {
+    "mandatory": false
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1000000,
+    "is_moderated": false,
+    "max_completion_tokens": 131072
    }
   },
   {
@@ -34511,8 +34571,9 @@
    "name": "Qwen: Qwen3.6 27B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000032",
-    "prompt": "0.00000032"
+    "completion": "0.000002",
+    "input_cache_read": "0.000000025",
+    "prompt": "0.00000025"
    },
    "reasoning": {
     "default_enabled": true,
@@ -34543,7 +34604,7 @@
    "top_provider": {
     "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 81920
+    "max_completion_tokens": 65536
    }
   },
   {
@@ -36988,8 +37049,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -37006,7 +37067,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -37147,8 +37208,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -37165,7 +37226,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -37896,52 +37957,6 @@
     "context_length": null,
     "is_moderated": false,
     "max_completion_tokens": null
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "canonical_slug": "unbiased/pareto-26.10-preview-20260929",
-   "context_length": 1048576,
-   "created": 1790863623,
-   "default_parameters": {},
-   "description": "Pareto is a multimodal composite model built for research, coding, and agentic workflows, while delivering frontier-level performance across a broad range of general-purpose tasks. This is a preview of the...",
-   "expiration_date": "2026-10-15",
-   "hugging_face_id": null,
-   "id": "unbiased/pareto-26.10-preview",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/unbiased/pareto-26.10-preview-20260929/endpoints"
-   },
-   "name": "Pareto 26.10 Preview",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.0000032",
-    "input_cache_read": "0.00000003",
-    "prompt": "0.0000008"
-   },
-   "supported_parameters": [
-    "max_tokens",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 1048576,
-    "is_moderated": false,
-    "max_completion_tokens": 131072
    }
   },
   {
@@ -41748,9 +41763,9 @@
    "name": "Z.ai: GLM 5.2",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000007",
-    "input_cache_read": "0.000000019",
-    "prompt": "0.00000002"
+    "completion": "0.00001",
+    "input_cache_read": "0.000000199",
+    "prompt": "0.0000002"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41907,9 +41922,9 @@
    "name": "Z.ai: GLM 5.3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000048",
-    "input_cache_read": "0.000000078",
-    "prompt": "0.000000079"
+    "completion": "0.000008",
+    "input_cache_read": "0.000000399",
+    "prompt": "0.0000004"
    },
    "reasoning": {
     "default_effort": "max",
@@ -43065,9 +43080,9 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000072",
-    "input_cache_read": "0.0000000054",
-    "prompt": "0.00000002376"
+    "completion": "0.0000008",
+    "input_cache_read": "0.00000001",
+    "prompt": "0.0000000089"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43143,8 +43158,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000008",
-    "input_cache_read": "0.00000023",
-    "prompt": "0.000000225"
+    "input_cache_read": "0.00000013",
+    "prompt": "0.0000001307"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43458,9 +43473,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000024",
-    "input_cache_read": "0.00000028",
-    "prompt": "0.00000029"
+    "completion": "0.000014",
+    "input_cache_read": "0.0000003",
+    "prompt": "0.0000004"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44162,8 +44177,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000044",
-    "input_cache_read": "0.0000000586",
-    "prompt": "0.000000063"
+    "input_cache_read": "0.0000000565",
+    "prompt": "0.0000000608"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44209,5 +44224,5 @@
  "links": {
   "next": null
  },
- "total_count": 462
+ "total_count": 463
 }
