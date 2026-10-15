@@ -268776,3 +268776,66 @@ observed_at,source,platform,model_key,variant,region,metric,model_name,old_usd_p
 2026-10-15T00:59:09+00:00,openrouter,Wafer,zai-org/glm-5.3-flash,unknown,,cache_read,Z.ai: GLM 5.3 Flash,0.012,0.115,858.33
 2026-10-15T00:59:09+00:00,openrouter,Amazon Bedrock,qwen/qwen3-coder-30b-a3b-instruct,unknown,,input,Qwen: Qwen3 Coder 30B A3B Instruct,0.15,,
 2026-10-15T00:59:09+00:00,openrouter,Amazon Bedrock,qwen/qwen3-coder-30b-a3b-instruct,unknown,,output,Qwen: Qwen3 Coder 30B A3B Instruct,0.6,,
+2026-10-15T06:44:37+00:00,openrouter,Wafer,deepseek-ai/deepseek-v4-flash,unknown,,input,DeepSeek: DeepSeek V4 Flash 0423,0.39,0.45,15.38
+2026-10-15T06:44:37+00:00,openrouter,Phala,deepseek-ai/deepseek-v4-flash-0731,unknown,,input,DeepSeek: DeepSeek V4 Flash 0731,0.308,0.44,42.86
+2026-10-15T06:44:37+00:00,openrouter,Phala,deepseek-ai/deepseek-v4-flash-0731,unknown,,output,DeepSeek: DeepSeek V4 Flash 0731,0.924,1.32,42.86
+2026-10-15T06:44:37+00:00,openrouter,Phala,deepseek-ai/deepseek-v4-flash-0731,unknown,,cache_read,DeepSeek: DeepSeek V4 Flash 0731,0.0196,0.028,42.86
+2026-10-15T06:44:37+00:00,openrouter,Reka,deepseek-ai/deepseek-v4-pro,unknown,,output,DeepSeek: DeepSeek V4 Pro 0423,10.5,2.1,-80.0
+2026-10-15T06:44:37+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,input,DeepSeek: DeepSeek V4 Pro 0813,0.66,1.32,100.0
+2026-10-15T06:44:37+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,output,DeepSeek: DeepSeek V4 Pro 0813,1.98,3.96,100.0
+2026-10-15T06:44:37+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,cache_read,DeepSeek: DeepSeek V4 Pro 0813,0.022,0.044,100.0
+2026-10-15T06:44:37+00:00,openrouter,Phala,deepseek-ai/deepseek-v4-pro-0813,unknown,,input,DeepSeek: DeepSeek V4 Pro 0813,0.957,1.45,51.52
+2026-10-15T06:44:37+00:00,openrouter,Phala,deepseek-ai/deepseek-v4-pro-0813,unknown,,output,DeepSeek: DeepSeek V4 Pro 0813,2.8776,4.36,51.52
+2026-10-15T06:44:37+00:00,openrouter,Phala,deepseek-ai/deepseek-v4-pro-0813,unknown,,cache_read,DeepSeek: DeepSeek V4 Pro 0813,0.099,0.15,51.52
+2026-10-15T06:44:37+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4.1-flash,unknown,,input,DeepSeek: DeepSeek V4.1 Flash,0.15,0.3,100.0
+2026-10-15T06:44:37+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4.1-flash,unknown,,output,DeepSeek: DeepSeek V4.1 Flash,0.6,1.2,100.0
+2026-10-15T06:44:37+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4.1-flash,unknown,,cache_read,DeepSeek: DeepSeek V4.1 Flash,0.003,0.006,100.0
+2026-10-15T06:44:37+00:00,openrouter,Morph,deepseek-ai/deepseek-v4.1-flash,fp8,,input,DeepSeek: DeepSeek V4.1 Flash,0.022,0.019,-13.64
+2026-10-15T06:44:37+00:00,openrouter,OpenInference,deepseek-ai/deepseek-v4.1-flash,fp4,,input,DeepSeek: DeepSeek V4.1 Flash,0.01584,0.01368,-13.64
+2026-10-15T06:44:37+00:00,openrouter,Relace,deepseek-ai/deepseek-v4.1-flash,unknown,,input,DeepSeek: DeepSeek V4.1 Flash,0.0176,0.0152,-13.64
+2026-10-15T06:44:37+00:00,openrouter,Relace,deepseek-ai/deepseek-v4.1-flash,unknown,,output,DeepSeek: DeepSeek V4.1 Flash,0.6,0.8,33.33
+2026-10-15T06:44:37+00:00,openrouter,Relace,deepseek-ai/deepseek-v4.1-flash,unknown,,cache_read,DeepSeek: DeepSeek V4.1 Flash,0.008,0.01,25.0
+2026-10-15T06:44:37+00:00,openrouter,Wafer,deepseek-ai/deepseek-v4.1-flash,unknown,,input,DeepSeek: DeepSeek V4.1 Flash,0.11,0.1,-9.09
+2026-10-15T06:44:37+00:00,openrouter,NextBit,google/gemma-4-26b-a4b-it,bf16,,input,Google: Gemma 4 26B A4B ,0.0765,0.09,17.65
+2026-10-15T06:44:37+00:00,openrouter,NextBit,google/gemma-4-26b-a4b-it,bf16,,output,Google: Gemma 4 26B A4B ,0.255,0.3,17.65
+2026-10-15T06:44:37+00:00,openrouter,NextBit,google/gemma-4-26b-a4b-it,bf16,,cache_read,Google: Gemma 4 26B A4B ,0.0425,0.05,17.65
+2026-10-15T06:44:37+00:00,openrouter,Decart,moonshotai/kimi-k3,mxfp4,,input,MoonshotAI: Kimi K3,2.16,2.13,-1.39
+2026-10-15T06:44:37+00:00,openrouter,Decart,moonshotai/kimi-k3,mxfp4,,output,MoonshotAI: Kimi K3,10.8,10.65,-1.39
+2026-10-15T06:44:37+00:00,openrouter,Decart,moonshotai/kimi-k3,mxfp4,,cache_read,MoonshotAI: Kimi K3,0.216,0.213,-1.39
+2026-10-15T06:44:37+00:00,openrouter,InferenceNet,moonshotai/kimi-k3,fp4,,input,MoonshotAI: Kimi K3,0.48,0.45,-6.25
+2026-10-15T06:44:37+00:00,openrouter,Morph,moonshotai/kimi-k3,fp8,,input,MoonshotAI: Kimi K3,0.72,0.8,11.11
+2026-10-15T06:44:37+00:00,openrouter,Relace,moonshotai/kimi-k3,fp4,,input,MoonshotAI: Kimi K3,0.43,0.3,-30.23
+2026-10-15T06:44:37+00:00,openrouter,Wafer,moonshotai/kimi-k3,unknown,,input,MoonshotAI: Kimi K3,0.44,0.31,-29.55
+2026-10-15T06:44:37+00:00,openrouter,Wafer,moonshotai/kimi-k3,unknown,,cache_read,MoonshotAI: Kimi K3,0.43,0.3,-30.23
+2026-10-15T06:44:37+00:00,openrouter,DeepInfra,stepfun-ai/step-5-preview,fp8,,input,StepFun: Step 5 Preview,,1.0,
+2026-10-15T06:44:37+00:00,openrouter,DeepInfra,stepfun-ai/step-5-preview,fp8,,output,StepFun: Step 5 Preview,,2.7,
+2026-10-15T06:44:37+00:00,openrouter,DeepInfra,stepfun-ai/step-5-preview,fp8,,cache_read,StepFun: Step 5 Preview,,0.05,
+2026-10-15T06:44:37+00:00,openrouter,StepFun,stepfun-ai/step-5-preview,fp8,,input,StepFun: Step 5 Preview,,1.0,
+2026-10-15T06:44:37+00:00,openrouter,StepFun,stepfun-ai/step-5-preview,fp8,,output,StepFun: Step 5 Preview,,2.7,
+2026-10-15T06:44:37+00:00,openrouter,StepFun,stepfun-ai/step-5-preview,fp8,,cache_read,StepFun: Step 5 Preview,,0.05,
+2026-10-15T06:44:37+00:00,openrouter,DeepInfra,tencent/hy4-preview,fp4,,input,Tencent: Hy4 preview,,0.834,
+2026-10-15T06:44:37+00:00,openrouter,DeepInfra,tencent/hy4-preview,fp4,,output,Tencent: Hy4 preview,,2.501,
+2026-10-15T06:44:37+00:00,openrouter,DeepInfra,tencent/hy4-preview,fp4,,cache_read,Tencent: Hy4 preview,,0.042,
+2026-10-15T06:44:37+00:00,openrouter,Relace,zai-org/glm-5.2,unknown,,input,Z.ai: GLM 5.2,0.038,0.0351,-7.63
+2026-10-15T06:44:37+00:00,openrouter,Relace,zai-org/glm-5.2,unknown,,cache_read,Z.ai: GLM 5.2,0.038,0.0351,-7.63
+2026-10-15T06:44:37+00:00,openrouter,Wafer,zai-org/glm-5.2,unknown,,input,Z.ai: GLM 5.2,0.04,0.037,-7.5
+2026-10-15T06:44:37+00:00,openrouter,Wafer,zai-org/glm-5.2,unknown,,output,Z.ai: GLM 5.2,4.4,7.0,59.09
+2026-10-15T06:44:37+00:00,openrouter,Wafer,zai-org/glm-5.2,unknown,,cache_read,Z.ai: GLM 5.2,0.039,0.036,-7.69
+2026-10-15T06:44:37+00:00,openrouter,InferenceNet,zai-org/glm-5.3,fp4,,output,Z.ai: GLM 5.3,4.4,4.8,9.09
+2026-10-15T06:44:37+00:00,openrouter,Morph,zai-org/glm-5.3,fp8,,input,Z.ai: GLM 5.3,0.082,0.094,14.63
+2026-10-15T06:44:37+00:00,openrouter,Morph,zai-org/glm-5.3,fp8,,cache_read,Z.ai: GLM 5.3,0.082,0.094,14.63
+2026-10-15T06:44:37+00:00,openrouter,Relace,zai-org/glm-5.3,unknown,,input,Z.ai: GLM 5.3,0.0608,0.06,-1.32
+2026-10-15T06:44:37+00:00,openrouter,Relace,zai-org/glm-5.3,unknown,,cache_read,Z.ai: GLM 5.3,0.0565,0.0558,-1.24
+2026-10-15T06:44:37+00:00,openrouter,InferenceNet,zai-org/glm-5.3-flash,fp4,,input,Z.ai: GLM 5.3 Flash,0.1,0.083,-17.0
+2026-10-15T06:44:37+00:00,openrouter,Morph,zai-org/glm-5.3-flash,fp8,,input,Z.ai: GLM 5.3 Flash,0.04,0.049,22.5
+2026-10-15T06:44:37+00:00,openrouter,Morph,zai-org/glm-5.3-flash,fp8,,cache_read,Z.ai: GLM 5.3 Flash,0.016,0.02,25.0
+2026-10-15T06:44:37+00:00,openrouter,Wafer,zai-org/glm-5.3-flash,unknown,,cache_read,Z.ai: GLM 5.3 Flash,0.115,0.06,-47.83
+2026-10-15T06:44:37+00:00,openrouter,DeepInfra,tencent/hy4-preview,fp8,,cache_read,Tencent: Hy4 preview,0.042,,
+2026-10-15T06:44:37+00:00,openrouter,DeepInfra,tencent/hy4-preview,fp8,,input,Tencent: Hy4 preview,0.834,,
+2026-10-15T06:44:37+00:00,openrouter,DeepInfra,tencent/hy4-preview,fp8,,output,Tencent: Hy4 preview,2.501,,
+2026-10-15T06:44:37+00:00,openrouter,InferenceNet,zai-org/glm-5.2,fp4,,cache_read,Z.ai: GLM 5.2,0.132,,
+2026-10-15T06:44:37+00:00,openrouter,InferenceNet,zai-org/glm-5.2,fp4,,input,Z.ai: GLM 5.2,0.198,,
+2026-10-15T06:44:37+00:00,openrouter,InferenceNet,zai-org/glm-5.2,fp4,,output,Z.ai: GLM 5.2,3.4,,
+2026-10-15T06:44:37+00:00,openrouter,StepFun,stepfun/step-5-preview,fp8,,cache_read,StepFun: Step 5 Preview,0.05,,
+2026-10-15T06:44:37+00:00,openrouter,StepFun,stepfun/step-5-preview,fp8,,input,StepFun: Step 5 Preview,1.0,,
+2026-10-15T06:44:37+00:00,openrouter,StepFun,stepfun/step-5-preview,fp8,,output,StepFun: Step 5 Preview,2.7,,
