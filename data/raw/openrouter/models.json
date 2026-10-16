@@ -5057,7 +5057,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 1000000,
-    "is_moderated": true,
+    "is_moderated": false,
     "max_completion_tokens": 128000
    }
   },
@@ -6415,8 +6415,8 @@
    "name": "DeepSeek: DeepSeek V3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000010287",
-    "prompt": "0.0000002574"
+    "completion": "0.00000089",
+    "prompt": "0.00000032"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -6437,9 +6437,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 128000,
+    "context_length": 163840,
     "is_moderated": false,
-    "max_completion_tokens": 16000
+    "max_completion_tokens": 16384
    }
   },
   {
@@ -7412,8 +7412,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000128",
-    "input_cache_read": "0.000000018",
-    "prompt": "0.000000018"
+    "input_cache_read": "0.0000000094",
+    "prompt": "0.0000000094"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7653,9 +7653,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605",
-    "prompt": "0.00000095526"
+    "completion": "0.000000594384",
+    "input_cache_read": "0.000000024766",
+    "prompt": "0.000000297192"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7894,7 +7894,7 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000684",
+    "completion": "0.0000006435",
     "input_cache_read": "0.0000000054",
     "prompt": "0.000000036"
    },
@@ -20041,7 +20041,7 @@
    "name": "MoonshotAI: Kimi K3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000012533",
+    "completion": "0.000011936",
     "input_cache_read": "0.00000021",
     "prompt": "0.000000304"
    },
@@ -35972,6 +35972,76 @@
   {
    "architecture": {
     "input_modalities": [
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "reflection/beam-1.0-501b-a23b-20261016",
+   "context_length": 1048576,
+   "created": 1792160499,
+   "default_parameters": {},
+   "description": "Beam 1.0 is Reflection's open-weight reasoning model for coding and long-horizon agentic workflows. It uses a sparse mixture-of-experts architecture with 501B total and 23B active parameters per token, and a...",
+   "expiration_date": null,
+   "hugging_face_id": "reflection/Beam-1.0-501B-A23B",
+   "id": "reflection/beam-1.0-501b-a23b",
+   "knowledge_cutoff": "2026-06-30",
+   "links": {
+    "details": "/api/v1/models/reflection/beam-1.0-501b-a23b-20261016/endpoints"
+   },
+   "name": "Reflection: Beam 1.0 501B A23B",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.000001",
+    "prompt": "0.00000025"
+   },
+   "reasoning": {
+    "default_effort": "max",
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "logit_bias",
+    "logprobs",
+    "max_tokens",
+    "min_p",
+    "presence_penalty",
+    "reasoning",
+    "reasoning_effort",
+    "repetition_penalty",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_logprobs",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1048576,
+    "is_moderated": false,
+    "max_completion_tokens": 131072
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
      "image",
      "text",
      "video"
@@ -37272,8 +37342,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -37290,7 +37360,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -37431,8 +37501,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -37449,7 +37519,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -37465,7 +37535,6 @@
     "frequency_penalty",
     "include_reasoning",
     "logit_bias",
-    "logprobs",
     "max_completion_tokens",
     "max_tokens",
     "min_p",
@@ -37481,7 +37550,6 @@
     "tool_choice",
     "tools",
     "top_k",
-    "top_logprobs",
     "top_p"
    ],
    "supported_voices": null,
@@ -41986,9 +42054,9 @@
    "name": "Z.ai: GLM 5.2",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000009",
-    "input_cache_read": "0.000000036",
-    "prompt": "0.000000037"
+    "completion": "0.00000242",
+    "input_cache_read": "0.00000014",
+    "prompt": "0.00000062"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42287,7 +42355,7 @@
    "name": "Z.ai: GLM 5.3 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000009",
+    "completion": "0.00000073728",
     "input_cache_read": "0.00000001125",
     "prompt": "0.00000001206"
    },
@@ -43307,7 +43375,7 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000684",
+    "completion": "0.0000006435",
     "input_cache_read": "0.0000000054",
     "prompt": "0.000000036"
    },
@@ -43385,9 +43453,9 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000005",
-    "input_cache_read": "0.000000249",
-    "prompt": "0.00000025"
+    "completion": "0.00000074844",
+    "input_cache_read": "0.000000007938",
+    "prompt": "0.00000024948"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43425,7 +43493,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -43459,9 +43527,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000001152",
-    "input_cache_read": "0.00000000441",
-    "prompt": "0.00000000441"
+    "completion": "0.00000128",
+    "input_cache_read": "0.0000000094",
+    "prompt": "0.0000000094"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43703,9 +43771,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000028",
-    "input_cache_read": "0.000000284",
-    "prompt": "0.000000294"
+    "completion": "0.000011936",
+    "input_cache_read": "0.00000021",
+    "prompt": "0.000000304"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44329,7 +44397,7 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000009",
+    "completion": "0.00000073728",
     "input_cache_read": "0.00000001125",
     "prompt": "0.00000001206"
    },
@@ -44455,5 +44523,5 @@
  "links": {
   "next": null
  },
- "total_count": 465
+ "total_count": 466
 }
