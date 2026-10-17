@@ -7412,8 +7412,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000055",
-    "prompt": "0.0000000055"
+    "input_cache_read": "0.0000000067",
+    "prompt": "0.0000000067"
    },
    "reasoning": {
     "default_effort": "high",
@@ -34597,9 +34597,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 256000,
+    "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 235929
    }
   },
   {
@@ -37790,8 +37790,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -37808,7 +37808,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -37949,8 +37949,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -37967,7 +37967,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41725,7 +41725,7 @@
     "top_p": 0.95
    },
    "description": "GLM-4.7 is Z.ai\u2019s latest flagship model, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution. It demonstrates significant improvements in executing complex agent tasks while...",
-   "expiration_date": null,
+   "expiration_date": "2026-12-31",
    "hugging_face_id": "zai-org/GLM-4.7",
    "id": "z-ai/glm-4.7",
    "knowledge_cutoff": null,
@@ -41735,9 +41735,9 @@
    "name": "Z.ai: GLM 4.7",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000099",
-    "prompt": "0.00000054"
+    "completion": "0.0000022",
+    "input_cache_read": "0.00000011",
+    "prompt": "0.0000006"
    },
    "reasoning": {
     "default_enabled": true,
@@ -41765,7 +41765,7 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 204800,
+    "context_length": 202752,
     "is_moderated": false,
     "max_completion_tokens": 131072
    }
@@ -43886,9 +43886,9 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000005",
-    "input_cache_read": "0.000000002",
-    "prompt": "0.0000001"
+    "completion": "0.00000055",
+    "input_cache_read": "0.000000008",
+    "prompt": "0.00000009"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43925,9 +43925,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 262144,
+    "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    }
   },
   {
@@ -44039,8 +44039,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000128",
-    "input_cache_read": "0.0000000055",
-    "prompt": "0.0000000055"
+    "input_cache_read": "0.0000000067",
+    "prompt": "0.0000000067"
    },
    "reasoning": {
     "default_effort": "high",
