@@ -7032,9 +7032,9 @@
    "name": "DeepSeek: DeepSeek V3.2",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000008",
-    "input_cache_read": "0.00000014",
-    "prompt": "0.000000259"
+    "completion": "0.00000042",
+    "input_cache_read": "0.000000028",
+    "prompt": "0.00000028"
    },
    "reasoning": {
     "default_enabled": false,
@@ -7063,9 +7063,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 163840,
+    "context_length": 131072,
     "is_moderated": false,
-    "max_completion_tokens": 147456
+    "max_completion_tokens": 65536
    }
   },
   {
@@ -7411,9 +7411,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000128",
-    "input_cache_read": "0.0000000199",
-    "prompt": "0.0000000199"
+    "completion": "0.0000009653",
+    "input_cache_read": "0.0000000162",
+    "prompt": "0.0000000162"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7653,9 +7653,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000432216",
-    "input_cache_read": "0.000000018009",
-    "prompt": "0.000000216108"
+    "completion": "0.0000004176",
+    "input_cache_read": "0.0000000174",
+    "prompt": "0.0000002088"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7894,9 +7894,90 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000144",
-    "input_cache_read": "0.0000000016",
-    "prompt": "0.000000032"
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000003",
+    "overrides": [
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000015",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 0,
+      "utc_start": 1000
+     },
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000015",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 100,
+      "utc_start": 0
+     },
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000015",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 600,
+      "utc_start": 400
+     },
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000015",
+      "utc_days": [
+       "saturday",
+       "sunday"
+      ]
+     },
+     {
+      "completion": "0.0000012",
+      "input_cache_read": "0.000000006",
+      "prompt": "0.0000003",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 1000,
+      "utc_start": 600
+     },
+     {
+      "completion": "0.0000012",
+      "input_cache_read": "0.000000006",
+      "prompt": "0.0000003",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 400,
+      "utc_start": 100
+     }
+    ],
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7935,7 +8016,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -8068,6 +8149,69 @@
     "context_length": 512000,
     "is_moderated": false,
     "max_completion_tokens": 460800
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+video->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "elorian/glimpse-20261016",
+   "context_length": 262144,
+   "created": 1792206629,
+   "default_parameters": {},
+   "description": "Glimpse is a multimodal visual reasoning model from Elorian, built for visual understanding and complex visual reasoning in the physical world. It reasons directly over images and video rather than...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "elorian/glimpse",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/elorian/glimpse-20261016/endpoints"
+   },
+   "name": "Elorian: Glimpse",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.000003",
+    "input_cache_read": "0.00000006",
+    "prompt": "0.0000006"
+   },
+   "reasoning": {
+    "mandatory": false
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "logit_bias",
+    "logprobs",
+    "max_tokens",
+    "min_p",
+    "presence_penalty",
+    "reasoning",
+    "repetition_penalty",
+    "response_format",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_logprobs",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 262144,
+    "is_moderated": false,
+    "max_completion_tokens": 256000
    }
   },
   {
@@ -41406,7 +41550,7 @@
     "top_p": 0.95
    },
    "description": "GLM-4.7 is Z.ai\u2019s latest flagship model, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution. It demonstrates significant improvements in executing complex agent tasks while...",
-   "expiration_date": "2026-12-31",
+   "expiration_date": null,
    "hugging_face_id": "zai-org/GLM-4.7",
    "id": "z-ai/glm-4.7",
    "knowledge_cutoff": null,
@@ -41416,9 +41560,9 @@
    "name": "Z.ai: GLM 4.7",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000022",
-    "input_cache_read": "0.00000011",
-    "prompt": "0.0000006"
+    "completion": "0.00000198",
+    "input_cache_read": "0.000000099",
+    "prompt": "0.00000054"
    },
    "reasoning": {
     "default_enabled": true,
@@ -41446,7 +41590,7 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 202752,
+    "context_length": 204800,
     "is_moderated": false,
     "max_completion_tokens": 131072
    }
@@ -42547,9 +42691,9 @@
    "name": "Z.ai: GLM 5.3 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006836",
-    "input_cache_read": "0.0000000125",
-    "prompt": "0.0000000247"
+    "completion": "0.0000005578",
+    "input_cache_read": "0.0000000464",
+    "prompt": "0.0000000464"
    },
    "reasoning": {
     "default_effort": "max",
@@ -43567,9 +43711,9 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000144",
-    "input_cache_read": "0.0000000016",
-    "prompt": "0.000000032"
+    "completion": "0.0000004026",
+    "input_cache_read": "0.0000000309",
+    "prompt": "0.0000000309"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43645,9 +43789,9 @@
    "name": "DeepSeek: DeepSeek Pro Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000074844",
-    "input_cache_read": "0.000000007938",
-    "prompt": "0.00000024948"
+    "completion": "0.0000007497",
+    "input_cache_read": "0.00000021",
+    "prompt": "0.0000002078"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43719,9 +43863,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000143616",
-    "input_cache_read": "0.000000001523",
-    "prompt": "0.00000001208"
+    "completion": "0.0000009653",
+    "input_cache_read": "0.0000000162",
+    "prompt": "0.0000000162"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43963,9 +44107,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000024",
-    "input_cache_read": "0.000000284",
-    "prompt": "0.000000294"
+    "completion": "0.0000085378",
+    "input_cache_read": "0.00000027",
+    "prompt": "0.00000027"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44589,9 +44733,9 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006836",
-    "input_cache_read": "0.0000000125",
-    "prompt": "0.0000000247"
+    "completion": "0.0000005578",
+    "input_cache_read": "0.0000000464",
+    "prompt": "0.0000000464"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44667,9 +44811,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000044",
-    "input_cache_read": "0.0000000565",
-    "prompt": "0.0000000608"
+    "completion": "0.0000022044",
+    "input_cache_read": "0.000000069",
+    "prompt": "0.000000069"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44715,5 +44859,5 @@
  "links": {
   "next": null
  },
- "total_count": 468
+ "total_count": 469
 }
