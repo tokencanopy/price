@@ -10208,7 +10208,7 @@
      "name": "Relace | deepseek/deepseek-v4-flash-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000128",
+      "completion": "0.00000045",
       "discount": 0,
       "input_cache_read": "0.0000000142",
       "prompt": "0.0000000142"
@@ -11209,7 +11209,7 @@
       "completion": "0.000000143616",
       "discount": 0,
       "input_cache_read": "0.000000001523",
-      "prompt": "0.00000000392"
+      "prompt": "0.00000000912"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -11307,10 +11307,10 @@
      "name": "Phala | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000924",
-      "discount": 0.3,
-      "input_cache_read": "0.0000000196",
-      "prompt": "0.000000308"
+      "completion": "0.00000132",
+      "discount": 0,
+      "input_cache_read": "0.000000028",
+      "prompt": "0.00000044"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -11402,10 +11402,10 @@
      "name": "Relace | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000128",
+      "completion": "0.00000045",
       "discount": 0,
-      "input_cache_read": "0.0000000049",
-      "prompt": "0.0000000049"
+      "input_cache_read": "0.0000000114",
+      "prompt": "0.0000000114"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -13502,10 +13502,10 @@
      "name": "Phala | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000028776",
-      "discount": 0.34,
-      "input_cache_read": "0.000000099",
-      "prompt": "0.000000957"
+      "completion": "0.00000436",
+      "discount": 0,
+      "input_cache_read": "0.00000015",
+      "prompt": "0.00000145"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -14918,8 +14918,8 @@
      "pricing": {
       "completion": "0.00000055",
       "discount": 0,
-      "input_cache_read": "0.000000004",
-      "prompt": "0.000000067"
+      "input_cache_read": "0.000000007",
+      "prompt": "0.000000081"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -15067,7 +15067,7 @@
       "completion": "0.000000144",
       "discount": 0,
       "input_cache_read": "0.0000000016",
-      "prompt": "0.0000000536"
+      "prompt": "0.0000000648"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -15547,7 +15547,7 @@
      "pricing": {
       "completion": "0.00000065",
       "discount": 0,
-      "input_cache_read": "0.000000006",
+      "input_cache_read": "0.000000034",
       "prompt": "0.0000001"
      },
      "provider_name": "Wafer",
@@ -15981,6 +15981,56 @@
      "tag": "deepseek"
     },
     {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4.1-flash-1017",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+     "name": "Fireworks | deepseek/deepseek-v4.1-flash-20261017",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000012",
+      "discount": 0,
+      "input_cache_read": "0.000000006",
+      "prompt": "0.0000003"
+     },
+     "provider_name": "Fireworks",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "fireworks"
+    },
+    {
      "context_length": 262144,
      "max_completion_tokens": 131072,
      "max_prompt_tokens": null,
@@ -16024,56 +16074,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "inference-net/fp8"
-    },
-    {
-     "context_length": 1048576,
-     "max_completion_tokens": 943718,
-     "max_prompt_tokens": null,
-     "model_id": "deepseek/deepseek-v4.1-flash-1017",
-     "model_name": "DeepSeek: DeepSeek V4.1 Flash 1017",
-     "name": "Morph | deepseek/deepseek-v4.1-flash-20261017",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000055",
-      "discount": 0,
-      "input_cache_read": "0.000000008",
-      "prompt": "0.00000009"
-     },
-     "provider_name": "Morph",
-     "quantization": "fp8",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "morph/fp8"
     },
     {
      "context_length": 1048576,
@@ -16128,6 +16128,56 @@
     },
     {
      "context_length": 1048576,
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4.1-flash-1017",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+     "name": "PrimeIntellect | deepseek/deepseek-v4.1-flash-20261017",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000012",
+      "discount": 0,
+      "input_cache_read": "0.000000006",
+      "prompt": "0.0000003"
+     },
+     "provider_name": "PrimeIntellect",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logprobs",
+      "max_completion_tokens",
+      "max_tokens",
+      "parallel_tool_calls",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "primeintellect"
+    },
+    {
+     "context_length": 1048576,
      "max_completion_tokens": 943718,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4.1-flash-1017",
@@ -16138,7 +16188,7 @@
       "completion": "0.0000006",
       "discount": 0,
       "input_cache_read": "0.000000008",
-      "prompt": "0.0000002"
+      "prompt": "0.00000005"
      },
      "provider_name": "Relace",
      "quantization": "unknown",
@@ -25079,10 +25129,10 @@
      "name": "DeepInfra | inclusionai/ling-3.1-flash-20261002",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000009",
-      "discount": 0,
-      "input_cache_read": "0.00000006",
-      "prompt": "0.0000003"
+      "completion": "0.00000063",
+      "discount": 0.3,
+      "input_cache_read": "0.000000042",
+      "prompt": "0.00000021"
      },
      "provider_name": "DeepInfra",
      "quantization": "fp4",
@@ -35428,8 +35478,8 @@
      "pricing": {
       "completion": "0.0000149",
       "discount": 0,
-      "input_cache_read": "0.000000219",
-      "prompt": "0.000000491"
+      "input_cache_read": "0.000000175",
+      "prompt": "0.000000392"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -68109,8 +68159,8 @@
      "pricing": {
       "completion": "0.000006",
       "discount": 0,
-      "input_cache_read": "0.000000079",
-      "prompt": "0.000000079"
+      "input_cache_read": "0.000000052",
+      "prompt": "0.000000084"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -68358,8 +68408,8 @@
      "pricing": {
       "completion": "0.000006",
       "discount": 0,
-      "input_cache_read": "0.000000075",
-      "prompt": "0.000000075"
+      "input_cache_read": "0.0000000798",
+      "prompt": "0.0000000798"
      },
      "provider_name": "Relace",
      "quantization": "unknown",
@@ -70134,8 +70184,8 @@
      "pricing": {
       "completion": "0.000006",
       "discount": 0,
-      "input_cache_read": "0.00000005",
-      "prompt": "0.00000008"
+      "input_cache_read": "0.000000052",
+      "prompt": "0.000000084"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -70799,7 +70849,7 @@
      "name": "Wafer | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000032",
+      "completion": "0.0000048",
       "discount": 0,
       "input_cache_read": "0.000000078",
       "prompt": "0.000000079"
@@ -70851,7 +70901,7 @@
      "name": "Wafer | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000032",
+      "completion": "0.0000048",
       "discount": 0,
       "input_cache_read": "0.000000178",
       "prompt": "0.000000179"
@@ -71737,8 +71787,8 @@
      "pricing": {
       "completion": "0.00000065",
       "discount": 0,
-      "input_cache_read": "0.000000029",
-      "prompt": "0.000000082"
+      "input_cache_read": "0.000000026",
+      "prompt": "0.000000074"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -72124,6 +72174,57 @@
      },
      "supports_voice_cloning": false,
      "tag": "phala/nvfp4"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "model_id": "z-ai/glm-5.3-flash",
+     "model_name": "Z.ai: GLM 5.3 Flash",
+     "name": "PrimeIntellect | z-ai/glm-5.3-flash-20260826",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000005",
+      "discount": 0,
+      "input_cache_read": "0.00000003",
+      "prompt": "0.00000015"
+     },
+     "provider_name": "PrimeIntellect",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "parallel_tool_calls",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "primeintellect"
     },
     {
      "context_length": 1048576,
