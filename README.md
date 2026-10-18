@@ -3,7 +3,7 @@
 **A public, machine-readable record of what LLM inference actually costs — and how that price changes over time.** Refreshed every 6 hours.
 
 <!-- BEGIN STATS -->
-**16,709** price points · **1,048** models · **81** platforms · updated **2026-10-18 12:35 UTC** · history since **2026-09-02** (47 snapshots)
+**16,709** price points · **1,048** models · **81** platforms · updated **2026-10-18 18:32 UTC** · history since **2026-09-02** (47 snapshots)
 <!-- END STATS -->
 
 Every provider publishes today's price. **Nobody publishes yesterday's.** This repo
@@ -47,10 +47,10 @@ yourself.
 | DeepSeek: DeepSeek V4 Flash 0731 | 25 | [Relace](https://www.relace.ai/) | $0.01 | $0.45 | 38.6× |
 | OpenAI: gpt-oss-120b | 22 | [AkashML](https://akashml.com/) | $0.03 | $0.19 | 11.7× |
 | DeepSeek: DeepSeek V4 Pro 0813 | 21 | [Relace](https://www.relace.ai/) | $0.12 | $8.00 | 13.8× |
-| MoonshotAI: Kimi K3 | 20 | [Relace](https://www.relace.ai/) | $0.25 | $8.00 | 13.8× |
+| MoonshotAI: Kimi K3 | 20 | [Relace](https://www.relace.ai/) | $0.25 | $14.00 | 13.8× |
 | Qwen: Qwen3.8 27B | 20 | [Tenstorrent](https://tenstorrent.com/) | $0.02 | $0.50 | 49.5× |
 | MoonshotAI: Kimi K2.6 | 17 | [Baidu](https://intl.cloud.baidu.com/) | $0.43 | $1.82 | 2.5× |
-| DeepSeek: DeepSeek V4 Flash 0423 | 16 | [OpenInference](https://www.openinference.ai/) | $0.01 | $0.02 | 65.3× |
+| DeepSeek: DeepSeek V4 Flash 0423 | 16 | [Relace](https://www.relace.ai/) | $0.01 | $0.45 | 120.7× |
 | DeepSeek: DeepSeek V4 Pro 0423 | 15 | [Baidu](https://intl.cloud.baidu.com/) | $0.18 | $0.35 | 10.8× |
 | Z.ai: GLM 5.1 | 13 | [Baidu](https://intl.cloud.baidu.com/) | $0.96 | $3.03 | 1.5× |
 | MiniMax: MiniMax M3 | 13 | [DeepInfra](https://deepinfra.com/) | $0.22 | $0.88 | 2.7× |
