@@ -7681,9 +7681,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000018966",
-    "input_cache_read": "0.000000079025",
-    "prompt": "0.0000009483"
+    "completion": "0.00000191052",
+    "input_cache_read": "0.000000079605",
+    "prompt": "0.00000095526"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7841,9 +7841,9 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000055",
-    "input_cache_read": "0.000000007",
-    "prompt": "0.00000006"
+    "completion": "0.00000008",
+    "input_cache_read": "0.0000000016",
+    "prompt": "0.0000000456"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7921,8 +7921,8 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006",
     "overrides": [
      {
       "completion": "0.0000006",
@@ -8004,7 +8004,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -13107,9 +13107,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000225",
-    "input_cache_read": "0.0000000375",
-    "prompt": "0.0000000675"
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005",
+    "prompt": "0.00000009"
    },
    "reasoning": {
     "default_enabled": false,
@@ -20292,7 +20292,7 @@
    "pricing": {
     "completion": "0.000011936",
     "input_cache_read": "0.00000021",
-    "prompt": "0.000000249"
+    "prompt": "0.000000239"
    },
    "reasoning": {
     "default_effort": "max",
@@ -42881,7 +42881,7 @@
    "pricing": {
     "completion": "0.0000002",
     "input_cache_read": "0.000000006",
-    "prompt": "0.000000048"
+    "prompt": "0.0000000312"
    },
    "reasoning": {
     "default_effort": "max",
@@ -43899,8 +43899,8 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000008",
+    "completion": "0.00000015",
+    "input_cache_read": "0.000000012",
     "prompt": "0.00000005"
    },
    "reasoning": {
@@ -44054,7 +44054,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000012",
-    "input_cache_read": "0.00000000224",
+    "input_cache_read": "0.00000000336",
     "prompt": "0.0000000052"
    },
    "reasoning": {
@@ -44297,9 +44297,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000011936",
-    "input_cache_read": "0.00000021",
-    "prompt": "0.000000249"
+    "completion": "0.000016",
+    "input_cache_read": "0.000000228",
+    "prompt": "0.000000238"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44924,7 +44924,7 @@
    "pricing": {
     "completion": "0.0000002",
     "input_cache_read": "0.000000006",
-    "prompt": "0.000000048"
+    "prompt": "0.0000000312"
    },
    "reasoning": {
     "default_effort": "max",
@@ -45000,9 +45000,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000022",
-    "input_cache_read": "0.00000007",
-    "prompt": "0.000000075"
+    "completion": "0.000006",
+    "input_cache_read": "0.000000025",
+    "prompt": "0.00000004"
    },
    "reasoning": {
     "default_effort": "max",
@@ -45041,7 +45041,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    }
   }
  ],
