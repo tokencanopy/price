@@ -8686,70 +8686,6 @@
    "id": "deepseek/deepseek-chat-v3.1",
    "name": "DeepSeek: DeepSeek V3.1"
   },
-  "deepseek/deepseek-r1": {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": "deepseek-r1",
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "DeepSeek"
-   },
-   "created": 1737381095,
-   "description": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass....",
-   "endpoints": [
-    {
-     "context_length": 64000,
-     "max_completion_tokens": 16000,
-     "max_prompt_tokens": null,
-     "model_id": "deepseek/deepseek-r1",
-     "model_name": "DeepSeek: R1",
-     "name": "Novita | deepseek/deepseek-r1",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000025",
-      "discount": 0,
-      "prompt": "0.0000007"
-     },
-     "provider_name": "Novita",
-     "quantization": "fp8",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "novita/fp8"
-    }
-   ],
-   "id": "deepseek/deepseek-r1",
-   "name": "DeepSeek: R1"
-  },
   "deepseek/deepseek-r1-0528": {
    "architecture": {
     "input_modalities": [
@@ -8811,52 +8747,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/fp4"
-    },
-    {
-     "context_length": 163840,
-     "max_completion_tokens": 32768,
-     "max_prompt_tokens": null,
-     "model_id": "deepseek/deepseek-r1-0528",
-     "model_name": "DeepSeek: R1 0528",
-     "name": "Novita | deepseek/deepseek-r1-0528",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000025",
-      "discount": 0,
-      "input_cache_read": "0.00000035",
-      "prompt": "0.0000007"
-     },
-     "provider_name": "Novita",
-     "quantization": "fp8",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "novita/fp8"
     },
     {
      "context_length": 163840,
@@ -11209,7 +11099,7 @@
       "completion": "0.00000012",
       "discount": 0,
       "input_cache_read": "0.00000000336",
-      "prompt": "0.00000000912"
+      "prompt": "0.00000001208"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -11307,10 +11197,10 @@
      "name": "Phala | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000132",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000044"
+      "completion": "0.000000924",
+      "discount": 0.3,
+      "input_cache_read": "0.0000000196",
+      "prompt": "0.000000308"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -11404,8 +11294,8 @@
      "pricing": {
       "completion": "0.00000045",
       "discount": 0,
-      "input_cache_read": "0.0000000049",
-      "prompt": "0.0000000049"
+      "input_cache_read": "0.0000000114",
+      "prompt": "0.0000000114"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -11729,8 +11619,8 @@
      "pricing": {
       "completion": "0.00000023",
       "discount": 0,
-      "input_cache_read": "0.000000125",
-      "prompt": "0.00000013"
+      "input_cache_read": "0.000000135",
+      "prompt": "0.00000014"
      },
      "provider_name": "Wafer",
      "quantization": "nvfp4",
@@ -12518,9 +12408,9 @@
      "name": "Relace | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000003",
+      "completion": "0.0000015",
       "discount": 0,
-      "input_cache_read": "0.00000016",
+      "input_cache_read": "0.00000025",
       "prompt": "0.0000009"
      },
      "provider_name": "Relace",
@@ -12895,10 +12785,10 @@
      "name": "Baidu | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000396",
-      "discount": 0,
-      "input_cache_read": "0.000000042",
-      "prompt": "0.00000132"
+      "completion": "0.0000006732",
+      "discount": 0.83,
+      "input_cache_read": "0.00000000714",
+      "prompt": "0.0000002244"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -13090,9 +12980,9 @@
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000396",
+      "completion": "0.00000198",
       "discount": 0,
-      "input_cache_read": "0.000000044",
+      "input_cache_read": "0.000000022",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -13174,7 +13064,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000132"
+      "prompt": "0.00000066"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -13502,10 +13392,10 @@
      "name": "Phala | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000436",
-      "discount": 0,
-      "input_cache_read": "0.00000015",
-      "prompt": "0.00000145"
+      "completion": "0.0000028776",
+      "discount": 0.34,
+      "input_cache_read": "0.000000099",
+      "prompt": "0.000000957"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -13946,26 +13836,26 @@
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.00000132",
       "discount": 0,
-      "input_cache_read": "0.00000003",
+      "input_cache_read": "0.000000033",
       "overrides": [
        {
-        "completion": "0.0000006",
-        "input_cache_read": "0.000000015",
-        "prompt": "0.00000015",
+        "completion": "0.00000066",
+        "input_cache_read": "0.0000000165",
+        "prompt": "0.000000165",
         "utc_end": 0,
         "utc_start": 1400
        },
        {
-        "completion": "0.0000012",
-        "input_cache_read": "0.00000003",
-        "prompt": "0.0000003",
+        "completion": "0.00000132",
+        "input_cache_read": "0.000000033",
+        "prompt": "0.00000033",
         "utc_end": 1400,
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000003"
+      "prompt": "0.00000033"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -14918,8 +14808,8 @@
      "pricing": {
       "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000007",
-      "prompt": "0.000000057"
+      "input_cache_read": "0.000000006",
+      "prompt": "0.000000047"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -15067,7 +14957,7 @@
       "completion": "0.00000008",
       "discount": 0,
       "input_cache_read": "0.0000000016",
-      "prompt": "0.0000000456"
+      "prompt": "0.0000000376"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -15617,26 +15507,26 @@
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.00000132",
       "discount": 0,
-      "input_cache_read": "0.00000003",
+      "input_cache_read": "0.000000033",
       "overrides": [
        {
-        "completion": "0.0000006",
-        "input_cache_read": "0.000000015",
-        "prompt": "0.00000015",
+        "completion": "0.00000066",
+        "input_cache_read": "0.0000000165",
+        "prompt": "0.000000165",
         "utc_end": 0,
         "utc_start": 1400
        },
        {
-        "completion": "0.0000012",
-        "input_cache_read": "0.00000003",
-        "prompt": "0.0000003",
+        "completion": "0.00000132",
+        "input_cache_read": "0.000000033",
+        "prompt": "0.00000033",
         "utc_end": 1400,
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000003"
+      "prompt": "0.00000033"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -15669,6 +15559,56 @@
      },
      "supports_voice_cloning": false,
      "tag": "alibaba"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 393216,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4.1-flash-1017",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+     "name": "AtlasCloud | deepseek/deepseek-v4.1-flash-20261017",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000012",
+      "discount": 0,
+      "input_cache_read": "0.00000003",
+      "prompt": "0.0000003"
+     },
+     "provider_name": "AtlasCloud",
+     "quantization": "fp8",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "atlas-cloud/fp8"
     },
     {
      "context_length": 1048576,
@@ -15974,9 +15914,9 @@
      "name": "DeepSeek | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000006",
+      "input_cache_read": "0.000000003",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -16058,7 +15998,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.0000003"
+      "prompt": "0.00000015"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -16143,7 +16083,7 @@
      "tag": "fireworks"
     },
     {
-     "context_length": 262144,
+     "context_length": 1040000,
      "max_completion_tokens": 131072,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4.1-flash-1017",
@@ -16198,8 +16138,8 @@
      "pricing": {
       "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000007",
-      "prompt": "0.000000057"
+      "input_cache_read": "0.000000006",
+      "prompt": "0.000000047"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -16347,9 +16287,9 @@
      "name": "Relace | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000015",
+      "completion": "0.0000001",
       "discount": 0,
-      "input_cache_read": "0.000000012",
+      "input_cache_read": "0.00000001",
       "prompt": "0.00000005"
      },
      "provider_name": "Relace",
@@ -16447,10 +16387,10 @@
      "name": "Wafer | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000007",
+      "completion": "0.0000005",
       "discount": 0,
       "input_cache_read": "0.000000003",
-      "prompt": "0.00000017"
+      "prompt": "0.0000001"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -25394,13 +25334,13 @@
      "name": "DeepInfra | inclusionai/ling-3.1-flash-20261002",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000063",
-      "discount": 0.3,
-      "input_cache_read": "0.000000042",
-      "prompt": "0.00000021"
+      "completion": "0.00000045",
+      "discount": 0.5,
+      "input_cache_read": "0.00000003",
+      "prompt": "0.00000015"
      },
      "provider_name": "DeepInfra",
-     "quantization": "fp4",
+     "quantization": "mxfp4",
      "service_tier": null,
      "supported_parameters": [
       "frequency_penalty",
@@ -25432,7 +25372,7 @@
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "deepinfra/fp4"
+     "tag": "deepinfra/mxfp4"
     },
     {
      "context_length": 262144,
@@ -26916,48 +26856,6 @@
      "tag": "google-vertex/us-east5"
     },
     {
-     "context_length": 1048576,
-     "max_completion_tokens": 8192,
-     "max_prompt_tokens": null,
-     "model_id": "meta-llama/llama-4-maverick",
-     "model_name": "Meta: Llama 4 Maverick",
-     "name": "Novita | meta-llama/llama-4-maverick-17b-128e-instruct",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000085",
-      "discount": 0,
-      "prompt": "0.00000027"
-     },
-     "provider_name": "Novita",
-     "quantization": "fp8",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "top_k",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": false,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "novita/fp8"
-    },
-    {
      "context_length": 524288,
      "max_completion_tokens": 32768,
      "max_prompt_tokens": null,
@@ -27200,46 +27098,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "google-vertex/us-east5"
-    },
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 117964,
-     "max_prompt_tokens": null,
-     "model_id": "meta-llama/llama-4-scout",
-     "model_name": "Meta: Llama 4 Scout",
-     "name": "Novita | meta-llama/llama-4-scout-17b-16e-instruct",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000059",
-      "discount": 0,
-      "prompt": "0.00000018"
-     },
-     "provider_name": "Novita",
-     "quantization": "bf16",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "repetition_penalty",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "novita/bf16"
     }
    ],
    "id": "meta-llama/llama-4-scout",
@@ -28305,66 +28163,6 @@
    ],
    "id": "microsoft/phi-4",
    "name": "Microsoft: Phi 4"
-  },
-  "microsoft/wizardlm-2-8x22b": {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": "vicuna",
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Mistral"
-   },
-   "created": 1713225600,
-   "description": "WizardLM-2 8x22B is Microsoft AI's most advanced Wizard model. It demonstrates highly competitive performance compared to leading proprietary models, and it consistently outperforms all existing state-of-the-art opensource models. It is...",
-   "endpoints": [
-    {
-     "context_length": 65535,
-     "max_completion_tokens": 8000,
-     "max_prompt_tokens": null,
-     "model_id": "microsoft/wizardlm-2-8x22b",
-     "model_name": "WizardLM-2 8x22B",
-     "name": "Novita | microsoft/wizardlm-2-8x22b",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000062",
-      "discount": 0,
-      "prompt": "0.00000062"
-     },
-     "provider_name": "Novita",
-     "quantization": "bf16",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "temperature",
-      "top_k",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "novita/bf16"
-    }
-   ],
-   "id": "microsoft/wizardlm-2-8x22b",
-   "name": "WizardLM-2 8x22B"
   },
   "minimax/minimax-01": {
    "architecture": {
@@ -33606,10 +33404,10 @@
      "name": "Baidu | moonshotai/kimi-k2.6-20260420",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000004",
-      "discount": 0,
-      "input_cache_read": "0.00000016",
-      "prompt": "0.00000095"
+      "completion": "0.000001856",
+      "discount": 0.536,
+      "input_cache_read": "0.00000007424",
+      "prompt": "0.0000004408"
      },
      "provider_name": "Baidu",
      "quantization": "fp4",
@@ -35743,8 +35541,8 @@
      "pricing": {
       "completion": "0.0000149",
       "discount": 0,
-      "input_cache_read": "0.000000209",
-      "prompt": "0.000000239"
+      "input_cache_read": "0.000000362",
+      "prompt": "0.000000414"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -36132,7 +35930,7 @@
      "name": "Wafer | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000016",
+      "completion": "0.000013",
       "discount": 0,
       "input_cache_read": "0.000000228",
       "prompt": "0.000000238"
@@ -56082,10 +55880,10 @@
      "name": "Reka | qwen/qwen3.6-27b-20260422",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000025",
+      "completion": "0.000003",
       "discount": 0,
-      "input_cache_read": "0.000000029",
-      "prompt": "0.00000029"
+      "input_cache_read": "0.000000035",
+      "prompt": "0.0000003"
      },
      "provider_name": "Reka",
      "quantization": "unknown",
@@ -57982,10 +57780,10 @@
      "name": "Ionstream | qwen/qwen3.8-27b-20260814",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000235",
+      "completion": "0.00000195",
       "discount": 0,
-      "input_cache_read": "0.000000085",
-      "prompt": "0.0000000893"
+      "input_cache_read": "0.00000002",
+      "prompt": "0.00000004"
      },
      "provider_name": "Ionstream",
      "quantization": "fp8",
@@ -59788,68 +59586,6 @@
    ],
    "id": "sao10k/l3.1-euryale-70b",
    "name": "Sao10K: Llama 3.1 Euryale 70B v2.2"
-  },
-  "sao10k/l3.3-euryale-70b": {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": "llama3",
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Llama3"
-   },
-   "created": 1734535928,
-   "description": "Euryale L3.3 70B is a model focused on creative roleplay from [Sao10k](https://ko-fi.com/sao10k). It is the successor of [Euryale L3 70B v2.2](/models/sao10k/l3-euryale-70b).",
-   "endpoints": [
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 16384,
-     "max_prompt_tokens": null,
-     "model_id": "sao10k/l3.3-euryale-70b",
-     "model_name": "Sao10K: Llama 3.3 Euryale 70B",
-     "name": "NextBit | sao10k/l3.3-euryale-70b-v2.3",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000075",
-      "discount": 0,
-      "prompt": "0.00000065"
-     },
-     "provider_name": "NextBit",
-     "quantization": "bf16",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "nextbit/bf16"
-    }
-   ],
-   "id": "sao10k/l3.3-euryale-70b",
-   "name": "Sao10K: Llama 3.3 Euryale 70B"
   },
   "scaledown/extract": {
    "architecture": {
@@ -61691,49 +61427,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "mancer/fp8"
-    },
-    {
-     "context_length": 6144,
-     "max_completion_tokens": 4096,
-     "max_prompt_tokens": null,
-     "model_id": "undi95/remm-slerp-l2-13b",
-     "model_name": "ReMM SLERP 13B",
-     "name": "NextBit | undi95/remm-slerp-l2-13b",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000065",
-      "discount": 0,
-      "prompt": "0.00000045"
-     },
-     "provider_name": "NextBit",
-     "quantization": "bf16",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "nextbit/bf16"
     }
    ],
    "id": "undi95/remm-slerp-l2-13b",
@@ -64802,6 +64495,52 @@
      "tag": "novita/fp8"
     },
     {
+     "context_length": 1048576,
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "model_id": "xiaomi/mimo-v2.6-flash",
+     "model_name": "Xiaomi: MiMo-V2.6-Flash",
+     "name": "Relace | xiaomi/mimo-v2.6-flash-20260921",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000014",
+      "discount": 0,
+      "input_cache_read": "0.000000014",
+      "prompt": "0.00000014"
+     },
+     "provider_name": "Relace",
+     "quantization": "mxfp4",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "relace/mxfp4"
+    },
+    {
      "context_length": 1000000,
      "max_completion_tokens": 131072,
      "max_prompt_tokens": null,
@@ -66869,10 +66608,10 @@
      "name": "Baidu | z-ai/glm-5.1-20260406",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "completion": "0.0000030316",
+      "discount": 0.311,
+      "input_cache_read": "0.00000017914",
+      "prompt": "0.0000009646"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -68383,8 +68122,8 @@
      "pricing": {
       "completion": "0.000006",
       "discount": 0,
-      "input_cache_read": "0.000000025",
-      "prompt": "0.00000004"
+      "input_cache_read": "0.000000028",
+      "prompt": "0.000000045"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -68620,6 +68359,53 @@
      },
      "supports_voice_cloning": false,
      "tag": "phala/fp8"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "model_id": "z-ai/glm-5.2",
+     "model_name": "Z.ai: GLM 5.2",
+     "name": "Relace | z-ai/glm-5.2-20260616",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.000004",
+      "discount": 0,
+      "input_cache_read": "0.00000008",
+      "prompt": "0.0000004"
+     },
+     "provider_name": "Relace",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "relace"
     },
     {
      "context_length": 1048576,
@@ -69493,7 +69279,7 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.00000013",
+      "input_cache_read": "0.00000026",
       "prompt": "0.0000014"
      },
      "provider_name": "Crusoe",
@@ -69882,10 +69668,10 @@
      "name": "GMICloud | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000308",
-      "discount": 0.3,
-      "input_cache_read": "0.000000182",
-      "prompt": "0.00000098"
+      "completion": "0.0000044",
+      "discount": 0,
+      "input_cache_read": "0.00000026",
+      "prompt": "0.0000014"
      },
      "provider_name": "GMICloud",
      "quantization": "fp8",
@@ -70361,8 +70147,8 @@
      "pricing": {
       "completion": "0.000006",
       "discount": 0,
-      "input_cache_read": "0.000000025",
-      "prompt": "0.00000004"
+      "input_cache_read": "0.000000028",
+      "prompt": "0.000000045"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -71674,10 +71460,10 @@
      "name": "GMICloud | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000003",
-      "discount": 0.4,
-      "input_cache_read": "0.000000018",
-      "prompt": "0.00000009"
+      "completion": "0.0000005",
+      "discount": 0,
+      "input_cache_read": "0.00000003",
+      "prompt": "0.00000015"
      },
      "provider_name": "GMICloud",
      "quantization": "fp8",
@@ -71915,8 +71701,8 @@
      "pricing": {
       "completion": "0.00000065",
       "discount": 0,
-      "input_cache_read": "0.000000009",
-      "prompt": "0.000000044"
+      "input_cache_read": "0.00000004",
+      "prompt": "0.000000143"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -72017,10 +71803,10 @@
      "name": "NextBit | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000007",
+      "completion": "0.0000005",
       "discount": 0,
-      "input_cache_read": "0.000000075",
-      "prompt": "0.00000025"
+      "input_cache_read": "0.00000005",
+      "prompt": "0.00000015"
      },
      "provider_name": "NextBit",
      "quantization": "fp4",
@@ -72111,10 +71897,10 @@
      "name": "OpenInference | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000002",
+      "completion": "0.00000016",
       "discount": 0,
       "input_cache_read": "0.000000006",
-      "prompt": "0.0000000312"
+      "prompt": "0.000000048"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -72738,10 +72524,10 @@
      "name": "Wafer | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000003",
+      "completion": "0.0000002",
       "discount": 0,
       "input_cache_read": "0.00000006",
-      "prompt": "0.00000008"
+      "prompt": "0.000000074"
      },
      "provider_name": "Wafer",
      "quantization": "nvfp4",
