@@ -7610,9 +7610,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605",
-    "prompt": "0.00000095526"
+    "completion": "0.000000801096",
+    "input_cache_read": "0.000000033379",
+    "prompt": "0.000000400548"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7772,7 +7772,7 @@
    "pricing": {
     "completion": "0.00000008",
     "input_cache_read": "0.0000000016",
-    "prompt": "0.0000000376"
+    "prompt": "0.000000032"
    },
    "reasoning": {
     "default_effort": "high",
@@ -13808,6 +13808,67 @@
     "context_length": 260000,
     "is_moderated": false,
     "max_completion_tokens": 65536
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "inception/mercury-3-20261019",
+   "context_length": 1000000,
+   "created": 1792158337,
+   "default_parameters": {},
+   "description": "Mercury 3 is a diffusion-based language model from Inception, and the lab's most capable model to date. It is suited for agentic workflows and real-time applications where latency compounds, such...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "inception/mercury-3",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/inception/mercury-3-20261019/endpoints"
+   },
+   "name": "Inception: Mercury 3",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00000035",
+    "input_cache_read": "0.00000001",
+    "prompt": "0.0000001"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "medium",
+     "none"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1000000,
+    "is_moderated": false,
+    "max_completion_tokens": 131072
    }
   },
   {
@@ -20729,7 +20790,7 @@
    "created": 1723766400,
    "default_parameters": {},
    "description": "Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the...",
-   "expiration_date": null,
+   "expiration_date": "2026-11-02",
    "hugging_face_id": "NousResearch/Hermes-3-Llama-3.1-405B",
    "id": "nousresearch/hermes-3-llama-3.1-405b",
    "knowledge_cutoff": "2023-12-31",
@@ -20789,7 +20850,7 @@
    "created": 1723939200,
    "default_parameters": {},
    "description": "Hermes 3 is a generalist language model with many improvements over [Hermes 2](/models/nousresearch/nous-hermes-2-mistral-7b-dpo), including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the...",
-   "expiration_date": null,
+   "expiration_date": "2026-11-02",
    "hugging_face_id": "NousResearch/Hermes-3-Llama-3.1-70B",
    "id": "nousresearch/hermes-3-llama-3.1-70b",
    "knowledge_cutoff": "2023-12-31",
@@ -37667,8 +37728,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -37685,7 +37746,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -37826,8 +37887,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -37844,7 +37905,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43817,8 +43878,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000006",
-    "input_cache_read": "0.000000006",
-    "prompt": "0.000000047"
+    "input_cache_read": "0.000000005",
+    "prompt": "0.00000004"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43897,8 +43958,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000008",
-    "input_cache_read": "0.00000023",
-    "prompt": "0.000000225"
+    "input_cache_read": "0.00000013",
+    "prompt": "0.0000001307"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43970,9 +44031,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000012",
-    "input_cache_read": "0.00000000336",
-    "prompt": "0.00000001208"
+    "completion": "0.00000045",
+    "input_cache_read": "0.0000000049",
+    "prompt": "0.0000000049"
    },
    "reasoning": {
     "default_effort": "high",
@@ -44214,7 +44275,7 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000013",
+    "completion": "0.000016",
     "input_cache_read": "0.000000228",
     "prompt": "0.000000238"
    },
@@ -44918,8 +44979,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000006",
-    "input_cache_read": "0.000000028",
-    "prompt": "0.000000045"
+    "input_cache_read": "0.000000036",
+    "prompt": "0.000000057"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44965,5 +45026,5 @@
  "links": {
   "next": null
  },
- "total_count": 469
+ "total_count": 470
 }
