@@ -295326,3 +295326,76 @@ observed_at,source,platform,model_key,variant,region,metric,model_name,old_usd_p
 2026-10-20T06:42:25+00:00,openrouter,DeepInfra,inclusionai/ling-3.1-flash,mxfp4,,cache_read,inclusionAI: Ling 3.1 Flash,0.015,,
 2026-10-20T06:42:25+00:00,openrouter,DeepInfra,inclusionai/ling-3.1-flash,mxfp4,,input,inclusionAI: Ling 3.1 Flash,0.075,,
 2026-10-20T06:42:25+00:00,openrouter,DeepInfra,inclusionai/ling-3.1-flash,mxfp4,,output,inclusionAI: Ling 3.1 Flash,0.225,,
+2026-10-20T12:39:56+00:00,openrouter,OpenInference,deepseek-ai/deepseek-v4-flash-0731,fp4,,input,DeepSeek: DeepSeek V4 Flash 0731,0.0052,0.01592,206.15
+2026-10-20T12:39:56+00:00,openrouter,Phala,deepseek-ai/deepseek-v4-flash-0731,unknown,,input,DeepSeek: DeepSeek V4 Flash 0731,0.44,0.308,-30.0
+2026-10-20T12:39:56+00:00,openrouter,Phala,deepseek-ai/deepseek-v4-flash-0731,unknown,,output,DeepSeek: DeepSeek V4 Flash 0731,1.32,0.924,-30.0
+2026-10-20T12:39:56+00:00,openrouter,Phala,deepseek-ai/deepseek-v4-flash-0731,unknown,,cache_read,DeepSeek: DeepSeek V4 Flash 0731,0.028,0.0196,-30.0
+2026-10-20T12:39:56+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-flash-0731,fp4,,input,DeepSeek: DeepSeek V4 Flash 0731,0.0065,0.0151,132.31
+2026-10-20T12:39:56+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-flash-0731,fp4,,cache_read,DeepSeek: DeepSeek V4 Flash 0731,0.0065,0.0151,132.31
+2026-10-20T12:39:56+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-pro,fp8,,input,DeepSeek: DeepSeek V4 Pro 0423,1.69,0.44954,-73.4
+2026-10-20T12:39:56+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-pro,fp8,,output,DeepSeek: DeepSeek V4 Pro 0423,3.38,0.89908,-73.4
+2026-10-20T12:39:56+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-pro,fp8,,cache_read,DeepSeek: DeepSeek V4 Pro 0423,0.14,0.03724,-73.4
+2026-10-20T12:39:56+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-pro-0813,fp8,,input,DeepSeek: DeepSeek V4 Pro 0813,1.32,0.2244,-83.0
+2026-10-20T12:39:56+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-pro-0813,fp8,,output,DeepSeek: DeepSeek V4 Pro 0813,3.96,0.6732,-83.0
+2026-10-20T12:39:56+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-pro-0813,fp8,,cache_read,DeepSeek: DeepSeek V4 Pro 0813,0.042,0.00714,-83.0
+2026-10-20T12:39:56+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,input,DeepSeek: DeepSeek V4 Pro 0813,1.32,0.66,-50.0
+2026-10-20T12:39:56+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,output,DeepSeek: DeepSeek V4 Pro 0813,3.96,1.98,-50.0
+2026-10-20T12:39:56+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,cache_read,DeepSeek: DeepSeek V4 Pro 0813,0.044,0.022,-50.0
+2026-10-20T12:39:56+00:00,openrouter,Phala,deepseek-ai/deepseek-v4-pro-0813,unknown,,input,DeepSeek: DeepSeek V4 Pro 0813,1.45,0.957,-34.0
+2026-10-20T12:39:56+00:00,openrouter,Phala,deepseek-ai/deepseek-v4-pro-0813,unknown,,output,DeepSeek: DeepSeek V4 Pro 0813,4.36,2.8776,-34.0
+2026-10-20T12:39:56+00:00,openrouter,Phala,deepseek-ai/deepseek-v4-pro-0813,unknown,,cache_read,DeepSeek: DeepSeek V4 Pro 0813,0.15,0.099,-34.0
+2026-10-20T12:39:56+00:00,openrouter,Morph,deepseek-ai/deepseek-v4.1-flash,fp8,,input,DeepSeek: DeepSeek V4.1 Flash,0.084,0.126,50.0
+2026-10-20T12:39:56+00:00,openrouter,Morph,deepseek-ai/deepseek-v4.1-flash,fp8,,cache_read,DeepSeek: DeepSeek V4.1 Flash,0.007,0.011,57.14
+2026-10-20T12:39:56+00:00,openrouter,OpenInference,deepseek-ai/deepseek-v4.1-flash,fp4,,input,DeepSeek: DeepSeek V4.1 Flash,0.0352,0.056,59.09
+2026-10-20T12:39:56+00:00,openrouter,OpenInference,deepseek-ai/deepseek-v4.1-flash,fp4,,output,DeepSeek: DeepSeek V4.1 Flash,0.0112,0.12,971.43
+2026-10-20T12:39:56+00:00,openrouter,Relace,deepseek-ai/deepseek-v4.1-flash,unknown,,input,DeepSeek: DeepSeek V4.1 Flash,0.044,0.07,59.09
+2026-10-20T12:39:56+00:00,openrouter,Relace,deepseek-ai/deepseek-v4.1-flash,unknown,,output,DeepSeek: DeepSeek V4.1 Flash,0.014,0.5,3471.43
+2026-10-20T12:39:56+00:00,openrouter,Relace,deepseek-ai/deepseek-v4.1-flash,unknown,,cache_read,DeepSeek: DeepSeek V4.1 Flash,0.016,0.008,-50.0
+2026-10-20T12:39:56+00:00,openrouter,Wafer,deepseek-ai/deepseek-v4.1-flash,mxfp4,,input,DeepSeek: DeepSeek V4.1 Flash,0.16,0.19,18.75
+2026-10-20T12:39:56+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4.1-flash-1017,unknown,,input,DeepSeek: DeepSeek V4.1 Flash 1017,0.3,0.15,-50.0
+2026-10-20T12:39:56+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4.1-flash-1017,unknown,,output,DeepSeek: DeepSeek V4.1 Flash 1017,1.2,0.6,-50.0
+2026-10-20T12:39:56+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4.1-flash-1017,unknown,,cache_read,DeepSeek: DeepSeek V4.1 Flash 1017,0.006,0.003,-50.0
+2026-10-20T12:39:56+00:00,openrouter,Morph,deepseek-ai/deepseek-v4.1-flash-1017,fp8,,input,DeepSeek: DeepSeek V4.1 Flash 1017,0.084,0.126,50.0
+2026-10-20T12:39:56+00:00,openrouter,Morph,deepseek-ai/deepseek-v4.1-flash-1017,fp8,,cache_read,DeepSeek: DeepSeek V4.1 Flash 1017,0.007,0.011,57.14
+2026-10-20T12:39:56+00:00,openrouter,Relace,deepseek-ai/deepseek-v4.1-flash-1017,unknown,,input,DeepSeek: DeepSeek V4.1 Flash 1017,0.05,0.07,40.0
+2026-10-20T12:39:56+00:00,openrouter,Relace,deepseek-ai/deepseek-v4.1-flash-1017,unknown,,output,DeepSeek: DeepSeek V4.1 Flash 1017,0.024,0.5,1983.33
+2026-10-20T12:39:56+00:00,openrouter,Relace,deepseek-ai/deepseek-v4.1-flash-1017,unknown,,cache_read,DeepSeek: DeepSeek V4.1 Flash 1017,0.01,0.008,-20.0
+2026-10-20T12:39:56+00:00,openrouter,NextBit,google/gemma-3-12b-it,int4,,input,Google: Gemma 3 12B,0.05,0.1,100.0
+2026-10-20T12:39:56+00:00,openrouter,NextBit,google/gemma-3-12b-it,int4,,output,Google: Gemma 3 12B,0.15,0.175,16.67
+2026-10-20T12:39:56+00:00,openrouter,NextBit,google/gemma-3-12b-it,int4,,cache_read,Google: Gemma 3 12B,,0.05,
+2026-10-20T12:39:56+00:00,openrouter,Baidu,moonshotai/kimi-k2.6,fp4,,input,MoonshotAI: Kimi K2.6,0.95,0.4408,-53.6
+2026-10-20T12:39:56+00:00,openrouter,Baidu,moonshotai/kimi-k2.6,fp4,,output,MoonshotAI: Kimi K2.6,4.0,1.856,-53.6
+2026-10-20T12:39:56+00:00,openrouter,Baidu,moonshotai/kimi-k2.6,fp4,,cache_read,MoonshotAI: Kimi K2.6,0.16,0.07424,-53.6
+2026-10-20T12:39:56+00:00,openrouter,Morph,moonshotai/kimi-k3,fp8,,input,MoonshotAI: Kimi K3,0.829,1.068,28.83
+2026-10-20T12:39:56+00:00,openrouter,Morph,moonshotai/kimi-k3,fp8,,cache_read,MoonshotAI: Kimi K3,0.397,0.511,28.72
+2026-10-20T12:39:56+00:00,openrouter,Sail Research,moonshotai/kimi-k3,fp4,,input,MoonshotAI: Kimi K3,1.2,0.9,-25.0
+2026-10-20T12:39:56+00:00,openrouter,Sail Research,moonshotai/kimi-k3,fp4,,output,MoonshotAI: Kimi K3,9.0,6.75,-25.0
+2026-10-20T12:39:56+00:00,openrouter,Sail Research,moonshotai/kimi-k3,fp4,,cache_read,MoonshotAI: Kimi K3,0.4,0.3,-25.0
+2026-10-20T12:39:56+00:00,openrouter,Baidu,zai-org/glm-5.1,fp8,,input,Z.ai: GLM 5.1,1.4,0.9646,-31.1
+2026-10-20T12:39:56+00:00,openrouter,Baidu,zai-org/glm-5.1,fp8,,output,Z.ai: GLM 5.1,4.4,3.0316,-31.1
+2026-10-20T12:39:56+00:00,openrouter,Baidu,zai-org/glm-5.1,fp8,,cache_read,Z.ai: GLM 5.1,0.26,0.17914,-31.1
+2026-10-20T12:39:56+00:00,openrouter,Morph,zai-org/glm-5.2,fp8,,input,Z.ai: GLM 5.2,0.177,0.214,20.9
+2026-10-20T12:39:56+00:00,openrouter,Morph,zai-org/glm-5.2,fp8,,cache_read,Z.ai: GLM 5.2,0.045,0.054,20.0
+2026-10-20T12:39:56+00:00,openrouter,Baidu,zai-org/glm-5.3,fp8,,input,Z.ai: GLM 5.3,1.4,0.6986,-50.1
+2026-10-20T12:39:56+00:00,openrouter,Baidu,zai-org/glm-5.3,fp8,,output,Z.ai: GLM 5.3,4.4,2.1956,-50.1
+2026-10-20T12:39:56+00:00,openrouter,Baidu,zai-org/glm-5.3,fp8,,cache_read,Z.ai: GLM 5.3,0.26,0.12974,-50.1
+2026-10-20T12:39:56+00:00,openrouter,Morph,zai-org/glm-5.3,fp8,,input,Z.ai: GLM 5.3,0.177,0.214,20.9
+2026-10-20T12:39:56+00:00,openrouter,Morph,zai-org/glm-5.3,fp8,,cache_read,Z.ai: GLM 5.3,0.045,0.054,20.0
+2026-10-20T12:39:56+00:00,openrouter,Novita,zai-org/glm-5.3,fp8,,input,Z.ai: GLM 5.3,0.7,0.63,-10.0
+2026-10-20T12:39:56+00:00,openrouter,Novita,zai-org/glm-5.3,fp8,,output,Z.ai: GLM 5.3,2.2,1.98,-10.0
+2026-10-20T12:39:56+00:00,openrouter,Novita,zai-org/glm-5.3,fp8,,cache_read,Z.ai: GLM 5.3,0.13,0.117,-10.0
+2026-10-20T12:39:56+00:00,openrouter,Wafer,zai-org/glm-5.3,fp4,,cache_read,Z.ai: GLM 5.3,0.078,0.055,-29.49
+2026-10-20T12:39:56+00:00,openrouter,Morph,zai-org/glm-5.3-flash,fp8,,input,Z.ai: GLM 5.3 Flash,0.148,0.144,-2.7
+2026-10-20T12:39:56+00:00,openrouter,Morph,zai-org/glm-5.3-flash,fp8,,cache_read,Z.ai: GLM 5.3 Flash,0.041,0.04,-2.44
+2026-10-20T12:39:56+00:00,openrouter,OpenInference,zai-org/glm-5.3-flash,fp4,,input,Z.ai: GLM 5.3 Flash,0.048,0.047076,-1.93
+2026-10-20T12:39:56+00:00,openrouter,StreamLake,zai-org/glm-5.3-flash,fp8,,input,Z.ai: GLM 5.3 Flash,0.073845,0.058845,-20.31
+2026-10-20T12:39:56+00:00,openrouter,StreamLake,zai-org/glm-5.3-flash,fp8,,output,Z.ai: GLM 5.3 Flash,0.24615,0.19615,-20.31
+2026-10-20T12:39:56+00:00,openrouter,StreamLake,zai-org/glm-5.3-flash,fp8,,cache_read,Z.ai: GLM 5.3 Flash,0.014769,0.011769,-20.31
+2026-10-20T12:39:56+00:00,openrouter,Wafer,zai-org/glm-5.3-flash,nvfp4,,input,Z.ai: GLM 5.3 Flash,0.074,0.059,-20.27
+2026-10-20T12:39:56+00:00,openrouter,Wafer,zai-org/glm-5.3-flash,nvfp4,,cache_read,Z.ai: GLM 5.3 Flash,0.06,0.058,-3.33
+2026-10-20T12:39:56+00:00,openrouter,Crusoe,deepseek-ai/deepseek-v4.1-flash,fp8,,cache_read,DeepSeek: DeepSeek V4.1 Flash,0.007,,
+2026-10-20T12:39:56+00:00,openrouter,Crusoe,deepseek-ai/deepseek-v4.1-flash,fp8,,input,DeepSeek: DeepSeek V4.1 Flash,0.29,,
+2026-10-20T12:39:56+00:00,openrouter,Crusoe,deepseek-ai/deepseek-v4.1-flash,fp8,,output,DeepSeek: DeepSeek V4.1 Flash,1.2,,
+2026-10-20T12:39:56+00:00,openrouter,Phala,moonshotai/kimi-k2.7-code,unknown,,cache_read,MoonshotAI: Kimi K2.7 Code,0.19,,
+2026-10-20T12:39:56+00:00,openrouter,Phala,moonshotai/kimi-k2.7-code,unknown,,input,MoonshotAI: Kimi K2.7 Code,0.95,,
+2026-10-20T12:39:56+00:00,openrouter,Phala,moonshotai/kimi-k2.7-code,unknown,,output,MoonshotAI: Kimi K2.7 Code,4.0,,
