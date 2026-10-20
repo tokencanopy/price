@@ -7893,8 +7893,8 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006",
     "overrides": [
      {
       "completion": "0.0000006",
@@ -7976,7 +7976,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -13080,9 +13080,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425",
-    "prompt": "0.0000000765"
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005",
+    "prompt": "0.00000009"
    },
    "reasoning": {
     "default_enabled": false,
@@ -35227,9 +35227,9 @@
    "name": "Qwen: Qwen3.6 35B A3B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000001",
+    "completion": "0.00000095",
     "input_cache_read": "0.00000005",
-    "prompt": "0.00000015"
+    "prompt": "0.0000001"
    },
    "reasoning": {
     "default_enabled": true,
@@ -36129,9 +36129,9 @@
    "name": "Qwen: Qwen3.8 27B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000022",
-    "input_cache_read": "0.00000005",
-    "prompt": "0.00000024"
+    "completion": "0.00000135",
+    "input_cache_read": "0.000000018",
+    "prompt": "0.00000004"
    },
    "reasoning": {
     "default_effort": "xhigh",
@@ -36171,7 +36171,7 @@
    "top_provider": {
     "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 65536
    }
   },
   {
@@ -43934,9 +43934,9 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000007",
-    "prompt": "0.000000045"
+    "completion": "0.000000024",
+    "input_cache_read": "0.00000001",
+    "prompt": "0.00000005"
    },
    "reasoning": {
     "default_effort": "high",
@@ -44090,7 +44090,7 @@
    "pricing": {
     "completion": "0.00000012",
     "input_cache_read": "0.00000000336",
-    "prompt": "0.00000000392"
+    "prompt": "0.0000000052"
    },
    "reasoning": {
     "default_effort": "high",
@@ -45035,9 +45035,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000006",
-    "input_cache_read": "0.000000033",
-    "prompt": "0.000000053"
+    "completion": "0.0000014",
+    "input_cache_read": "0.000000078",
+    "prompt": "0.000000079"
    },
    "reasoning": {
     "default_effort": "max",
