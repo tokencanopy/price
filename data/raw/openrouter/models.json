@@ -7424,9 +7424,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000132",
-    "input_cache_read": "0.000000014",
-    "prompt": "0.00000044"
+    "completion": "0.0000003894",
+    "input_cache_read": "0.00000000413",
+    "prompt": "0.0000001298"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7666,9 +7666,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605",
-    "prompt": "0.00000095526"
+    "completion": "0.00000076038",
+    "input_cache_read": "0.0000000316825",
+    "prompt": "0.00000038019"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7827,8 +7827,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000012",
-    "input_cache_read": "0.0000000016",
-    "prompt": "0.000000056"
+    "input_cache_read": "0.000000000566",
+    "prompt": "0.00000002832"
    },
    "reasoning": {
     "default_effort": "high",
@@ -8427,7 +8427,7 @@
     "top_p": null
    },
    "description": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater...",
-   "expiration_date": "2026-10-20",
+   "expiration_date": null,
    "hugging_face_id": "",
    "id": "google/gemini-2.5-flash",
    "knowledge_cutoff": "2025-01-31",
@@ -8588,7 +8588,7 @@
     "top_p": null
    },
    "description": "Gemini 2.5 Flash-Lite is a lightweight reasoning model in the Gemini 2.5 family, optimized for ultra-low latency and cost efficiency. It offers improved throughput, faster token generation, and better performance...",
-   "expiration_date": "2026-10-20",
+   "expiration_date": null,
    "hugging_face_id": "",
    "id": "google/gemini-2.5-flash-lite",
    "knowledge_cutoff": "2025-01-31",
@@ -8724,134 +8724,6 @@
    },
    "benchmarks": {
     "artificial_analysis": {
-     "agentic_index": null,
-     "coding_index": null,
-     "intelligence_index": 15.5
-    },
-    "design_arena": [
-     {
-      "arena": "models",
-      "category": "3d",
-      "elo": 1071,
-      "rank": 101,
-      "win_rate": 47.4
-     },
-     {
-      "arena": "models",
-      "category": "codecategories",
-      "elo": 1104,
-      "rank": 102,
-      "win_rate": 46.9
-     },
-     {
-      "arena": "models",
-      "category": "dataviz",
-      "elo": 1133,
-      "rank": 87,
-      "win_rate": 49.1
-     },
-     {
-      "arena": "models",
-      "category": "gamedev",
-      "elo": 1065,
-      "rank": 109,
-      "win_rate": 44.3
-     },
-     {
-      "arena": "models",
-      "category": "svg",
-      "elo": 1018,
-      "rank": 81,
-      "win_rate": 43.1
-     },
-     {
-      "arena": "models",
-      "category": "uicomponent",
-      "elo": 1094,
-      "rank": 97,
-      "win_rate": 48.9
-     },
-     {
-      "arena": "models",
-      "category": "website",
-      "elo": 1115,
-      "rank": 103,
-      "win_rate": 47.1
-     }
-    ]
-   },
-   "canonical_slug": "google/gemini-2.5-flash",
-   "context_length": 1048576,
-   "created": 1750172488,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "presence_penalty": null,
-    "repetition_penalty": null,
-    "temperature": null,
-    "top_k": null,
-    "top_p": null
-   },
-   "description": "Gemini 2.5 Flash is Google's state-of-the-art workhorse model, specifically designed for advanced reasoning, coding, mathematics, and scientific tasks. It includes built-in \"thinking\" capabilities, enabling it to provide responses with greater...",
-   "expiration_date": "2026-10-20",
-   "hugging_face_id": "",
-   "id": "google/gemini-2.5-flash:batch",
-   "knowledge_cutoff": "2025-01-31",
-   "links": {
-    "details": "/api/v1/models/google/gemini-2.5-flash/endpoints"
-   },
-   "name": "Google: Gemini 2.5 Flash (batch)",
-   "per_request_limits": null,
-   "pricing": {
-    "audio": "0.0000005",
-    "completion": "0.00000125",
-    "image": "0.00000015",
-    "input_audio_cache": "0.0000001",
-    "input_cache_read": "0.00000003",
-    "internal_reasoning": "0.00000125",
-    "prompt": "0.00000015",
-    "web_search": "0.014"
-   },
-   "reasoning": {
-    "mandatory": false
-   },
-   "supported_parameters": [
-    "include_reasoning",
-    "max_tokens",
-    "reasoning",
-    "response_format",
-    "seed",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 1048576,
-    "is_moderated": false,
-    "max_completion_tokens": 65535
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "audio",
-     "file",
-     "image",
-     "text",
-     "video"
-    ],
-    "instruct_type": null,
-    "modality": "text+image+file+audio+video->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Gemini"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
      "agentic_index": 1.6,
      "coding_index": 33.3,
      "intelligence_index": 16.1
@@ -8910,7 +8782,7 @@
     "top_p": null
    },
    "description": "Gemini 2.5 Pro is Google\u2019s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs \u201cthinking\u201d capabilities, enabling it to reason through responses with enhanced accuracy...",
-   "expiration_date": "2026-10-20",
+   "expiration_date": null,
    "hugging_face_id": "",
    "id": "google/gemini-2.5-pro",
    "knowledge_cutoff": "2025-01-31",
@@ -8949,7 +8821,6 @@
     "reasoning",
     "response_format",
     "seed",
-    "stop",
     "structured_outputs",
     "temperature",
     "tool_choice",
@@ -9011,134 +8882,6 @@
      }
     ],
     "prompt": "0.00000125",
-    "web_search": "0.014"
-   },
-   "reasoning": {
-    "mandatory": true
-   },
-   "supported_parameters": [
-    "include_reasoning",
-    "max_tokens",
-    "reasoning",
-    "response_format",
-    "seed",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 1048576,
-    "is_moderated": false,
-    "max_completion_tokens": 65536
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "audio",
-     "file",
-     "image",
-     "text",
-     "video"
-    ],
-    "instruct_type": null,
-    "modality": "text+image+file+audio+video->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Gemini"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": 1.6,
-     "coding_index": 33.3,
-     "intelligence_index": 16.1
-    },
-    "design_arena": [
-     {
-      "arena": "models",
-      "category": "3d",
-      "elo": 1081,
-      "rank": 95,
-      "win_rate": 50.6
-     },
-     {
-      "arena": "models",
-      "category": "codecategories",
-      "elo": 1154,
-      "rank": 82,
-      "win_rate": 57.5
-     },
-     {
-      "arena": "models",
-      "category": "dataviz",
-      "elo": 1221,
-      "rank": 49,
-      "win_rate": 68.2
-     },
-     {
-      "arena": "models",
-      "category": "gamedev",
-      "elo": 1111,
-      "rank": 92,
-      "win_rate": 54.2
-     },
-     {
-      "arena": "models",
-      "category": "uicomponent",
-      "elo": 1141,
-      "rank": 80,
-      "win_rate": 57.5
-     },
-     {
-      "arena": "models",
-      "category": "website",
-      "elo": 1167,
-      "rank": 81,
-      "win_rate": 58.4
-     }
-    ]
-   },
-   "canonical_slug": "google/gemini-2.5-pro",
-   "context_length": 1048576,
-   "created": 1750169544,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "temperature": null,
-    "top_p": null
-   },
-   "description": "Gemini 2.5 Pro is Google\u2019s state-of-the-art AI model designed for advanced reasoning, coding, mathematics, and scientific tasks. It employs \u201cthinking\u201d capabilities, enabling it to reason through responses with enhanced accuracy...",
-   "expiration_date": "2026-10-20",
-   "hugging_face_id": "",
-   "id": "google/gemini-2.5-pro:batch",
-   "knowledge_cutoff": "2025-01-31",
-   "links": {
-    "details": "/api/v1/models/google/gemini-2.5-pro/endpoints"
-   },
-   "name": "Google: Gemini 2.5 Pro (batch)",
-   "per_request_limits": null,
-   "pricing": {
-    "audio": "0.000000625",
-    "completion": "0.000005",
-    "image": "0.000000625",
-    "input_audio_cache": "0.000000125",
-    "input_cache_read": "0.000000125",
-    "internal_reasoning": "0.000005",
-    "overrides": [
-     {
-      "audio": "0.00000125",
-      "completion": "0.0000075",
-      "input_audio_cache": "0.00000025",
-      "input_cache_read": "0.00000025",
-      "min_prompt_tokens": 200000,
-      "prompt": "0.00000125"
-     }
-    ],
-    "prompt": "0.000000625",
     "web_search": "0.014"
    },
    "reasoning": {
@@ -18180,9 +17923,9 @@
    "name": "Mistral: Mistral Large 4",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000209",
-    "input_cache_read": "0.00000007",
-    "prompt": "0.00000068"
+    "completion": "0.00000418",
+    "input_cache_read": "0.00000014",
+    "prompt": "0.00000136"
    },
    "reasoning": {
     "default_effort": "high",
@@ -34146,7 +33889,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000011",
-    "prompt": "0.00000009"
+    "input_cache_read": "0.00000007",
+    "prompt": "0.0000001"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -34171,7 +33915,7 @@
    "top_provider": {
     "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 235929
    }
   },
   {
@@ -34728,7 +34472,7 @@
    "pricing": {
     "completion": "0.000001",
     "input_cache_read": "0.00000005",
-    "prompt": "0.00000015"
+    "prompt": "0.00000014"
    },
    "reasoning": {
     "mandatory": false
@@ -34758,7 +34502,7 @@
    "top_provider": {
     "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 81920
    }
   },
   {
@@ -37908,8 +37652,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -37926,7 +37670,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -38067,8 +37811,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -38085,7 +37829,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42897,7 +42641,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000014",
-    "input_cache_read": "0.000000055",
+    "input_cache_read": "0.000000078",
     "prompt": "0.000000079"
    },
    "reasoning": {
@@ -43037,9 +42781,9 @@
    "name": "Z.ai: GLM 5.3 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000016",
+    "completion": "0.00000012",
     "input_cache_read": "0.000000006",
-    "prompt": "0.000000047076"
+    "prompt": "0.000000048"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44138,8 +43882,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000008",
-    "input_cache_read": "0.00000023",
-    "prompt": "0.000000225"
+    "input_cache_read": "0.00000013",
+    "prompt": "0.0000001307"
    },
    "reasoning": {
     "default_effort": "high",
@@ -44212,8 +43956,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000012",
-    "input_cache_read": "0.00000000336",
-    "prompt": "0.00000001592"
+    "input_cache_read": "0.000000003304",
+    "prompt": "0.00000000392"
    },
    "reasoning": {
     "default_effort": "high",
@@ -44455,7 +44199,7 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000016",
+    "completion": "0.000024",
     "input_cache_read": "0.000000228",
     "prompt": "0.000000238"
    },
@@ -45080,9 +44824,9 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000016",
+    "completion": "0.00000012",
     "input_cache_read": "0.000000006",
-    "prompt": "0.000000047076"
+    "prompt": "0.000000048"
    },
    "reasoning": {
     "default_effort": "max",
@@ -45159,7 +44903,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000014",
-    "input_cache_read": "0.000000055",
+    "input_cache_read": "0.000000078",
     "prompt": "0.000000079"
    },
    "reasoning": {
@@ -45206,5 +44950,5 @@
  "links": {
   "next": null
  },
- "total_count": 470
+ "total_count": 468
 }
