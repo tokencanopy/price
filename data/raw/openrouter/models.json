@@ -7854,9 +7854,9 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000012",
-    "input_cache_read": "0.0000000016",
-    "prompt": "0.000000056"
+    "completion": "0.000000375",
+    "input_cache_read": "0.000000001",
+    "prompt": "0.000000049"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7991,8 +7991,8 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006",
     "overrides": [
      {
       "completion": "0.0000006",
@@ -8074,7 +8074,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -12935,9 +12935,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425",
-    "prompt": "0.0000000765"
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005",
+    "prompt": "0.00000009"
    },
    "reasoning": {
     "default_enabled": false,
@@ -34369,8 +34369,8 @@
    "name": "Qwen: Qwen3.5-122B-A10B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000208",
-    "prompt": "0.00000026"
+    "completion": "0.0000032",
+    "prompt": "0.0000004"
    },
    "reasoning": {
     "mandatory": false
@@ -40554,7 +40554,7 @@
     "top_p": 0.95
    },
    "description": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding...",
-   "expiration_date": "2026-10-21",
+   "expiration_date": null,
    "hugging_face_id": "XiaomiMiMo/MiMo-V2.5",
    "id": "xiaomi/mimo-v2.5",
    "knowledge_cutoff": null,
@@ -40564,9 +40564,9 @@
    "name": "Xiaomi: MiMo-V2.5",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000028",
-    "input_cache_read": "0.0000000028",
-    "prompt": "0.00000014"
+    "completion": "0.000000238",
+    "input_cache_read": "0.00000000255",
+    "prompt": "0.000000119"
    },
    "reasoning": {
     "mandatory": false
@@ -40590,9 +40590,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1050000,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 945000
    }
   },
   {
@@ -40684,7 +40684,7 @@
     "top_p": 0.95
    },
    "description": "MiMo-V2.5-Pro is Xiaomi\u2019s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as ClawEval, GDPVal, and SWE-bench Pro....",
-   "expiration_date": "2026-10-21",
+   "expiration_date": null,
    "hugging_face_id": "XiaomiMiMo/MiMo-V2.5-Pro",
    "id": "xiaomi/mimo-v2.5-pro",
    "knowledge_cutoff": null,
@@ -40694,9 +40694,9 @@
    "name": "Xiaomi: MiMo-V2.5-Pro",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000087",
-    "input_cache_read": "0.0000000036",
-    "prompt": "0.000000435"
+    "completion": "0.000000609",
+    "input_cache_read": "0.0000000028",
+    "prompt": "0.0000003045"
    },
    "reasoning": {
     "mandatory": false
@@ -40722,9 +40722,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1050000,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 945000
    }
   },
   {
@@ -42544,9 +42544,9 @@
    "name": "Z.ai: GLM 5.2",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000242",
-    "input_cache_read": "0.00000014",
-    "prompt": "0.00000062"
+    "completion": "0.000007",
+    "input_cache_read": "0.000000033",
+    "prompt": "0.0000000341"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42845,9 +42845,9 @@
    "name": "Z.ai: GLM 5.3 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000012",
-    "input_cache_read": "0.000000006",
-    "prompt": "0.000000024"
+    "completion": "0.000000375",
+    "input_cache_read": "0.00000000375",
+    "prompt": "0.000000041191"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44019,9 +44019,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000010728",
-    "input_cache_read": "0.00000000336",
-    "prompt": "0.0000000168"
+    "completion": "0.000000528",
+    "input_cache_read": "0.0000000056",
+    "prompt": "0.000000021"
    },
    "reasoning": {
     "default_effort": "high",
@@ -44060,9 +44060,9 @@
    ],
    "supported_voices": [],
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    }
   },
   {
@@ -44263,7 +44263,7 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000016",
+    "completion": "0.000024",
     "input_cache_read": "0.000000228",
     "prompt": "0.000000238"
    },
@@ -44888,9 +44888,9 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000012",
-    "input_cache_read": "0.000000006",
-    "prompt": "0.000000024"
+    "completion": "0.000000375",
+    "input_cache_read": "0.00000000375",
+    "prompt": "0.000000041191"
    },
    "reasoning": {
     "default_effort": "max",
