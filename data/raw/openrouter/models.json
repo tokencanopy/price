@@ -5582,7 +5582,7 @@
     "top_p": 0.8
    },
    "description": "Trinity Large Thinking is a powerful open source reasoning model from the team at Arcee AI. It shows strong performance in PinchBench, agentic workloads, and reasoning tasks. Launch video: https://youtu.be/Gc82AXLa0Rg?si=4RLn6WBz33qT--B7...",
-   "expiration_date": null,
+   "expiration_date": "2026-10-26",
    "hugging_face_id": "arcee-ai/Trinity-Large-Thinking",
    "id": "arcee-ai/trinity-large-thinking",
    "knowledge_cutoff": null,
@@ -7466,9 +7466,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000132",
-    "input_cache_read": "0.000000014",
-    "prompt": "0.00000044"
+    "completion": "0.00000013332",
+    "input_cache_read": "0.000000001414",
+    "prompt": "0.00000004444"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7708,9 +7708,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000001794636",
-    "input_cache_read": "0.0000000747765",
-    "prompt": "0.000000897318"
+    "completion": "0.000000885312",
+    "input_cache_read": "0.000000036888",
+    "prompt": "0.000000442656"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7971,6 +7971,7 @@
     "logprobs",
     "max_tokens",
     "min_p",
+    "parallel_tool_calls",
     "presence_penalty",
     "reasoning",
     "reasoning_effort",
@@ -16882,16 +16883,17 @@
    "description": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for complex,...",
    "expiration_date": null,
    "hugging_face_id": null,
-   "id": "minimax/minimax-m3.1-flash:free",
+   "id": "minimax/minimax-m3.1-flash",
    "knowledge_cutoff": null,
    "links": {
     "details": "/api/v1/models/minimax/minimax-m3.1-flash-20261019/endpoints"
    },
-   "name": "MiniMax: MiniMax M3.1 Flash (free)",
+   "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0",
-    "prompt": "0"
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015",
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "max",
@@ -37826,8 +37828,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -37844,7 +37846,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -37985,8 +37987,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -38003,7 +38005,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -38019,9 +38021,11 @@
     "frequency_penalty",
     "include_reasoning",
     "logit_bias",
+    "logprobs",
     "max_completion_tokens",
     "max_tokens",
     "min_p",
+    "parallel_tool_calls",
     "presence_penalty",
     "reasoning",
     "reasoning_effort",
@@ -38034,6 +38038,7 @@
     "tool_choice",
     "tools",
     "top_k",
+    "top_logprobs",
     "top_p"
    ],
    "supported_voices": null,
@@ -38342,7 +38347,6 @@
     "reasoning",
     "reasoning_effort",
     "repetition_penalty",
-    "seed",
     "stop",
     "temperature",
     "tool_choice",
@@ -38731,7 +38735,7 @@
    "top_provider": {
     "context_length": null,
     "is_moderated": false,
-    "max_completion_tokens": null
+    "max_completion_tokens": 65536
    }
   },
   {
@@ -40914,6 +40918,7 @@
     "logprobs",
     "max_tokens",
     "min_p",
+    "parallel_tool_calls",
     "presence_penalty",
     "reasoning",
     "repetition_penalty",
@@ -42835,9 +42840,9 @@
    "name": "Z.ai: GLM 5.3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000014",
-    "input_cache_read": "0.000000078",
-    "prompt": "0.000000079"
+    "completion": "0.0000022",
+    "input_cache_read": "0.00000013",
+    "prompt": "0.0000007"
    },
    "reasoning": {
     "default_effort": "max",
@@ -42876,7 +42881,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 262144
    }
   },
   {
@@ -44077,8 +44082,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000008",
-    "input_cache_read": "0.00000023",
-    "prompt": "0.000000225"
+    "input_cache_read": "0.00000013",
+    "prompt": "0.0000001307"
    },
    "reasoning": {
     "default_effort": "high",
@@ -44150,9 +44155,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000001568",
-    "input_cache_read": "0.000000028",
-    "prompt": "0.0000000475"
+    "completion": "0.0000001729",
+    "input_cache_read": "0.0000000275",
+    "prompt": "0.0000000422"
    },
    "reasoning": {
     "default_effort": "high",
