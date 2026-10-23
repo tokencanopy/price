@@ -7831,8 +7831,8 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022",
+    "completion": "0.00000396",
+    "input_cache_read": "0.000000044",
     "overrides": [
      {
       "completion": "0.00000198",
@@ -7914,7 +7914,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000066"
+    "prompt": "0.00000132"
    },
    "reasoning": {
     "default_effort": "high",
@@ -8129,8 +8129,8 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006",
     "overrides": [
      {
       "completion": "0.0000006",
@@ -8212,7 +8212,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -13068,9 +13068,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425",
-    "prompt": "0.0000000765"
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005",
+    "prompt": "0.00000009"
    },
    "reasoning": {
     "default_enabled": false,
@@ -17031,12 +17031,12 @@
     "design_arena": []
    },
    "canonical_slug": "minimax/minimax-m3.1-flash-20261019",
-   "context_length": 1000000,
+   "context_length": 1048576,
    "created": 1792379569,
    "default_parameters": {},
    "description": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for complex,...",
    "expiration_date": null,
-   "hugging_face_id": null,
+   "hugging_face_id": "MiniMaxAI/MiniMax-M3.1-Flash",
    "id": "minimax/minimax-m3.1-flash",
    "knowledge_cutoff": null,
    "links": {
@@ -17061,19 +17061,30 @@
     ]
    },
    "supported_parameters": [
+    "frequency_penalty",
     "include_reasoning",
+    "logit_bias",
+    "logprobs",
     "max_tokens",
+    "min_p",
+    "presence_penalty",
     "reasoning",
     "reasoning_effort",
+    "repetition_penalty",
     "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
     "temperature",
     "tool_choice",
     "tools",
+    "top_k",
+    "top_logprobs",
     "top_p"
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1000000,
+    "context_length": 1048576,
     "is_moderated": false,
     "max_completion_tokens": 524288
    }
@@ -34976,9 +34987,8 @@
    "name": "Qwen: Qwen3.5-9B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000013",
-    "input_cache_read": "0.00000004",
-    "prompt": "0.00000008"
+    "completion": "0.00000025",
+    "prompt": "0.00000017"
    },
    "reasoning": {
     "mandatory": false
@@ -35008,7 +35018,7 @@
    "top_provider": {
     "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 235929
    }
   },
   {
@@ -36296,9 +36306,9 @@
    "name": "Qwen: Qwen3.8 27B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000135",
-    "input_cache_read": "0.000000018",
-    "prompt": "0.00000004"
+    "completion": "0.0000025",
+    "input_cache_read": "0.00000009",
+    "prompt": "0.0000002"
    },
    "reasoning": {
     "default_effort": "xhigh",
@@ -36338,7 +36348,7 @@
    "top_provider": {
     "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 235929
    }
   },
   {
@@ -44274,8 +44284,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000008",
-    "input_cache_read": "0.00000023",
-    "prompt": "0.000000225"
+    "input_cache_read": "0.00000022",
+    "prompt": "0.0000002247"
    },
    "reasoning": {
     "default_effort": "high",
