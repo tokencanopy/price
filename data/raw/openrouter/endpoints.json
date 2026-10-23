@@ -11097,10 +11097,10 @@
      "name": "Phala | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000132",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000044"
+      "completion": "0.000000924",
+      "discount": 0.3,
+      "input_cache_read": "0.0000000196",
+      "prompt": "0.000000308"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -11519,8 +11519,8 @@
      "pricing": {
       "completion": "0.00000023",
       "discount": 0,
-      "input_cache_read": "0.000000125",
-      "prompt": "0.00000013"
+      "input_cache_read": "0.000000135",
+      "prompt": "0.00000014"
      },
      "provider_name": "Wafer",
      "quantization": "nvfp4",
@@ -12829,9 +12829,9 @@
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000396",
+      "completion": "0.00000198",
       "discount": 0,
-      "input_cache_read": "0.000000044",
+      "input_cache_read": "0.000000022",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -12913,7 +12913,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000132"
+      "prompt": "0.00000066"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -13241,10 +13241,10 @@
      "name": "Phala | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000436",
-      "discount": 0,
-      "input_cache_read": "0.00000015",
-      "prompt": "0.00000145"
+      "completion": "0.0000028776",
+      "discount": 0.34,
+      "input_cache_read": "0.000000099",
+      "prompt": "0.000000957"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -13291,8 +13291,8 @@
      "pricing": {
       "completion": "0.000008",
       "discount": 0,
-      "input_cache_read": "0.00000022",
-      "prompt": "0.0000002247"
+      "input_cache_read": "0.00000026",
+      "prompt": "0.0000002565"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -13613,10 +13613,10 @@
      "name": "Wafer | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000005",
+      "completion": "0.0000043",
       "discount": 0,
-      "input_cache_read": "0.000000249",
-      "prompt": "0.00000025"
+      "input_cache_read": "0.000000284",
+      "prompt": "0.000000285"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -14854,8 +14854,8 @@
      "pricing": {
       "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000033",
-      "prompt": "0.000000269"
+      "input_cache_read": "0.000000008",
+      "prompt": "0.000000066"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -16153,9 +16153,9 @@
      "name": "DeepSeek | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000006",
+      "input_cache_read": "0.000000003",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -16237,7 +16237,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.0000003"
+      "prompt": "0.00000015"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -16656,8 +16656,8 @@
      "pricing": {
       "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000033",
-      "prompt": "0.000000269"
+      "input_cache_read": "0.000000008",
+      "prompt": "0.000000066"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -16754,10 +16754,10 @@
      "name": "Novita | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
-      "discount": 0,
-      "input_cache_read": "0.000000006",
-      "prompt": "0.0000003"
+      "completion": "0.00000096",
+      "discount": 0.2,
+      "input_cache_read": "0.0000000048",
+      "prompt": "0.00000024"
      },
      "provider_name": "Novita",
      "quantization": "fp8",
@@ -22962,10 +22962,10 @@
      "name": "NextBit | google/gemma-3-12b-it",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000175",
+      "completion": "0.00000015",
       "discount": 0,
       "input_cache_read": "0.00000005",
-      "prompt": "0.0000001"
+      "prompt": "0.000000075"
      },
      "provider_name": "NextBit",
      "quantization": "int4",
@@ -24328,6 +24328,54 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/fp8/priority"
+    },
+    {
+     "context_length": 262144,
+     "max_completion_tokens": 235929,
+     "max_prompt_tokens": null,
+     "model_id": "google/gemma-4-31b-it",
+     "model_name": "Google: Gemma 4 31B",
+     "name": "DekaLLM | google/gemma-4-31b-it-20260402",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000033",
+      "discount": 0,
+      "input_cache_read": "0.00000005",
+      "prompt": "0.0000001"
+     },
+     "provider_name": "DekaLLM",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "dekallm"
     },
     {
      "context_length": 262144,
@@ -30171,6 +30219,48 @@
    "description": "MiniMax-M3.1-Flash is a multimodal model from MiniMax. Compared with M3, it delivers significant improvements across multiple benchmarks, particularly in complex agentic tasks, coding, and cybersecurity. It is built for complex,...",
    "endpoints": [
     {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "minimax/minimax-m3.1-flash",
+     "model_name": "MiniMax: MiniMax M3.1 Flash",
+     "name": "GMICloud | minimax/minimax-m3.1-flash-20261019",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000006",
+      "discount": 0,
+      "input_cache_read": "0.000000015",
+      "prompt": "0.00000015"
+     },
+     "provider_name": "GMICloud",
+     "quantization": "fp8",
+     "service_tier": null,
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "gmicloud/fp8"
+    },
+    {
      "context_length": 1000000,
      "max_completion_tokens": 524288,
      "max_prompt_tokens": null,
@@ -30260,6 +30350,56 @@
      },
      "supports_voice_cloning": false,
      "tag": "minimax"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "minimax/minimax-m3.1-flash",
+     "model_name": "MiniMax: MiniMax M3.1 Flash",
+     "name": "Nebius | minimax/minimax-m3.1-flash-20261019",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000006",
+      "discount": 0,
+      "input_cache_read": "0.000000015",
+      "prompt": "0.00000015"
+     },
+     "provider_name": "Nebius",
+     "quantization": "fp4",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "nebius/fp4"
     },
     {
      "context_length": 1048576,
@@ -30360,6 +30500,56 @@
      },
      "supports_voice_cloning": false,
      "tag": "together"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "minimax/minimax-m3.1-flash",
+     "model_name": "MiniMax: MiniMax M3.1 Flash",
+     "name": "Wafer | minimax/minimax-m3.1-flash-20261019",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000006",
+      "discount": 0,
+      "input_cache_read": "0.000000015",
+      "prompt": "0.00000015"
+     },
+     "provider_name": "Wafer",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "wafer"
     }
    ],
    "id": "minimax/minimax-m3.1-flash",
@@ -34240,7 +34430,7 @@
       "completion": "0.0000032",
       "discount": 0,
       "input_cache_read": "0.000000126",
-      "prompt": "0.0000005625"
+      "prompt": "0.000000603"
      },
      "provider_name": "Inceptron",
      "quantization": "int4",
@@ -36100,8 +36290,8 @@
      "pricing": {
       "completion": "0.0000149",
       "discount": 0,
-      "input_cache_read": "0.000000569",
-      "prompt": "0.00000119"
+      "input_cache_read": "0.000000478",
+      "prompt": "0.000001"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -36220,6 +36410,8 @@
       "response_format",
       "structured_outputs",
       "temperature",
+      "tool_choice",
+      "tools",
       "top_logprobs"
      ],
      "supports_diarization": false,
@@ -59433,6 +59625,56 @@
      "tag": "digitalocean"
     },
     {
+     "context_length": 1048320,
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "model_id": "reflection/beam-1.0-501b-a23b",
+     "model_name": "Reflection: Beam 1.0 501B A23B",
+     "name": "Io Net | reflection/beam-1.0-501b-a23b-20261016",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000098",
+      "discount": 0,
+      "input_cache_read": "0.000000035",
+      "prompt": "0.00000024"
+     },
+     "provider_name": "Io Net",
+     "quantization": "fp4",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "io-net/fp4"
+    },
+    {
      "context_length": 1048576,
      "max_completion_tokens": 131072,
      "max_prompt_tokens": null,
@@ -61390,10 +61632,10 @@
      "name": "DeepInfra | tencent/hy4-preview-20260827",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000237595",
-      "discount": 0.05,
-      "input_cache_read": "0.0000000399",
-      "prompt": "0.0000007923"
+      "completion": "0.000002501",
+      "discount": 0,
+      "input_cache_read": "0.000000042",
+      "prompt": "0.000000834"
      },
      "provider_name": "DeepInfra",
      "quantization": "fp4",
@@ -68499,7 +68741,7 @@
       "completion": "0.00000288",
       "discount": 0,
       "input_cache_read": "0.00000014",
-      "prompt": "0.00000055"
+      "prompt": "0.00000069"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -68644,8 +68886,8 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.000000064",
-      "prompt": "0.000000253"
+      "input_cache_read": "0.000000047",
+      "prompt": "0.000000185"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -70766,8 +71008,8 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.000000064",
-      "prompt": "0.000000253"
+      "input_cache_read": "0.000000047",
+      "prompt": "0.000000185"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -71050,8 +71292,8 @@
      "tag": "primeintellect"
     },
     {
-     "context_length": 262144,
-     "max_completion_tokens": 235929,
+     "context_length": 1048576,
+     "max_completion_tokens": 262144,
      "max_prompt_tokens": null,
      "model_id": "z-ai/glm-5.3",
      "model_name": "Z.ai: GLM 5.3",
@@ -72422,8 +72664,8 @@
      "pricing": {
       "completion": "0.00000065",
       "discount": 0,
-      "input_cache_read": "0.000000045",
-      "prompt": "0.00000016"
+      "input_cache_read": "0.000000038",
+      "prompt": "0.000000137"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -72572,10 +72814,10 @@
      "name": "NextBit | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000075",
+      "completion": "0.0000005",
       "discount": 0,
       "input_cache_read": "0.00000005",
-      "prompt": "0.00000015"
+      "prompt": "0.000000125"
      },
      "provider_name": "NextBit",
      "quantization": "fp4",
