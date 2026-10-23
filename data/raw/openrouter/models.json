@@ -7536,9 +7536,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000132",
-    "input_cache_read": "0.000000014",
-    "prompt": "0.00000044"
+    "completion": "0.00000013332",
+    "input_cache_read": "0.000000001414",
+    "prompt": "0.00000004444"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7778,9 +7778,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605",
-    "prompt": "0.00000095526"
+    "completion": "0.00000162864",
+    "input_cache_read": "0.00000006786",
+    "prompt": "0.00000081432"
    },
    "reasoning": {
     "default_effort": "high",
@@ -20310,7 +20310,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000335",
-    "input_cache_read": "0.00000018",
+    "input_cache_read": "0.00000015",
     "prompt": "0.0000006712"
    },
    "reasoning": {
@@ -20510,7 +20510,7 @@
    "name": "MoonshotAI: Kimi K3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000011936",
+    "completion": "0.0000108",
     "input_cache_read": "0.00000021",
     "prompt": "0.000000239"
    },
@@ -20548,6 +20548,72 @@
     "top_k",
     "top_logprobs",
     "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1048576,
+    "is_moderated": false,
+    "max_completion_tokens": 943718
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+video->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "moonshotai/kimi-k3.1-pro-20261023",
+   "context_length": 1048576,
+   "created": 1792778188,
+   "default_parameters": {
+    "top_p": 0.95
+   },
+   "description": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "moonshotai/kimi-k3.1-pro",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/moonshotai/kimi-k3.1-pro-20261023/endpoints"
+   },
+   "name": "MoonshotAI: Kimi K3.1 Pro",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00001",
+    "input_cache_read": "0.0000002",
+    "prompt": "0.000002"
+   },
+   "reasoning": {
+    "default_effort": "max",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "none"
+    ]
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "max_tokens",
+    "presence_penalty",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "stop",
+    "structured_outputs",
+    "tool_choice",
+    "tools"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -38064,8 +38130,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -38082,7 +38148,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -38223,8 +38289,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -38241,7 +38307,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43225,9 +43291,9 @@
    "name": "Z.ai: GLM 5.3 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000001985",
-    "input_cache_read": "0.0000000052",
-    "prompt": "0.0000000052"
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000003",
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "max",
@@ -43264,9 +43330,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1048575,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 943717
    }
   },
   {
@@ -44245,9 +44311,9 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
+    "completion": "0.0000005",
     "input_cache_read": "0.000000008",
-    "prompt": "0.000000066"
+    "prompt": "0.00000007"
    },
    "reasoning": {
     "default_effort": "high",
@@ -44326,8 +44392,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000008",
-    "input_cache_read": "0.00000026",
-    "prompt": "0.0000002565"
+    "input_cache_read": "0.00000012",
+    "prompt": "0.0000001188"
    },
    "reasoning": {
     "default_effort": "high",
@@ -44399,9 +44465,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000001568",
-    "input_cache_read": "0.000000028",
-    "prompt": "0.0000000475"
+    "completion": "0.0000001729",
+    "input_cache_read": "0.0000000275",
+    "prompt": "0.0000000422"
    },
    "reasoning": {
     "default_effort": "high",
@@ -44643,7 +44709,7 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000016",
+    "completion": "0.000024",
     "input_cache_read": "0.000000228",
     "prompt": "0.000000238"
    },
@@ -45396,5 +45462,5 @@
  "links": {
   "next": null
  },
- "total_count": 468
+ "total_count": 469
 }
