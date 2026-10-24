@@ -7792,9 +7792,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000001304304",
-    "input_cache_read": "0.000000054346",
-    "prompt": "0.000000652152"
+    "completion": "0.000001000152",
+    "input_cache_read": "0.000000041673",
+    "prompt": "0.000000500076"
    },
    "reasoning": {
     "default_effort": "high",
@@ -8067,6 +8067,7 @@
     "temperature",
     "tool_choice",
     "tools",
+    "top_a",
     "top_k",
     "top_logprobs",
     "top_p"
@@ -44759,7 +44760,7 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000016",
+    "completion": "0.000024",
     "input_cache_read": "0.000000228",
     "prompt": "0.000000238"
    },
@@ -45386,9 +45387,9 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000121602",
-    "input_cache_read": "0.000000006848",
-    "prompt": "0.000000028847"
+    "completion": "0.0000001425",
+    "input_cache_read": "0.0000000175",
+    "prompt": "0.0000000175"
    },
    "reasoning": {
     "default_effort": "max",
@@ -45427,7 +45428,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    }
   },
   {
