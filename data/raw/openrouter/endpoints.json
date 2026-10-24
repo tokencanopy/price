@@ -9664,10 +9664,10 @@
      "name": "Baidu | deepseek/deepseek-v4-flash-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000008708",
-      "discount": 0.689,
-      "input_cache_read": "0.000000008708",
-      "prompt": "0.00000004354"
+      "completion": "0.0000000812",
+      "discount": 0.71,
+      "input_cache_read": "0.00000000812",
+      "prompt": "0.0000000406"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10000,8 +10000,8 @@
      "pricing": {
       "completion": "0.00000045",
       "discount": 0,
-      "input_cache_read": "0.0000000407",
-      "prompt": "0.0000000407"
+      "input_cache_read": "0.0000000386",
+      "prompt": "0.0000000386"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -10089,10 +10089,10 @@
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000008568",
-      "discount": 0.694,
-      "input_cache_read": "0.000000008568",
-      "prompt": "0.00000004284"
+      "completion": "0.0000000798",
+      "discount": 0.715,
+      "input_cache_read": "0.00000000798",
+      "prompt": "0.0000000399"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -10183,7 +10183,7 @@
       "completion": "0.00000017",
       "discount": 0,
       "input_cache_read": "0.0000002",
-      "prompt": "0.0000007"
+      "prompt": "0.0000005"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -11047,10 +11047,10 @@
      "name": "Phala | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000132",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000044"
+      "completion": "0.000000924",
+      "discount": 0.3,
+      "input_cache_read": "0.0000000196",
+      "prompt": "0.000000308"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -11420,8 +11420,8 @@
      "pricing": {
       "completion": "0.00000023",
       "discount": 0,
-      "input_cache_read": "0.000000135",
-      "prompt": "0.00000014"
+      "input_cache_read": "0.000000125",
+      "prompt": "0.00000013"
      },
      "provider_name": "Wafer",
      "quantization": "nvfp4",
@@ -11831,10 +11831,10 @@
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000009971",
-      "discount": 0.705,
-      "input_cache_read": "0.0000000413",
-      "prompt": "0.00000049855"
+      "completion": "0.00000055094",
+      "discount": 0.837,
+      "input_cache_read": "0.00000002282",
+      "prompt": "0.00000027547"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -12249,10 +12249,10 @@
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001000152",
-      "discount": 0.7126,
-      "input_cache_read": "0.000000041673",
-      "prompt": "0.000000500076"
+      "completion": "0.000000533484",
+      "discount": 0.8467,
+      "input_cache_read": "0.0000000222285",
+      "prompt": "0.000000266742"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -13142,10 +13142,10 @@
      "name": "Phala | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000436",
-      "discount": 0,
-      "input_cache_read": "0.00000015",
-      "prompt": "0.00000145"
+      "completion": "0.0000028776",
+      "discount": 0.34,
+      "input_cache_read": "0.000000099",
+      "prompt": "0.000000957"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -13514,10 +13514,10 @@
      "name": "Wafer | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000043",
+      "completion": "0.000005",
       "discount": 0,
-      "input_cache_read": "0.000000284",
-      "prompt": "0.000000285"
+      "input_cache_read": "0.000000249",
+      "prompt": "0.00000025"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -15144,6 +15144,55 @@
      },
      "supports_voice_cloning": false,
      "tag": "primeintellect"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 393216,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "name": "Reka | deepseek/deepseek-v4.1-flash-20260910",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000084",
+      "discount": 0.3,
+      "input_cache_read": "0.000000007",
+      "prompt": "0.000000105"
+     },
+     "provider_name": "Reka",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "reka"
     },
     {
      "context_length": 1048576,
@@ -17245,7 +17294,7 @@
       "completion": "0.0000005",
       "discount": 0,
       "input_cache_read": "0.000000008",
-      "prompt": "0.00000016"
+      "prompt": "0.00000013"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -30503,6 +30552,55 @@
      "max_prompt_tokens": null,
      "model_id": "minimax/minimax-m3.1-flash",
      "model_name": "MiniMax: MiniMax M3.1 Flash",
+     "name": "Relace | minimax/minimax-m3.1-flash-20261019",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000005",
+      "discount": 0,
+      "input_cache_read": "0.00000001",
+      "prompt": "0.00000009"
+     },
+     "provider_name": "Relace",
+     "quantization": "fp4",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "relace/fp4"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "minimax/minimax-m3.1-flash",
+     "model_name": "MiniMax: MiniMax M3.1 Flash",
      "name": "SambaNova | minimax/minimax-m3.1-flash-20261019",
      "native_tools": {},
      "pricing": {
@@ -36381,8 +36479,8 @@
      "pricing": {
       "completion": "0.0000149",
       "discount": 0,
-      "input_cache_read": "0.000000604",
-      "prompt": "0.000001263"
+      "input_cache_read": "0.0000004",
+      "prompt": "0.000001358"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -36578,10 +36676,10 @@
      "name": "Relace | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000012",
+      "completion": "0.0000077001",
       "discount": 0,
-      "input_cache_read": "0.00000025",
-      "prompt": "0.0000003"
+      "input_cache_read": "0.00000019",
+      "prompt": "0.00000019"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -36766,10 +36864,10 @@
      "name": "Wafer | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000024",
+      "completion": "0.000016",
       "discount": 0,
-      "input_cache_read": "0.000000228",
-      "prompt": "0.000000238"
+      "input_cache_read": "0.00000019",
+      "prompt": "0.0000002"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -69175,8 +69273,8 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.0000001",
-      "prompt": "0.000000399"
+      "input_cache_read": "0.000000101",
+      "prompt": "0.000000403"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -71297,8 +71395,8 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.000000111",
-      "prompt": "0.000000444"
+      "input_cache_read": "0.000000101",
+      "prompt": "0.000000403"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -71639,10 +71737,10 @@
      "name": "Relace | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000024",
+      "completion": "0.000004295",
       "discount": 0,
       "input_cache_read": "0.000000075",
-      "prompt": "0.00000075"
+      "prompt": "0.000000075"
      },
      "provider_name": "Relace",
      "quantization": "unknown",
@@ -73048,8 +73146,8 @@
      "pricing": {
       "completion": "0.00000065",
       "discount": 0,
-      "input_cache_read": "0.000000143",
-      "prompt": "0.000000508"
+      "input_cache_read": "0.000000113",
+      "prompt": "0.000000401"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -73292,10 +73390,10 @@
      "name": "OpenInference | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000001062",
+      "completion": "0.000000020978",
       "discount": 0,
-      "input_cache_read": "0.000000018198",
-      "prompt": "0.000000018402"
+      "input_cache_read": "0.000000092125",
+      "prompt": "0.000000093159"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -73543,10 +73641,10 @@
      "name": "Relace | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000001425",
+      "completion": "0.0000000788",
       "discount": 0,
-      "input_cache_read": "0.0000000175",
-      "prompt": "0.0000000175"
+      "input_cache_read": "0.00000003",
+      "prompt": "0.0000000492"
      },
      "provider_name": "Relace",
      "quantization": "unknown",
