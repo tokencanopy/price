@@ -9136,56 +9136,6 @@
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v3.2",
      "model_name": "DeepSeek: DeepSeek V3.2",
-     "name": "Friendli | deepseek/deepseek-v3.2-20251201",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000015",
-      "discount": 0,
-      "input_cache_read": "0.00000025",
-      "prompt": "0.0000005"
-     },
-     "provider_name": "Friendli",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "friendli"
-    },
-    {
-     "context_length": 163840,
-     "max_completion_tokens": 147456,
-     "max_prompt_tokens": null,
-     "model_id": "deepseek/deepseek-v3.2",
-     "model_name": "DeepSeek: DeepSeek V3.2",
      "name": "GMICloud | deepseek/deepseek-v3.2-20251201",
      "native_tools": {},
      "pricing": {
@@ -9714,10 +9664,10 @@
      "name": "Baidu | deepseek/deepseek-v4-flash-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000009996",
-      "discount": 0.643,
-      "input_cache_read": "0.000000009996",
-      "prompt": "0.00000004998"
+      "completion": "0.00000008708",
+      "discount": 0.689,
+      "input_cache_read": "0.000000008708",
+      "prompt": "0.00000004354"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10050,8 +10000,8 @@
      "pricing": {
       "completion": "0.00000045",
       "discount": 0,
-      "input_cache_read": "0.0000000474",
-      "prompt": "0.0000000474"
+      "input_cache_read": "0.0000000407",
+      "prompt": "0.0000000407"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -10139,10 +10089,10 @@
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000009856",
-      "discount": 0.648,
-      "input_cache_read": "0.000000009856",
-      "prompt": "0.00000004928"
+      "completion": "0.00000008568",
+      "discount": 0.694,
+      "input_cache_read": "0.000000008568",
+      "prompt": "0.00000004284"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -10299,9 +10249,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000528",
+      "completion": "0.000001056",
       "discount": 0,
-      "input_cache_read": "0.0000000176",
+      "input_cache_read": "0.0000000352",
       "overrides": [
        {
         "completion": "0.000000528",
@@ -10318,7 +10268,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000176"
+      "prompt": "0.000000352"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -10362,9 +10312,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000561",
+      "completion": "0.000001122",
       "discount": 0,
-      "input_cache_read": "0.0000000187",
+      "input_cache_read": "0.0000000374",
       "overrides": [
        {
         "completion": "0.000000561",
@@ -10381,7 +10331,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000187"
+      "prompt": "0.000000374"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -11192,9 +11142,9 @@
      "name": "Relace | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000001729",
+      "completion": "0.0000001694",
       "discount": 0,
-      "input_cache_read": "0.0000000275",
+      "input_cache_read": "0.000000028",
       "prompt": "0.0000000422"
      },
      "provider_name": "Relace",
@@ -11412,55 +11362,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "streamlake/fp8"
-    },
-    {
-     "context_length": 1048576,
-     "max_completion_tokens": 943718,
-     "max_prompt_tokens": null,
-     "model_id": "deepseek/deepseek-v4-flash-0731",
-     "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
-     "name": "Together | deepseek/deepseek-v4-flash-20260731",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000028",
-      "discount": 0,
-      "input_cache_read": "0.00000003",
-      "prompt": "0.00000014"
-     },
-     "provider_name": "Together",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "together"
     },
     {
      "context_length": 1000000,
@@ -11930,10 +11831,10 @@
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000162578",
-      "discount": 0.519,
-      "input_cache_read": "0.00000006734",
-      "prompt": "0.00000081289"
+      "completion": "0.00000132158",
+      "discount": 0.609,
+      "input_cache_read": "0.00000005474",
+      "prompt": "0.00000066079"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -12348,10 +12249,10 @@
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000162864",
-      "discount": 0.532,
-      "input_cache_read": "0.00000006786",
-      "prompt": "0.00000081432"
+      "completion": "0.000001304304",
+      "discount": 0.6252,
+      "input_cache_read": "0.000000054346",
+      "prompt": "0.000000652152"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -12458,9 +12359,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000017424",
+      "completion": "0.000003366",
       "discount": 0,
-      "input_cache_read": "0.00000005808",
+      "input_cache_read": "0.0000001122",
       "overrides": [
        {
         "completion": "0.0000017424",
@@ -12477,7 +12378,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000005808"
+      "prompt": "0.000001122"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -12521,9 +12422,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000198",
+      "completion": "0.00000396",
       "discount": 0,
-      "input_cache_read": "0.000000066",
+      "input_cache_read": "0.000000132",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -12540,7 +12441,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.00000066"
+      "prompt": "0.00000132"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -13613,10 +13514,10 @@
      "name": "Wafer | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000005",
+      "completion": "0.0000043",
       "discount": 0,
-      "input_cache_read": "0.000000249",
-      "prompt": "0.00000025"
+      "input_cache_read": "0.000000284",
+      "prompt": "0.000000285"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -13685,9 +13586,9 @@
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000066",
+      "completion": "0.00000132",
       "discount": 0,
-      "input_cache_read": "0.0000000165",
+      "input_cache_read": "0.000000033",
       "overrides": [
        {
         "completion": "0.00000066",
@@ -13704,7 +13605,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000165"
+      "prompt": "0.00000033"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -14351,9 +14252,9 @@
      "supports_multiple_audio_references": false,
      "supports_tool_choice": {
       "auto": true,
-      "function": true,
+      "function": false,
       "none": true,
-      "required": true
+      "required": false
      },
      "supports_voice_cloning": false,
      "tag": "digitalocean"
@@ -14806,10 +14707,10 @@
      "name": "ModelRun | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.00000067",
       "discount": 0,
-      "input_cache_read": "0.00000002",
-      "prompt": "0.0000002"
+      "input_cache_read": "0.000000006",
+      "prompt": "0.00000017"
      },
      "provider_name": "ModelRun",
      "quantization": "fp4",
@@ -14854,8 +14755,8 @@
      "pricing": {
       "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000008",
-      "prompt": "0.0000002"
+      "input_cache_read": "0.000000016",
+      "prompt": "0.000000411"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -15001,10 +14902,10 @@
      "name": "OpenInference | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000005",
+      "completion": "0.000001",
       "discount": 0,
-      "input_cache_read": "0.000000008",
-      "prompt": "0.00000007"
+      "input_cache_read": "0.000000015",
+      "prompt": "0.00000002"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -15152,7 +15053,7 @@
      "pricing": {
       "completion": "0.0000012",
       "discount": 0,
-      "input_cache_read": "0.00000003",
+      "input_cache_read": "0.000000006",
       "prompt": "0.0000003"
      },
      "provider_name": "PrimeIntellect",
@@ -15583,7 +15484,7 @@
       "completion": "0.00000065",
       "discount": 0,
       "input_cache_read": "0.000000012",
-      "prompt": "0.00000022"
+      "prompt": "0.00000019"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -15652,9 +15553,9 @@
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000066",
+      "completion": "0.00000132",
       "discount": 0,
-      "input_cache_read": "0.0000000165",
+      "input_cache_read": "0.000000033",
       "overrides": [
        {
         "completion": "0.00000066",
@@ -15671,7 +15572,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000165"
+      "prompt": "0.00000033"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -16706,8 +16607,8 @@
      "pricing": {
       "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000008",
-      "prompt": "0.0000002"
+      "input_cache_read": "0.000000016",
+      "prompt": "0.000000411"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -16853,10 +16754,10 @@
      "name": "OpenInference | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000005",
+      "completion": "0.000001",
       "discount": 0,
-      "input_cache_read": "0.000000008",
-      "prompt": "0.00000007"
+      "input_cache_read": "0.000000015",
+      "prompt": "0.00000002"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -17052,9 +16953,9 @@
      "name": "Reka | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000004",
+      "completion": "0.0000008",
       "discount": 0,
-      "input_cache_read": "0.000000004",
+      "input_cache_read": "0.00000008",
       "prompt": "0.00000008"
      },
      "provider_name": "Reka",
@@ -23802,10 +23703,10 @@
      "name": "NextBit | google/gemma-4-26b-a4b-it-20260403",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000003",
-      "discount": 0,
-      "input_cache_read": "0.00000005",
-      "prompt": "0.00000009"
+      "completion": "0.000000225",
+      "discount": 0.25,
+      "input_cache_read": "0.0000000375",
+      "prompt": "0.0000000675"
      },
      "provider_name": "NextBit",
      "quantization": "bf16",
@@ -24378,54 +24279,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/fp8/priority"
-    },
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 235929,
-     "max_prompt_tokens": null,
-     "model_id": "google/gemma-4-31b-it",
-     "model_name": "Google: Gemma 4 31B",
-     "name": "DekaLLM | google/gemma-4-31b-it-20260402",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000004",
-      "discount": 0,
-      "input_cache_read": "0.00000005",
-      "prompt": "0.00000014"
-     },
-     "provider_name": "DekaLLM",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "dekallm"
     },
     {
      "context_length": 262144,
@@ -27092,51 +26945,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "sambanova-turbo"
-    },
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 2048,
-     "max_prompt_tokens": null,
-     "model_id": "meta-llama/llama-3.3-70b-instruct",
-     "model_name": "Meta: Llama 3.3 70B Instruct",
-     "name": "Together | meta-llama/llama-3.3-70b-instruct",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000104",
-      "discount": 0,
-      "prompt": "0.00000104"
-     },
-     "provider_name": "Together",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "repetition_penalty",
-      "response_format",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "together"
     }
    ],
    "id": "meta-llama/llama-3.3-70b-instruct",
@@ -30003,6 +29811,7 @@
       "repetition_penalty",
       "response_format",
       "stop",
+      "structured_outputs",
       "temperature",
       "tool_choice",
       "tools",
@@ -30274,6 +30083,50 @@
      "max_prompt_tokens": null,
      "model_id": "minimax/minimax-m3.1-flash",
      "model_name": "MiniMax: MiniMax M3.1 Flash",
+     "name": "DigitalOcean | minimax/minimax-m3.1-flash-20261019",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000006",
+      "discount": 0,
+      "input_cache_read": "0.000000015",
+      "prompt": "0.00000015"
+     },
+     "provider_name": "DigitalOcean",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "digitalocean"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "minimax/minimax-m3.1-flash",
+     "model_name": "MiniMax: MiniMax M3.1 Flash",
      "name": "GMICloud | minimax/minimax-m3.1-flash-20261019",
      "native_tools": {},
      "pricing": {
@@ -30361,6 +30214,56 @@
      "tag": "inference-net/fp4"
     },
     {
+     "context_length": 1000000,
+     "max_completion_tokens": 524288,
+     "max_prompt_tokens": null,
+     "model_id": "minimax/minimax-m3.1-flash",
+     "model_name": "MiniMax: MiniMax M3.1 Flash",
+     "name": "InferenceNet | minimax/minimax-m3.1-flash-20261019",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000055",
+      "discount": 0,
+      "input_cache_read": "0.00000001",
+      "prompt": "0.0000001"
+     },
+     "provider_name": "InferenceNet",
+     "quantization": "fp4",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "inference-net/fp4/us"
+    },
+    {
      "context_length": 1048576,
      "max_completion_tokens": 524288,
      "max_prompt_tokens": null,
@@ -30400,6 +30303,51 @@
      },
      "supports_voice_cloning": false,
      "tag": "minimax"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "minimax/minimax-m3.1-flash",
+     "model_name": "MiniMax: MiniMax M3.1 Flash",
+     "name": "ModelRun | minimax/minimax-m3.1-flash-20261019",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000006",
+      "discount": 0,
+      "input_cache_read": "0.000000015",
+      "prompt": "0.00000015"
+     },
+     "provider_name": "ModelRun",
+     "quantization": "fp4",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "modelrun/fp4"
     },
     {
      "context_length": 1048576,
@@ -36387,8 +36335,8 @@
      "pricing": {
       "completion": "0.0000149",
       "discount": 0,
-      "input_cache_read": "0.000000607",
-      "prompt": "0.000001269"
+      "input_cache_read": "0.000000606",
+      "prompt": "0.000001266"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -36772,7 +36720,7 @@
      "name": "Wafer | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000024",
+      "completion": "0.000016",
       "discount": 0,
       "input_cache_read": "0.000000228",
       "prompt": "0.000000238"
@@ -38359,6 +38307,53 @@
      },
      "supports_voice_cloning": false,
      "tag": "crusoe/bf16"
+    },
+    {
+     "context_length": 262144,
+     "max_completion_tokens": 32768,
+     "max_prompt_tokens": null,
+     "model_id": "nvidia/nemotron-3.5-super-vl",
+     "model_name": "NVIDIA: Nemotron 3.5 Super VL",
+     "name": "Darkbloom | nvidia/nemotron-3.5-super-vl-20261015",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000035",
+      "discount": 0,
+      "input_cache_read": "0.00000001",
+      "prompt": "0.00000006"
+     },
+     "provider_name": "Darkbloom",
+     "quantization": "nvfp4",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "darkbloom/nvfp4"
     },
     {
      "context_length": 262144,
@@ -56820,10 +56815,10 @@
      "name": "Reka | qwen/qwen3.6-27b-20260422",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000032",
+      "completion": "0.000002",
       "discount": 0,
-      "input_cache_read": "0.000000035",
-      "prompt": "0.0000003"
+      "input_cache_read": "0.0000002",
+      "prompt": "0.0000002"
      },
      "provider_name": "Reka",
      "quantization": "unknown",
@@ -61647,9 +61642,9 @@
      "name": "Tencent | tencent/hy3-20260706",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000033",
+      "completion": "0.000000528",
       "discount": 0,
-      "input_cache_read": "0.000000020625",
+      "input_cache_read": "0.000000033",
       "overrides": [
        {
         "completion": "0.00000033",
@@ -61666,7 +61661,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000000825"
+      "prompt": "0.000000132"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -61977,9 +61972,9 @@
      "name": "Tencent | tencent/hy4-preview-20260827",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000022509",
+      "completion": "0.000002501",
       "discount": 0,
-      "input_cache_read": "0.0000000378",
+      "input_cache_read": "0.000000042",
       "overrides": [
        {
         "completion": "0.0000022509",
@@ -61996,7 +61991,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000007506"
+      "prompt": "0.000000834"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -67303,6 +67298,50 @@
      "tag": "venice/fp8"
     },
     {
+     "context_length": 200000,
+     "max_completion_tokens": 32768,
+     "max_prompt_tokens": null,
+     "model_id": "z-ai/glm-5",
+     "model_name": "Z.ai: GLM 5",
+     "name": "Venice | z-ai/glm-5-20260211",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.000004",
+      "discount": 0,
+      "input_cache_read": "0.00000024",
+      "prompt": "0.0000012"
+     },
+     "provider_name": "Venice",
+     "quantization": "unknown",
+     "service_tier": "priority",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "response_format",
+      "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "venice/turbo"
+    },
+    {
      "context_length": 202752,
      "max_completion_tokens": 131072,
      "max_prompt_tokens": null,
@@ -68284,6 +68323,52 @@
      "name": "Baidu | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
+      "completion": "0.000000594",
+      "discount": 0.865,
+      "input_cache_read": "0.0000000351",
+      "prompt": "0.000000189"
+     },
+     "provider_name": "Baidu",
+     "quantization": "fp8",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "baidu/fp8"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "model_id": "z-ai/glm-5.2",
+     "model_name": "Z.ai: GLM 5.2",
+     "name": "Baidu | z-ai/glm-5.2-20260616",
+     "native_tools": {},
+     "pricing": {
       "completion": "0.000002167",
       "discount": 0.725,
       "input_cache_read": "0.000000154",
@@ -68320,52 +68405,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "baidu/fast"
-    },
-    {
-     "context_length": 1048576,
-     "max_completion_tokens": 131072,
-     "max_prompt_tokens": null,
-     "model_id": "z-ai/glm-5.2",
-     "model_name": "Z.ai: GLM 5.2",
-     "name": "Baidu | z-ai/glm-5.2-20260616",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000019448",
-      "discount": 0.558,
-      "input_cache_read": "0.00000011492",
-      "prompt": "0.0000006188"
-     },
-     "provider_name": "Baidu",
-     "quantization": "fp8",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "baidu/fp8"
     },
     {
      "context_length": 1048576,
@@ -68942,10 +68981,10 @@
      "name": "Inceptron | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000288",
+      "completion": "0.000001188",
       "discount": 0,
-      "input_cache_read": "0.00000014",
-      "prompt": "0.0000009"
+      "input_cache_read": "0.00000016",
+      "prompt": "0.00000099"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -69090,8 +69129,8 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.000000064",
-      "prompt": "0.000000258"
+      "input_cache_read": "0.000000122",
+      "prompt": "0.000000488"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -69427,10 +69466,10 @@
      "name": "StreamLake | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000174592",
-      "discount": 0.6032,
-      "input_cache_read": "0.000000103168",
-      "prompt": "0.00000055552"
+      "completion": "0.00000088",
+      "discount": 0.8,
+      "input_cache_read": "0.000000052",
+      "prompt": "0.00000028"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -71212,8 +71251,8 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.000000064",
-      "prompt": "0.000000258"
+      "input_cache_read": "0.000000122",
+      "prompt": "0.000000488"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -71460,10 +71499,10 @@
      "name": "PrimeIntellect | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000044",
+      "completion": "0.00000308",
       "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "input_cache_read": "0.000000182",
+      "prompt": "0.00000098"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "unknown",
@@ -72326,6 +72365,54 @@
      "tag": "crusoe/fp4"
     },
     {
+     "context_length": 262144,
+     "max_completion_tokens": 65536,
+     "max_prompt_tokens": null,
+     "model_id": "z-ai/glm-5.3-flash",
+     "model_name": "Z.ai: GLM 5.3 Flash",
+     "name": "Darkbloom | z-ai/glm-5.3-flash-20260826",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000018",
+      "discount": 0,
+      "input_cache_read": "0.0000000325",
+      "prompt": "0.000000065"
+     },
+     "provider_name": "Darkbloom",
+     "quantization": "fp4",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "darkbloom/fp4"
+    },
+    {
      "context_length": 1048576,
      "max_completion_tokens": 943718,
      "max_prompt_tokens": null,
@@ -72619,10 +72706,10 @@
      "name": "Inceptron | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000069",
+      "completion": "0.00000075",
       "discount": 0,
       "input_cache_read": "0.000000075",
-      "prompt": "0.00000018"
+      "prompt": "0.0000002"
      },
      "provider_name": "Inceptron",
      "quantization": "fp8",
@@ -72814,6 +72901,53 @@
     },
     {
      "context_length": 1048576,
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "model_id": "z-ai/glm-5.3-flash",
+     "model_name": "Z.ai: GLM 5.3 Flash",
+     "name": "Mistral | z-ai/glm-5.3-flash-20260826",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000005",
+      "discount": 0,
+      "input_cache_read": "0.00000003",
+      "prompt": "0.00000015"
+     },
+     "provider_name": "Mistral",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "mistral"
+    },
+    {
+     "context_length": 1048576,
      "max_completion_tokens": 943718,
      "max_prompt_tokens": null,
      "model_id": "z-ai/glm-5.3-flash",
@@ -72868,8 +73002,8 @@
      "pricing": {
       "completion": "0.00000065",
       "discount": 0,
-      "input_cache_read": "0.000000063",
-      "prompt": "0.000000224"
+      "input_cache_read": "0.000000135",
+      "prompt": "0.000000481"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -73112,10 +73246,10 @@
      "name": "OpenInference | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000001985",
+      "completion": "0.000000121602",
       "discount": 0,
-      "input_cache_read": "0.0000000052",
-      "prompt": "0.0000000052"
+      "input_cache_read": "0.000000006848",
+      "prompt": "0.000000028847"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -73203,57 +73337,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "parasail/fp4"
-    },
-    {
-     "context_length": 1048576,
-     "max_completion_tokens": 943718,
-     "max_prompt_tokens": null,
-     "model_id": "z-ai/glm-5.3-flash",
-     "model_name": "Z.ai: GLM 5.3 Flash",
-     "name": "Parasail | z-ai/glm-5.3-flash-20260826",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.000000625",
-      "discount": 0,
-      "input_cache_read": "0.0000000375",
-      "prompt": "0.0000001875"
-     },
-     "provider_name": "Parasail",
-     "quantization": "fp4",
-     "service_tier": "priority",
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "parasail/fast"
     },
     {
      "context_length": 1048576,
@@ -73414,10 +73497,10 @@
      "name": "Relace | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000001985",
+      "completion": "0.0000000852",
       "discount": 0,
-      "input_cache_read": "0.0000000052",
-      "prompt": "0.0000000052"
+      "input_cache_read": "0.0000000274",
+      "prompt": "0.0000000274"
      },
      "provider_name": "Relace",
      "quantization": "unknown",
