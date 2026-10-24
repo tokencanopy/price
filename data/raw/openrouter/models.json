@@ -7792,9 +7792,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000533484",
-    "input_cache_read": "0.0000000222285",
-    "prompt": "0.000000266742"
+    "completion": "0.0000004176",
+    "input_cache_read": "0.0000000174",
+    "prompt": "0.0000002088"
    },
    "reasoning": {
     "default_effort": "high",
@@ -22365,67 +22365,6 @@
     ],
     "tokenizer": "GPT"
    },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": null,
-     "coding_index": 10.7,
-     "intelligence_index": 5.5
-    },
-    "design_arena": []
-   },
-   "canonical_slug": "openai/gpt-3.5-turbo",
-   "context_length": 16385,
-   "created": 1685232000,
-   "default_parameters": {},
-   "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
-   "expiration_date": null,
-   "hugging_face_id": null,
-   "id": "openai/gpt-3.5-turbo",
-   "knowledge_cutoff": "2021-09-30",
-   "links": {
-    "details": "/api/v1/models/openai/gpt-3.5-turbo/endpoints"
-   },
-   "name": "OpenAI: GPT-3.5 Turbo",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.0000015",
-    "prompt": "0.0000005"
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "logit_bias",
-    "logprobs",
-    "max_tokens",
-    "presence_penalty",
-    "response_format",
-    "seed",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 16385,
-    "is_moderated": true,
-    "max_completion_tokens": 4096
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "GPT"
-   },
    "canonical_slug": "openai/gpt-3.5-turbo-0613",
    "context_length": 4095,
    "created": 1706140800,
@@ -22518,119 +22457,6 @@
    "top_provider": {
     "context_length": 16385,
     "is_moderated": false,
-    "max_completion_tokens": 4096
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": "chatml",
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "GPT"
-   },
-   "canonical_slug": "openai/gpt-3.5-turbo-instruct",
-   "context_length": 4095,
-   "created": 1695859200,
-   "default_parameters": {},
-   "description": "This model is a variant of GPT-3.5 Turbo tuned for instructional prompts and omitting chat-related optimizations. Training data: up to Sep 2021.",
-   "expiration_date": null,
-   "hugging_face_id": null,
-   "id": "openai/gpt-3.5-turbo-instruct",
-   "knowledge_cutoff": "2021-09-30",
-   "links": {
-    "details": "/api/v1/models/openai/gpt-3.5-turbo-instruct/endpoints"
-   },
-   "name": "OpenAI: GPT-3.5 Turbo Instruct",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.000002",
-    "prompt": "0.0000015"
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "logit_bias",
-    "logprobs",
-    "max_tokens",
-    "presence_penalty",
-    "response_format",
-    "seed",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 4095,
-    "is_moderated": true,
-    "max_completion_tokens": 3685
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "GPT"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": null,
-     "coding_index": 10.7,
-     "intelligence_index": 5.5
-    },
-    "design_arena": []
-   },
-   "canonical_slug": "openai/gpt-3.5-turbo",
-   "context_length": 16385,
-   "created": 1685232000,
-   "default_parameters": {},
-   "description": "GPT-3.5 Turbo is OpenAI's fastest model. It can understand and generate natural language or code, and is optimized for chat and traditional completion tasks.\n\nTraining data up to Sep 2021.",
-   "expiration_date": null,
-   "hugging_face_id": null,
-   "id": "openai/gpt-3.5-turbo:batch",
-   "knowledge_cutoff": "2021-09-30",
-   "links": {
-    "details": "/api/v1/models/openai/gpt-3.5-turbo/endpoints"
-   },
-   "name": "OpenAI: GPT-3.5 Turbo (batch)",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.00000075",
-    "prompt": "0.00000025",
-    "web_search": "0.01"
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "logit_bias",
-    "logprobs",
-    "max_tokens",
-    "presence_penalty",
-    "response_format",
-    "seed",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 16385,
-    "is_moderated": true,
     "max_completion_tokens": 4096
    }
   },
@@ -38182,8 +38008,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -38200,7 +38026,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -38341,8 +38167,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -38359,7 +38185,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43216,9 +43042,9 @@
    "name": "Z.ai: GLM 5.3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000014",
-    "input_cache_read": "0.000000078",
-    "prompt": "0.000000079"
+    "completion": "0.00000161",
+    "input_cache_read": "0.0000000897",
+    "prompt": "0.0000000908"
    },
    "reasoning": {
     "default_effort": "max",
@@ -43357,9 +43183,9 @@
    "name": "Z.ai: GLM 5.3 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000000788",
+    "completion": "0.0000005",
     "input_cache_read": "0.00000003",
-    "prompt": "0.0000000492"
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "max",
@@ -43396,9 +43222,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1048575,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943717
    }
   },
   {
@@ -44531,8 +44357,8 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000001694",
-    "input_cache_read": "0.000000028",
+    "completion": "0.0000001763",
+    "input_cache_read": "0.000000027",
     "prompt": "0.0000000422"
    },
    "reasoning": {
@@ -44775,7 +44601,7 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000077001",
+    "completion": "0.00000894",
     "input_cache_read": "0.00000019",
     "prompt": "0.00000019"
    },
@@ -45402,9 +45228,9 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000000788",
+    "completion": "0.0000000702",
     "input_cache_read": "0.00000003",
-    "prompt": "0.0000000492"
+    "prompt": "0.0000000507"
    },
    "reasoning": {
     "default_effort": "max",
@@ -45528,5 +45354,5 @@
  "links": {
   "next": null
  },
- "total_count": 469
+ "total_count": 466
 }
