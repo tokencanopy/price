@@ -9664,10 +9664,10 @@
      "name": "Baidu | deepseek/deepseek-v4-flash-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000004984",
-      "discount": 0.822,
-      "input_cache_read": "0.000000004984",
-      "prompt": "0.00000002492"
+      "completion": "0.00000004452",
+      "discount": 0.841,
+      "input_cache_read": "0.000000004452",
+      "prompt": "0.00000002226"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10000,8 +10000,8 @@
      "pricing": {
       "completion": "0.00000045",
       "discount": 0,
-      "input_cache_read": "0.0000000237",
-      "prompt": "0.0000000237"
+      "input_cache_read": "0.0000000211",
+      "prompt": "0.0000000211"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -10183,7 +10183,7 @@
       "completion": "0.00000017",
       "discount": 0,
       "input_cache_read": "0.0000002",
-      "prompt": "0.0000006"
+      "prompt": "0.0000005"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -11047,10 +11047,10 @@
      "name": "Phala | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000924",
-      "discount": 0.3,
-      "input_cache_read": "0.0000000196",
-      "prompt": "0.000000308"
+      "completion": "0.00000132",
+      "discount": 0,
+      "input_cache_read": "0.000000028",
+      "prompt": "0.00000044"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -13142,10 +13142,10 @@
      "name": "Phala | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000028776",
-      "discount": 0.34,
-      "input_cache_read": "0.000000099",
-      "prompt": "0.000000957"
+      "completion": "0.00000436",
+      "discount": 0,
+      "input_cache_read": "0.00000015",
+      "prompt": "0.00000145"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -14806,8 +14806,8 @@
      "pricing": {
       "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000016",
-      "prompt": "0.00000025"
+      "input_cache_read": "0.00000001",
+      "prompt": "0.0000001"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -15534,8 +15534,8 @@
      "pricing": {
       "completion": "0.00000065",
       "discount": 0,
-      "input_cache_read": "0.000000012",
-      "prompt": "0.00000022"
+      "input_cache_read": "0.0000000079",
+      "prompt": "0.0000001"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -16658,8 +16658,8 @@
      "pricing": {
       "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000016",
-      "prompt": "0.00000025"
+      "input_cache_read": "0.00000001",
+      "prompt": "0.0000001"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -23786,9 +23786,9 @@
      "supports_multiple_audio_references": false,
      "supports_tool_choice": {
       "auto": true,
-      "function": true,
+      "function": false,
       "none": true,
-      "required": true
+      "required": false
      },
      "supports_voice_cloning": false,
      "tag": "nextbit/bf16"
@@ -30807,6 +30807,56 @@
      },
      "supports_voice_cloning": false,
      "tag": "together"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "minimax/minimax-m3.1-flash",
+     "model_name": "MiniMax: MiniMax M3.1 Flash",
+     "name": "Wafer | minimax/minimax-m3.1-flash-20261019",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000006",
+      "discount": 0,
+      "input_cache_read": "0.000000015",
+      "prompt": "0.00000015"
+     },
+     "provider_name": "Wafer",
+     "quantization": "nvfp4",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "wafer/nvfp4"
     }
    ],
    "id": "minimax/minimax-m3.1-flash",
@@ -36547,8 +36597,8 @@
      "pricing": {
       "completion": "0.0000149",
       "discount": 0,
-      "input_cache_read": "0.000000372",
-      "prompt": "0.000001263"
+      "input_cache_read": "0.00000025",
+      "prompt": "0.0000009"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -65056,7 +65106,7 @@
      "supports_implicit_caching": true,
      "supports_multiple_audio_references": false,
      "supports_tool_choice": {
-      "auto": true,
+      "auto": false,
       "function": false,
       "none": false,
       "required": false
@@ -69217,8 +69267,8 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.000000125",
-      "prompt": "0.0000005"
+      "input_cache_read": "0.000000116",
+      "prompt": "0.000000463"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -70952,7 +71002,7 @@
      "name": "InferenceNet | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000004",
+      "completion": "0.0000036",
       "discount": 0,
       "input_cache_read": "0.000000076",
       "prompt": "0.00000008"
@@ -71339,8 +71389,8 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.000000125",
-      "prompt": "0.0000005"
+      "input_cache_read": "0.000000116",
+      "prompt": "0.000000463"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -71681,10 +71731,10 @@
      "name": "Relace | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000004295",
+      "completion": "0.0000043843",
       "discount": 0,
-      "input_cache_read": "0.000000075",
-      "prompt": "0.000000075"
+      "input_cache_read": "0.0000000703",
+      "prompt": "0.0000000703"
      },
      "provider_name": "Relace",
      "quantization": "unknown",
@@ -73090,8 +73140,8 @@
      "pricing": {
       "completion": "0.00000065",
       "discount": 0,
-      "input_cache_read": "0.000000066",
-      "prompt": "0.000000235"
+      "input_cache_read": "0.000000091",
+      "prompt": "0.000000325"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -73334,10 +73384,10 @@
      "name": "OpenInference | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000103925",
+      "completion": "0.000000069786",
       "discount": 0,
-      "input_cache_read": "0.000000013427",
-      "prompt": "0.00000002014"
+      "input_cache_read": "0.000000017825",
+      "prompt": "0.000000066466"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -73585,10 +73635,10 @@
      "name": "Relace | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000001352",
+      "completion": "0.000000077",
       "discount": 0,
-      "input_cache_read": "0.0000000191",
-      "prompt": "0.0000000191"
+      "input_cache_read": "0.00000003",
+      "prompt": "0.0000000418"
      },
      "provider_name": "Relace",
      "quantization": "unknown",
@@ -73912,8 +73962,8 @@
      "pricing": {
       "completion": "0.0000002",
       "discount": 0,
-      "input_cache_read": "0.000000063",
-      "prompt": "0.000000064"
+      "input_cache_read": "0.000000043",
+      "prompt": "0.000000044"
      },
      "provider_name": "Wafer",
      "quantization": "nvfp4",
