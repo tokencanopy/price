@@ -9044,7 +9044,7 @@
     },
     {
      "context_length": 163840,
-     "max_completion_tokens": 16384,
+     "max_completion_tokens": 147456,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v3.2",
      "model_name": "DeepSeek: DeepSeek V3.2",
@@ -10249,9 +10249,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001056",
+      "completion": "0.000000528",
       "discount": 0,
-      "input_cache_read": "0.0000000352",
+      "input_cache_read": "0.0000000176",
       "overrides": [
        {
         "completion": "0.000000528",
@@ -10268,7 +10268,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000352"
+      "prompt": "0.000000176"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -10312,9 +10312,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001122",
+      "completion": "0.000000561",
       "discount": 0,
-      "input_cache_read": "0.0000000374",
+      "input_cache_read": "0.0000000187",
       "overrides": [
        {
         "completion": "0.000000561",
@@ -10331,7 +10331,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000374"
+      "prompt": "0.000000187"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -11142,9 +11142,9 @@
      "name": "Relace | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000001694",
+      "completion": "0.0000001763",
       "discount": 0,
-      "input_cache_read": "0.000000028",
+      "input_cache_read": "0.000000027",
       "prompt": "0.0000000422"
      },
      "provider_name": "Relace",
@@ -12359,9 +12359,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000003366",
+      "completion": "0.0000017424",
       "discount": 0,
-      "input_cache_read": "0.0000001122",
+      "input_cache_read": "0.00000005808",
       "overrides": [
        {
         "completion": "0.0000017424",
@@ -12378,7 +12378,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000001122"
+      "prompt": "0.0000005808"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -12422,9 +12422,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000396",
+      "completion": "0.00000198",
       "discount": 0,
-      "input_cache_read": "0.000000132",
+      "input_cache_read": "0.000000066",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -12441,7 +12441,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.00000132"
+      "prompt": "0.00000066"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -13514,10 +13514,10 @@
      "name": "Wafer | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000043",
+      "completion": "0.000005",
       "discount": 0,
-      "input_cache_read": "0.000000284",
-      "prompt": "0.000000285"
+      "input_cache_read": "0.000000249",
+      "prompt": "0.00000025"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -13586,9 +13586,9 @@
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000132",
+      "completion": "0.00000066",
       "discount": 0,
-      "input_cache_read": "0.000000033",
+      "input_cache_read": "0.0000000165",
       "overrides": [
        {
         "completion": "0.00000066",
@@ -13605,7 +13605,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.00000033"
+      "prompt": "0.000000165"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -15604,9 +15604,9 @@
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000132",
+      "completion": "0.00000066",
       "discount": 0,
-      "input_cache_read": "0.000000033",
+      "input_cache_read": "0.0000000165",
       "overrides": [
        {
         "completion": "0.00000066",
@@ -15623,7 +15623,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.00000033"
+      "prompt": "0.000000165"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -24330,54 +24330,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/fp8/priority"
-    },
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 235929,
-     "max_prompt_tokens": null,
-     "model_id": "google/gemma-4-31b-it",
-     "model_name": "Google: Gemma 4 31B",
-     "name": "DekaLLM | google/gemma-4-31b-it-20260402",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000004",
-      "discount": 0,
-      "input_cache_read": "0.00000005",
-      "prompt": "0.00000014"
-     },
-     "provider_name": "DekaLLM",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "dekallm"
     },
     {
      "context_length": 262144,
@@ -36794,10 +36746,10 @@
      "name": "Relace | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000101551",
+      "completion": "0.0000089338",
       "discount": 0,
-      "input_cache_read": "0.00000021",
-      "prompt": "0.0000002147"
+      "input_cache_read": "0.00000018",
+      "prompt": "0.0000001814"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -36984,8 +36936,8 @@
      "pricing": {
       "completion": "0.000016",
       "discount": 0,
-      "input_cache_read": "0.000000216",
-      "prompt": "0.000000226"
+      "input_cache_read": "0.00000017",
+      "prompt": "0.00000018"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -56429,47 +56381,6 @@
      "max_prompt_tokens": null,
      "model_id": "qwen/qwen3.5-9b",
      "model_name": "Qwen: Qwen3.5-9B",
-     "name": "PrimeIntellect | qwen/qwen3.5-9b-20260310",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000025",
-      "discount": 0,
-      "prompt": "0.00000017"
-     },
-     "provider_name": "PrimeIntellect",
-     "quantization": "bf16",
-     "service_tier": null,
-     "supported_parameters": [
-      "include_reasoning",
-      "max_completion_tokens",
-      "max_tokens",
-      "reasoning",
-      "response_format",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "primeintellect/bf16"
-    },
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 235929,
-     "max_prompt_tokens": null,
-     "model_id": "qwen/qwen3.5-9b",
-     "model_name": "Qwen: Qwen3.5-9B",
      "name": "SiliconFlow | qwen/qwen3.5-9b-20260310",
      "native_tools": {},
      "pricing": {
@@ -61821,9 +61732,9 @@
      "name": "Tencent | tencent/hy3-20260706",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000528",
+      "completion": "0.00000033",
       "discount": 0,
-      "input_cache_read": "0.000000033",
+      "input_cache_read": "0.000000020625",
       "overrides": [
        {
         "completion": "0.00000033",
@@ -61840,7 +61751,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000132"
+      "prompt": "0.0000000825"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -62010,10 +61921,10 @@
      "name": "DeepInfra | tencent/hy4-preview-20260827",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000002501",
-      "discount": 0,
-      "input_cache_read": "0.000000042",
-      "prompt": "0.000000834"
+      "completion": "0.00000237595",
+      "discount": 0.05,
+      "input_cache_read": "0.0000000399",
+      "prompt": "0.0000007923"
      },
      "provider_name": "DeepInfra",
      "quantization": "fp4",
@@ -62151,9 +62062,9 @@
      "name": "Tencent | tencent/hy4-preview-20260827",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000002501",
+      "completion": "0.0000022509",
       "discount": 0,
-      "input_cache_read": "0.000000042",
+      "input_cache_read": "0.0000000378",
       "overrides": [
        {
         "completion": "0.0000022509",
@@ -62170,7 +62081,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000834"
+      "prompt": "0.0000007506"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -69308,8 +69219,8 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.000000139",
-      "prompt": "0.000000557"
+      "input_cache_read": "0.000000173",
+      "prompt": "0.000000691"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -69556,10 +69467,10 @@
      "name": "Relace | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000004",
+      "completion": "0.0000071524",
       "discount": 0,
-      "input_cache_read": "0.00000008",
-      "prompt": "0.0000004"
+      "input_cache_read": "0.0000000324",
+      "prompt": "0.0000000324"
      },
      "provider_name": "Relace",
      "quantization": "unknown",
@@ -71430,8 +71341,8 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.000000139",
-      "prompt": "0.000000557"
+      "input_cache_read": "0.000000173",
+      "prompt": "0.000000691"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -72885,10 +72796,10 @@
      "name": "Inceptron | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000075",
+      "completion": "0.00000055",
       "discount": 0,
-      "input_cache_read": "0.000000075",
-      "prompt": "0.0000002"
+      "input_cache_read": "0.00000005",
+      "prompt": "0.00000015"
      },
      "provider_name": "Inceptron",
      "quantization": "fp8",
@@ -73181,8 +73092,8 @@
      "pricing": {
       "completion": "0.00000065",
       "discount": 0,
-      "input_cache_read": "0.000000109",
-      "prompt": "0.000000386"
+      "input_cache_read": "0.000000089",
+      "prompt": "0.000000316"
      },
      "provider_name": "Morph",
      "quantization": "fp8",

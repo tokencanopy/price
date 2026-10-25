@@ -5225,7 +5225,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 1000000,
-    "is_moderated": false,
+    "is_moderated": true,
     "max_completion_tokens": 128000
    }
   },
@@ -35107,7 +35107,6 @@
     "include_reasoning",
     "logit_bias",
     "logprobs",
-    "max_completion_tokens",
     "max_tokens",
     "min_p",
     "presence_penalty",
@@ -35437,9 +35436,8 @@
    "name": "Qwen: Qwen3.6 27B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002",
-    "input_cache_read": "0.000000025",
-    "prompt": "0.00000025"
+    "completion": "0.0000032",
+    "prompt": "0.00000032"
    },
    "reasoning": {
     "default_enabled": true,
@@ -35470,7 +35468,7 @@
    "top_provider": {
     "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 81920
    }
   },
   {
@@ -38139,8 +38137,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -38157,7 +38155,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -38298,8 +38296,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -38316,7 +38314,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -44488,8 +44486,8 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000001694",
-    "input_cache_read": "0.000000028",
+    "completion": "0.0000001763",
+    "input_cache_read": "0.000000027",
     "prompt": "0.0000000422"
    },
    "reasoning": {
@@ -44733,8 +44731,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000016",
-    "input_cache_read": "0.000000216",
-    "prompt": "0.000000226"
+    "input_cache_read": "0.00000017",
+    "prompt": "0.00000018"
    },
    "reasoning": {
     "default_effort": "max",
