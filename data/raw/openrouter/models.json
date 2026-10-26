@@ -7428,9 +7428,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000045",
-    "input_cache_read": "0.00000005",
-    "prompt": "0.00000005"
+    "completion": "0.000000182",
+    "input_cache_read": "0.0000000182",
+    "prompt": "0.000000091"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7467,9 +7467,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1048575,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 943717
    }
   },
   {
@@ -7806,9 +7806,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000018966",
-    "input_cache_read": "0.000000079025",
-    "prompt": "0.0000009483"
+    "completion": "0.00000191052",
+    "input_cache_read": "0.000000079605",
+    "prompt": "0.00000095526"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7887,8 +7887,8 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022",
+    "completion": "0.00000396",
+    "input_cache_read": "0.000000044",
     "overrides": [
      {
       "completion": "0.00000198",
@@ -7970,7 +7970,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000066"
+    "prompt": "0.00000132"
    },
    "reasoning": {
     "default_effort": "high",
@@ -8193,8 +8193,8 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006",
     "overrides": [
      {
       "completion": "0.0000006",
@@ -8276,7 +8276,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -13160,9 +13160,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000225",
-    "input_cache_read": "0.0000000375",
-    "prompt": "0.0000000675"
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005",
+    "prompt": "0.00000009"
    },
    "reasoning": {
     "default_enabled": false,
@@ -20670,9 +20670,9 @@
    "name": "MoonshotAI: Kimi K3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000016",
-    "input_cache_read": "0.000000142",
-    "prompt": "0.000000152"
+    "completion": "0.00002",
+    "input_cache_read": "0.00000017",
+    "prompt": "0.00000018"
    },
    "reasoning": {
     "default_effort": "max",
@@ -43216,8 +43216,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000014",
-    "input_cache_read": "0.000000078",
-    "prompt": "0.000000079"
+    "input_cache_read": "0.0000000689",
+    "prompt": "0.0000000699"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44774,9 +44774,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000016",
-    "input_cache_read": "0.000000142",
-    "prompt": "0.000000152"
+    "completion": "0.00002",
+    "input_cache_read": "0.00000017",
+    "prompt": "0.00000018"
    },
    "reasoning": {
     "default_effort": "max",
@@ -45401,9 +45401,9 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000000701",
+    "completion": "0.0000000758",
     "input_cache_read": "0.00000003",
-    "prompt": "0.0000000513"
+    "prompt": "0.0000000413"
    },
    "reasoning": {
     "default_effort": "max",
@@ -45479,9 +45479,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000043843",
-    "input_cache_read": "0.0000000703",
-    "prompt": "0.0000000703"
+    "completion": "0.0000014",
+    "input_cache_read": "0.0000000689",
+    "prompt": "0.0000000699"
    },
    "reasoning": {
     "default_effort": "max",
@@ -45520,7 +45520,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    }
   }
  ],
