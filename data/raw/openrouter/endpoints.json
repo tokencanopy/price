@@ -11088,10 +11088,10 @@
      "name": "Phala | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000924",
-      "discount": 0.3,
-      "input_cache_read": "0.0000000196",
-      "prompt": "0.000000308"
+      "completion": "0.00000132",
+      "discount": 0,
+      "input_cache_read": "0.000000028",
+      "prompt": "0.00000044"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -11461,8 +11461,8 @@
      "pricing": {
       "completion": "0.00000023",
       "discount": 0,
-      "input_cache_read": "0.000000135",
-      "prompt": "0.00000014"
+      "input_cache_read": "0.000000125",
+      "prompt": "0.00000013"
      },
      "provider_name": "Wafer",
      "quantization": "nvfp4",
@@ -12198,54 +12198,6 @@
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4-pro",
      "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
-     "name": "Reka | deepseek/deepseek-v4-pro-20260423",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000016",
-      "discount": 0,
-      "input_cache_read": "0.00000008",
-      "prompt": "0.0000008"
-     },
-     "provider_name": "Reka",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "reka"
-    },
-    {
-     "context_length": 1048576,
-     "max_completion_tokens": 393216,
-     "max_prompt_tokens": null,
-     "model_id": "deepseek/deepseek-v4-pro",
-     "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
      "name": "Relace | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
@@ -12864,9 +12816,9 @@
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000198",
+      "completion": "0.00000396",
       "discount": 0,
-      "input_cache_read": "0.000000022",
+      "input_cache_read": "0.000000044",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -12948,7 +12900,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000066"
+      "prompt": "0.00000132"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -13327,10 +13279,10 @@
      "name": "Phala | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000028776",
-      "discount": 0.34,
-      "input_cache_read": "0.000000099",
-      "prompt": "0.000000957"
+      "completion": "0.00000436",
+      "discount": 0,
+      "input_cache_read": "0.00000015",
+      "prompt": "0.00000145"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -13377,8 +13329,8 @@
      "pricing": {
       "completion": "0.000008",
       "discount": 0,
-      "input_cache_read": "0.00000025",
-      "prompt": "0.0000002546"
+      "input_cache_read": "0.00000023",
+      "prompt": "0.0000002266"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -14991,8 +14943,8 @@
      "pricing": {
       "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000004",
-      "prompt": "0.00000014"
+      "input_cache_read": "0.000000005",
+      "prompt": "0.000000069"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -15138,10 +15090,10 @@
      "name": "OpenInference | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000001",
+      "completion": "0.000001",
       "discount": 0,
-      "input_cache_read": "0.000000034002",
-      "prompt": "0.000000043156"
+      "input_cache_read": "0.000000015",
+      "prompt": "0.00000002"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -16290,9 +16242,9 @@
      "name": "DeepSeek | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000006",
+      "completion": "0.0000012",
       "discount": 0,
-      "input_cache_read": "0.000000003",
+      "input_cache_read": "0.000000006",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -16374,7 +16326,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000015"
+      "prompt": "0.0000003"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -16843,8 +16795,8 @@
      "pricing": {
       "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000004",
-      "prompt": "0.00000014"
+      "input_cache_read": "0.000000005",
+      "prompt": "0.000000069"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -16941,10 +16893,10 @@
      "name": "Novita | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000096",
-      "discount": 0.2,
-      "input_cache_read": "0.0000000048",
-      "prompt": "0.00000024"
+      "completion": "0.00000078",
+      "discount": 0.35,
+      "input_cache_read": "0.0000000039",
+      "prompt": "0.000000195"
      },
      "provider_name": "Novita",
      "quantization": "fp8",
@@ -16990,10 +16942,10 @@
      "name": "OpenInference | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000001",
+      "completion": "0.000001",
       "discount": 0,
-      "input_cache_read": "0.000000011343",
-      "prompt": "0.000000041902"
+      "input_cache_read": "0.000000015",
+      "prompt": "0.00000002"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -17425,10 +17377,10 @@
      "name": "StreamLake | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000084",
-      "discount": 0.3,
-      "input_cache_read": "0.0000000042",
-      "prompt": "0.00000021"
+      "completion": "0.000000714",
+      "discount": 0.405,
+      "input_cache_read": "0.00000000357",
+      "prompt": "0.0000001785"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -17524,7 +17476,7 @@
       "completion": "0.0000005",
       "discount": 0,
       "input_cache_read": "0.000000008",
-      "prompt": "0.00000013"
+      "prompt": "0.00000011"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -23984,10 +23936,10 @@
      "name": "NextBit | google/gemma-4-26b-a4b-it-20260403",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000255",
-      "discount": 0.15,
-      "input_cache_read": "0.0000000425",
-      "prompt": "0.0000000765"
+      "completion": "0.0000003",
+      "discount": 0,
+      "input_cache_read": "0.00000005",
+      "prompt": "0.00000009"
      },
      "provider_name": "NextBit",
      "quantization": "bf16",
@@ -24145,6 +24097,7 @@
       "response_format",
       "structured_outputs",
       "temperature",
+      "tool_choice",
       "tools",
       "top_k",
       "top_p"
@@ -24604,54 +24557,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/fp8/priority"
-    },
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 235929,
-     "max_prompt_tokens": null,
-     "model_id": "google/gemma-4-31b-it",
-     "model_name": "Google: Gemma 4 31B",
-     "name": "DekaLLM | google/gemma-4-31b-it-20260402",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000004",
-      "discount": 0,
-      "input_cache_read": "0.00000005",
-      "prompt": "0.00000014"
-     },
-     "provider_name": "DekaLLM",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "dekallm"
     },
     {
      "context_length": 262144,
@@ -36719,10 +36624,10 @@
      "name": "Morph | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00003752",
+      "completion": "0.000028125",
       "discount": 0,
-      "input_cache_read": "0.000000416",
-      "prompt": "0.00000117"
+      "input_cache_read": "0.00000076",
+      "prompt": "0.00000257"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -36918,10 +36823,10 @@
      "name": "Relace | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000894",
+      "completion": "0.0000097224",
       "discount": 0,
       "input_cache_read": "0.00000017",
-      "prompt": "0.0000001795"
+      "prompt": "0.00000017"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -37106,10 +37011,10 @@
      "name": "Wafer | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00002",
+      "completion": "0.0000115",
       "discount": 0,
-      "input_cache_read": "0.000000179",
-      "prompt": "0.000000189"
+      "input_cache_read": "0.000000159",
+      "prompt": "0.000000169"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -39047,7 +38952,7 @@
     "tokenizer": "Router"
    },
    "created": 1790025947,
-   "description": "Switchyard is an open-source model router that switches between multiple models to optimize the cost of requests. By default it will use OpenRouter market data to select the most popular...",
+   "description": "Switchyard is an open-source model routing system that switches between multiple models to optimize the cost of requests. By default it will use OpenRouter market data to select the most...",
    "endpoints": [],
    "id": "nvidia/switchyard",
    "name": "NVIDIA: Switchyard"
@@ -49880,6 +49785,207 @@
    "id": "openai/gpt-6.1-terra",
    "name": "OpenAI: GPT-6.1 Terra"
   },
+  "openai/gpt-6.1-terra-pro": {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "created": 1793038556,
+   "description": "GPT-6.1 Terra Pro is the same underlying model as [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
+   "endpoints": [
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6.1-terra-pro",
+     "model_name": "OpenAI: GPT-6.1 Terra Pro",
+     "name": "OpenAI | openai/gpt-6.1-terra-pro-20261026",
+     "native_tools": {
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      },
+      "openrouter:web_search": {
+       "type": "web_search"
+      }
+     },
+     "pricing": {
+      "completion": "0.0000025",
+      "discount": 0,
+      "input_cache_read": "0.000000025",
+      "input_cache_write": "0.000000625",
+      "overrides": [
+       {
+        "completion": "0.00000375",
+        "input_cache_read": "0.00000005",
+        "input_cache_write": "0.00000125",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000001"
+       }
+      ],
+      "prompt": "0.0000005",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "service_tier": "flex",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai/flex"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6.1-terra-pro",
+     "model_name": "OpenAI: GPT-6.1 Terra Pro",
+     "name": "OpenAI | openai/gpt-6.1-terra-pro-20261026",
+     "native_tools": {
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      },
+      "openrouter:web_search": {
+       "type": "web_search"
+      }
+     },
+     "pricing": {
+      "completion": "0.000005",
+      "discount": 0,
+      "input_cache_read": "0.00000005",
+      "input_cache_write": "0.00000125",
+      "overrides": [
+       {
+        "completion": "0.0000075",
+        "input_cache_read": "0.0000001",
+        "input_cache_write": "0.0000025",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000002"
+       }
+      ],
+      "prompt": "0.000001",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6.1-terra-pro",
+     "model_name": "OpenAI: GPT-6.1 Terra Pro",
+     "name": "OpenAI | openai/gpt-6.1-terra-pro-20261026",
+     "native_tools": {
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      },
+      "openrouter:web_search": {
+       "type": "web_search"
+      }
+     },
+     "pricing": {
+      "completion": "0.00001",
+      "discount": 0,
+      "input_cache_read": "0.0000001",
+      "input_cache_write": "0.0000025",
+      "overrides": [
+       {
+        "completion": "0.000015",
+        "input_cache_read": "0.0000002",
+        "input_cache_write": "0.000005",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000004"
+       }
+      ],
+      "prompt": "0.000002",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "service_tier": "priority",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai/fast"
+    }
+   ],
+   "id": "openai/gpt-6.1-terra-pro",
+   "name": "OpenAI: GPT-6.1 Terra Pro"
+  },
   "openai/gpt-audio": {
    "architecture": {
     "input_modalities": [
@@ -60486,56 +60592,6 @@
      "tag": "digitalocean"
     },
     {
-     "context_length": 1048320,
-     "max_completion_tokens": 131072,
-     "max_prompt_tokens": null,
-     "model_id": "reflection/beam-1.0-501b-a23b",
-     "model_name": "Reflection: Beam 1.0 501B A23B",
-     "name": "Io Net | reflection/beam-1.0-501b-a23b-20261016",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000098",
-      "discount": 0,
-      "input_cache_read": "0.000000035",
-      "prompt": "0.00000024"
-     },
-     "provider_name": "Io Net",
-     "quantization": "fp4",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "io-net/fp4"
-    },
-    {
      "context_length": 1048576,
      "max_completion_tokens": 131072,
      "max_prompt_tokens": null,
@@ -62434,6 +62490,55 @@
    "description": "Tencent: Hy4 preview is a mixture-of-experts model from Tencent, with 49B active parameters out of 770B total. It is designed for coding agents, complex tool-use workflows, and productivity tasks that...",
    "endpoints": [
     {
+     "context_length": 1048576,
+     "max_completion_tokens": 64000,
+     "max_prompt_tokens": null,
+     "model_id": "tencent/hy4-preview",
+     "model_name": "Tencent: Hy4 preview",
+     "name": "AtlasCloud | tencent/hy4-preview-20260827",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.000002501",
+      "discount": 0,
+      "input_cache_read": "0.000000042",
+      "prompt": "0.000000834"
+     },
+     "provider_name": "AtlasCloud",
+     "quantization": "fp8",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": false,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "atlas-cloud/fp8"
+    },
+    {
      "context_length": 262144,
      "max_completion_tokens": 131072,
      "max_prompt_tokens": null,
@@ -62493,10 +62598,10 @@
      "name": "DeepInfra | tencent/hy4-preview-20260827",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000237595",
-      "discount": 0.05,
-      "input_cache_read": "0.0000000399",
-      "prompt": "0.0000007923"
+      "completion": "0.000002501",
+      "discount": 0,
+      "input_cache_read": "0.000000042",
+      "prompt": "0.000000834"
      },
      "provider_name": "DeepInfra",
      "quantization": "fp4",
@@ -65848,10 +65953,10 @@
      "name": "DeepInfra | xiaomi/mimo-v2.6-flash-20260921",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000182",
-      "discount": 0.35,
-      "input_cache_read": "0.00000000182",
-      "prompt": "0.000000091"
+      "completion": "0.00000028",
+      "discount": 0,
+      "input_cache_read": "0.0000000028",
+      "prompt": "0.00000014"
      },
      "provider_name": "DeepInfra",
      "quantization": "fp8",
@@ -69789,10 +69894,10 @@
      "name": "Morph | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000004752",
+      "completion": "0.000005543",
       "discount": 0,
-      "input_cache_read": "0.000000356",
-      "prompt": "0.000001423"
+      "input_cache_read": "0.00000045",
+      "prompt": "0.000001801"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -71862,10 +71967,10 @@
      "name": "Morph | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000004752",
+      "completion": "0.000005543",
       "discount": 0,
-      "input_cache_read": "0.000000356",
-      "prompt": "0.000001423"
+      "input_cache_read": "0.00000045",
+      "prompt": "0.000001801"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -72533,7 +72638,7 @@
       "completion": "0.0000014",
       "discount": 0,
       "input_cache_read": "0.0000000689",
-      "prompt": "0.0000000699"
+      "prompt": "0.0000000769"
      },
      "provider_name": "Wafer",
      "quantization": "fp4",
@@ -73576,7 +73681,7 @@
       "prompt": "0.00000015"
      },
      "provider_name": "Modal",
-     "quantization": "nvfp4",
+     "quantization": "fp4",
      "service_tier": null,
      "supported_parameters": [
       "include_reasoning",
@@ -73604,7 +73709,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "modal/nvfp4"
+     "tag": "modal/fp4"
     },
     {
      "context_length": 1048576,
@@ -73617,8 +73722,8 @@
      "pricing": {
       "completion": "0.00000065",
       "discount": 0,
-      "input_cache_read": "0.000010654",
-      "prompt": "0.000037882"
+      "input_cache_read": "0.000000055",
+      "prompt": "0.000000197"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -73861,10 +73966,10 @@
      "name": "OpenInference | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000001",
+      "completion": "0.00000005",
       "discount": 0,
-      "input_cache_read": "0.000000005303",
-      "prompt": "0.000000107647"
+      "input_cache_read": "0.00000000442",
+      "prompt": "0.000000098553"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -74062,9 +74167,9 @@
      "name": "Reka | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000024",
+      "completion": "0.0000012",
       "discount": 0,
-      "input_cache_read": "0.00000008",
+      "input_cache_read": "0.00000003",
       "prompt": "0.00000015"
      },
      "provider_name": "Reka",
@@ -74112,10 +74217,10 @@
      "name": "Relace | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000000758",
+      "completion": "0.0000000701",
       "discount": 0,
       "input_cache_read": "0.00000003",
-      "prompt": "0.0000000413"
+      "prompt": "0.0000000513"
      },
      "provider_name": "Relace",
      "quantization": "unknown",
@@ -74295,10 +74400,10 @@
      "name": "StreamLake | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000145",
-      "discount": 0.71,
-      "input_cache_read": "0.0000000087",
-      "prompt": "0.0000000435"
+      "completion": "0.000000295",
+      "discount": 0.41,
+      "input_cache_read": "0.0000000177",
+      "prompt": "0.0000000885"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",

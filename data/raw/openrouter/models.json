@@ -7449,9 +7449,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash 0731",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000132",
-    "input_cache_read": "0.000000014",
-    "prompt": "0.00000044"
+    "completion": "0.000000238",
+    "input_cache_read": "0.0000000238",
+    "prompt": "0.000000119"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7492,7 +7492,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    }
   },
   {
@@ -7772,8 +7772,8 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022",
+    "completion": "0.00000396",
+    "input_cache_read": "0.000000044",
     "overrides": [
      {
       "completion": "0.00000198",
@@ -7855,7 +7855,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000066"
+    "prompt": "0.00000132"
    },
    "reasoning": {
     "default_effort": "high",
@@ -8078,8 +8078,8 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006",
     "overrides": [
      {
       "completion": "0.0000006",
@@ -8161,7 +8161,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -12990,9 +12990,8 @@
    "name": "Google: Gemma 3 4B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000005",
-    "input_cache_read": "0.00000002",
-    "prompt": "0.00000004"
+    "completion": "0.0000001",
+    "prompt": "0.00000005"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -13015,7 +13014,7 @@
    "top_provider": {
     "context_length": 131072,
     "is_moderated": false,
-    "max_completion_tokens": 117964
+    "max_completion_tokens": 16384
    }
   },
   {
@@ -13059,9 +13058,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425",
-    "prompt": "0.0000000765"
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005",
+    "prompt": "0.00000009"
    },
    "reasoning": {
     "default_enabled": false,
@@ -19996,9 +19995,9 @@
    "name": "MoonshotAI: Kimi K3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00002",
-    "input_cache_read": "0.000000179",
-    "prompt": "0.000000189"
+    "completion": "0.0000115",
+    "input_cache_read": "0.000000159",
+    "prompt": "0.000000169"
    },
    "reasoning": {
     "default_effort": "max",
@@ -21825,7 +21824,7 @@
    "context_length": 1000000,
    "created": 1790025947,
    "default_parameters": {},
-   "description": "Switchyard is an open-source model router that switches between multiple models to optimize the cost of requests. By default it will use OpenRouter market data to select the most popular...",
+   "description": "Switchyard is an open-source model routing system that switches between multiple models to optimize the cost of requests. By default it will use OpenRouter market data to select the most...",
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "nvidia/switchyard",
@@ -30024,6 +30023,170 @@
     ],
     "tokenizer": "GPT"
    },
+   "canonical_slug": "openai/gpt-6.1-terra-pro-20261026",
+   "context_length": 1050000,
+   "created": 1793038556,
+   "default_parameters": {
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null,
+    "temperature": null,
+    "top_k": null,
+    "top_p": null
+   },
+   "description": "GPT-6.1 Terra Pro is the same underlying model as [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "openai/gpt-6.1-terra-pro",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6.1-terra-pro-20261026/endpoints"
+   },
+   "name": "OpenAI: GPT-6.1 Terra Pro",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.000005",
+    "input_cache_read": "0.00000005",
+    "input_cache_write": "0.00000125",
+    "overrides": [
+     {
+      "completion": "0.0000075",
+      "input_cache_read": "0.0000001",
+      "input_cache_write": "0.0000025",
+      "min_prompt_tokens": 272000,
+      "prompt": "0.000002"
+     }
+    ],
+    "prompt": "0.000001",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "default_enabled": true,
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1050000,
+    "is_moderated": true,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "canonical_slug": "openai/gpt-6.1-terra-pro-20261026",
+   "context_length": 1050000,
+   "created": 1793038556,
+   "default_parameters": {
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null,
+    "temperature": null,
+    "top_k": null,
+    "top_p": null
+   },
+   "description": "GPT-6.1 Terra Pro is the same underlying model as [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "openai/gpt-6.1-terra-pro:batch",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6.1-terra-pro-20261026/endpoints"
+   },
+   "name": "OpenAI: GPT-6.1 Terra Pro (batch)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.0000025",
+    "input_cache_read": "0.000000025",
+    "input_cache_write": "0.000000625",
+    "overrides": [
+     {
+      "completion": "0.00000375",
+      "input_cache_read": "0.00000005",
+      "input_cache_write": "0.00000125",
+      "min_prompt_tokens": 272000,
+      "prompt": "0.000001"
+     }
+    ],
+    "prompt": "0.0000005",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "default_enabled": true,
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1050000,
+    "is_moderated": true,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
    "benchmarks": {
     "artificial_analysis": {
      "agentic_index": null,
@@ -35960,9 +36123,9 @@
    "name": "Qwen: Qwen3.8 27B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000125",
-    "input_cache_read": "0.0000000039",
-    "prompt": "0.000000039"
+    "completion": "0.0000025",
+    "input_cache_read": "0.00000009",
+    "prompt": "0.0000002"
    },
    "reasoning": {
     "default_effort": "xhigh",
@@ -36002,7 +36165,7 @@
    "top_provider": {
     "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 235929
    }
   },
   {
@@ -40725,9 +40888,9 @@
    "name": "Xiaomi: MiMo-V2.5-Pro",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000609",
-    "input_cache_read": "0.0000000028",
-    "prompt": "0.0000003045"
+    "completion": "0.0000018",
+    "input_cache_read": "0.000000096",
+    "prompt": "0.00000048"
    },
    "reasoning": {
     "mandatory": false
@@ -40748,9 +40911,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1050000,
+    "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 945000
+    "max_completion_tokens": 235929
    }
   },
   {
@@ -42733,7 +42896,7 @@
    "pricing": {
     "completion": "0.0000014",
     "input_cache_read": "0.0000000689",
-    "prompt": "0.0000000699"
+    "prompt": "0.0000000769"
    },
    "reasoning": {
     "default_effort": "max",
@@ -43892,9 +44055,9 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000005",
-    "input_cache_read": "0.00000003",
-    "prompt": "0.00000004"
+    "completion": "0.000001",
+    "input_cache_read": "0.000000015",
+    "prompt": "0.00000002"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43935,7 +44098,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 943718
    }
   },
   {
@@ -43973,8 +44136,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000008",
-    "input_cache_read": "0.00000024",
-    "prompt": "0.0000002448"
+    "input_cache_read": "0.00000023",
+    "prompt": "0.0000002266"
    },
    "reasoning": {
     "default_effort": "high",
@@ -44290,9 +44453,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00002",
-    "input_cache_read": "0.000000179",
-    "prompt": "0.000000189"
+    "completion": "0.0000115",
+    "input_cache_read": "0.000000159",
+    "prompt": "0.000000169"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44909,9 +45072,9 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000000758",
+    "completion": "0.0000000701",
     "input_cache_read": "0.00000003",
-    "prompt": "0.0000000413"
+    "prompt": "0.0000000513"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44987,9 +45150,9 @@
    "name": "Z.ai: GLM Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000014",
-    "input_cache_read": "0.0000000689",
-    "prompt": "0.0000000699"
+    "completion": "0.0000043843",
+    "input_cache_read": "0.0000000703",
+    "prompt": "0.0000000703"
    },
    "reasoning": {
     "default_effort": "max",
@@ -45028,12 +45191,12 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    }
   }
  ],
  "links": {
   "next": null
  },
- "total_count": 462
+ "total_count": 464
 }
