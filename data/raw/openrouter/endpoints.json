@@ -9112,54 +9112,6 @@
      "tag": "gmicloud/fp8"
     },
     {
-     "context_length": 163840,
-     "max_completion_tokens": 65536,
-     "max_prompt_tokens": null,
-     "model_id": "deepseek/deepseek-v3.2",
-     "model_name": "DeepSeek: DeepSeek V3.2",
-     "name": "Google | deepseek/deepseek-v3.2-20251201",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000168",
-      "discount": 0,
-      "prompt": "0.00000056"
-     },
-     "provider_name": "Google",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": false,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "google-vertex"
-    },
-    {
      "context_length": 32768,
      "max_completion_tokens": 7168,
      "max_prompt_tokens": null,
@@ -9331,51 +9283,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "siliconflow/fp8"
-    },
-    {
-     "context_length": 160000,
-     "max_completion_tokens": 32768,
-     "max_prompt_tokens": null,
-     "model_id": "deepseek/deepseek-v3.2",
-     "model_name": "DeepSeek: DeepSeek V3.2",
-     "name": "Venice | deepseek/deepseek-v3.2-20251201",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000039024",
-      "discount": 0.187,
-      "input_cache_read": "0.00000013008",
-      "prompt": "0.00000026829"
-     },
-     "provider_name": "Venice",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "response_format",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "venice"
     }
    ],
    "id": "deepseek/deepseek-v3.2",
@@ -9605,10 +9512,10 @@
      "name": "Baidu | deepseek/deepseek-v4-flash-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000028",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000014"
+      "completion": "0.00000008064",
+      "discount": 0.712,
+      "input_cache_read": "0.000000008064",
+      "prompt": "0.00000004032"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10041,8 +9948,8 @@
      "pricing": {
       "completion": "0.00000045",
       "discount": 0,
-      "input_cache_read": "0.00000005",
-      "prompt": "0.00000005"
+      "input_cache_read": "0.0000000383",
+      "prompt": "0.0000000383"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -10130,10 +10037,10 @@
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000001652",
-      "discount": 0.41,
-      "input_cache_read": "0.00000001652",
-      "prompt": "0.0000000826"
+      "completion": "0.00000014",
+      "discount": 0.5,
+      "input_cache_read": "0.000000014",
+      "prompt": "0.00000007"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -10290,9 +10197,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001056",
+      "completion": "0.000000528",
       "discount": 0,
-      "input_cache_read": "0.0000000352",
+      "input_cache_read": "0.0000000176",
       "overrides": [
        {
         "completion": "0.000000528",
@@ -10309,7 +10216,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000352"
+      "prompt": "0.000000176"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -10353,9 +10260,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001122",
+      "completion": "0.000000561",
       "discount": 0,
-      "input_cache_read": "0.0000000374",
+      "input_cache_read": "0.0000000187",
       "overrides": [
        {
         "completion": "0.000000561",
@@ -10372,7 +10279,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000374"
+      "prompt": "0.000000187"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -10466,10 +10373,10 @@
      "name": "Baidu | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000132",
-      "discount": 0,
-      "input_cache_read": "0.000000014",
-      "prompt": "0.00000044"
+      "completion": "0.00000013332",
+      "discount": 0.899,
+      "input_cache_read": "0.000000001414",
+      "prompt": "0.00000004444"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10886,7 +10793,7 @@
      "name": "Inceptron | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000495",
+      "completion": "0.0000003666",
       "discount": 0,
       "input_cache_read": "0.000000027",
       "prompt": "0.00000013"
@@ -11183,10 +11090,10 @@
      "name": "Relace | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000001568",
+      "completion": "0.0000001694",
       "discount": 0,
       "input_cache_read": "0.000000028",
-      "prompt": "0.0000000475"
+      "prompt": "0.0000000422"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -11461,8 +11368,8 @@
      "pricing": {
       "completion": "0.00000023",
       "discount": 0,
-      "input_cache_read": "0.000000135",
-      "prompt": "0.00000014"
+      "input_cache_read": "0.000000095",
+      "prompt": "0.0000001"
      },
      "provider_name": "Wafer",
      "quantization": "nvfp4",
@@ -11872,10 +11779,10 @@
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000338",
-      "discount": 0,
-      "input_cache_read": "0.00000014",
-      "prompt": "0.00000169"
+      "completion": "0.00000177788",
+      "discount": 0.474,
+      "input_cache_read": "0.00000007364",
+      "prompt": "0.00000088894"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -12292,10 +12199,10 @@
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000191052",
-      "discount": 0.451,
-      "input_cache_read": "0.000000079605",
-      "prompt": "0.00000095526"
+      "completion": "0.000001777932",
+      "discount": 0.4891,
+      "input_cache_read": "0.0000000740805",
+      "prompt": "0.000000888966"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -12402,9 +12309,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000003366",
+      "completion": "0.0000017424",
       "discount": 0,
-      "input_cache_read": "0.0000001122",
+      "input_cache_read": "0.00000005808",
       "overrides": [
        {
         "completion": "0.0000017424",
@@ -12421,7 +12328,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000001122"
+      "prompt": "0.0000005808"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -12465,9 +12372,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000396",
+      "completion": "0.00000198",
       "discount": 0,
-      "input_cache_read": "0.000000132",
+      "input_cache_read": "0.000000066",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -12484,7 +12391,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.00000132"
+      "prompt": "0.00000066"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -12578,10 +12485,10 @@
      "name": "Baidu | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000396",
-      "discount": 0,
-      "input_cache_read": "0.000000042",
-      "prompt": "0.00000132"
+      "completion": "0.00000043956",
+      "discount": 0.889,
+      "input_cache_read": "0.000000004662",
+      "prompt": "0.00000014652"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -13329,8 +13236,8 @@
      "pricing": {
       "completion": "0.000008",
       "discount": 0,
-      "input_cache_read": "0.00000025",
-      "prompt": "0.0000002542"
+      "input_cache_read": "0.00000015",
+      "prompt": "0.0000001472"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -13723,9 +13630,9 @@
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000132",
+      "completion": "0.00000066",
       "discount": 0,
-      "input_cache_read": "0.000000033",
+      "input_cache_read": "0.0000000165",
       "overrides": [
        {
         "completion": "0.00000066",
@@ -13742,7 +13649,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.00000033"
+      "prompt": "0.000000165"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -13835,10 +13742,10 @@
      "name": "Baidu | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
-      "discount": 0,
-      "input_cache_read": "0.000000006",
-      "prompt": "0.0000003"
+      "completion": "0.0000001752",
+      "discount": 0.854,
+      "input_cache_read": "0.000000000876",
+      "prompt": "0.0000000438"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -14941,10 +14848,10 @@
      "name": "Morph | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000548",
+      "completion": "0.000000383",
       "discount": 0,
       "input_cache_read": "0.000000004",
-      "prompt": "0.000000063"
+      "prompt": "0.000000044"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -15090,10 +14997,10 @@
      "name": "OpenInference | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000488",
+      "completion": "0.000000305",
       "discount": 0,
-      "input_cache_read": "0.000000000992",
-      "prompt": "0.00000000143"
+      "input_cache_read": "0.00000000227",
+      "prompt": "0.00000000249"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -15741,9 +15648,9 @@
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000132",
+      "completion": "0.00000066",
       "discount": 0,
-      "input_cache_read": "0.000000033",
+      "input_cache_read": "0.0000000165",
       "overrides": [
        {
         "completion": "0.00000066",
@@ -15760,7 +15667,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.00000033"
+      "prompt": "0.000000165"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -15983,6 +15890,57 @@
      },
      "supports_voice_cloning": false,
      "tag": "cloudflare"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 384000,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4.1-flash-1017",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+     "name": "Cohere | deepseek/deepseek-v4.1-flash-20261017",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000066",
+      "discount": 0,
+      "input_cache_read": "0.000000006",
+      "prompt": "0.000000195"
+     },
+     "provider_name": "Cohere",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "parallel_tool_calls",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "cohere"
     },
     {
      "context_length": 1048576,
@@ -16369,10 +16327,10 @@
      "name": "DigitalOcean | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000072",
+      "completion": "0.0000009",
       "discount": 0,
       "input_cache_read": "0.000000006",
-      "prompt": "0.00000018"
+      "prompt": "0.000000225"
      },
      "provider_name": "DigitalOcean",
      "quantization": "unknown",
@@ -16843,10 +16801,10 @@
      "name": "Morph | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000548",
+      "completion": "0.000000383",
       "discount": 0,
       "input_cache_read": "0.000000004",
-      "prompt": "0.000000063"
+      "prompt": "0.000000044"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -16995,7 +16953,7 @@
       "completion": "0.0000018",
       "discount": 0,
       "input_cache_read": "0.0000000114",
-      "prompt": "0.0000000126"
+      "prompt": "0.0000000115"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -29014,54 +28972,6 @@
    "description": "MiniMax-M2 is a compact, high-efficiency large language model optimized for end-to-end coding and agentic workflows. With 10 billion activated parameters (230 billion total), it delivers near-frontier intelligence across general reasoning,...",
    "endpoints": [
     {
-     "context_length": 196608,
-     "max_completion_tokens": 176947,
-     "max_prompt_tokens": null,
-     "model_id": "minimax/minimax-m2",
-     "model_name": "MiniMax: MiniMax M2",
-     "name": "Google | minimax/minimax-m2",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000012",
-      "discount": 0,
-      "prompt": "0.0000003"
-     },
-     "provider_name": "Google",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "google-vertex"
-    },
-    {
      "context_length": 204800,
      "max_completion_tokens": 131072,
      "max_prompt_tokens": null,
@@ -34201,54 +34111,6 @@
    "endpoints": [
     {
      "context_length": 262144,
-     "max_completion_tokens": 235929,
-     "max_prompt_tokens": null,
-     "model_id": "moonshotai/kimi-k2-thinking",
-     "model_name": "MoonshotAI: Kimi K2 Thinking",
-     "name": "Google | moonshotai/kimi-k2-thinking-20251106",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000025",
-      "discount": 0,
-      "prompt": "0.0000006"
-     },
-     "provider_name": "Google",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "google-vertex"
-    },
-    {
-     "context_length": 262144,
      "max_completion_tokens": 98304,
      "max_prompt_tokens": null,
      "model_id": "moonshotai/kimi-k2-thinking",
@@ -34619,10 +34481,10 @@
      "name": "Baidu | moonshotai/kimi-k2.6-20260420",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000004",
-      "discount": 0,
-      "input_cache_read": "0.00000016",
-      "prompt": "0.00000095"
+      "completion": "0.00000164",
+      "discount": 0.59,
+      "input_cache_read": "0.0000000656",
+      "prompt": "0.0000003895"
      },
      "provider_name": "Baidu",
      "quantization": "fp4",
@@ -34996,8 +34858,8 @@
      "pricing": {
       "completion": "0.0000035",
       "discount": 0,
-      "input_cache_read": "0.0000001248",
-      "prompt": "0.000000624"
+      "input_cache_read": "0.0000001674",
+      "prompt": "0.0000006236"
      },
      "provider_name": "Inceptron",
      "quantization": "int4",
@@ -36732,8 +36594,8 @@
      "pricing": {
       "completion": "0.000015",
       "discount": 0,
-      "input_cache_read": "0.00000023",
-      "prompt": "0.00000065"
+      "input_cache_read": "0.0000002",
+      "prompt": "0.0000005"
      },
      "provider_name": "Makora",
      "quantization": "fp4",
@@ -36869,8 +36731,8 @@
      "pricing": {
       "completion": "0.000014626",
       "discount": 0,
-      "input_cache_read": "0.000000292",
-      "prompt": "0.000001035"
+      "input_cache_read": "0.000000324",
+      "prompt": "0.00000115"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -37066,10 +36928,10 @@
      "name": "Relace | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000894",
+      "completion": "0.000008504",
       "discount": 0,
-      "input_cache_read": "0.00000017",
-      "prompt": "0.0000001795"
+      "input_cache_read": "0.00000019",
+      "prompt": "0.0000001909"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -37256,8 +37118,8 @@
      "pricing": {
       "completion": "0.00002",
       "discount": 0,
-      "input_cache_read": "0.000000169",
-      "prompt": "0.000000179"
+      "input_cache_read": "0.000000191",
+      "prompt": "0.000000201"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -39433,120 +39295,10 @@
      },
      "supports_voice_cloning": false,
      "tag": "azure"
-    },
-    {
-     "context_length": 8191,
-     "max_completion_tokens": 4096,
-     "max_prompt_tokens": null,
-     "model_id": "openai/gpt-4",
-     "model_name": "OpenAI: GPT-4",
-     "name": "OpenAI | openai/gpt-4",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00006",
-      "discount": 0,
-      "prompt": "0.00003"
-     },
-     "provider_name": "OpenAI",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "openai"
     }
    ],
    "id": "openai/gpt-4",
    "name": "OpenAI: GPT-4"
-  },
-  "openai/gpt-4-turbo": {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "GPT"
-   },
-   "created": 1712620800,
-   "description": "The latest GPT-4 Turbo model with vision capabilities. Vision requests can now use JSON mode and function calling.\n\nTraining data: up to December 2023.",
-   "endpoints": [
-    {
-     "context_length": 128000,
-     "max_completion_tokens": 4096,
-     "max_prompt_tokens": null,
-     "model_id": "openai/gpt-4-turbo",
-     "model_name": "OpenAI: GPT-4 Turbo",
-     "name": "OpenAI | openai/gpt-4-turbo",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00003",
-      "discount": 0,
-      "prompt": "0.00001"
-     },
-     "provider_name": "OpenAI",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "openai"
-    }
-   ],
-   "id": "openai/gpt-4-turbo",
-   "name": "OpenAI: GPT-4 Turbo"
   },
   "openai/gpt-4.1": {
    "architecture": {
@@ -39942,51 +39694,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "azure/swedencentral"
-    },
-    {
-     "context_length": 1047576,
-     "max_completion_tokens": 32768,
-     "max_prompt_tokens": null,
-     "model_id": "openai/gpt-4.1-nano",
-     "model_name": "OpenAI: GPT-4.1 Nano",
-     "name": "OpenAI | openai/gpt-4.1-nano-2025-04-14",
-     "native_tools": {
-      "openrouter:web_search": {
-       "type": "web_search"
-      }
-     },
-     "pricing": {
-      "completion": "0.0000004",
-      "discount": 0,
-      "input_cache_read": "0.000000025",
-      "prompt": "0.0000001",
-      "web_search": "0.01"
-     },
-     "provider_name": "OpenAI",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "max_tokens",
-      "response_format",
-      "seed",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "openai"
     }
    ],
    "id": "openai/gpt-4.1-nano",
@@ -40169,53 +39876,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "azure"
-    },
-    {
-     "context_length": 128000,
-     "max_completion_tokens": 4096,
-     "max_prompt_tokens": null,
-     "model_id": "openai/gpt-4o-2024-05-13",
-     "model_name": "OpenAI: GPT-4o (2024-05-13)",
-     "name": "OpenAI | openai/gpt-4o-2024-05-13",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.000015",
-      "discount": 0,
-      "prompt": "0.000005"
-     },
-     "provider_name": "OpenAI",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "logit_bias",
-      "logprobs",
-      "max_tokens",
-      "prediction",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_logprobs",
-      "top_p",
-      "web_search_options"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "openai"
     }
    ],
    "id": "openai/gpt-4o-2024-05-13",
@@ -52076,48 +51736,6 @@
     },
     {
      "context_length": 131072,
-     "max_completion_tokens": 32768,
-     "max_prompt_tokens": null,
-     "model_id": "openai/gpt-oss-20b",
-     "model_name": "OpenAI: gpt-oss-20b",
-     "name": "Google | openai/gpt-oss-20b",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000025",
-      "discount": 0,
-      "prompt": "0.00000007"
-     },
-     "provider_name": "Google",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "structured_outputs",
-      "temperature",
-      "top_k",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "google-vertex/us-central1"
-    },
-    {
-     "context_length": 131072,
      "max_completion_tokens": 65536,
      "max_prompt_tokens": null,
      "model_id": "openai/gpt-oss-20b",
@@ -52318,127 +51936,6 @@
    "id": "openai/gpt-oss-safeguard-20b",
    "name": "OpenAI: gpt-oss-safeguard-20b"
   },
-  "openai/o1": {
-   "architecture": {
-    "input_modalities": [
-     "file",
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image+file->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "GPT"
-   },
-   "created": 1734459999,
-   "description": "The latest and strongest model family from OpenAI, o1 is designed to spend more time thinking before responding. The o1 model series is trained with large-scale reinforcement learning to reason...",
-   "endpoints": [
-    {
-     "context_length": 200000,
-     "max_completion_tokens": 100000,
-     "max_prompt_tokens": null,
-     "model_id": "openai/o1",
-     "model_name": "OpenAI: o1",
-     "name": "OpenAI | openai/o1-2024-12-17",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00006",
-      "discount": 0,
-      "input_cache_read": "0.0000075",
-      "prompt": "0.000015",
-      "web_search": "0.01"
-     },
-     "provider_name": "OpenAI",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "response_format",
-      "seed",
-      "structured_outputs",
-      "tool_choice",
-      "tools"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "openai"
-    }
-   ],
-   "id": "openai/o1",
-   "name": "OpenAI: o1"
-  },
-  "openai/o1-pro": {
-   "architecture": {
-    "input_modalities": [
-     "file",
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image+file->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "GPT"
-   },
-   "created": 1742423211,
-   "description": "The o1 series of models are trained with reinforcement learning to think before they answer and perform complex reasoning. The o1-pro model uses more compute to think harder and provide...",
-   "endpoints": [
-    {
-     "context_length": 200000,
-     "max_completion_tokens": 100000,
-     "max_prompt_tokens": null,
-     "model_id": "openai/o1-pro",
-     "model_name": "OpenAI: o1-pro",
-     "name": "OpenAI | openai/o1-pro",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0006",
-      "discount": 0,
-      "prompt": "0.00015",
-      "web_search": "0.01"
-     },
-     "provider_name": "OpenAI",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "response_format",
-      "seed",
-      "structured_outputs"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "openai"
-    }
-   ],
-   "id": "openai/o1-pro",
-   "name": "OpenAI: o1-pro"
-  },
   "openai/o3": {
    "architecture": {
     "input_modalities": [
@@ -52505,129 +52002,6 @@
    "id": "openai/o3",
    "name": "OpenAI: o3"
   },
-  "openai/o3-mini": {
-   "architecture": {
-    "input_modalities": [
-     "file",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+file->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "GPT"
-   },
-   "created": 1738351721,
-   "description": "OpenAI o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and coding. This model supports the `reasoning_effort` parameter, which can be set to...",
-   "endpoints": [
-    {
-     "context_length": 200000,
-     "max_completion_tokens": 100000,
-     "max_prompt_tokens": null,
-     "model_id": "openai/o3-mini",
-     "model_name": "OpenAI: o3 Mini",
-     "name": "OpenAI | openai/o3-mini-2025-01-31",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000055",
-      "prompt": "0.0000011",
-      "web_search": "0.01"
-     },
-     "provider_name": "OpenAI",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "response_format",
-      "seed",
-      "structured_outputs",
-      "tool_choice",
-      "tools"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "openai"
-    }
-   ],
-   "id": "openai/o3-mini",
-   "name": "OpenAI: o3 Mini"
-  },
-  "openai/o3-mini-high": {
-   "architecture": {
-    "input_modalities": [
-     "file",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+file->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "GPT"
-   },
-   "created": 1739372611,
-   "description": "OpenAI o3-mini-high is the same model as [o3-mini](/openai/o3-mini) with reasoning_effort set to high. o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and...",
-   "endpoints": [
-    {
-     "context_length": 200000,
-     "max_completion_tokens": 100000,
-     "max_prompt_tokens": null,
-     "model_id": "openai/o3-mini-high",
-     "model_name": "OpenAI: o3 Mini High",
-     "name": "OpenAI | openai/o3-mini-high-2025-01-31",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000055",
-      "prompt": "0.0000011",
-      "web_search": "0.01"
-     },
-     "provider_name": "OpenAI",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "reasoning_effort",
-      "response_format",
-      "seed",
-      "structured_outputs",
-      "tool_choice",
-      "tools"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "openai"
-    }
-   ],
-   "id": "openai/o3-mini-high",
-   "name": "OpenAI: o3 Mini High"
-  },
   "openai/o3-pro": {
    "architecture": {
     "input_modalities": [
@@ -52692,139 +52066,6 @@
    ],
    "id": "openai/o3-pro",
    "name": "OpenAI: o3 Pro"
-  },
-  "openai/o4-mini": {
-   "architecture": {
-    "input_modalities": [
-     "file",
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image+file->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "GPT"
-   },
-   "created": 1744820942,
-   "description": "OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while retaining strong multimodal and agentic capabilities. It supports tool use and demonstrates competitive reasoning...",
-   "endpoints": [
-    {
-     "context_length": 200000,
-     "max_completion_tokens": 100000,
-     "max_prompt_tokens": null,
-     "model_id": "openai/o4-mini",
-     "model_name": "OpenAI: o4 Mini",
-     "name": "OpenAI | openai/o4-mini-2025-04-16",
-     "native_tools": {
-      "openrouter:web_search": {
-       "type": "web_search"
-      }
-     },
-     "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.000000275",
-      "prompt": "0.0000011",
-      "web_search": "0.01"
-     },
-     "provider_name": "OpenAI",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "response_format",
-      "seed",
-      "structured_outputs",
-      "tool_choice",
-      "tools"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "openai"
-    }
-   ],
-   "id": "openai/o4-mini",
-   "name": "OpenAI: o4 Mini"
-  },
-  "openai/o4-mini-high": {
-   "architecture": {
-    "input_modalities": [
-     "file",
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image+file->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "GPT"
-   },
-   "created": 1744824212,
-   "description": "OpenAI o4-mini-high is the same model as [o4-mini](/openai/o4-mini) with reasoning_effort set to high. OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while retaining...",
-   "endpoints": [
-    {
-     "context_length": 200000,
-     "max_completion_tokens": 100000,
-     "max_prompt_tokens": null,
-     "model_id": "openai/o4-mini-high",
-     "model_name": "OpenAI: o4 Mini High",
-     "name": "OpenAI | openai/o4-mini-high-2025-04-16",
-     "native_tools": {
-      "openrouter:web_search": {
-       "type": "web_search"
-      }
-     },
-     "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.000000275",
-      "prompt": "0.0000011",
-      "web_search": "0.01"
-     },
-     "provider_name": "OpenAI",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "reasoning_effort",
-      "response_format",
-      "seed",
-      "structured_outputs",
-      "tool_choice",
-      "tools"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "openai"
-    }
-   ],
-   "id": "openai/o4-mini-high",
-   "name": "OpenAI: o4 Mini High"
   },
   "openrouter/auto": {
    "architecture": {
@@ -54174,88 +53415,6 @@
      "tag": "gmicloud/fp8"
     },
     {
-     "context_length": 262144,
-     "max_completion_tokens": 16384,
-     "max_prompt_tokens": null,
-     "model_id": "qwen/qwen3-235b-a22b-2507",
-     "model_name": "Qwen: Qwen3 235B A22B Instruct 2507",
-     "name": "Google | qwen/qwen3-235b-a22b-07-25",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000088",
-      "discount": 0,
-      "prompt": "0.00000022"
-     },
-     "provider_name": "Google",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "google-vertex/us-south1"
-    },
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 16384,
-     "max_prompt_tokens": null,
-     "model_id": "qwen/qwen3-235b-a22b-2507",
-     "model_name": "Qwen: Qwen3 235B A22B Instruct 2507",
-     "name": "Google | qwen/qwen3-235b-a22b-07-25",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.000001",
-      "discount": 0,
-      "prompt": "0.00000025"
-     },
-     "provider_name": "Google",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "max_tokens",
-      "response_format",
-      "seed",
-      "temperature",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "google-vertex/us-south1"
-    },
-    {
      "context_length": 131072,
      "max_completion_tokens": 117964,
      "max_prompt_tokens": null,
@@ -54849,52 +54008,6 @@
      "tag": "deepinfra/turbo"
     },
     {
-     "context_length": 262144,
-     "max_completion_tokens": 65536,
-     "max_prompt_tokens": null,
-     "model_id": "qwen/qwen3-coder",
-     "model_name": "Qwen: Qwen3 Coder 480B A35B",
-     "name": "Google | qwen/qwen3-coder-480b-a35b-07-25",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000018",
-      "discount": 0,
-      "prompt": "0.00000022"
-     },
-     "provider_name": "Google",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "google-vertex/us-south1"
-    },
-    {
      "context_length": 256000,
      "max_completion_tokens": 65536,
      "max_prompt_tokens": null,
@@ -55345,52 +54458,6 @@
      "max_prompt_tokens": null,
      "model_id": "qwen/qwen3-next-80b-a3b-instruct",
      "model_name": "Qwen: Qwen3 Next 80B A3B Instruct",
-     "name": "Google | qwen/qwen3-next-80b-a3b-instruct-2509",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000012",
-      "discount": 0,
-      "prompt": "0.00000015"
-     },
-     "provider_name": "Google",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "google-vertex/global"
-    },
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 235929,
-     "max_prompt_tokens": null,
-     "model_id": "qwen/qwen3-next-80b-a3b-instruct",
-     "model_name": "Qwen: Qwen3 Next 80B A3B Instruct",
      "name": "Parasail | qwen/qwen3-next-80b-a3b-instruct-2509",
      "native_tools": {},
      "pricing": {
@@ -55436,73 +54503,6 @@
    ],
    "id": "qwen/qwen3-next-80b-a3b-instruct",
    "name": "Qwen: Qwen3 Next 80B A3B Instruct"
-  },
-  "qwen/qwen3-next-80b-a3b-thinking": {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "created": 1757612284,
-   "description": "Qwen3-Next-80B-A3B-Thinking is a reasoning-first chat model in the Qwen3-Next line that outputs structured \u201cthinking\u201d traces by default. It\u2019s designed for hard multi-step problems; math proofs, code synthesis/debugging, logic, and agentic...",
-   "endpoints": [
-    {
-     "context_length": 262144,
-     "max_completion_tokens": 235929,
-     "max_prompt_tokens": null,
-     "model_id": "qwen/qwen3-next-80b-a3b-thinking",
-     "model_name": "Qwen: Qwen3 Next 80B A3B Thinking",
-     "name": "Google | qwen/qwen3-next-80b-a3b-thinking-2509",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000012",
-      "discount": 0,
-      "prompt": "0.00000015"
-     },
-     "provider_name": "Google",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "google-vertex/global"
-    }
-   ],
-   "id": "qwen/qwen3-next-80b-a3b-thinking",
-   "name": "Qwen: Qwen3 Next 80B A3B Thinking"
   },
   "qwen/qwen3-vl-235b-a22b-instruct": {
    "architecture": {
@@ -62698,9 +61698,9 @@
      "name": "Tencent | tencent/hy3-20260706",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000528",
+      "completion": "0.00000033",
       "discount": 0,
-      "input_cache_read": "0.000000033",
+      "input_cache_read": "0.000000020625",
       "overrides": [
        {
         "completion": "0.00000033",
@@ -62717,7 +61717,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000132"
+      "prompt": "0.0000000825"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -62936,10 +61936,10 @@
      "name": "DeepInfra | tencent/hy4-preview-20260827",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000002501",
-      "discount": 0,
-      "input_cache_read": "0.000000042",
-      "prompt": "0.000000834"
+      "completion": "0.00000237595",
+      "discount": 0.05,
+      "input_cache_read": "0.0000000399",
+      "prompt": "0.0000007923"
      },
      "provider_name": "DeepInfra",
      "quantization": "fp4",
@@ -63122,9 +62122,9 @@
      "name": "Tencent | tencent/hy4-preview-20260827",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000002501",
+      "completion": "0.0000022509",
       "discount": 0,
-      "input_cache_read": "0.000000042",
+      "input_cache_read": "0.0000000378",
       "overrides": [
        {
         "completion": "0.0000022509",
@@ -63141,7 +62141,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000834"
+      "prompt": "0.0000007506"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -67788,52 +66788,6 @@
      "tag": "deepinfra/fp4"
     },
     {
-     "context_length": 200000,
-     "max_completion_tokens": 128000,
-     "max_prompt_tokens": null,
-     "model_id": "z-ai/glm-4.7",
-     "model_name": "Z.ai: GLM 4.7",
-     "name": "Google | z-ai/glm-4.7-20251222",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000022",
-      "discount": 0,
-      "prompt": "0.0000006"
-     },
-     "provider_name": "Google",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "google-vertex"
-    },
-    {
      "context_length": 131072,
      "max_completion_tokens": 117964,
      "max_prompt_tokens": null,
@@ -68716,10 +67670,10 @@
      "name": "Baidu | z-ai/glm-5.1-20260406",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "completion": "0.0000028248",
+      "discount": 0.358,
+      "input_cache_read": "0.00000016692",
+      "prompt": "0.0000008988"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -69474,10 +68428,10 @@
      "name": "Baidu | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "completion": "0.000000594",
+      "discount": 0.865,
+      "input_cache_read": "0.0000000351",
+      "prompt": "0.000000189"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -69520,10 +68474,10 @@
      "name": "Baidu | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000788",
-      "discount": 0,
-      "input_cache_read": "0.00000056",
-      "prompt": "0.00000225"
+      "completion": "0.00000214336",
+      "discount": 0.728,
+      "input_cache_read": "0.00000015232",
+      "prompt": "0.000000612"
      },
      "provider_name": "Baidu",
      "quantization": "fp4",
@@ -70132,7 +69086,7 @@
      "name": "Inceptron | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000432",
+      "completion": "0.0000042",
       "discount": 0,
       "input_cache_read": "0.00000016",
       "prompt": "0.00000099"
@@ -70479,10 +69433,10 @@
      "name": "Relace | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000077344",
+      "completion": "0.0000078055",
       "discount": 0,
-      "input_cache_read": "0.0000000133",
-      "prompt": "0.0000000133"
+      "input_cache_read": "0.0000000101",
+      "prompt": "0.0000000101"
      },
      "provider_name": "Relace",
      "quantization": "unknown",
@@ -70568,10 +69522,10 @@
      "name": "StreamLake | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000192676",
-      "discount": 0.5621,
-      "input_cache_read": "0.000000113854",
-      "prompt": "0.00000061306"
+      "completion": "0.00000176",
+      "discount": 0.6,
+      "input_cache_read": "0.000000104",
+      "prompt": "0.00000056"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -70710,8 +69664,8 @@
      "pricing": {
       "completion": "0.000007",
       "discount": 0,
-      "input_cache_read": "0.000000013",
-      "prompt": "0.000000014"
+      "input_cache_read": "0.0000000096",
+      "prompt": "0.0000000106"
      },
      "provider_name": "Wafer",
      "quantization": "fp4",
@@ -71110,10 +70064,10 @@
      "name": "Baidu | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "completion": "0.00000088",
+      "discount": 0.8,
+      "input_cache_read": "0.000000052",
+      "prompt": "0.00000028"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -71917,7 +70871,7 @@
      "name": "Inceptron | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000035",
+      "completion": "0.0000022",
       "discount": 0,
       "input_cache_read": "0.00000014",
       "prompt": "0.0000012"
@@ -73626,10 +72580,10 @@
      "name": "DigitalOcean | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000004375",
+      "completion": "0.000000375",
       "discount": 0,
       "input_cache_read": "0.00000003",
-      "prompt": "0.00000013125"
+      "prompt": "0.0000001125"
      },
      "provider_name": "DigitalOcean",
      "quantization": "unknown",
@@ -74157,8 +73111,8 @@
      "pricing": {
       "completion": "0.000000322",
       "discount": 0,
-      "input_cache_read": "0.00000003",
-      "prompt": "0.000000082"
+      "input_cache_read": "0.000000042",
+      "prompt": "0.000000115"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -74401,10 +73355,10 @@
      "name": "OpenInference | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000039",
+      "completion": "0.0000000244",
       "discount": 0,
       "input_cache_read": "0.0000000227",
-      "prompt": "0.0000000249"
+      "prompt": "0.0000000273"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -74602,7 +73556,7 @@
      "name": "Reka | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000005",
+      "completion": "0.0000003",
       "discount": 0,
       "input_cache_read": "0.00000003",
       "prompt": "0.00000012"
@@ -74652,10 +73606,10 @@
      "name": "Relace | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000001324",
+      "completion": "0.0000001042",
       "discount": 0,
-      "input_cache_read": "0.0000000216",
-      "prompt": "0.0000000216"
+      "input_cache_read": "0.0000000259",
+      "prompt": "0.0000000259"
      },
      "provider_name": "Relace",
      "quantization": "unknown",
