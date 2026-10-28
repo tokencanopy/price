@@ -3,7 +3,7 @@
 **A public, machine-readable record of what LLM inference actually costs — and how that price changes over time.** Refreshed every 6 hours.
 
 <!-- BEGIN STATS -->
-**16,988** price points · **1,064** models · **82** platforms · updated **2026-10-28 06:34 UTC** · history since **2026-09-02** (57 snapshots)
+**16,988** price points · **1,064** models · **82** platforms · updated **2026-10-28 12:30 UTC** · history since **2026-09-02** (57 snapshots)
 <!-- END STATS -->
 
 Every provider publishes today's price. **Nobody publishes yesterday's.** This repo
@@ -40,15 +40,15 @@ yourself.
 <!-- BEGIN TABLE -->
 | Model | Platforms | Cheapest | Input $/M | Output $/M | Spread |
 |---|--:|---|--:|--:|--:|
-| Z.ai: GLM 5.3 | 38 | [Wafer](https://www.wafer.ai/) | $0.07 | $1.40 | 30.0× |
-| Z.ai: GLM 5.3 Flash | 34 | [OpenInference](https://www.openinference.ai/) | $0.04 | $0.11 | 3.9× |
-| DeepSeek: DeepSeek V4.1 Flash | 33 | [OpenInference](https://www.openinference.ai/) | $0.00 | $0.86 | 120.9× |
-| DeepSeek: DeepSeek V4.1 Flash 1017 | 30 | [OpenInference](https://www.openinference.ai/) | $0.01 | $1.80 | 23.9× |
-| Z.ai: GLM 5.2 | 27 | [Relace](https://www.relace.ai/) | $0.03 | $7.28 | 79.5× |
+| Z.ai: GLM 5.3 | 39 | [Wafer](https://www.wafer.ai/) | $0.07 | $1.40 | 30.0× |
+| Z.ai: GLM 5.3 Flash | 34 | [Relace](https://www.relace.ai/) | $0.02 | $0.13 | 7.9× |
+| DeepSeek: DeepSeek V4.1 Flash | 33 | [OpenInference](https://www.openinference.ai/) | $0.00 | $0.49 | 230.8× |
+| DeepSeek: DeepSeek V4.1 Flash 1017 | 30 | [OpenInference](https://www.openinference.ai/) | $0.01 | $1.80 | 26.2× |
+| Z.ai: GLM 5.2 | 27 | [Relace](https://www.relace.ai/) | $0.01 | $7.73 | 169.2× |
 | OpenAI: gpt-oss-120b | 23 | [AkashML](https://akashml.com/) | $0.03 | $0.19 | 11.7× |
 | DeepSeek: DeepSeek V4 Flash 0731 | 23 | [Relace](https://www.relace.ai/) | $0.05 | $0.16 | 9.3× |
 | DeepSeek: DeepSeek V4 Pro 0813 | 23 | [Relace](https://www.relace.ai/) | $0.25 | $8.00 | 6.5× |
-| MoonshotAI: Kimi K3 | 21 | [Wafer](https://www.wafer.ai/) | $0.16 | $11.90 | 21.7× |
+| MoonshotAI: Kimi K3 | 21 | [Wafer](https://www.wafer.ai/) | $0.18 | $11.90 | 19.3× |
 | Qwen: Qwen3.8 27B | 21 | [Darkbloom](https://www.darkbloom.dev/) | $0.04 | $2.20 | 28.3× |
 | DeepSeek: DeepSeek V4 Flash 0423 | 17 | [Relace](https://www.relace.ai/) | $0.05 | $0.45 | 12.0× |
 | MoonshotAI: Kimi K2.6 | 17 | [Chutes](https://chutes.ai/) | $0.39 | $1.80 | 2.8× |
