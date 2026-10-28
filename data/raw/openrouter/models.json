@@ -7747,9 +7747,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000001750788",
-    "input_cache_read": "0.0000000729495",
-    "prompt": "0.000000875394"
+    "completion": "0.00000191052",
+    "input_cache_read": "0.000000079605",
+    "prompt": "0.00000095526"
    },
    "reasoning": {
     "default_effort": "high",
@@ -7828,8 +7828,8 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000198",
-    "input_cache_read": "0.000000022",
+    "completion": "0.00000396",
+    "input_cache_read": "0.000000044",
     "overrides": [
      {
       "completion": "0.00000198",
@@ -7911,7 +7911,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000066"
+    "prompt": "0.00000132"
    },
    "reasoning": {
     "default_effort": "high",
@@ -8134,8 +8134,8 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006",
     "overrides": [
      {
       "completion": "0.0000006",
@@ -8217,7 +8217,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -13114,9 +13114,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425",
-    "prompt": "0.0000000765"
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005",
+    "prompt": "0.00000009"
    },
    "reasoning": {
     "default_enabled": false,
@@ -14078,7 +14078,7 @@
     "design_arena": []
    },
    "canonical_slug": "inclusionai/ling-3.1-flash-20261002",
-   "context_length": 262144,
+   "context_length": 1000000,
    "created": 1790950024,
    "default_parameters": {},
    "description": "Ling 3.1 Flash is a hybrid reasoning mixture-of-experts model from inclusionAI, with 25B active parameters out of 560B total.",
@@ -14123,9 +14123,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 262144,
+    "context_length": 1000000,
     "is_moderated": false,
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 262144
    }
   },
   {
@@ -20057,9 +20057,9 @@
    "name": "MoonshotAI: Kimi K3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000115",
-    "input_cache_read": "0.000000159",
-    "prompt": "0.000000169"
+    "completion": "0.00002",
+    "input_cache_read": "0.000000149",
+    "prompt": "0.000000159"
    },
    "reasoning": {
     "default_effort": "max",
@@ -21025,8 +21025,9 @@
    "name": "NVIDIA: Nemotron 3 Super",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000045",
-    "prompt": "0.00000008"
+    "completion": "0.0000024",
+    "input_cache_read": "0.00000015",
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "medium",
@@ -42798,8 +42799,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000007",
-    "input_cache_read": "0.000000033",
-    "prompt": "0.0000000341"
+    "input_cache_read": "0.0000000288",
+    "prompt": "0.0000000298"
    },
    "reasoning": {
     "default_effort": "high",
@@ -44119,8 +44120,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000018",
-    "input_cache_read": "0.000000015",
-    "prompt": "0.0000000182"
+    "input_cache_read": "0.0000000137",
+    "prompt": "0.0000000138"
    },
    "reasoning": {
     "default_effort": "high",
@@ -44199,8 +44200,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000008",
-    "input_cache_read": "0.00000026",
-    "prompt": "0.0000002565"
+    "input_cache_read": "0.00000025",
+    "prompt": "0.0000002542"
    },
    "reasoning": {
     "default_effort": "high",
@@ -44516,9 +44517,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000894",
-    "input_cache_read": "0.00000016",
-    "prompt": "0.0000001605"
+    "completion": "0.00002",
+    "input_cache_read": "0.000000149",
+    "prompt": "0.000000159"
    },
    "reasoning": {
     "default_effort": "max",
@@ -45136,9 +45137,9 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000000823",
-    "input_cache_read": "0.00000003",
-    "prompt": "0.0000000345"
+    "completion": "0.00000011",
+    "input_cache_read": "0.0000000399",
+    "prompt": "0.0000000438"
    },
    "reasoning": {
     "default_effort": "max",
@@ -45177,7 +45178,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    }
   },
   {
