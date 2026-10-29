@@ -6952,7 +6952,6 @@
     "max_tokens",
     "reasoning",
     "response_format",
-    "stop",
     "structured_outputs",
     "temperature",
     "tool_choice",
@@ -7682,9 +7681,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000001794636",
-    "input_cache_read": "0.0000000747765",
-    "prompt": "0.000000897318"
+    "completion": "0.000001727124",
+    "input_cache_read": "0.0000000719635",
+    "prompt": "0.000000863562"
    },
    "reasoning": {
     "default_effort": "high",
@@ -17818,7 +17817,7 @@
    "default_parameters": {},
    "description": "Mistral Large 4 is a frontier multimodal (text and image input) model from Mistral AI built for reasoning, coding, and agentic workloads. It offers a 1M-token context window with up...",
    "expiration_date": null,
-   "hugging_face_id": null,
+   "hugging_face_id": "mistralai/Mistral-Large-4-1T-A52B",
    "id": "mistralai/mistral-large-4-0",
    "knowledge_cutoff": null,
    "links": {
@@ -17827,9 +17826,9 @@
    "name": "Mistral: Mistral Large 4",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000418",
-    "input_cache_read": "0.00000014",
-    "prompt": "0.00000136"
+    "completion": "0.0000021",
+    "input_cache_read": "0.00000007",
+    "prompt": "0.0000007"
    },
    "reasoning": {
     "default_effort": "high",
@@ -31072,9 +31071,10 @@
     "include_reasoning",
     "logit_bias",
     "logprobs",
+    "max_completion_tokens",
     "max_tokens",
     "min_p",
-    "prediction",
+    "parallel_tool_calls",
     "presence_penalty",
     "reasoning",
     "reasoning_effort",
@@ -31090,13 +31090,13 @@
     "top_k",
     "top_logprobs",
     "top_p",
-    "web_search_options"
+    "verbosity"
    ],
    "supported_voices": null,
    "top_provider": {
     "context_length": null,
     "is_moderated": false,
-    "max_completion_tokens": null
+    "max_completion_tokens": 65536
    }
   },
   {
@@ -36622,7 +36622,7 @@
     "design_arena": []
    },
    "canonical_slug": "stepfun/step-5-preview-20261008",
-   "context_length": 1000000,
+   "context_length": 1048576,
    "created": 1791462849,
    "default_parameters": {
     "frequency_penalty": null,
@@ -36948,8 +36948,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -36966,7 +36966,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -37107,8 +37107,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -37125,7 +37125,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -37855,7 +37855,7 @@
    "top_provider": {
     "context_length": null,
     "is_moderated": false,
-    "max_completion_tokens": 64000
+    "max_completion_tokens": 65536
    }
   },
   {
@@ -38110,86 +38110,6 @@
     "context_length": 524288,
     "is_moderated": false,
     "max_completion_tokens": 131072
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": 1.4,
-     "coding_index": 16.2,
-     "intelligence_index": null
-    },
-    "design_arena": []
-   },
-   "canonical_slug": "upstage/solar-pro-3",
-   "context_length": 131072,
-   "created": 1769481200,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "presence_penalty": null,
-    "repetition_penalty": null,
-    "temperature": null,
-    "top_k": null,
-    "top_p": null
-   },
-   "description": "Solar Pro 3 is Upstage's powerful Mixture-of-Experts (MoE) language model. With 102B total parameters and 12B active parameters per forward pass, it delivers exceptional performance while maintaining computational efficiency. Optimized...",
-   "expiration_date": "2026-10-30",
-   "hugging_face_id": "",
-   "id": "upstage/solar-pro-3",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/upstage/solar-pro-3/endpoints"
-   },
-   "name": "Upstage: Solar Pro 3",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015",
-    "prompt": "0.00000015"
-   },
-   "reasoning": {
-    "default_effort": "medium",
-    "default_enabled": false,
-    "mandatory": false,
-    "supported_efforts": [
-     "high",
-     "low",
-     "medium",
-     "minimal",
-     "none"
-    ]
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "max_tokens",
-    "parallel_tool_calls",
-    "presence_penalty",
-    "reasoning",
-    "reasoning_effort",
-    "response_format",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 131072,
-    "is_moderated": false,
-    "max_completion_tokens": 117964
    }
   },
   {
@@ -42100,9 +42020,9 @@
    "name": "Z.ai: GLM 5.3 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000000742",
+    "completion": "0.0000005",
     "input_cache_read": "0.00000003",
-    "prompt": "0.0000000457"
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "max",
@@ -42139,9 +42059,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1048575,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943717
    }
   },
   {
@@ -43115,9 +43035,9 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000018",
-    "input_cache_read": "0.0000000231",
-    "prompt": "0.0000000233"
+    "completion": "0.000000383",
+    "input_cache_read": "0.000000004",
+    "prompt": "0.000000044"
    },
    "reasoning": {
     "default_effort": "high",
@@ -43269,9 +43189,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000001341",
+    "completion": "0.0000001487",
     "input_cache_read": "0.000000028",
-    "prompt": "0.000000057"
+    "prompt": "0.0000000509"
    },
    "reasoning": {
     "default_effort": "high",
@@ -44133,9 +44053,9 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000000742",
+    "completion": "0.0000000708",
     "input_cache_read": "0.00000003",
-    "prompt": "0.0000000457"
+    "prompt": "0.0000000503"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44259,5 +44179,5 @@
  "links": {
   "next": null
  },
- "total_count": 457
+ "total_count": 456
 }
