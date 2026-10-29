@@ -350656,3 +350656,355 @@ observed_at,source,platform,model_key,variant,region,metric,model_name,old_usd_p
 2026-10-28T18:28:59+00:00,openrouter,Venice,deepseek-ai/deepseek-v3.2,unknown,,cache_read,DeepSeek: DeepSeek V3.2,0.13008,,
 2026-10-28T18:28:59+00:00,openrouter,Venice,deepseek-ai/deepseek-v3.2,unknown,,input,DeepSeek: DeepSeek V3.2,0.26829,,
 2026-10-28T18:28:59+00:00,openrouter,Venice,deepseek-ai/deepseek-v3.2,unknown,,output,DeepSeek: DeepSeek V3.2,0.39024,,
+2026-10-29T00:50:49+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-flash,fp8,,input,DeepSeek: DeepSeek V4 Flash 0423,0.04032,0.14,247.22
+2026-10-29T00:50:49+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-flash,fp8,,output,DeepSeek: DeepSeek V4 Flash 0423,0.08064,0.28,247.22
+2026-10-29T00:50:49+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-flash,fp8,,cache_read,DeepSeek: DeepSeek V4 Flash 0423,0.008064,0.028,247.22
+2026-10-29T00:50:49+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-flash,fp4,,input,DeepSeek: DeepSeek V4 Flash 0423,0.0383,0.05,30.55
+2026-10-29T00:50:49+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-flash,fp4,,cache_read,DeepSeek: DeepSeek V4 Flash 0423,0.0383,0.05,30.55
+2026-10-29T00:50:49+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-flash,fp8,,input,DeepSeek: DeepSeek V4 Flash 0423,0.07,0.0826,18.0
+2026-10-29T00:50:49+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-flash,fp8,,output,DeepSeek: DeepSeek V4 Flash 0423,0.14,0.1652,18.0
+2026-10-29T00:50:49+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-flash,fp8,,cache_read,DeepSeek: DeepSeek V4 Flash 0423,0.014,0.01652,18.0
+2026-10-29T00:50:49+00:00,openrouter,Alibaba,deepseek-ai/deepseek-v4-flash-0731,unknown,,input,DeepSeek: DeepSeek V4 Flash 0731,0.176,0.352,100.0
+2026-10-29T00:50:49+00:00,openrouter,Alibaba,deepseek-ai/deepseek-v4-flash-0731,unknown,,output,DeepSeek: DeepSeek V4 Flash 0731,0.528,1.056,100.0
+2026-10-29T00:50:49+00:00,openrouter,Alibaba,deepseek-ai/deepseek-v4-flash-0731,unknown,,cache_read,DeepSeek: DeepSeek V4 Flash 0731,0.0176,0.0352,100.0
+2026-10-29T00:50:49+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-flash-0731,fp8,,input,DeepSeek: DeepSeek V4 Flash 0731,0.04444,0.44,890.1
+2026-10-29T00:50:49+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-flash-0731,fp8,,output,DeepSeek: DeepSeek V4 Flash 0731,0.13332,1.32,890.1
+2026-10-29T00:50:49+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-flash-0731,fp8,,cache_read,DeepSeek: DeepSeek V4 Flash 0731,0.001414,0.014,890.1
+2026-10-29T00:50:49+00:00,openrouter,Inceptron,deepseek-ai/deepseek-v4-flash-0731,fp4,,output,DeepSeek: DeepSeek V4 Flash 0731,0.3666,0.4312,17.62
+2026-10-29T00:50:49+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-flash-0731,fp4,,input,DeepSeek: DeepSeek V4 Flash 0731,0.0422,0.0475,12.56
+2026-10-29T00:50:49+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-flash-0731,fp4,,output,DeepSeek: DeepSeek V4 Flash 0731,0.1694,0.1568,-7.44
+2026-10-29T00:50:49+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-pro,fp8,,input,DeepSeek: DeepSeek V4 Pro 0423,0.88894,1.69,90.11
+2026-10-29T00:50:49+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-pro,fp8,,output,DeepSeek: DeepSeek V4 Pro 0423,1.77788,3.38,90.11
+2026-10-29T00:50:49+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-pro,fp8,,cache_read,DeepSeek: DeepSeek V4 Pro 0423,0.07364,0.14,90.11
+2026-10-29T00:50:49+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-pro,fp8,,input,DeepSeek: DeepSeek V4 Pro 0423,0.888966,0.95526,7.46
+2026-10-29T00:50:49+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-pro,fp8,,output,DeepSeek: DeepSeek V4 Pro 0423,1.777932,1.91052,7.46
+2026-10-29T00:50:49+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-pro,fp8,,cache_read,DeepSeek: DeepSeek V4 Pro 0423,0.07408,0.079605,7.46
+2026-10-29T00:50:49+00:00,openrouter,Alibaba,deepseek-ai/deepseek-v4-pro-0813,unknown,,input,DeepSeek: DeepSeek V4 Pro 0813,0.5808,1.122,93.18
+2026-10-29T00:50:49+00:00,openrouter,Alibaba,deepseek-ai/deepseek-v4-pro-0813,unknown,,output,DeepSeek: DeepSeek V4 Pro 0813,1.7424,3.366,93.18
+2026-10-29T00:50:49+00:00,openrouter,Alibaba,deepseek-ai/deepseek-v4-pro-0813,unknown,,cache_read,DeepSeek: DeepSeek V4 Pro 0813,0.05808,0.1122,93.18
+2026-10-29T00:50:49+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-pro-0813,fp8,,input,DeepSeek: DeepSeek V4 Pro 0813,0.14652,1.32,800.9
+2026-10-29T00:50:49+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-pro-0813,fp8,,output,DeepSeek: DeepSeek V4 Pro 0813,0.43956,3.96,800.9
+2026-10-29T00:50:49+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-pro-0813,fp8,,cache_read,DeepSeek: DeepSeek V4 Pro 0813,0.004662,0.042,800.9
+2026-10-29T00:50:49+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-pro-0813,fp4,,input,DeepSeek: DeepSeek V4 Pro 0813,0.1472,0.1035,-29.69
+2026-10-29T00:50:49+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-pro-0813,fp4,,cache_read,DeepSeek: DeepSeek V4 Pro 0813,0.15,0.1,-33.33
+2026-10-29T00:50:49+00:00,openrouter,Wafer,deepseek-ai/deepseek-v4-pro-0813,mxfp4,,input,DeepSeek: DeepSeek V4 Pro 0813,0.285,0.115,-59.65
+2026-10-29T00:50:49+00:00,openrouter,Wafer,deepseek-ai/deepseek-v4-pro-0813,mxfp4,,cache_read,DeepSeek: DeepSeek V4 Pro 0813,0.284,0.11,-61.27
+2026-10-29T00:50:49+00:00,openrouter,Alibaba,deepseek-ai/deepseek-v4.1-flash,unknown,,input,DeepSeek: DeepSeek V4.1 Flash,0.165,0.33,100.0
+2026-10-29T00:50:49+00:00,openrouter,Alibaba,deepseek-ai/deepseek-v4.1-flash,unknown,,output,DeepSeek: DeepSeek V4.1 Flash,0.66,1.32,100.0
+2026-10-29T00:50:49+00:00,openrouter,Alibaba,deepseek-ai/deepseek-v4.1-flash,unknown,,cache_read,DeepSeek: DeepSeek V4.1 Flash,0.0165,0.033,100.0
+2026-10-29T00:50:49+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4.1-flash,fp8,,input,DeepSeek: DeepSeek V4.1 Flash,0.0438,0.3,584.93
+2026-10-29T00:50:49+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4.1-flash,fp8,,output,DeepSeek: DeepSeek V4.1 Flash,0.1752,1.2,584.93
+2026-10-29T00:50:49+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4.1-flash,fp8,,cache_read,DeepSeek: DeepSeek V4.1 Flash,0.000876,0.006,584.93
+2026-10-29T00:50:49+00:00,openrouter,OpenInference,deepseek-ai/deepseek-v4.1-flash,fp4,,input,DeepSeek: DeepSeek V4.1 Flash,0.00249,0.00772,210.04
+2026-10-29T00:50:49+00:00,openrouter,OpenInference,deepseek-ai/deepseek-v4.1-flash,fp4,,output,DeepSeek: DeepSeek V4.1 Flash,0.305,0.782,156.39
+2026-10-29T00:50:49+00:00,openrouter,OpenInference,deepseek-ai/deepseek-v4.1-flash,fp4,,cache_read,DeepSeek: DeepSeek V4.1 Flash,0.00227,0.00702,209.25
+2026-10-29T00:50:49+00:00,openrouter,Wafer,deepseek-ai/deepseek-v4.1-flash,mxfp4,,input,DeepSeek: DeepSeek V4.1 Flash,0.19,0.045,-76.32
+2026-10-29T00:50:49+00:00,openrouter,Wafer,deepseek-ai/deepseek-v4.1-flash,mxfp4,,output,DeepSeek: DeepSeek V4.1 Flash,0.65,0.5,-23.08
+2026-10-29T00:50:49+00:00,openrouter,Wafer,deepseek-ai/deepseek-v4.1-flash,mxfp4,,cache_read,DeepSeek: DeepSeek V4.1 Flash,0.012,0.006,-50.0
+2026-10-29T00:50:49+00:00,openrouter,Alibaba,deepseek-ai/deepseek-v4.1-flash-1017,unknown,,input,DeepSeek: DeepSeek V4.1 Flash 1017,0.165,0.33,100.0
+2026-10-29T00:50:49+00:00,openrouter,Alibaba,deepseek-ai/deepseek-v4.1-flash-1017,unknown,,output,DeepSeek: DeepSeek V4.1 Flash 1017,0.66,1.32,100.0
+2026-10-29T00:50:49+00:00,openrouter,Alibaba,deepseek-ai/deepseek-v4.1-flash-1017,unknown,,cache_read,DeepSeek: DeepSeek V4.1 Flash 1017,0.0165,0.033,100.0
+2026-10-29T00:50:49+00:00,openrouter,AtlasCloud,deepseek-ai/deepseek-v4.1-flash-1017,fp8,,input,DeepSeek: DeepSeek V4.1 Flash 1017,0.135,0.195,44.44
+2026-10-29T00:50:49+00:00,openrouter,AtlasCloud,deepseek-ai/deepseek-v4.1-flash-1017,fp8,,output,DeepSeek: DeepSeek V4.1 Flash 1017,0.54,0.78,44.44
+2026-10-29T00:50:49+00:00,openrouter,AtlasCloud,deepseek-ai/deepseek-v4.1-flash-1017,fp8,,cache_read,DeepSeek: DeepSeek V4.1 Flash 1017,0.0135,0.0039,-71.11
+2026-10-29T00:50:49+00:00,openrouter,Decart,deepseek-ai/deepseek-v4.1-flash-1017,fp4,,input,DeepSeek: DeepSeek V4.1 Flash 1017,0.129,0.1035,-19.77
+2026-10-29T00:50:49+00:00,openrouter,Decart,deepseek-ai/deepseek-v4.1-flash-1017,fp4,,output,DeepSeek: DeepSeek V4.1 Flash 1017,0.516,0.414,-19.77
+2026-10-29T00:50:49+00:00,openrouter,Decart,deepseek-ai/deepseek-v4.1-flash-1017,fp4,,cache_read,DeepSeek: DeepSeek V4.1 Flash 1017,0.00258,0.00207,-19.77
+2026-10-29T00:50:49+00:00,openrouter,ModelRun,deepseek-ai/deepseek-v4.1-flash-1017,fp4,,input,DeepSeek: DeepSeek V4.1 Flash 1017,,0.17,
+2026-10-29T00:50:49+00:00,openrouter,ModelRun,deepseek-ai/deepseek-v4.1-flash-1017,fp4,,output,DeepSeek: DeepSeek V4.1 Flash 1017,,0.67,
+2026-10-29T00:50:49+00:00,openrouter,ModelRun,deepseek-ai/deepseek-v4.1-flash-1017,fp4,,cache_read,DeepSeek: DeepSeek V4.1 Flash 1017,,0.006,
+2026-10-29T00:50:49+00:00,openrouter,OpenInference,deepseek-ai/deepseek-v4.1-flash-1017,fp4,,input,DeepSeek: DeepSeek V4.1 Flash 1017,0.0115,0.0138,20.0
+2026-10-29T00:50:49+00:00,openrouter,OpenInference,deepseek-ai/deepseek-v4.1-flash-1017,fp4,,cache_read,DeepSeek: DeepSeek V4.1 Flash 1017,0.0114,0.0137,20.18
+2026-10-29T00:50:49+00:00,openrouter,Particle AI,deepseek-ai/deepseek-v4.1-flash-1017,unknown,,input,DeepSeek: DeepSeek V4.1 Flash 1017,,0.25,
+2026-10-29T00:50:49+00:00,openrouter,Particle AI,deepseek-ai/deepseek-v4.1-flash-1017,unknown,,output,DeepSeek: DeepSeek V4.1 Flash 1017,,1.0,
+2026-10-29T00:50:49+00:00,openrouter,Particle AI,deepseek-ai/deepseek-v4.1-flash-1017,unknown,,cache_read,DeepSeek: DeepSeek V4.1 Flash 1017,,0.03,
+2026-10-29T00:50:49+00:00,openrouter,Venice,deepseek-ai/deepseek-v4.1-flash-1017,fp8,,input,DeepSeek: DeepSeek V4.1 Flash 1017,,0.3,
+2026-10-29T00:50:49+00:00,openrouter,Venice,deepseek-ai/deepseek-v4.1-flash-1017,fp8,,output,DeepSeek: DeepSeek V4.1 Flash 1017,,1.2,
+2026-10-29T00:50:49+00:00,openrouter,Venice,deepseek-ai/deepseek-v4.1-flash-1017,fp8,,cache_read,DeepSeek: DeepSeek V4.1 Flash 1017,,0.0075,
+2026-10-29T00:50:49+00:00,openrouter,Wafer,deepseek-ai/deepseek-v4.1-flash-1017,mxfp4,,input,DeepSeek: DeepSeek V4.1 Flash 1017,0.07,0.038,-45.71
+2026-10-29T00:50:49+00:00,openrouter,Wafer,deepseek-ai/deepseek-v4.1-flash-1017,mxfp4,,cache_read,DeepSeek: DeepSeek V4.1 Flash 1017,0.0069,0.005,-27.54
+2026-10-29T00:50:49+00:00,openrouter,NextBit,google/gemma-4-26b-a4b-it,bf16,,input,Google: Gemma 4 26B A4B ,0.09,0.0765,-15.0
+2026-10-29T00:50:49+00:00,openrouter,NextBit,google/gemma-4-26b-a4b-it,bf16,,output,Google: Gemma 4 26B A4B ,0.3,0.255,-15.0
+2026-10-29T00:50:49+00:00,openrouter,NextBit,google/gemma-4-26b-a4b-it,bf16,,cache_read,Google: Gemma 4 26B A4B ,0.05,0.0425,-15.0
+2026-10-29T00:50:49+00:00,openrouter,Baidu,moonshotai/kimi-k2.6,fp4,,input,MoonshotAI: Kimi K2.6,0.3895,0.95,143.9
+2026-10-29T00:50:49+00:00,openrouter,Baidu,moonshotai/kimi-k2.6,fp4,,output,MoonshotAI: Kimi K2.6,1.64,4.0,143.9
+2026-10-29T00:50:49+00:00,openrouter,Baidu,moonshotai/kimi-k2.6,fp4,,cache_read,MoonshotAI: Kimi K2.6,0.0656,0.16,143.9
+2026-10-29T00:50:49+00:00,openrouter,Inceptron,moonshotai/kimi-k2.6,int4,,input,MoonshotAI: Kimi K2.6,0.6236,0.624,0.06
+2026-10-29T00:50:49+00:00,openrouter,Inceptron,moonshotai/kimi-k2.6,int4,,cache_read,MoonshotAI: Kimi K2.6,0.1674,0.1248,-25.45
+2026-10-29T00:50:49+00:00,openrouter,Relace,moonshotai/kimi-k3,fp4,,input,MoonshotAI: Kimi K3,0.1909,0.1824,-4.45
+2026-10-29T00:50:49+00:00,openrouter,Relace,moonshotai/kimi-k3,fp4,,output,MoonshotAI: Kimi K3,8.504,9.3388,9.82
+2026-10-29T00:50:49+00:00,openrouter,Relace,moonshotai/kimi-k3,fp4,,cache_read,MoonshotAI: Kimi K3,0.19,0.18,-5.26
+2026-10-29T00:50:49+00:00,openrouter,Wafer,moonshotai/kimi-k3,mxfp4,,input,MoonshotAI: Kimi K3,0.201,0.192,-4.48
+2026-10-29T00:50:49+00:00,openrouter,Wafer,moonshotai/kimi-k3,mxfp4,,cache_read,MoonshotAI: Kimi K3,0.191,0.182,-4.71
+2026-10-29T00:50:49+00:00,openrouter,Particle AI,particle-ai/particle-1,unknown,,input,Particle AI: Particle-1,,0.25,
+2026-10-29T00:50:49+00:00,openrouter,Particle AI,particle-ai/particle-1,unknown,,output,Particle AI: Particle-1,,1.0,
+2026-10-29T00:50:49+00:00,openrouter,Particle AI,particle-ai/particle-1,unknown,,cache_read,Particle AI: Particle-1,,0.03,
+2026-10-29T00:50:49+00:00,openrouter,Tencent,tencent/hy3,fp8,,input,Tencent: Hy3,0.0825,0.132,60.0
+2026-10-29T00:50:49+00:00,openrouter,Tencent,tencent/hy3,fp8,,output,Tencent: Hy3,0.33,0.528,60.0
+2026-10-29T00:50:49+00:00,openrouter,Tencent,tencent/hy3,fp8,,cache_read,Tencent: Hy3,0.020625,0.033,60.0
+2026-10-29T00:50:49+00:00,openrouter,Tencent,tencent/hy4-preview,fp8,,input,Tencent: Hy4 preview,0.7506,0.834,11.11
+2026-10-29T00:50:49+00:00,openrouter,Tencent,tencent/hy4-preview,fp8,,output,Tencent: Hy4 preview,2.2509,2.501,11.11
+2026-10-29T00:50:49+00:00,openrouter,Tencent,tencent/hy4-preview,fp8,,cache_read,Tencent: Hy4 preview,0.0378,0.042,11.11
+2026-10-29T00:50:49+00:00,openrouter,Baidu,zai-org/glm-5.1,fp8,,input,Z.ai: GLM 5.1,0.8988,1.4,55.76
+2026-10-29T00:50:49+00:00,openrouter,Baidu,zai-org/glm-5.1,fp8,,output,Z.ai: GLM 5.1,2.8248,4.4,55.76
+2026-10-29T00:50:49+00:00,openrouter,Baidu,zai-org/glm-5.1,fp8,,cache_read,Z.ai: GLM 5.1,0.16692,0.26,55.76
+2026-10-29T00:50:49+00:00,openrouter,Baidu,zai-org/glm-5.2,fp8,,input,Z.ai: GLM 5.2,0.189,1.4,640.74
+2026-10-29T00:50:49+00:00,openrouter,Baidu,zai-org/glm-5.2,fp8,,output,Z.ai: GLM 5.2,0.594,4.4,640.74
+2026-10-29T00:50:49+00:00,openrouter,Baidu,zai-org/glm-5.2,fp8,,cache_read,Z.ai: GLM 5.2,0.0351,0.26,640.74
+2026-10-29T00:50:49+00:00,openrouter,Baidu,zai-org/glm-5.2,fp4,,input,Z.ai: GLM 5.2,0.612,2.25,267.65
+2026-10-29T00:50:49+00:00,openrouter,Baidu,zai-org/glm-5.2,fp4,,output,Z.ai: GLM 5.2,2.14336,7.88,267.65
+2026-10-29T00:50:49+00:00,openrouter,Baidu,zai-org/glm-5.2,fp4,,cache_read,Z.ai: GLM 5.2,0.15232,0.56,267.65
+2026-10-29T00:50:49+00:00,openrouter,Relace,zai-org/glm-5.2,unknown,,input,Z.ai: GLM 5.2,0.0101,0.0065,-35.64
+2026-10-29T00:50:49+00:00,openrouter,Relace,zai-org/glm-5.2,unknown,,output,Z.ai: GLM 5.2,7.8055,7.9057,1.28
+2026-10-29T00:50:49+00:00,openrouter,Relace,zai-org/glm-5.2,unknown,,cache_read,Z.ai: GLM 5.2,0.0101,0.0065,-35.64
+2026-10-29T00:50:49+00:00,openrouter,StreamLake,zai-org/glm-5.2,fp8,,input,Z.ai: GLM 5.2,0.56,0.61306,9.47
+2026-10-29T00:50:49+00:00,openrouter,StreamLake,zai-org/glm-5.2,fp8,,output,Z.ai: GLM 5.2,1.76,1.92676,9.48
+2026-10-29T00:50:49+00:00,openrouter,StreamLake,zai-org/glm-5.2,fp8,,cache_read,Z.ai: GLM 5.2,0.104,0.113854,9.48
+2026-10-29T00:50:49+00:00,openrouter,Wafer,zai-org/glm-5.2,fp4,,input,Z.ai: GLM 5.2,0.0106,0.006,-43.4
+2026-10-29T00:50:49+00:00,openrouter,Wafer,zai-org/glm-5.2,fp4,,output,Z.ai: GLM 5.2,7.0,5.4,-22.86
+2026-10-29T00:50:49+00:00,openrouter,Wafer,zai-org/glm-5.2,fp4,,cache_read,Z.ai: GLM 5.2,0.0096,0.005,-47.92
+2026-10-29T00:50:49+00:00,openrouter,Morph,zai-org/glm-5.3-flash,fp8,,input,Z.ai: GLM 5.3 Flash,0.115,0.159,38.26
+2026-10-29T00:50:49+00:00,openrouter,Morph,zai-org/glm-5.3-flash,fp8,,cache_read,Z.ai: GLM 5.3 Flash,0.042,0.058,38.1
+2026-10-29T00:50:49+00:00,openrouter,OpenInference,zai-org/glm-5.3-flash,fp4,,input,Z.ai: GLM 5.3 Flash,0.0273,0.0399,46.15
+2026-10-29T00:50:49+00:00,openrouter,OpenInference,zai-org/glm-5.3-flash,fp4,,output,Z.ai: GLM 5.3 Flash,0.0244,0.0429,75.82
+2026-10-29T00:50:49+00:00,openrouter,OpenInference,zai-org/glm-5.3-flash,fp4,,cache_read,Z.ai: GLM 5.3 Flash,0.0227,0.033,45.37
+2026-10-29T00:50:49+00:00,openrouter,Particle AI,zai-org/glm-5.3-flash,nvfp4,,input,Z.ai: GLM 5.3 Flash,,0.15,
+2026-10-29T00:50:49+00:00,openrouter,Particle AI,zai-org/glm-5.3-flash,nvfp4,,output,Z.ai: GLM 5.3 Flash,,0.5,
+2026-10-29T00:50:49+00:00,openrouter,Particle AI,zai-org/glm-5.3-flash,nvfp4,,cache_read,Z.ai: GLM 5.3 Flash,,0.03,
+2026-10-29T00:50:49+00:00,openrouter,Relace,zai-org/glm-5.3-flash,unknown,,input,Z.ai: GLM 5.3 Flash,0.0259,0.0379,46.33
+2026-10-29T00:50:49+00:00,openrouter,Relace,zai-org/glm-5.3-flash,unknown,,output,Z.ai: GLM 5.3 Flash,0.1042,0.0798,-23.42
+2026-10-29T00:50:49+00:00,openrouter,Relace,zai-org/glm-5.3-flash,unknown,,cache_read,Z.ai: GLM 5.3 Flash,0.0259,0.03,15.83
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,northcentralus,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std dz,61 terra LongCo Cd Inp Std DZ,westus,input,Azure OpenAI GPT6,,0.11,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std dz,61 terra LongCo Inp Std DZ,eastus,input,Azure OpenAI GPT6,,2.2,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,brazilsouth,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,westeurope,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std dz,61 terra LongCo Cd Inp Std DZ,spaincentral,input,Azure OpenAI GPT6,,0.12,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,southindia,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std dz,61 terra ShortCo Inp Std DZ,westus,input,Azure OpenAI GPT6,,1.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std dz,61 terra LongCo Opt Std DZ,eastus,output,Azure OpenAI GPT6,,8.25,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std dz,61 terra LongCo Cd Inp Std DZ,southcentralus,input,Azure OpenAI GPT6,,0.11,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std dz,61 terra ShortCo Cd Inp Std DZ,westeurope,input,Azure OpenAI GPT6,,0.06,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std dz,61 terra ShortCo Inp Std DZ,spaincentral,input,Azure OpenAI GPT6,,1.2,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,uaenorth,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,eastus2,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,canadaeast,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,southindia,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std dz,61 terra LongCo Inp Std DZ,eastus2,input,Azure OpenAI GPT6,,2.2,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std dz,61 terra LongCo Cd Inp Std DZ,germanywestcentral,input,Azure OpenAI GPT6,,0.12,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,malaysiawest,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,switzerlandnorth,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,southafricanorth,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,switzerlandnorth,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,francecentral,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,koreacentral,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,japaneast,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std dz,61 terra LongCo Cd Inp Std DZ,eastus2,input,Azure OpenAI GPT6,,0.11,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,swedencentral,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std dz,61 terra LongCo Inp Std DZ,francecentral,input,Azure OpenAI GPT6,,2.4,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std dz,61 terra LongCo Inp Std DZ,swedencentral,input,Azure OpenAI GPT6,,2.4,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,westus3,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,westus,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,spaincentral,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std dz,61 terra ShortCo Cd Inp Std DZ,eastus2,input,Azure OpenAI GPT6,,0.055,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,uaenorth,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std dz,61 terra ShortCo Inp Std DZ,swedencentral,input,Azure OpenAI GPT6,,1.2,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,norwayeast,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,northcentralus,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std dz,61 terra LongCo Opt Std DZ,germanywestcentral,output,Azure OpenAI GPT6,,9.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,canadaeast,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std dz,61 terra ShortCo Opt Std DZ,westus3,output,Azure OpenAI GPT6,,5.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,germanywestcentral,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std dz,61 terra ShortCo Cd Inp Std DZ,spaincentral,input,Azure OpenAI GPT6,,0.06,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std dz,61 terra LongCo Opt Std DZ,northcentralus,output,Azure OpenAI GPT6,,8.25,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std dz,61 terra ShortCo Inp Std DZ,southcentralus,input,Azure OpenAI GPT6,,1.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,switzerlandnorth,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,centralus,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std dz,61 terra LongCo Inp Std DZ,westus,input,Azure OpenAI GPT6,,2.2,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,centralus,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,southindia,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,francecentral,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,eastus,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,norwayeast,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,canadaeast,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,polandcentral,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,swedencentral,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std dz,61 terra LongCo Opt Std DZ,westus,output,Azure OpenAI GPT6,,8.25,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std dz,61 terra ShortCo Inp Std DZ,francecentral,input,Azure OpenAI GPT6,,1.2,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std dz,61 terra ShortCo Opt Std DZ,francecentral,output,Azure OpenAI GPT6,,6.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std dz,61 terra LongCo Inp Std DZ,northcentralus,input,Azure OpenAI GPT6,,2.2,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,westeurope,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,westus3,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,australiaeast,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,norwayeast,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std dz,61 terra LongCo Cd Inp Std DZ,northcentralus,input,Azure OpenAI GPT6,,0.11,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,swedencentral,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std dz,61 terra ShortCo Cd Inp Std DZ,centralus,input,Azure OpenAI GPT6,,0.055,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std dz,61 terra ShortCo Cd Inp Std DZ,westus3,input,Azure OpenAI GPT6,,0.055,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,francecentral,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,southcentralus,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,swedencentral,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,brazilsouth,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std dz,61 terra ShortCo Opt Std DZ,westus,output,Azure OpenAI GPT6,,5.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,southcentralus,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std dz,61 terra LongCo Cd Inp Std DZ,centralus,input,Azure OpenAI GPT6,,0.11,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,uaenorth,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,germanywestcentral,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,westus,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,malaysiawest,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,eastus2,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,germanywestcentral,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std dz,61 terra ShortCo Cd Inp Std DZ,northcentralus,input,Azure OpenAI GPT6,,0.055,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,japaneast,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,uaenorth,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std dz,61 terra ShortCo Opt Std DZ,eastus,output,Azure OpenAI GPT6,,5.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,norwayeast,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std dz,61 terra LongCo Inp Std DZ,southcentralus,input,Azure OpenAI GPT6,,2.2,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,canadaeast,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std dz,61 terra LongCo Inp Std DZ,centralus,input,Azure OpenAI GPT6,,2.2,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,japaneast,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std dz,61 terra LongCo Cd Inp Std DZ,swedencentral,input,Azure OpenAI GPT6,,0.12,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,southafricanorth,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,australiaeast,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std dz,61 terra LongCo Inp Std DZ,westus3,input,Azure OpenAI GPT6,,2.2,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,switzerlandnorth,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,canadaeast,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,centralus,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,switzerlandnorth,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,northcentralus,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,southafricanorth,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std dz,61 terra ShortCo Cd Inp Std DZ,westus,input,Azure OpenAI GPT6,,0.055,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std dz,61 terra ShortCo Inp Std DZ,eastus,input,Azure OpenAI GPT6,,1.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std dz,61 terra LongCo Inp Std DZ,westeurope,input,Azure OpenAI GPT6,,2.4,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,spaincentral,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std dz,61 terra LongCo Opt Std DZ,westeurope,output,Azure OpenAI GPT6,,9.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std dz,61 terra LongCo Inp Std DZ,spaincentral,input,Azure OpenAI GPT6,,2.4,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,westus3,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,uksouth,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,koreacentral,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,westus3,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std dz,61 terra ShortCo Opt Std DZ,germanywestcentral,output,Azure OpenAI GPT6,,6.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,southindia,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std dz,61 terra ShortCo Opt Std DZ,southcentralus,output,Azure OpenAI GPT6,,5.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,northcentralus,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,westus3,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,eastus,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std dz,61 terra ShortCo Inp Std DZ,westus3,input,Azure OpenAI GPT6,,1.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std dz,61 terra LongCo Opt Std DZ,swedencentral,output,Azure OpenAI GPT6,,9.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,northcentralus,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std dz,61 terra ShortCo Opt Std DZ,spaincentral,output,Azure OpenAI GPT6,,6.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,southcentralus,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,centralus,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std dz,61 terra ShortCo Opt Std DZ,northcentralus,output,Azure OpenAI GPT6,,5.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,francecentral,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,westus,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std dz,61 terra LongCo Opt Std DZ,centralus,output,Azure OpenAI GPT6,,8.25,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,spaincentral,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,japaneast,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,uaenorth,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,southafricanorth,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,malaysiawest,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,francecentral,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,brazilsouth,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,eastus2,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std dz,61 terra ShortCo Opt Std DZ,swedencentral,output,Azure OpenAI GPT6,,6.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,centralus,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std dz,61 terra LongCo Opt Std DZ,westus3,output,Azure OpenAI GPT6,,8.25,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,canadaeast,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,uksouth,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,southcentralus,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,eastus,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std dz,61 terra ShortCo Opt Std DZ,westeurope,output,Azure OpenAI GPT6,,6.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,swedencentral,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std dz,61 terra ShortCo Cd Inp Std DZ,swedencentral,input,Azure OpenAI GPT6,,0.06,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std dz,61 terra ShortCo Cd Inp Std DZ,germanywestcentral,input,Azure OpenAI GPT6,,0.06,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,polandcentral,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std dz,61 terra LongCo Cd Inp Std DZ,eastus,input,Azure OpenAI GPT6,,0.11,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,polandcentral,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,brazilsouth,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,spaincentral,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,polandcentral,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,uksouth,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,westus3,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,malaysiawest,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,uaenorth,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,westus,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std dz,61 terra ShortCo Inp Std DZ,eastus2,input,Azure OpenAI GPT6,,1.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,centralus,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,southcentralus,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,malaysiawest,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,australiaeast,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std dz,61 terra ShortCo Cd Inp Std DZ,francecentral,input,Azure OpenAI GPT6,,0.06,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,westeurope,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std dz,61 terra LongCo Inp Std DZ,polandcentral,input,Azure OpenAI GPT6,,2.4,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,eastus,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std dz,61 terra ShortCo Inp Std DZ,westeurope,input,Azure OpenAI GPT6,,1.2,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,spaincentral,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std dz,61 terra ShortCo Opt Std DZ,centralus,output,Azure OpenAI GPT6,,5.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std dz,61 terra ShortCo Inp Std DZ,polandcentral,input,Azure OpenAI GPT6,,1.2,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,switzerlandnorth,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,australiaeast,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std dz,61 terra LongCo Inp Std DZ,germanywestcentral,input,Azure OpenAI GPT6,,2.4,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,brazilsouth,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,southafricanorth,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,brazilsouth,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,southindia,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,eastus,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,eastus2,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std dz,61 terra ShortCo Inp Std DZ,centralus,input,Azure OpenAI GPT6,,1.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,westeurope,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,norwayeast,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,germanywestcentral,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,germanywestcentral,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std dz,61 terra LongCo Opt Std DZ,spaincentral,output,Azure OpenAI GPT6,,9.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std dz,61 terra LongCo Cd Inp Std DZ,westus3,input,Azure OpenAI GPT6,,0.11,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,polandcentral,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std dz,61 terra LongCo Opt Std DZ,southcentralus,output,Azure OpenAI GPT6,,8.25,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std dz,61 terra LongCo Cd Inp Std DZ,francecentral,input,Azure OpenAI GPT6,,0.12,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std dz,61 terra ShortCo Cd Inp Std DZ,southcentralus,input,Azure OpenAI GPT6,,0.055,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,uksouth,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,koreacentral,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,northcentralus,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std dz,61 terra ShortCo Inp Std DZ,germanywestcentral,input,Azure OpenAI GPT6,,1.2,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,westeurope,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,francecentral,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std dz,61 terra LongCo Cd Inp Std DZ,westeurope,input,Azure OpenAI GPT6,,0.12,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,australiaeast,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,norwayeast,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,eastus2,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,southindia,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,koreacentral,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std dz,61 terra ShortCo Inp Std DZ,northcentralus,input,Azure OpenAI GPT6,,1.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std dz,61 terra LongCo Opt Std DZ,polandcentral,output,Azure OpenAI GPT6,,9.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,southcentralus,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,eastus,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,westeurope,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,westus,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,swedencentral,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,uksouth,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,japaneast,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std dz,61 terra LongCo Opt Std DZ,francecentral,output,Azure OpenAI GPT6,,9.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,germanywestcentral,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std dz,61 terra ShortCo Cd Inp Std DZ,polandcentral,input,Azure OpenAI GPT6,,0.06,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std gl,61 terra ShortCo Cd Inp Std Gl,koreacentral,input,Azure OpenAI GPT6,,0.05,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std dz,61 terra ShortCo Opt Std DZ,polandcentral,output,Azure OpenAI GPT6,,6.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,spaincentral,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std gl,61 terra ShortCo Opt std Gl,koreacentral,output,Azure OpenAI GPT6,,5.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco cd inp std dz,61 terra ShortCo Cd Inp Std DZ,eastus,input,Azure OpenAI GPT6,,0.055,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,uksouth,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,southafricanorth,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco opt std dz,61 terra ShortCo Opt Std DZ,eastus2,output,Azure OpenAI GPT6,,5.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,eastus2,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra shortco inp std gl,61 terra ShortCo Inp Std Gl,japaneast,input,Azure OpenAI GPT6,,1.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco inp std gl,61 terra LongCo Inp Std Gl,malaysiawest,input,Azure OpenAI GPT6,,2.0,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,australiaeast,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std gl,61 terra LongCo Cd Inp Std Gl,westus,input,Azure OpenAI GPT6,,0.1,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std gl,61 terra LongCo Opt std Gl,polandcentral,output,Azure OpenAI GPT6,,7.5,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco cd inp std dz,61 terra LongCo Cd Inp Std DZ,polandcentral,input,Azure OpenAI GPT6,,0.12,
+2026-10-29T00:50:49+00:00,azure,Azure Foundry,azure:azure openai gpt6|61 terra longco opt std dz,61 terra LongCo Opt Std DZ,eastus2,output,Azure OpenAI GPT6,,8.25,
+2026-10-29T00:50:49+00:00,openrouter,ModelRun,deepseek-ai/deepseek-v4.1-flash,fp4,,cache_read,DeepSeek: DeepSeek V4.1 Flash,0.006,,
+2026-10-29T00:50:49+00:00,openrouter,ModelRun,deepseek-ai/deepseek-v4.1-flash,fp4,,input,DeepSeek: DeepSeek V4.1 Flash,0.17,,
+2026-10-29T00:50:49+00:00,openrouter,ModelRun,deepseek-ai/deepseek-v4.1-flash,fp4,,output,DeepSeek: DeepSeek V4.1 Flash,0.67,,
+2026-10-29T00:50:49+00:00,openrouter,Tenstorrent,qwen/qwen3-32b,fp8,,cache_read,Qwen: Qwen3 32B,0.09,,
+2026-10-29T00:50:49+00:00,openrouter,Tenstorrent,qwen/qwen3-32b,fp8,,input,Qwen: Qwen3 32B,0.14,,
+2026-10-29T00:50:49+00:00,openrouter,Tenstorrent,qwen/qwen3-32b,fp8,,output,Qwen: Qwen3 32B,0.4,,
