@@ -9570,10 +9570,10 @@
      "name": "Baidu | deepseek/deepseek-v4-flash-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000028",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000014"
+      "completion": "0.00000009996",
+      "discount": 0.643,
+      "input_cache_read": "0.000000009996",
+      "prompt": "0.00000004998"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10010,7 +10010,7 @@
       "prompt": "0.00000005"
      },
      "provider_name": "Relace",
-     "quantization": "nvfp4",
+     "quantization": "fp4",
      "service_tier": null,
      "supported_parameters": [
       "frequency_penalty",
@@ -10041,7 +10041,7 @@
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "relace/nvfp4"
+     "tag": "relace/fp4"
     },
     {
      "context_length": 1048576,
@@ -10095,10 +10095,10 @@
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000168",
-      "discount": 0.4,
-      "input_cache_read": "0.0000000168",
-      "prompt": "0.000000084"
+      "completion": "0.00000009856",
+      "discount": 0.648,
+      "input_cache_read": "0.000000009856",
+      "prompt": "0.00000004928"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -10431,10 +10431,10 @@
      "name": "Baidu | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000132",
-      "discount": 0,
-      "input_cache_read": "0.000000014",
-      "prompt": "0.00000044"
+      "completion": "0.00000017688",
+      "discount": 0.866,
+      "input_cache_read": "0.000000001876",
+      "prompt": "0.00000005896"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10747,9 +10747,9 @@
      "supports_multiple_audio_references": false,
      "supports_tool_choice": {
       "auto": true,
-      "function": true,
+      "function": false,
       "none": true,
-      "required": true
+      "required": false
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/fp8"
@@ -11053,10 +11053,10 @@
      "name": "Phala | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000924",
-      "discount": 0.3,
-      "input_cache_read": "0.0000000196",
-      "prompt": "0.000000308"
+      "completion": "0.00000132",
+      "discount": 0,
+      "input_cache_read": "0.000000028",
+      "prompt": "0.00000044"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -11148,13 +11148,13 @@
      "name": "Relace | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000001432",
+      "completion": "0.00000014",
       "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.0000000496"
+      "input_cache_read": "0.000000014",
+      "prompt": "0.00000007"
      },
      "provider_name": "Relace",
-     "quantization": "nvfp4",
+     "quantization": "fp4",
      "service_tier": null,
      "supported_parameters": [
       "frequency_penalty",
@@ -11185,7 +11185,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "relace/nvfp4"
+     "tag": "relace/fp4"
     },
     {
      "context_length": 1048576,
@@ -11410,7 +11410,7 @@
       "auto": true,
       "function": false,
       "none": true,
-      "required": true
+      "required": false
      },
      "supports_voice_cloning": false,
      "tag": "venice"
@@ -11426,8 +11426,8 @@
      "pricing": {
       "completion": "0.0000003",
       "discount": 0,
-      "input_cache_read": "0.0000000512",
-      "prompt": "0.0000000522"
+      "input_cache_read": "0.000000057",
+      "prompt": "0.000000058"
      },
      "provider_name": "Wafer",
      "quantization": "nvfp4",
@@ -11478,8 +11478,8 @@
      "pricing": {
       "completion": "0.00000023",
       "discount": 0,
-      "input_cache_read": "0.000000135",
-      "prompt": "0.00000014"
+      "input_cache_read": "0.00000008",
+      "prompt": "0.000000085"
      },
      "provider_name": "Wafer",
      "quantization": "nvfp4",
@@ -11889,10 +11889,10 @@
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000338",
-      "discount": 0,
-      "input_cache_read": "0.00000014",
-      "prompt": "0.00000169"
+      "completion": "0.00000179816",
+      "discount": 0.468,
+      "input_cache_read": "0.00000007448",
+      "prompt": "0.00000089908"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -12224,7 +12224,7 @@
       "prompt": "0.0000009"
      },
      "provider_name": "Relace",
-     "quantization": "mxfp4",
+     "quantization": "fp4",
      "service_tier": null,
      "supported_parameters": [
       "frequency_penalty",
@@ -12255,7 +12255,7 @@
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "relace/mxfp4"
+     "tag": "relace/fp4"
     },
     {
      "context_length": 1048576,
@@ -13296,10 +13296,10 @@
      "name": "Phala | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000028776",
-      "discount": 0.34,
-      "input_cache_read": "0.000000099",
-      "prompt": "0.000000957"
+      "completion": "0.00000436",
+      "discount": 0,
+      "input_cache_read": "0.00000015",
+      "prompt": "0.00000145"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -13344,13 +13344,13 @@
      "name": "Relace | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000004",
+      "completion": "0.000008",
       "discount": 0,
       "input_cache_read": "0.0000001",
       "prompt": "0.0000001035"
      },
      "provider_name": "Relace",
-     "quantization": "mxfp4",
+     "quantization": "fp4",
      "service_tier": null,
      "supported_parameters": [
       "frequency_penalty",
@@ -13381,7 +13381,7 @@
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "relace/mxfp4"
+     "tag": "relace/fp4"
     },
     {
      "context_length": 1048576,
@@ -13904,10 +13904,10 @@
      "name": "Baidu | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
-      "discount": 0,
-      "input_cache_read": "0.000000006",
-      "prompt": "0.0000003"
+      "completion": "0.0000001788",
+      "discount": 0.851,
+      "input_cache_read": "0.000000000894",
+      "prompt": "0.0000000447"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -15113,10 +15113,10 @@
      "name": "OpenInference | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000331",
+      "completion": "0.000000173",
       "discount": 0,
-      "input_cache_read": "0.0000000227",
-      "prompt": "0.0000000247"
+      "input_cache_read": "0.000000013",
+      "prompt": "0.0000000141"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -15365,11 +15365,11 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "input_cache_read": "0.000000008",
-      "prompt": "0.00000007"
+      "input_cache_read": "0.000000005",
+      "prompt": "0.000000035"
      },
      "provider_name": "Relace",
-     "quantization": "mxfp4",
+     "quantization": "fp4",
      "service_tier": null,
      "supported_parameters": [
       "frequency_penalty",
@@ -15401,7 +15401,7 @@
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "relace/mxfp4"
+     "tag": "relace/fp4"
     },
     {
      "context_length": 1048576,
@@ -15926,10 +15926,10 @@
      "name": "Baidu | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000113",
-      "discount": 0,
-      "input_cache_read": "0.000000006",
-      "prompt": "0.00000028"
+      "completion": "0.00000060455",
+      "discount": 0.465,
+      "input_cache_read": "0.00000000321",
+      "prompt": "0.0000001498"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -17006,52 +17006,6 @@
     },
     {
      "context_length": 1048576,
-     "max_completion_tokens": 131072,
-     "max_prompt_tokens": null,
-     "model_id": "deepseek/deepseek-v4.1-flash-1017",
-     "model_name": "DeepSeek: DeepSeek V4.1 Flash 1017",
-     "name": "ModelRun | deepseek/deepseek-v4.1-flash-20261017",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000067",
-      "discount": 0,
-      "input_cache_read": "0.000000006",
-      "prompt": "0.00000017"
-     },
-     "provider_name": "ModelRun",
-     "quantization": "fp4",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "modelrun/fp4"
-    },
-    {
-     "context_length": 1048576,
      "max_completion_tokens": 943718,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4.1-flash-1017",
@@ -17208,10 +17162,10 @@
      "name": "OpenInference | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000331",
+      "completion": "0.000000173",
       "discount": 0,
-      "input_cache_read": "0.0000000227",
-      "prompt": "0.0000000247"
+      "input_cache_read": "0.000000013",
+      "prompt": "0.0000000141"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -17508,11 +17462,11 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "input_cache_read": "0.000000008",
-      "prompt": "0.00000007"
+      "input_cache_read": "0.000000005",
+      "prompt": "0.000000035"
      },
      "provider_name": "Relace",
-     "quantization": "mxfp4",
+     "quantization": "fp4",
      "service_tier": null,
      "supported_parameters": [
       "frequency_penalty",
@@ -17544,7 +17498,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "relace/mxfp4"
+     "tag": "relace/fp4"
     },
     {
      "context_length": 1048576,
@@ -17891,8 +17845,8 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "input_cache_read": "0.0000000079",
-      "prompt": "0.000000079"
+      "input_cache_read": "0.0000000065",
+      "prompt": "0.000000066"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -31033,9 +30987,9 @@
      "name": "Minimax | minimax/minimax-m3.1-flash-20261019",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000003",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.0000000075",
+      "input_cache_read": "0.000000015",
       "overrides": [
        {
         "completion": "0.0000003",
@@ -31052,7 +31006,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.000000075"
+      "prompt": "0.00000015"
      },
      "provider_name": "Minimax",
      "quantization": "unknown",
@@ -34906,10 +34860,10 @@
      "name": "Baidu | moonshotai/kimi-k2.6-20260420",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000004",
-      "discount": 0,
-      "input_cache_read": "0.00000016",
-      "prompt": "0.00000095"
+      "completion": "0.00000164",
+      "discount": 0.59,
+      "input_cache_read": "0.0000000656",
+      "prompt": "0.0000003895"
      },
      "provider_name": "Baidu",
      "quantization": "fp4",
@@ -37336,7 +37290,7 @@
      "supports_implicit_caching": true,
      "supports_multiple_audio_references": false,
      "supports_tool_choice": {
-      "auto": false,
+      "auto": true,
       "function": true,
       "none": true,
       "required": true
@@ -37353,13 +37307,13 @@
      "name": "Relace | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000093388",
+      "completion": "0.0000105478",
       "discount": 0,
-      "input_cache_read": "0.00000018",
-      "prompt": "0.0000001824"
+      "input_cache_read": "0.00000015",
+      "prompt": "0.0000001558"
      },
      "provider_name": "Relace",
-     "quantization": "mxfp4",
+     "quantization": "fp4",
      "service_tier": null,
      "supported_parameters": [
       "frequency_penalty",
@@ -37387,7 +37341,7 @@
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "relace/mxfp4"
+     "tag": "relace/fp4"
     },
     {
      "context_length": 1048576,
@@ -37541,10 +37495,10 @@
      "name": "Wafer | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000022",
+      "completion": "0.00000994",
       "discount": 0,
-      "input_cache_read": "0.000000161",
-      "prompt": "0.000000162"
+      "input_cache_read": "0.000000163",
+      "prompt": "0.000000164"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -39418,6 +39372,52 @@
      },
      "supports_voice_cloning": false,
      "tag": "nebius/bf16"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "model_id": "nvidia/nemotron-3.5-super-vl",
+     "model_name": "NVIDIA: Nemotron 3.5 Super VL",
+     "name": "PrimeIntellect | nvidia/nemotron-3.5-super-vl-20261015",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000005",
+      "discount": 0,
+      "input_cache_read": "0.00000002",
+      "prompt": "0.00000015"
+     },
+     "provider_name": "PrimeIntellect",
+     "quantization": "nvfp4",
+     "service_tier": null,
+     "supported_parameters": [
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "primeintellect/nvfp4"
     },
     {
      "context_length": 262144,
@@ -51561,7 +51561,7 @@
      "pricing": {
       "completion": "0.00000025",
       "discount": 0,
-      "prompt": "0.00000005"
+      "prompt": "0.000000055"
      },
      "provider_name": "Mancer 2",
      "quantization": "fp8",
@@ -58016,7 +58016,7 @@
       "auto": true,
       "function": true,
       "none": true,
-      "required": false
+      "required": true
      },
      "supports_voice_cloning": false,
      "tag": "akashml/fp8"
@@ -61776,7 +61776,7 @@
      "supports_multiple_audio_references": false,
      "supports_tool_choice": {
       "auto": true,
-      "function": true,
+      "function": false,
       "none": false,
       "required": true
      },
@@ -62736,10 +62736,10 @@
      "name": "DeepInfra | tencent/hy4-preview-20260827",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000237595",
-      "discount": 0.05,
-      "input_cache_read": "0.0000000399",
-      "prompt": "0.0000007923"
+      "completion": "0.000002501",
+      "discount": 0,
+      "input_cache_read": "0.000000042",
+      "prompt": "0.000000834"
      },
      "provider_name": "DeepInfra",
      "quantization": "fp4",
@@ -66313,7 +66313,7 @@
       "prompt": "0.000000087"
      },
      "provider_name": "Relace",
-     "quantization": "mxfp4",
+     "quantization": "fp4",
      "service_tier": null,
      "supported_parameters": [
       "frequency_penalty",
@@ -66342,7 +66342,7 @@
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "relace/mxfp4"
+     "tag": "relace/fp4"
     },
     {
      "context_length": 1000000,
@@ -68406,10 +68406,10 @@
      "name": "Baidu | z-ai/glm-5.1-20260406",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "completion": "0.0000028248",
+      "discount": 0.358,
+      "input_cache_read": "0.00000016692",
+      "prompt": "0.0000008988"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -68798,9 +68798,9 @@
      "supports_multiple_audio_references": false,
      "supports_tool_choice": {
       "auto": true,
-      "function": true,
+      "function": false,
       "none": false,
-      "required": true
+      "required": false
      },
      "supports_voice_cloning": false,
      "tag": "streamlake/fp8"
@@ -70175,7 +70175,7 @@
       "prompt": "0.0000000065"
      },
      "provider_name": "Relace",
-     "quantization": "nvfp4",
+     "quantization": "fp4",
      "service_tier": null,
      "supported_parameters": [
       "frequency_penalty",
@@ -70205,7 +70205,7 @@
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "relace/nvfp4"
+     "tag": "relace/fp4"
     },
     {
      "context_length": 1048576,
@@ -72396,7 +72396,7 @@
       "prompt": "0.0000000703"
      },
      "provider_name": "Relace",
-     "quantization": "nvfp4",
+     "quantization": "fp4",
      "service_tier": null,
      "supported_parameters": [
       "frequency_penalty",
@@ -72426,7 +72426,7 @@
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "relace/nvfp4"
+     "tag": "relace/fp4"
     },
     {
      "context_length": 1048576,
@@ -74046,10 +74046,10 @@
      "name": "OpenInference | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000000687",
+      "completion": "0.0000000518",
       "discount": 0,
-      "input_cache_read": "0.0000000189",
-      "prompt": "0.0000000227"
+      "input_cache_read": "0.0000000172",
+      "prompt": "0.0000000189"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -74198,10 +74198,10 @@
      "name": "Phala | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000425",
-      "discount": 0.15,
-      "input_cache_read": "0.0000000255",
-      "prompt": "0.0000001275"
+      "completion": "0.000000375",
+      "discount": 0.25,
+      "input_cache_read": "0.0000000225",
+      "prompt": "0.0000001125"
      },
      "provider_name": "Phala",
      "quantization": "nvfp4",
@@ -74348,13 +74348,13 @@
      "name": "Relace | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000001238",
+      "completion": "0.0000001402",
       "discount": 0,
-      "input_cache_read": "0.0000000216",
-      "prompt": "0.0000000216"
+      "input_cache_read": "0.000000018",
+      "prompt": "0.000000018"
      },
      "provider_name": "Relace",
-     "quantization": "nvfp4",
+     "quantization": "fp4",
      "service_tier": null,
      "supported_parameters": [
       "frequency_penalty",
@@ -74383,7 +74383,7 @@
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "relace/nvfp4"
+     "tag": "relace/fp4"
     },
     {
      "context_length": 1048576,
@@ -74441,10 +74441,10 @@
      "name": "Sail Research | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000075",
+      "completion": "0.00000125",
       "discount": 0,
       "input_cache_read": "0.000000045",
-      "prompt": "0.000000225"
+      "prompt": "0.00000035"
      },
      "provider_name": "Sail Research",
      "quantization": "fp4",
@@ -74720,8 +74720,8 @@
      "pricing": {
       "completion": "0.0000002",
       "discount": 0,
-      "input_cache_read": "0.000000047",
-      "prompt": "0.000000048"
+      "input_cache_read": "0.000000043",
+      "prompt": "0.000000044"
      },
      "provider_name": "Wafer",
      "quantization": "nvfp4",
