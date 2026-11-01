@@ -13804,6 +13804,7 @@
     "include_reasoning",
     "logit_bias",
     "logprobs",
+    "max_completion_tokens",
     "max_tokens",
     "min_p",
     "presence_penalty",
@@ -17899,8 +17900,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -17917,7 +17918,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.000000075"
    },
    "reasoning": {
     "default_effort": "max",
@@ -31753,8 +31754,8 @@
    "name": "OpenAI: gpt-oss-120b",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000064",
-    "prompt": "0.000000017"
+    "completion": "0.000000051",
+    "prompt": "0.000000014"
    },
    "reasoning": {
     "default_effort": "medium",
@@ -38863,8 +38864,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -38881,7 +38882,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -39034,8 +39035,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -39052,7 +39053,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -45477,7 +45478,7 @@
    "pricing": {
     "completion": "0.0000003",
     "input_cache_read": "0.000000035",
-    "prompt": "0.0000000434"
+    "prompt": "0.000000059"
    },
    "reasoning": {
     "default_effort": "high",
