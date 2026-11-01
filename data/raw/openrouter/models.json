@@ -17885,8 +17885,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -17903,7 +17903,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.000000075"
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "max",
@@ -31739,9 +31739,8 @@
    "name": "OpenAI: gpt-oss-120b",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000075",
-    "prompt": "0.00000015"
+    "completion": "0.000000095",
+    "prompt": "0.000000026"
    },
    "reasoning": {
     "default_effort": "medium",
@@ -31964,9 +31963,9 @@
    "name": "OpenAI: gpt-oss-20b",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000009",
-    "input_cache_read": "0.000000009",
-    "prompt": "0.000000018"
+    "completion": "0.00000013",
+    "input_cache_read": "0.00000003",
+    "prompt": "0.00000003"
    },
    "reasoning": {
     "default_effort": "medium",
@@ -32003,7 +32002,7 @@
    "top_provider": {
     "context_length": 131072,
     "is_moderated": false,
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 117964
    }
   },
   {
@@ -44231,9 +44230,9 @@
    "name": "Z.ai: GLM 5.3 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000001543",
-    "input_cache_read": "0.0000000149",
-    "prompt": "0.0000000149"
+    "completion": "0.0000001702",
+    "input_cache_read": "0.0000000093",
+    "prompt": "0.0000000093"
    },
    "reasoning": {
     "default_effort": "max",
@@ -44272,7 +44271,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    }
   },
   {
@@ -45296,9 +45295,9 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000000828",
-    "input_cache_read": "0.00000000901",
-    "prompt": "0.0000000108"
+    "completion": "0.0000005",
+    "input_cache_read": "0.000000005",
+    "prompt": "0.000000035"
    },
    "reasoning": {
     "default_effort": "high",
@@ -46392,9 +46391,9 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000001543",
-    "input_cache_read": "0.0000000149",
-    "prompt": "0.0000000149"
+    "completion": "0.0000001702",
+    "input_cache_read": "0.0000000093",
+    "prompt": "0.0000000093"
    },
    "reasoning": {
     "default_effort": "max",
@@ -46433,7 +46432,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    }
   },
   {

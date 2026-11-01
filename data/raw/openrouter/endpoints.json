@@ -10006,8 +10006,8 @@
      "pricing": {
       "completion": "0.00000045",
       "discount": 0,
-      "input_cache_read": "0.0000000379",
-      "prompt": "0.0000000379"
+      "input_cache_read": "0.0000000386",
+      "prompt": "0.0000000386"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -11055,10 +11055,10 @@
      "name": "Phala | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000924",
-      "discount": 0.3,
-      "input_cache_read": "0.0000000196",
-      "prompt": "0.000000308"
+      "completion": "0.00000132",
+      "discount": 0,
+      "input_cache_read": "0.000000028",
+      "prompt": "0.00000044"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -11480,8 +11480,8 @@
      "pricing": {
       "completion": "0.00000023",
       "discount": 0,
-      "input_cache_read": "0.000000135",
-      "prompt": "0.00000014"
+      "input_cache_read": "0.00000008",
+      "prompt": "0.000000085"
      },
      "provider_name": "Wafer",
      "quantization": "nvfp4",
@@ -11891,10 +11891,10 @@
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000100724",
-      "discount": 0.702,
-      "input_cache_read": "0.00000004172",
-      "prompt": "0.00000050362"
+      "completion": "0.00000072332",
+      "discount": 0.786,
+      "input_cache_read": "0.00000002996",
+      "prompt": "0.00000036166"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -12311,10 +12311,10 @@
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000989712",
-      "discount": 0.7156,
-      "input_cache_read": "0.000000041238",
-      "prompt": "0.000000494856"
+      "completion": "0.000000706092",
+      "discount": 0.7971,
+      "input_cache_read": "0.0000000294205",
+      "prompt": "0.000000353046"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -13298,10 +13298,10 @@
      "name": "Phala | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000028776",
-      "discount": 0.34,
-      "input_cache_read": "0.000000099",
-      "prompt": "0.000000957"
+      "completion": "0.00000436",
+      "discount": 0,
+      "input_cache_read": "0.00000015",
+      "prompt": "0.00000145"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -14846,6 +14846,7 @@
       "reasoning",
       "reasoning_effort",
       "repetition_penalty",
+      "response_format",
       "seed",
       "stop",
       "structured_outputs",
@@ -15071,10 +15072,10 @@
      "name": "OpenInference | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000000828",
+      "completion": "0.0000005451",
       "discount": 0,
-      "input_cache_read": "0.00000000901",
-      "prompt": "0.0000000108"
+      "input_cache_read": "0.000000006",
+      "prompt": "0.0000000073"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -15321,10 +15322,10 @@
      "name": "Relace | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000005398",
+      "completion": "0.0000005451",
       "discount": 0,
       "input_cache_read": "0.000000006",
-      "prompt": "0.0000000103"
+      "prompt": "0.0000000069"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -17162,10 +17163,10 @@
      "name": "OpenInference | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000000828",
+      "completion": "0.0000005",
       "discount": 0,
-      "input_cache_read": "0.00000000901",
-      "prompt": "0.0000000108"
+      "input_cache_read": "0.000000005",
+      "prompt": "0.000000035"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -24499,10 +24500,10 @@
      "name": "PrimeIntellect | google/gemma-4-26b-a4b-it-20260403",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000035",
+      "completion": "0.000000093",
       "discount": 0,
-      "input_cache_read": "0.000000006",
-      "prompt": "0.000000012"
+      "input_cache_read": "0.000000016",
+      "prompt": "0.000000031"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "bf16",
@@ -30987,9 +30988,9 @@
      "name": "Minimax | minimax/minimax-m3.1-flash-20261019",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000003",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.0000000075",
+      "input_cache_read": "0.000000015",
       "overrides": [
        {
         "completion": "0.0000003",
@@ -31006,7 +31007,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.000000075"
+      "prompt": "0.00000015"
      },
      "provider_name": "Minimax",
      "quantization": "unknown",
@@ -36425,55 +36426,6 @@
      "max_prompt_tokens": null,
      "model_id": "moonshotai/kimi-k3",
      "model_name": "MoonshotAI: Kimi K3",
-     "name": "Decart | moonshotai/kimi-k3-20260715",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000975",
-      "discount": 0.35,
-      "input_cache_read": "0.000000195",
-      "prompt": "0.00000195"
-     },
-     "provider_name": "Decart",
-     "quantization": "mxfp4",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "decart/mxfp4"
-    },
-    {
-     "context_length": 1048576,
-     "max_completion_tokens": 943718,
-     "max_prompt_tokens": null,
-     "model_id": "moonshotai/kimi-k3",
-     "model_name": "MoonshotAI: Kimi K3",
      "name": "DeepInfra | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
@@ -36771,7 +36723,7 @@
      "name": "InferenceNet | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000006975",
+      "completion": "0.000015",
       "discount": 0,
       "input_cache_read": "0.000000195",
       "prompt": "0.000000234"
@@ -36821,7 +36773,7 @@
      "name": "InferenceNet | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000006975",
+      "completion": "0.000015",
       "discount": 0,
       "input_cache_read": "0.000000195",
       "prompt": "0.000000234"
@@ -36871,7 +36823,7 @@
      "name": "InferenceNet | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00001188",
+      "completion": "0.000022",
       "discount": 0,
       "input_cache_read": "0.00000035",
       "prompt": "0.0000005"
@@ -36921,7 +36873,7 @@
      "name": "InferenceNet | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00001188",
+      "completion": "0.000022",
       "discount": 0,
       "input_cache_read": "0.00000035",
       "prompt": "0.0000005"
@@ -51852,6 +51804,56 @@
     },
     {
      "context_length": 131072,
+     "max_completion_tokens": 65536,
+     "max_prompt_tokens": null,
+     "model_id": "openai/gpt-oss-120b",
+     "model_name": "OpenAI: gpt-oss-120b",
+     "name": "PrimeIntellect | openai/gpt-oss-120b",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.000000095",
+      "discount": 0,
+      "prompt": "0.000000026"
+     },
+     "provider_name": "PrimeIntellect",
+     "quantization": "fp4",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_a",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": false,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "primeintellect/fp4"
+    },
+    {
+     "context_length": 131072,
      "max_completion_tokens": 117964,
      "max_prompt_tokens": null,
      "model_id": "openai/gpt-oss-120b",
@@ -52516,6 +52518,55 @@
      },
      "supports_voice_cloning": false,
      "tag": "parasail/fp4"
+    },
+    {
+     "context_length": 131072,
+     "max_completion_tokens": 32768,
+     "max_prompt_tokens": null,
+     "model_id": "openai/gpt-oss-20b",
+     "model_name": "OpenAI: gpt-oss-20b",
+     "name": "PrimeIntellect | openai/gpt-oss-20b",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.000000029",
+      "discount": 0,
+      "prompt": "0.000000007"
+     },
+     "provider_name": "PrimeIntellect",
+     "quantization": "fp4",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "primeintellect/fp4"
     },
     {
      "context_length": 131072,
@@ -59956,7 +60007,7 @@
      "name": "PrimeIntellect | qwen/qwen3.8-27b-20260814",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000224",
+      "completion": "0.000000223",
       "discount": 0,
       "input_cache_read": "0.000000004",
       "prompt": "0.000000004"
@@ -62626,10 +62677,10 @@
      "name": "DeepInfra | tencent/hy4-preview-20260827",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000237595",
-      "discount": 0.05,
-      "input_cache_read": "0.0000000399",
-      "prompt": "0.0000007923"
+      "completion": "0.000002501",
+      "discount": 0,
+      "input_cache_read": "0.000000042",
+      "prompt": "0.000000834"
      },
      "provider_name": "DeepInfra",
      "quantization": "fp4",
@@ -73936,10 +73987,10 @@
      "name": "OpenInference | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000000202",
+      "completion": "0.0000001702",
       "discount": 0,
-      "input_cache_read": "0.0000000143",
-      "prompt": "0.0000000157"
+      "input_cache_read": "0.0000000093",
+      "prompt": "0.0000000093"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -74238,10 +74289,10 @@
      "name": "Relace | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000001543",
+      "completion": "0.0000001702",
       "discount": 0,
-      "input_cache_read": "0.0000000149",
-      "prompt": "0.0000000149"
+      "input_cache_read": "0.0000000093",
+      "prompt": "0.0000000093"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
