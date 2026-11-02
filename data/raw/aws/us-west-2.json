@@ -1337,6 +1337,19 @@
    "productFamily": "Amazon Bedrock",
    "sku": "4JT328AUNYCQ2ME5"
   },
+  "4KTGKVYZDY3Z9CZ4": {
+   "attributes": {
+    "location": "US West (Oregon)",
+    "locationType": "AWS Region",
+    "operation": "",
+    "regionCode": "us-west-2",
+    "servicecode": "AmazonBedrock",
+    "servicename": "Amazon Bedrock",
+    "usagetype": "USW2-Bedrock-Web-Search"
+   },
+   "productFamily": "Amazon Bedrock",
+   "sku": "4KTGKVYZDY3Z9CZ4"
+  },
   "4M32QSGU8H6WEZ25": {
    "attributes": {
     "feature": "On-demand Inference",
@@ -17850,7 +17863,7 @@
    "sku": "ZY3WFYWXUSD96VSJ"
   }
  },
- "publicationDate": "2026-10-30T16:04:56Z",
+ "publicationDate": "2026-11-02T16:50:15Z",
  "terms": {
   "OnDemand": {
    "22QFG9GV6593XE7S": {
@@ -19551,6 +19564,27 @@
       }
      },
      "sku": "4JT328AUNYCQ2ME5",
+     "termAttributes": {}
+    }
+   },
+   "4KTGKVYZDY3Z9CZ4": {
+    "4KTGKVYZDY3Z9CZ4.JRTCKXETXF": {
+     "effectiveDate": "2026-10-01T00:00:00Z",
+     "offerTermCode": "JRTCKXETXF",
+     "priceDimensions": {
+      "4KTGKVYZDY3Z9CZ4.JRTCKXETXF.6YS6EN2CT7": {
+       "appliesTo": [],
+       "beginRange": "0",
+       "description": "USD 12.00 per 1K Tool Calls for Bedrock-Web-Search in US West (Oregon).",
+       "endRange": "Inf",
+       "pricePerUnit": {
+        "USD": "0.0120000000"
+       },
+       "rateCode": "4KTGKVYZDY3Z9CZ4.JRTCKXETXF.6YS6EN2CT7",
+       "unit": "Tool Calls"
+      }
+     },
+     "sku": "4KTGKVYZDY3Z9CZ4",
      "termAttributes": {}
     }
    },
@@ -40451,5 +40485,5 @@
    }
   }
  },
- "version": "20261030160456"
+ "version": "20261102165015"
 }

@@ -4939,6 +4939,19 @@
    "productFamily": "Amazon Bedrock",
    "sku": "ADST6265RXJ68BFX"
   },
+  "AG9QZVEWKPV2Z35R": {
+   "attributes": {
+    "location": "US East (N. Virginia)",
+    "locationType": "AWS Region",
+    "operation": "",
+    "regionCode": "us-east-1",
+    "servicecode": "AmazonBedrock",
+    "servicename": "Amazon Bedrock",
+    "usagetype": "USE1-Bedrock-Web-Search"
+   },
+   "productFamily": "Amazon Bedrock",
+   "sku": "AG9QZVEWKPV2Z35R"
+  },
   "AH58EMK9ACMAFZH6": {
    "attributes": {
     "inferenceType": "input tokens batch",
@@ -17887,7 +17900,7 @@
    "sku": "ZZEREKCP9CH2VZP4"
   }
  },
- "publicationDate": "2026-10-30T16:04:56Z",
+ "publicationDate": "2026-11-02T16:50:15Z",
  "terms": {
   "OnDemand": {
    "22Z2C7232PZ4PV5K": {
@@ -24145,6 +24158,27 @@
       }
      },
      "sku": "ADST6265RXJ68BFX",
+     "termAttributes": {}
+    }
+   },
+   "AG9QZVEWKPV2Z35R": {
+    "AG9QZVEWKPV2Z35R.JRTCKXETXF": {
+     "effectiveDate": "2026-10-01T00:00:00Z",
+     "offerTermCode": "JRTCKXETXF",
+     "priceDimensions": {
+      "AG9QZVEWKPV2Z35R.JRTCKXETXF.6YS6EN2CT7": {
+       "appliesTo": [],
+       "beginRange": "0",
+       "description": "USD 12.00 per 1K Tool Calls for Bedrock-Web-Search in US East (N. Virginia).",
+       "endRange": "Inf",
+       "pricePerUnit": {
+        "USD": "0.0120000000"
+       },
+       "rateCode": "AG9QZVEWKPV2Z35R.JRTCKXETXF.6YS6EN2CT7",
+       "unit": "Tool Calls"
+      }
+     },
+     "sku": "AG9QZVEWKPV2Z35R",
      "termAttributes": {}
     }
    },
@@ -40614,5 +40648,5 @@
    }
   }
  },
- "version": "20261030160456"
+ "version": "20261102165015"
 }
