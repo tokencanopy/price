@@ -8403,8 +8403,8 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006",
     "overrides": [
      {
       "completion": "0.0000006",
@@ -8486,7 +8486,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -13647,9 +13647,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000063",
-    "input_cache_read": "0.00000001",
-    "prompt": "0.000000021"
+    "completion": "0.000000102",
+    "input_cache_read": "0.000000017",
+    "prompt": "0.000000034"
    },
    "reasoning": {
     "default_enabled": false,
@@ -15425,8 +15425,8 @@
    "name": "Meta: Llama 3.2 3B Instruct",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000033",
-    "prompt": "0.00000005"
+    "completion": "0.000000335",
+    "prompt": "0.0000000509"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -15446,9 +15446,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 131072,
+    "context_length": 80000,
     "is_moderated": false,
-    "max_completion_tokens": 117964
+    "max_completion_tokens": 72000
    }
   },
   {
@@ -17928,8 +17928,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -17946,7 +17946,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.000000075"
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "max",
@@ -31782,9 +31782,9 @@
    "name": "OpenAI: gpt-oss-120b",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000075",
-    "prompt": "0.00000015"
+    "completion": "0.000000073",
+    "input_cache_read": "0.000000018",
+    "prompt": "0.00000002"
    },
    "reasoning": {
     "default_effort": "medium",
@@ -34684,8 +34684,8 @@
    "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "prompt": "0.00000015"
+    "completion": "0.00000028",
+    "prompt": "0.00000007"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -34702,7 +34702,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 262144,
-    "is_moderated": true,
+    "is_moderated": false,
     "max_completion_tokens": 235929
    }
   },
