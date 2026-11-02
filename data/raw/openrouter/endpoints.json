@@ -11103,10 +11103,10 @@
      "name": "Phala | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000132",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000044"
+      "completion": "0.000000924",
+      "discount": 0.3,
+      "input_cache_read": "0.0000000196",
+      "prompt": "0.000000308"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -11628,8 +11628,8 @@
      "pricing": {
       "completion": "0.00000023",
       "discount": 0,
-      "input_cache_read": "0.000000095",
-      "prompt": "0.0000001"
+      "input_cache_read": "0.000000135",
+      "prompt": "0.00000014"
      },
      "provider_name": "Wafer",
      "quantization": "nvfp4",
@@ -12983,9 +12983,9 @@
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000396",
+      "completion": "0.00000198",
       "discount": 0,
-      "input_cache_read": "0.000000044",
+      "input_cache_read": "0.000000022",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -13067,7 +13067,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000132"
+      "prompt": "0.00000066"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -13446,10 +13446,10 @@
      "name": "Phala | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000436",
-      "discount": 0,
-      "input_cache_read": "0.00000015",
-      "prompt": "0.00000145"
+      "completion": "0.0000028776",
+      "discount": 0.34,
+      "input_cache_read": "0.000000099",
+      "prompt": "0.000000957"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -15324,8 +15324,8 @@
      "pricing": {
       "completion": "0.0000012",
       "discount": 0,
-      "input_cache_read": "0.000000006",
-      "prompt": "0.0000003"
+      "input_cache_read": "0.0000000048",
+      "prompt": "0.00000024"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "unknown",
@@ -16426,9 +16426,9 @@
      "name": "DeepSeek | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000006",
+      "input_cache_read": "0.000000003",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -16510,7 +16510,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.0000003"
+      "prompt": "0.00000015"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -17472,7 +17472,7 @@
       "completion": "0.0000012",
       "discount": 0,
       "input_cache_read": "0.000000006",
-      "prompt": "0.0000003"
+      "prompt": "0.00000024"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "unknown",
@@ -17796,6 +17796,51 @@
      "tag": "siliconflow/fp8"
     },
     {
+     "context_length": 1000000,
+     "max_completion_tokens": 384000,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4.1-flash-1017",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+     "name": "StepFun | deepseek/deepseek-v4.1-flash-20261017",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000078",
+      "discount": 0,
+      "input_cache_read": "0.0000000039",
+      "prompt": "0.000000195"
+     },
+     "provider_name": "StepFun",
+     "quantization": "fp8",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tools",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": false,
+      "function": false,
+      "none": false,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "stepfun/fp8"
+    },
+    {
      "context_length": 1024000,
      "max_completion_tokens": 384000,
      "max_prompt_tokens": null,
@@ -18001,7 +18046,7 @@
       "completion": "0.0000005",
       "discount": 0,
       "input_cache_read": "0.000000008",
-      "prompt": "0.00000016"
+      "prompt": "0.00000013"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -24654,10 +24699,10 @@
      "name": "PrimeIntellect | google/gemma-4-26b-a4b-it-20260403",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000091",
+      "completion": "0.000000245",
       "discount": 0,
-      "input_cache_read": "0.000000015",
-      "prompt": "0.00000003"
+      "input_cache_read": "0.000000041",
+      "prompt": "0.000000082"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "bf16",
@@ -25424,10 +25469,10 @@
      "name": "PrimeIntellect | google/gemma-4-31b-it-20260402",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000138",
+      "completion": "0.000000463",
       "discount": 0,
-      "input_cache_read": "0.000000041",
-      "prompt": "0.000000082"
+      "input_cache_read": "0.000000138",
+      "prompt": "0.000000276"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp8",
@@ -35442,8 +35487,8 @@
      "pricing": {
       "completion": "0.0000035",
       "discount": 0,
-      "input_cache_read": "0.0000001365",
-      "prompt": "0.0000006825"
+      "input_cache_read": "0.000000156",
+      "prompt": "0.00000078"
      },
      "provider_name": "Inceptron",
      "quantization": "int4",
@@ -52015,10 +52060,10 @@
      "name": "PrimeIntellect | openai/gpt-oss-120b",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000089",
+      "completion": "0.000000146",
       "discount": 0,
-      "input_cache_read": "0.000000022",
-      "prompt": "0.000000024"
+      "input_cache_read": "0.000000036",
+      "prompt": "0.00000004"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp4",
@@ -52733,10 +52778,10 @@
      "name": "PrimeIntellect | openai/gpt-oss-20b",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000025",
+      "completion": "0.00000004",
       "discount": 0,
-      "input_cache_read": "0.000000005",
-      "prompt": "0.000000006"
+      "input_cache_read": "0.000000008",
+      "prompt": "0.000000009"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp4",
@@ -57357,10 +57402,10 @@
      "name": "PrimeIntellect | qwen/qwen3.5-9b-20260310",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000031",
+      "completion": "0.000000062",
       "discount": 0,
-      "input_cache_read": "0.000000019",
-      "prompt": "0.000000021"
+      "input_cache_read": "0.000000038",
+      "prompt": "0.000000042"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "bf16",
@@ -58468,10 +58513,10 @@
      "name": "PrimeIntellect | qwen/qwen3.6-35b-a3b-20260415",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000092",
+      "completion": "0.000000109",
       "discount": 0,
-      "input_cache_read": "0.000000009",
-      "prompt": "0.00000001"
+      "input_cache_read": "0.000000011",
+      "prompt": "0.000000012"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp8",
@@ -60263,10 +60308,10 @@
      "name": "PrimeIntellect | qwen/qwen3.8-27b-20260814",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000275",
+      "completion": "0.000001499",
       "discount": 0,
-      "input_cache_read": "0.000000004",
-      "prompt": "0.000000005"
+      "input_cache_read": "0.000000025",
+      "prompt": "0.000000027"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp8",
@@ -60356,6 +60401,50 @@
      },
      "supports_voice_cloning": false,
      "tag": "reka/fp8"
+    },
+    {
+     "context_length": 1024000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": null,
+     "model_id": "qwen/qwen3.8-27b",
+     "model_name": "Qwen: Qwen3.8 27B",
+     "name": "StreamLake | qwen/qwen3.8-27b-20260814",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.000003",
+      "discount": 0,
+      "input_cache_read": "0.0000001",
+      "prompt": "0.0000005"
+     },
+     "provider_name": "StreamLake",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "stop",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": false,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "streamlake"
     },
     {
      "context_length": 262144,
@@ -71714,7 +71803,7 @@
      "name": "Inceptron | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000264",
+      "completion": "0.00000396",
       "discount": 0,
       "input_cache_read": "0.00000014",
       "prompt": "0.0000014"
@@ -72405,8 +72494,8 @@
      "pricing": {
       "completion": "0.00000308",
       "discount": 0,
-      "input_cache_read": "0.000000182",
-      "prompt": "0.00000098"
+      "input_cache_read": "0.000000093",
+      "prompt": "0.0000005"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "unknown",
@@ -73614,7 +73703,7 @@
      "pricing": {
       "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.00000006",
+      "input_cache_read": "0.00000004",
       "prompt": "0.00000019"
      },
      "provider_name": "Inceptron",
