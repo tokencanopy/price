@@ -13666,9 +13666,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000181",
-    "input_cache_read": "0.00000003",
-    "prompt": "0.00000006"
+    "completion": "0.000000231",
+    "input_cache_read": "0.000000038",
+    "prompt": "0.000000077"
    },
    "reasoning": {
     "default_enabled": false,
@@ -15261,19 +15261,9 @@
     "prompt": "0.00000072"
    },
    "supported_parameters": [
-    "frequency_penalty",
-    "logit_bias",
     "max_tokens",
-    "min_p",
-    "presence_penalty",
-    "repetition_penalty",
-    "response_format",
-    "seed",
     "stop",
-    "structured_outputs",
     "temperature",
-    "tool_choice",
-    "tools",
     "top_k",
     "top_p"
    ],
@@ -17062,7 +17052,7 @@
     "/api/v1/messages",
     "/api/v1/responses"
    ],
-   "expiration_date": null,
+   "expiration_date": "2026-11-05",
    "hugging_face_id": "MiniMaxAI/MiniMax-Text-01",
    "id": "minimax/minimax-01",
    "knowledge_cutoff": "2024-03-31",
@@ -17232,7 +17222,7 @@
     "/api/v1/messages",
     "/api/v1/responses"
    ],
-   "expiration_date": null,
+   "expiration_date": "2026-11-05",
    "hugging_face_id": "MiniMaxAI/MiniMax-M2",
    "id": "minimax/minimax-m2",
    "knowledge_cutoff": null,
@@ -17291,7 +17281,7 @@
     "/api/v1/messages",
     "/api/v1/responses"
    ],
-   "expiration_date": null,
+   "expiration_date": "2026-11-05",
    "hugging_face_id": "",
    "id": "minimax/minimax-m2-her",
    "knowledge_cutoff": null,
@@ -17397,7 +17387,7 @@
     "/api/v1/messages",
     "/api/v1/responses"
    ],
-   "expiration_date": null,
+   "expiration_date": "2026-11-05",
    "hugging_face_id": "MiniMaxAI/MiniMax-M2.1",
    "id": "minimax/minimax-m2.1",
    "knowledge_cutoff": null,
@@ -17654,7 +17644,7 @@
     "/api/v1/messages",
     "/api/v1/responses"
    ],
-   "expiration_date": null,
+   "expiration_date": "2026-11-05",
    "hugging_face_id": "MiniMaxAI/MiniMax-M2.7",
    "id": "minimax/minimax-m2.7",
    "knowledge_cutoff": null,
@@ -17958,8 +17948,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -17976,7 +17966,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.000000075"
    },
    "reasoning": {
     "default_effort": "max",
@@ -21008,8 +20998,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000015",
-    "input_cache_read": "0.000000182",
-    "prompt": "0.000000192"
+    "input_cache_read": "0.000000201",
+    "prompt": "0.000000211"
    },
    "reasoning": {
     "default_effort": "max",
@@ -31709,9 +31699,9 @@
    "name": "OpenAI: gpt-oss-120b",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000108",
-    "input_cache_read": "0.000000026",
-    "prompt": "0.000000029"
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000075",
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "medium",
@@ -34063,8 +34053,9 @@
    "name": "Qwen: Qwen3 235B A22B Instruct 2507",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000055",
-    "prompt": "0.00000009"
+    "completion": "0.0000008",
+    "input_cache_read": "0.00000005",
+    "prompt": "0.00000014"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -34087,9 +34078,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 262144,
+    "context_length": 131072,
     "is_moderated": false,
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 117964
    }
   },
   {
@@ -38833,8 +38824,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -38851,7 +38842,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -39004,8 +38995,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -39022,7 +39013,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41515,6 +41506,217 @@
    },
    "benchmarks": {
     "artificial_analysis": {
+     "agentic_index": 53,
+     "coding_index": 76.8,
+     "intelligence_index": null
+    },
+    "design_arena": [
+     {
+      "arena": "agents",
+      "category": "agenticgamedev",
+      "elo": 1158,
+      "rank": 9,
+      "win_rate": 47
+     },
+     {
+      "arena": "agents",
+      "category": "androidnative",
+      "elo": 1294,
+      "rank": 1,
+      "win_rate": 62
+     },
+     {
+      "arena": "agents",
+      "category": "blender3d",
+      "elo": 1147,
+      "rank": 10,
+      "win_rate": 48.6
+     },
+     {
+      "arena": "agents",
+      "category": "fullstack",
+      "elo": 1264,
+      "rank": 7,
+      "win_rate": 54.9
+     },
+     {
+      "arena": "agents",
+      "category": "godotgamedev",
+      "elo": 1276,
+      "rank": 4,
+      "win_rate": 53
+     },
+     {
+      "arena": "agents",
+      "category": "htmlslides",
+      "elo": 1146,
+      "rank": 6,
+      "win_rate": 60.1
+     },
+     {
+      "arena": "agents",
+      "category": "mobileapps",
+      "elo": 1232,
+      "rank": 11,
+      "win_rate": 55.3
+     },
+     {
+      "arena": "agents",
+      "category": "pdf",
+      "elo": 1260,
+      "rank": 6,
+      "win_rate": 60.3
+     },
+     {
+      "arena": "agents",
+      "category": "python-pptxslides",
+      "elo": 1197,
+      "rank": 11,
+      "win_rate": 52.9
+     },
+     {
+      "arena": "agents",
+      "category": "webapps",
+      "elo": 1235,
+      "rank": 13,
+      "win_rate": 55.7
+     },
+     {
+      "arena": "models",
+      "category": "3d",
+      "elo": 1273,
+      "rank": 23,
+      "win_rate": 52.4
+     },
+     {
+      "arena": "models",
+      "category": "asciiart",
+      "elo": 1272,
+      "rank": 12,
+      "win_rate": 57.1
+     },
+     {
+      "arena": "models",
+      "category": "codecategories",
+      "elo": 1290,
+      "rank": 20,
+      "win_rate": 52.5
+     },
+     {
+      "arena": "models",
+      "category": "dataviz",
+      "elo": 1283,
+      "rank": 20,
+      "win_rate": 51.4
+     },
+     {
+      "arena": "models",
+      "category": "gamedev",
+      "elo": 1295,
+      "rank": 20,
+      "win_rate": 54
+     },
+     {
+      "arena": "models",
+      "category": "svg",
+      "elo": 1234,
+      "rank": 18,
+      "win_rate": 48.7
+     },
+     {
+      "arena": "models",
+      "category": "uicomponent",
+      "elo": 1290,
+      "rank": 24,
+      "win_rate": 53.1
+     },
+     {
+      "arena": "models",
+      "category": "website",
+      "elo": 1287,
+      "rank": 22,
+      "win_rate": 52.2
+     }
+    ]
+   },
+   "canonical_slug": "x-ai/grok-4.6-20260810",
+   "context_length": 500000,
+   "created": 1786548957,
+   "default_parameters": {},
+   "description": "Grok 4.6 is a model from SpaceXAI with frontier performance on coding, knowledge work, and STEM. It is succeeded by [Grok 4.7](/x-ai/grok-4.7).",
+   "endpoints": [],
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "x-ai/grok-4.6:batch",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/x-ai/grok-4.6-20260810/endpoints"
+   },
+   "name": "SpaceXAI: Grok 4.6 (batch)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.0000048",
+    "input_cache_read": "0.0000004",
+    "overrides": [
+     {
+      "completion": "0.0000096",
+      "input_cache_read": "0.0000008",
+      "min_prompt_tokens": 200000,
+      "prompt": "0.0000032"
+     }
+    ],
+    "prompt": "0.0000016",
+    "web_search": "0.005"
+   },
+   "reasoning": {
+    "default_effort": "high",
+    "default_enabled": true,
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "medium",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "logprobs",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_logprobs",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 500000,
+    "is_moderated": false,
+    "max_completion_tokens": 450000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Grok"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
      "agentic_index": null,
      "coding_index": null,
      "intelligence_index": 35
@@ -41647,6 +41849,157 @@
     "tool_choice",
     "tools",
     "top_k",
+    "top_logprobs",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 500000,
+    "is_moderated": false,
+    "max_completion_tokens": 450000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Grok"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 35
+    },
+    "design_arena": [
+     {
+      "arena": "agents",
+      "category": "blender3d",
+      "elo": 1163,
+      "rank": 9,
+      "win_rate": 60
+     },
+     {
+      "arena": "agents",
+      "category": "mobileapps",
+      "elo": 1267,
+      "rank": 5,
+      "win_rate": 57.5
+     },
+     {
+      "arena": "agents",
+      "category": "pdf",
+      "elo": 1149,
+      "rank": 19,
+      "win_rate": 44
+     },
+     {
+      "arena": "models",
+      "category": "3d",
+      "elo": 1263,
+      "rank": 27,
+      "win_rate": 47.5
+     },
+     {
+      "arena": "models",
+      "category": "codecategories",
+      "elo": 1272,
+      "rank": 31,
+      "win_rate": 47.9
+     },
+     {
+      "arena": "models",
+      "category": "dataviz",
+      "elo": 1242,
+      "rank": 39,
+      "win_rate": 46.5
+     },
+     {
+      "arena": "models",
+      "category": "gamedev",
+      "elo": 1316,
+      "rank": 14,
+      "win_rate": 51.6
+     },
+     {
+      "arena": "models",
+      "category": "uicomponent",
+      "elo": 1266,
+      "rank": 34,
+      "win_rate": 48
+     },
+     {
+      "arena": "models",
+      "category": "website",
+      "elo": 1249,
+      "rank": 44,
+      "win_rate": 45.9
+     }
+    ]
+   },
+   "canonical_slug": "x-ai/grok-4.7-20260916",
+   "context_length": 500000,
+   "created": 1790007541,
+   "default_parameters": {
+    "temperature": 0.7,
+    "top_p": 0.95
+   },
+   "description": "Grok 4.7 is SpaceXAI's flagship model for coding, agentic tasks, and knowledge work, succeeding Grok 4.6. It is particularly strong at long-running software engineering tasks, verifying its own work, and...",
+   "endpoints": [],
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "x-ai/grok-4.7:batch",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/x-ai/grok-4.7-20260916/endpoints"
+   },
+   "name": "SpaceXAI: Grok 4.7 (batch)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.0000048",
+    "input_cache_read": "0.0000004",
+    "overrides": [
+     {
+      "completion": "0.0000096",
+      "input_cache_read": "0.0000008",
+      "min_prompt_tokens": 200000,
+      "prompt": "0.0000032"
+     }
+    ],
+    "prompt": "0.0000016",
+    "web_search": "0.005"
+   },
+   "reasoning": {
+    "default_effort": "high",
+    "default_enabled": true,
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "medium",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "logprobs",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
     "top_logprobs",
     "top_p"
    ],
@@ -45788,9 +46141,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000105572",
-    "input_cache_read": "0.00000018",
-    "prompt": "0.0000001824"
+    "completion": "0.000008532",
+    "input_cache_read": "0.0000002",
+    "prompt": "0.0000002004"
    },
    "reasoning": {
     "default_effort": "max",
@@ -46266,7 +46619,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 1050000,
-    "is_moderated": true,
+    "is_moderated": false,
     "max_completion_tokens": 128000
    }
   },
@@ -46592,5 +46945,5 @@
  "links": {
   "next": null
  },
- "total_count": 451
+ "total_count": 453
 }
