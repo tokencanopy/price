@@ -8422,8 +8422,8 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006",
     "overrides": [
      {
       "completion": "0.0000006",
@@ -8505,7 +8505,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -13666,9 +13666,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000194",
-    "input_cache_read": "0.000000032",
-    "prompt": "0.000000065"
+    "completion": "0.000000178",
+    "input_cache_read": "0.00000003",
+    "prompt": "0.000000059"
    },
    "reasoning": {
     "default_enabled": false,
@@ -15511,9 +15511,8 @@
    "name": "Meta: Llama 3.3 70B Instruct",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000052",
-    "input_cache_read": "0.0000001",
-    "prompt": "0.0000002"
+    "completion": "0.00000032",
+    "prompt": "0.0000001"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -15538,7 +15537,7 @@
    "top_provider": {
     "context_length": 131072,
     "is_moderated": false,
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 16384
    }
   },
   {
@@ -17958,8 +17957,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -17976,7 +17975,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.000000075"
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "max",
@@ -28854,7 +28853,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 1050000,
-    "is_moderated": true,
+    "is_moderated": false,
     "max_completion_tokens": 128000
    }
   },
@@ -31711,9 +31710,9 @@
    "name": "OpenAI: gpt-oss-120b",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000075",
-    "prompt": "0.00000015"
+    "completion": "0.000000087",
+    "input_cache_read": "0.000000021",
+    "prompt": "0.000000024"
    },
    "reasoning": {
     "default_effort": "medium",
@@ -45362,8 +45361,8 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000005",
-    "input_cache_read": "0.000000005",
+    "completion": "0.000000315",
+    "input_cache_read": "0.000000006",
     "prompt": "0.000000035"
    },
    "reasoning": {
@@ -45790,9 +45789,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000715",
-    "input_cache_read": "0.00000007475",
-    "prompt": "0.0000001495"
+    "completion": "0.0000105539",
+    "input_cache_read": "0.00000018",
+    "prompt": "0.0000001824"
    },
    "reasoning": {
     "default_effort": "max",
