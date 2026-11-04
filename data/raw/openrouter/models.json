@@ -951,7 +951,7 @@
     "artificial_analysis": {
      "agentic_index": 57.2,
      "coding_index": 80.7,
-     "intelligence_index": 49.7
+     "intelligence_index": 50
     },
     "design_arena": [
      {
@@ -1138,7 +1138,7 @@
     "artificial_analysis": {
      "agentic_index": 57.2,
      "coding_index": 80.7,
-     "intelligence_index": 49.7
+     "intelligence_index": 50
     },
     "design_arena": [
      {
@@ -1253,7 +1253,9 @@
    "created": 1788285838,
    "default_parameters": {},
    "description": "Claude Fable 5.1 improves on Claude Fable 5 across the board, with the biggest gains in agentic coding, long-running agentic workflows, and knowledge work: long code refactors, front-end and visual...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "anthropic/claude-fable-5.1:batch",
@@ -1462,7 +1464,9 @@
     "top_p": null
    },
    "description": "Claude Fable 5 is a Mythos-class model from Anthropic, built for autonomous knowledge work and coding. It supports text, image, and file inputs with text output, with reasoning support and...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "anthropic/claude-fable-5:batch",
@@ -1739,7 +1743,9 @@
     "top_p": null
    },
    "description": "Claude Haiku 4.5 is Anthropic\u2019s fastest and most efficient model, delivering near-frontier intelligence at a fraction of the cost and latency of larger Claude models. Matching Claude Sonnet 4\u2019s performance...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "anthropic/claude-haiku-4.5:batch",
@@ -1798,7 +1804,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": null,
-     "intelligence_index": 36.2
+     "intelligence_index": 36.5
     },
     "design_arena": [
      {
@@ -1947,7 +1953,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": null,
-     "intelligence_index": 36.2
+     "intelligence_index": 36.5
     },
     "design_arena": [
      {
@@ -2013,7 +2019,9 @@
    "created": 1791397883,
    "default_parameters": {},
    "description": "Claude Haiku 5.5 is Anthropic's small, fast model for high-volume, cost-sensitive work such as summarization, subagents, and browser use. It succeeds Claude Haiku 4.5 with stronger coding, computer use, and...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "anthropic/claude-haiku-5.5:batch",
@@ -2288,7 +2296,9 @@
     "top_p": null
    },
    "description": "Claude Opus 4.1 is an updated version of Anthropic\u2019s flagship model, offering improved performance in coding, reasoning, and agentic tasks. It achieves 74.5% on SWE-bench Verified and shows notable gains...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "anthropic/claude-opus-4.1:batch",
@@ -2588,7 +2598,9 @@
    "created": 1764010580,
    "default_parameters": {},
    "description": "Claude Opus 4.5 is Anthropic\u2019s frontier reasoning model optimized for complex software engineering, agentic workflows, and long-horizon computer use. It offers strong multimodal capabilities, competitive performance across real-world coding and...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "anthropic/claude-opus-4.5:batch",
@@ -2957,7 +2969,9 @@
    "created": 1770219050,
    "default_parameters": {},
    "description": "Opus 4.6 is Anthropic\u2019s strongest model for coding and long-running professional tasks. It is built for agents that operate across entire workflows rather than single prompts, making it especially effective...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "anthropic/claude-opus-4.6:batch",
@@ -3119,7 +3133,9 @@
    "created": 1776351100,
    "default_parameters": {},
    "description": "Opus 4.7 is the next generation of Anthropic's Opus family, built for long-running, asynchronous agents. Building on the coding and agentic strengths of Opus 4.6, it delivers stronger performance on...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "anthropic/claude-opus-4.7:batch",
@@ -3617,7 +3633,9 @@
    "created": 1779905091,
    "default_parameters": {},
    "description": "Claude Opus 4.8 is Anthropic's most capable generally available model in the Opus family. It supports text, image, and file inputs with text output, with reasoning support and a 1M-token...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "anthropic/claude-opus-4.8:batch",
@@ -3895,7 +3913,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": null,
-     "intelligence_index": 58.4
+     "intelligence_index": 59.1
     },
     "design_arena": [
      {
@@ -4075,7 +4093,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": null,
-     "intelligence_index": 58.4
+     "intelligence_index": 59.1
     },
     "design_arena": [
      {
@@ -4183,7 +4201,9 @@
    "created": 1790094732,
    "default_parameters": {},
    "description": "Claude Opus 5.5 is Anthropic's flagship model for demanding reasoning, coding, and long-horizon agentic work, succeeding Claude Opus 5. It is particularly strong at multi-step changes in large codebases, code...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "anthropic/claude-opus-5.5:batch",
@@ -4385,7 +4405,9 @@
    "created": 1784912544,
    "default_parameters": {},
    "description": "Claude Opus 5 is Anthropic\u2019s flagship model for demanding reasoning, coding, and long-horizon agentic work. It is particularly strong at end-to-end software tasks, code review and bug finding, visual analysis...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "anthropic/claude-opus-5:batch",
@@ -4716,7 +4738,9 @@
     "top_p": 1
    },
    "description": "Claude Sonnet 4.5 is Anthropic\u2019s most advanced Sonnet model to date, optimized for real-world agents and coding workflows. It delivers state-of-the-art performance on coding benchmarks such as SWE-bench Verified, with...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "anthropic/claude-sonnet-4.5:batch",
@@ -5076,7 +5100,9 @@
    "created": 1771342990,
    "default_parameters": {},
    "description": "Sonnet 4.6 is Anthropic's most capable Sonnet-class model yet, with frontier performance across coding, agents, and professional work. It excels at iterative development, complex codebase navigation, end-to-end project management with...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "anthropic/claude-sonnet-4.6:batch",
@@ -5368,7 +5394,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": null,
-     "intelligence_index": 54.2
+     "intelligence_index": 54.5
     },
     "design_arena": [
      {
@@ -5527,7 +5553,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": null,
-     "intelligence_index": 54.2
+     "intelligence_index": 54.5
     },
     "design_arena": [
      {
@@ -5614,7 +5640,9 @@
    "created": 1790618686,
    "default_parameters": {},
    "description": "Claude Sonnet 5.5 is Anthropic's Sonnet-class model for well-scoped everyday work, succeeding Claude Sonnet 5 as a direct upgrade. It is especially strong at building features, fixing bugs, and producing...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "anthropic/claude-sonnet-5.5:batch",
@@ -5830,7 +5858,9 @@
    "created": 1782843083,
    "default_parameters": {},
    "description": "Sonnet 5 is Anthropic's most capable Sonnet-class model, with frontier performance across coding, agents, and professional work. It supports adaptive thinking with selectable reasoning effort levels (low, medium, high, max,...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "anthropic/claude-sonnet-5:batch",
@@ -8333,7 +8363,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": null,
-     "intelligence_index": 28.5
+     "intelligence_index": 28.6
     },
     "design_arena": [
      {
@@ -8567,7 +8597,9 @@
    "created": 1789021285,
    "default_parameters": {},
    "description": "DeepSeek V4.1 Flash is a sparse mixture-of-experts model from DeepSeek, and the first built on the company's Causal Encoder-Decoder (CED) architecture. It activates 8B parameters on input and 16B on...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "deepseek-ai/DeepSeek-V4.1-Flash",
    "id": "deepseek/deepseek-v4.1-flash:batch",
@@ -9624,7 +9656,9 @@
     "top_p": null
    },
    "description": "Gemini 3 Flash Preview is a high speed, high value thinking model designed for agentic workflows, multi turn chat, and coding assistance. It delivers near Pro level reasoning and tool...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "google/gemini-3-flash-preview:batch",
@@ -10352,7 +10386,9 @@
     "top_p": null
    },
    "description": "Gemini 3.1 Flash Lite is Google\u2019s GA high-efficiency multimodal model optimized for low-latency, high-volume workloads. It supports text, image, video, audio, and PDF inputs, and is designed for lightweight agentic...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "google/gemini-3.1-flash-lite:batch",
@@ -10971,7 +11007,9 @@
     "top_p": null
    },
    "description": "Gemini 3.1 Pro Preview is Google\u2019s frontier reasoning model, delivering enhanced software engineering performance, improved agentic reliability, and more efficient token usage across complex workflows. Building on the multimodal foundation...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "google/gemini-3.1-pro-preview:batch",
@@ -11420,7 +11458,9 @@
     "top_p": null
    },
    "description": "Gemini 3.5 Flash Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows.",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "google/gemini-3.5-flash-lite:batch",
@@ -11675,7 +11715,9 @@
     "top_p": null
    },
    "description": "Gemini 3.5 Flash is Google's high-efficiency multimodal model, bringing near-Pro level coding and reasoning at Flash-tier cost and speed. It is highly optimized for coding proficiency and parallel agentic execution...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "google/gemini-3.5-flash:batch",
@@ -12097,7 +12139,9 @@
     "top_p": null
    },
    "description": "Gemini 3.6 Flash is a high-efficiency model from Google for coding, agentic workflows, and web and app development. It is designed to produce polished outputs with fewer unnecessary edits and...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "google/gemini-3.6-flash:batch",
@@ -12503,7 +12547,9 @@
    "created": 1786640581,
    "default_parameters": {},
    "description": "Gemini 3.7 Flash is a multimodal model from Google for fast agentic workflows, coding, and complex multi-step reasoning. It is designed for tasks that require responsive performance and reliable multi-step...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "google/gemini-3.7-flash:batch",
@@ -12573,7 +12619,7 @@
     "artificial_analysis": {
      "agentic_index": 40.2,
      "coding_index": 76.3,
-     "intelligence_index": 30.5
+     "intelligence_index": 30.8
     },
     "design_arena": [
      {
@@ -12779,7 +12825,7 @@
     "artificial_analysis": {
      "agentic_index": 40.2,
      "coding_index": 76.3,
-     "intelligence_index": 30.5
+     "intelligence_index": 30.8
     },
     "design_arena": [
      {
@@ -12908,7 +12954,9 @@
    "created": 1788362056,
    "default_parameters": {},
    "description": "Gemini 3.8 Flash is Google's most intelligent Flash model with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning.",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "google/gemini-3.8-flash:batch",
@@ -13228,7 +13276,9 @@
     "top_p": null
    },
    "description": "Gemini 4 Argon is Google's flagship reasoning model, built for complex software engineering, deep mathematical and scientific problem solving, and autonomous multi-step agents. Google trained it to keep context across...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "google/gemini-4-argon:batch",
@@ -13666,9 +13716,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000231",
-    "input_cache_read": "0.000000038",
-    "prompt": "0.000000077"
+    "completion": "0.00000021",
+    "input_cache_read": "0.000000035",
+    "prompt": "0.00000007"
    },
    "reasoning": {
     "default_enabled": false,
@@ -14159,7 +14209,7 @@
    "name": "IBM: Granite 4.2 8B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000015",
+    "completion": "0.00000025",
     "input_cache_read": "0.000000015",
     "prompt": "0.00000006"
    },
@@ -15010,7 +15060,8 @@
     "tool_choice",
     "tools",
     "top_k",
-    "top_logprobs"
+    "top_logprobs",
+    "top_p"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -15081,7 +15132,8 @@
     "tool_choice",
     "tools",
     "top_k",
-    "top_logprobs"
+    "top_logprobs",
+    "top_p"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -15501,9 +15553,8 @@
    "name": "Meta: Llama 3.3 70B Instruct",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000052",
-    "input_cache_read": "0.0000001",
-    "prompt": "0.0000002"
+    "completion": "0.00000032",
+    "prompt": "0.0000001"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -15528,7 +15579,7 @@
    "top_provider": {
     "context_length": 131072,
     "is_moderated": false,
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 16384
    }
   },
   {
@@ -16438,7 +16489,7 @@
     "artificial_analysis": {
      "agentic_index": 55.5,
      "coding_index": 75.8,
-     "intelligence_index": 36.4
+     "intelligence_index": 36.6
     },
     "design_arena": [
      {
@@ -16715,7 +16766,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": null,
-     "intelligence_index": 24.7
+     "intelligence_index": 24.9
     },
     "design_arena": [
      {
@@ -16832,7 +16883,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": null,
-     "intelligence_index": 43.3
+     "intelligence_index": 43.6
     },
     "design_arena": [
      {
@@ -17704,7 +17755,7 @@
     "artificial_analysis": {
      "agentic_index": 29.5,
      "coding_index": 58.6,
-     "intelligence_index": 18.7
+     "intelligence_index": 18.9
     },
     "design_arena": [
      {
@@ -17923,7 +17974,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": null,
-     "intelligence_index": 28.9
+     "intelligence_index": 29.1
     },
     "design_arena": []
    },
@@ -18747,7 +18798,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": null,
-     "intelligence_index": 26
+     "intelligence_index": 26.1
     },
     "design_arena": [
      {
@@ -19092,7 +19143,9 @@
     "top_p": null
    },
    "description": "Mistral Medium 3.5 is a dense 128B instruction-following model from Mistral AI. It supports text and image inputs with text output, and is designed for agentic workflows, coding, and complex...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "mistralai/mistral-medium-3-5:batch",
@@ -20997,9 +21050,9 @@
    "name": "MoonshotAI: Kimi K3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000015",
-    "input_cache_read": "0.000000201",
-    "prompt": "0.000000211"
+    "completion": "0.0000096",
+    "input_cache_read": "0.00000013",
+    "prompt": "0.000000276"
    },
    "reasoning": {
     "default_effort": "max",
@@ -21061,7 +21114,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": null,
-     "intelligence_index": 46
+     "intelligence_index": 46.5
     },
     "design_arena": [
      {
@@ -21192,9 +21245,11 @@
     "response_format",
     "stop",
     "structured_outputs",
+    "temperature",
     "tool_choice",
     "tools",
-    "top_logprobs"
+    "top_logprobs",
+    "top_p"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -21364,7 +21419,9 @@
     "top_p": 0.95
    },
    "description": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "moonshotai/Kimi-K3",
    "id": "moonshotai/kimi-k3:batch",
@@ -21714,12 +21771,15 @@
    "supported_parameters": [
     "frequency_penalty",
     "include_reasoning",
+    "logit_bias",
     "logprobs",
     "max_tokens",
     "presence_penalty",
     "reasoning",
     "repetition_penalty",
     "response_format",
+    "seed",
+    "stop",
     "structured_outputs",
     "temperature",
     "top_k",
@@ -22644,9 +22704,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 262144,
+    "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 235929
+    "max_completion_tokens": 943718
    }
   },
   {
@@ -23007,7 +23067,9 @@
    "created": 1712620800,
    "default_parameters": {},
    "description": "The latest GPT-4 Turbo model with vision capabilities. Vision requests can now use JSON mode and function calling.\n\nTraining data: up to December 2023.",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "openai/gpt-4-turbo:batch",
@@ -23328,7 +23390,9 @@
    "created": 1744651381,
    "default_parameters": {},
    "description": "GPT-4.1 Mini is a mid-sized model delivering performance competitive with GPT-4o at substantially lower latency and cost. It retains a 1 million token context window and scores 45.1% on hard...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "openai/gpt-4.1-mini:batch",
@@ -23539,7 +23603,9 @@
    "created": 1744651369,
    "default_parameters": {},
    "description": "For tasks that demand low latency, GPT\u20114.1 nano is the fastest and cheapest model in the GPT-4.1 series. It delivers exceptional performance at a small size with its 1 million...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "openai/gpt-4.1-nano:batch",
@@ -23637,7 +23703,9 @@
    "created": 1744651385,
    "default_parameters": {},
    "description": "GPT-4.1 is a flagship large language model optimized for advanced instruction following, real-world software engineering, and long-context reasoning. It supports a 1 million token context window and outperforms GPT-4o and...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "openai/gpt-4.1:batch",
@@ -24144,7 +24212,9 @@
    "created": 1721260800,
    "default_parameters": {},
    "description": "GPT-4o mini is OpenAI's newest model after [GPT-4 Omni](/models/openai/gpt-4o), supporting both text and image inputs with text outputs. As their most advanced small model, it is many multiples more affordable...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "openai/gpt-4o-mini:batch",
@@ -24250,7 +24320,9 @@
    "created": 1715558400,
    "default_parameters": {},
    "description": "GPT-4o (\"o\" for \"omni\") is OpenAI's latest AI model, supporting both text and image inputs with text outputs. It maintains the intelligence level of [GPT-4 Turbo](/models/openai/gpt-4-turbo) while being twice as...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "openai/gpt-4o:batch",
@@ -24856,7 +24928,9 @@
     "top_p": null
    },
    "description": "GPT-5 Mini is a compact version of GPT-5, designed to handle lighter-weight reasoning tasks. It provides the same instruction-following and safety-tuning benefits as GPT-5, but with reduced latency and cost....",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "openai/gpt-5-mini:batch",
@@ -25096,7 +25170,9 @@
     "top_p": null
    },
    "description": "GPT-5-Nano is the smallest and fastest variant in the GPT-5 system, optimized for developer tools, rapid interactions, and ultra-low latency environments. While limited in reasoning depth compared to its larger...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "openai/gpt-5-nano:batch",
@@ -25233,7 +25309,9 @@
     "top_p": null
    },
    "description": "GPT-5 Pro is OpenAI\u2019s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "openai/gpt-5-pro:batch",
@@ -25851,7 +25929,9 @@
     "top_p": null
    },
    "description": "GPT-5.1 is the latest frontier-grade model in the GPT-5 series, offering stronger general-purpose reasoning, improved instruction adherence, and a more natural conversational style compared to GPT-5. It uses adaptive reasoning...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "openai/gpt-5.1:batch",
@@ -26335,7 +26415,9 @@
     "top_p": null
    },
    "description": "GPT-5.2 Pro is OpenAI\u2019s most advanced model, offering major improvements in agentic coding and long context performance over GPT-5 Pro. It is optimized for complex tasks that require step-by-step reasoning,...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "openai/gpt-5.2-pro:batch",
@@ -26499,7 +26581,9 @@
     "top_p": null
    },
    "description": "GPT-5.2 is the latest frontier-grade model in the GPT-5 series, offering stronger agentic and long context perfomance compared to GPT-5.1. It uses adaptive reasoning to allocate computation dynamically, responding quickly...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "openai/gpt-5.2:batch",
@@ -27107,7 +27191,9 @@
     "top_p": null
    },
    "description": "GPT-5.4 mini brings the core capabilities of GPT-5.4 to a faster, more efficient model optimized for high-throughput workloads. It supports text and image inputs with strong performance across reasoning, coding,...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "openai/gpt-5.4-mini:batch",
@@ -27275,7 +27361,9 @@
     "top_p": null
    },
    "description": "GPT-5.4 nano is the most lightweight and cost-efficient variant of the GPT-5.4 family, optimized for speed-critical and high-volume tasks. It supports text and image inputs and is designed for low-latency...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "openai/gpt-5.4-nano:batch",
@@ -27430,7 +27518,9 @@
     "top_p": null
    },
    "description": "GPT-5.4 Pro is OpenAI's most advanced model, building on GPT-5.4's unified architecture with enhanced reasoning capabilities for complex, high-stakes tasks. It features a 1M+ token context window (922K input, 128K...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "openai/gpt-5.4-pro:batch",
@@ -27606,7 +27696,9 @@
     "top_p": null
    },
    "description": "GPT-5.4 is OpenAI\u2019s latest frontier model, unifying the Codex and GPT lines into a single system. It features a 1M+ token context window (922K input, 128K output) with support for...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "openai/gpt-5.4:batch",
@@ -28011,7 +28103,9 @@
     "top_p": null
    },
    "description": "GPT-5.5 Pro is OpenAI\u2019s high-capability model optimized for deep reasoning and accuracy on complex, high-stakes workloads. It features a 1M+ token context window (922K input, 128K output) with support for...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "openai/gpt-5.5-pro:batch",
@@ -28243,7 +28337,9 @@
     "top_p": null
    },
    "description": "GPT-5.5 is OpenAI\u2019s frontier model designed for complex professional workloads, building on GPT-5.4 with stronger reasoning, higher reliability, and improved token efficiency on hard tasks. It features a 1M+ token...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "openai/gpt-5.5:batch",
@@ -28512,7 +28608,9 @@
     "top_p": null
    },
    "description": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "openai/gpt-5.6-luna-pro:batch",
@@ -28602,7 +28700,9 @@
     "top_p": null
    },
    "description": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning for...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "openai/gpt-5.6-luna:batch",
@@ -28872,7 +28972,9 @@
     "top_p": null
    },
    "description": "GPT-5.6 Sol Pro is the same underlying model as [GPT-5.6 Sol](https://openrouter.ai/openai/gpt-5.6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "openai/gpt-5.6-sol-pro:batch",
@@ -28964,7 +29066,9 @@
     "top_p": null
    },
    "description": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "openai/gpt-5.6-sol:batch",
@@ -29040,7 +29144,7 @@
     "artificial_analysis": {
      "agentic_index": 43.2,
      "coding_index": 76.7,
-     "intelligence_index": null
+     "intelligence_index": 32.2
     },
     "design_arena": []
    },
@@ -29236,7 +29340,9 @@
     "top_p": null
    },
    "description": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "openai/gpt-5.6-terra-pro:batch",
@@ -29310,7 +29416,7 @@
     "artificial_analysis": {
      "agentic_index": 43.2,
      "coding_index": 76.7,
-     "intelligence_index": null
+     "intelligence_index": 32.2
     },
     "design_arena": []
    },
@@ -29326,7 +29432,9 @@
     "top_p": null
    },
    "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "openai/gpt-5.6-terra:batch",
@@ -29473,7 +29581,9 @@
     "top_p": null
    },
    "description": "GPT-5 is OpenAI\u2019s most advanced model, offering major improvements in reasoning, code quality, and user experience. It is optimized for complex tasks that require step-by-step reasoning, instruction following, and accuracy...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "openai/gpt-5:batch",
@@ -29709,7 +29819,9 @@
    "created": 1788552835,
    "default_parameters": {},
    "description": "GPT-6 Astra Pro is the same underlying model as [GPT-6 Astra](https://openrouter.ai/openai/gpt-6-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "openai/gpt-6-astra-pro:batch",
@@ -29793,7 +29905,9 @@
    "created": 1788552838,
    "default_parameters": {},
    "description": "GPT-6 Astra is OpenAI's flagship model for demanding end-to-end work. It is suited for advanced analysis, software engineering, deep research, scientific work, and document creation, with particular strengths in long-horizon...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "openai/gpt-6-astra:batch",
@@ -29868,7 +29982,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": null,
-     "intelligence_index": 27.8
+     "intelligence_index": 27.9
     },
     "design_arena": []
    },
@@ -30064,7 +30178,9 @@
     "top_p": null
    },
    "description": "GPT-6 Luna Pro is the same underlying model as [GPT-6 Luna](https://openrouter.ai/openai/gpt-6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "openai/gpt-6-luna-pro:batch",
@@ -30140,7 +30256,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": null,
-     "intelligence_index": 27.8
+     "intelligence_index": 27.9
     },
     "design_arena": []
    },
@@ -30156,7 +30272,9 @@
     "top_p": null
    },
    "description": "GPT-6 Luna is the fast, cost-efficient model in OpenAI's GPT-6 series, positioned below GPT-6 Sol. It is suited for high-volume and latency-sensitive workloads such as chat, classification, and lightweight agentic...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "openai/gpt-6-luna:batch",
@@ -30227,6 +30345,14 @@
      "text"
     ],
     "tokenizer": "GPT"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 44.1
+    },
+    "design_arena": []
    },
    "canonical_slug": "openai/gpt-6-sol-20260922",
    "context_length": 1050000,
@@ -30420,7 +30546,9 @@
     "top_p": null
    },
    "description": "GPT-6 Sol Pro is the same underlying model as [GPT-6 Sol](https://openrouter.ai/openai/gpt-6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "openai/gpt-6-sol-pro:batch",
@@ -30492,6 +30620,14 @@
     ],
     "tokenizer": "GPT"
    },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 44.1
+    },
+    "design_arena": []
+   },
    "canonical_slug": "openai/gpt-6-sol-20260922",
    "context_length": 1050000,
    "created": 1790100775,
@@ -30504,7 +30640,9 @@
     "top_p": null
    },
    "description": "GPT-6 Sol is the cost-efficient high-end model in OpenAI's GPT-6 series, positioned below the flagship GPT-6 Astra and above the fast GPT-6 Luna tier. It is suited for demanding professional...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "openai/gpt-6-sol:batch",
@@ -30580,7 +30718,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": null,
-     "intelligence_index": 54.5
+     "intelligence_index": 54.6
     },
     "design_arena": [
      {
@@ -30845,7 +30983,9 @@
     "top_p": null
    },
    "description": "GPT-6.1 Sol Pro is the same underlying model as [GPT-6.1 Sol](https://openrouter.ai/openai/gpt-6.1-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "openai/gpt-6.1-sol-pro:batch",
@@ -30920,7 +31060,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": null,
-     "intelligence_index": 54.5
+     "intelligence_index": 54.6
     },
     "design_arena": [
      {
@@ -31007,7 +31147,9 @@
    "created": 1790702882,
    "default_parameters": {},
    "description": "GPT-6.1 Sol is an upgrade to GPT-6 Sol from OpenAI, positioned below the flagship GPT-6 Astra in the GPT-6 series. It is suited for agentic coding, computer use, document-heavy professional...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "openai/gpt-6.1-sol:batch",
@@ -31082,7 +31224,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": null,
-     "intelligence_index": 51
+     "intelligence_index": 51.3
     },
     "design_arena": []
    },
@@ -31270,7 +31412,9 @@
     "top_p": null
    },
    "description": "GPT-6.1 Terra Pro is the same underlying model as [GPT-6.1 Terra](https://openrouter.ai/openai/gpt-6.1-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "openai/gpt-6.1-terra-pro:batch",
@@ -31345,7 +31489,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": null,
-     "intelligence_index": 51
+     "intelligence_index": 51.3
     },
     "design_arena": []
    },
@@ -31354,7 +31498,9 @@
    "created": 1793038409,
    "default_parameters": {},
    "description": "GPT-6.1 Terra is the mid-tier model in OpenAI's GPT-6.1 series, priced below GPT-6.1 Sol. It is suited for everyday agentic, coding, and writing work, is particularly strong at understanding screenshots...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "openai/gpt-6.1-terra:batch",
@@ -31814,7 +31960,9 @@
     "top_p": null
    },
    "description": "gpt-oss-120b is an open-weight, 117B-parameter Mixture-of-Experts (MoE) language model from OpenAI designed for high-reasoning, agentic, and general-purpose production use cases. It activates 5.1B parameters per forward pass and is optimized...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "openai/gpt-oss-120b",
    "id": "openai/gpt-oss-120b:batch",
@@ -32010,7 +32158,9 @@
     "top_p": null
    },
    "description": "gpt-oss-20b is an open-weight 21B parameter model released by OpenAI under the Apache 2.0 license. It uses a Mixture-of-Experts (MoE) architecture with 3.6B active parameters per forward pass, optimized for...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "openai/gpt-oss-20b",
    "id": "openai/gpt-oss-20b:batch",
@@ -32244,7 +32394,9 @@
     "top_p": null
    },
    "description": "OpenAI o3-mini is a cost-efficient language model optimized for STEM reasoning tasks, particularly excelling in science, mathematics, and coding. This model supports the `reasoning_effort` parameter, which can be set to...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "openai/o3-mini:batch",
@@ -32401,7 +32553,9 @@
    "created": 1744823457,
    "default_parameters": {},
    "description": "o3 is a well-rounded and powerful model across domains. It sets a new standard for math, science, coding, and visual reasoning tasks. It also excels at technical writing and instruction-following....",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "openai/o3:batch",
@@ -32502,7 +32656,9 @@
    "created": 1744820942,
    "default_parameters": {},
    "description": "OpenAI o4-mini is a compact reasoning model in the o-series, optimized for fast, cost-efficient performance while retaining strong multimodal and agentic capabilities. It supports tool use and demonstrates competitive reasoning...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "",
    "id": "openai/o4-mini:batch",
@@ -34053,9 +34209,8 @@
    "name": "Qwen: Qwen3 235B A22B Instruct 2507",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000008",
-    "input_cache_read": "0.00000005",
-    "prompt": "0.00000014"
+    "completion": "0.00000055",
+    "prompt": "0.00000009"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -34078,9 +34233,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 131072,
+    "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 117964
+    "max_completion_tokens": 16384
    }
   },
   {
@@ -36778,7 +36933,9 @@
    "created": 1780491783,
    "default_parameters": {},
    "description": "Qwen3.7-Plus is a cost-effective model in Alibaba's Qwen3.7 series. It supports text and image input with text output, building on the series' text capabilities with a comprehensive upgrade to its...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "qwen/qwen3.7-plus:batch",
@@ -37088,7 +37245,7 @@
     "artificial_analysis": {
      "agentic_index": 56,
      "coding_index": 76.2,
-     "intelligence_index": 33.6
+     "intelligence_index": 33.7
     },
     "design_arena": []
    },
@@ -38231,6 +38388,77 @@
   {
    "architecture": {
     "input_modalities": [
+     "audio",
+     "file",
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file+audio+video->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "stealth/crouton-alpha",
+   "context_length": 1048576,
+   "created": 1793669930,
+   "default_parameters": {},
+   "description": "Crouton Alpha is a lightweight model built for scalable coding, agentic, and multimodal workflows. It's ideal for executing agentic sub-tasks, tool use, and document analysis in high-volume, repeated work. Developers...",
+   "endpoints": [
+    "/api/v1/chat/completions",
+    "/api/v1/completions",
+    "/api/v1/messages",
+    "/api/v1/responses"
+   ],
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "stealth/crouton-alpha",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/stealth/crouton-alpha/endpoints"
+   },
+   "name": "Crouton Alpha",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0",
+    "prompt": "0"
+   },
+   "reasoning": {
+    "default_effort": "max",
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "minimal",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1048576,
+    "is_moderated": false,
+    "max_completion_tokens": 943718
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
      "text"
     ],
     "instruct_type": null,
@@ -38824,8 +39052,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000033",
-    "input_cache_read": "0.000000020625",
+    "completion": "0.000000528",
+    "input_cache_read": "0.000000033",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -38842,7 +39070,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.0000000825"
+    "prompt": "0.000000132"
    },
    "reasoning": {
     "default_effort": "high",
@@ -38995,8 +39223,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000022509",
-    "input_cache_read": "0.0000000378",
+    "completion": "0.000002501",
+    "input_cache_read": "0.000000042",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -39013,7 +39241,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.0000007506"
+    "prompt": "0.000000834"
    },
    "reasoning": {
     "default_effort": "high",
@@ -40993,7 +41221,9 @@
     "top_p": null
    },
    "description": "Grok 4.3 is a reasoning model from SpaceXAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "x-ai/grok-4.3:batch",
@@ -41644,7 +41874,9 @@
    "created": 1786548957,
    "default_parameters": {},
    "description": "Grok 4.6 is a model from SpaceXAI with frontier performance on coding, knowledge work, and STEM. It is succeeded by [Grok 4.7](/x-ai/grok-4.7).",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "x-ai/grok-4.6:batch",
@@ -41719,7 +41951,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": null,
-     "intelligence_index": 35
+     "intelligence_index": 35.5
     },
     "design_arena": [
      {
@@ -41877,7 +42109,7 @@
     "artificial_analysis": {
      "agentic_index": null,
      "coding_index": null,
-     "intelligence_index": 35
+     "intelligence_index": 35.5
     },
     "design_arena": [
      {
@@ -41953,7 +42185,9 @@
     "top_p": 0.95
    },
    "description": "Grok 4.7 is SpaceXAI's flagship model for coding, agentic tasks, and knowledge work, succeeding Grok 4.6. It is particularly strong at long-running software engineering tasks, verifying its own work, and...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": null,
    "id": "x-ai/grok-4.7:batch",
@@ -44707,7 +44941,9 @@
     "top_p": 0.95
    },
    "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "zai-org/GLM-5.3-Flash",
    "id": "z-ai/glm-5.3-flash:batch",
@@ -45085,7 +45321,9 @@
     "top_p": 0.95
    },
    "description": "GLM-5.3 is a large-scale reasoning model from Z.ai, built for complex software engineering and long-horizon agent tasks. It supports text input and output with a 1M-token context window, and improves...",
-   "endpoints": [],
+   "endpoints": [
+    "/api/v1/batches"
+   ],
    "expiration_date": null,
    "hugging_face_id": "zai-org/GLM-5.3",
    "id": "z-ai/glm-5.3:batch",
@@ -45713,9 +45951,9 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000315",
-    "input_cache_read": "0.000000006",
-    "prompt": "0.000000035"
+    "completion": "0.000000475",
+    "input_cache_read": "0.00000000475",
+    "prompt": "0.0000000333"
    },
    "reasoning": {
     "default_effort": "high",
@@ -46141,9 +46379,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000008532",
-    "input_cache_read": "0.0000002",
-    "prompt": "0.0000002004"
+    "completion": "0.0000105572",
+    "input_cache_read": "0.00000017",
+    "prompt": "0.0000001729"
    },
    "reasoning": {
     "default_effort": "max",
@@ -46945,5 +47183,5 @@
  "links": {
   "next": null
  },
- "total_count": 453
+ "total_count": 454
 }
