@@ -8223,7 +8223,7 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000004",
+    "completion": "0.0000046",
     "input_cache_read": "0.00000011",
     "prompt": "0.000000115"
    },
@@ -8301,7 +8301,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000005",
-    "input_cache_read": "0.000000012",
+    "input_cache_read": "0.000000018",
     "prompt": "0.000000045"
    },
    "reasoning": {
@@ -8452,8 +8452,8 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006",
     "overrides": [
      {
       "completion": "0.0000006",
@@ -8535,7 +8535,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -13716,9 +13716,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000021",
-    "input_cache_read": "0.000000035",
-    "prompt": "0.00000007"
+    "completion": "0.000000256",
+    "input_cache_read": "0.000000043",
+    "prompt": "0.000000085"
    },
    "reasoning": {
     "default_enabled": false,
@@ -14347,7 +14347,7 @@
     "/api/v1/messages",
     "/api/v1/responses"
    ],
-   "expiration_date": null,
+   "expiration_date": "2026-11-08",
    "hugging_face_id": null,
    "id": "inception/mercury-2",
    "knowledge_cutoff": null,
@@ -14414,7 +14414,7 @@
     "/api/v1/messages",
     "/api/v1/responses"
    ],
-   "expiration_date": null,
+   "expiration_date": "2026-11-08",
    "hugging_face_id": null,
    "id": "inception/mercury-2.5",
    "knowledge_cutoff": null,
@@ -14527,7 +14527,7 @@
     "/api/v1/messages",
     "/api/v1/responses"
    ],
-   "expiration_date": null,
+   "expiration_date": "2026-11-08",
    "hugging_face_id": null,
    "id": "inception/mercury-3",
    "knowledge_cutoff": null,
@@ -17999,8 +17999,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -18017,7 +18017,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.000000075"
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "max",
@@ -21050,9 +21050,9 @@
    "name": "MoonshotAI: Kimi K3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000096",
-    "input_cache_read": "0.00000013",
-    "prompt": "0.000000276"
+    "completion": "0.000016",
+    "input_cache_read": "0.00000019",
+    "prompt": "0.0000002"
    },
    "reasoning": {
     "default_effort": "max",
@@ -31845,9 +31845,9 @@
    "name": "OpenAI: gpt-oss-120b",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000075",
-    "prompt": "0.00000015"
+    "completion": "0.000000108",
+    "input_cache_read": "0.000000026",
+    "prompt": "0.000000029"
    },
    "reasoning": {
     "default_effort": "medium",
@@ -34209,8 +34209,9 @@
    "name": "Qwen: Qwen3 235B A22B Instruct 2507",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000055",
-    "prompt": "0.00000009"
+    "completion": "0.0000008",
+    "input_cache_read": "0.00000005",
+    "prompt": "0.00000014"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -34233,9 +34234,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 262144,
+    "context_length": 131072,
     "is_moderated": false,
-    "max_completion_tokens": 16384
+    "max_completion_tokens": 117964
    }
   },
   {
@@ -39188,6 +39189,74 @@
     "context_length": 262144,
     "is_moderated": false,
     "max_completion_tokens": 235929
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "tencent/hy4-20261104",
+   "context_length": 1048576,
+   "created": 1793766031,
+   "default_parameters": {},
+   "description": "The official release of Hy4 delivers comprehensive and substantial improvements over Hy4 Preview, with particularly strong gains in agentic capabilities and performance across a wide range of long-horizon, real-world productivity...",
+   "endpoints": [
+    "/api/v1/chat/completions",
+    "/api/v1/completions",
+    "/api/v1/messages",
+    "/api/v1/responses"
+   ],
+   "expiration_date": null,
+   "hugging_face_id": "tencent/Hy4",
+   "id": "tencent/hy4",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/tencent/hy4-20261104/endpoints"
+   },
+   "name": "Tencent: Hy4",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.0000012505",
+    "input_cache_read": "0.000000021",
+    "prompt": "0.000000417"
+   },
+   "reasoning": {
+    "default_effort": "high",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "none"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_completion_tokens",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1048576,
+    "is_moderated": false,
+    "max_completion_tokens": 65536
    }
   },
   {
@@ -44810,9 +44879,9 @@
    "name": "Z.ai: GLM 5.3 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000000846",
-    "input_cache_read": "0.00000003",
-    "prompt": "0.0000000313"
+    "completion": "0.0000000996",
+    "input_cache_read": "0.0000000269",
+    "prompt": "0.0000000269"
    },
    "reasoning": {
     "default_effort": "max",
@@ -46379,9 +46448,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000105572",
-    "input_cache_read": "0.00000017",
-    "prompt": "0.0000001729"
+    "completion": "0.00000894",
+    "input_cache_read": "0.00000019",
+    "prompt": "0.00000019"
    },
    "reasoning": {
     "default_effort": "max",
@@ -47051,9 +47120,9 @@
    "name": "Z.ai: GLM Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000000846",
-    "input_cache_read": "0.00000003",
-    "prompt": "0.0000000313"
+    "completion": "0.0000000996",
+    "input_cache_read": "0.0000000269",
+    "prompt": "0.0000000269"
    },
    "reasoning": {
     "default_effort": "max",
@@ -47183,5 +47252,5 @@
  "links": {
   "next": null
  },
- "total_count": 454
+ "total_count": 455
 }
