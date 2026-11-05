@@ -7940,7 +7940,7 @@
    "pricing": {
     "completion": "0.0000003",
     "input_cache_read": "0.000000035",
-    "prompt": "0.000000059"
+    "prompt": "0.0000000434"
    },
    "reasoning": {
     "default_effort": "high",
@@ -13527,6 +13527,136 @@
   {
    "architecture": {
     "input_modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+video->text+video",
+    "output_modalities": [
+     "text",
+     "video"
+    ],
+    "tokenizer": "Gemini"
+   },
+   "canonical_slug": "google/gemini-omni-1.1-flash-20260911",
+   "context_length": 131072,
+   "created": 1793825668,
+   "default_parameters": {},
+   "description": "Gemini Omni 1.1 Flash is Google's native multimodal video generation and editing model, the generally available successor to Gemini Omni Flash Preview. It is suited for text-to-video, image-to-video, first and...",
+   "endpoints": [
+    "/api/v1/chat/completions",
+    "/api/v1/completions",
+    "/api/v1/messages",
+    "/api/v1/responses",
+    "/api/v1/videos"
+   ],
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "google/gemini-omni-1.1-flash",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/google/gemini-omni-1.1-flash-20260911/endpoints"
+   },
+   "name": "Google: Gemini Omni 1.1 Flash",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.000009",
+    "prompt": "0.0000015",
+    "web_search": "0.014"
+   },
+   "reasoning": {
+    "default_effort": "low",
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "seed",
+    "temperature",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 131072,
+    "is_moderated": false,
+    "max_completion_tokens": 65536
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+video->text+video",
+    "output_modalities": [
+     "text",
+     "video"
+    ],
+    "tokenizer": "Gemini"
+   },
+   "canonical_slug": "google/gemini-omni-1.2-flash-20261105",
+   "context_length": 131072,
+   "created": 1793898961,
+   "default_parameters": {},
+   "description": "Gemini Omni 1.2 Flash is Google's native multimodal video generation and editing model, the successor to Gemini Omni 1.1 Flash. It generates clips up to 15 seconds long with native...",
+   "endpoints": [
+    "/api/v1/chat/completions",
+    "/api/v1/completions",
+    "/api/v1/messages",
+    "/api/v1/responses",
+    "/api/v1/videos"
+   ],
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "google/gemini-omni-1.2-flash",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/google/gemini-omni-1.2-flash-20261105/endpoints"
+   },
+   "name": "Google: Gemini Omni 1.2 Flash",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.000009",
+    "prompt": "0.0000015",
+    "web_search": "0.014"
+   },
+   "reasoning": {
+    "default_effort": "low",
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "seed",
+    "temperature",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 131072,
+    "is_moderated": false,
+    "max_completion_tokens": 65536
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
      "text"
     ],
     "instruct_type": "gemma",
@@ -13840,9 +13970,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000106",
-    "input_cache_read": "0.000000018",
-    "prompt": "0.000000035"
+    "completion": "0.000000147",
+    "input_cache_read": "0.000000024",
+    "prompt": "0.000000049"
    },
    "reasoning": {
     "default_enabled": false,
@@ -15754,9 +15884,9 @@
    "name": "Meta: Llama 3.3 70B Instruct",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000052",
-    "input_cache_read": "0.0000001",
-    "prompt": "0.0000002"
+    "completion": "0.00000079",
+    "input_cache_read": "0.000000295",
+    "prompt": "0.00000059"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -15781,7 +15911,7 @@
    "top_provider": {
     "context_length": 131072,
     "is_moderated": false,
-    "max_completion_tokens": 128000
+    "max_completion_tokens": 32768
    }
   },
   {
@@ -17287,59 +17417,6 @@
   {
    "architecture": {
     "input_modalities": [
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "canonical_slug": "minimax/minimax-01",
-   "context_length": 1000192,
-   "created": 1736915462,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "temperature": null,
-    "top_p": null
-   },
-   "description": "MiniMax-01 is a combines MiniMax-Text-01 for text generation and MiniMax-VL-01 for image understanding. It has 456 billion parameters, with 45.9 billion parameters activated per inference, and can handle a context...",
-   "endpoints": [
-    "/api/v1/chat/completions",
-    "/api/v1/completions",
-    "/api/v1/messages",
-    "/api/v1/responses"
-   ],
-   "expiration_date": "2026-11-05",
-   "hugging_face_id": "MiniMaxAI/MiniMax-Text-01",
-   "id": "minimax/minimax-01",
-   "knowledge_cutoff": "2024-03-31",
-   "links": {
-    "details": "/api/v1/models/minimax/minimax-01/endpoints"
-   },
-   "name": "MiniMax: MiniMax-01",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.0000011",
-    "prompt": "0.0000002"
-   },
-   "supported_parameters": [
-    "max_tokens",
-    "temperature",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 1000192,
-    "is_moderated": false,
-    "max_completion_tokens": 900172
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
      "text"
     ],
     "instruct_type": null,
@@ -17400,285 +17477,6 @@
     "context_length": 1000000,
     "is_moderated": false,
     "max_completion_tokens": 40000
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "benchmarks": {
-    "design_arena": [
-     {
-      "arena": "models",
-      "category": "3d",
-      "elo": 1095,
-      "rank": 92,
-      "win_rate": 48.3
-     },
-     {
-      "arena": "models",
-      "category": "codecategories",
-      "elo": 1133,
-      "rank": 99,
-      "win_rate": 48.1
-     },
-     {
-      "arena": "models",
-      "category": "dataviz",
-      "elo": 1140,
-      "rank": 87,
-      "win_rate": 50
-     },
-     {
-      "arena": "models",
-      "category": "gamedev",
-      "elo": 1118,
-      "rank": 91,
-      "win_rate": 48.1
-     },
-     {
-      "arena": "models",
-      "category": "svg",
-      "elo": 1096,
-      "rank": 66,
-      "win_rate": 55.3
-     },
-     {
-      "arena": "models",
-      "category": "uicomponent",
-      "elo": 1131,
-      "rank": 89,
-      "win_rate": 49.2
-     },
-     {
-      "arena": "models",
-      "category": "website",
-      "elo": 1141,
-      "rank": 99,
-      "win_rate": 48
-     }
-    ]
-   },
-   "canonical_slug": "minimax/minimax-m2",
-   "context_length": 204800,
-   "created": 1761252093,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "temperature": 1,
-    "top_p": 0.95
-   },
-   "description": "MiniMax-M2 is a compact, high-efficiency large language model optimized for end-to-end coding and agentic workflows. With 10 billion activated parameters (230 billion total), it delivers near-frontier intelligence across general reasoning,...",
-   "endpoints": [
-    "/api/v1/chat/completions",
-    "/api/v1/completions",
-    "/api/v1/messages",
-    "/api/v1/responses"
-   ],
-   "expiration_date": "2026-11-05",
-   "hugging_face_id": "MiniMaxAI/MiniMax-M2",
-   "id": "minimax/minimax-m2",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/minimax/minimax-m2/endpoints"
-   },
-   "name": "MiniMax: MiniMax M2",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.00000102",
-    "prompt": "0.000000255"
-   },
-   "reasoning": {
-    "mandatory": true
-   },
-   "supported_parameters": [
-    "include_reasoning",
-    "max_tokens",
-    "reasoning",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 204800,
-    "is_moderated": false,
-    "max_completion_tokens": 131072
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "canonical_slug": "minimax/minimax-m2-her-20260123",
-   "context_length": 65536,
-   "created": 1769177239,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "temperature": 1,
-    "top_p": 0.95
-   },
-   "description": "MiniMax M2-her is a dialogue-first large language model built for immersive roleplay, character-driven chat, and expressive multi-turn conversations. Designed to stay consistent in tone and personality, it supports rich message...",
-   "endpoints": [
-    "/api/v1/chat/completions",
-    "/api/v1/completions",
-    "/api/v1/messages",
-    "/api/v1/responses"
-   ],
-   "expiration_date": "2026-11-05",
-   "hugging_face_id": "",
-   "id": "minimax/minimax-m2-her",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/minimax/minimax-m2-her-20260123/endpoints"
-   },
-   "name": "MiniMax: MiniMax M2-her",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.0000012",
-    "input_cache_read": "0.00000003",
-    "prompt": "0.0000003"
-   },
-   "supported_parameters": [
-    "max_tokens",
-    "temperature",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 65536,
-    "is_moderated": false,
-    "max_completion_tokens": 2048
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "benchmarks": {
-    "design_arena": [
-     {
-      "arena": "models",
-      "category": "3d",
-      "elo": 1162,
-      "rank": 65,
-      "win_rate": 57.5
-     },
-     {
-      "arena": "models",
-      "category": "codecategories",
-      "elo": 1188,
-      "rank": 64,
-      "win_rate": 55.3
-     },
-     {
-      "arena": "models",
-      "category": "dataviz",
-      "elo": 1206,
-      "rank": 57,
-      "win_rate": 57
-     },
-     {
-      "arena": "models",
-      "category": "gamedev",
-      "elo": 1134,
-      "rank": 85,
-      "win_rate": 50.4
-     },
-     {
-      "arena": "models",
-      "category": "svg",
-      "elo": 1128,
-      "rank": 59,
-      "win_rate": 55.4
-     },
-     {
-      "arena": "models",
-      "category": "uicomponent",
-      "elo": 1218,
-      "rank": 54,
-      "win_rate": 60.9
-     },
-     {
-      "arena": "models",
-      "category": "website",
-      "elo": 1201,
-      "rank": 64,
-      "win_rate": 55.4
-     }
-    ]
-   },
-   "canonical_slug": "minimax/minimax-m2.1",
-   "context_length": 204800,
-   "created": 1766454997,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "temperature": 1,
-    "top_p": 0.9
-   },
-   "description": "MiniMax-M2.1 is a lightweight, state-of-the-art large language model optimized for coding, agentic workflows, and modern application development. With only 10 billion activated parameters, it delivers a major jump in real-world...",
-   "endpoints": [
-    "/api/v1/chat/completions",
-    "/api/v1/completions",
-    "/api/v1/messages",
-    "/api/v1/responses"
-   ],
-   "expiration_date": "2026-11-05",
-   "hugging_face_id": "MiniMaxAI/MiniMax-M2.1",
-   "id": "minimax/minimax-m2.1",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/minimax/minimax-m2.1/endpoints"
-   },
-   "name": "MiniMax: MiniMax M2.1",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.0000012",
-    "input_cache_read": "0.00000003",
-    "prompt": "0.0000003"
-   },
-   "reasoning": {
-    "mandatory": true
-   },
-   "supported_parameters": [
-    "include_reasoning",
-    "max_tokens",
-    "reasoning",
-    "response_format",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 204800,
-    "is_moderated": false,
-    "max_completion_tokens": 131072
    }
   },
   {
@@ -17904,7 +17702,7 @@
     "/api/v1/messages",
     "/api/v1/responses"
    ],
-   "expiration_date": "2026-11-05",
+   "expiration_date": null,
    "hugging_face_id": "MiniMaxAI/MiniMax-M2.7",
    "id": "minimax/minimax-m2.7",
    "knowledge_cutoff": null,
@@ -17914,9 +17712,9 @@
    "name": "MiniMax: MiniMax M2.7",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000012",
-    "input_cache_read": "0.00000006",
-    "prompt": "0.0000003"
+    "completion": "0.00000084",
+    "input_cache_read": "0.000000042",
+    "prompt": "0.00000021"
    },
    "reasoning": {
     "mandatory": true
@@ -17941,9 +17739,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 204800,
+    "context_length": 196608,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 176947
    }
   },
   {
@@ -18208,8 +18006,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -18226,7 +18024,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.000000075"
    },
    "reasoning": {
     "default_effort": "max",
@@ -21046,7 +20844,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000035",
-    "input_cache_read": "0.00000015",
+    "input_cache_read": "0.00000016",
     "prompt": "0.0000006"
    },
    "reasoning": {
@@ -32108,9 +31906,9 @@
    "name": "OpenAI: gpt-oss-120b",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000075",
-    "prompt": "0.00000015"
+    "completion": "0.00000009",
+    "input_cache_read": "0.000000022",
+    "prompt": "0.000000024"
    },
    "reasoning": {
     "default_effort": "medium",
@@ -32976,9 +32774,9 @@
    },
    "canonical_slug": "openrouter/auto",
    "context_length": 2000000,
-   "created": 1699401600,
+   "created": 1793885889,
    "default_parameters": {},
-   "description": "Auto is OpenRouter\u2019s general-purpose router, now powered by [Jev Router](https://openrouter.ai/typesafe/jev-router). It replaces market-spend rankings with request-aware selection of both the model and reasoning effort, weighing task difficulty, measured benchmark results,...",
+   "description": "Auto is OpenRouter\u2019s flagship model router, built for general-purpose usage. It adapts to each request, choosing cost-optimal models and adjusting reasoning effort. It balances task difficulty, benchmark results, live prices,...",
    "endpoints": [
     "/api/v1/chat/completions",
     "/api/v1/completions",
@@ -33066,6 +32864,80 @@
     "details": "/api/v1/models/openrouter/auto-beta/endpoints"
    },
    "name": "Auto Router (Beta)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "-1",
+    "prompt": "-1"
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "logit_bias",
+    "logprobs",
+    "max_completion_tokens",
+    "max_tokens",
+    "min_p",
+    "parallel_tool_calls",
+    "presence_penalty",
+    "reasoning",
+    "reasoning_effort",
+    "repetition_penalty",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_a",
+    "top_k",
+    "top_logprobs",
+    "top_p",
+    "verbosity"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": null,
+    "is_moderated": false,
+    "max_completion_tokens": 65536
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "audio",
+     "file",
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file+audio+video->text+image",
+    "output_modalities": [
+     "image",
+     "text"
+    ],
+    "tokenizer": "Router"
+   },
+   "canonical_slug": "openrouter/auto-code",
+   "context_length": 2000000,
+   "created": 1793884321,
+   "default_parameters": {},
+   "description": "Auto Code is OpenRouter\u2019s router built specifically for coding agents and harnesses. It uses the same routing engine as the [Auto Router](https://openrouter.ai/openrouter/auto), with every request treated as part of an...",
+   "endpoints": [
+    "/api/v1/chat/completions",
+    "/api/v1/completions",
+    "/api/v1/messages",
+    "/api/v1/responses"
+   ],
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "openrouter/auto-code",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/openrouter/auto-code/endpoints"
+   },
+   "name": "Auto Code",
    "per_request_limits": null,
    "pricing": {
     "completion": "-1",
@@ -39379,8 +39251,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -39397,7 +39269,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -39626,8 +39498,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -39644,7 +39516,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -46343,7 +46215,7 @@
    "pricing": {
     "completion": "0.0000003",
     "input_cache_read": "0.000000035",
-    "prompt": "0.000000059"
+    "prompt": "0.0000000434"
    },
    "reasoning": {
     "default_effort": "high",
@@ -46604,8 +46476,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000093388",
-    "input_cache_read": "0.00000015",
-    "prompt": "0.0000001567"
+    "input_cache_read": "0.00000018",
+    "prompt": "0.0000001824"
    },
    "reasoning": {
     "default_effort": "max",
@@ -47407,5 +47279,5 @@
  "links": {
   "next": null
  },
- "total_count": 455
+ "total_count": 454
 }

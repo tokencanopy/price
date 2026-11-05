@@ -9446,10 +9446,10 @@
      "name": "Baidu | deepseek/deepseek-v4-flash-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000028",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000014"
+      "completion": "0.00000009464",
+      "discount": 0.662,
+      "input_cache_read": "0.000000009464",
+      "prompt": "0.00000004732"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -9780,8 +9780,8 @@
      "pricing": {
       "completion": "0.00000045",
       "discount": 0,
-      "input_cache_read": "0.00000005",
-      "prompt": "0.00000005"
+      "input_cache_read": "0.0000000449",
+      "prompt": "0.0000000449"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -9869,10 +9869,10 @@
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000001652",
-      "discount": 0.41,
-      "input_cache_read": "0.00000001652",
-      "prompt": "0.0000000826"
+      "completion": "0.00000014",
+      "discount": 0.5,
+      "input_cache_read": "0.000000014",
+      "prompt": "0.00000007"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -10031,9 +10031,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001056",
+      "completion": "0.000000528",
       "discount": 0,
-      "input_cache_read": "0.0000000352",
+      "input_cache_read": "0.0000000176",
       "overrides": [
        {
         "completion": "0.000000528",
@@ -10050,7 +10050,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000352"
+      "prompt": "0.000000176"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -10094,9 +10094,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001122",
+      "completion": "0.000000561",
       "discount": 0,
-      "input_cache_read": "0.0000000374",
+      "input_cache_read": "0.0000000187",
       "overrides": [
        {
         "completion": "0.000000561",
@@ -10113,7 +10113,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000374"
+      "prompt": "0.000000187"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -10207,10 +10207,10 @@
      "name": "Baidu | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000132",
-      "discount": 0,
-      "input_cache_read": "0.000000014",
-      "prompt": "0.00000044"
+      "completion": "0.00000013332",
+      "discount": 0.899,
+      "input_cache_read": "0.000000001414",
+      "prompt": "0.00000004444"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10822,6 +10822,55 @@
     },
     {
      "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4-flash-0731",
+     "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
+     "name": "Nebius | deepseek/deepseek-v4-flash-20260731",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000028",
+      "discount": 0,
+      "input_cache_read": "0.00000001",
+      "prompt": "0.00000014"
+     },
+     "provider_name": "Nebius",
+     "quantization": "fp8",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": false,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "nebius/fp8"
+    },
+    {
+     "context_length": 1048576,
      "max_completion_tokens": 393216,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4-flash-0731",
@@ -11355,7 +11404,7 @@
       "completion": "0.0000003",
       "discount": 0,
       "input_cache_read": "0.000000035",
-      "prompt": "0.000000059"
+      "prompt": "0.0000000434"
      },
      "provider_name": "Wafer",
      "quantization": "nvfp4",
@@ -11406,8 +11455,8 @@
      "pricing": {
       "completion": "0.00000023",
       "discount": 0,
-      "input_cache_read": "0.000000095",
-      "prompt": "0.0000001"
+      "input_cache_read": "0.000000125",
+      "prompt": "0.00000013"
      },
      "provider_name": "Wafer",
      "quantization": "nvfp4",
@@ -11775,10 +11824,10 @@
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000179816",
-      "discount": 0.468,
-      "input_cache_read": "0.00000007448",
-      "prompt": "0.00000089908"
+      "completion": "0.00000171704",
+      "discount": 0.492,
+      "input_cache_read": "0.00000007112",
+      "prompt": "0.00000085852"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -12099,7 +12148,7 @@
      "name": "SiliconFlow | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000003135",
+      "completion": "0.0000015",
       "discount": 0,
       "input_cache_read": "0.000000135",
       "prompt": "0.000001"
@@ -12142,10 +12191,10 @@
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000191052",
-      "discount": 0.451,
-      "input_cache_read": "0.000000079605",
-      "prompt": "0.00000095526"
+      "completion": "0.000001713552",
+      "discount": 0.5076,
+      "input_cache_read": "0.000000071398",
+      "prompt": "0.000000856776"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -12252,9 +12301,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000003366",
+      "completion": "0.0000017424",
       "discount": 0,
-      "input_cache_read": "0.0000001122",
+      "input_cache_read": "0.00000005808",
       "overrides": [
        {
         "completion": "0.0000017424",
@@ -12271,7 +12320,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000001122"
+      "prompt": "0.0000005808"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -12315,9 +12364,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000396",
+      "completion": "0.00000198",
       "discount": 0,
-      "input_cache_read": "0.000000132",
+      "input_cache_read": "0.000000066",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -12334,7 +12383,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.00000132"
+      "prompt": "0.00000066"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -13627,9 +13676,9 @@
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000132",
+      "completion": "0.00000066",
       "discount": 0,
-      "input_cache_read": "0.000000033",
+      "input_cache_read": "0.0000000165",
       "overrides": [
        {
         "completion": "0.00000066",
@@ -13646,7 +13695,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.00000033"
+      "prompt": "0.000000165"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -13739,10 +13788,10 @@
      "name": "Baidu | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
-      "discount": 0,
-      "input_cache_read": "0.000000006",
-      "prompt": "0.0000003"
+      "completion": "0.0000001788",
+      "discount": 0.851,
+      "input_cache_read": "0.000000000894",
+      "prompt": "0.0000000447"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -15514,9 +15563,9 @@
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000132",
+      "completion": "0.00000066",
       "discount": 0,
-      "input_cache_read": "0.000000033",
+      "input_cache_read": "0.0000000165",
       "overrides": [
        {
         "completion": "0.00000066",
@@ -15533,7 +15582,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.00000033"
+      "prompt": "0.000000165"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -15626,10 +15675,10 @@
      "name": "Baidu | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000113",
-      "discount": 0,
-      "input_cache_read": "0.000000006",
-      "prompt": "0.00000028"
+      "completion": "0.00000060455",
+      "discount": 0.465,
+      "input_cache_read": "0.00000000321",
+      "prompt": "0.0000001498"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -15921,7 +15970,7 @@
       "prompt": "0.000000123"
      },
      "provider_name": "Decart",
-     "quantization": "fp4",
+     "quantization": "fp8",
      "service_tier": null,
      "supported_parameters": [
       "frequency_penalty",
@@ -15953,7 +16002,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "decart/fp4"
+     "tag": "decart/fp8"
     },
     {
      "context_length": 1048576,
@@ -17304,6 +17353,53 @@
      },
      "supports_voice_cloning": false,
      "tag": "phala"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4.1-flash-1017",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+     "name": "PrimaLabs | deepseek/deepseek-v4.1-flash-20261017",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000036",
+      "discount": 0,
+      "input_cache_read": "0.000000018",
+      "prompt": "0.0000009"
+     },
+     "provider_name": "PrimaLabs",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tools",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "primalabs"
     },
     {
      "context_length": 1048576,
@@ -23343,6 +23439,128 @@
    "id": "google/gemini-nano-banana-2.1",
    "name": "Google: Nano Banana 2.1"
   },
+  "google/gemini-omni-1.1-flash": {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+video->text+video",
+    "output_modalities": [
+     "text",
+     "video"
+    ],
+    "tokenizer": "Gemini"
+   },
+   "created": 1793825668,
+   "description": "Gemini Omni 1.1 Flash is Google's native multimodal video generation and editing model, the generally available successor to Gemini Omni Flash Preview. It is suited for text-to-video, image-to-video, first and...",
+   "endpoints": [
+    {
+     "context_length": 131072,
+     "max_completion_tokens": 65536,
+     "max_prompt_tokens": null,
+     "model_id": "google/gemini-omni-1.1-flash",
+     "model_name": "Google: Gemini Omni 1.1 Flash",
+     "name": "Google AI Studio | google/gemini-omni-1.1-flash-20260911",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.000009",
+      "discount": 0,
+      "prompt": "0.0000015",
+      "web_search": "0.014"
+     },
+     "provider_name": "Google AI Studio",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "seed",
+      "temperature",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "google-ai-studio"
+    }
+   ],
+   "id": "google/gemini-omni-1.1-flash",
+   "name": "Google: Gemini Omni 1.1 Flash"
+  },
+  "google/gemini-omni-1.2-flash": {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+video->text+video",
+    "output_modalities": [
+     "text",
+     "video"
+    ],
+    "tokenizer": "Gemini"
+   },
+   "created": 1793898961,
+   "description": "Gemini Omni 1.2 Flash is Google's native multimodal video generation and editing model, the successor to Gemini Omni 1.1 Flash. It generates clips up to 15 seconds long with native...",
+   "endpoints": [
+    {
+     "context_length": 131072,
+     "max_completion_tokens": 65536,
+     "max_prompt_tokens": null,
+     "model_id": "google/gemini-omni-1.2-flash",
+     "model_name": "Google: Gemini Omni 1.2 Flash",
+     "name": "Google AI Studio | google/gemini-omni-1.2-flash-20261105",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.000009",
+      "discount": 0,
+      "prompt": "0.0000015",
+      "web_search": "0.014"
+     },
+     "provider_name": "Google AI Studio",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "seed",
+      "temperature",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "google-ai-studio"
+    }
+   ],
+   "id": "google/gemini-omni-1.2-flash",
+   "name": "Google: Gemini Omni 1.2 Flash"
+  },
   "google/gemma-2-27b-it": {
    "architecture": {
     "input_modalities": [
@@ -24505,10 +24723,10 @@
      "name": "PrimeIntellect | google/gemma-4-26b-a4b-it-20260403",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000106",
+      "completion": "0.000000156",
       "discount": 0,
-      "input_cache_read": "0.000000018",
-      "prompt": "0.000000035"
+      "input_cache_read": "0.000000026",
+      "prompt": "0.000000052"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "bf16",
@@ -25320,10 +25538,10 @@
      "name": "PrimeIntellect | google/gemma-4-31b-it-20260402",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000215",
+      "completion": "0.000000567",
       "discount": 0,
-      "input_cache_read": "0.000000064",
-      "prompt": "0.000000128"
+      "input_cache_read": "0.000000169",
+      "prompt": "0.000000338"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp8",
@@ -29157,60 +29375,6 @@
    "id": "microsoft/phi-4",
    "name": "Microsoft: Phi 4"
   },
-  "minimax/minimax-01": {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "created": 1736915462,
-   "description": "MiniMax-01 is a combines MiniMax-Text-01 for text generation and MiniMax-VL-01 for image understanding. It has 456 billion parameters, with 45.9 billion parameters activated per inference, and can handle a context...",
-   "endpoints": [
-    {
-     "context_length": 1000192,
-     "max_completion_tokens": 900172,
-     "max_prompt_tokens": null,
-     "model_id": "minimax/minimax-01",
-     "model_name": "MiniMax: MiniMax-01",
-     "name": "Minimax | minimax/minimax-01",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000011",
-      "discount": 0,
-      "prompt": "0.0000002"
-     },
-     "provider_name": "Minimax",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "minimax"
-    }
-   ],
-   "id": "minimax/minimax-01",
-   "name": "MiniMax: MiniMax-01"
-  },
   "minimax/minimax-m1": {
    "architecture": {
     "input_modalities": [
@@ -29226,42 +29390,6 @@
    "created": 1750200414,
    "description": "MiniMax-M1 is a large-scale, open-weight reasoning model designed for extended context and high-efficiency inference. It leverages a hybrid Mixture-of-Experts (MoE) architecture paired with a custom \"lightning attention\" mechanism, allowing it...",
    "endpoints": [
-    {
-     "context_length": 1000000,
-     "max_completion_tokens": 40000,
-     "max_prompt_tokens": null,
-     "model_id": "minimax/minimax-m1",
-     "model_name": "MiniMax: MiniMax M1",
-     "name": "Minimax | minimax/minimax-m1",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000022",
-      "discount": 0,
-      "prompt": "0.0000004"
-     },
-     "provider_name": "Minimax",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "temperature",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "minimax"
-    },
     {
      "context_length": 1000000,
      "max_completion_tokens": 40000,
@@ -29309,216 +29437,6 @@
    ],
    "id": "minimax/minimax-m1",
    "name": "MiniMax: MiniMax M1"
-  },
-  "minimax/minimax-m2": {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "created": 1761252093,
-   "description": "MiniMax-M2 is a compact, high-efficiency large language model optimized for end-to-end coding and agentic workflows. With 10 billion activated parameters (230 billion total), it delivers near-frontier intelligence across general reasoning,...",
-   "endpoints": [
-    {
-     "context_length": 204800,
-     "max_completion_tokens": 131072,
-     "max_prompt_tokens": null,
-     "model_id": "minimax/minimax-m2",
-     "model_name": "MiniMax: MiniMax M2",
-     "name": "Minimax | minimax/minimax-m2",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000102",
-      "discount": 0.15,
-      "prompt": "0.000000255"
-     },
-     "provider_name": "Minimax",
-     "quantization": "fp8",
-     "service_tier": null,
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": false,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "minimax/fp8"
-    }
-   ],
-   "id": "minimax/minimax-m2",
-   "name": "MiniMax: MiniMax M2"
-  },
-  "minimax/minimax-m2-her": {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "created": 1769177239,
-   "description": "MiniMax M2-her is a dialogue-first large language model built for immersive roleplay, character-driven chat, and expressive multi-turn conversations. Designed to stay consistent in tone and personality, it supports rich message...",
-   "endpoints": [
-    {
-     "context_length": 65536,
-     "max_completion_tokens": 2048,
-     "max_prompt_tokens": null,
-     "model_id": "minimax/minimax-m2-her",
-     "model_name": "MiniMax: MiniMax M2-her",
-     "name": "Minimax | minimax/minimax-m2-her-20260123",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000012",
-      "discount": 0,
-      "input_cache_read": "0.00000003",
-      "prompt": "0.0000003"
-     },
-     "provider_name": "Minimax",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "max_tokens",
-      "temperature",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "minimax"
-    }
-   ],
-   "id": "minimax/minimax-m2-her",
-   "name": "MiniMax: MiniMax M2-her"
-  },
-  "minimax/minimax-m2.1": {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "created": 1766454997,
-   "description": "MiniMax-M2.1 is a lightweight, state-of-the-art large language model optimized for coding, agentic workflows, and modern application development. With only 10 billion activated parameters, it delivers a major jump in real-world...",
-   "endpoints": [
-    {
-     "context_length": 204800,
-     "max_completion_tokens": 131072,
-     "max_prompt_tokens": null,
-     "model_id": "minimax/minimax-m2.1",
-     "model_name": "MiniMax: MiniMax M2.1",
-     "name": "Minimax | minimax/minimax-m2.1",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000012",
-      "discount": 0,
-      "input_cache_read": "0.00000003",
-      "prompt": "0.0000003"
-     },
-     "provider_name": "Minimax",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "response_format",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "minimax"
-    },
-    {
-     "context_length": 204800,
-     "max_completion_tokens": 131072,
-     "max_prompt_tokens": null,
-     "model_id": "minimax/minimax-m2.1",
-     "model_name": "MiniMax: MiniMax M2.1",
-     "name": "Minimax | minimax/minimax-m2.1",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000024",
-      "discount": 0,
-      "input_cache_read": "0.00000003",
-      "prompt": "0.0000003"
-     },
-     "provider_name": "Minimax",
-     "quantization": "unknown",
-     "service_tier": "priority",
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "response_format",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "minimax/highspeed"
-    }
-   ],
-   "id": "minimax/minimax-m2.1",
-   "name": "MiniMax: MiniMax M2.1"
   },
   "minimax/minimax-m2.5": {
    "architecture": {
@@ -29669,86 +29587,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "gmicloud/fp8"
-    },
-    {
-     "context_length": 204800,
-     "max_completion_tokens": 131072,
-     "max_prompt_tokens": null,
-     "model_id": "minimax/minimax-m2.5",
-     "model_name": "MiniMax: MiniMax M2.5",
-     "name": "Minimax | minimax/minimax-m2.5-20260211",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000012",
-      "discount": 0,
-      "input_cache_read": "0.00000003",
-      "prompt": "0.0000003"
-     },
-     "provider_name": "Minimax",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "response_format",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "minimax"
-    },
-    {
-     "context_length": 204800,
-     "max_completion_tokens": 131072,
-     "max_prompt_tokens": null,
-     "model_id": "minimax/minimax-m2.5",
-     "model_name": "MiniMax: MiniMax M2.5",
-     "name": "Minimax | minimax/minimax-m2.5-20260211",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000024",
-      "discount": 0,
-      "input_cache_read": "0.00000006",
-      "prompt": "0.0000006"
-     },
-     "provider_name": "Minimax",
-     "quantization": "unknown",
-     "service_tier": "priority",
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "response_format",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "minimax/highspeed"
     },
     {
      "context_length": 204800,
@@ -30030,86 +29868,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "groq"
-    },
-    {
-     "context_length": 204800,
-     "max_completion_tokens": 131072,
-     "max_prompt_tokens": null,
-     "model_id": "minimax/minimax-m2.7",
-     "model_name": "MiniMax: MiniMax M2.7",
-     "name": "Minimax | minimax/minimax-m2.7-20260318",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000012",
-      "discount": 0,
-      "input_cache_read": "0.00000006",
-      "prompt": "0.0000003"
-     },
-     "provider_name": "Minimax",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "response_format",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "minimax"
-    },
-    {
-     "context_length": 204800,
-     "max_completion_tokens": 131072,
-     "max_prompt_tokens": null,
-     "model_id": "minimax/minimax-m2.7",
-     "model_name": "MiniMax: MiniMax M2.7",
-     "name": "Minimax | minimax/minimax-m2.7-20260318",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000024",
-      "discount": 0,
-      "input_cache_read": "0.00000006",
-      "prompt": "0.0000006"
-     },
-     "provider_name": "Minimax",
-     "quantization": "unknown",
-     "service_tier": "priority",
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "response_format",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": true,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "minimax/highspeed"
     },
     {
      "context_length": 204800,
@@ -31022,9 +30780,9 @@
      "name": "Minimax | minimax/minimax-m3.1-flash-20261019",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000006",
+      "completion": "0.0000003",
       "discount": 0,
-      "input_cache_read": "0.000000015",
+      "input_cache_read": "0.0000000075",
       "overrides": [
        {
         "completion": "0.0000003",
@@ -31041,7 +30799,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000015"
+      "prompt": "0.000000075"
      },
      "provider_name": "Minimax",
      "quantization": "unknown",
@@ -34701,8 +34459,8 @@
      "pricing": {
       "completion": "0.00000375",
       "discount": 0,
-      "input_cache_read": "0.000000156",
-      "prompt": "0.0000007995"
+      "input_cache_read": "0.0000002092",
+      "prompt": "0.000000799"
      },
      "provider_name": "Inceptron",
      "quantization": "int4",
@@ -35282,7 +35040,7 @@
      "pricing": {
       "completion": "0.0000035",
       "discount": 0,
-      "input_cache_read": "0.00000015",
+      "input_cache_read": "0.00000016",
       "prompt": "0.0000006"
      },
      "provider_name": "Inceptron",
@@ -36524,8 +36282,8 @@
      "pricing": {
       "completion": "0.000012",
       "discount": 0,
-      "input_cache_read": "0.000000523",
-      "prompt": "0.00000212"
+      "input_cache_read": "0.000000481",
+      "prompt": "0.00000195"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -36773,7 +36531,7 @@
       "completion": "0.0000093388",
       "discount": 0,
       "input_cache_read": "0.00000015",
-      "prompt": "0.0000001567"
+      "prompt": "0.000000151"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -36960,8 +36718,8 @@
      "pricing": {
       "completion": "0.000022",
       "discount": 0,
-      "input_cache_read": "0.000000174",
-      "prompt": "0.000000175"
+      "input_cache_read": "0.000000168",
+      "prompt": "0.000000169"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -37832,6 +37590,57 @@
      "supported_parameters": [
       "frequency_penalty",
       "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "phala/us"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "moonshotai/kimi-k3.1-pro",
+     "model_name": "MoonshotAI: Kimi K3.1 Pro",
+     "name": "Phala | moonshotai/kimi-k3.1-pro-20261023",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00001",
+      "discount": 0,
+      "input_cache_read": "0.0000002",
+      "prompt": "0.000002"
+     },
+     "provider_name": "Phala",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
       "max_tokens",
       "min_p",
       "presence_penalty",
@@ -37921,7 +37730,7 @@
       "completion": "0.0000079233",
       "discount": 0,
       "input_cache_read": "0.0000002",
-      "prompt": "0.0000003761"
+      "prompt": "0.0000003792"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -52442,10 +52251,10 @@
      "name": "PrimeIntellect | openai/gpt-oss-120b",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000014",
+      "completion": "0.000000116",
       "discount": 0,
-      "input_cache_read": "0.000000034",
-      "prompt": "0.000000038"
+      "input_cache_read": "0.000000028",
+      "prompt": "0.000000031"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp4",
@@ -53160,10 +52969,10 @@
      "name": "PrimeIntellect | openai/gpt-oss-20b",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000017",
+      "completion": "0.000000043",
       "discount": 0,
-      "input_cache_read": "0.000000003",
-      "prompt": "0.000000004"
+      "input_cache_read": "0.000000009",
+      "prompt": "0.00000001"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp4",
@@ -53456,8 +53265,8 @@
     ],
     "tokenizer": "Router"
    },
-   "created": 1699401600,
-   "description": "Auto is OpenRouter\u2019s general-purpose router, now powered by [Jev Router](https://openrouter.ai/typesafe/jev-router). It replaces market-spend rankings with request-aware selection of both the model and reasoning effort, weighing task difficulty, measured benchmark results,...",
+   "created": 1793885889,
+   "description": "Auto is OpenRouter\u2019s flagship model router, built for general-purpose usage. It adapts to each request, choosing cost-optimal models and adjusting reasoning effort. It balances task difficulty, benchmark results, live prices,...",
    "endpoints": [],
    "id": "openrouter/auto",
    "name": "Auto Router"
@@ -53484,6 +53293,29 @@
    "endpoints": [],
    "id": "openrouter/auto-beta",
    "name": "Auto Router (Beta)"
+  },
+  "openrouter/auto-code": {
+   "architecture": {
+    "input_modalities": [
+     "audio",
+     "file",
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file+audio+video->text+image",
+    "output_modalities": [
+     "image",
+     "text"
+    ],
+    "tokenizer": "Router"
+   },
+   "created": 1793884321,
+   "description": "Auto Code is OpenRouter\u2019s router built specifically for coding agents and harnesses. It uses the same routing engine as the [Auto Router](https://openrouter.ai/openrouter/auto), with every request treated as part of an...",
+   "endpoints": [],
+   "id": "openrouter/auto-code",
+   "name": "Auto Code"
   },
   "openrouter/bodybuilder": {
    "architecture": {
@@ -57784,10 +57616,10 @@
      "name": "PrimeIntellect | qwen/qwen3.5-9b-20260310",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000082",
+      "completion": "0.000000249",
       "discount": 0,
-      "input_cache_read": "0.00000005",
-      "prompt": "0.000000056"
+      "input_cache_read": "0.000000153",
+      "prompt": "0.00000017"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "bf16",
@@ -58895,10 +58727,10 @@
      "name": "PrimeIntellect | qwen/qwen3.6-35b-a3b-20260415",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000106",
+      "completion": "0.000000241",
       "discount": 0,
-      "input_cache_read": "0.00000001",
-      "prompt": "0.000000012"
+      "input_cache_read": "0.000000024",
+      "prompt": "0.000000026"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp8",
@@ -60689,10 +60521,10 @@
      "name": "PrimeIntellect | qwen/qwen3.8-27b-20260814",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001747",
+      "completion": "0.000002169",
       "discount": 0,
-      "input_cache_read": "0.000000029",
-      "prompt": "0.000000032"
+      "input_cache_read": "0.000000035",
+      "prompt": "0.000000039"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp8",
@@ -63289,9 +63121,9 @@
      "name": "Tencent | tencent/hy3-20260706",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000528",
+      "completion": "0.00000033",
       "discount": 0,
-      "input_cache_read": "0.000000033",
+      "input_cache_read": "0.000000020625",
       "overrides": [
        {
         "completion": "0.00000033",
@@ -63308,7 +63140,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000132"
+      "prompt": "0.0000000825"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -63776,9 +63608,9 @@
      "name": "Tencent | tencent/hy4-preview-20260827",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000002501",
+      "completion": "0.0000022509",
       "discount": 0,
-      "input_cache_read": "0.000000042",
+      "input_cache_read": "0.0000000378",
       "overrides": [
        {
         "completion": "0.0000022509",
@@ -63795,7 +63627,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000834"
+      "prompt": "0.0000007506"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -69135,10 +68967,10 @@
      "name": "Baidu | z-ai/glm-5.1-20260406",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "completion": "0.0000028248",
+      "discount": 0.358,
+      "input_cache_read": "0.00000016692",
+      "prompt": "0.0000008988"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -69893,10 +69725,10 @@
      "name": "Baidu | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000044",
-      "discount": 0,
-      "input_cache_read": "0.00000026",
-      "prompt": "0.0000014"
+      "completion": "0.0000019448",
+      "discount": 0.558,
+      "input_cache_read": "0.00000011492",
+      "prompt": "0.0000006188"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -70941,10 +70773,10 @@
      "name": "StreamLake | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000192676",
-      "discount": 0.5621,
-      "input_cache_read": "0.000000113854",
-      "prompt": "0.00000061306"
+      "completion": "0.0000019228",
+      "discount": 0.563,
+      "input_cache_read": "0.00000011362",
+      "prompt": "0.0000006118"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -71861,10 +71693,10 @@
      "name": "Decart | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000196",
+      "completion": "0.00000178",
       "discount": 0,
-      "input_cache_read": "0.00000011",
-      "prompt": "0.00000062"
+      "input_cache_read": "0.0000001",
+      "prompt": "0.00000056"
      },
      "provider_name": "Decart",
      "quantization": "fp4",
@@ -72624,52 +72456,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "modal"
-    },
-    {
-     "context_length": 1048576,
-     "max_completion_tokens": 524288,
-     "max_prompt_tokens": null,
-     "model_id": "z-ai/glm-5.3",
-     "model_name": "Z.ai: GLM 5.3",
-     "name": "ModelRun | z-ai/glm-5.3-20260816",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000066",
-      "discount": 0,
-      "input_cache_read": "0.0000004",
-      "prompt": "0.0000021"
-     },
-     "provider_name": "ModelRun",
-     "quantization": "fp4",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "modelrun/fp4"
     },
     {
      "context_length": 1048576,
@@ -74342,7 +74128,7 @@
      "pricing": {
       "completion": "0.00000024",
       "discount": 0,
-      "input_cache_read": "0.00000004",
+      "input_cache_read": "0.00000003",
       "prompt": "0.00000014"
      },
      "provider_name": "Makora",
@@ -75462,8 +75248,8 @@
      "pricing": {
       "completion": "0.000000184",
       "discount": 0,
-      "input_cache_read": "0.0000000395",
-      "prompt": "0.0000000405"
+      "input_cache_read": "0.0000000355",
+      "prompt": "0.0000000365"
      },
      "provider_name": "Wafer",
      "quantization": "nvfp4",
