@@ -8279,9 +8279,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000411",
-    "input_cache_read": "0.000000098",
-    "prompt": "0.000000103"
+    "completion": "0.00000444",
+    "input_cache_read": "0.000000106",
+    "prompt": "0.000000111"
    },
    "reasoning": {
     "default_effort": "high",
@@ -8356,9 +8356,9 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000005",
+    "completion": "0.00000054",
     "input_cache_read": "0.000000018",
-    "prompt": "0.000000045"
+    "prompt": "0.0000000486"
    },
    "reasoning": {
     "default_effort": "high",
@@ -8508,8 +8508,8 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000003",
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006",
     "overrides": [
      {
       "completion": "0.0000006",
@@ -8591,7 +8591,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -13970,9 +13970,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425",
-    "prompt": "0.0000000765"
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005",
+    "prompt": "0.00000009"
    },
    "reasoning": {
     "default_enabled": false,
@@ -18006,8 +18006,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -18024,7 +18024,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.000000075"
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "max",
@@ -31906,9 +31906,9 @@
    "name": "OpenAI: gpt-oss-120b",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000073",
-    "input_cache_read": "0.000000018",
-    "prompt": "0.00000002"
+    "completion": "0.000000083",
+    "input_cache_read": "0.00000002",
+    "prompt": "0.000000022"
    },
    "reasoning": {
     "default_effort": "medium",
@@ -39446,17 +39446,25 @@
     ]
    },
    "supported_parameters": [
+    "frequency_penalty",
     "include_reasoning",
+    "logit_bias",
     "max_completion_tokens",
     "max_tokens",
+    "min_p",
+    "presence_penalty",
     "reasoning",
     "reasoning_effort",
+    "repetition_penalty",
     "response_format",
+    "seed",
     "stop",
     "structured_outputs",
     "temperature",
     "tool_choice",
-    "tools"
+    "tools",
+    "top_k",
+    "top_p"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -46134,8 +46142,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000008",
-    "input_cache_read": "0.0000000927",
-    "prompt": "0.0000000927"
+    "input_cache_read": "0.0000000999",
+    "prompt": "0.0000000999"
    },
    "reasoning": {
     "default_effort": "high",
@@ -46476,8 +46484,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000105539",
-    "input_cache_read": "0.00000017",
-    "prompt": "0.0000001719"
+    "input_cache_read": "0.00000015",
+    "prompt": "0.0000001529"
    },
    "reasoning": {
     "default_effort": "max",
@@ -47148,8 +47156,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000000923",
-    "input_cache_read": "0.0000000285",
-    "prompt": "0.0000000285"
+    "input_cache_read": "0.0000000284",
+    "prompt": "0.0000000284"
    },
    "reasoning": {
     "default_effort": "max",
