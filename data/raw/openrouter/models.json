@@ -7940,7 +7940,7 @@
    "pricing": {
     "completion": "0.0000003",
     "input_cache_read": "0.000000035",
-    "prompt": "0.000000059"
+    "prompt": "0.0000000448"
    },
    "reasoning": {
     "default_effort": "high",
@@ -8192,9 +8192,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605",
-    "prompt": "0.00000095526"
+    "completion": "0.000001622028",
+    "input_cache_read": "0.0000000675845",
+    "prompt": "0.000000811014"
    },
    "reasoning": {
     "default_effort": "high",
@@ -15758,7 +15758,7 @@
     "/api/v1/messages",
     "/api/v1/responses"
    ],
-   "expiration_date": "2026-11-15",
+   "expiration_date": "2026-11-20",
    "hugging_face_id": "meta-llama/Llama-3.2-1B-Instruct",
    "id": "meta-llama/llama-3.2-1b-instruct",
    "knowledge_cutoff": "2023-12-31",
@@ -15814,7 +15814,7 @@
     "/api/v1/messages",
     "/api/v1/responses"
    ],
-   "expiration_date": "2026-11-15",
+   "expiration_date": "2026-11-20",
    "hugging_face_id": "meta-llama/Llama-3.2-3B-Instruct",
    "id": "meta-llama/llama-3.2-3b-instruct",
    "knowledge_cutoff": "2023-12-31",
@@ -18020,8 +18020,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -18038,7 +18038,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.000000075"
    },
    "reasoning": {
     "default_effort": "max",
@@ -31863,9 +31863,9 @@
    "name": "OpenAI: gpt-oss-120b",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000109",
-    "input_cache_read": "0.000000026",
-    "prompt": "0.000000029"
+    "completion": "0.00000006",
+    "input_cache_read": "0.000000015",
+    "prompt": "0.000000016"
    },
    "reasoning": {
     "default_effort": "medium",
@@ -37999,7 +37999,7 @@
    "links": {
     "details": "/api/v1/models/ricursiveai/ripple-65b-preview-20261104/endpoints"
    },
-   "name": "ricursiveAI/Ripple-65B-Preview",
+   "name": "Ricursive: Ripple 65B Preview",
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000006",
@@ -39208,8 +39208,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -39226,7 +39226,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -39463,8 +39463,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -39481,7 +39481,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -42861,7 +42861,6 @@
     "frequency_penalty",
     "include_reasoning",
     "logit_bias",
-    "logprobs",
     "max_tokens",
     "min_p",
     "presence_penalty",
@@ -42875,7 +42874,6 @@
     "tool_choice",
     "tools",
     "top_k",
-    "top_logprobs",
     "top_p"
    ],
    "supported_voices": null,
@@ -46201,7 +46199,7 @@
    "pricing": {
     "completion": "0.0000003",
     "input_cache_read": "0.000000035",
-    "prompt": "0.000000059"
+    "prompt": "0.0000000448"
    },
    "reasoning": {
     "default_effort": "high",
@@ -46461,9 +46459,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000101522",
-    "input_cache_read": "0.00000018",
-    "prompt": "0.0000001824"
+    "completion": "0.0000105572",
+    "input_cache_read": "0.00000017",
+    "prompt": "0.0000001719"
    },
    "reasoning": {
     "default_effort": "max",
