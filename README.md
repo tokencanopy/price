@@ -3,7 +3,7 @@
 **A public, machine-readable record of what LLM inference actually costs — and how that price changes over time.** Refreshed every 6 hours.
 
 <!-- BEGIN STATS -->
-**17,216** price points · **1,067** models · **83** platforms · updated **2026-11-07 12:26 UTC** · history since **2026-09-02** (67 snapshots)
+**17,216** price points · **1,067** models · **83** platforms · updated **2026-11-07 18:25 UTC** · history since **2026-09-02** (67 snapshots)
 <!-- END STATS -->
 
 Every provider publishes today's price. **Nobody publishes yesterday's.** This repo
@@ -44,12 +44,12 @@ yourself.
 | Z.ai: GLM 5.3 | 37 | [Wafer](https://www.wafer.ai/) | $0.07 | $1.40 | 30.0× |
 | Z.ai: GLM 5.3 Flash | 36 | [Relace](https://www.relace.ai/) | $0.03 | $0.09 | 6.1× |
 | DeepSeek: DeepSeek V4.1 Flash | 30 | [Relace](https://www.relace.ai/) | $0.01 | $0.50 | 50.0× |
-| DeepSeek: DeepSeek V4 Flash 0731 | 26 | [Wafer](https://www.wafer.ai/) | $0.05 | $0.23 | 9.0× |
+| DeepSeek: DeepSeek V4 Flash 0731 | 26 | [Wafer](https://www.wafer.ai/) | $0.04 | $0.23 | 10.1× |
 | Z.ai: GLM 5.2 | 26 | [Wafer](https://www.wafer.ai/) | $0.01 | $6.80 | 375.0× |
-| Qwen: Qwen3.8 27B | 24 | [Darkbloom](https://www.darkbloom.dev/) | $0.04 | $1.50 | 28.3× |
-| OpenAI: gpt-oss-120b | 23 | [PrimeIntellect](https://openrouter.ai/provider/prime-intellect) | $0.02 | $0.06 | 21.9× |
+| Qwen: Qwen3.8 27B | 24 | [PrimeIntellect](https://openrouter.ai/provider/prime-intellect) | $0.03 | $1.60 | 34.1× |
+| OpenAI: gpt-oss-120b | 23 | [PrimeIntellect](https://openrouter.ai/provider/prime-intellect) | $0.01 | $0.06 | 23.3× |
 | DeepSeek: DeepSeek V4 Pro 0813 | 21 | [Relace](https://www.relace.ai/) | $0.10 | $8.00 | 16.5× |
-| MoonshotAI: Kimi K3 | 21 | [Relace](https://www.relace.ai/) | $0.15 | $9.34 | 22.3× |
+| MoonshotAI: Kimi K3 | 21 | [Wafer](https://www.wafer.ai/) | $0.15 | $9.60 | 22.3× |
 | MoonshotAI: Kimi K3.1 Pro | 17 | [Relace](https://www.relace.ai/) | $0.33 | $8.12 | 7.0× |
 | Google: Gemma 4 31B | 17 | [CoreWeave](https://coreweave.com/) | $0.10 | $0.34 | 7.5× |
 | MoonshotAI: Kimi K2.6 | 16 | [Baidu](https://intl.cloud.baidu.com/) | $0.39 | $1.64 | 2.8× |
