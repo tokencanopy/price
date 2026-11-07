@@ -691,6 +691,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000005",
+    "input_cache_read": "0.0000025",
     "prompt": "0.0000025"
    },
    "supported_parameters": [
@@ -7959,7 +7960,7 @@
    "pricing": {
     "completion": "0.0000003",
     "input_cache_read": "0.000000035",
-    "prompt": "0.0000000434"
+    "prompt": "0.0000000553"
    },
    "reasoning": {
     "default_effort": "high",
@@ -8348,9 +8349,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000032",
-    "input_cache_read": "0.000000135",
-    "prompt": "0.0000016"
+    "completion": "0.000001699632",
+    "input_cache_read": "0.000000070818",
+    "prompt": "0.000000849816"
    },
    "reasoning": {
     "default_effort": "high",
@@ -8386,9 +8387,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1024000,
     "is_moderated": false,
-    "max_completion_tokens": 393216
+    "max_completion_tokens": 384000
    }
   },
   {
@@ -14297,6 +14298,7 @@
     "include_reasoning",
     "logit_bias",
     "logprobs",
+    "max_completion_tokens",
     "max_tokens",
     "min_p",
     "presence_penalty",
@@ -15250,9 +15252,9 @@
    "name": "inclusionAI: Ling 3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000225",
-    "input_cache_read": "0.000000015",
-    "prompt": "0.000000075"
+    "completion": "0.000000135",
+    "input_cache_read": "0.000000009",
+    "prompt": "0.000000045"
    },
    "reasoning": {
     "default_enabled": true,
@@ -15812,6 +15814,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000075",
+    "input_cache_read": "0.0000004",
     "prompt": "0.0000004"
    },
    "supported_parameters": [
@@ -18445,8 +18448,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -18463,7 +18466,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.000000075"
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "max",
@@ -32501,9 +32504,9 @@
    "name": "OpenAI: gpt-oss-120b",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000055",
-    "input_cache_read": "0.000000013",
-    "prompt": "0.000000015"
+    "completion": "0.00000004",
+    "input_cache_read": "0.00000001",
+    "prompt": "0.000000011"
    },
    "reasoning": {
     "default_effort": "medium",
@@ -40999,6 +41002,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000065",
+    "input_cache_read": "0.00000035",
     "prompt": "0.00000035"
    },
    "supported_parameters": [
@@ -47049,7 +47053,7 @@
    "pricing": {
     "completion": "0.0000003",
     "input_cache_read": "0.000000035",
-    "prompt": "0.0000000434"
+    "prompt": "0.0000000553"
    },
    "reasoning": {
     "default_effort": "high",
@@ -47309,9 +47313,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000101489",
+    "completion": "0.000010551",
     "input_cache_read": "0.00000015",
-    "prompt": "0.0000001539"
+    "prompt": "0.0000001548"
    },
    "reasoning": {
     "default_effort": "max",
@@ -47982,8 +47986,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.0000000923",
-    "input_cache_read": "0.0000000284",
-    "prompt": "0.0000000284"
+    "input_cache_read": "0.0000000285",
+    "prompt": "0.0000000285"
    },
    "reasoning": {
     "default_effort": "max",
