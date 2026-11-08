@@ -10939,10 +10939,10 @@
      "name": "Phala | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000924",
-      "discount": 0.3,
-      "input_cache_read": "0.0000000196",
-      "prompt": "0.000000308"
+      "completion": "0.00000132",
+      "discount": 0,
+      "input_cache_read": "0.000000028",
+      "prompt": "0.00000044"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -11737,10 +11737,10 @@
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000098696",
-      "discount": 0.708,
-      "input_cache_read": "0.00000004088",
-      "prompt": "0.00000049348"
+      "completion": "0.00000078416",
+      "discount": 0.768,
+      "input_cache_read": "0.00000003248",
+      "prompt": "0.00000039208"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -12104,10 +12104,10 @@
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000969528",
-      "discount": 0.7214,
-      "input_cache_read": "0.000000040397",
-      "prompt": "0.000000484764"
+      "completion": "0.000000787176",
+      "discount": 0.7738,
+      "input_cache_read": "0.000000032799",
+      "prompt": "0.000000393588"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -13043,10 +13043,10 @@
      "name": "Phala | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000028776",
-      "discount": 0.34,
-      "input_cache_read": "0.000000099",
-      "prompt": "0.000000957"
+      "completion": "0.00000436",
+      "discount": 0,
+      "input_cache_read": "0.00000015",
+      "prompt": "0.00000145"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -13417,7 +13417,7 @@
      "pricing": {
       "completion": "0.00000444",
       "discount": 0,
-      "input_cache_read": "0.000000106",
+      "input_cache_read": "0.000000101",
       "prompt": "0.000000111"
      },
      "provider_name": "Wafer",
@@ -14773,8 +14773,8 @@
      "pricing": {
       "completion": "0.0000007",
       "discount": 0,
-      "input_cache_read": "0.000000006",
-      "prompt": "0.00000003"
+      "input_cache_read": "0.000000004",
+      "prompt": "0.0000000175"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -17117,8 +17117,8 @@
      "pricing": {
       "completion": "0.0000007",
       "discount": 0,
-      "input_cache_read": "0.000000006",
-      "prompt": "0.00000003"
+      "input_cache_read": "0.000000004",
+      "prompt": "0.0000000175"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -24730,10 +24730,10 @@
      "name": "PrimeIntellect | google/gemma-4-26b-a4b-it-20260403",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000113",
+      "completion": "0.000000071",
       "discount": 0,
-      "input_cache_read": "0.000000019",
-      "prompt": "0.000000038"
+      "input_cache_read": "0.000000012",
+      "prompt": "0.000000024"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "bf16",
@@ -26108,189 +26108,6 @@
    ],
    "id": "ibm-granite/granite-4.2-8b",
    "name": "IBM: Granite 4.2 8B"
-  },
-  "inception/mercury-2": {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "created": 1772636275,
-   "description": "Mercury 2 is an extremely fast reasoning LLM, and the first reasoning diffusion LLM (dLLM). Instead of generating tokens sequentially, Mercury 2 produces and refines multiple tokens in parallel, achieving...",
-   "endpoints": [
-    {
-     "context_length": 128000,
-     "max_completion_tokens": 50000,
-     "max_prompt_tokens": null,
-     "model_id": "inception/mercury-2",
-     "model_name": "Inception: Mercury 2",
-     "name": "Inception | inception/mercury-2-20260304",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000075",
-      "discount": 0,
-      "input_cache_read": "0.000000025",
-      "prompt": "0.00000025"
-     },
-     "provider_name": "Inception",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "reasoning_effort",
-      "response_format",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": false,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "inception"
-    }
-   ],
-   "id": "inception/mercury-2",
-   "name": "Inception: Mercury 2"
-  },
-  "inception/mercury-2.5": {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "created": 1788892137,
-   "description": "Mercury 2.5 is the fastest reasoning LLM, and the latest diffusion LLM (dLLM) from Inception. Instead of generating tokens sequentially, Mercury 2.5 produces and refines multiple tokens in parallel, achieving...",
-   "endpoints": [
-    {
-     "context_length": 260000,
-     "max_completion_tokens": 65536,
-     "max_prompt_tokens": null,
-     "model_id": "inception/mercury-2.5",
-     "model_name": "Inception: Mercury 2.5",
-     "name": "Inception | inception/mercury-2.5-20260908",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000015",
-      "discount": 0.8,
-      "input_cache_read": "0.000000004",
-      "prompt": "0.00000004"
-     },
-     "provider_name": "Inception",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "reasoning_effort",
-      "response_format",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "inception"
-    }
-   ],
-   "id": "inception/mercury-2.5",
-   "name": "Inception: Mercury 2.5"
-  },
-  "inception/mercury-3": {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "created": 1792158337,
-   "description": "Mercury 3 is a diffusion-based language model from Inception, and the lab's most capable model to date. It is suited for agentic workflows and real-time applications where latency compounds, such...",
-   "endpoints": [
-    {
-     "context_length": 1000000,
-     "max_completion_tokens": 131072,
-     "max_prompt_tokens": null,
-     "model_id": "inception/mercury-3",
-     "model_name": "Inception: Mercury 3",
-     "name": "Inception | inception/mercury-3-20261019",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000035",
-      "discount": 0.5,
-      "input_cache_read": "0.00000001",
-      "prompt": "0.0000001"
-     },
-     "provider_name": "Inception",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "reasoning_effort",
-      "response_format",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "inception"
-    }
-   ],
-   "id": "inception/mercury-3",
-   "name": "Inception: Mercury 3"
   },
   "inclusionai/ling-3.0-flash": {
    "architecture": {
@@ -30866,9 +30683,9 @@
      "name": "Minimax | minimax/minimax-m3.1-flash-20261019",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000003",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.0000000075",
+      "input_cache_read": "0.000000015",
       "overrides": [
        {
         "completion": "0.0000003",
@@ -30885,7 +30702,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.000000075"
+      "prompt": "0.00000015"
      },
      "provider_name": "Minimax",
      "quantization": "unknown",
@@ -36131,8 +35948,8 @@
      "pricing": {
       "completion": "0.000014",
       "discount": 0,
-      "input_cache_read": "0.00000023",
-      "prompt": "0.0000023"
+      "input_cache_read": "0.0000002",
+      "prompt": "0.0000015"
      },
      "provider_name": "Io Net",
      "quantization": "fp4",
@@ -36564,7 +36381,7 @@
      "name": "Relace | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000101398",
+      "completion": "0.0000105448",
       "discount": 0,
       "input_cache_read": "0.00000016",
       "prompt": "0.0000001662"
@@ -36756,8 +36573,8 @@
      "pricing": {
       "completion": "0.000016",
       "discount": 0,
-      "input_cache_read": "0.000000155",
-      "prompt": "0.000000156"
+      "input_cache_read": "0.000000164",
+      "prompt": "0.000000165"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -37271,10 +37088,10 @@
      "name": "InferenceNet | moonshotai/kimi-k3.1-pro-20261023",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000015",
+      "completion": "0.0000135",
       "discount": 0,
-      "input_cache_read": "0.0000003",
-      "prompt": "0.000003"
+      "input_cache_read": "0.00000027",
+      "prompt": "0.0000027"
      },
      "provider_name": "InferenceNet",
      "quantization": "mxfp4",
@@ -37321,10 +37138,10 @@
      "name": "InferenceNet | moonshotai/kimi-k3.1-pro-20261023",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000015",
+      "completion": "0.0000135",
       "discount": 0,
-      "input_cache_read": "0.0000003",
-      "prompt": "0.000003"
+      "input_cache_read": "0.00000027",
+      "prompt": "0.0000027"
      },
      "provider_name": "InferenceNet",
      "quantization": "mxfp4",
@@ -37510,7 +37327,7 @@
      "pricing": {
       "completion": "0.000012",
       "discount": 0,
-      "input_cache_read": "0.00000047",
+      "input_cache_read": "0.0000003",
       "prompt": "0.000001908"
      },
      "provider_name": "Morph",
@@ -37661,10 +37478,10 @@
      "name": "Phala | moonshotai/kimi-k3.1-pro-20261023",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00001",
+      "completion": "0.000009",
       "discount": 0,
-      "input_cache_read": "0.0000002",
-      "prompt": "0.000002"
+      "input_cache_read": "0.00000018",
+      "prompt": "0.0000018"
      },
      "provider_name": "Phala",
      "quantization": "unknown",
@@ -37809,10 +37626,10 @@
      "name": "Relace | moonshotai/kimi-k3.1-pro-20261023",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000080461",
+      "completion": "0.0000079515",
       "discount": 0,
       "input_cache_read": "0.0000002",
-      "prompt": "0.0000004"
+      "prompt": "0.000000365"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -38004,6 +37821,58 @@
      "name": "Wafer | moonshotai/kimi-k3.1-pro-20261023",
      "native_tools": {},
      "pricing": {
+      "completion": "0.00001",
+      "discount": 0,
+      "input_cache_read": "0.00000018",
+      "prompt": "0.000000399"
+     },
+     "provider_name": "Wafer",
+     "quantization": "mxfp4",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "wafer/us"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "moonshotai/kimi-k3.1-pro",
+     "model_name": "MoonshotAI: Kimi K3.1 Pro",
+     "name": "Wafer | moonshotai/kimi-k3.1-pro-20261023",
+     "native_tools": {},
+     "pricing": {
       "completion": "0.000009",
       "discount": 0,
       "input_cache_read": "0.00000018",
@@ -38046,58 +37915,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "wafer/mxfp4"
-    },
-    {
-     "context_length": 1048576,
-     "max_completion_tokens": 943718,
-     "max_prompt_tokens": null,
-     "model_id": "moonshotai/kimi-k3.1-pro",
-     "model_name": "MoonshotAI: Kimi K3.1 Pro",
-     "name": "Wafer | moonshotai/kimi-k3.1-pro-20261023",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00001",
-      "discount": 0,
-      "input_cache_read": "0.0000002",
-      "prompt": "0.000002"
-     },
-     "provider_name": "Wafer",
-     "quantization": "mxfp4",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "logprobs",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "wafer/us"
     }
    ],
    "id": "moonshotai/kimi-k3.1-pro",
@@ -52388,10 +52205,10 @@
      "name": "PrimeIntellect | openai/gpt-oss-120b",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000114",
+      "completion": "0.000000102",
       "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.000000031"
+      "input_cache_read": "0.000000025",
+      "prompt": "0.000000027"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp4",
@@ -53106,7 +52923,7 @@
      "name": "PrimeIntellect | openai/gpt-oss-20b",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000017",
+      "completion": "0.000000018",
       "discount": 0,
       "input_cache_read": "0.000000003",
       "prompt": "0.000000004"
@@ -57753,10 +57570,10 @@
      "name": "PrimeIntellect | qwen/qwen3.5-9b-20260310",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000076",
+      "completion": "0.000000083",
       "discount": 0,
-      "input_cache_read": "0.000000047",
-      "prompt": "0.000000052"
+      "input_cache_read": "0.000000051",
+      "prompt": "0.000000057"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "bf16",
@@ -58864,10 +58681,10 @@
      "name": "PrimeIntellect | qwen/qwen3.6-35b-a3b-20260415",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000155",
+      "completion": "0.000000092",
       "discount": 0,
-      "input_cache_read": "0.000000015",
-      "prompt": "0.000000017"
+      "input_cache_read": "0.000000009",
+      "prompt": "0.00000001"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp8",
@@ -60659,10 +60476,10 @@
      "name": "PrimeIntellect | qwen/qwen3.8-27b-20260814",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000139",
+      "completion": "0.000000221",
       "discount": 0,
-      "input_cache_read": "0.000000023",
-      "prompt": "0.000000025"
+      "input_cache_read": "0.000000003",
+      "prompt": "0.000000004"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp8",
@@ -74347,7 +74164,7 @@
       "auto": true,
       "function": true,
       "none": true,
-      "required": true
+      "required": false
      },
      "supports_voice_cloning": false,
      "tag": "mistral"
