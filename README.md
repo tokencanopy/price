@@ -3,7 +3,7 @@
 **A public, machine-readable record of what LLM inference actually costs — and how that price changes over time.** Refreshed every 6 hours.
 
 <!-- BEGIN STATS -->
-**17,207** price points · **1,064** models · **82** platforms · updated **2026-11-08 06:33 UTC** · history since **2026-09-02** (68 snapshots)
+**17,207** price points · **1,064** models · **82** platforms · updated **2026-11-08 12:25 UTC** · history since **2026-09-02** (68 snapshots)
 <!-- END STATS -->
 
 Every provider publishes today's price. **Nobody publishes yesterday's.** This repo
@@ -46,15 +46,15 @@ yourself.
 | DeepSeek: DeepSeek V4.1 Flash | 30 | [Relace](https://www.relace.ai/) | $0.01 | $0.50 | 50.0× |
 | DeepSeek: DeepSeek V4 Flash 0731 | 26 | [Wafer](https://www.wafer.ai/) | $0.04 | $0.23 | 10.1× |
 | Z.ai: GLM 5.2 | 26 | [Wafer](https://www.wafer.ai/) | $0.01 | $6.80 | 375.0× |
-| Qwen: Qwen3.8 27B | 24 | [PrimeIntellect](https://openrouter.ai/provider/prime-intellect) | $0.00 | $0.22 | 247.5× |
-| OpenAI: gpt-oss-120b | 23 | [PrimeIntellect](https://openrouter.ai/provider/prime-intellect) | $0.03 | $0.10 | 13.0× |
+| Qwen: Qwen3.8 27B | 24 | [PrimeIntellect](https://openrouter.ai/provider/prime-intellect) | $0.02 | $1.10 | 49.5× |
+| OpenAI: gpt-oss-120b | 23 | [PrimeIntellect](https://openrouter.ai/provider/prime-intellect) | $0.02 | $0.09 | 14.6× |
 | DeepSeek: DeepSeek V4 Pro 0813 | 21 | [Relace](https://www.relace.ai/) | $0.10 | $8.00 | 16.5× |
-| MoonshotAI: Kimi K3 | 21 | [Wafer](https://www.wafer.ai/) | $0.17 | $9.60 | 20.9× |
-| MoonshotAI: Kimi K3.1 Pro | 17 | [Relace](https://www.relace.ai/) | $0.36 | $7.95 | 6.3× |
+| MoonshotAI: Kimi K3 | 21 | [Wafer](https://www.wafer.ai/) | $0.15 | $9.60 | 23.0× |
+| MoonshotAI: Kimi K3.1 Pro | 17 | [Relace](https://www.relace.ai/) | $0.35 | $8.34 | 6.6× |
 | Google: Gemma 4 31B | 17 | [CoreWeave](https://coreweave.com/) | $0.10 | $0.34 | 7.5× |
 | MoonshotAI: Kimi K2.6 | 16 | [Baidu](https://intl.cloud.baidu.com/) | $0.39 | $1.64 | 2.8× |
-| Google: Gemma 4 26B A4B  | 15 | [PrimeIntellect](https://openrouter.ai/provider/prime-intellect) | $0.02 | $0.07 | 6.2× |
-| DeepSeek: DeepSeek V4 Flash 0423 | 14 | [Relace](https://www.relace.ai/) | $0.04 | $0.45 | 14.5× |
+| Google: Gemma 4 26B A4B  | 15 | [Darkbloom](https://www.darkbloom.dev/) | $0.04 | $0.15 | 3.8× |
+| DeepSeek: DeepSeek V4 Flash 0423 | 14 | [Baidu](https://intl.cloud.baidu.com/) | $0.03 | $0.05 | 8.4× |
 <!-- END TABLE -->
 
 ## Biggest price moves
