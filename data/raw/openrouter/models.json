@@ -18424,8 +18424,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -18442,7 +18442,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.000000075"
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "max",
@@ -22503,6 +22503,78 @@
     "max_tokens",
     "reasoning",
     "reasoning_effort",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_logprobs",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 262144,
+    "is_moderated": false,
+    "max_completion_tokens": 235929
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "nex-agi/nex-n2.6-20261110",
+   "context_length": 262144,
+   "created": 1794282379,
+   "default_parameters": {
+    "temperature": 0.7,
+    "top_k": 40,
+    "top_p": 0.95
+   },
+   "description": "Nex-N2.6 is an agentic model from Nex AGI, built on [GLM-5.3-Flash](https://huggingface.co/zai-org/GLM-5.3-Flash-BF16) with about 321B parameters. It is suited for computer use, coding, and long-horizon tasks that involve tools. Compared with...",
+   "endpoints": [
+    "/api/v1/chat/completions",
+    "/api/v1/completions",
+    "/api/v1/messages",
+    "/api/v1/responses"
+   ],
+   "expiration_date": null,
+   "hugging_face_id": "nex-agi/Nex-N2.6",
+   "id": "nex-agi/nex-n2.6",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/nex-agi/nex-n2.6-20261110/endpoints"
+   },
+   "name": "Nex AGI: Nex-N2.6",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.0000004",
+    "input_cache_read": "0.000000024",
+    "prompt": "0.00000012"
+   },
+   "reasoning": {
+    "default_effort": "high",
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "medium"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "logprobs",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
     "structured_outputs",
     "temperature",
     "tool_choice",
@@ -37929,7 +38001,7 @@
     "design_arena": []
    },
    "canonical_slug": "qwen/qwen3.8-27b-20260814",
-   "context_length": 1024000,
+   "context_length": 1048575,
    "created": 1786722910,
    "default_parameters": {
     "temperature": 1,
@@ -45863,9 +45935,9 @@
    "name": "Z.ai: GLM 5.2 (batch)",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000001271",
-    "input_cache_read": "0.00000021",
-    "prompt": "0.000000623"
+    "completion": "0.000001169",
+    "input_cache_read": "0.000000194",
+    "prompt": "0.000000573"
    },
    "reasoning": {
     "default_effort": "high",
@@ -47760,7 +47832,7 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000105572",
+    "completion": "0.0000101489",
     "input_cache_read": "0.00000018",
     "prompt": "0.0000001824"
    },
@@ -48564,5 +48636,5 @@
  "links": {
   "next": null
  },
- "total_count": 464
+ "total_count": 465
 }
