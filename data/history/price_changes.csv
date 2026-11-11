@@ -573958,3 +573958,142 @@ observed_at,source,platform,model_key,variant,region,metric,model_name,old_usd_p
 2026-11-11T06:35:27+00:00,openrouter,Tenstorrent,xiaomimimo/mimo-v2.6-flash-rl,fp8,,cache_read,Xiaomi: MiMo-V2.6-Flash,0.004,,
 2026-11-11T06:35:27+00:00,openrouter,Tenstorrent,xiaomimimo/mimo-v2.6-flash-rl,fp8,,input,Xiaomi: MiMo-V2.6-Flash,0.165,,
 2026-11-11T06:35:27+00:00,openrouter,Tenstorrent,xiaomimimo/mimo-v2.6-flash-rl,fp8,,output,Xiaomi: MiMo-V2.6-Flash,0.33,,
+2026-11-11T12:29:37+00:00,openrouter,Cohere,coherelabs/command-a-plus-05-2026-bf16,fp8,,input,Cohere: Command A+,,0.3,
+2026-11-11T12:29:37+00:00,openrouter,Cohere,coherelabs/command-a-plus-05-2026-bf16,fp8,,output,Cohere: Command A+,,1.5,
+2026-11-11T12:29:37+00:00,openrouter,Cohere,coherelabs/command-a-plus-05-2026-bf16,fp8,,cache_read,Cohere: Command A+,,0.15,
+2026-11-11T12:29:37+00:00,openrouter,Cohere,coherelabs/c4ai-command-r-08-2024,unknown,,input,Cohere: Command R (08-2024),,0.15,
+2026-11-11T12:29:37+00:00,openrouter,Cohere,coherelabs/c4ai-command-r-08-2024,unknown,,output,Cohere: Command R (08-2024),,0.6,
+2026-11-11T12:29:37+00:00,openrouter,Cohere,coherelabs/c4ai-command-r-plus-08-2024,unknown,,input,Cohere: Command R+ (08-2024),,2.5,
+2026-11-11T12:29:37+00:00,openrouter,Cohere,coherelabs/c4ai-command-r-plus-08-2024,unknown,,output,Cohere: Command R+ (08-2024),,10.0,
+2026-11-11T12:29:37+00:00,openrouter,Cohere,coherelabs/c4ai-command-r7b-12-2024,unknown,,input,Cohere: Command R7B (12-2024),,0.0375,
+2026-11-11T12:29:37+00:00,openrouter,Cohere,coherelabs/c4ai-command-r7b-12-2024,unknown,,output,Cohere: Command R7B (12-2024),,0.15,
+2026-11-11T12:29:37+00:00,openrouter,Reka,deepseek-ai/deepseek-v4-flash-0731,unknown,,output,DeepSeek: DeepSeek V4 Flash 0731,0.28,0.42,50.0
+2026-11-11T12:29:37+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,input,DeepSeek: DeepSeek V4 Pro 0813,1.32,0.66,-50.0
+2026-11-11T12:29:37+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,output,DeepSeek: DeepSeek V4 Pro 0813,3.96,1.98,-50.0
+2026-11-11T12:29:37+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4-pro-0813,unknown,,cache_read,DeepSeek: DeepSeek V4 Pro 0813,0.044,0.022,-50.0
+2026-11-11T12:29:37+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4.1-flash-1017,fp8,,input,DeepSeek: DeepSeek V4.1 Flash 1017,0.252,0.28,11.11
+2026-11-11T12:29:37+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4.1-flash-1017,fp8,,output,DeepSeek: DeepSeek V4.1 Flash 1017,1.017,1.13,11.11
+2026-11-11T12:29:37+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4.1-flash-1017,fp8,,cache_read,DeepSeek: DeepSeek V4.1 Flash 1017,0.0054,0.006,11.11
+2026-11-11T12:29:37+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4.1-flash-1017,unknown,,input,DeepSeek: DeepSeek V4.1 Flash 1017,0.3,0.15,-50.0
+2026-11-11T12:29:37+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4.1-flash-1017,unknown,,output,DeepSeek: DeepSeek V4.1 Flash 1017,1.2,0.6,-50.0
+2026-11-11T12:29:37+00:00,openrouter,DeepSeek,deepseek-ai/deepseek-v4.1-flash-1017,unknown,,cache_read,DeepSeek: DeepSeek V4.1 Flash 1017,0.006,0.003,-50.0
+2026-11-11T12:29:37+00:00,openrouter,Wafer,deepseek-ai/deepseek-v4.1-flash-1017,mxfp4,,cache_read,DeepSeek: DeepSeek V4.1 Flash 1017,0.0069,0.0065,-5.8
+2026-11-11T12:29:37+00:00,openrouter,PrimeIntellect,google/gemma-4-26b-a4b-it,bf16,,output,Google: Gemma 4 26B A4B ,0.031,0.03,-3.23
+2026-11-11T12:29:37+00:00,openrouter,Mistral,mistralai/mistral-large-instruct-2407,unknown,,input,Mistral Large 2407,,2.0,
+2026-11-11T12:29:37+00:00,openrouter,Mistral,mistralai/mistral-large-instruct-2407,unknown,,output,Mistral Large 2407,,6.0,
+2026-11-11T12:29:37+00:00,openrouter,Mistral,mistralai/mistral-large-instruct-2407,unknown,,cache_read,Mistral Large 2407,,0.2,
+2026-11-11T12:29:37+00:00,openrouter,Mistral,mistralai/mistral-large-3-675b-instruct-2512,unknown,,input,Mistral: Mistral Large 3 2512,,0.5,
+2026-11-11T12:29:37+00:00,openrouter,Mistral,mistralai/mistral-large-3-675b-instruct-2512,unknown,,output,Mistral: Mistral Large 3 2512,,1.5,
+2026-11-11T12:29:37+00:00,openrouter,Mistral,mistralai/mistral-large-3-675b-instruct-2512,unknown,,cache_read,Mistral: Mistral Large 3 2512,,0.05,
+2026-11-11T12:29:37+00:00,openrouter,Mistral,mistralai/mistral-medium-3.5-128b,unknown,,input,Mistral: Mistral Medium 3.5,,1.5,
+2026-11-11T12:29:37+00:00,openrouter,Mistral,mistralai/mistral-medium-3.5-128b,unknown,,output,Mistral: Mistral Medium 3.5,,7.5,
+2026-11-11T12:29:37+00:00,openrouter,Relace,moonshotai/kimi-k3.1-pro,fp4,,input,MoonshotAI: Kimi K3.1 Pro,0.304,0.2878,-5.33
+2026-11-11T12:29:37+00:00,openrouter,Relace,moonshotai/kimi-k3.1-pro,fp4,,output,MoonshotAI: Kimi K3.1 Pro,8.1953,8.2479,0.64
+2026-11-11T12:29:37+00:00,openrouter,Wafer,moonshotai/kimi-k3.1-pro,mxfp4,,input,MoonshotAI: Kimi K3.1 Pro,0.32,0.313,-2.19
+2026-11-11T12:29:37+00:00,openrouter,BaseTen,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,fp4,,input,NVIDIA: Nemotron 3.5 Super VL,,0.2,
+2026-11-11T12:29:37+00:00,openrouter,BaseTen,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,fp4,,output,NVIDIA: Nemotron 3.5 Super VL,,0.5,
+2026-11-11T12:29:37+00:00,openrouter,BaseTen,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,fp4,,cache_read,NVIDIA: Nemotron 3.5 Super VL,,0.04,
+2026-11-11T12:29:37+00:00,openrouter,CoreWeave,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,nvfp4,,input,NVIDIA: Nemotron 3.5 Super VL,,0.15,
+2026-11-11T12:29:37+00:00,openrouter,CoreWeave,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,nvfp4,,output,NVIDIA: Nemotron 3.5 Super VL,,0.47,
+2026-11-11T12:29:37+00:00,openrouter,CoreWeave,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,nvfp4,,cache_read,NVIDIA: Nemotron 3.5 Super VL,,0.02,
+2026-11-11T12:29:37+00:00,openrouter,Crusoe,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,bf16,,input,NVIDIA: Nemotron 3.5 Super VL,,0.1,
+2026-11-11T12:29:37+00:00,openrouter,Crusoe,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,bf16,,output,NVIDIA: Nemotron 3.5 Super VL,,0.4,
+2026-11-11T12:29:37+00:00,openrouter,Crusoe,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,bf16,,cache_read,NVIDIA: Nemotron 3.5 Super VL,,0.08,
+2026-11-11T12:29:37+00:00,openrouter,Darkbloom,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,nvfp4,,input,NVIDIA: Nemotron 3.5 Super VL,,0.06,
+2026-11-11T12:29:37+00:00,openrouter,Darkbloom,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,nvfp4,,output,NVIDIA: Nemotron 3.5 Super VL,,0.35,
+2026-11-11T12:29:37+00:00,openrouter,Darkbloom,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,nvfp4,,cache_read,NVIDIA: Nemotron 3.5 Super VL,,0.01,
+2026-11-11T12:29:37+00:00,openrouter,DeepInfra,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,fp4,,input,NVIDIA: Nemotron 3.5 Super VL,,0.15,
+2026-11-11T12:29:37+00:00,openrouter,DeepInfra,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,fp4,,output,NVIDIA: Nemotron 3.5 Super VL,,0.5,
+2026-11-11T12:29:37+00:00,openrouter,DeepInfra,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,fp4,,cache_read,NVIDIA: Nemotron 3.5 Super VL,,0.02,
+2026-11-11T12:29:37+00:00,openrouter,Io Net,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,nvfp4,,input,NVIDIA: Nemotron 3.5 Super VL,,0.09,
+2026-11-11T12:29:37+00:00,openrouter,Io Net,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,nvfp4,,output,NVIDIA: Nemotron 3.5 Super VL,,0.3,
+2026-11-11T12:29:37+00:00,openrouter,Io Net,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,nvfp4,,cache_read,NVIDIA: Nemotron 3.5 Super VL,,0.012,
+2026-11-11T12:29:37+00:00,openrouter,Nebius,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,bf16,,input,NVIDIA: Nemotron 3.5 Super VL,,0.3,
+2026-11-11T12:29:37+00:00,openrouter,Nebius,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,bf16,,output,NVIDIA: Nemotron 3.5 Super VL,,0.9,
+2026-11-11T12:29:37+00:00,openrouter,Nebius,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,bf16,,cache_read,NVIDIA: Nemotron 3.5 Super VL,,0.06,
+2026-11-11T12:29:37+00:00,openrouter,PrimeIntellect,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,nvfp4,,input,NVIDIA: Nemotron 3.5 Super VL,,0.15,
+2026-11-11T12:29:37+00:00,openrouter,PrimeIntellect,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,nvfp4,,output,NVIDIA: Nemotron 3.5 Super VL,,0.5,
+2026-11-11T12:29:37+00:00,openrouter,PrimeIntellect,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,nvfp4,,cache_read,NVIDIA: Nemotron 3.5 Super VL,,0.02,
+2026-11-11T12:29:37+00:00,openrouter,Together,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,unknown,,input,NVIDIA: Nemotron 3.5 Super VL,,0.15,
+2026-11-11T12:29:37+00:00,openrouter,Together,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,unknown,,output,NVIDIA: Nemotron 3.5 Super VL,,0.5,
+2026-11-11T12:29:37+00:00,openrouter,Together,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,unknown,,cache_read,NVIDIA: Nemotron 3.5 Super VL,,0.02,
+2026-11-11T12:29:37+00:00,openrouter,Venice,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,fp4,,input,NVIDIA: Nemotron 3.5 Super VL,,0.2,
+2026-11-11T12:29:37+00:00,openrouter,Venice,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,fp4,,output,NVIDIA: Nemotron 3.5 Super VL,,0.5,
+2026-11-11T12:29:37+00:00,openrouter,Venice,nvidia/nvidia-nemotron-3.5-super-vl-120b-a12b-bf16,fp4,,cache_read,NVIDIA: Nemotron 3.5 Super VL,,0.04,
+2026-11-11T12:29:37+00:00,openrouter,PrimeIntellect,openai/gpt-oss-120b,fp4,,input,OpenAI: gpt-oss-120b,0.039,0.057,46.15
+2026-11-11T12:29:37+00:00,openrouter,PrimeIntellect,openai/gpt-oss-120b,fp4,,output,OpenAI: gpt-oss-120b,0.083,0.123,48.19
+2026-11-11T12:29:37+00:00,openrouter,PrimeIntellect,openai/gpt-oss-120b,fp4,,cache_read,OpenAI: gpt-oss-120b,0.035,0.052,48.57
+2026-11-11T12:29:37+00:00,openrouter,PrimeIntellect,qwen/qwen3.5-9b,bf16,,input,Qwen: Qwen3.5-9B,0.159,0.17,6.92
+2026-11-11T12:29:37+00:00,openrouter,PrimeIntellect,qwen/qwen3.5-9b,bf16,,output,Qwen: Qwen3.5-9B,0.234,0.25,6.84
+2026-11-11T12:29:37+00:00,openrouter,PrimeIntellect,qwen/qwen3.5-9b,bf16,,cache_read,Qwen: Qwen3.5-9B,0.143,0.153,6.99
+2026-11-11T12:29:37+00:00,openrouter,PrimeIntellect,qwen/qwen3.6-35b-a3b,fp8,,input,Qwen: Qwen3.6 35B A3B,0.018,0.019,5.56
+2026-11-11T12:29:37+00:00,openrouter,PrimeIntellect,qwen/qwen3.6-35b-a3b,fp8,,output,Qwen: Qwen3.6 35B A3B,0.161,0.175,8.7
+2026-11-11T12:29:37+00:00,openrouter,PrimeIntellect,qwen/qwen3.6-35b-a3b,fp8,,cache_read,Qwen: Qwen3.6 35B A3B,0.016,0.017,6.25
+2026-11-11T12:29:37+00:00,openrouter,PrimeIntellect,qwen/qwen3.8-27b,fp8,,input,Qwen: Qwen3.8 27B,0.069,0.07,1.45
+2026-11-11T12:29:37+00:00,openrouter,PrimeIntellect,qwen/qwen3.8-27b,fp8,,output,Qwen: Qwen3.8 27B,0.494,0.497,0.61
+2026-11-11T12:29:37+00:00,openrouter,Darkbloom,xiaomimimo/mimo-v2.6-flash-rl,fp4,,cache_read,Xiaomi: MiMo-V2.6-Flash,0.05,0.0028,-94.4
+2026-11-11T12:29:37+00:00,openrouter,Tenstorrent,xiaomimimo/mimo-v2.6-flash-rl,fp8,,input,Xiaomi: MiMo-V2.6-Flash,,0.165,
+2026-11-11T12:29:37+00:00,openrouter,Tenstorrent,xiaomimimo/mimo-v2.6-flash-rl,fp8,,output,Xiaomi: MiMo-V2.6-Flash,,0.33,
+2026-11-11T12:29:37+00:00,openrouter,Tenstorrent,xiaomimimo/mimo-v2.6-flash-rl,fp8,,cache_read,Xiaomi: MiMo-V2.6-Flash,,0.004,
+2026-11-11T12:29:37+00:00,openrouter,Inceptron,zai-org/glm-5.3-flash,fp8,,output,Z.ai: GLM 5.3 Flash,0.45,0.5,11.11
+2026-11-11T12:29:37+00:00,openrouter,Morph,zai-org/glm-5.3-flash,fp8,,input,Z.ai: GLM 5.3 Flash,0.083,0.093,12.05
+2026-11-11T12:29:37+00:00,openrouter,Morph,zai-org/glm-5.3-flash,fp8,,cache_read,Z.ai: GLM 5.3 Flash,0.036,0.04,11.11
+2026-11-11T12:29:37+00:00,openrouter,Baidu,baidu/ernie-5.5-flash-preview,unknown,,cache_read,Baidu: ERNIE-5.5-Flash-Preview,0.028,,
+2026-11-11T12:29:37+00:00,openrouter,Baidu,baidu/ernie-5.5-flash-preview,unknown,,input,Baidu: ERNIE-5.5-Flash-Preview,0.28,,
+2026-11-11T12:29:37+00:00,openrouter,Baidu,baidu/ernie-5.5-flash-preview,unknown,,output,Baidu: ERNIE-5.5-Flash-Preview,1.13,,
+2026-11-11T12:29:37+00:00,openrouter,BaseTen,nvidia/nvidia-nemotron-3.5-super-vl,fp4,,cache_read,NVIDIA: Nemotron 3.5 Super VL,0.04,,
+2026-11-11T12:29:37+00:00,openrouter,BaseTen,nvidia/nvidia-nemotron-3.5-super-vl,fp4,,input,NVIDIA: Nemotron 3.5 Super VL,0.2,,
+2026-11-11T12:29:37+00:00,openrouter,BaseTen,nvidia/nvidia-nemotron-3.5-super-vl,fp4,,output,NVIDIA: Nemotron 3.5 Super VL,0.5,,
+2026-11-11T12:29:37+00:00,openrouter,Cohere,cohere/command-a-plus,fp8,,cache_read,Cohere: Command A+,0.15,,
+2026-11-11T12:29:37+00:00,openrouter,Cohere,cohere/command-a-plus,fp8,,input,Cohere: Command A+,0.3,,
+2026-11-11T12:29:37+00:00,openrouter,Cohere,cohere/command-a-plus,fp8,,output,Cohere: Command A+,1.5,,
+2026-11-11T12:29:37+00:00,openrouter,Cohere,cohere/command-r-08-2024,unknown,,input,Cohere: Command R (08-2024),0.15,,
+2026-11-11T12:29:37+00:00,openrouter,Cohere,cohere/command-r-08-2024,unknown,,output,Cohere: Command R (08-2024),0.6,,
+2026-11-11T12:29:37+00:00,openrouter,Cohere,cohere/command-r-plus-08-2024,unknown,,input,Cohere: Command R+ (08-2024),2.5,,
+2026-11-11T12:29:37+00:00,openrouter,Cohere,cohere/command-r-plus-08-2024,unknown,,output,Cohere: Command R+ (08-2024),10.0,,
+2026-11-11T12:29:37+00:00,openrouter,Cohere,cohere/command-r7b-12-2024,unknown,,input,Cohere: Command R7B (12-2024),0.0375,,
+2026-11-11T12:29:37+00:00,openrouter,Cohere,cohere/command-r7b-12-2024,unknown,,output,Cohere: Command R7B (12-2024),0.15,,
+2026-11-11T12:29:37+00:00,openrouter,CoreWeave,nvidia/nvidia-nemotron-3.5-super-vl,nvfp4,,cache_read,NVIDIA: Nemotron 3.5 Super VL,0.02,,
+2026-11-11T12:29:37+00:00,openrouter,CoreWeave,nvidia/nvidia-nemotron-3.5-super-vl,nvfp4,,input,NVIDIA: Nemotron 3.5 Super VL,0.15,,
+2026-11-11T12:29:37+00:00,openrouter,CoreWeave,nvidia/nvidia-nemotron-3.5-super-vl,nvfp4,,output,NVIDIA: Nemotron 3.5 Super VL,0.47,,
+2026-11-11T12:29:37+00:00,openrouter,Crusoe,nvidia/nvidia-nemotron-3-super-120b-a12b-fp8,fp8,,cache_read,NVIDIA: Nemotron 3 Super,0.15,,
+2026-11-11T12:29:37+00:00,openrouter,Crusoe,nvidia/nvidia-nemotron-3-super-120b-a12b-fp8,fp8,,input,NVIDIA: Nemotron 3 Super,0.3,,
+2026-11-11T12:29:37+00:00,openrouter,Crusoe,nvidia/nvidia-nemotron-3-super-120b-a12b-fp8,fp8,,output,NVIDIA: Nemotron 3 Super,2.4,,
+2026-11-11T12:29:37+00:00,openrouter,Crusoe,nvidia/nvidia-nemotron-3.5-super-vl,bf16,,cache_read,NVIDIA: Nemotron 3.5 Super VL,0.08,,
+2026-11-11T12:29:37+00:00,openrouter,Crusoe,nvidia/nvidia-nemotron-3.5-super-vl,bf16,,input,NVIDIA: Nemotron 3.5 Super VL,0.1,,
+2026-11-11T12:29:37+00:00,openrouter,Crusoe,nvidia/nvidia-nemotron-3.5-super-vl,bf16,,output,NVIDIA: Nemotron 3.5 Super VL,0.4,,
+2026-11-11T12:29:37+00:00,openrouter,Darkbloom,nvidia/nvidia-nemotron-3.5-super-vl,nvfp4,,cache_read,NVIDIA: Nemotron 3.5 Super VL,0.01,,
+2026-11-11T12:29:37+00:00,openrouter,Darkbloom,nvidia/nvidia-nemotron-3.5-super-vl,nvfp4,,input,NVIDIA: Nemotron 3.5 Super VL,0.06,,
+2026-11-11T12:29:37+00:00,openrouter,Darkbloom,nvidia/nvidia-nemotron-3.5-super-vl,nvfp4,,output,NVIDIA: Nemotron 3.5 Super VL,0.35,,
+2026-11-11T12:29:37+00:00,openrouter,Decart,deepseek-ai/deepseek-v4.1-flash-1017,fp8,,cache_read,DeepSeek: DeepSeek V4.1 Flash 1017,0.00246,,
+2026-11-11T12:29:37+00:00,openrouter,Decart,deepseek-ai/deepseek-v4.1-flash-1017,fp8,,input,DeepSeek: DeepSeek V4.1 Flash 1017,0.123,,
+2026-11-11T12:29:37+00:00,openrouter,Decart,deepseek-ai/deepseek-v4.1-flash-1017,fp8,,output,DeepSeek: DeepSeek V4.1 Flash 1017,0.492,,
+2026-11-11T12:29:37+00:00,openrouter,DeepInfra,nvidia/nvidia-nemotron-3.5-super-vl,fp4,,cache_read,NVIDIA: Nemotron 3.5 Super VL,0.02,,
+2026-11-11T12:29:37+00:00,openrouter,DeepInfra,nvidia/nvidia-nemotron-3.5-super-vl,fp4,,input,NVIDIA: Nemotron 3.5 Super VL,0.15,,
+2026-11-11T12:29:37+00:00,openrouter,DeepInfra,nvidia/nvidia-nemotron-3.5-super-vl,fp4,,output,NVIDIA: Nemotron 3.5 Super VL,0.5,,
+2026-11-11T12:29:37+00:00,openrouter,Io Net,nvidia/nvidia-nemotron-3.5-super-vl,nvfp4,,cache_read,NVIDIA: Nemotron 3.5 Super VL,0.012,,
+2026-11-11T12:29:37+00:00,openrouter,Io Net,nvidia/nvidia-nemotron-3.5-super-vl,nvfp4,,input,NVIDIA: Nemotron 3.5 Super VL,0.09,,
+2026-11-11T12:29:37+00:00,openrouter,Io Net,nvidia/nvidia-nemotron-3.5-super-vl,nvfp4,,output,NVIDIA: Nemotron 3.5 Super VL,0.3,,
+2026-11-11T12:29:37+00:00,openrouter,Io Net,xiaomimimo/mimo-v2.6-flash-rl,fp8,,cache_read,Xiaomi: MiMo-V2.6-Flash,0.003,,
+2026-11-11T12:29:37+00:00,openrouter,Io Net,xiaomimimo/mimo-v2.6-flash-rl,fp8,,input,Xiaomi: MiMo-V2.6-Flash,0.1,,
+2026-11-11T12:29:37+00:00,openrouter,Io Net,xiaomimimo/mimo-v2.6-flash-rl,fp8,,output,Xiaomi: MiMo-V2.6-Flash,0.28,,
+2026-11-11T12:29:37+00:00,openrouter,Mistral,mistralai/mistral-large-2407,unknown,,cache_read,Mistral Large 2407,0.2,,
+2026-11-11T12:29:37+00:00,openrouter,Mistral,mistralai/mistral-large-2407,unknown,,input,Mistral Large 2407,2.0,,
+2026-11-11T12:29:37+00:00,openrouter,Mistral,mistralai/mistral-large-2407,unknown,,output,Mistral Large 2407,6.0,,
+2026-11-11T12:29:37+00:00,openrouter,Mistral,mistralai/mistral-large-2512,unknown,,cache_read,Mistral: Mistral Large 3 2512,0.05,,
+2026-11-11T12:29:37+00:00,openrouter,Mistral,mistralai/mistral-large-2512,unknown,,input,Mistral: Mistral Large 3 2512,0.5,,
+2026-11-11T12:29:37+00:00,openrouter,Mistral,mistralai/mistral-large-2512,unknown,,output,Mistral: Mistral Large 3 2512,1.5,,
+2026-11-11T12:29:37+00:00,openrouter,Mistral,mistralai/mistral-medium-3-5,unknown,,input,Mistral: Mistral Medium 3.5,1.5,,
+2026-11-11T12:29:37+00:00,openrouter,Mistral,mistralai/mistral-medium-3-5,unknown,,output,Mistral: Mistral Medium 3.5,7.5,,
+2026-11-11T12:29:37+00:00,openrouter,Nebius,nvidia/nvidia-nemotron-3.5-super-vl,bf16,,cache_read,NVIDIA: Nemotron 3.5 Super VL,0.06,,
+2026-11-11T12:29:37+00:00,openrouter,Nebius,nvidia/nvidia-nemotron-3.5-super-vl,bf16,,input,NVIDIA: Nemotron 3.5 Super VL,0.3,,
+2026-11-11T12:29:37+00:00,openrouter,Nebius,nvidia/nvidia-nemotron-3.5-super-vl,bf16,,output,NVIDIA: Nemotron 3.5 Super VL,0.9,,
+2026-11-11T12:29:37+00:00,openrouter,PrimeIntellect,nvidia/nvidia-nemotron-3.5-super-vl,nvfp4,,cache_read,NVIDIA: Nemotron 3.5 Super VL,0.02,,
+2026-11-11T12:29:37+00:00,openrouter,PrimeIntellect,nvidia/nvidia-nemotron-3.5-super-vl,nvfp4,,input,NVIDIA: Nemotron 3.5 Super VL,0.15,,
+2026-11-11T12:29:37+00:00,openrouter,PrimeIntellect,nvidia/nvidia-nemotron-3.5-super-vl,nvfp4,,output,NVIDIA: Nemotron 3.5 Super VL,0.5,,
+2026-11-11T12:29:37+00:00,openrouter,Together,nvidia/nvidia-nemotron-3.5-super-vl,unknown,,cache_read,NVIDIA: Nemotron 3.5 Super VL,0.02,,
+2026-11-11T12:29:37+00:00,openrouter,Together,nvidia/nvidia-nemotron-3.5-super-vl,unknown,,input,NVIDIA: Nemotron 3.5 Super VL,0.15,,
+2026-11-11T12:29:37+00:00,openrouter,Together,nvidia/nvidia-nemotron-3.5-super-vl,unknown,,output,NVIDIA: Nemotron 3.5 Super VL,0.5,,
+2026-11-11T12:29:37+00:00,openrouter,Venice,nvidia/nvidia-nemotron-3.5-super-vl,fp4,,cache_read,NVIDIA: Nemotron 3.5 Super VL,0.04,,
+2026-11-11T12:29:37+00:00,openrouter,Venice,nvidia/nvidia-nemotron-3.5-super-vl,fp4,,input,NVIDIA: Nemotron 3.5 Super VL,0.2,,
+2026-11-11T12:29:37+00:00,openrouter,Venice,nvidia/nvidia-nemotron-3.5-super-vl,fp4,,output,NVIDIA: Nemotron 3.5 Super VL,0.5,,

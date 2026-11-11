@@ -7669,67 +7669,6 @@
    "id": "anthropic/claude-sonnet-5.5",
    "name": "Anthropic: Claude Sonnet 5.5"
   },
-  "baidu/ernie-5.5-flash-preview": {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "created": 1794333533,
-   "description": "ERNIE 5.5 Flash Preview is the latest foundation model in the ERNIE family, with comprehensive improvements in coding, agentic capabilities, knowledge work, and deep research. It has 280 billion total...",
-   "endpoints": [
-    {
-     "context_length": 1024000,
-     "max_completion_tokens": 921600,
-     "max_prompt_tokens": null,
-     "model_id": "baidu/ernie-5.5-flash-preview",
-     "model_name": "Baidu: ERNIE-5.5-Flash-Preview",
-     "name": "Baidu | baidu/ernie-5.5-flash-preview-20261110",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000113",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000028"
-     },
-     "provider_name": "Baidu",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "include_reasoning",
-      "max_tokens",
-      "reasoning",
-      "reasoning_effort",
-      "response_format",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "baidu"
-    }
-   ],
-   "id": "baidu/ernie-5.5-flash-preview",
-   "name": "Baidu: ERNIE-5.5-Flash-Preview"
-  },
   "baidu/ernie-light-dt-1.0-intl": {
    "architecture": {
     "input_modalities": [
@@ -11165,7 +11104,7 @@
      "name": "Reka | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000028",
+      "completion": "0.00000042",
       "discount": 0,
       "input_cache_read": "0.00000006",
       "prompt": "0.0000001"
@@ -12752,9 +12691,9 @@
      "name": "DeepSeek | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000396",
+      "completion": "0.00000198",
       "discount": 0,
-      "input_cache_read": "0.000000044",
+      "input_cache_read": "0.000000022",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -12836,7 +12775,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000132"
+      "prompt": "0.00000066"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -15519,10 +15458,10 @@
      "name": "Baidu | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001017",
-      "discount": 0.1,
-      "input_cache_read": "0.0000000054",
-      "prompt": "0.000000252"
+      "completion": "0.00000113",
+      "discount": 0,
+      "input_cache_read": "0.000000006",
+      "prompt": "0.00000028"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -15844,55 +15783,6 @@
     },
     {
      "context_length": 1048576,
-     "max_completion_tokens": 262144,
-     "max_prompt_tokens": null,
-     "model_id": "deepseek/deepseek-v4.1-flash-1017",
-     "model_name": "DeepSeek: DeepSeek V4.1 Flash 1017",
-     "name": "Decart | deepseek/deepseek-v4.1-flash-20261017",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.000000492",
-      "discount": 0.18,
-      "input_cache_read": "0.00000000246",
-      "prompt": "0.000000123"
-     },
-     "provider_name": "Decart",
-     "quantization": "fp8",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "decart/fp8"
-    },
-    {
-     "context_length": 1048576,
      "max_completion_tokens": 393216,
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4.1-flash-1017",
@@ -16050,9 +15940,9 @@
      "name": "DeepSeek | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000006",
+      "input_cache_read": "0.000000003",
       "overrides": [
        {
         "completion": "0.0000006",
@@ -16134,7 +16024,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.0000003"
+      "prompt": "0.00000015"
      },
      "provider_name": "DeepSeek",
      "quantization": "unknown",
@@ -17521,7 +17411,7 @@
      "supports_multiple_audio_references": false,
      "supports_tool_choice": {
       "auto": true,
-      "function": true,
+      "function": false,
       "none": true,
       "required": true
      },
@@ -17779,8 +17669,8 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "input_cache_read": "0.0000000069",
-      "prompt": "0.00000007"
+      "input_cache_read": "0.0000000065",
+      "prompt": "0.000000066"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -24482,7 +24372,7 @@
     },
     {
      "context_length": 131072,
-     "max_completion_tokens": 32768,
+     "max_completion_tokens": 117964,
      "max_prompt_tokens": null,
      "model_id": "google/gemma-4-26b-a4b-it",
      "model_name": "Google: Gemma 4 26B A4B ",
@@ -24913,7 +24803,7 @@
      "name": "PrimeIntellect | google/gemma-4-26b-a4b-it-20260403",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000031",
+      "completion": "0.00000003",
       "discount": 0,
       "input_cache_read": "0.000000005",
       "prompt": "0.00000001"
@@ -37170,10 +37060,10 @@
      "name": "Relace | moonshotai/kimi-k3.1-pro-20261023",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000081953",
+      "completion": "0.0000082479",
       "discount": 0,
       "input_cache_read": "0.0000002",
-      "prompt": "0.000000304"
+      "prompt": "0.0000002878"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -37368,7 +37258,7 @@
       "completion": "0.00001",
       "discount": 0,
       "input_cache_read": "0.00000018",
-      "prompt": "0.00000032"
+      "prompt": "0.000000313"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -37982,56 +37872,6 @@
    "created": 1773245239,
    "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...",
    "endpoints": [
-    {
-     "context_length": 1048576,
-     "max_completion_tokens": 262144,
-     "max_prompt_tokens": null,
-     "model_id": "nvidia/nemotron-3-super-120b-a12b",
-     "model_name": "NVIDIA: Nemotron 3 Super",
-     "name": "Crusoe | nvidia/nemotron-3-super-120b-a12b-20230311",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000024",
-      "discount": 0,
-      "input_cache_read": "0.00000015",
-      "prompt": "0.0000003"
-     },
-     "provider_name": "Crusoe",
-     "quantization": "fp8",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": false,
-      "none": false,
-      "required": false
-     },
-     "supports_voice_cloning": false,
-     "tag": "crusoe/fp8"
-    },
     {
      "context_length": 262144,
      "max_completion_tokens": 16384,
@@ -38868,7 +38708,7 @@
     },
     {
      "context_length": 262144,
-     "max_completion_tokens": 32768,
+     "max_completion_tokens": 131072,
      "max_prompt_tokens": null,
      "model_id": "nvidia/nemotron-3.5-super-vl",
      "model_name": "NVIDIA: Nemotron 3.5 Super VL",
@@ -51838,10 +51678,10 @@
      "name": "PrimeIntellect | openai/gpt-oss-120b",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000083",
+      "completion": "0.000000123",
       "discount": 0,
-      "input_cache_read": "0.000000035",
-      "prompt": "0.000000039"
+      "input_cache_read": "0.000000052",
+      "prompt": "0.000000057"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp4",
@@ -52307,7 +52147,7 @@
     },
     {
      "context_length": 131072,
-     "max_completion_tokens": 32768,
+     "max_completion_tokens": 117964,
      "max_prompt_tokens": null,
      "model_id": "openai/gpt-oss-20b",
      "model_name": "OpenAI: gpt-oss-20b",
@@ -57055,10 +56895,10 @@
      "name": "PrimeIntellect | qwen/qwen3.5-9b-20260310",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000234",
+      "completion": "0.00000025",
       "discount": 0,
-      "input_cache_read": "0.000000143",
-      "prompt": "0.000000159"
+      "input_cache_read": "0.000000153",
+      "prompt": "0.00000017"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "bf16",
@@ -58070,10 +57910,10 @@
      "name": "PrimeIntellect | qwen/qwen3.6-35b-a3b-20260415",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000161",
+      "completion": "0.000000175",
       "discount": 0,
-      "input_cache_read": "0.000000016",
-      "prompt": "0.000000018"
+      "input_cache_read": "0.000000017",
+      "prompt": "0.000000019"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp8",
@@ -59815,10 +59655,10 @@
      "name": "PrimeIntellect | qwen/qwen3.8-27b-20260814",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000494",
+      "completion": "0.000000497",
       "discount": 0,
       "input_cache_read": "0.000000008",
-      "prompt": "0.000000069"
+      "prompt": "0.00000007"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp8",
@@ -65919,7 +65759,7 @@
      "pricing": {
       "completion": "0.00000028",
       "discount": 0,
-      "input_cache_read": "0.00000005",
+      "input_cache_read": "0.0000000028",
       "prompt": "0.0000001"
      },
      "provider_name": "Darkbloom",
@@ -66047,55 +65887,6 @@
      "tag": "gmicloud/bf16"
     },
     {
-     "context_length": 262144,
-     "max_completion_tokens": 131072,
-     "max_prompt_tokens": null,
-     "model_id": "xiaomi/mimo-v2.6-flash",
-     "model_name": "Xiaomi: MiMo-V2.6-Flash",
-     "name": "Io Net | xiaomi/mimo-v2.6-flash-20260921",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00000028",
-      "discount": 0,
-      "input_cache_read": "0.000000003",
-      "prompt": "0.0000001"
-     },
-     "provider_name": "Io Net",
-     "quantization": "fp8",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": false,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "io-net/fp8"
-    },
-    {
      "context_length": 1048576,
      "max_completion_tokens": 131072,
      "max_prompt_tokens": null,
@@ -66143,6 +65934,50 @@
      },
      "supports_voice_cloning": false,
      "tag": "makora/fp8"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 131072,
+     "max_prompt_tokens": null,
+     "model_id": "xiaomi/mimo-v2.6-flash",
+     "model_name": "Xiaomi: MiMo-V2.6-Flash",
+     "name": "Tenstorrent | xiaomi/mimo-v2.6-flash-20260921",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000033",
+      "discount": 0,
+      "input_cache_read": "0.000000004",
+      "prompt": "0.000000165"
+     },
+     "provider_name": "Tenstorrent",
+     "quantization": "fp8",
+     "service_tier": null,
+     "supported_parameters": [
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "reasoning",
+      "response_format",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "tenstorrent/fp8"
     },
     {
      "context_length": 1000000,
@@ -72927,7 +72762,7 @@
      "name": "Inceptron | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000045",
+      "completion": "0.0000005",
       "discount": 0,
       "input_cache_read": "0.00000003",
       "prompt": "0.000000175"
@@ -73272,8 +73107,8 @@
      "pricing": {
       "completion": "0.000000122",
       "discount": 0,
-      "input_cache_read": "0.000000036",
-      "prompt": "0.000000083"
+      "input_cache_read": "0.00000004",
+      "prompt": "0.000000093"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
