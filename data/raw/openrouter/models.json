@@ -6425,150 +6425,6 @@
     ],
     "tokenizer": "Other"
    },
-   "canonical_slug": "bytedance-seed/seed-1.6-20250625",
-   "context_length": 262144,
-   "created": 1766504997,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "temperature": null,
-    "top_p": null
-   },
-   "description": "Seed 1.6 is a general-purpose model released by the ByteDance Seed team. It incorporates multimodal capabilities and adaptive deep thinking with a 256K context window.",
-   "endpoints": [
-    "/api/v1/chat/completions",
-    "/api/v1/completions",
-    "/api/v1/messages",
-    "/api/v1/responses"
-   ],
-   "expiration_date": "2026-11-11",
-   "hugging_face_id": "",
-   "id": "bytedance-seed/seed-1.6",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/bytedance-seed/seed-1.6-20250625/endpoints"
-   },
-   "name": "ByteDance Seed: Seed 1.6",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.000002",
-    "overrides": [
-     {
-      "completion": "0.000004",
-      "min_prompt_tokens": 128000,
-      "prompt": "0.0000005"
-     }
-    ],
-    "prompt": "0.00000025"
-   },
-   "reasoning": {
-    "mandatory": false
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "max_tokens",
-    "reasoning",
-    "response_format",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 262144,
-    "is_moderated": false,
-    "max_completion_tokens": 32768
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text",
-     "video"
-    ],
-    "instruct_type": null,
-    "modality": "text+image+video->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "canonical_slug": "bytedance-seed/seed-1.6-flash-20250625",
-   "context_length": 262144,
-   "created": 1766505011,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "temperature": null,
-    "top_p": null
-   },
-   "description": "Seed 1.6 Flash is an ultra-fast multimodal deep thinking model by ByteDance Seed, supporting both text and visual understanding. It features a 256k context window and can generate outputs of...",
-   "endpoints": [
-    "/api/v1/chat/completions",
-    "/api/v1/completions",
-    "/api/v1/messages",
-    "/api/v1/responses"
-   ],
-   "expiration_date": "2026-11-11",
-   "hugging_face_id": "",
-   "id": "bytedance-seed/seed-1.6-flash",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/bytedance-seed/seed-1.6-flash-20250625/endpoints"
-   },
-   "name": "ByteDance Seed: Seed 1.6 Flash",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.0000003",
-    "overrides": [
-     {
-      "completion": "0.0000008",
-      "min_prompt_tokens": 128000,
-      "prompt": "0.0000001"
-     }
-    ],
-    "prompt": "0.000000075"
-   },
-   "reasoning": {
-    "mandatory": false
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "max_tokens",
-    "reasoning",
-    "response_format",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 262144,
-    "is_moderated": false,
-    "max_completion_tokens": 32768
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text",
-     "video"
-    ],
-    "instruct_type": null,
-    "modality": "text+image+video->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
    "canonical_slug": "bytedance-seed/seed-2-1-turbo-20260810",
    "context_length": 262144,
    "created": 1786552176,
@@ -6614,82 +6470,6 @@
     "context_length": 262144,
     "is_moderated": false,
     "max_completion_tokens": 235929
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text",
-     "video"
-    ],
-    "instruct_type": null,
-    "modality": "text+image+video->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "canonical_slug": "bytedance-seed/seed-2.0-code-20260730",
-   "context_length": 262144,
-   "created": 1786550701,
-   "default_parameters": {},
-   "description": "Seed 2.0 Code is a model from ByteDance Seed optimized for agentic coding. It is suited for frontend development, multilingual programming tasks, and coding-agent workflows in tools such as Claude...",
-   "endpoints": [
-    "/api/v1/chat/completions",
-    "/api/v1/completions",
-    "/api/v1/messages",
-    "/api/v1/responses"
-   ],
-   "expiration_date": "2026-11-11",
-   "hugging_face_id": null,
-   "id": "bytedance-seed/seed-2.0-code",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/bytedance-seed/seed-2.0-code-20260730/endpoints"
-   },
-   "name": "ByteDance Seed: Seed-2.0-Code",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.000003",
-    "overrides": [
-     {
-      "completion": "0.000006",
-      "min_prompt_tokens": 128000,
-      "prompt": "0.000001"
-     }
-    ],
-    "prompt": "0.0000005"
-   },
-   "reasoning": {
-    "default_effort": "medium",
-    "mandatory": false,
-    "supported_efforts": [
-     "high",
-     "low",
-     "medium",
-     "none"
-    ]
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "max_tokens",
-    "reasoning",
-    "reasoning_effort",
-    "response_format",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 262144,
-    "is_moderated": false,
-    "max_completion_tokens": 131072
    }
   },
   {
@@ -8779,9 +8559,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605",
-    "prompt": "0.00000095526"
+    "completion": "0.000001767492",
+    "input_cache_read": "0.0000000736455",
+    "prompt": "0.000000883746"
    },
    "reasoning": {
     "default_effort": "high",
@@ -14669,7 +14449,7 @@
    "name": "Google: Gemma 3 27B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000045",
+    "completion": "0.00000035",
     "input_cache_read": "0.00000004",
     "prompt": "0.00000008"
    },
@@ -15625,17 +15405,13 @@
    "supported_parameters": [
     "frequency_penalty",
     "include_reasoning",
-    "logit_bias",
     "logprobs",
     "max_tokens",
-    "min_p",
     "presence_penalty",
     "reasoning",
     "repetition_penalty",
-    "response_format",
     "seed",
     "stop",
-    "structured_outputs",
     "temperature",
     "tool_choice",
     "tools",
@@ -18900,8 +18676,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -18918,7 +18694,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.000000075"
    },
    "reasoning": {
     "default_effort": "max",
@@ -25820,7 +25596,7 @@
     "/api/v1/messages",
     "/api/v1/responses"
    ],
-   "expiration_date": null,
+   "expiration_date": "2026-12-11",
    "hugging_face_id": "",
    "id": "openai/gpt-5",
    "knowledge_cutoff": "2024-09-30",
@@ -25921,7 +25697,7 @@
     "/api/v1/messages",
     "/api/v1/responses"
    ],
-   "expiration_date": null,
+   "expiration_date": "2026-12-11",
    "hugging_face_id": "",
    "id": "openai/gpt-5-image",
    "knowledge_cutoff": null,
@@ -26152,7 +25928,7 @@
     "/api/v1/messages",
     "/api/v1/responses"
    ],
-   "expiration_date": null,
+   "expiration_date": "2026-12-11",
    "hugging_face_id": "",
    "id": "openai/gpt-5-mini",
    "knowledge_cutoff": "2024-05-31",
@@ -26291,7 +26067,7 @@
    "endpoints": [
     "/api/v1/batches"
    ],
-   "expiration_date": null,
+   "expiration_date": "2026-12-11",
    "hugging_face_id": "",
    "id": "openai/gpt-5-mini:batch",
    "knowledge_cutoff": "2024-05-31",
@@ -26413,7 +26189,7 @@
     "/api/v1/messages",
     "/api/v1/responses"
    ],
-   "expiration_date": null,
+   "expiration_date": "2026-12-11",
    "hugging_face_id": "",
    "id": "openai/gpt-5-nano",
    "knowledge_cutoff": "2024-05-31",
@@ -26533,7 +26309,7 @@
    "endpoints": [
     "/api/v1/batches"
    ],
-   "expiration_date": null,
+   "expiration_date": "2026-12-11",
    "hugging_face_id": "",
    "id": "openai/gpt-5-nano:batch",
    "knowledge_cutoff": "2024-05-31",
@@ -26606,7 +26382,7 @@
     "/api/v1/messages",
     "/api/v1/responses"
    ],
-   "expiration_date": null,
+   "expiration_date": "2026-12-11",
    "hugging_face_id": "",
    "id": "openai/gpt-5-pro",
    "knowledge_cutoff": "2024-09-30",
@@ -26672,7 +26448,7 @@
    "endpoints": [
     "/api/v1/batches"
    ],
-   "expiration_date": null,
+   "expiration_date": "2026-12-11",
    "hugging_face_id": "",
    "id": "openai/gpt-5-pro:batch",
    "knowledge_cutoff": "2024-09-30",
@@ -30944,7 +30720,7 @@
    "endpoints": [
     "/api/v1/batches"
    ],
-   "expiration_date": null,
+   "expiration_date": "2026-12-11",
    "hugging_face_id": "",
    "id": "openai/gpt-5:batch",
    "knowledge_cutoff": "2024-09-30",
@@ -33722,7 +33498,7 @@
     "/api/v1/messages",
     "/api/v1/responses"
    ],
-   "expiration_date": null,
+   "expiration_date": "2026-12-11",
    "hugging_face_id": "",
    "id": "openai/o3",
    "knowledge_cutoff": "2024-06-30",
@@ -33849,7 +33625,7 @@
     "/api/v1/messages",
     "/api/v1/responses"
    ],
-   "expiration_date": null,
+   "expiration_date": "2026-12-11",
    "hugging_face_id": "",
    "id": "openai/o3-pro",
    "knowledge_cutoff": "2024-06-30",
@@ -33944,7 +33720,7 @@
    "endpoints": [
     "/api/v1/batches"
    ],
-   "expiration_date": null,
+   "expiration_date": "2026-12-11",
    "hugging_face_id": "",
    "id": "openai/o3:batch",
    "knowledge_cutoff": "2024-06-30",
@@ -40628,8 +40404,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -40646,7 +40422,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -40911,8 +40687,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -40929,7 +40705,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -49070,5 +48846,5 @@
  "links": {
   "next": null
  },
- "total_count": 469
+ "total_count": 466
 }
