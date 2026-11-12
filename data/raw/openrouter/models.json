@@ -8559,9 +8559,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0423",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000191052",
-    "input_cache_read": "0.000000079605",
-    "prompt": "0.00000095526"
+    "completion": "0.000001784544",
+    "input_cache_read": "0.000000074356",
+    "prompt": "0.000000892272"
    },
    "reasoning": {
     "default_effort": "high",
@@ -8723,9 +8723,9 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000004",
-    "input_cache_read": "0.000000004",
-    "prompt": "0.000000022"
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006",
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -9105,9 +9105,9 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000002",
-    "input_cache_read": "0.000000002",
-    "prompt": "0.000000011"
+    "completion": "0.00000015",
+    "input_cache_read": "0.000000004",
+    "prompt": "0.00000005"
    },
    "reasoning": {
     "default_effort": "high",
@@ -9123,19 +9123,13 @@
    "supported_parameters": [
     "frequency_penalty",
     "include_reasoning",
-    "logit_bias",
     "max_tokens",
-    "min_p",
     "presence_penalty",
     "reasoning",
     "reasoning_effort",
-    "repetition_penalty",
     "seed",
     "stop",
-    "structured_outputs",
     "temperature",
-    "tool_choice",
-    "tools",
     "top_k",
     "top_p"
    ],
@@ -9143,7 +9137,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 384000
    }
   },
   {
@@ -14234,6 +14228,91 @@
   {
    "architecture": {
     "input_modalities": [
+     "audio",
+     "file",
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file+audio+video->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Gemini"
+   },
+   "canonical_slug": "google/gemini-4-hydrogen-20261112",
+   "context_length": 1048576,
+   "created": 1794506460,
+   "default_parameters": {
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null,
+    "temperature": null,
+    "top_k": null,
+    "top_p": null
+   },
+   "description": "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than...",
+   "endpoints": [
+    "/api/v1/chat/completions",
+    "/api/v1/completions",
+    "/api/v1/messages",
+    "/api/v1/responses"
+   ],
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "google/gemini-4-hydrogen",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/google/gemini-4-hydrogen-20261112/endpoints"
+   },
+   "name": "Google: Gemini 4 Hydrogen",
+   "per_request_limits": null,
+   "pricing": {
+    "audio": "0.0000015",
+    "completion": "0.0000075",
+    "image": "0.0000015",
+    "input_audio_cache": "0.000000075",
+    "input_cache_read": "0.000000075",
+    "input_cache_write": "0.0000000833333333333333",
+    "internal_reasoning": "0.0000075",
+    "prompt": "0.0000015",
+    "web_search": "0.014"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "medium",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1048576,
+    "is_moderated": false,
+    "max_completion_tokens": 943718
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
      "image",
      "text"
     ],
@@ -14748,9 +14827,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000001",
-    "input_cache_read": "0.000000046",
-    "prompt": "0.00000008"
+    "completion": "0.00000028",
+    "input_cache_read": "0.000000049",
+    "prompt": "0.00000009"
    },
    "reasoning": {
     "default_enabled": false,
@@ -18829,8 +18908,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -18847,7 +18926,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.000000075"
    },
    "reasoning": {
     "default_effort": "max",
@@ -21433,7 +21512,7 @@
     "/api/v1/messages",
     "/api/v1/responses"
    ],
-   "expiration_date": "2026-11-18",
+   "expiration_date": null,
    "hugging_face_id": "moonshotai/Kimi-K2.5",
    "id": "moonshotai/kimi-k2.5",
    "knowledge_cutoff": null,
@@ -21443,9 +21522,9 @@
    "name": "MoonshotAI: Kimi K2.5",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000003325",
-    "input_cache_read": "0.000000209",
-    "prompt": "0.000000532"
+    "completion": "0.0000025",
+    "input_cache_read": "0.00000015",
+    "prompt": "0.0000005"
    },
    "reasoning": {
     "default_enabled": true,
@@ -21474,9 +21553,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 256000,
+    "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 235929
    }
   },
   {
@@ -22298,8 +22377,8 @@
    "name": "MoonshotAI: Kimi K3.1 Pro",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000084085",
-    "input_cache_read": "0.0000002",
+    "completion": "0.0000087856",
+    "input_cache_read": "0.00000019",
     "prompt": "0.0000002375"
    },
    "reasoning": {
@@ -37206,9 +37285,9 @@
    "name": "Qwen: Qwen3.5-9B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000009",
-    "input_cache_read": "0.000000055",
-    "prompt": "0.000000061"
+    "completion": "0.000000249",
+    "input_cache_read": "0.000000153",
+    "prompt": "0.000000169"
    },
    "reasoning": {
     "mandatory": false
@@ -40738,8 +40817,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -40756,7 +40835,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41021,8 +41100,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -41039,7 +41118,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -47382,9 +47461,9 @@
    "name": "Z.ai: GLM 5.3 (batch)",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000989",
-    "input_cache_read": "0.000000109",
-    "prompt": "0.000000322"
+    "completion": "0.000002",
+    "input_cache_read": "0.0000001",
+    "prompt": "0.00000045"
    },
    "reasoning": {
     "default_effort": "max",
@@ -47400,7 +47479,6 @@
     "frequency_penalty",
     "include_reasoning",
     "logit_bias",
-    "logprobs",
     "max_tokens",
     "min_p",
     "presence_penalty",
@@ -47415,14 +47493,13 @@
     "tool_choice",
     "tools",
     "top_k",
-    "top_logprobs",
     "top_p"
    ],
    "supported_voices": null,
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    }
   },
   {
@@ -48215,8 +48292,8 @@
   },
   {
    "alias_target": {
-    "name": "Google: Gemini 3.8 Flash",
-    "slug": "google/gemini-3.8-flash"
+    "name": "Google: Gemini 4 Hydrogen",
+    "slug": "google/gemini-4-hydrogen"
    },
    "architecture": {
     "input_modalities": [
@@ -48236,7 +48313,14 @@
    "canonical_slug": "~google/gemini-flash-latest",
    "context_length": 1048576,
    "created": 1777318398,
-   "default_parameters": {},
+   "default_parameters": {
+    "frequency_penalty": null,
+    "presence_penalty": null,
+    "repetition_penalty": null,
+    "temperature": null,
+    "top_k": null,
+    "top_p": null
+   },
    "description": "This model always redirects to the latest model in the Gemini Flash family.",
    "endpoints": [
     "/api/v1/chat/completions",
@@ -48254,24 +48338,24 @@
    "name": "Google: Gemini Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "audio": "0.00000075",
-    "completion": "0.00000375",
-    "image": "0.00000075",
+    "audio": "0.0000015",
+    "completion": "0.0000075",
+    "image": "0.0000015",
     "input_audio_cache": "0.000000075",
     "input_cache_read": "0.000000075",
-    "input_cache_write": "0.0000000416666666666667",
-    "internal_reasoning": "0.00000375",
-    "prompt": "0.00000075",
+    "input_cache_write": "0.0000000833333333333333",
+    "internal_reasoning": "0.0000075",
+    "prompt": "0.0000015",
     "web_search": "0.014"
    },
    "reasoning": {
     "default_effort": "medium",
-    "default_enabled": true,
     "mandatory": true,
     "supported_efforts": [
      "high",
      "low",
-     "medium"
+     "medium",
+     "xhigh"
     ]
    },
    "supported_parameters": [
@@ -48292,7 +48376,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 65536
+    "max_completion_tokens": 943718
    }
   },
   {
@@ -49231,5 +49315,5 @@
  "links": {
   "next": null
  },
- "total_count": 468
+ "total_count": 469
 }

@@ -9549,10 +9549,10 @@
      "name": "Baidu | deepseek/deepseek-v4-flash-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000028",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000014"
+      "completion": "0.00000009996",
+      "discount": 0.643,
+      "input_cache_read": "0.000000009996",
+      "prompt": "0.00000004998"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -9929,10 +9929,10 @@
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000001652",
-      "discount": 0.41,
-      "input_cache_read": "0.00000001652",
-      "prompt": "0.0000000826"
+      "completion": "0.00000014",
+      "discount": 0.5,
+      "input_cache_read": "0.000000014",
+      "prompt": "0.00000007"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -10091,9 +10091,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001056",
+      "completion": "0.000000528",
       "discount": 0,
-      "input_cache_read": "0.0000000352",
+      "input_cache_read": "0.0000000176",
       "overrides": [
        {
         "completion": "0.000000528",
@@ -10110,7 +10110,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000352"
+      "prompt": "0.000000176"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -10154,9 +10154,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001122",
+      "completion": "0.000000561",
       "discount": 0,
-      "input_cache_read": "0.0000000374",
+      "input_cache_read": "0.0000000187",
       "overrides": [
        {
         "completion": "0.000000561",
@@ -10173,7 +10173,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000374"
+      "prompt": "0.000000187"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -10267,10 +10267,10 @@
      "name": "Baidu | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000132",
-      "discount": 0,
-      "input_cache_read": "0.000000014",
-      "prompt": "0.00000044"
+      "completion": "0.00000017952",
+      "discount": 0.864,
+      "input_cache_read": "0.000000001904",
+      "prompt": "0.00000005984"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -10828,6 +10828,57 @@
      },
      "supports_voice_cloning": false,
      "tag": "mancer/fp8"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4-flash-0731",
+     "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
+     "name": "Nebius | deepseek/deepseek-v4-flash-20260731",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000028",
+      "discount": 0,
+      "input_cache_read": "0.00000001",
+      "prompt": "0.00000014"
+     },
+     "provider_name": "Nebius",
+     "quantization": "fp8",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "nebius/fp8"
     },
     {
      "context_length": 1048576,
@@ -11736,10 +11787,10 @@
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000338",
-      "discount": 0,
-      "input_cache_read": "0.00000014",
-      "prompt": "0.00000169"
+      "completion": "0.00000178802",
+      "discount": 0.471,
+      "input_cache_read": "0.00000007406",
+      "prompt": "0.00000089401"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -12054,10 +12105,10 @@
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000191052",
-      "discount": 0.451,
-      "input_cache_read": "0.000000079605",
-      "prompt": "0.00000095526"
+      "completion": "0.000001784544",
+      "discount": 0.4872,
+      "input_cache_read": "0.000000074356",
+      "prompt": "0.000000892272"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -12164,9 +12215,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000003366",
+      "completion": "0.0000017424",
       "discount": 0,
-      "input_cache_read": "0.0000001122",
+      "input_cache_read": "0.00000005808",
       "overrides": [
        {
         "completion": "0.0000017424",
@@ -12183,7 +12234,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000001122"
+      "prompt": "0.0000005808"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -12227,9 +12278,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000396",
+      "completion": "0.00000198",
       "discount": 0,
-      "input_cache_read": "0.000000132",
+      "input_cache_read": "0.000000066",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -12246,7 +12297,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.00000132"
+      "prompt": "0.00000066"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -12340,10 +12391,10 @@
      "name": "Baidu | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000396",
-      "discount": 0,
-      "input_cache_read": "0.000000042",
-      "prompt": "0.00000132"
+      "completion": "0.00000197604",
+      "discount": 0.501,
+      "input_cache_read": "0.000000020958",
+      "prompt": "0.00000065868"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -13444,9 +13495,9 @@
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000084",
+      "completion": "0.00000042",
       "discount": 0,
-      "input_cache_read": "0.0000000042",
+      "input_cache_read": "0.0000000021",
       "overrides": [
        {
         "completion": "0.00000042",
@@ -13463,7 +13514,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.00000021"
+      "prompt": "0.000000105"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -13556,10 +13607,10 @@
      "name": "Baidu | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
-      "discount": 0,
-      "input_cache_read": "0.000000006",
-      "prompt": "0.0000003"
+      "completion": "0.0000011988",
+      "discount": 0.001,
+      "input_cache_read": "0.000000005994",
+      "prompt": "0.0000002997"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -14924,6 +14975,52 @@
      "max_prompt_tokens": null,
      "model_id": "deepseek/deepseek-v4.1-flash",
      "model_name": "DeepSeek: DeepSeek V4.1 Flash",
+     "name": "River | deepseek/deepseek-v4.1-flash-20260910",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000048",
+      "discount": 0,
+      "input_cache_read": "0.0000000024",
+      "prompt": "0.00000012"
+     },
+     "provider_name": "River",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "include_reasoning",
+      "logprobs",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "river"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 393216,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4.1-flash",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash",
      "name": "SiliconFlow | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
@@ -15279,9 +15376,9 @@
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000084",
+      "completion": "0.00000042",
       "discount": 0,
-      "input_cache_read": "0.0000000042",
+      "input_cache_read": "0.0000000021",
       "overrides": [
        {
         "completion": "0.00000042",
@@ -15298,7 +15395,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.00000021"
+      "prompt": "0.000000105"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -15391,10 +15488,10 @@
      "name": "Baidu | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000113",
-      "discount": 0,
-      "input_cache_read": "0.000000006",
-      "prompt": "0.00000028"
+      "completion": "0.00000060455",
+      "discount": 0.465,
+      "input_cache_read": "0.00000000321",
+      "prompt": "0.0000001498"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -17648,8 +17745,8 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "input_cache_read": "0.000000008",
-      "prompt": "0.000000095"
+      "input_cache_read": "0.0000000079",
+      "prompt": "0.000000079"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -23429,6 +23526,404 @@
    "id": "google/gemini-4-carbon",
    "name": "Google: Gemini 4 Carbon"
   },
+  "google/gemini-4-hydrogen": {
+   "architecture": {
+    "input_modalities": [
+     "audio",
+     "file",
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file+audio+video->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Gemini"
+   },
+   "created": 1794506460,
+   "description": "Gemini 4 Hydrogen is the high-efficiency workhorse model of the Gemini 4 family from Google, built for high-throughput agentic workflows, coding and multi-model routing at lower cost and latency than...",
+   "endpoints": [
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "google/gemini-4-hydrogen",
+     "model_name": "Google: Gemini 4 Hydrogen",
+     "name": "Google | google/gemini-4-hydrogen-20261112",
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "google_search"
+      }
+     },
+     "pricing": {
+      "audio": "0.0000015",
+      "completion": "0.0000075",
+      "discount": 0,
+      "image": "0.0000015",
+      "input_audio_cache": "0.000000075",
+      "input_cache_read": "0.000000075",
+      "input_cache_write": "0.0000000833333333333333",
+      "internal_reasoning": "0.0000075",
+      "prompt": "0.0000015",
+      "web_search": "0.014"
+     },
+     "provider_name": "Google",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "google-vertex/global"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 65536,
+     "max_prompt_tokens": null,
+     "model_id": "google/gemini-4-hydrogen",
+     "model_name": "Google: Gemini 4 Hydrogen",
+     "name": "Google | google/gemini-4-hydrogen-20261112",
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "google_search"
+      }
+     },
+     "pricing": {
+      "audio": "0.00000165",
+      "completion": "0.00000825",
+      "discount": 0,
+      "image": "0.00000165",
+      "input_audio_cache": "0.0000000825",
+      "input_cache_read": "0.0000000825",
+      "input_cache_write": "0.0000000833333333333333",
+      "internal_reasoning": "0.00000825",
+      "prompt": "0.00000165",
+      "web_search": "0.014"
+     },
+     "provider_name": "Google",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "google-vertex/eu"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 65536,
+     "max_prompt_tokens": null,
+     "model_id": "google/gemini-4-hydrogen",
+     "model_name": "Google: Gemini 4 Hydrogen",
+     "name": "Google | google/gemini-4-hydrogen-20261112",
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "google_search"
+      }
+     },
+     "pricing": {
+      "audio": "0.00000165",
+      "completion": "0.00000825",
+      "discount": 0,
+      "image": "0.00000165",
+      "input_audio_cache": "0.0000000825",
+      "input_cache_read": "0.0000000825",
+      "input_cache_write": "0.0000000833333333333333",
+      "internal_reasoning": "0.00000825",
+      "prompt": "0.00000165",
+      "web_search": "0.014"
+     },
+     "provider_name": "Google",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "google-vertex/us"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "google/gemini-4-hydrogen",
+     "model_name": "Google: Gemini 4 Hydrogen",
+     "name": "Google | google/gemini-4-hydrogen-20261112",
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "google_search"
+      }
+     },
+     "pricing": {
+      "audio": "0.0000027",
+      "completion": "0.0000135",
+      "discount": 0,
+      "image": "0.0000027",
+      "input_audio_cache": "0.000000135",
+      "input_cache_read": "0.000000135",
+      "input_cache_write": "0.00000015",
+      "internal_reasoning": "0.0000135",
+      "prompt": "0.0000027",
+      "web_search": "0.014"
+     },
+     "provider_name": "Google",
+     "quantization": "unknown",
+     "service_tier": "priority",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "google-vertex/global/priority"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "google/gemini-4-hydrogen",
+     "model_name": "Google: Gemini 4 Hydrogen",
+     "name": "Google AI Studio | google/gemini-4-hydrogen-20261112",
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "google_search"
+      }
+     },
+     "pricing": {
+      "audio": "0.00000075",
+      "completion": "0.00000375",
+      "discount": 0,
+      "image": "0.00000075",
+      "input_audio_cache": "0.0000000375",
+      "input_cache_read": "0.0000000375",
+      "input_cache_write": "0.0000000416666666666667",
+      "internal_reasoning": "0.00000375",
+      "prompt": "0.00000075",
+      "web_search": "0.014"
+     },
+     "provider_name": "Google AI Studio",
+     "quantization": "unknown",
+     "service_tier": "flex",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "google-ai-studio/flex"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 65536,
+     "max_prompt_tokens": null,
+     "model_id": "google/gemini-4-hydrogen",
+     "model_name": "Google: Gemini 4 Hydrogen",
+     "name": "Google AI Studio | google/gemini-4-hydrogen-20261112",
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "google_search"
+      }
+     },
+     "pricing": {
+      "audio": "0.0000015",
+      "completion": "0.0000075",
+      "discount": 0,
+      "image": "0.0000015",
+      "input_audio_cache": "0.000000075",
+      "input_cache_read": "0.000000075",
+      "input_cache_write": "0.0000000833333333333333",
+      "internal_reasoning": "0.0000075",
+      "prompt": "0.0000015",
+      "web_search": "0.014"
+     },
+     "provider_name": "Google AI Studio",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "google-ai-studio"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "google/gemini-4-hydrogen",
+     "model_name": "Google: Gemini 4 Hydrogen",
+     "name": "Google AI Studio | google/gemini-4-hydrogen-20261112",
+     "native_tools": {
+      "openrouter:web_search": {
+       "type": "google_search"
+      }
+     },
+     "pricing": {
+      "audio": "0.0000027",
+      "completion": "0.0000135",
+      "discount": 0,
+      "image": "0.0000027",
+      "input_audio_cache": "0.000000135",
+      "input_cache_read": "0.000000135",
+      "input_cache_write": "0.00000015",
+      "internal_reasoning": "0.0000135",
+      "prompt": "0.0000027",
+      "web_search": "0.014"
+     },
+     "provider_name": "Google AI Studio",
+     "quantization": "unknown",
+     "service_tier": "priority",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "google-ai-studio/priority"
+    }
+   ],
+   "id": "google/gemini-4-hydrogen",
+   "name": "Google: Gemini 4 Hydrogen"
+  },
   "google/gemini-nano-banana-2.1": {
    "architecture": {
     "input_modalities": [
@@ -24590,10 +25085,10 @@
      "name": "Makora | google/gemma-4-26b-a4b-it-20260403",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000001",
+      "completion": "0.00000028",
       "discount": 0,
-      "input_cache_read": "0.000000046",
-      "prompt": "0.00000008"
+      "input_cache_read": "0.000000049",
+      "prompt": "0.00000009"
      },
      "provider_name": "Makora",
      "quantization": "unknown",
@@ -24782,10 +25277,10 @@
      "name": "PrimeIntellect | google/gemma-4-26b-a4b-it-20260403",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000004",
+      "completion": "0.00000003",
       "discount": 0,
-      "input_cache_read": "0.000000007",
-      "prompt": "0.000000013"
+      "input_cache_read": "0.000000005",
+      "prompt": "0.00000001"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "bf16",
@@ -30389,9 +30884,9 @@
      "name": "Minimax | minimax/minimax-m3.1-flash-20261019",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000006",
+      "completion": "0.0000003",
       "discount": 0,
-      "input_cache_read": "0.000000015",
+      "input_cache_read": "0.0000000075",
       "overrides": [
        {
         "completion": "0.0000003",
@@ -30408,7 +30903,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000015"
+      "prompt": "0.000000075"
      },
      "provider_name": "Minimax",
      "quantization": "unknown",
@@ -33644,10 +34139,10 @@
      "name": "Baidu | moonshotai/kimi-k2.6-20260420",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000004",
-      "discount": 0,
-      "input_cache_read": "0.00000016",
-      "prompt": "0.00000095"
+      "completion": "0.00000164",
+      "discount": 0.59,
+      "input_cache_read": "0.0000000656",
+      "prompt": "0.0000003895"
      },
      "provider_name": "Baidu",
      "quantization": "fp4",
@@ -33978,7 +34473,7 @@
       "completion": "0.00000375",
       "discount": 0,
       "input_cache_read": "0.00000019",
-      "prompt": "0.0000007995"
+      "prompt": "0.0000007985"
      },
      "provider_name": "Inceptron",
      "quantization": "int4",
@@ -35562,10 +36057,10 @@
      "name": "Makora | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000017",
+      "completion": "0.000015",
       "discount": 0,
-      "input_cache_read": "0.0000006",
-      "prompt": "0.0000012"
+      "input_cache_read": "0.00000075",
+      "prompt": "0.000001"
      },
      "provider_name": "Makora",
      "quantization": "fp4",
@@ -36795,10 +37290,10 @@
      "name": "Morph | moonshotai/kimi-k3.1-pro-20261023",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000012",
+      "completion": "0.000009272",
       "discount": 0,
-      "input_cache_read": "0.000000208",
-      "prompt": "0.000001324"
+      "input_cache_read": "0.000000161",
+      "prompt": "0.000001023"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -36996,9 +37491,9 @@
      "name": "Relace | moonshotai/kimi-k3.1-pro-20261023",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000084085",
+      "completion": "0.0000087856",
       "discount": 0,
-      "input_cache_read": "0.0000002",
+      "input_cache_read": "0.00000019",
       "prompt": "0.0000002375"
      },
      "provider_name": "Relace",
@@ -51657,10 +52152,10 @@
      "name": "PrimeIntellect | openai/gpt-oss-120b",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000101",
+      "completion": "0.000000085",
       "discount": 0,
-      "input_cache_read": "0.000000042",
-      "prompt": "0.000000047"
+      "input_cache_read": "0.000000036",
+      "prompt": "0.00000004"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp4",
@@ -52376,10 +52871,10 @@
      "name": "PrimeIntellect | openai/gpt-oss-20b",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000032",
+      "completion": "0.00000003",
       "discount": 0,
-      "input_cache_read": "0.000000019",
-      "prompt": "0.000000022"
+      "input_cache_read": "0.000000018",
+      "prompt": "0.00000002"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp4",
@@ -56874,10 +57369,10 @@
      "name": "PrimeIntellect | qwen/qwen3.5-9b-20260310",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000083",
+      "completion": "0.000000249",
       "discount": 0,
-      "input_cache_read": "0.000000051",
-      "prompt": "0.000000056"
+      "input_cache_read": "0.000000153",
+      "prompt": "0.000000169"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "bf16",
@@ -57889,10 +58384,10 @@
      "name": "PrimeIntellect | qwen/qwen3.6-35b-a3b-20260415",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000101",
+      "completion": "0.000000112",
       "discount": 0,
-      "input_cache_read": "0.00000001",
-      "prompt": "0.000000011"
+      "input_cache_read": "0.000000011",
+      "prompt": "0.000000012"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp8",
@@ -59634,10 +60129,10 @@
      "name": "PrimeIntellect | qwen/qwen3.8-27b-20260814",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000339",
+      "completion": "0.000001536",
       "discount": 0,
-      "input_cache_read": "0.000000005",
-      "prompt": "0.000000048"
+      "input_cache_read": "0.000000024",
+      "prompt": "0.000000216"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp8",
@@ -62172,9 +62667,9 @@
      "name": "Tencent | tencent/hy3-20260706",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000528",
+      "completion": "0.00000033",
       "discount": 0,
-      "input_cache_read": "0.000000033",
+      "input_cache_read": "0.000000020625",
       "overrides": [
        {
         "completion": "0.00000033",
@@ -62191,7 +62686,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000132"
+      "prompt": "0.0000000825"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -62608,9 +63103,9 @@
      "name": "Tencent | tencent/hy4-preview-20260827",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000002501",
+      "completion": "0.0000022509",
       "discount": 0,
-      "input_cache_read": "0.000000042",
+      "input_cache_read": "0.0000000378",
       "overrides": [
        {
         "completion": "0.0000022509",
@@ -62627,7 +63122,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000834"
+      "prompt": "0.0000007506"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -65932,7 +66427,7 @@
      "name": "Makora | xiaomi/mimo-v2.6-flash-20260921",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000033",
+      "completion": "0.00000035",
       "discount": 0,
       "input_cache_read": "0.000000004",
       "prompt": "0.00000017"
@@ -70709,7 +71204,7 @@
      "name": "Decart | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000176",
+      "completion": "0.00000178",
       "discount": 0,
       "input_cache_read": "0.0000001",
       "prompt": "0.00000057"
