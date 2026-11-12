@@ -3,7 +3,7 @@
 **A public, machine-readable record of what LLM inference actually costs — and how that price changes over time.** Refreshed every 6 hours.
 
 <!-- BEGIN STATS -->
-**17,144** price points · **1,067** models · **81** platforms · updated **2026-11-12 06:33 UTC** · history since **2026-09-02** (72 snapshots)
+**17,144** price points · **1,067** models · **81** platforms · updated **2026-11-12 12:28 UTC** · history since **2026-09-02** (72 snapshots)
 <!-- END STATS -->
 
 Every provider publishes today's price. **Nobody publishes yesterday's.** This repo
@@ -52,7 +52,7 @@ yourself.
 | MoonshotAI: Kimi K3 | 18 | [Wafer](https://www.wafer.ai/) | $0.15 | $9.60 | 22.5× |
 | MoonshotAI: Kimi K3.1 Pro | 17 | [Relace](https://www.relace.ai/) | $0.24 | $8.41 | 9.7× |
 | Google: Gemma 4 31B | 16 | [CoreWeave](https://coreweave.com/) | $0.10 | $0.34 | 7.5× |
-| Google: Gemma 4 26B A4B  | 15 | [PrimeIntellect](https://openrouter.ai/provider/prime-intellect) | $0.01 | $0.04 | 10.0× |
+| Google: Gemma 4 26B A4B  | 15 | [PrimeIntellect](https://openrouter.ai/provider/prime-intellect) | $0.01 | $0.04 | 11.5× |
 | MoonshotAI: Kimi K2.6 | 15 | [Chutes](https://chutes.ai/) | $0.39 | $1.80 | 2.4× |
 | DeepSeek: DeepSeek V4 Flash 0423 | 13 | [Relace](https://www.relace.ai/) | $0.05 | $0.45 | 4.2× |
 <!-- END TABLE -->
