@@ -8723,9 +8723,9 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000005",
-    "input_cache_read": "0.000000005",
-    "prompt": "0.000000006"
+    "completion": "0.0000004",
+    "input_cache_read": "0.000000004",
+    "prompt": "0.000000022"
    },
    "reasoning": {
     "default_effort": "high",
@@ -8875,9 +8875,90 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000005",
-    "input_cache_read": "0.000000005",
-    "prompt": "0.000000006"
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006",
+    "overrides": [
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000015",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 0,
+      "utc_start": 1000
+     },
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000015",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 100,
+      "utc_start": 0
+     },
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000015",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 600,
+      "utc_start": 400
+     },
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000015",
+      "utc_days": [
+       "saturday",
+       "sunday"
+      ]
+     },
+     {
+      "completion": "0.0000012",
+      "input_cache_read": "0.000000006",
+      "prompt": "0.0000003",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 1000,
+      "utc_start": 600
+     },
+     {
+      "completion": "0.0000012",
+      "input_cache_read": "0.000000006",
+      "prompt": "0.0000003",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 400,
+      "utc_start": 100
+     }
+    ],
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -8918,7 +8999,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -18734,8 +18815,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -18752,7 +18833,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.000000075"
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "max",
@@ -22203,9 +22284,9 @@
    "name": "MoonshotAI: Kimi K3.1 Pro",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00001",
+    "completion": "0.0000084085",
     "input_cache_read": "0.0000002",
-    "prompt": "0.000002"
+    "prompt": "0.0000002375"
    },
    "reasoning": {
     "default_effort": "max",
@@ -22239,6 +22320,188 @@
     "top_k",
     "top_logprobs",
     "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1048576,
+    "is_moderated": false,
+    "max_completion_tokens": 943718
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+video->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "benchmarks": {
+    "artificial_analysis": {
+     "agentic_index": null,
+     "coding_index": null,
+     "intelligence_index": 46.5
+    },
+    "design_arena": [
+     {
+      "arena": "agents",
+      "category": "androidnative",
+      "elo": 1152,
+      "rank": 28,
+      "win_rate": 42.6
+     },
+     {
+      "arena": "agents",
+      "category": "codetovideo",
+      "elo": 1233,
+      "rank": 5,
+      "win_rate": 58.8
+     },
+     {
+      "arena": "agents",
+      "category": "fullstack",
+      "elo": 1325,
+      "rank": 2,
+      "win_rate": 61.9
+     },
+     {
+      "arena": "agents",
+      "category": "mobileapps",
+      "elo": 1274,
+      "rank": 4,
+      "win_rate": 59.6
+     },
+     {
+      "arena": "agents",
+      "category": "pdf",
+      "elo": 1239,
+      "rank": 8,
+      "win_rate": 58.8
+     },
+     {
+      "arena": "agents",
+      "category": "python-pptxslides",
+      "elo": 1289,
+      "rank": 3,
+      "win_rate": 67.2
+     },
+     {
+      "arena": "agents",
+      "category": "webapps",
+      "elo": 1296,
+      "rank": 3,
+      "win_rate": 58.8
+     },
+     {
+      "arena": "models",
+      "category": "3d",
+      "elo": 1442,
+      "rank": 3,
+      "win_rate": 70.7
+     },
+     {
+      "arena": "models",
+      "category": "asciiart",
+      "elo": 1297,
+      "rank": 5,
+      "win_rate": 58.5
+     },
+     {
+      "arena": "models",
+      "category": "codecategories",
+      "elo": 1350,
+      "rank": 5,
+      "win_rate": 60.7
+     },
+     {
+      "arena": "models",
+      "category": "dataviz",
+      "elo": 1306,
+      "rank": 12,
+      "win_rate": 56.4
+     },
+     {
+      "arena": "models",
+      "category": "gamedev",
+      "elo": 1406,
+      "rank": 4,
+      "win_rate": 66.4
+     },
+     {
+      "arena": "models",
+      "category": "svg",
+      "elo": 1323,
+      "rank": 2,
+      "win_rate": 62
+     },
+     {
+      "arena": "models",
+      "category": "uicomponent",
+      "elo": 1392,
+      "rank": 1,
+      "win_rate": 65.8
+     },
+     {
+      "arena": "models",
+      "category": "website",
+      "elo": 1319,
+      "rank": 7,
+      "win_rate": 57.5
+     }
+    ]
+   },
+   "canonical_slug": "moonshotai/kimi-k3.1-pro-20261023",
+   "context_length": 1048576,
+   "created": 1792778188,
+   "default_parameters": {
+    "top_p": 0.95
+   },
+   "description": "Kimi K3.1 Pro is Moonshot AI's flagship open-weight multimodal reasoning model and a post-trained successor to Kimi K3, with a 1M-token context window. It is built for long-horizon coding, 3D...",
+   "endpoints": [
+    "/api/v1/batches"
+   ],
+   "expiration_date": null,
+   "hugging_face_id": "moonshotai/Kimi-K3.1-Pro",
+   "id": "moonshotai/kimi-k3.1-pro:batch",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/moonshotai/kimi-k3.1-pro-20261023/endpoints"
+   },
+   "name": "MoonshotAI: Kimi K3.1 Pro (batch)",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.000006",
+    "input_cache_read": "0.0000001",
+    "prompt": "0.0000007"
+   },
+   "reasoning": {
+    "default_effort": "max",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "none"
+    ]
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "max_tokens",
+    "presence_penalty",
+    "reasoning",
+    "reasoning_effort",
+    "seed",
+    "stop",
+    "temperature",
+    "top_k"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -36929,9 +37192,9 @@
    "name": "Qwen: Qwen3.5-9B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000025",
-    "input_cache_read": "0.000000153",
-    "prompt": "0.00000017"
+    "completion": "0.00000006",
+    "input_cache_read": "0.000000036",
+    "prompt": "0.00000004"
    },
    "reasoning": {
     "mandatory": false
@@ -46718,9 +46981,9 @@
    "name": "Z.ai: GLM 5.3 Flash (batch)",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000061",
-    "input_cache_read": "0.00000002",
-    "prompt": "0.000000047"
+    "completion": "0.00000018",
+    "input_cache_read": "0.00000001",
+    "prompt": "0.00000005"
    },
    "reasoning": {
     "default_effort": "max",
@@ -46758,7 +47021,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    }
   },
   {
@@ -47724,9 +47987,9 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000005",
-    "input_cache_read": "0.000000005",
-    "prompt": "0.000000006"
+    "completion": "0.0000004",
+    "input_cache_read": "0.000000004",
+    "prompt": "0.000000022"
    },
    "reasoning": {
     "default_effort": "high",
@@ -48954,5 +49217,5 @@
  "links": {
   "next": null
  },
- "total_count": 467
+ "total_count": 468
 }
