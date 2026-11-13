@@ -15933,165 +15933,6 @@
     ],
     "tokenizer": "Other"
    },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": null,
-     "coding_index": 7.7,
-     "intelligence_index": null
-    },
-    "design_arena": []
-   },
-   "canonical_slug": "liquid/lfm-2.5-2.6b-20260811",
-   "context_length": 128000,
-   "created": 1786470519,
-   "default_parameters": {
-    "repetition_penalty": 1.1,
-    "temperature": 0.1,
-    "top_k": 50
-   },
-   "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
-   "endpoints": [
-    "/api/v1/chat/completions",
-    "/api/v1/completions",
-    "/api/v1/messages",
-    "/api/v1/responses"
-   ],
-   "expiration_date": "2026-11-13",
-   "hugging_face_id": "LiquidAI/LFM2.5-2.6B",
-   "id": "liquid/lfm-2.5-2.6b",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/liquid/lfm-2.5-2.6b-20260811/endpoints"
-   },
-   "name": "LiquidAI: LFM2.5-2.6B",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.0000005",
-    "input_cache_read": "0.00000004",
-    "prompt": "0.00000035"
-   },
-   "reasoning": {
-    "mandatory": true
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "logprobs",
-    "max_completion_tokens",
-    "max_tokens",
-    "min_p",
-    "presence_penalty",
-    "reasoning",
-    "repetition_penalty",
-    "response_format",
-    "seed",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 128000,
-    "is_moderated": false,
-    "max_completion_tokens": 8192
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": null,
-     "coding_index": 7.7,
-     "intelligence_index": null
-    },
-    "design_arena": []
-   },
-   "canonical_slug": "liquid/lfm-2.5-2.6b-20260811",
-   "context_length": 65536,
-   "created": 1786470519,
-   "default_parameters": {
-    "repetition_penalty": 1.1,
-    "temperature": 0.1,
-    "top_k": 50
-   },
-   "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
-   "endpoints": [
-    "/api/v1/chat/completions",
-    "/api/v1/completions",
-    "/api/v1/messages",
-    "/api/v1/responses"
-   ],
-   "expiration_date": "2026-11-13",
-   "hugging_face_id": "LiquidAI/LFM2.5-2.6B",
-   "id": "liquid/lfm-2.5-2.6b:free",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/liquid/lfm-2.5-2.6b-20260811/endpoints"
-   },
-   "name": "LiquidAI: LFM2.5-2.6B (free)",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0",
-    "prompt": "0"
-   },
-   "reasoning": {
-    "mandatory": true
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "logprobs",
-    "max_completion_tokens",
-    "max_tokens",
-    "min_p",
-    "presence_penalty",
-    "reasoning",
-    "repetition_penalty",
-    "response_format",
-    "seed",
-    "stop",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_logprobs",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 65536,
-    "is_moderated": false,
-    "max_completion_tokens": 8192
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
    "canonical_slug": "liquid/lfm-2.5-24b-a2b-20261012",
    "context_length": 128000,
    "created": 1791912025,
@@ -19000,8 +18841,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -19018,7 +18859,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.000000075"
    },
    "reasoning": {
     "default_effort": "max",
@@ -37460,9 +37301,9 @@
    "name": "Qwen: Qwen3.5-9B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000034",
-    "input_cache_read": "0.000000021",
-    "prompt": "0.000000023"
+    "completion": "0.000000199",
+    "input_cache_read": "0.000000122",
+    "prompt": "0.000000135"
    },
    "reasoning": {
     "mandatory": false
@@ -40992,8 +40833,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -41010,7 +40851,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41275,8 +41116,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -41293,7 +41134,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -47444,6 +47285,7 @@
     "reasoning",
     "reasoning_effort",
     "response_format",
+    "structured_outputs",
     "temperature",
     "tool_choice",
     "tools",
@@ -49586,5 +49428,5 @@
  "links": {
   "next": null
  },
- "total_count": 472
+ "total_count": 470
 }
