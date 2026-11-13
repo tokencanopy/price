@@ -871,10 +871,10 @@
    "datacenters": [],
    "headquarters": null,
    "name": "Recraft",
-   "privacy_policy_url": null,
+   "privacy_policy_url": "https://www.recraft.ai/legal/privacy",
    "slug": "recraft",
    "status_page_url": null,
-   "terms_of_service_url": null
+   "terms_of_service_url": "https://www.recraft.ai/legal/developer-terms"
   },
   {
    "datacenters": null,
@@ -1017,8 +1017,10 @@
    "terms_of_service_url": "https://openrouter.ai/terms/stealth"
   },
   {
-   "datacenters": [],
-   "headquarters": null,
+   "datacenters": [
+    "US"
+   ],
+   "headquarters": "CN",
    "name": "StepFun",
    "privacy_policy_url": null,
    "slug": "stepfun",
