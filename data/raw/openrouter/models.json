@@ -3741,7 +3741,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 1000000,
-    "is_moderated": false,
+    "is_moderated": true,
     "max_completion_tokens": 128000
    }
   },
@@ -7543,9 +7543,8 @@
    "name": "DeepSeek: R1 0528",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000215",
-    "input_cache_read": "0.00000035",
-    "prompt": "0.0000005"
+    "completion": "0.000002286",
+    "prompt": "0.000000571"
    },
    "reasoning": {
     "mandatory": true
@@ -7573,9 +7572,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 163840,
+    "context_length": 128000,
     "is_moderated": false,
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 32000
    }
   },
   {
@@ -19048,8 +19047,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -19066,7 +19065,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.000000075"
    },
    "reasoning": {
     "default_effort": "max",
@@ -34942,7 +34941,7 @@
    "pricing": {
     "completion": "0.0000005",
     "input_cache_read": "0.000000003",
-    "prompt": "0.00000005"
+    "prompt": "0.00000006"
    },
    "reasoning": {
     "default_effort": "high",
@@ -37534,9 +37533,9 @@
    "name": "Qwen: Qwen3.5-9B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000025",
-    "input_cache_read": "0.000000153",
-    "prompt": "0.00000017"
+    "completion": "0.000000114",
+    "input_cache_read": "0.000000069",
+    "prompt": "0.000000077"
    },
    "reasoning": {
     "mandatory": false
@@ -41066,8 +41065,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -41084,7 +41083,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41349,8 +41348,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -41367,7 +41366,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -46517,7 +46516,7 @@
     "/api/v1/messages",
     "/api/v1/responses"
    ],
-   "expiration_date": null,
+   "expiration_date": "2026-11-20",
    "hugging_face_id": "zai-org/GLM-5.1",
    "id": "z-ai/glm-5.1",
    "knowledge_cutoff": null,
@@ -46560,7 +46559,7 @@
    "top_provider": {
     "context_length": 202752,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 182476
    }
   },
   {
