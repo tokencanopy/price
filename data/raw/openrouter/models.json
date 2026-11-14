@@ -18988,8 +18988,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -19006,7 +19006,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.000000075"
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "max",
@@ -33758,9 +33758,9 @@
    "name": "OpenAI: gpt-oss-20b",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000013",
-    "input_cache_read": "0.00000003",
-    "prompt": "0.00000003"
+    "completion": "0.00000009",
+    "input_cache_read": "0.000000009",
+    "prompt": "0.000000018"
    },
    "reasoning": {
     "default_effort": "medium",
@@ -37474,9 +37474,9 @@
    "name": "Qwen: Qwen3.5-9B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000232",
-    "input_cache_read": "0.000000142",
-    "prompt": "0.000000158"
+    "completion": "0.000000102",
+    "input_cache_read": "0.000000063",
+    "prompt": "0.000000069"
    },
    "reasoning": {
     "mandatory": false
@@ -46908,9 +46908,9 @@
    "name": "Z.ai: GLM 5.2 (batch)",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000989",
-    "input_cache_read": "0.000000109",
-    "prompt": "0.000000322"
+    "completion": "0.000001068",
+    "input_cache_read": "0.000000117",
+    "prompt": "0.000000347"
    },
    "reasoning": {
     "default_effort": "high",
