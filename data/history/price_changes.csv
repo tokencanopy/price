@@ -597418,3 +597418,41 @@ observed_at,source,platform,model_key,variant,region,metric,model_name,old_usd_p
 2026-11-14T06:33:46+00:00,openrouter,Morph,zai-org/glm-5.3-flash,fp8,,input,Z.ai: GLM 5.3 Flash,0.107,0.099,-7.48
 2026-11-14T06:33:46+00:00,openrouter,Morph,zai-org/glm-5.3-flash,fp8,,output,Z.ai: GLM 5.3 Flash,0.113,0.105,-7.08
 2026-11-14T06:33:46+00:00,openrouter,Morph,zai-org/glm-5.3-flash,fp8,,cache_read,Z.ai: GLM 5.3 Flash,0.046,0.042,-8.7
+2026-11-14T12:26:01+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-flash,fp8,,input,DeepSeek: DeepSeek V4 Flash 0423,0.02646,0.0147,-44.44
+2026-11-14T12:26:01+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-flash,fp8,,output,DeepSeek: DeepSeek V4 Flash 0423,0.05292,0.0294,-44.44
+2026-11-14T12:26:01+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-flash,fp8,,cache_read,DeepSeek: DeepSeek V4 Flash 0423,0.005292,0.00294,-44.44
+2026-11-14T12:26:01+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-flash,fp4,,input,DeepSeek: DeepSeek V4 Flash 0423,0.0266,0.014,-47.37
+2026-11-14T12:26:01+00:00,openrouter,Relace,deepseek-ai/deepseek-v4-flash,fp4,,cache_read,DeepSeek: DeepSeek V4 Flash 0423,0.0266,0.014,-47.37
+2026-11-14T12:26:01+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-pro,fp8,,input,DeepSeek: DeepSeek V4 Pro 0423,0.38194,0.20956,-45.13
+2026-11-14T12:26:01+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-pro,fp8,,output,DeepSeek: DeepSeek V4 Pro 0423,0.76388,0.41912,-45.13
+2026-11-14T12:26:01+00:00,openrouter,Baidu,deepseek-ai/deepseek-v4-pro,fp8,,cache_read,DeepSeek: DeepSeek V4 Pro 0423,0.03164,0.01736,-45.13
+2026-11-14T12:26:01+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-pro,fp8,,input,DeepSeek: DeepSeek V4 Pro 0423,0.37323,0.2088,-44.06
+2026-11-14T12:26:01+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-pro,fp8,,output,DeepSeek: DeepSeek V4 Pro 0423,0.74646,0.4176,-44.06
+2026-11-14T12:26:01+00:00,openrouter,StreamLake,deepseek-ai/deepseek-v4-pro,fp8,,cache_read,DeepSeek: DeepSeek V4 Pro 0423,0.031102,0.0174,-44.06
+2026-11-14T12:26:01+00:00,openrouter,PrimeIntellect,google/gemma-4-26b-a4b-it,bf16,,input,Google: Gemma 4 26B A4B ,0.03,0.013,-56.67
+2026-11-14T12:26:01+00:00,openrouter,PrimeIntellect,google/gemma-4-26b-a4b-it,bf16,,output,Google: Gemma 4 26B A4B ,0.091,0.039,-57.14
+2026-11-14T12:26:01+00:00,openrouter,PrimeIntellect,google/gemma-4-26b-a4b-it,bf16,,cache_read,Google: Gemma 4 26B A4B ,0.015,0.006,-60.0
+2026-11-14T12:26:01+00:00,openrouter,PrimeIntellect,openai/gpt-oss-120b,fp4,,input,OpenAI: gpt-oss-120b,0.035,0.037,5.71
+2026-11-14T12:26:01+00:00,openrouter,PrimeIntellect,openai/gpt-oss-120b,fp4,,output,OpenAI: gpt-oss-120b,0.075,0.079,5.33
+2026-11-14T12:26:01+00:00,openrouter,PrimeIntellect,openai/gpt-oss-120b,fp4,,cache_read,OpenAI: gpt-oss-120b,0.031,0.033,6.45
+2026-11-14T12:26:01+00:00,openrouter,PrimeIntellect,openai/gpt-oss-20b,fp4,,input,OpenAI: gpt-oss-20b,0.027,0.02,-25.93
+2026-11-14T12:26:01+00:00,openrouter,PrimeIntellect,openai/gpt-oss-20b,fp4,,output,OpenAI: gpt-oss-20b,0.041,0.03,-26.83
+2026-11-14T12:26:01+00:00,openrouter,PrimeIntellect,openai/gpt-oss-20b,fp4,,cache_read,OpenAI: gpt-oss-20b,0.025,0.018,-28.0
+2026-11-14T12:26:01+00:00,openrouter,PrimeIntellect,qwen/qwen3.5-9b,bf16,,input,Qwen: Qwen3.5-9B,0.071,0.17,139.44
+2026-11-14T12:26:01+00:00,openrouter,PrimeIntellect,qwen/qwen3.5-9b,bf16,,output,Qwen: Qwen3.5-9B,0.105,0.25,138.1
+2026-11-14T12:26:01+00:00,openrouter,PrimeIntellect,qwen/qwen3.5-9b,bf16,,cache_read,Qwen: Qwen3.5-9B,0.064,0.153,139.06
+2026-11-14T12:26:01+00:00,openrouter,PrimeIntellect,qwen/qwen3.6-35b-a3b,fp8,,input,Qwen: Qwen3.6 35B A3B,0.014,0.11,685.71
+2026-11-14T12:26:01+00:00,openrouter,PrimeIntellect,qwen/qwen3.6-35b-a3b,fp8,,output,Qwen: Qwen3.6 35B A3B,0.131,1.01,670.99
+2026-11-14T12:26:01+00:00,openrouter,PrimeIntellect,qwen/qwen3.6-35b-a3b,fp8,,cache_read,Qwen: Qwen3.6 35B A3B,0.013,0.099,661.54
+2026-11-14T12:26:01+00:00,openrouter,PrimeIntellect,qwen/qwen3.8-27b,fp8,,input,Qwen: Qwen3.8 27B,0.078,0.051,-34.62
+2026-11-14T12:26:01+00:00,openrouter,PrimeIntellect,qwen/qwen3.8-27b,fp8,,output,Qwen: Qwen3.8 27B,0.553,0.361,-34.72
+2026-11-14T12:26:01+00:00,openrouter,PrimeIntellect,qwen/qwen3.8-27b,fp8,,cache_read,Qwen: Qwen3.8 27B,0.009,0.006,-33.33
+2026-11-14T12:26:01+00:00,openrouter,Morph,zai-org/glm-5.2,fp8,,input,Z.ai: GLM 5.2,0.694,0.643,-7.35
+2026-11-14T12:26:01+00:00,openrouter,Morph,zai-org/glm-5.2,fp8,,output,Z.ai: GLM 5.2,2.136,1.978,-7.4
+2026-11-14T12:26:01+00:00,openrouter,Morph,zai-org/glm-5.2,fp8,,cache_read,Z.ai: GLM 5.2,0.234,0.217,-7.26
+2026-11-14T12:26:01+00:00,openrouter,Featherless,zai-org/glm-5.3,unknown,,input,Z.ai: GLM 5.3,0.375,0.2,-46.67
+2026-11-14T12:26:01+00:00,openrouter,Featherless,zai-org/glm-5.3,unknown,,output,Z.ai: GLM 5.3,2.0,1.4,-30.0
+2026-11-14T12:26:01+00:00,openrouter,Featherless,zai-org/glm-5.3,unknown,,cache_read,Z.ai: GLM 5.3,0.1,0.048,-52.0
+2026-11-14T12:26:01+00:00,openrouter,Morph,zai-org/glm-5.3,fp8,,input,Z.ai: GLM 5.3,0.694,0.643,-7.35
+2026-11-14T12:26:01+00:00,openrouter,Morph,zai-org/glm-5.3,fp8,,output,Z.ai: GLM 5.3,2.136,1.978,-7.4
+2026-11-14T12:26:01+00:00,openrouter,Morph,zai-org/glm-5.3,fp8,,cache_read,Z.ai: GLM 5.3,0.234,0.217,-7.26
