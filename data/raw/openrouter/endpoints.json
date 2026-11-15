@@ -10091,9 +10091,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000528",
+      "completion": "0.000001056",
       "discount": 0,
-      "input_cache_read": "0.0000000176",
+      "input_cache_read": "0.0000000352",
       "overrides": [
        {
         "completion": "0.000000528",
@@ -10110,7 +10110,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000176"
+      "prompt": "0.000000352"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -10154,9 +10154,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000561",
+      "completion": "0.000001122",
       "discount": 0,
-      "input_cache_read": "0.0000000187",
+      "input_cache_read": "0.0000000374",
       "overrides": [
        {
         "completion": "0.000000561",
@@ -10173,7 +10173,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000187"
+      "prompt": "0.000000374"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -10597,6 +10597,56 @@
      "name": "DeepInfra | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
+      "completion": "0.000000144",
+      "discount": 0,
+      "input_cache_read": "0.000000012",
+      "prompt": "0.000000048"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp8",
+     "service_tier": "flex",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp8/flex"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 384000,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4-flash-0731",
+     "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
+     "name": "DeepInfra | deepseek/deepseek-v4-flash-20260731",
+     "native_tools": {},
+     "pricing": {
       "completion": "0.00000018",
       "discount": 0,
       "input_cache_read": "0.000000015",
@@ -10637,6 +10687,56 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/fp8"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 384000,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4-flash-0731",
+     "model_name": "DeepSeek: DeepSeek V4 Flash 0731",
+     "name": "DeepInfra | deepseek/deepseek-v4-flash-20260731",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000027",
+      "discount": 0,
+      "input_cache_read": "0.0000000225",
+      "prompt": "0.00000009"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp8",
+     "service_tier": "priority",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp8/priority"
     },
     {
      "context_length": 1048576,
@@ -11367,8 +11467,8 @@
      "pricing": {
       "completion": "0.00000023",
       "discount": 0,
-      "input_cache_read": "0.000000135",
-      "prompt": "0.00000014"
+      "input_cache_read": "0.000000095",
+      "prompt": "0.0000001"
      },
      "provider_name": "Wafer",
      "quantization": "nvfp4",
@@ -11437,6 +11537,56 @@
      "name": "DeepInfra | deepseek/deepseek-v4-flash-vision-exp-20260821",
      "native_tools": {},
      "pricing": {
+      "completion": "0.00000051744",
+      "discount": 0.51,
+      "input_cache_read": "0.000000005488",
+      "prompt": "0.00000017248"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp8",
+     "service_tier": "flex",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp8/flex"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 262144,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4-flash-vision-exp",
+     "model_name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+     "name": "DeepInfra | deepseek/deepseek-v4-flash-vision-exp-20260821",
+     "native_tools": {},
+     "pricing": {
       "completion": "0.0000006468",
       "discount": 0.51,
       "input_cache_read": "0.00000000686",
@@ -11477,6 +11627,56 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/fp8"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 262144,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4-flash-vision-exp",
+     "model_name": "DeepSeek: DeepSeek V4 Flash Vision Exp",
+     "name": "DeepInfra | deepseek/deepseek-v4-flash-vision-exp-20260821",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000009702",
+      "discount": 0.51,
+      "input_cache_read": "0.00000001029",
+      "prompt": "0.0000003234"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp8",
+     "service_tier": "priority",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp8/priority"
     },
     {
      "context_length": 1048575,
@@ -11769,6 +11969,55 @@
      },
      "supports_voice_cloning": false,
      "tag": "baidu/fp8"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 393216,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4-pro",
+     "model_name": "DeepSeek: DeepSeek V4 Pro 0423",
+     "name": "DeepInfra | deepseek/deepseek-v4-pro-20260423",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000208",
+      "discount": 0,
+      "input_cache_read": "0.00000008",
+      "prompt": "0.00000104"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp8",
+     "service_tier": "flex",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp8/flex"
     },
     {
      "context_length": 1048576,
@@ -12164,9 +12413,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000017424",
+      "completion": "0.000003366",
       "discount": 0,
-      "input_cache_read": "0.00000005808",
+      "input_cache_read": "0.0000001122",
       "overrides": [
        {
         "completion": "0.0000017424",
@@ -12183,7 +12432,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000005808"
+      "prompt": "0.000001122"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -12227,9 +12476,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000198",
+      "completion": "0.00000396",
       "discount": 0,
-      "input_cache_read": "0.000000066",
+      "input_cache_read": "0.000000132",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -12246,7 +12495,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.00000066"
+      "prompt": "0.00000132"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -13444,9 +13693,9 @@
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000042",
+      "completion": "0.00000084",
       "discount": 0,
-      "input_cache_read": "0.0000000021",
+      "input_cache_read": "0.0000000042",
       "overrides": [
        {
         "completion": "0.00000042",
@@ -13463,7 +13712,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000105"
+      "prompt": "0.00000021"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -14525,10 +14774,10 @@
      "name": "Morph | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000583",
+      "completion": "0.00000054",
       "discount": 0,
-      "input_cache_read": "0.000000005",
-      "prompt": "0.000000104"
+      "input_cache_read": "0.000000004",
+      "prompt": "0.000000096"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -15273,9 +15522,9 @@
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000042",
+      "completion": "0.00000084",
       "discount": 0,
-      "input_cache_read": "0.0000000021",
+      "input_cache_read": "0.0000000042",
       "overrides": [
        {
         "completion": "0.00000042",
@@ -15292,7 +15541,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000105"
+      "prompt": "0.00000021"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -16623,6 +16872,58 @@
      "name": "Morph | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
+      "completion": "0.00000054",
+      "discount": 0,
+      "input_cache_read": "0.000000004",
+      "prompt": "0.000000096"
+     },
+     "provider_name": "Morph",
+     "quantization": "fp8",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "morph/fp8"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "deepseek/deepseek-v4.1-flash-1017",
+     "model_name": "DeepSeek: DeepSeek V4.1 Flash 1017",
+     "name": "Morph | deepseek/deepseek-v4.1-flash-20261017",
+     "native_tools": {},
+     "pricing": {
       "completion": "0.000000583",
       "discount": 0,
       "input_cache_read": "0.000000005",
@@ -16665,58 +16966,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "morph/fast"
-    },
-    {
-     "context_length": 1048576,
-     "max_completion_tokens": 943718,
-     "max_prompt_tokens": null,
-     "model_id": "deepseek/deepseek-v4.1-flash-1017",
-     "model_name": "DeepSeek: DeepSeek V4.1 Flash 1017",
-     "name": "Morph | deepseek/deepseek-v4.1-flash-20261017",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.000000583",
-      "discount": 0,
-      "input_cache_read": "0.000000005",
-      "prompt": "0.000000104"
-     },
-     "provider_name": "Morph",
-     "quantization": "fp8",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logit_bias",
-      "logprobs",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "morph/fp8"
     },
     {
      "context_length": 1048576,
@@ -24586,6 +24835,50 @@
    "endpoints": [
     {
      "context_length": 131072,
+     "max_completion_tokens": 117964,
+     "max_prompt_tokens": null,
+     "model_id": "google/gemma-3-4b-it",
+     "model_name": "Google: Gemma 3 4B",
+     "name": "DeepInfra | google/gemma-3-4b-it",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000008",
+      "discount": 0,
+      "prompt": "0.00000004"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "bf16",
+     "service_tier": "flex",
+     "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/bf16/flex"
+    },
+    {
+     "context_length": 131072,
      "max_completion_tokens": 16384,
      "max_prompt_tokens": null,
      "model_id": "google/gemma-3-4b-it",
@@ -25274,10 +25567,10 @@
      "name": "PrimeIntellect | google/gemma-4-26b-a4b-it-20260403",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000053",
+      "completion": "0.000000056",
       "discount": 0,
       "input_cache_read": "0.000000009",
-      "prompt": "0.000000018"
+      "prompt": "0.000000019"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "bf16",
@@ -31166,6 +31459,58 @@
      },
      "supports_voice_cloning": false,
      "tag": "together"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "minimax/minimax-m3.1-flash",
+     "model_name": "MiniMax: MiniMax M3.1 Flash",
+     "name": "Wafer | minimax/minimax-m3.1-flash-20261019",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000006",
+      "discount": 0,
+      "input_cache_read": "0.000000015",
+      "prompt": "0.00000015"
+     },
+     "provider_name": "Wafer",
+     "quantization": "nvfp4",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "wafer/nvfp4"
     }
    ],
    "id": "minimax/minimax-m3.1-flash",
@@ -36430,100 +36775,6 @@
      "max_prompt_tokens": null,
      "model_id": "moonshotai/kimi-k3",
      "model_name": "MoonshotAI: Kimi K3",
-     "name": "Sail Research | moonshotai/kimi-k3-20260715",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00001658",
-      "discount": 0,
-      "input_cache_read": "0.0000001725",
-      "prompt": "0.000000345"
-     },
-     "provider_name": "Sail Research",
-     "quantization": "fp4",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "sail-research/fp4/us"
-    },
-    {
-     "context_length": 1048576,
-     "max_completion_tokens": 943718,
-     "max_prompt_tokens": null,
-     "model_id": "moonshotai/kimi-k3",
-     "model_name": "MoonshotAI: Kimi K3",
-     "name": "Sail Research | moonshotai/kimi-k3-20260715",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.00001658",
-      "discount": 0,
-      "input_cache_read": "0.0000001725",
-      "prompt": "0.000000345"
-     },
-     "provider_name": "Sail Research",
-     "quantization": "fp4",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "max_tokens",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "sail-research/fp4"
-    },
-    {
-     "context_length": 1048576,
-     "max_completion_tokens": 943718,
-     "max_prompt_tokens": null,
-     "model_id": "moonshotai/kimi-k3",
-     "model_name": "MoonshotAI: Kimi K3",
      "name": "Together | moonshotai/kimi-k3-20260715",
      "native_tools": {},
      "pricing": {
@@ -38444,6 +38695,51 @@
    "endpoints": [
     {
      "context_length": 262144,
+     "max_completion_tokens": 235929,
+     "max_prompt_tokens": null,
+     "model_id": "nvidia/nemotron-3-super-120b-a12b",
+     "model_name": "NVIDIA: Nemotron 3 Super",
+     "name": "DeepInfra | nvidia/nemotron-3-super-120b-a12b-20230311",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000032",
+      "discount": 0,
+      "prompt": "0.00000006"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "bf16",
+     "service_tier": "flex",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "temperature",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/bf16/flex"
+    },
+    {
+     "context_length": 262144,
      "max_completion_tokens": 16384,
      "max_prompt_tokens": null,
      "model_id": "nvidia/nemotron-3-super-120b-a12b",
@@ -38490,6 +38786,51 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/bf16"
+    },
+    {
+     "context_length": 262144,
+     "max_completion_tokens": 235929,
+     "max_prompt_tokens": null,
+     "model_id": "nvidia/nemotron-3-super-120b-a12b",
+     "model_name": "NVIDIA: Nemotron 3 Super",
+     "name": "DeepInfra | nvidia/nemotron-3-super-120b-a12b-20230311",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000006",
+      "discount": 0,
+      "prompt": "0.0000001125"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "bf16",
+     "service_tier": "priority",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "temperature",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/bf16/priority"
     },
     {
      "context_length": 262144,
@@ -38700,6 +39041,56 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/fp4"
+    },
+    {
+     "context_length": 262144,
+     "max_completion_tokens": 16384,
+     "max_prompt_tokens": null,
+     "model_id": "nvidia/nemotron-3-ultra-550b-a55b",
+     "model_name": "NVIDIA: Nemotron 3 Ultra",
+     "name": "DeepInfra | nvidia/nemotron-3-ultra-550b-a55b-20260604",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000033",
+      "discount": 0,
+      "input_cache_read": "0.00000015",
+      "prompt": "0.00000075"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp4",
+     "service_tier": "priority",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": false,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp4/priority"
     },
     {
      "context_length": 262144,
@@ -51998,8 +52389,8 @@
      "pricing": {
       "completion": "0.00000025",
       "discount": 0,
-      "input_cache_read": "0.000000055",
-      "prompt": "0.000000055"
+      "input_cache_read": "0.00000007",
+      "prompt": "0.00000007"
      },
      "provider_name": "Mancer 2",
      "quantization": "fp8",
@@ -52249,10 +52640,10 @@
      "name": "PrimeIntellect | openai/gpt-oss-120b",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000121",
+      "completion": "0.000000087",
       "discount": 0,
-      "input_cache_read": "0.000000051",
-      "prompt": "0.000000056"
+      "input_cache_read": "0.000000037",
+      "prompt": "0.000000041"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp4",
@@ -52765,6 +53156,55 @@
      },
      "supports_voice_cloning": false,
      "tag": "darkbloom/fp8"
+    },
+    {
+     "context_length": 131072,
+     "max_completion_tokens": 117964,
+     "max_prompt_tokens": null,
+     "model_id": "openai/gpt-oss-20b",
+     "model_name": "OpenAI: gpt-oss-20b",
+     "name": "DeepInfra | openai/gpt-oss-20b",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.000000112",
+      "discount": 0,
+      "prompt": "0.000000024"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "bf16",
+     "service_tier": "flex",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/bf16/flex"
     },
     {
      "context_length": 131072,
@@ -54044,6 +54484,50 @@
    "endpoints": [
     {
      "context_length": 32768,
+     "max_completion_tokens": 29491,
+     "max_prompt_tokens": null,
+     "model_id": "qwen/qwen-2.5-72b-instruct",
+     "model_name": "Qwen2.5 72B Instruct",
+     "name": "DeepInfra | qwen/qwen-2.5-72b-instruct",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000032",
+      "discount": 0,
+      "prompt": "0.000000288"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp8",
+     "service_tier": "flex",
+     "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp8/flex"
+    },
+    {
+     "context_length": 32768,
      "max_completion_tokens": 16384,
      "max_prompt_tokens": null,
      "model_id": "qwen/qwen-2.5-72b-instruct",
@@ -54312,6 +54796,51 @@
    "endpoints": [
     {
      "context_length": 40960,
+     "max_completion_tokens": 36864,
+     "max_prompt_tokens": null,
+     "model_id": "qwen/qwen3-14b",
+     "model_name": "Qwen: Qwen3 14B",
+     "name": "DeepInfra | qwen/qwen3-14b-04-28",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.000000192",
+      "discount": 0,
+      "prompt": "0.000000096"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp8",
+     "service_tier": "flex",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "temperature",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp8/flex"
+    },
+    {
+     "context_length": 40960,
      "max_completion_tokens": 16384,
      "max_prompt_tokens": null,
      "model_id": "qwen/qwen3-14b",
@@ -54357,6 +54886,52 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/fp8"
+    },
+    {
+     "context_length": 40960,
+     "max_completion_tokens": 36864,
+     "max_prompt_tokens": null,
+     "model_id": "qwen/qwen3-14b",
+     "model_name": "Qwen: Qwen3 14B",
+     "name": "DeepInfra | qwen/qwen3-14b-04-28",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000036",
+      "discount": 0,
+      "prompt": "0.00000018"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp8",
+     "service_tier": "priority",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp8/priority"
     },
     {
      "context_length": 40960,
@@ -54903,6 +55478,52 @@
    "endpoints": [
     {
      "context_length": 40960,
+     "max_completion_tokens": 36864,
+     "max_prompt_tokens": null,
+     "model_id": "qwen/qwen3-32b",
+     "model_name": "Qwen: Qwen3 32B",
+     "name": "DeepInfra | qwen/qwen3-32b-04-28",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.000000224",
+      "discount": 0,
+      "prompt": "0.000000064"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp8",
+     "service_tier": "flex",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp8/flex"
+    },
+    {
+     "context_length": 40960,
      "max_completion_tokens": 16384,
      "max_prompt_tokens": null,
      "model_id": "qwen/qwen3-32b",
@@ -54948,6 +55569,51 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/fp8"
+    },
+    {
+     "context_length": 40960,
+     "max_completion_tokens": 36864,
+     "max_prompt_tokens": null,
+     "model_id": "qwen/qwen3-32b",
+     "model_name": "Qwen: Qwen3 32B",
+     "name": "DeepInfra | qwen/qwen3-32b-04-28",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000042",
+      "discount": 0,
+      "prompt": "0.00000012"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp8",
+     "service_tier": "priority",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "temperature",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp8/priority"
     },
     {
      "context_length": 131072,
@@ -56721,6 +57387,55 @@
      "name": "DeepInfra | qwen/qwen3.5-35b-a3b-20260224",
      "native_tools": {},
      "pricing": {
+      "completion": "0.0000008",
+      "discount": 0,
+      "input_cache_read": "0.00000004",
+      "prompt": "0.000000112"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp8",
+     "service_tier": "flex",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp8/flex"
+    },
+    {
+     "context_length": 262144,
+     "max_completion_tokens": 81920,
+     "max_prompt_tokens": null,
+     "model_id": "qwen/qwen3.5-35b-a3b",
+     "model_name": "Qwen: Qwen3.5-35B-A3B",
+     "name": "DeepInfra | qwen/qwen3.5-35b-a3b-20260224",
+     "native_tools": {},
+     "pricing": {
       "completion": "0.000001",
       "discount": 0,
       "input_cache_read": "0.00000005",
@@ -57466,10 +58181,10 @@
      "name": "PrimeIntellect | qwen/qwen3.5-9b-20260310",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000013",
+      "completion": "0.000000093",
       "discount": 0,
-      "input_cache_read": "0.00000008",
-      "prompt": "0.000000089"
+      "input_cache_read": "0.000000057",
+      "prompt": "0.000000063"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "bf16",
@@ -57937,6 +58652,54 @@
      "name": "DeepInfra | qwen/qwen3.6-27b-20260422",
      "native_tools": {},
      "pricing": {
+      "completion": "0.00000256",
+      "discount": 0,
+      "prompt": "0.000000256"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp8",
+     "service_tier": "flex",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp8/flex"
+    },
+    {
+     "context_length": 262144,
+     "max_completion_tokens": 81920,
+     "max_prompt_tokens": null,
+     "model_id": "qwen/qwen3.6-27b",
+     "model_name": "Qwen: Qwen3.6 27B",
+     "name": "DeepInfra | qwen/qwen3.6-27b-20260422",
+     "native_tools": {},
+     "pricing": {
       "completion": "0.0000032",
       "discount": 0,
       "prompt": "0.00000032"
@@ -57975,6 +58738,54 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/fp8"
+    },
+    {
+     "context_length": 262144,
+     "max_completion_tokens": 81920,
+     "max_prompt_tokens": null,
+     "model_id": "qwen/qwen3.6-27b",
+     "model_name": "Qwen: Qwen3.6 27B",
+     "name": "DeepInfra | qwen/qwen3.6-27b-20260422",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000048",
+      "discount": 0,
+      "prompt": "0.00000048"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp8",
+     "service_tier": "priority",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": false
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp8/priority"
     },
     {
      "context_length": 262144,
@@ -58334,6 +59145,55 @@
      "name": "DeepInfra | qwen/qwen3.6-35b-a3b-20260415",
      "native_tools": {},
      "pricing": {
+      "completion": "0.00000076",
+      "discount": 0,
+      "input_cache_read": "0.00000008",
+      "prompt": "0.00000008"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp8",
+     "service_tier": "flex",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp8/flex"
+    },
+    {
+     "context_length": 262144,
+     "max_completion_tokens": 65536,
+     "max_prompt_tokens": null,
+     "model_id": "qwen/qwen3.6-35b-a3b",
+     "model_name": "Qwen: Qwen3.6 35B A3B",
+     "name": "DeepInfra | qwen/qwen3.6-35b-a3b-20260415",
+     "native_tools": {},
+     "pricing": {
       "completion": "0.00000095",
       "discount": 0,
       "input_cache_read": "0.0000001",
@@ -58373,6 +59233,55 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/fp8"
+    },
+    {
+     "context_length": 262144,
+     "max_completion_tokens": 65536,
+     "max_prompt_tokens": null,
+     "model_id": "qwen/qwen3.6-35b-a3b",
+     "model_name": "Qwen: Qwen3.6 35B A3B",
+     "name": "DeepInfra | qwen/qwen3.6-35b-a3b-20260415",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.000001425",
+      "discount": 0,
+      "input_cache_read": "0.00000015",
+      "prompt": "0.00000015"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp8",
+     "service_tier": "priority",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp8/priority"
     },
     {
      "context_length": 262144,
@@ -58481,10 +59390,10 @@
      "name": "PrimeIntellect | qwen/qwen3.6-35b-a3b-20260415",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000132",
+      "completion": "0.00000012",
       "discount": 0,
-      "input_cache_read": "0.000000013",
-      "prompt": "0.000000014"
+      "input_cache_read": "0.000000012",
+      "prompt": "0.000000013"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp8",
@@ -60226,10 +61135,10 @@
      "name": "PrimeIntellect | qwen/qwen3.8-27b-20260814",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000664",
+      "completion": "0.000000493",
       "discount": 0,
-      "input_cache_read": "0.00000001",
-      "prompt": "0.000000093"
+      "input_cache_read": "0.000000008",
+      "prompt": "0.000000069"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp8",
@@ -61937,6 +62846,48 @@
    "endpoints": [
     {
      "context_length": 131072,
+     "max_completion_tokens": 117964,
+     "max_prompt_tokens": null,
+     "model_id": "sao10k/l3.1-euryale-70b",
+     "model_name": "Sao10K: Llama 3.1 Euryale 70B v2.2",
+     "name": "DeepInfra | sao10k/l3.1-euryale-70b",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000068",
+      "discount": 0,
+      "prompt": "0.00000068"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp8",
+     "service_tier": "flex",
+     "supported_parameters": [
+      "frequency_penalty",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "temperature",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp8/flex"
+    },
+    {
+     "context_length": 131072,
      "max_completion_tokens": 16384,
      "max_prompt_tokens": null,
      "model_id": "sao10k/l3.1-euryale-70b",
@@ -62765,9 +63716,9 @@
      "name": "Tencent | tencent/hy3-20260706",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000033",
+      "completion": "0.000000528",
       "discount": 0,
-      "input_cache_read": "0.000000020625",
+      "input_cache_read": "0.000000033",
       "overrides": [
        {
         "completion": "0.00000033",
@@ -62784,7 +63735,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000000825"
+      "prompt": "0.000000132"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -63201,9 +64152,9 @@
      "name": "Tencent | tencent/hy4-preview-20260827",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000022509",
+      "completion": "0.000002501",
       "discount": 0,
-      "input_cache_read": "0.0000000378",
+      "input_cache_read": "0.000000042",
       "overrides": [
        {
         "completion": "0.0000022509",
@@ -63220,7 +64171,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.0000007506"
+      "prompt": "0.000000834"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -63250,6 +64201,51 @@
      },
      "supports_voice_cloning": false,
      "tag": "tencent/fp8"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 64000,
+     "max_prompt_tokens": null,
+     "model_id": "tencent/hy4-preview",
+     "model_name": "Tencent: Hy4 preview",
+     "name": "Venice | tencent/hy4-preview-20260827",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00000312625",
+      "discount": 0,
+      "input_cache_read": "0.0000000525",
+      "prompt": "0.0000010425"
+     },
+     "provider_name": "Venice",
+     "quantization": "fp4",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "venice/fp4"
     }
    ],
    "id": "tencent/hy4-preview",
@@ -70119,6 +71115,56 @@
     },
     {
      "context_length": 1048576,
+     "max_completion_tokens": 163840,
+     "max_prompt_tokens": null,
+     "model_id": "z-ai/glm-5.2",
+     "model_name": "Z.ai: GLM 5.2",
+     "name": "DeepInfra | z-ai/glm-5.2-20260616",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000027",
+      "discount": 0.25,
+      "input_cache_read": "0.0000001575",
+      "prompt": "0.00000084375"
+     },
+     "provider_name": "DeepInfra",
+     "quantization": "fp4",
+     "service_tier": "priority",
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "deepinfra/fp4/priority"
+    },
+    {
+     "context_length": 1048576,
      "max_completion_tokens": 131072,
      "max_prompt_tokens": null,
      "model_id": "z-ai/glm-5.2",
@@ -70410,10 +71456,10 @@
      "name": "Morph | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001978",
+      "completion": "0.000001831",
       "discount": 0,
-      "input_cache_read": "0.000000217",
-      "prompt": "0.000000643"
+      "input_cache_read": "0.000000201",
+      "prompt": "0.000000595"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -71671,10 +72717,10 @@
      "name": "Decart | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000179",
+      "completion": "0.00000217",
       "discount": 0,
-      "input_cache_read": "0.0000001",
-      "prompt": "0.00000056"
+      "input_cache_read": "0.00000012",
+      "prompt": "0.00000068"
      },
      "provider_name": "Decart",
      "quantization": "fp4",
@@ -72484,10 +73530,10 @@
      "name": "Morph | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001978",
+      "completion": "0.000001831",
       "discount": 0,
-      "input_cache_read": "0.000000217",
-      "prompt": "0.000000643"
+      "input_cache_read": "0.000000201",
+      "prompt": "0.000000595"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -72571,7 +73617,7 @@
      "supports_multiple_audio_references": false,
      "supports_tool_choice": {
       "auto": true,
-      "function": true,
+      "function": false,
       "none": true,
       "required": false
      },
@@ -72643,7 +73689,7 @@
       "prompt": "0.0000014"
      },
      "provider_name": "Parasail",
-     "quantization": "fp8",
+     "quantization": "fp4",
      "service_tier": null,
      "supported_parameters": [
       "frequency_penalty",
@@ -72677,7 +73723,7 @@
       "required": false
      },
      "supports_voice_cloning": false,
-     "tag": "parasail/fp8"
+     "tag": "parasail/fp4"
     },
     {
      "context_length": 1048576,
@@ -72694,7 +73740,7 @@
       "prompt": "0.0000021"
      },
      "provider_name": "Parasail",
-     "quantization": "fp8",
+     "quantization": "fp4",
      "service_tier": "priority",
      "supported_parameters": [
       "frequency_penalty",
@@ -73019,7 +74065,7 @@
      "name": "Tenstorrent | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000025",
+      "completion": "0.000002",
       "discount": 0,
       "input_cache_read": "0.0000001",
       "prompt": "0.0000006"
