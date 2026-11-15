@@ -11567,8 +11567,8 @@
      "pricing": {
       "completion": "0.00000023",
       "discount": 0,
-      "input_cache_read": "0.000000115",
-      "prompt": "0.00000012"
+      "input_cache_read": "0.000000095",
+      "prompt": "0.0000001"
      },
      "provider_name": "Wafer",
      "quantization": "nvfp4",
@@ -17069,10 +17069,10 @@
      "name": "Morph | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000054",
+      "completion": "0.0000004",
       "discount": 0,
       "input_cache_read": "0.000000004",
-      "prompt": "0.000000096"
+      "prompt": "0.000000045"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -17707,7 +17707,7 @@
       "completion": "0.000000108",
       "discount": 0,
       "input_cache_read": "0.000000007",
-      "prompt": "0.00000007272"
+      "prompt": "0.00000002"
      },
      "provider_name": "Sail Research",
      "quantization": "fp4",
@@ -17742,7 +17742,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "sail-research/fp4/us"
+     "tag": "sail-research/fp4"
     },
     {
      "context_length": 1048576,
@@ -17791,7 +17791,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "sail-research/fp4"
+     "tag": "sail-research/fp4/us"
     },
     {
      "context_length": 1048576,
@@ -25848,10 +25848,10 @@
      "name": "PrimeIntellect | google/gemma-4-26b-a4b-it-20260403",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000117",
+      "completion": "0.000000038",
       "discount": 0,
-      "input_cache_read": "0.00000002",
-      "prompt": "0.000000039"
+      "input_cache_read": "0.000000006",
+      "prompt": "0.000000013"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "bf16",
@@ -38187,10 +38187,10 @@
      "name": "Morph | moonshotai/kimi-k3.1-pro-20261023",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000882",
+      "completion": "0.0000099",
       "discount": 0,
-      "input_cache_read": "0.000000221",
-      "prompt": "0.000000692"
+      "input_cache_read": "0.00000021",
+      "prompt": "0.00000066"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -38388,10 +38388,10 @@
      "name": "Relace | moonshotai/kimi-k3.1-pro-20261023",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000084114",
+      "completion": "0.0000084023",
       "discount": 0,
       "input_cache_read": "0.0000002",
-      "prompt": "0.0000002375"
+      "prompt": "0.0000002403"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -53971,10 +53971,10 @@
      "name": "PrimeIntellect | openai/gpt-oss-20b",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000003",
+      "completion": "0.000000032",
       "discount": 0,
-      "input_cache_read": "0.000000018",
-      "prompt": "0.00000002"
+      "input_cache_read": "0.000000019",
+      "prompt": "0.000000021"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp4",
@@ -59077,10 +59077,10 @@
      "name": "PrimeIntellect | qwen/qwen3.5-9b-20260310",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000025",
+      "completion": "0.000000028",
       "discount": 0,
-      "input_cache_read": "0.000000153",
-      "prompt": "0.00000017"
+      "input_cache_read": "0.000000017",
+      "prompt": "0.000000019"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "bf16",
@@ -60286,10 +60286,10 @@
      "name": "PrimeIntellect | qwen/qwen3.6-35b-a3b-20260415",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000291",
+      "completion": "0.000000101",
       "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.000000032"
+      "input_cache_read": "0.00000001",
+      "prompt": "0.000000011"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp8",
@@ -62031,10 +62031,10 @@
      "name": "PrimeIntellect | qwen/qwen3.8-27b-20260814",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000472",
+      "completion": "0.000000505",
       "discount": 0,
-      "input_cache_read": "0.000000007",
-      "prompt": "0.000000066"
+      "input_cache_read": "0.000000008",
+      "prompt": "0.000000071"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp8",
@@ -72350,6 +72350,58 @@
      "max_prompt_tokens": null,
      "model_id": "z-ai/glm-5.2",
      "model_name": "Z.ai: GLM 5.2",
+     "name": "Morph | z-ai/glm-5.2-20260616",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.000001978",
+      "discount": 0,
+      "input_cache_read": "0.000000217",
+      "prompt": "0.000000643"
+     },
+     "provider_name": "Morph",
+     "quantization": "fp8",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "logit_bias",
+      "logprobs",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "repetition_penalty",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_logprobs",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "morph/fp8"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "z-ai/glm-5.2",
+     "model_name": "Z.ai: GLM 5.2",
      "name": "Nebius | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
@@ -73795,10 +73847,10 @@
      "name": "Featherless | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000014",
-      "discount": 0.6,
-      "input_cache_read": "0.000000048",
-      "prompt": "0.0000002"
+      "completion": "0.0000044",
+      "discount": 0,
+      "input_cache_read": "0.00000026",
+      "prompt": "0.0000014"
      },
      "provider_name": "Featherless",
      "quantization": "unknown",
@@ -74425,10 +74477,10 @@
      "name": "Morph | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001978",
+      "completion": "0.000002374",
       "discount": 0,
-      "input_cache_read": "0.000000217",
-      "prompt": "0.000000643"
+      "input_cache_read": "0.00000026",
+      "prompt": "0.000000772"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -76239,10 +76291,10 @@
      "name": "Morph | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000166",
+      "completion": "0.000000122",
       "discount": 0,
-      "input_cache_read": "0.000000068",
-      "prompt": "0.000000158"
+      "input_cache_read": "0.00000005",
+      "prompt": "0.000000116"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
