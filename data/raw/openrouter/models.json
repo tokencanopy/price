@@ -3755,7 +3755,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 1000000,
-    "is_moderated": false,
+    "is_moderated": true,
     "max_completion_tokens": 128000
    }
   },
@@ -9066,9 +9066,9 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000002",
-    "input_cache_read": "0.000000002",
-    "prompt": "0.000000023"
+    "completion": "0.000000253",
+    "input_cache_read": "0.000000003",
+    "prompt": "0.000000029"
    },
    "reasoning": {
     "default_effort": "high",
@@ -15546,7 +15546,7 @@
    "name": "IBM: Granite 4.2 8B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000025",
+    "completion": "0.00000015",
     "input_cache_read": "0.000000015",
     "prompt": "0.00000006"
    },
@@ -19062,8 +19062,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -19080,7 +19080,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.000000075"
    },
    "reasoning": {
     "default_effort": "max",
@@ -22545,9 +22545,9 @@
    "name": "MoonshotAI: Kimi K3.1 Pro",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000084023",
+    "completion": "0.00001",
     "input_cache_read": "0.0000002",
-    "prompt": "0.0000002403"
+    "prompt": "0.000002"
    },
    "reasoning": {
     "default_effort": "max",
@@ -22744,9 +22744,9 @@
    "name": "MoonshotAI: Kimi K3.1 Pro (batch)",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000495",
-    "input_cache_read": "0.000000105",
-    "prompt": "0.00000033"
+    "completion": "0.000006",
+    "input_cache_read": "0.0000001",
+    "prompt": "0.0000007"
    },
    "reasoning": {
     "default_effort": "max",
@@ -22762,18 +22762,14 @@
    "supported_parameters": [
     "frequency_penalty",
     "include_reasoning",
-    "logit_bias",
     "max_tokens",
-    "min_p",
     "presence_penalty",
     "reasoning",
     "reasoning_effort",
-    "repetition_penalty",
     "seed",
     "stop",
     "temperature",
-    "top_k",
-    "top_p"
+    "top_k"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -36630,11 +36626,8 @@
     "prompt": "0.00000015"
    },
    "supported_parameters": [
-    "frequency_penalty",
     "max_tokens",
-    "response_format",
     "stop",
-    "structured_outputs",
     "temperature",
     "tool_choice",
     "tools",
@@ -37000,73 +36993,6 @@
     "context_length": 262144,
     "is_moderated": false,
     "max_completion_tokens": 16384
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Qwen3"
-   },
-   "canonical_slug": "qwen/qwen3-vl-30b-a3b-thinking",
-   "context_length": 262144,
-   "created": 1759794479,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "presence_penalty": null,
-    "repetition_penalty": 1,
-    "temperature": 0.8,
-    "top_k": 20,
-    "top_p": 0.95
-   },
-   "description": "Qwen3-VL-30B-A3B-Thinking is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Thinking variant enhances reasoning in STEM, math, and complex tasks. It excels...",
-   "endpoints": [
-    "/api/v1/chat/completions",
-    "/api/v1/completions",
-    "/api/v1/messages",
-    "/api/v1/responses"
-   ],
-   "expiration_date": "2026-11-15",
-   "hugging_face_id": "Qwen/Qwen3-VL-30B-A3B-Thinking",
-   "id": "qwen/qwen3-vl-30b-a3b-thinking",
-   "knowledge_cutoff": "2025-03-31",
-   "links": {
-    "details": "/api/v1/models/qwen/qwen3-vl-30b-a3b-thinking/endpoints"
-   },
-   "name": "Qwen: Qwen3 VL 30B A3B Thinking",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.000001",
-    "prompt": "0.00000029"
-   },
-   "reasoning": {
-    "mandatory": true
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "max_tokens",
-    "reasoning",
-    "response_format",
-    "structured_outputs",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 262144,
-    "is_moderated": false,
-    "max_completion_tokens": 235929
    }
   },
   {
@@ -37566,9 +37492,9 @@
    "name": "Qwen: Qwen3.5-9B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000028",
-    "input_cache_read": "0.000000017",
-    "prompt": "0.000000019"
+    "completion": "0.000000046",
+    "input_cache_read": "0.000000028",
+    "prompt": "0.000000032"
    },
    "reasoning": {
     "mandatory": false
@@ -40505,70 +40431,6 @@
   {
    "architecture": {
     "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "canonical_slug": "stepfun/step-3.5-flash",
-   "context_length": 262144,
-   "created": 1769728337,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "presence_penalty": null,
-    "repetition_penalty": null,
-    "temperature": null,
-    "top_k": null,
-    "top_p": null
-   },
-   "description": "Step 3.5 Flash is StepFun's most capable open-source foundation model. Built on a sparse Mixture of Experts (MoE) architecture, it selectively activates only 11B of its 196B parameters per token....",
-   "endpoints": [
-    "/api/v1/chat/completions",
-    "/api/v1/completions",
-    "/api/v1/messages",
-    "/api/v1/responses"
-   ],
-   "expiration_date": "2026-11-15",
-   "hugging_face_id": "stepfun-ai/Step-3.5-Flash",
-   "id": "stepfun/step-3.5-flash",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/stepfun/step-3.5-flash/endpoints"
-   },
-   "name": "StepFun: Step 3.5 Flash",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.0000003",
-    "prompt": "0.0000001"
-   },
-   "reasoning": {
-    "mandatory": true
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "max_tokens",
-    "reasoning",
-    "temperature",
-    "tool_choice",
-    "tools",
-    "top_k",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 262144,
-    "is_moderated": false,
-    "max_completion_tokens": 65536
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
      "image",
      "text",
      "video"
@@ -40816,63 +40678,6 @@
     ],
     "tokenizer": "Other"
    },
-   "canonical_slug": "tencent/hunyuan-a13b-instruct",
-   "context_length": 131072,
-   "created": 1751987664,
-   "default_parameters": {},
-   "description": "Hunyuan-A13B is a 13B active parameter Mixture-of-Experts (MoE) language model developed by Tencent, with a total parameter count of 80B and support for reasoning via Chain-of-Thought. It offers competitive benchmark...",
-   "endpoints": [
-    "/api/v1/chat/completions",
-    "/api/v1/completions",
-    "/api/v1/messages",
-    "/api/v1/responses"
-   ],
-   "expiration_date": "2026-11-15",
-   "hugging_face_id": "tencent/Hunyuan-A13B-Instruct",
-   "id": "tencent/hunyuan-a13b-instruct",
-   "knowledge_cutoff": "2025-03-31",
-   "links": {
-    "details": "/api/v1/models/tencent/hunyuan-a13b-instruct/endpoints"
-   },
-   "name": "Tencent: Hunyuan A13B Instruct",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0.00000057",
-    "prompt": "0.00000014"
-   },
-   "reasoning": {
-    "mandatory": false
-   },
-   "supported_parameters": [
-    "frequency_penalty",
-    "include_reasoning",
-    "max_tokens",
-    "reasoning",
-    "response_format",
-    "structured_outputs",
-    "temperature",
-    "top_k",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 131072,
-    "is_moderated": false,
-    "max_completion_tokens": 117964
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
    "canonical_slug": "tencent/hy-mt2-1.8b-20260521",
    "context_length": 8192,
    "created": 1787231581,
@@ -41098,8 +40903,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -41116,7 +40921,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41381,8 +41186,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -41399,7 +41204,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -47629,9 +47434,9 @@
    "name": "Z.ai: GLM 5.3 (batch)",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000001187",
-    "input_cache_read": "0.00000013",
-    "prompt": "0.000000386"
+    "completion": "0.000002",
+    "input_cache_read": "0.0000001",
+    "prompt": "0.00000045"
    },
    "reasoning": {
     "default_effort": "max",
@@ -47669,7 +47474,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 131072
    }
   },
   {
@@ -49485,5 +49290,5 @@
  "links": {
   "next": null
  },
- "total_count": 470
+ "total_count": 467
 }
