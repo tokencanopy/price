@@ -8917,9 +8917,90 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000108",
-    "input_cache_read": "0.000000007",
-    "prompt": "0.00000002"
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006",
+    "overrides": [
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000015",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 0,
+      "utc_start": 1000
+     },
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000015",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 100,
+      "utc_start": 0
+     },
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000015",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 600,
+      "utc_start": 400
+     },
+     {
+      "completion": "0.0000006",
+      "input_cache_read": "0.000000003",
+      "prompt": "0.00000015",
+      "utc_days": [
+       "saturday",
+       "sunday"
+      ]
+     },
+     {
+      "completion": "0.0000012",
+      "input_cache_read": "0.000000006",
+      "prompt": "0.0000003",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 1000,
+      "utc_start": 600
+     },
+     {
+      "completion": "0.0000012",
+      "input_cache_read": "0.000000006",
+      "prompt": "0.0000003",
+      "utc_days": [
+       "friday",
+       "monday",
+       "thursday",
+       "tuesday",
+       "wednesday"
+      ],
+      "utc_end": 400,
+      "utc_start": 100
+     }
+    ],
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -8960,7 +9041,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -9066,9 +9147,9 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000253",
+    "completion": "0.000000325",
     "input_cache_read": "0.000000003",
-    "prompt": "0.000000029"
+    "prompt": "0.000000037"
    },
    "reasoning": {
     "default_effort": "high",
@@ -15067,9 +15148,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000225",
-    "input_cache_read": "0.0000000375",
-    "prompt": "0.0000000675"
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005",
+    "prompt": "0.00000009"
    },
    "reasoning": {
     "default_enabled": false,
@@ -15560,7 +15641,7 @@
    "name": "IBM: Granite 4.2 8B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000025",
+    "completion": "0.00000015",
     "input_cache_read": "0.000000015",
     "prompt": "0.00000006"
    },
@@ -18655,9 +18736,9 @@
    "name": "MiniMax: MiniMax M2.5",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000095",
-    "input_cache_read": "0.00000003",
-    "prompt": "0.00000027"
+    "completion": "0.0000012",
+    "input_cache_read": "0.00000006",
+    "prompt": "0.000000295"
    },
    "reasoning": {
     "mandatory": true
@@ -18685,9 +18766,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 198000,
+    "context_length": 196608,
     "is_moderated": false,
-    "max_completion_tokens": 32768
+    "max_completion_tokens": 176947
    }
   },
   {
@@ -19083,8 +19164,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -19101,7 +19182,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.000000075"
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "max",
@@ -22384,8 +22465,10 @@
     "include_reasoning",
     "logit_bias",
     "logprobs",
+    "max_completion_tokens",
     "max_tokens",
     "min_p",
+    "parallel_tool_calls",
     "presence_penalty",
     "reasoning",
     "reasoning_effort",
@@ -22566,9 +22649,9 @@
    "name": "MoonshotAI: Kimi K3.1 Pro",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000115",
-    "input_cache_read": "0.00000023",
-    "prompt": "0.0000023"
+    "completion": "0.0000084023",
+    "input_cache_read": "0.0000002",
+    "prompt": "0.0000002403"
    },
    "reasoning": {
     "default_effort": "max",
@@ -37428,9 +37511,9 @@
    "name": "Qwen: Qwen3.5 397B A17B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000036",
-    "input_cache_read": "0.00000012",
-    "prompt": "0.0000006"
+    "completion": "0.000003",
+    "input_cache_read": "0.00000022",
+    "prompt": "0.00000045"
    },
    "reasoning": {
     "mandatory": false
@@ -37458,9 +37541,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 256000,
+    "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 64000
+    "max_completion_tokens": 81920
    }
   },
   {
@@ -37513,9 +37596,9 @@
    "name": "Qwen: Qwen3.5-9B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000249",
-    "input_cache_read": "0.000000152",
-    "prompt": "0.000000169"
+    "completion": "0.000000082",
+    "input_cache_read": "0.00000005",
+    "prompt": "0.000000056"
    },
    "reasoning": {
     "mandatory": false
@@ -39438,6 +39521,83 @@
     "context_length": 1000000,
     "is_moderated": false,
     "max_completion_tokens": 131072
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "image",
+     "text",
+     "video"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+video->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Qwen"
+   },
+   "canonical_slug": "qwen/qwen4-max-20261115",
+   "context_length": 1000000,
+   "created": 1794795526,
+   "default_parameters": {},
+   "description": "Qwen4 Max is the flagship model in Alibaba's Qwen4 series. It accepts text, image, and video input and returns text, with a 1M-token context window and reasoning enabled by default....",
+   "endpoints": [
+    "/api/v1/chat/completions",
+    "/api/v1/completions",
+    "/api/v1/messages",
+    "/api/v1/responses"
+   ],
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "qwen/qwen4-max",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/qwen/qwen4-max-20261115/endpoints"
+   },
+   "name": "Qwen: Qwen4 Max",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.0000045",
+    "input_cache_read": "0.000000075",
+    "input_cache_write": "0.000001875",
+    "prompt": "0.0000015"
+   },
+   "reasoning": {
+    "default_effort": "high",
+    "default_enabled": true,
+    "mandatory": false,
+    "supported_efforts": [
+     "high",
+     "low",
+     "none",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "frequency_penalty",
+    "include_reasoning",
+    "logprobs",
+    "max_tokens",
+    "presence_penalty",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools",
+    "top_k",
+    "top_logprobs",
+    "top_p"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1000000,
+    "is_moderated": false,
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -48074,9 +48234,9 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000108",
-    "input_cache_read": "0.000000007",
-    "prompt": "0.00000002"
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000001",
+    "prompt": "0.000000036"
    },
    "reasoning": {
     "default_effort": "high",
@@ -48117,7 +48277,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 943718
    }
   },
   {
@@ -48529,8 +48689,10 @@
     "include_reasoning",
     "logit_bias",
     "logprobs",
+    "max_completion_tokens",
     "max_tokens",
     "min_p",
+    "parallel_tool_calls",
     "presence_penalty",
     "reasoning",
     "reasoning_effort",
@@ -49311,5 +49473,5 @@
  "links": {
   "next": null
  },
- "total_count": 467
+ "total_count": 468
 }
