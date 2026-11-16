@@ -1117,7 +1117,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 1000000,
-    "is_moderated": true,
+    "is_moderated": false,
     "max_completion_tokens": 128000
    }
   },
@@ -9147,7 +9147,7 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000312",
+    "completion": "0.000000311",
     "input_cache_read": "0.000000003",
     "prompt": "0.000000035"
    },
@@ -19192,8 +19192,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -19210,7 +19210,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.000000075"
    },
    "reasoning": {
     "default_effort": "max",
@@ -22876,9 +22876,9 @@
    "name": "MoonshotAI: Kimi K3.1 Pro (batch)",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000006",
-    "input_cache_read": "0.0000001",
-    "prompt": "0.0000007"
+    "completion": "0.000005391",
+    "input_cache_read": "0.000000115",
+    "prompt": "0.00000036"
    },
    "reasoning": {
     "default_effort": "max",
@@ -22894,14 +22894,18 @@
    "supported_parameters": [
     "frequency_penalty",
     "include_reasoning",
+    "logit_bias",
     "max_tokens",
+    "min_p",
     "presence_penalty",
     "reasoning",
     "reasoning_effort",
+    "repetition_penalty",
     "seed",
     "stop",
     "temperature",
-    "top_k"
+    "top_k",
+    "top_p"
    ],
    "supported_voices": null,
    "top_provider": {
@@ -37638,9 +37642,9 @@
    "name": "Qwen: Qwen3.5-9B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000025",
-    "input_cache_read": "0.000000153",
-    "prompt": "0.00000017"
+    "completion": "0.000000243",
+    "input_cache_read": "0.000000149",
+    "prompt": "0.000000166"
    },
    "reasoning": {
     "mandatory": false
@@ -41147,8 +41151,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -41165,7 +41169,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41398,6 +41402,67 @@
   {
    "architecture": {
     "input_modalities": [
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "Other"
+   },
+   "canonical_slug": "tencent/hy4-flash-20261116",
+   "context_length": 1048576,
+   "created": 1794838706,
+   "default_parameters": {},
+   "description": "Hy4 flash is a cost-efficient variant of [Hy4](https://openrouter.ai/tencent/hy4) from Tencent, served with roughly a quarter of the flagship's parameter count for lower latency and cost. It targets code assistance, agent...",
+   "endpoints": [
+    "/api/v1/chat/completions",
+    "/api/v1/completions",
+    "/api/v1/messages",
+    "/api/v1/responses"
+   ],
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "tencent/hy4-flash",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/tencent/hy4-flash-20261116/endpoints"
+   },
+   "name": "Tencent: Hy4 flash",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.000000175625",
+    "input_cache_read": "0.000000001875",
+    "prompt": "0.00000004375"
+   },
+   "reasoning": {
+    "default_enabled": true,
+    "mandatory": false
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_completion_tokens",
+    "max_tokens",
+    "reasoning",
+    "response_format",
+    "stop",
+    "structured_outputs",
+    "temperature",
+    "tool_choice",
+    "tools"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1048576,
+    "is_moderated": false,
+    "max_completion_tokens": 65536
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
      "text"
     ],
     "instruct_type": null,
@@ -41428,8 +41493,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -41446,7 +41511,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -49534,5 +49599,5 @@
  "links": {
   "next": null
  },
- "total_count": 468
+ "total_count": 469
 }
