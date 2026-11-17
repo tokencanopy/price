@@ -9080,9 +9080,9 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash 1017 (batch)",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000335",
-    "input_cache_read": "0.000000004",
-    "prompt": "0.000000038"
+    "completion": "0.00000015",
+    "input_cache_read": "0.000000003",
+    "prompt": "0.000000036"
    },
    "reasoning": {
     "default_effort": "high",
@@ -15123,9 +15123,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425",
-    "prompt": "0.0000000765"
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005",
+    "prompt": "0.00000009"
    },
    "reasoning": {
     "default_enabled": false,
@@ -19139,8 +19139,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -19157,7 +19157,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.000000075"
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "max",
@@ -22822,7 +22822,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000005583",
-    "input_cache_read": "0.000000119",
+    "input_cache_read": "0.0000001",
     "prompt": "0.000000372"
    },
    "reasoning": {
@@ -24003,9 +24003,9 @@
    "name": "NVIDIA: Nemotron 3 Ultra",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000024",
-    "input_cache_read": "0.00000012",
-    "prompt": "0.0000006"
+    "completion": "0.0000022",
+    "input_cache_read": "0.0000001",
+    "prompt": "0.0000005"
    },
    "reasoning": {
     "default_effort": "high",
@@ -24042,9 +24042,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 202800,
+    "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 182520
+    "max_completion_tokens": 16384
    }
   },
   {
@@ -37502,9 +37502,9 @@
    "name": "Qwen: Qwen3.5 397B A17B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000036",
-    "input_cache_read": "0.00000012",
-    "prompt": "0.0000006"
+    "completion": "0.000003",
+    "input_cache_read": "0.00000022",
+    "prompt": "0.00000045"
    },
    "reasoning": {
     "mandatory": false
@@ -37532,9 +37532,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 256000,
+    "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 64000
+    "max_completion_tokens": 81920
    }
   },
   {
@@ -37587,9 +37587,9 @@
    "name": "Qwen: Qwen3.5-9B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000247",
-    "input_cache_read": "0.000000151",
-    "prompt": "0.000000168"
+    "completion": "0.000000249",
+    "input_cache_read": "0.000000152",
+    "prompt": "0.000000169"
    },
    "reasoning": {
     "mandatory": false
@@ -41389,9 +41389,9 @@
    "name": "Tencent: Hy4 flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000175625",
-    "input_cache_read": "0.000000001875",
-    "prompt": "0.00000004375"
+    "completion": "0.0000001405",
+    "input_cache_read": "0.0000000015",
+    "prompt": "0.000000035"
    },
    "reasoning": {
     "default_enabled": true,
@@ -47532,7 +47532,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000000069",
-    "input_cache_read": "0.000000012",
+    "input_cache_read": "0.00000001",
     "prompt": "0.000000024"
    },
    "reasoning": {
@@ -47919,9 +47919,9 @@
    "name": "Z.ai: GLM 5.3 (batch)",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002",
-    "input_cache_read": "0.0000001",
-    "prompt": "0.00000045"
+    "completion": "0.00000125",
+    "input_cache_read": "0.000000062",
+    "prompt": "0.000000281"
    },
    "reasoning": {
     "default_effort": "max",
@@ -47959,7 +47959,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943718
    }
   },
   {
