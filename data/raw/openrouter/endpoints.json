@@ -9549,10 +9549,10 @@
      "name": "Baidu | deepseek/deepseek-v4-flash-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000028",
-      "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.00000014"
+      "completion": "0.00000009996",
+      "discount": 0.643,
+      "input_cache_read": "0.000000009996",
+      "prompt": "0.00000004998"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -9677,7 +9677,7 @@
      "supports_tool_choice": {
       "auto": true,
       "function": true,
-      "none": false,
+      "none": true,
       "required": true
      },
      "supports_voice_cloning": false,
@@ -10029,10 +10029,10 @@
      "name": "StreamLake | deepseek/deepseek-v4-flash-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000001652",
-      "discount": 0.41,
-      "input_cache_read": "0.00000001652",
-      "prompt": "0.0000000826"
+      "completion": "0.00000014",
+      "discount": 0.5,
+      "input_cache_read": "0.000000014",
+      "prompt": "0.00000007"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -10191,9 +10191,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001056",
+      "completion": "0.000000528",
       "discount": 0,
-      "input_cache_read": "0.0000000352",
+      "input_cache_read": "0.0000000176",
       "overrides": [
        {
         "completion": "0.000000528",
@@ -10210,7 +10210,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000352"
+      "prompt": "0.000000176"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -10254,9 +10254,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001122",
+      "completion": "0.000000561",
       "discount": 0,
-      "input_cache_read": "0.0000000374",
+      "input_cache_read": "0.0000000187",
       "overrides": [
        {
         "completion": "0.000000561",
@@ -10273,7 +10273,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000374"
+      "prompt": "0.000000187"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -10367,10 +10367,10 @@
      "name": "Baidu | deepseek/deepseek-v4-flash-20260731",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000132",
-      "discount": 0,
-      "input_cache_read": "0.000000014",
-      "prompt": "0.00000044"
+      "completion": "0.00000017952",
+      "discount": 0.864,
+      "input_cache_read": "0.000000001904",
+      "prompt": "0.00000005984"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -11567,8 +11567,8 @@
      "pricing": {
       "completion": "0.00000023",
       "discount": 0,
-      "input_cache_read": "0.000000125",
-      "prompt": "0.00000013"
+      "input_cache_read": "0.000000135",
+      "prompt": "0.00000014"
      },
      "provider_name": "Wafer",
      "quantization": "nvfp4",
@@ -12078,10 +12078,10 @@
      "name": "Baidu | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000338",
-      "discount": 0,
-      "input_cache_read": "0.00000014",
-      "prompt": "0.00000169"
+      "completion": "0.00000169338",
+      "discount": 0.499,
+      "input_cache_read": "0.00000007014",
+      "prompt": "0.00000084669"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -12494,10 +12494,10 @@
      "name": "StreamLake | deepseek/deepseek-v4-pro-20260423",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000191052",
-      "discount": 0.451,
-      "input_cache_read": "0.000000079605",
-      "prompt": "0.00000095526"
+      "completion": "0.000001689888",
+      "discount": 0.5144,
+      "input_cache_read": "0.000000070412",
+      "prompt": "0.000000844944"
      },
      "provider_name": "StreamLake",
      "quantization": "fp8",
@@ -12604,9 +12604,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000003366",
+      "completion": "0.0000017424",
       "discount": 0,
-      "input_cache_read": "0.0000001122",
+      "input_cache_read": "0.00000005808",
       "overrides": [
        {
         "completion": "0.0000017424",
@@ -12623,7 +12623,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000001122"
+      "prompt": "0.0000005808"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -12667,9 +12667,9 @@
      "name": "Alibaba | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000396",
+      "completion": "0.00000198",
       "discount": 0,
-      "input_cache_read": "0.000000132",
+      "input_cache_read": "0.000000066",
       "overrides": [
        {
         "completion": "0.00000198",
@@ -12686,7 +12686,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.00000132"
+      "prompt": "0.00000066"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -12780,10 +12780,10 @@
      "name": "Baidu | deepseek/deepseek-v4-pro-20260813",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000396",
-      "discount": 0,
-      "input_cache_read": "0.000000042",
-      "prompt": "0.00000132"
+      "completion": "0.00000395604",
+      "discount": 0.001,
+      "input_cache_read": "0.000000041958",
+      "prompt": "0.00000131868"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -13984,9 +13984,9 @@
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000072",
+      "completion": "0.00000036",
       "discount": 0,
-      "input_cache_read": "0.0000000036",
+      "input_cache_read": "0.0000000018",
       "overrides": [
        {
         "completion": "0.00000036",
@@ -14003,7 +14003,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.00000018"
+      "prompt": "0.00000009"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -14096,10 +14096,10 @@
      "name": "Baidu | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
-      "discount": 0,
-      "input_cache_read": "0.000000006",
-      "prompt": "0.0000003"
+      "completion": "0.0000002028",
+      "discount": 0.831,
+      "input_cache_read": "0.000000001014",
+      "prompt": "0.0000000507"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -15813,9 +15813,9 @@
      "name": "Alibaba | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000072",
+      "completion": "0.00000036",
       "discount": 0,
-      "input_cache_read": "0.0000000036",
+      "input_cache_read": "0.0000000018",
       "overrides": [
        {
         "completion": "0.00000036",
@@ -15832,7 +15832,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.00000018"
+      "prompt": "0.00000009"
      },
      "provider_name": "Alibaba",
      "quantization": "unknown",
@@ -15977,10 +15977,10 @@
      "name": "Baidu | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000113",
-      "discount": 0,
-      "input_cache_read": "0.000000006",
-      "prompt": "0.00000028"
+      "completion": "0.00000039437",
+      "discount": 0.651,
+      "input_cache_read": "0.000000002094",
+      "prompt": "0.00000009772"
      },
      "provider_name": "Baidu",
      "quantization": "fp8",
@@ -17124,10 +17124,10 @@
      "name": "Mistral | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
-      "discount": 0,
-      "input_cache_read": "0.000000007",
-      "prompt": "0.0000003"
+      "completion": "0.00000096",
+      "discount": 0.2,
+      "input_cache_read": "0.0000000056",
+      "prompt": "0.00000024"
      },
      "provider_name": "Mistral",
      "quantization": "fp8",
@@ -26872,10 +26872,10 @@
      "name": "PrimeIntellect | google/gemma-4-31b-it-20260402",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000335",
+      "completion": "0.000000321",
       "discount": 0,
-      "input_cache_read": "0.0000001",
-      "prompt": "0.0000002"
+      "input_cache_read": "0.000000096",
+      "prompt": "0.000000191"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp8",
@@ -31754,9 +31754,9 @@
      "name": "Minimax | minimax/minimax-m3.1-flash-20261019",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000006",
+      "completion": "0.0000003",
       "discount": 0,
-      "input_cache_read": "0.000000015",
+      "input_cache_read": "0.0000000075",
       "overrides": [
        {
         "completion": "0.0000003",
@@ -31773,7 +31773,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.00000015"
+      "prompt": "0.000000075"
      },
      "provider_name": "Minimax",
      "quantization": "unknown",
@@ -33133,49 +33133,6 @@
      "name": "Mistral | mistralai/mistral-medium-3",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000002",
-      "discount": 0,
-      "input_cache_read": "0.00000004",
-      "prompt": "0.0000004"
-     },
-     "provider_name": "Mistral",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "mistral/zdr"
-    },
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 104857,
-     "max_prompt_tokens": null,
-     "model_id": "mistralai/mistral-medium-3",
-     "model_name": "Mistral: Mistral Medium 3",
-     "name": "Mistral | mistralai/mistral-medium-3",
-     "native_tools": {},
-     "pricing": {
       "completion": "0.0000022",
       "discount": 0,
       "input_cache_read": "0.000000044",
@@ -33342,49 +33299,6 @@
    "created": 1755095639,
    "description": "Mistral Medium 3.1 is an updated version of Mistral Medium 3, which is a high-performance enterprise-grade language model designed to deliver frontier-level capabilities at significantly reduced operational cost. It balances...",
    "endpoints": [
-    {
-     "context_length": 131072,
-     "max_completion_tokens": 104857,
-     "max_prompt_tokens": null,
-     "model_id": "mistralai/mistral-medium-3.1",
-     "model_name": "Mistral: Mistral Medium 3.1",
-     "name": "Mistral | mistralai/mistral-medium-3.1",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.000002",
-      "discount": 0,
-      "input_cache_read": "0.00000004",
-      "prompt": "0.0000004"
-     },
-     "provider_name": "Mistral",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "mistral/zdr"
-    },
     {
      "context_length": 131072,
      "max_completion_tokens": 104857,
@@ -34307,49 +34221,6 @@
      },
      "supports_voice_cloning": false,
      "tag": "deepinfra/fp8/priority"
-    },
-    {
-     "context_length": 32768,
-     "max_completion_tokens": 26214,
-     "max_prompt_tokens": null,
-     "model_id": "mistralai/mistral-small-3.2-24b-instruct",
-     "model_name": "Mistral: Mistral Small 3.2 24B",
-     "name": "Mistral | mistralai/mistral-small-3.2-24b-instruct-2506",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000003",
-      "discount": 0,
-      "input_cache_read": "0.00000001",
-      "prompt": "0.0000001"
-     },
-     "provider_name": "Mistral",
-     "quantization": "unknown",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "max_tokens",
-      "presence_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "mistral/eu"
     },
     {
      "context_length": 131072,
@@ -35285,10 +35156,10 @@
      "name": "Baidu | moonshotai/kimi-k2.6-20260420",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000004",
-      "discount": 0,
-      "input_cache_read": "0.00000016",
-      "prompt": "0.00000095"
+      "completion": "0.00000164",
+      "discount": 0.59,
+      "input_cache_read": "0.0000000656",
+      "prompt": "0.0000003895"
      },
      "provider_name": "Baidu",
      "quantization": "fp4",
@@ -35712,10 +35583,10 @@
      "name": "Inceptron | moonshotai/kimi-k2.6-20260420",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000004",
+      "completion": "0.000003936",
       "discount": 0,
-      "input_cache_read": "0.00000022",
-      "prompt": "0.0000007995"
+      "input_cache_read": "0.00000023",
+      "prompt": "0.000000818"
      },
      "provider_name": "Inceptron",
      "quantization": "int4",
@@ -36249,7 +36120,7 @@
      "pricing": {
       "completion": "0.00000375",
       "discount": 0,
-      "input_cache_read": "0.00000016",
+      "input_cache_read": "0.00000017",
       "prompt": "0.0000007"
      },
      "provider_name": "Inceptron",
@@ -37207,8 +37078,8 @@
      "pricing": {
       "completion": "0.000014",
       "discount": 0,
-      "input_cache_read": "0.00000021",
-      "prompt": "0.0000021"
+      "input_cache_read": "0.00000019",
+      "prompt": "0.0000019"
      },
      "provider_name": "Io Net",
      "quantization": "fp4",
@@ -38535,10 +38406,10 @@
      "name": "Morph | moonshotai/kimi-k3.1-pro-20261023",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000011898",
+      "completion": "0.000012287",
       "discount": 0,
-      "input_cache_read": "0.000000252",
-      "prompt": "0.000000793"
+      "input_cache_read": "0.000000261",
+      "prompt": "0.000000819"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -38688,10 +38559,10 @@
      "name": "PrimaLabs | moonshotai/kimi-k3.1-pro-20261023",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000135",
+      "completion": "0.00001",
       "discount": 0,
-      "input_cache_read": "0.00000027",
-      "prompt": "0.0000027"
+      "input_cache_read": "0.0000002",
+      "prompt": "0.000002"
      },
      "provider_name": "PrimaLabs",
      "quantization": "mxfp4",
@@ -52328,6 +52199,750 @@
    "id": "openai/gpt-6.1-terra-pro",
    "name": "OpenAI: GPT-6.1 Terra Pro"
   },
+  "openai/gpt-6.2-astra": {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "created": 1794938423,
+   "description": "GPT-6.2 Astra is the flagship model in the GPT-6.2 series from OpenAI, built for the hardest projects. It is suited for real-world engineering, professional work and scientific research, with stronger...",
+   "endpoints": [
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6.2-astra",
+     "model_name": "OpenAI: GPT-6.2 Astra",
+     "name": "OpenAI | openai/gpt-6.2-astra-20261117",
+     "native_tools": {
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      },
+      "openrouter:web_search": {
+       "type": "web_search"
+      }
+     },
+     "pricing": {
+      "completion": "0.00004",
+      "discount": 0,
+      "input_cache_read": "0.0000004",
+      "input_cache_write": "0.00001",
+      "overrides": [
+       {
+        "completion": "0.00006",
+        "input_cache_read": "0.0000008",
+        "input_cache_write": "0.00002",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000016"
+       }
+      ],
+      "prompt": "0.000008",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6.2-astra",
+     "model_name": "OpenAI: GPT-6.2 Astra",
+     "name": "OpenAI | openai/gpt-6.2-astra-20261117",
+     "native_tools": {
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      },
+      "openrouter:web_search": {
+       "type": "web_search"
+      }
+     },
+     "pricing": {
+      "completion": "0.00008",
+      "discount": 0,
+      "input_cache_read": "0.0000008",
+      "input_cache_write": "0.00002",
+      "overrides": [
+       {
+        "completion": "0.00012",
+        "input_cache_read": "0.0000016",
+        "input_cache_write": "0.00004",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000032"
+       }
+      ],
+      "prompt": "0.000016",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "service_tier": "priority",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai/fast"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6.2-astra",
+     "model_name": "OpenAI: GPT-6.2 Astra",
+     "name": "OpenAI | openai/gpt-6.2-astra-20261117",
+     "native_tools": {
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      },
+      "openrouter:web_search": {
+       "type": "web_search"
+      }
+     },
+     "pricing": {
+      "completion": "0.00012",
+      "discount": 0,
+      "input_cache_read": "0.0000012",
+      "input_cache_write": "0.00003",
+      "overrides": [
+       {
+        "completion": "0.00018",
+        "input_cache_read": "0.0000024",
+        "input_cache_write": "0.00006",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000048"
+       }
+      ],
+      "prompt": "0.000024",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "service_tier": "ultrafast",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai/ultrafast"
+    }
+   ],
+   "id": "openai/gpt-6.2-astra",
+   "name": "OpenAI: GPT-6.2 Astra"
+  },
+  "openai/gpt-6.2-astra-pro": {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "created": 1794938432,
+   "description": "GPT-6.2 Astra Pro is the same underlying model as [GPT-6.2 Astra](https://openrouter.ai/openai/gpt-6.2-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
+   "endpoints": [
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6.2-astra-pro",
+     "model_name": "OpenAI: GPT-6.2 Astra Pro",
+     "name": "OpenAI | openai/gpt-6.2-astra-pro-20261117",
+     "native_tools": {
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      },
+      "openrouter:web_search": {
+       "type": "web_search"
+      }
+     },
+     "pricing": {
+      "completion": "0.00004",
+      "discount": 0,
+      "input_cache_read": "0.0000004",
+      "input_cache_write": "0.00001",
+      "overrides": [
+       {
+        "completion": "0.00006",
+        "input_cache_read": "0.0000008",
+        "input_cache_write": "0.00002",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000016"
+       }
+      ],
+      "prompt": "0.000008",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6.2-astra-pro",
+     "model_name": "OpenAI: GPT-6.2 Astra Pro",
+     "name": "OpenAI | openai/gpt-6.2-astra-pro-20261117",
+     "native_tools": {
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      },
+      "openrouter:web_search": {
+       "type": "web_search"
+      }
+     },
+     "pricing": {
+      "completion": "0.00008",
+      "discount": 0,
+      "input_cache_read": "0.0000008",
+      "input_cache_write": "0.00002",
+      "overrides": [
+       {
+        "completion": "0.00012",
+        "input_cache_read": "0.0000016",
+        "input_cache_write": "0.00004",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000032"
+       }
+      ],
+      "prompt": "0.000016",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "service_tier": "priority",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai/fast"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6.2-astra-pro",
+     "model_name": "OpenAI: GPT-6.2 Astra Pro",
+     "name": "OpenAI | openai/gpt-6.2-astra-pro-20261117",
+     "native_tools": {
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      },
+      "openrouter:web_search": {
+       "type": "web_search"
+      }
+     },
+     "pricing": {
+      "completion": "0.00012",
+      "discount": 0,
+      "input_cache_read": "0.0000012",
+      "input_cache_write": "0.00003",
+      "overrides": [
+       {
+        "completion": "0.00018",
+        "input_cache_read": "0.0000024",
+        "input_cache_write": "0.00006",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000048"
+       }
+      ],
+      "prompt": "0.000024",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "service_tier": "ultrafast",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai/ultrafast"
+    }
+   ],
+   "id": "openai/gpt-6.2-astra-pro",
+   "name": "OpenAI: GPT-6.2 Astra Pro"
+  },
+  "openai/gpt-6.2-sol": {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "created": 1794938371,
+   "description": "GPT-6.2 Sol is an upgrade to GPT-6.1 Sol from OpenAI, positioned below the flagship GPT-6.2 Astra in the GPT-6.2 series. It is an efficient, versatile model for everyday work, suited...",
+   "endpoints": [
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6.2-sol",
+     "model_name": "OpenAI: GPT-6.2 Sol",
+     "name": "OpenAI | openai/gpt-6.2-sol-20261117",
+     "native_tools": {
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      },
+      "openrouter:web_search": {
+       "type": "web_search"
+      }
+     },
+     "pricing": {
+      "completion": "0.00001",
+      "discount": 0,
+      "input_cache_read": "0.0000001",
+      "input_cache_write": "0.0000025",
+      "overrides": [
+       {
+        "completion": "0.000015",
+        "input_cache_read": "0.0000002",
+        "input_cache_write": "0.000005",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000004"
+       }
+      ],
+      "prompt": "0.000002",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6.2-sol",
+     "model_name": "OpenAI: GPT-6.2 Sol",
+     "name": "OpenAI | openai/gpt-6.2-sol-20261117",
+     "native_tools": {
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      },
+      "openrouter:web_search": {
+       "type": "web_search"
+      }
+     },
+     "pricing": {
+      "completion": "0.00002",
+      "discount": 0,
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.000005",
+      "overrides": [
+       {
+        "completion": "0.00003",
+        "input_cache_read": "0.0000004",
+        "input_cache_write": "0.00001",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000008"
+       }
+      ],
+      "prompt": "0.000004",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "service_tier": "priority",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai/fast"
+    }
+   ],
+   "id": "openai/gpt-6.2-sol",
+   "name": "OpenAI: GPT-6.2 Sol"
+  },
+  "openai/gpt-6.2-sol-pro": {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "created": 1794938409,
+   "description": "GPT-6.2 Sol Pro is the same underlying model as [GPT-6.2 Sol](https://openrouter.ai/openai/gpt-6.2-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
+   "endpoints": [
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6.2-sol-pro",
+     "model_name": "OpenAI: GPT-6.2 Sol Pro",
+     "name": "OpenAI | openai/gpt-6.2-sol-pro-20261117",
+     "native_tools": {
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      },
+      "openrouter:web_search": {
+       "type": "web_search"
+      }
+     },
+     "pricing": {
+      "completion": "0.00001",
+      "discount": 0,
+      "input_cache_read": "0.0000001",
+      "input_cache_write": "0.0000025",
+      "overrides": [
+       {
+        "completion": "0.000015",
+        "input_cache_read": "0.0000002",
+        "input_cache_write": "0.000005",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000004"
+       }
+      ],
+      "prompt": "0.000002",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "service_tier": null,
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6.2-sol-pro",
+     "model_name": "OpenAI: GPT-6.2 Sol Pro",
+     "name": "OpenAI | openai/gpt-6.2-sol-pro-20261117",
+     "native_tools": {
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      },
+      "openrouter:web_search": {
+       "type": "web_search"
+      }
+     },
+     "pricing": {
+      "completion": "0.00002",
+      "discount": 0,
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.000005",
+      "overrides": [
+       {
+        "completion": "0.00003",
+        "input_cache_read": "0.0000004",
+        "input_cache_write": "0.00001",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000008"
+       }
+      ],
+      "prompt": "0.000004",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "service_tier": "priority",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai/fast"
+    },
+    {
+     "context_length": 1050000,
+     "max_completion_tokens": 128000,
+     "max_prompt_tokens": 922000,
+     "model_id": "openai/gpt-6.2-sol-pro",
+     "model_name": "OpenAI: GPT-6.2 Sol Pro",
+     "name": "OpenAI | openai/gpt-6.2-sol-pro-20261117",
+     "native_tools": {
+      "openrouter:apply_patch": {
+       "type": "apply_patch"
+      },
+      "openrouter:web_search": {
+       "type": "web_search"
+      }
+     },
+     "pricing": {
+      "completion": "0.00003",
+      "discount": 0,
+      "input_cache_read": "0.0000003",
+      "input_cache_write": "0.0000075",
+      "overrides": [
+       {
+        "completion": "0.000045",
+        "input_cache_read": "0.0000006",
+        "input_cache_write": "0.000015",
+        "min_prompt_tokens": 272000,
+        "prompt": "0.000012"
+       }
+      ],
+      "prompt": "0.000006",
+      "web_search": "0.01"
+     },
+     "provider_name": "OpenAI",
+     "quantization": "unknown",
+     "service_tier": "ultrafast",
+     "supported_parameters": [
+      "include_reasoning",
+      "max_tokens",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "structured_outputs",
+      "tool_choice",
+      "tools",
+      "verbosity"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": false,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "openai/ultrafast"
+    }
+   ],
+   "id": "openai/gpt-6.2-sol-pro",
+   "name": "OpenAI: GPT-6.2 Sol Pro"
+  },
   "openai/gpt-audio": {
    "architecture": {
     "input_modalities": [
@@ -53401,10 +54016,10 @@
      "name": "PrimeIntellect | openai/gpt-oss-120b",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000075",
+      "completion": "0.000000158",
       "discount": 0,
-      "input_cache_read": "0.000000315",
-      "prompt": "0.00000035"
+      "input_cache_read": "0.000000066",
+      "prompt": "0.000000074"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp4",
@@ -54171,10 +54786,10 @@
      "name": "PrimeIntellect | openai/gpt-oss-20b",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000003",
+      "completion": "0.000000191",
       "discount": 0,
-      "input_cache_read": "0.000000018",
-      "prompt": "0.00000002"
+      "input_cache_read": "0.000000114",
+      "prompt": "0.000000127"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp4",
@@ -59272,10 +59887,10 @@
      "name": "PrimeIntellect | qwen/qwen3.5-9b-20260310",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000021",
+      "completion": "0.00000025",
       "discount": 0,
-      "input_cache_read": "0.000000129",
-      "prompt": "0.000000143"
+      "input_cache_read": "0.000000153",
+      "prompt": "0.00000017"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "bf16",
@@ -61823,57 +62438,6 @@
      "tag": "gmicloud/fp8"
     },
     {
-     "context_length": 65536,
-     "max_completion_tokens": 58982,
-     "max_prompt_tokens": null,
-     "model_id": "qwen/qwen3.8-27b",
-     "model_name": "Qwen: Qwen3.8 27B",
-     "name": "Io Net | qwen/qwen3.8-27b-20260814",
-     "native_tools": {},
-     "pricing": {
-      "completion": "0.0000009",
-      "discount": 0.5,
-      "input_cache_read": "0.000000015",
-      "prompt": "0.00000005"
-     },
-     "provider_name": "Io Net",
-     "quantization": "fp8",
-     "service_tier": null,
-     "supported_parameters": [
-      "frequency_penalty",
-      "include_reasoning",
-      "logprobs",
-      "max_tokens",
-      "min_p",
-      "presence_penalty",
-      "reasoning",
-      "reasoning_effort",
-      "repetition_penalty",
-      "response_format",
-      "seed",
-      "stop",
-      "structured_outputs",
-      "temperature",
-      "tool_choice",
-      "tools",
-      "top_k",
-      "top_logprobs",
-      "top_p"
-     ],
-     "supports_diarization": false,
-     "supports_image_reference": false,
-     "supports_implicit_caching": true,
-     "supports_multiple_audio_references": false,
-     "supports_tool_choice": {
-      "auto": true,
-      "function": true,
-      "none": true,
-      "required": true
-     },
-     "supports_voice_cloning": false,
-     "tag": "io-net/fp8"
-    },
-    {
      "context_length": 262144,
      "max_completion_tokens": 65536,
      "max_prompt_tokens": null,
@@ -62275,10 +62839,10 @@
      "name": "PrimeIntellect | qwen/qwen3.8-27b-20260814",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000001817",
+      "completion": "0.000001904",
       "discount": 0,
-      "input_cache_read": "0.000000028",
-      "prompt": "0.000000255"
+      "input_cache_read": "0.00000003",
+      "prompt": "0.000000268"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp8",
@@ -64805,9 +65369,9 @@
      "name": "Tencent | tencent/hy3-20260706",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000528",
+      "completion": "0.00000033",
       "discount": 0,
-      "input_cache_read": "0.000000033",
+      "input_cache_read": "0.000000020625",
       "overrides": [
        {
         "completion": "0.00000033",
@@ -64824,7 +65388,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000132"
+      "prompt": "0.0000000825"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -65254,9 +65818,9 @@
      "name": "Tencent | tencent/hy4-preview-20260827",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000002501",
+      "completion": "0.0000022509",
       "discount": 0,
-      "input_cache_read": "0.000000042",
+      "input_cache_read": "0.0000000378",
       "overrides": [
        {
         "completion": "0.0000022509",
@@ -65273,7 +65837,7 @@
         "utc_start": 0
        }
       ],
-      "prompt": "0.000000834"
+      "prompt": "0.0000007506"
      },
      "provider_name": "Tencent",
      "quantization": "fp8",
@@ -68942,9 +69506,9 @@
      "name": "Makora | xiaomi/mimo-v2.6-flash-20260921",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000004",
+      "completion": "0.00000035",
       "discount": 0,
-      "input_cache_read": "0.000000006",
+      "input_cache_read": "0.00000001",
       "prompt": "0.0000002"
      },
      "provider_name": "Makora",
@@ -72469,7 +73033,7 @@
       "prompt": "0.0000014"
      },
      "provider_name": "Mistral",
-     "quantization": "nvfp4",
+     "quantization": "unknown",
      "service_tier": null,
      "supported_parameters": [
       "frequency_penalty",
@@ -74345,7 +74909,7 @@
      "pricing": {
       "completion": "0.00000385",
       "discount": 0,
-      "input_cache_read": "0.000000135",
+      "input_cache_read": "0.0000001344",
       "prompt": "0.000001"
      },
      "provider_name": "Inceptron",
@@ -74492,10 +75056,10 @@
      "name": "Makora | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000036",
+      "completion": "0.000002",
       "discount": 0,
-      "input_cache_read": "0.00000016",
-      "prompt": "0.000001"
+      "input_cache_read": "0.0000002",
+      "prompt": "0.0000015"
      },
      "provider_name": "Makora",
      "quantization": "fp4",
@@ -74729,10 +75293,10 @@
      "name": "Morph | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000003",
+      "completion": "0.000004804",
       "discount": 0,
-      "input_cache_read": "0.00000013",
-      "prompt": "0.000000643"
+      "input_cache_read": "0.000000208",
+      "prompt": "0.00000103"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -76539,10 +77103,10 @@
      "name": "Morph | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000367",
+      "completion": "0.000000257",
       "discount": 0,
-      "input_cache_read": "0.000000064",
-      "prompt": "0.000000127"
+      "input_cache_read": "0.000000045",
+      "prompt": "0.000000089"
      },
      "provider_name": "Morph",
      "quantization": "fp8",

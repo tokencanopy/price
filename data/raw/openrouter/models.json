@@ -8779,9 +8779,9 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000567",
-    "input_cache_read": "0.000000018",
-    "prompt": "0.000000051"
+    "completion": "0.0000012",
+    "input_cache_read": "0.000000006",
+    "prompt": "0.0000003"
    },
    "reasoning": {
     "default_effort": "high",
@@ -19160,8 +19160,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -19178,7 +19178,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.000000075"
    },
    "reasoning": {
     "default_effort": "max",
@@ -20375,9 +20375,9 @@
    "name": "Mistral: Mistral Medium 3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002",
-    "input_cache_read": "0.00000004",
-    "prompt": "0.0000004"
+    "completion": "0.0000022",
+    "input_cache_read": "0.000000044",
+    "prompt": "0.00000044"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -20439,7 +20439,7 @@
     "/api/v1/messages",
     "/api/v1/responses"
    ],
-   "expiration_date": null,
+   "expiration_date": "2027-01-31",
    "hugging_face_id": "mistralai/Mistral-Medium-3.5-128B",
    "id": "mistralai/mistral-medium-3-5",
    "knowledge_cutoff": null,
@@ -20666,9 +20666,9 @@
    "name": "Mistral: Mistral Medium 3.1",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002",
-    "input_cache_read": "0.00000004",
-    "prompt": "0.0000004"
+    "completion": "0.0000022",
+    "input_cache_read": "0.000000044",
+    "prompt": "0.00000044"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -21100,9 +21100,8 @@
    "name": "Mistral: Mistral Small 3.2 24B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000003",
-    "input_cache_read": "0.00000001",
-    "prompt": "0.0000001"
+    "completion": "0.0000002",
+    "prompt": "0.000000075"
    },
    "supported_parameters": [
     "frequency_penalty",
@@ -21125,9 +21124,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 32768,
+    "context_length": 128000,
     "is_moderated": false,
-    "max_completion_tokens": 26214
+    "max_completion_tokens": 16384
    }
   },
   {
@@ -22214,7 +22213,7 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000375",
-    "input_cache_read": "0.00000016",
+    "input_cache_read": "0.00000017",
     "prompt": "0.0000007"
    },
    "reasoning": {
@@ -33451,6 +33450,330 @@
   {
    "architecture": {
     "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "canonical_slug": "openai/gpt-6.2-astra-20261117",
+   "context_length": 1050000,
+   "created": 1794938423,
+   "default_parameters": {},
+   "description": "GPT-6.2 Astra is the flagship model in the GPT-6.2 series from OpenAI, built for the hardest projects. It is suited for real-world engineering, professional work and scientific research, with stronger...",
+   "endpoints": [
+    "/api/v1/chat/completions",
+    "/api/v1/completions",
+    "/api/v1/messages",
+    "/api/v1/responses"
+   ],
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "openai/gpt-6.2-astra",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6.2-astra-20261117/endpoints"
+   },
+   "name": "OpenAI: GPT-6.2 Astra",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00004",
+    "input_cache_read": "0.0000004",
+    "input_cache_write": "0.00001",
+    "overrides": [
+     {
+      "completion": "0.00006",
+      "input_cache_read": "0.0000008",
+      "input_cache_write": "0.00002",
+      "min_prompt_tokens": 272000,
+      "prompt": "0.000016"
+     }
+    ],
+    "prompt": "0.000008",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "default_enabled": true,
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1050000,
+    "is_moderated": true,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "canonical_slug": "openai/gpt-6.2-astra-pro-20261117",
+   "context_length": 1050000,
+   "created": 1794938432,
+   "default_parameters": {},
+   "description": "GPT-6.2 Astra Pro is the same underlying model as [GPT-6.2 Astra](https://openrouter.ai/openai/gpt-6.2-astra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
+   "endpoints": [
+    "/api/v1/chat/completions",
+    "/api/v1/completions",
+    "/api/v1/messages",
+    "/api/v1/responses"
+   ],
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "openai/gpt-6.2-astra-pro",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6.2-astra-pro-20261117/endpoints"
+   },
+   "name": "OpenAI: GPT-6.2 Astra Pro",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00004",
+    "input_cache_read": "0.0000004",
+    "input_cache_write": "0.00001",
+    "overrides": [
+     {
+      "completion": "0.00006",
+      "input_cache_read": "0.0000008",
+      "input_cache_write": "0.00002",
+      "min_prompt_tokens": 272000,
+      "prompt": "0.000016"
+     }
+    ],
+    "prompt": "0.000008",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "default_enabled": true,
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1050000,
+    "is_moderated": true,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "canonical_slug": "openai/gpt-6.2-sol-20261117",
+   "context_length": 1050000,
+   "created": 1794938371,
+   "default_parameters": {},
+   "description": "GPT-6.2 Sol is an upgrade to GPT-6.1 Sol from OpenAI, positioned below the flagship GPT-6.2 Astra in the GPT-6.2 series. It is an efficient, versatile model for everyday work, suited...",
+   "endpoints": [
+    "/api/v1/chat/completions",
+    "/api/v1/completions",
+    "/api/v1/messages",
+    "/api/v1/responses"
+   ],
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "openai/gpt-6.2-sol",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6.2-sol-20261117/endpoints"
+   },
+   "name": "OpenAI: GPT-6.2 Sol",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00001",
+    "input_cache_read": "0.0000001",
+    "input_cache_write": "0.0000025",
+    "overrides": [
+     {
+      "completion": "0.000015",
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.000005",
+      "min_prompt_tokens": 272000,
+      "prompt": "0.000004"
+     }
+    ],
+    "prompt": "0.000002",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "default_enabled": true,
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1050000,
+    "is_moderated": true,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
+     "file",
+     "image",
+     "text"
+    ],
+    "instruct_type": null,
+    "modality": "text+image+file->text",
+    "output_modalities": [
+     "text"
+    ],
+    "tokenizer": "GPT"
+   },
+   "canonical_slug": "openai/gpt-6.2-sol-pro-20261117",
+   "context_length": 1050000,
+   "created": 1794938409,
+   "default_parameters": {},
+   "description": "GPT-6.2 Sol Pro is the same underlying model as [GPT-6.2 Sol](https://openrouter.ai/openai/gpt-6.2-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks. **Cost note:** pro mode spends far more...",
+   "endpoints": [
+    "/api/v1/chat/completions",
+    "/api/v1/completions",
+    "/api/v1/messages",
+    "/api/v1/responses"
+   ],
+   "expiration_date": null,
+   "hugging_face_id": null,
+   "id": "openai/gpt-6.2-sol-pro",
+   "knowledge_cutoff": null,
+   "links": {
+    "details": "/api/v1/models/openai/gpt-6.2-sol-pro-20261117/endpoints"
+   },
+   "name": "OpenAI: GPT-6.2 Sol Pro",
+   "per_request_limits": null,
+   "pricing": {
+    "completion": "0.00001",
+    "input_cache_read": "0.0000001",
+    "input_cache_write": "0.0000025",
+    "overrides": [
+     {
+      "completion": "0.000015",
+      "input_cache_read": "0.0000002",
+      "input_cache_write": "0.000005",
+      "min_prompt_tokens": 272000,
+      "prompt": "0.000004"
+     }
+    ],
+    "prompt": "0.000002",
+    "web_search": "0.01"
+   },
+   "reasoning": {
+    "default_effort": "medium",
+    "default_enabled": true,
+    "mandatory": true,
+    "supported_efforts": [
+     "high",
+     "low",
+     "max",
+     "medium",
+     "xhigh"
+    ]
+   },
+   "supported_parameters": [
+    "include_reasoning",
+    "max_tokens",
+    "reasoning",
+    "reasoning_effort",
+    "response_format",
+    "seed",
+    "structured_outputs",
+    "tool_choice",
+    "tools",
+    "verbosity"
+   ],
+   "supported_voices": null,
+   "top_provider": {
+    "context_length": 1050000,
+    "is_moderated": true,
+    "max_completion_tokens": 128000
+   }
+  },
+  {
+   "architecture": {
+    "input_modalities": [
      "audio",
      "text"
     ],
@@ -33962,9 +34285,9 @@
    "name": "OpenAI: gpt-oss-20b",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000013",
-    "input_cache_read": "0.00000003",
-    "prompt": "0.00000003"
+    "completion": "0.00000009",
+    "input_cache_read": "0.000000009",
+    "prompt": "0.000000018"
    },
    "reasoning": {
     "default_effort": "medium",
@@ -37608,9 +37931,9 @@
    "name": "Qwen: Qwen3.5-9B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000208",
-    "input_cache_read": "0.000000127",
-    "prompt": "0.000000141"
+    "completion": "0.00000025",
+    "input_cache_read": "0.000000153",
+    "prompt": "0.00000017"
    },
    "reasoning": {
     "mandatory": false
@@ -41117,8 +41440,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -41135,7 +41458,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -41484,8 +41807,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -41502,7 +41825,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -47422,9 +47745,9 @@
    "name": "Z.ai: GLM 5.3 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000000784",
+    "completion": "0.0000005",
     "input_cache_read": "0.00000003",
-    "prompt": "0.0000000399"
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "max",
@@ -47461,9 +47784,9 @@
    ],
    "supported_voices": null,
    "top_provider": {
-    "context_length": 1048576,
+    "context_length": 1048575,
     "is_moderated": false,
-    "max_completion_tokens": 131072
+    "max_completion_tokens": 943717
    }
   },
   {
@@ -49810,5 +50133,5 @@
  "links": {
   "next": null
  },
- "total_count": 470
+ "total_count": 474
 }
