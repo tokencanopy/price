@@ -16036,9 +16036,9 @@
    "name": "Google: Gemma 4 26B A4B ",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000255",
-    "input_cache_read": "0.0000000425",
-    "prompt": "0.0000000765"
+    "completion": "0.0000003",
+    "input_cache_read": "0.00000005",
+    "prompt": "0.00000009"
    },
    "reasoning": {
     "default_enabled": false,
@@ -20390,8 +20390,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000003",
-    "input_cache_read": "0.0000000075",
+    "completion": "0.0000006",
+    "input_cache_read": "0.000000015",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -20408,7 +20408,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.000000075"
+    "prompt": "0.00000015"
    },
    "reasoning": {
     "default_effort": "max",
@@ -23861,8 +23861,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000016",
-    "input_cache_read": "0.00000019",
-    "prompt": "0.0000002"
+    "input_cache_read": "0.000000182",
+    "prompt": "0.000000192"
    },
    "reasoning": {
     "default_effort": "max",
@@ -36029,7 +36029,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 1050000,
-    "is_moderated": true,
+    "is_moderated": false,
     "max_completion_tokens": 128000
    }
   },
@@ -39664,8 +39664,11 @@
     "prompt": "0.00000015"
    },
    "supported_parameters": [
+    "frequency_penalty",
     "max_tokens",
+    "response_format",
     "stop",
+    "structured_outputs",
     "temperature",
     "tool_choice",
     "tools",
@@ -40671,9 +40674,9 @@
    "name": "Qwen: Qwen3.5-9B",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000058",
-    "input_cache_read": "0.000000036",
-    "prompt": "0.00000004"
+    "completion": "0.00000025",
+    "input_cache_read": "0.000000153",
+    "prompt": "0.00000017"
    },
    "reasoning": {
     "mandatory": false
@@ -52702,9 +52705,9 @@
    "name": "MoonshotAI: Kimi Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000106066",
-    "input_cache_read": "0.00000019",
-    "prompt": "0.00000019"
+    "completion": "0.0000110055",
+    "input_cache_read": "0.00000018",
+    "prompt": "0.0000001824"
    },
    "reasoning": {
     "default_effort": "max",
