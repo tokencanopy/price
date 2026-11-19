@@ -9075,9 +9075,9 @@
    "name": "DeepSeek: DeepSeek V4 Pro 0813",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000444",
-    "input_cache_read": "0.000000097",
-    "prompt": "0.000000111"
+    "completion": "0.0000055",
+    "input_cache_read": "0.00000011",
+    "prompt": "0.00000013"
    },
    "reasoning": {
     "default_effort": "high",
@@ -9170,9 +9170,9 @@
    "name": "DeepSeek: DeepSeek V4.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000012",
-    "input_cache_read": "0.000000006",
-    "prompt": "0.0000003"
+    "completion": "0.0000002028",
+    "input_cache_read": "0.000000001014",
+    "prompt": "0.0000000507"
    },
    "reasoning": {
     "default_effort": "high",
@@ -9213,7 +9213,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 943718
+    "max_completion_tokens": 393216
    }
   },
   {
@@ -20415,8 +20415,8 @@
    "name": "MiniMax: MiniMax M3.1 Flash",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.0000006",
-    "input_cache_read": "0.000000015",
+    "completion": "0.0000003",
+    "input_cache_read": "0.0000000075",
     "overrides": [
      {
       "completion": "0.0000003",
@@ -20433,7 +20433,7 @@
       "utc_start": 100
      }
     ],
-    "prompt": "0.00000015"
+    "prompt": "0.000000075"
    },
    "reasoning": {
     "default_effort": "max",
@@ -23649,7 +23649,7 @@
    "pricing": {
     "completion": "0.0000035",
     "input_cache_read": "0.00000016",
-    "prompt": "0.00000066"
+    "prompt": "0.00000065"
    },
    "reasoning": {
     "default_enabled": true,
@@ -35786,7 +35786,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 1050000,
-    "is_moderated": false,
+    "is_moderated": true,
     "max_completion_tokens": 128000
    }
   },
@@ -37314,7 +37314,7 @@
    "top_provider": {
     "context_length": null,
     "is_moderated": false,
-    "max_completion_tokens": 64000
+    "max_completion_tokens": 128000
    }
   },
   {
@@ -37388,7 +37388,7 @@
    "top_provider": {
     "context_length": null,
     "is_moderated": false,
-    "max_completion_tokens": 64000
+    "max_completion_tokens": 128000
    }
   },
   {
@@ -40396,7 +40396,6 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.00000025",
-    "input_cache_read": "0.000000153",
     "prompt": "0.00000017"
    },
    "reasoning": {
@@ -40428,7 +40427,7 @@
    "top_provider": {
     "context_length": 262144,
     "is_moderated": false,
-    "max_completion_tokens": 40960
+    "max_completion_tokens": 235929
    }
   },
   {
@@ -44052,8 +44051,8 @@
    "name": "Tencent: Hy3",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000000528",
-    "input_cache_read": "0.000000033",
+    "completion": "0.00000033",
+    "input_cache_read": "0.000000020625",
     "overrides": [
      {
       "completion": "0.00000033",
@@ -44070,7 +44069,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000132"
+    "prompt": "0.0000000825"
    },
    "reasoning": {
     "default_effort": "high",
@@ -44460,8 +44459,8 @@
    "name": "Tencent: Hy4 preview",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.000002501",
-    "input_cache_read": "0.000000042",
+    "completion": "0.0000022509",
+    "input_cache_read": "0.0000000378",
     "overrides": [
      {
       "completion": "0.0000022509",
@@ -44478,7 +44477,7 @@
       "utc_start": 0
      }
     ],
-    "prompt": "0.000000834"
+    "prompt": "0.0000007506"
    },
    "reasoning": {
     "default_effort": "high",
@@ -44974,98 +44973,6 @@
   {
    "architecture": {
     "input_modalities": [
-     "image",
-     "text"
-    ],
-    "instruct_type": null,
-    "modality": "text+image->text",
-    "output_modalities": [
-     "text"
-    ],
-    "tokenizer": "Other"
-   },
-   "benchmarks": {
-    "artificial_analysis": {
-     "agentic_index": null,
-     "coding_index": null,
-     "cyber_index": null,
-     "decision_index": null,
-     "economics_index": 43.4,
-     "engineering_index": 38.9,
-     "finance_and_accounting_index": 44.3,
-     "healthcare_and_medical_index": 40.8,
-     "intelligence_index": 30.6,
-     "legal_index": 41.6,
-     "multilingual_index": null,
-     "openness_index": 38.9,
-     "strategy_and_ops_index": 43.5
-    },
-    "design_arena": []
-   },
-   "canonical_slug": "thinkingmachines/inkling-2-small-20261107",
-   "context_length": 1048576,
-   "created": 1794261847,
-   "default_parameters": {
-    "frequency_penalty": null,
-    "presence_penalty": null,
-    "repetition_penalty": null,
-    "temperature": null,
-    "top_k": null,
-    "top_p": null
-   },
-   "description": "Inkling 2 Small is an open-weight multimodal mixture-of-experts reasoning model from Thinking Machines Lab, with 17B active parameters out of 594B total. It is the first model in the second...",
-   "endpoints": [
-    "/api/v1/chat/completions",
-    "/api/v1/completions",
-    "/api/v1/messages",
-    "/api/v1/responses"
-   ],
-   "expiration_date": "2026-11-19",
-   "hugging_face_id": "thinkingmachines/Inkling-2-Small",
-   "id": "thinkingmachines/inkling-2-small:free",
-   "knowledge_cutoff": null,
-   "links": {
-    "details": "/api/v1/models/thinkingmachines/inkling-2-small-20261107/endpoints"
-   },
-   "name": "Thinking Machines: Inkling 2 Small (free)",
-   "per_request_limits": null,
-   "pricing": {
-    "completion": "0",
-    "prompt": "0"
-   },
-   "reasoning": {
-    "default_effort": "high",
-    "default_enabled": true,
-    "mandatory": true,
-    "supported_efforts": [
-     "high",
-     "low",
-     "max",
-     "medium",
-     "minimal"
-    ]
-   },
-   "supported_parameters": [
-    "include_reasoning",
-    "max_tokens",
-    "reasoning",
-    "reasoning_effort",
-    "seed",
-    "stop",
-    "temperature",
-    "tools",
-    "top_p"
-   ],
-   "supported_voices": null,
-   "top_provider": {
-    "context_length": 1048576,
-    "is_moderated": false,
-    "max_completion_tokens": 131072
-   }
-  },
-  {
-   "architecture": {
-    "input_modalities": [
      "audio",
      "image",
      "text"
@@ -45334,7 +45241,7 @@
    "top_provider": {
     "context_length": null,
     "is_moderated": false,
-    "max_completion_tokens": 64000
+    "max_completion_tokens": 128000
    }
   },
   {
@@ -51902,9 +51809,9 @@
    "name": "DeepSeek: DeepSeek Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000015",
-    "input_cache_read": "0.0000000015",
-    "prompt": "0.000000035"
+    "completion": "0.0000005",
+    "input_cache_read": "0.00000001",
+    "prompt": "0.000000036"
    },
    "reasoning": {
     "default_effort": "high",
@@ -51989,8 +51896,8 @@
    "per_request_limits": null,
    "pricing": {
     "completion": "0.000008",
-    "input_cache_read": "0.0000000999",
-    "prompt": "0.0000000999"
+    "input_cache_read": "0.00000012",
+    "prompt": "0.000000117"
    },
    "reasoning": {
     "default_effort": "high",
@@ -52068,9 +51975,9 @@
    "name": "DeepSeek: DeepSeek V4 Flash Latest",
    "per_request_limits": null,
    "pricing": {
-    "completion": "0.00000018",
-    "input_cache_read": "0.000000015",
-    "prompt": "0.00000006"
+    "completion": "0.00000013992",
+    "input_cache_read": "0.000000001484",
+    "prompt": "0.00000004664"
    },
    "reasoning": {
     "default_effort": "high",
@@ -52111,7 +52018,7 @@
    "top_provider": {
     "context_length": 1048576,
     "is_moderated": false,
-    "max_completion_tokens": 384000
+    "max_completion_tokens": 131072
    }
   },
   {
@@ -52339,7 +52246,7 @@
    "pricing": {
     "completion": "0.0000110055",
     "input_cache_read": "0.00000018",
-    "prompt": "0.0000001824"
+    "prompt": "0.0000001805"
    },
    "reasoning": {
     "default_effort": "max",
@@ -52557,7 +52464,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 1050000,
-    "is_moderated": true,
+    "is_moderated": false,
     "max_completion_tokens": 128000
    }
   },
@@ -52961,7 +52868,7 @@
    "supported_voices": null,
    "top_provider": {
     "context_length": 500000,
-    "is_moderated": true,
+    "is_moderated": false,
     "max_completion_tokens": 450000
    }
   },
@@ -53139,5 +53046,5 @@
  "links": {
   "next": null
  },
- "total_count": 480
+ "total_count": 479
 }
