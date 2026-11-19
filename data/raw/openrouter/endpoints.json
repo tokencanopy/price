@@ -8993,7 +8993,7 @@
       "completion": "0.0000003",
       "discount": 0,
       "input_cache_read": "0.000000035",
-      "prompt": "0.000000047"
+      "prompt": "0.000000062"
      },
      "provider_name": "Wafer",
      "quantization": "nvfp4",
@@ -12746,10 +12746,10 @@
      "name": "OpenInference | deepseek/deepseek-v4.1-flash-20260910",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.0000009",
       "discount": 0,
-      "input_cache_read": "0.000000005",
-      "prompt": "0.00000009"
+      "input_cache_read": "0.000000002",
+      "prompt": "0.00000006"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -14215,10 +14215,10 @@
      "name": "DekaLLM | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000068",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.000000006",
-      "prompt": "0.00000018"
+      "input_cache_read": "0.000000003",
+      "prompt": "0.0000001"
      },
      "provider_name": "DekaLLM",
      "quantization": "unknown",
@@ -14503,10 +14503,10 @@
      "name": "Inceptron | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.0000008",
       "discount": 0,
       "input_cache_read": "0.000000006",
-      "prompt": "0.0000003"
+      "prompt": "0.00000018"
      },
      "provider_name": "Inceptron",
      "quantization": "fp4",
@@ -14703,10 +14703,10 @@
      "name": "Makora | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000004",
+      "completion": "0.0000008",
       "discount": 0,
       "input_cache_read": "0.000000006",
-      "prompt": "0.00000012"
+      "prompt": "0.00000015"
      },
      "provider_name": "Makora",
      "quantization": "fp8",
@@ -15136,10 +15136,10 @@
      "name": "OpenInference | deepseek/deepseek-v4.1-flash-20261017",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000012",
+      "completion": "0.0000009",
       "discount": 0,
-      "input_cache_read": "0.000000005",
-      "prompt": "0.00000009"
+      "input_cache_read": "0.000000002",
+      "prompt": "0.00000006"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
@@ -15867,8 +15867,8 @@
      "pricing": {
       "completion": "0.0000005",
       "discount": 0,
-      "input_cache_read": "0.0000000065",
-      "prompt": "0.000000066"
+      "input_cache_read": "0.0000000079",
+      "prompt": "0.000000079"
      },
      "provider_name": "Wafer",
      "quantization": "mxfp4",
@@ -23044,10 +23044,10 @@
      "name": "NextBit | google/gemma-4-26b-a4b-it-20260403",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000255",
-      "discount": 0.15,
-      "input_cache_read": "0.0000000425",
-      "prompt": "0.0000000765"
+      "completion": "0.0000003",
+      "discount": 0,
+      "input_cache_read": "0.00000005",
+      "prompt": "0.00000009"
      },
      "provider_name": "NextBit",
      "quantization": "bf16",
@@ -23187,10 +23187,10 @@
      "name": "PrimeIntellect | google/gemma-4-26b-a4b-it-20260403",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000272",
+      "completion": "0.000000216",
       "discount": 0,
-      "input_cache_read": "0.000000045",
-      "prompt": "0.000000091"
+      "input_cache_read": "0.000000036",
+      "prompt": "0.000000072"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "bf16",
@@ -28097,6 +28097,50 @@
      "tag": "deepinfra/fp8"
     },
     {
+     "context_length": 262144,
+     "max_completion_tokens": 32768,
+     "max_prompt_tokens": null,
+     "model_id": "minimax/minimax-m3",
+     "model_name": "MiniMax: MiniMax M3",
+     "name": "Featherless | minimax/minimax-m3-20260531",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.0000022",
+      "discount": 0,
+      "input_cache_read": "0.00000006",
+      "prompt": "0.00000055"
+     },
+     "provider_name": "Featherless",
+     "quantization": "fp8",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "min_p",
+      "presence_penalty",
+      "reasoning",
+      "repetition_penalty",
+      "seed",
+      "stop",
+      "temperature",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "featherless/fp8"
+    },
+    {
      "context_length": 1048576,
      "max_completion_tokens": 524288,
      "max_prompt_tokens": null,
@@ -28684,9 +28728,9 @@
      "name": "Minimax | minimax/minimax-m3.1-flash-20261019",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000003",
+      "completion": "0.0000006",
       "discount": 0,
-      "input_cache_read": "0.0000000075",
+      "input_cache_read": "0.000000015",
       "overrides": [
        {
         "completion": "0.0000003",
@@ -28703,7 +28747,7 @@
         "utc_start": 100
        }
       ],
-      "prompt": "0.000000075"
+      "prompt": "0.00000015"
      },
      "provider_name": "Minimax",
      "quantization": "unknown",
@@ -28886,10 +28930,10 @@
      "name": "SambaNova | minimax/minimax-m3.1-flash-20261019",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000024",
-      "discount": 0.8,
-      "input_cache_read": "0.000000006",
-      "prompt": "0.00000006"
+      "completion": "0.0000006",
+      "discount": 0.5,
+      "input_cache_read": "0.000000015",
+      "prompt": "0.00000015"
      },
      "provider_name": "SambaNova",
      "quantization": "unknown",
@@ -32336,10 +32380,10 @@
      "name": "Inceptron | moonshotai/kimi-k2.6-20260420",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000036",
+      "completion": "0.0000027",
       "discount": 0,
       "input_cache_read": "0.00000019",
-      "prompt": "0.0000006825"
+      "prompt": "0.000000585"
      },
      "provider_name": "Inceptron",
      "quantization": "int4",
@@ -32874,7 +32918,7 @@
       "completion": "0.0000035",
       "discount": 0,
       "input_cache_read": "0.00000016",
-      "prompt": "0.0000006"
+      "prompt": "0.00000066"
      },
      "provider_name": "Inceptron",
      "quantization": "int4",
@@ -33672,8 +33716,8 @@
      "pricing": {
       "completion": "0.000015",
       "discount": 0,
-      "input_cache_read": "0.000000204",
-      "prompt": "0.000000234"
+      "input_cache_read": "0.000000214",
+      "prompt": "0.000000245"
      },
      "provider_name": "InferenceNet",
      "quantization": "fp4",
@@ -33722,8 +33766,8 @@
      "pricing": {
       "completion": "0.000015",
       "discount": 0,
-      "input_cache_read": "0.000000204",
-      "prompt": "0.000000234"
+      "input_cache_read": "0.000000214",
+      "prompt": "0.000000245"
      },
      "provider_name": "InferenceNet",
      "quantization": "fp4",
@@ -34336,6 +34380,53 @@
      },
      "supports_voice_cloning": false,
      "tag": "river"
+    },
+    {
+     "context_length": 1048576,
+     "max_completion_tokens": 943718,
+     "max_prompt_tokens": null,
+     "model_id": "moonshotai/kimi-k3",
+     "model_name": "MoonshotAI: Kimi K3",
+     "name": "Sail Research | moonshotai/kimi-k3-20260715",
+     "native_tools": {},
+     "pricing": {
+      "completion": "0.00001658",
+      "discount": 0,
+      "input_cache_read": "0.0000001725",
+      "prompt": "0.000000345"
+     },
+     "provider_name": "Sail Research",
+     "quantization": "fp4",
+     "service_tier": null,
+     "supported_parameters": [
+      "frequency_penalty",
+      "include_reasoning",
+      "max_tokens",
+      "presence_penalty",
+      "reasoning",
+      "reasoning_effort",
+      "response_format",
+      "seed",
+      "stop",
+      "structured_outputs",
+      "temperature",
+      "tool_choice",
+      "tools",
+      "top_k",
+      "top_p"
+     ],
+     "supports_diarization": false,
+     "supports_image_reference": false,
+     "supports_implicit_caching": true,
+     "supports_multiple_audio_references": false,
+     "supports_tool_choice": {
+      "auto": true,
+      "function": true,
+      "none": true,
+      "required": true
+     },
+     "supports_voice_cloning": false,
+     "tag": "sail-research/fp4"
     },
     {
      "context_length": 1048576,
@@ -35332,7 +35423,7 @@
      "name": "Morph | moonshotai/kimi-k3.1-pro-20261023",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000016662",
+      "completion": "0.000016666",
       "discount": 0,
       "input_cache_read": "0.000000353",
       "prompt": "0.000001111"
@@ -37485,10 +37576,10 @@
      "name": "Io Net | nvidia/nemotron-3.5-super-vl-20261015",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000183",
+      "completion": "0.0000023",
       "discount": 0,
-      "input_cache_read": "0.000000132",
-      "prompt": "0.00000059"
+      "input_cache_read": "0.000000165",
+      "prompt": "0.00000075"
      },
      "provider_name": "Io Net",
      "quantization": "nvfp4",
@@ -49261,10 +49352,10 @@
      "name": "PrimeIntellect | openai/gpt-oss-20b",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000003",
+      "completion": "0.000000278",
       "discount": 0,
-      "input_cache_read": "0.00000018",
-      "prompt": "0.0000002"
+      "input_cache_read": "0.000000167",
+      "prompt": "0.000000186"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "fp4",
@@ -54357,10 +54448,10 @@
      "name": "PrimeIntellect | qwen/qwen3.5-9b-20260310",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000021",
+      "completion": "0.00000025",
       "discount": 0,
-      "input_cache_read": "0.000000128",
-      "prompt": "0.000000142"
+      "input_cache_read": "0.000000153",
+      "prompt": "0.00000017"
      },
      "provider_name": "PrimeIntellect",
      "quantization": "bf16",
@@ -67391,10 +67482,10 @@
      "name": "Relace | z-ai/glm-5.2-20260616",
      "native_tools": {},
      "pricing": {
-      "completion": "0.0000079833",
+      "completion": "0.0000024",
       "discount": 0,
-      "input_cache_read": "0.0000000066",
-      "prompt": "0.0000000066"
+      "input_cache_read": "0.000000075",
+      "prompt": "0.00000031"
      },
      "provider_name": "Relace",
      "quantization": "fp4",
@@ -68646,11 +68737,11 @@
      "pricing": {
       "completion": "0.0000044",
       "discount": 0,
-      "input_cache_read": "0.00000028",
+      "input_cache_read": "0.00000014",
       "prompt": "0.0000014"
      },
      "provider_name": "Doubleword",
-     "quantization": "unknown",
+     "quantization": "nvfp4",
      "service_tier": null,
      "supported_parameters": [
       "frequency_penalty",
@@ -68683,7 +68774,7 @@
       "required": true
      },
      "supports_voice_cloning": false,
-     "tag": "doubleword"
+     "tag": "doubleword/nvfp4"
     },
     {
      "context_length": 262144,
@@ -68983,9 +69074,9 @@
      "name": "Inceptron | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000408",
+      "completion": "0.0000034",
       "discount": 0,
-      "input_cache_read": "0.0000001469",
+      "input_cache_read": "0.0000001249",
       "prompt": "0.00000105"
      },
      "provider_name": "Inceptron",
@@ -69369,10 +69460,10 @@
      "name": "Morph | z-ai/glm-5.3-20260816",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000004494",
+      "completion": "0.000003915",
       "discount": 0,
-      "input_cache_read": "0.000000195",
-      "prompt": "0.000000963"
+      "input_cache_read": "0.00000017",
+      "prompt": "0.000000839"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -70790,10 +70881,10 @@
      "name": "Inceptron | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000049",
+      "completion": "0.0000005",
       "discount": 0,
-      "input_cache_read": "0.00000004",
-      "prompt": "0.00000016"
+      "input_cache_read": "0.00000003",
+      "prompt": "0.00000015"
      },
      "provider_name": "Inceptron",
      "quantization": "fp8",
@@ -71133,10 +71224,10 @@
      "name": "Morph | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.000000245",
+      "completion": "0.000000298",
       "discount": 0,
-      "input_cache_read": "0.000000042",
-      "prompt": "0.000000085"
+      "input_cache_read": "0.000000052",
+      "prompt": "0.000000103"
      },
      "provider_name": "Morph",
      "quantization": "fp8",
@@ -71333,10 +71424,10 @@
      "name": "OpenInference | z-ai/glm-5.3-flash-20260826",
      "native_tools": {},
      "pricing": {
-      "completion": "0.00000075",
+      "completion": "0.00000045",
       "discount": 0,
-      "input_cache_read": "0.00000003",
-      "prompt": "0.00000006"
+      "input_cache_read": "0.000000025",
+      "prompt": "0.00000005"
      },
      "provider_name": "OpenInference",
      "quantization": "fp4",
